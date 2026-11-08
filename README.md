@@ -28,3 +28,9 @@ only when the text differs from the English original (the omitted originals are 
 which the loader ignores); placeholders (`${...}`, `{0}`, `{n,choice,...}`) and number patterns are copied unchanged;
 and the localized value is at most 255 characters (`LocalizedMessage.original` holds at most 255 too). Longer texts
 stay in English; they are listed in [docs/Strings-Left-In-English.md](docs/Strings-Left-In-English.md).
+
+## License and Contributing
+
+[CC0 1.0 Universal with a Grant of Patent License](LICENSE.md). To contribute code, sign
+[AUTHORS.md](AUTHORS.md) in a commit from the account that submits the pull request; its Contributing
+section has the details.
