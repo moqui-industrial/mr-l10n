@@ -1,0 +1,153 @@
+# Messages the same in Spanish: the catalog has no row for them (a missing row returns the original), and they are
+# still message keys for the other catalogs.
+${assigneeName}${isMine ? ' (' + ec.l10n.localize('you') + ')' : ''}
+${book.groupRows.length ? book.groupRows.map((group) => group.groupName).join(', ') : 'No groups'}
+${canAdmin ? 'Settings' : 'Details'}
+${chip.label}${chip.count ? ' · ' + chip.count : ''}
+${ec.l10n.format(viewedDate, 'MMM d h:mm a')}
+${ec.l10n.localize('Edit')} ${book.contactBookName}
+${ec.l10n.localize('Edit')} ${calendar.calendarName}
+${estimatedText || remainingText ? (estimatedText || '0') + ' / ' + (remainingText || '0') : ''}
+${event.location || 'No place set'}
+${event.recurrenceText || 'Does not repeat'}
+${file.whenText ? ' · ' + file.whenText : ''}${file.byName ? ' · ' + file.byName : ''}
+${filtered ? 'No notifications match' : 'You are caught up'}
+${filtered ? 'No pairs match' : 'No duplicates found · Run the scan to check again'}
+${folderTitle || ec.l10n.localize('Folder')}
+${hasAttendees || isRecurring ? 'Cancel event' : 'Delete'}
+${hasPhoto ? 'Change photo' : 'Add a photo'}
+${hasRecord ? 'A note on ' + recordLabel + ', with its other notes and messages.' : 'Saved in your notes, which only you see.'}
+${isUpdates ? 'Updates' : 'Notifications'}
+${name}${isMe ? ' (' + ec.l10n.localize('you') + ')' : ''}
+${name}${isMe ? ' (you)' : ''}
+${optional ? 'Make required' : 'Make optional'}
+${pagePath || 'Home'}
+${parseError || 'Start with the file.'}
+${pendingInvites ? 'Send invitations (' + pendingInvites + ')' : 'Send again'}
+${pendingInvites ? pendingInvites + ' of the attendees have not had the latest: they get an invitation or an update, the others nothing.' : 'Everyone has the latest invitation. Send it to everyone again?'}
+${previewError || 'Start with the file.'}
+${ready ? planText : 'Choose the options first.'}
+${resource.typeLabel}${resource.site ? ' · ' + resource.site : ''}
+${result.entityTypeName}${result.code ? ' ' + result.code : ''}${result.category ? ' · ' + result.category : ''}
+${rowCount} ${rowCount == 1 ? 'contact' : 'contacts'}
+${sentText ? ec.l10n.localize('Last sent') + ' ' + sentText : ''}
+${shortVersionName}${baseVersionName ? ' (published ' + (String(baseVersionName).length > 12 ? String(baseVersionName).substring(0, 10) : baseVersionName) + ')' : ''}
+${space.restrictView == 'Y' ? 'Only its members read this space' : 'Everyone reads this space'}; ${space.restrictUpdate == 'Y' ? 'members who may edit write in it' : 'everyone who reads it may edit'}.
+${status == 'any' ? 'Only open ones' : 'Decided ones too'}
+Agenda
+Android
+Esc
+Mac
+Q
+Roles
+Thunderbird
+UTF-16
+Windows
+${filtered ? 'No contacts match' : 'No consent recorded yet · Record consent, or subscribe contacts to a list'}
+${(isEstimate ? ec.l10n.localize('The estimate') + ' · ' : '') + ec.l10n.localize('asked') + ' ' + requestedText}
+${[description, eventsText, active == 'Y' ? '' : 'inactive', hasSecret ? 'signed' : ''].filter((part) => part).join(' · ')}
+${[description, kindLabel, branch, archived ? 'archived' : ''].filter((part) => part).join(' · ')}
+${[repositoryId, sourceRef + ' → ' + targetRef, authorName, isDraft ? 'draft' : '', reviewersText ? 'reviewers: ' + reviewersText : '', updatedText].filter((part) => part).join(' · ')}
+${[whenText, atText ? ec.l10n.localize('at') + ' ' + atText : ''].filter((part) => part).join(' · ')}
+${afterCommitId ? 'No older commits' : 'No commits yet'}
+${amountsShown ? 'Billable value' : ''}
+${assigneeName || ec.l10n.localize('Unassigned')}${isMine ? ' (' + ec.l10n.localize('you') + ')' : ''}
+${branchText}${conflict ? ' · ' + ec.l10n.localize('Conflicts') : ''}
+${breakdownHours ? 'Actual + remaining' : ''}
+${breakdownHours ? 'Estimate' : ''}
+${breakText ? breakText + ' break' : ''}
+${burndownNote || 'No sprint to show.'}
+${canApproveAllocation ? 'Allocate' : 'Request'}
+${checkContext}${required ? ' · ' + ec.l10n.localize('required') : ''}
+${clientUser ? '' : 'Actual (h)'}
+${clientUser ? '' : ec.l10n.localize('Act')}
+${clientUser ? 'Archived: read only.' : 'Archived: read only. Pushes, merges and changes are refused; its maintainers may unarchive it in Settings.'}
+${clientUser ? 'HTTPS, with your user name and password (read only)' : 'HTTPS, with your user name and an access token as the password'}
+${clientUser ? 'No work item' : 'No work item. A key in the branch name, the title or the description links one; Closes IRON-12 completes it on merge.'}
+${clientUser ? 'No work item' : 'No work item. A key in the message (IRON-12) or a Task: trailer links one.'}
+${clientUser ? 'This repository is empty.' : 'This repository is empty. Clone it and push a first branch, or commit files to it through Moqui.'}
+${decidedBy}${decisionComments ? ': ' + decisionComments : ''}
+${description || 'SSH key'}
+${diff.changeLabel} · +${diff.insertions} −${diff.deletions}${diff.binary ? ' · a binary file' : ''}${diff.tooLarge ? ' · too large to show' : ''}
+${draftProject ? 'New project: ' + (draftProject.workEffortName || workEffortId) : 'New project'}
+${dueText ? 'Due ' + dueText : ''}
+${dueText ? ec.l10n.localize('due') + ' ' + dueText : ''}
+${ec.l10n.localize('Edit')} ${milestone.workEffortName}
+${ec.l10n.localize('Edit')} ${mr.numText}
+${ec.l10n.localize('Edit')} ${release.workEffortName}
+${ec.l10n.localize('Edit')} ${sprint.workEffortName}
+${ec.l10n.localize('Invoice')} ${invoiceId}
+${edit.isNew ? 'Log time' : 'Save'}
+${edit.personName} · ${edit.dateText} · ${edit.hoursText} h · ${edit.itemText}
+${extras.lineOptions.length ? 'No share of the order: reaching this milestone bills nothing by itself.' : 'The project has no order line: link one on its Money tab to bill by milestones.'}
+${fromName} · ${whenText}${waiting ? ' · ' + ec.l10n.localize('waiting for your reply') : ''}
+${hasClient ? 'No order line: a project billed by milestones takes its shares of the sales order line it fulfils.' : 'Choose the client (Start) to link its sales order line.'}
+${header.statusId == 'WeInPlanning' || header.statusId == 'WeApproved' ? 'Begin' : 'Resume'}
+${hoursText} h
+${isAdmin ? 'Project (optional for administrators)' : 'Project'}
+${isManager ? 'You manage no open project' : 'You are on no open project'}
+${isPlanned ? 'Changes after the start show here.' : 'No changes since the start.'}
+${item.hoursText} h
+${listLabel} · ${entryRowsCount} ${entryRowsCount == 1 ? 'entry' : 'entries'}
+${listLabel}${filtered ? ' · ' + ec.l10n.localize('as found') : ''}
+${makes == 'workItems' ? ec.l10n.localize('Work items') : ec.l10n.localize('Requests')}${ruleCount ? '' : ' · ' + ec.l10n.localize('no rule')}
+${mergeRequest ? 'Compare' : 'New merge request'}
+${milestone.estimateUnit == 'points' ? 'Points done' : 'Hours done'}
+${milestone.rowList.length ? 'No work items in this state.' : 'No work items in this milestone yet: add them here, or set the milestone on a work item.'}
+${money.clientName ? 'Billed to ' + money.clientName : 'No client: nothing is billed'}
+${moneyShown ? 'Budget used' : ''}
+${moneyShown ? 'Client budget' : ''}
+${mr.isDraft ? 'A draft: the team is still working on it.' : 'Open: the team reviews it before it merges.'}
+${mr.isOpen ? 'Merge' : mr.statusId == 'GmrMerged' ? 'Merged' : 'Closed'}
+${notAvailable || 'This project is not available.'}
+${notFoundText || 'Choose a project to see its progress.'}
+${parentList.length > 1 ? 'Parents' : parentList.length ? 'Parent' : 'No parent: the first commit'}
+${parentWorkEffortId ? parentWorkEffortId + ' ' + parentName : ''}
+${person.hoursText} h
+${projectTime.hoursText} h
+${reachedText ? 'Reached ' + reachedText : ''}
+${readyCount ? readyHoursText + ' h' : ''}
+${requestedBy}${requestComments ? ': ' + requestComments : ''}
+${resolved ? 'Reopen' : 'Resolve'}
+${reviewedByName ? ec.l10n.localize('by') + ' ' + reviewedByName : ''}${reviewComments ? ': ' + reviewComments : ''}
+${sourceText}${linkedText ? ' · ' + linkedText : ''}
+${sprint.unitLabel == 'h' ? 'Est. (h)' : 'Points'}
+${statusColor || ec.l10n.localize('(by its name)')}
+${statusId == 'SmsgSent' ? 'Delivered' : statusId == 'SmsgError' ? 'Given up' : statusId == 'SmsgCancelled' ? 'Cancelled' : 'Retrying'} ${httpStatus}
+${storageText || 'Not collected yet'}
+${type.hoursText} h
+git clone ${httpsUrl}
+git clone ${sampleHttpsUrl || 'https://this-server/git/repository.git'}
+git clone ${sampleSshUrl || 'ssh://' + username + '@this-server/repository.git'}
+git clone ${sshUrl}
+git push ${httpsUrl} main
+Ideal
+Redmine CSV
+Rust
+URL (https://ci.example.com/hook)
+${caseLocked == 'locked' ? 'This request is a support case: it is resolved or cancelled in Customer Service.' : 'This request is a support case: resolving or cancelling it here records it on the case.'}
+${ec.l10n.localize('Edit')} ${record.name}
+${ec.l10n.localize('Edit')} ${task.workEffortName}
+${ec.l10n.localize('Edit')} ${workEffortId}
+${ec.l10n.localize('Order')} ${orderId}
+${evidenceText || ''}${comments ? ' · ' + comments : ''}
+${inv.sendAgain ? 'Send again' : 'Send'}
+${mergedToPartyId ? 'This contact was merged into another one.' : 'This contact was deleted.'}
+${productionTask.productionWork ? 'This is an operation of a work order, not a follow-up task; open it in Work orders.' : 'Task ' + workEffortId + ' is not available in Manufacturing: it is not a follow-up task of a maintenance request of your plants.'}
+${projects ? 'Back to Work items' : 'Back to Tasks'}
+${projects ? 'Start timer' : 'Clock in'}
+${projects ? 'Stop timer' : 'Clock out'}
+${projects ? 'Timer running since' : 'Clocked in since'} ${openTimeEntry.dateText} ${openTimeEntry.fromText}
+${projects ? 'Your timer runs on ' : 'You are clocked in on '}
+${projectText ? ec.l10n.localize('Project') + ': ' + projectText : ''}
+${purpose.description || 'No purpose'}
+${record.hasFaceImage ? 'Change photo' : 'Add a photo'}
+${record.hasFaceImage ? 'New photo' : 'Photo'}
+${record.isOrganization ? 'Organization' : 'Name'}
+${recurrence ? 'Repeat rule' : 'Repeat'}
+${repositoryId} · ${sourceRef} → ${targetRef}${completeOnMerge ? ' · ' + ec.l10n.localize('completes this item on merge') : ''}
+${repositoryId}${refText ? ' · ' + refText : ''} · ${linkedBy}
+${repositoryId}${summary ? ' · ' + summary : ''}
+${request.requestResolutionEnumId != 'RrUnresolved' ? (request.resolutionLabel || '—') : '—'}
+${sharedText}${billedText ? ' · ' + billedText : ''}
+Fax

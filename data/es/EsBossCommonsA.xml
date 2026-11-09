@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="es">
+    <moqui.basic.LocalizedMessage original="${assignToPartyId} is not someone a request can be assigned to" locale="es" localized="${assignToPartyId} no es alguien a quien se pueda asignar una solicitud"/>
+    <moqui.basic.LocalizedMessage original="${assignToPartyId} is not someone a task can be assigned to" locale="es" localized="${assignToPartyId} no es alguien a quien se pueda asignar una tarea"/>
+    <moqui.basic.LocalizedMessage original="${draft.fileName}: ${presetLabel}, ${columnCount} columns, ${mappedCount} mapped. Choose what each column is; an empty one is left out." locale="es" localized="${draft.fileName}: ${presetLabel}, ${columnCount} columnas, ${mappedCount} mapeadas. Elija qué es cada columna; una vacía se omite."/>
+    <moqui.basic.LocalizedMessage original="${failure.label} items unavailable" locale="es" localized="${failure.label} elementos no disponibles"/>
+    <moqui.basic.LocalizedMessage original="${hiddenCount} more record folders are not listed: open them from their records or search in the browser." locale="es" localized="${hiddenCount} carpetas de registros más no se listan: ábralas desde sus registros o búsquelas en el navegador."/>
+    <moqui.basic.LocalizedMessage original="${resourceId} is not a room or equipment to book." locale="es" localized="${resourceId} no es una sala ni un equipo para reservar."/>
+    <moqui.basic.LocalizedMessage original="${shownCount} of ${rowCount} shown; narrow the list with the search or a letter." locale="es" localized="${shownCount} de ${rowCount} mostrados; reduzca la lista con la búsqueda o una letra."/>
+    <moqui.basic.LocalizedMessage original="${stripMore} more in Today" locale="es" localized="${stripMore} más en Hoy"/>
+    <moqui.basic.LocalizedMessage original="${total} results" locale="es" localized="${total} resultados"/>
+    <moqui.basic.LocalizedMessage original="(no name)" locale="es" localized="(sin nombre)"/>
+    <moqui.basic.LocalizedMessage original="1 (highest)" locale="es" localized="1 (la más alta)"/>
+    <moqui.basic.LocalizedMessage original="1 approval waiting" locale="es" localized="1 aprobación en espera"/>
+    <moqui.basic.LocalizedMessage original="1 day before" locale="es" localized="1 día antes"/>
+    <moqui.basic.LocalizedMessage original="1 hour before" locale="es" localized="1 hora antes"/>
+    <moqui.basic.LocalizedMessage original="1 page" locale="es" localized="1 página"/>
+    <moqui.basic.LocalizedMessage original="1 week before" locale="es" localized="1 semana antes"/>
+    <moqui.basic.LocalizedMessage original="10 min before" locale="es" localized="10 min antes"/>
+    <moqui.basic.LocalizedMessage original="10 minutes before" locale="es" localized="10 minutos antes"/>
+    <moqui.basic.LocalizedMessage original="10 seconds" locale="es" localized="10 segundos"/>
+    <moqui.basic.LocalizedMessage original="15 min before" locale="es" localized="15 min antes"/>
+    <moqui.basic.LocalizedMessage original="15 minutes" locale="es" localized="15 minutos"/>
+    <moqui.basic.LocalizedMessage original="15 minutes before" locale="es" localized="15 minutos antes"/>
+    <moqui.basic.LocalizedMessage original="1½ hours" locale="es" localized="1½ horas"/>
+    <moqui.basic.LocalizedMessage original="2 (high)" locale="es" localized="2 (alta)"/>
+    <moqui.basic.LocalizedMessage original="2 hours" locale="es" localized="2 horas"/>
+    <moqui.basic.LocalizedMessage original="2 hours before" locale="es" localized="2 horas antes"/>
+    <moqui.basic.LocalizedMessage original="20 seconds" locale="es" localized="20 segundos"/>
+    <moqui.basic.LocalizedMessage original="3 days" locale="es" localized="3 días"/>
+    <moqui.basic.LocalizedMessage original="3 to 8 letters and digits, starting with a letter: part of each page&apos;s address" locale="es" localized="De 3 a 8 letras y dígitos, empezando por una letra: parte de la dirección de cada página"/>
+    <moqui.basic.LocalizedMessage original="30 min before" locale="es" localized="30 min antes"/>
+    <moqui.basic.LocalizedMessage original="30 minutes before" locale="es" localized="30 minutos antes"/>
+    <moqui.basic.LocalizedMessage original="30 seconds" locale="es" localized="30 segundos"/>
+    <moqui.basic.LocalizedMessage original="45 minutes" locale="es" localized="45 minutos"/>
+    <moqui.basic.LocalizedMessage original="5 (normal)" locale="es" localized="5 (media)"/>
+    <moqui.basic.LocalizedMessage original="5 days" locale="es" localized="5 días"/>
+    <moqui.basic.LocalizedMessage original="5 min ago" locale="es" localized="hace 5 min"/>
+    <moqui.basic.LocalizedMessage original="5 min before" locale="es" localized="5 min antes"/>
+    <moqui.basic.LocalizedMessage original="5 minutes before" locale="es" localized="5 minutos antes"/>
+    <moqui.basic.LocalizedMessage original="5 seconds" locale="es" localized="5 segundos"/>
+    <moqui.basic.LocalizedMessage original="8 (low)" locale="es" localized="8 (baja)"/>
+    <moqui.basic.LocalizedMessage original="9 (lowest)" locale="es" localized="9 (la más baja)"/>
+    <moqui.basic.LocalizedMessage original="A booking ends after it starts" locale="es" localized="Una reserva debe terminar después de empezar"/>
+    <moqui.basic.LocalizedMessage original="A booking needs its start and end" locale="es" localized="Una reserva necesita su inicio y su fin"/>
+    <moqui.basic.LocalizedMessage original="A cancelled task is not done; open it again first" locale="es" localized="Una tarea cancelada no está hecha; ábrala de nuevo primero"/>
+    <moqui.basic.LocalizedMessage original="A changed repeat applies to the whole series." locale="es" localized="Un cambio de repetición se aplica a toda la serie."/>
+    <moqui.basic.LocalizedMessage original="A clone is kept in database files or a git repository" locale="es" localized="Un clon se guarda en archivos de la base de datos o en un repositorio git"/>
+    <moqui.basic.LocalizedMessage original="A copy needs a user with a party" locale="es" localized="Una copia necesita un usuario con un participante"/>
+    <moqui.basic.LocalizedMessage original="A default length is 15 minutes to 2 hours" locale="es" localized="Una duración predeterminada va de 15 minutos a 2 horas"/>
+    <moqui.basic.LocalizedMessage original="A directory contact cannot be related to one of your personal contacts" locale="es" localized="Un contacto del directorio no puede relacionarse con uno de sus contactos personales"/>
+    <moqui.basic.LocalizedMessage original="A directory contact cannot work for one of your personal contacts" locale="es" localized="Un contacto del directorio no puede trabajar para uno de sus contactos personales"/>
+    <moqui.basic.LocalizedMessage original="A directory contact is not merged into a personal contact: link the personal contact to the directory instead" locale="es" localized="Un contacto del directorio no se fusiona en un contacto personal: vincule el contacto personal al directorio"/>
+    <moqui.basic.LocalizedMessage original="A file needs a name" locale="es" localized="Un archivo necesita un nombre"/>
+    <moqui.basic.LocalizedMessage original="A folder" locale="es" localized="Una carpeta"/>
+    <moqui.basic.LocalizedMessage original="A folder for each drive you may open" locale="es" localized="Una carpeta por cada unidad que pueda abrir"/>
+    <moqui.basic.LocalizedMessage original="A git repository in the database: each save is a commit" locale="es" localized="Un repositorio git en la base de datos: cada guardado es una confirmación"/>
+    <moqui.basic.LocalizedMessage original="A git repository on the server&apos;s disk" locale="es" localized="Un repositorio git en el disco del servidor"/>
+    <moqui.basic.LocalizedMessage original="A member may read, edit or administer" locale="es" localized="Un miembro puede leer, editar o administrar"/>
+    <moqui.basic.LocalizedMessage original="A new access token" locale="es" localized="Un token de acceso nuevo"/>
+    <moqui.basic.LocalizedMessage original="A new event lasts" locale="es" localized="Un evento nuevo dura"/>
+    <moqui.basic.LocalizedMessage original="A note is not published" locale="es" localized="Una nota no se publica"/>
+    <moqui.basic.LocalizedMessage original="A note is not reviewed" locale="es" localized="Una nota no se revisa"/>
+    <moqui.basic.LocalizedMessage original="A note to the attendees" locale="es" localized="Una nota para los asistentes"/>
+    <moqui.basic.LocalizedMessage original="A page cannot move under itself" locale="es" localized="Una página no puede moverse bajo sí misma"/>
+    <moqui.basic.LocalizedMessage original="A page has 20 tags at most" locale="es" localized="Una página tiene 20 etiquetas como máximo"/>
+    <moqui.basic.LocalizedMessage original="A page is not copied under itself with the pages under it" locale="es" localized="Una página no se copia bajo sí misma con las páginas que contiene"/>
+    <moqui.basic.LocalizedMessage original="A page links to a task, an event or a request" locale="es" localized="Una página se vincula a una tarea, un evento o una solicitud"/>
+    <moqui.basic.LocalizedMessage original="A person and an organization cannot be merged" locale="es" localized="No se puede fusionar una persona y una organización"/>
+    <moqui.basic.LocalizedMessage original="A person needs a first or last name" locale="es" localized="Una persona necesita un nombre o un apellido"/>
+    <moqui.basic.LocalizedMessage original="A phone or a calendar app logged in with your username ${syncAddresses.username} and an app password (Settings, Sync) finds all of these from ${syncAddresses.davUrl}, with your tasks as a Tasks list. An app that asks for one calendar takes its address." locale="es" localized="Un celular o una aplicación de calendario, con usuario ${syncAddresses.username} y contraseña de aplicación (Configuración, Sincronizar), halla todo en ${syncAddresses.davUrl}. Las tareas van en una lista Tareas. Si pide un calendario, usa su dirección."/>
+    <moqui.basic.LocalizedMessage original="A priority is 1 (highest) to 9 (lowest)" locale="es" localized="Una prioridad va de 1 (la más alta) a 9 (la más baja)"/>
+    <moqui.basic.LocalizedMessage original="A public URL starts with http:// or https://" locale="es" localized="Una URL pública empieza por http:// o https://"/>
+    <moqui.basic.LocalizedMessage original="A published calendar: open this link in a browser." locale="es" localized="Un calendario publicado: abra este enlace en un navegador."/>
+    <moqui.basic.LocalizedMessage original="A read-only mirror" locale="es" localized="Un espejo de solo lectura"/>
+    <moqui.basic.LocalizedMessage original="A read-only mirror of a git URL, fetched every hour" locale="es" localized="Un espejo de solo lectura de una URL git, obtenido cada hora"/>
+    <moqui.basic.LocalizedMessage original="A reminder is up to 30 days before" locale="es" localized="Un recordatorio puede ser hasta 30 días antes"/>
+    <moqui.basic.LocalizedMessage original="A request is not linked to itself" locale="es" localized="Una solicitud no se vincula consigo misma"/>
+    <moqui.basic.LocalizedMessage original="A request needs a name" locale="es" localized="Una solicitud necesita un nombre"/>
+    <moqui.basic.LocalizedMessage original="A room or equipment with an approver waits for the approval; the others are booked at once." locale="es" localized="Una sala o un equipo con un aprobador espera la aprobación; los demás se reservan de inmediato."/>
+    <moqui.basic.LocalizedMessage original="A row matches by email, then by phone with the same name, then by a name only one contact has." locale="es" localized="Una fila coincide por correo electrónico, luego por teléfono con el mismo nombre y luego por un nombre que solo tiene un contacto."/>
+    <moqui.basic.LocalizedMessage original="A row that matches a contact" locale="es" localized="Una fila que coincide con un contacto"/>
+    <moqui.basic.LocalizedMessage original="A shared file or folder: open this link in a browser." locale="es" localized="Un archivo o una carpeta compartidos: abra este enlace en un navegador."/>
+    <moqui.basic.LocalizedMessage original="A space holds the pages of a team, a project or a help center." locale="es" localized="Un espacio guarda las páginas de un equipo, un proyecto o un centro de ayuda."/>
+    <moqui.basic.LocalizedMessage original="A space in the database; one in a repository is set up in the browser." locale="es" localized="Un espacio en la base de datos; uno en un repositorio se configura en el navegador."/>
+    <moqui.basic.LocalizedMessage original="A space keeps at least one administrator" locale="es" localized="Un espacio conserva al menos un administrador"/>
+    <moqui.basic.LocalizedMessage original="A task in Commons cannot be set to ${toStatusId}" locale="es" localized="Una tarea en Área común no se puede establecer en ${toStatusId}"/>
+    <moqui.basic.LocalizedMessage original="A task needs a name" locale="es" localized="Una tarea necesita un nombre"/>
+    <moqui.basic.LocalizedMessage original="A vCard file (.vcf) from a phone, Apple Contacts or Thunderbird, or a CSV file exported from Google Contacts, Outlook or a spreadsheet. Nothing is imported until the last step." locale="es" localized="Un archivo vCard (.vcf) de un teléfono, Apple Contacts o Thunderbird, o un CSV de Google Contacts, Outlook o una hoja de cálculo. No se importa nada hasta el último paso."/>
+    <moqui.basic.LocalizedMessage original="A week" locale="es" localized="Una semana"/>
+    <moqui.basic.LocalizedMessage original="A week starts on Sunday, Monday or Saturday" locale="es" localized="Una semana empieza el domingo, el lunes o el sábado"/>
+    <moqui.basic.LocalizedMessage original="Accepted: it is in Shared with me" locale="es" localized="Aceptado: está en Compartido conmigo"/>
+    <moqui.basic.LocalizedMessage original="Access token (optional)" locale="es" localized="Token de acceso (opcional)"/>
+    <moqui.basic.LocalizedMessage original="Accounts, signatures, rules and the automatic reply are in Comms settings." locale="es" localized="Las cuentas, firmas, reglas y la respuesta automática están en la configuración de comunicaciones."/>
+    <moqui.basic.LocalizedMessage original="Add a member" locale="es" localized="Añadir un miembro"/>
+    <moqui.basic.LocalizedMessage original="Add a person" locale="es" localized="Añadir una persona"/>
+    <moqui.basic.LocalizedMessage original="Add a person or a group" locale="es" localized="Añadir una persona o un grupo"/>
+    <moqui.basic.LocalizedMessage original="Add a read-only mirror" locale="es" localized="Añadir un espejo de solo lectura"/>
+    <moqui.basic.LocalizedMessage original="Add a tag" locale="es" localized="Añadir una etiqueta"/>
+    <moqui.basic.LocalizedMessage original="Add a tag, then Enter" locale="es" localized="Añadir una etiqueta y luego Enter"/>
+    <moqui.basic.LocalizedMessage original="Add a task" locale="es" localized="Añadir una tarea"/>
+    <moqui.basic.LocalizedMessage original="Add a task for today" locale="es" localized="Añadir una tarea para hoy"/>
+    <moqui.basic.LocalizedMessage original="Add a text message factor" locale="es" localized="Añadir un factor de mensaje de texto"/>
+    <moqui.basic.LocalizedMessage original="Add activity on this record" locale="es" localized="Añadir actividad en este registro"/>
+    <moqui.basic.LocalizedMessage original="Add an authenticator app" locale="es" localized="Añadir una aplicación de autenticación"/>
+    <moqui.basic.LocalizedMessage original="Add an email factor" locale="es" localized="Añadir un factor de correo electrónico"/>
+    <moqui.basic.LocalizedMessage original="Add every contact to the groups" locale="es" localized="Añadir todos los contactos a los grupos"/>
+    <moqui.basic.LocalizedMessage original="Add files" locale="es" localized="Añadir archivos"/>
+    <moqui.basic.LocalizedMessage original="Add files only" locale="es" localized="Añadir solo archivos"/>
+    <moqui.basic.LocalizedMessage original="Add files to this folder." locale="es" localized="Añada archivos a esta carpeta."/>
+    <moqui.basic.LocalizedMessage original="Add group" locale="es" localized="Añadir grupo"/>
+    <moqui.basic.LocalizedMessage original="Add mirror" locale="es" localized="Añadir espejo"/>
+    <moqui.basic.LocalizedMessage original="Add single use codes" locale="es" localized="Añadir códigos de un solo uso"/>
+    <moqui.basic.LocalizedMessage original="Add tags" locale="es" localized="Añadir etiquetas"/>
+    <moqui.basic.LocalizedMessage original="Add the selected contacts to a book" locale="es" localized="Añadir los contactos seleccionados a una agenda"/>
+    <moqui.basic.LocalizedMessage original="Add the selected contacts to a group" locale="es" localized="Añadir los contactos seleccionados a un grupo"/>
+    <moqui.basic.LocalizedMessage original="Add the tag" locale="es" localized="Añadir la etiqueta"/>
+    <moqui.basic.LocalizedMessage original="Add them to the book" locale="es" localized="Añadirlos a la agenda"/>
+    <moqui.basic.LocalizedMessage original="Add to Today" locale="es" localized="Añadir a Hoy"/>
+    <moqui.basic.LocalizedMessage original="Add to book" locale="es" localized="Añadir a la agenda"/>
+    <moqui.basic.LocalizedMessage original="Add to favorites" locale="es" localized="Añadir a favoritos"/>
+    <moqui.basic.LocalizedMessage original="Address (https:// or webcal://)" locale="es" localized="Dirección (https:// o webcal://)"/>
+    <moqui.basic.LocalizedMessage original="Address line 2" locale="es" localized="Línea de dirección 2"/>
+    <moqui.basic.LocalizedMessage original="Addresses" locale="es" localized="Direcciones"/>
+    <moqui.basic.LocalizedMessage original="Admin" locale="es" localized="Administrador"/>
+    <moqui.basic.LocalizedMessage original="Administer" locale="es" localized="Administrar"/>
+    <moqui.basic.LocalizedMessage original="Administer the space" locale="es" localized="Administrar el espacio"/>
+    <moqui.basic.LocalizedMessage original="After 10 seconds" locale="es" localized="Después de 10 segundos"/>
+    <moqui.basic.LocalizedMessage original="After 2 seconds" locale="es" localized="Después de 2 segundos"/>
+    <moqui.basic.LocalizedMessage original="After 30 seconds" locale="es" localized="Después de 30 segundos"/>
+    <moqui.basic.LocalizedMessage original="After 5 seconds" locale="es" localized="Después de 5 segundos"/>
+    <moqui.basic.LocalizedMessage original="After a number of times" locale="es" localized="Después de un número de veces"/>
+    <moqui.basic.LocalizedMessage original="After archive or delete, open the next conversation" locale="es" localized="Después de archivar o eliminar, abrir la conversación siguiente"/>
+    <moqui.basic.LocalizedMessage original="All contacts" locale="es" localized="Todos los contactos"/>
+    <moqui.basic.LocalizedMessage original="All day" locale="es" localized="Todo el día"/>
+    <moqui.basic.LocalizedMessage original="All events" locale="es" localized="Todos los eventos"/>
+    <moqui.basic.LocalizedMessage original="All matching files" locale="es" localized="Todos los archivos coincidentes"/>
+    <moqui.basic.LocalizedMessage original="All notes" locale="es" localized="Todas las notas"/>
+    <moqui.basic.LocalizedMessage original="All open" locale="es" localized="Todos los abiertos"/>
+    <moqui.basic.LocalizedMessage original="All requests" locale="es" localized="Todas las solicitudes"/>
+    <moqui.basic.LocalizedMessage original="All spaces" locale="es" localized="Todos los espacios"/>
+    <moqui.basic.LocalizedMessage original="All tasks" locale="es" localized="Todas las tareas"/>
+    <moqui.basic.LocalizedMessage original="Allow Any Html" locale="es" localized="Permitir cualquier HTML"/>
+    <moqui.basic.LocalizedMessage original="Allow Conflicts" locale="es" localized="Permitir conflictos"/>
+    <moqui.basic.LocalizedMessage original="Allow any HTML (only for trusted editors)" locale="es" localized="Permitir cualquier HTML (solo para editores de confianza)"/>
+    <moqui.basic.LocalizedMessage original="Already invited" locale="es" localized="Ya invitado"/>
+    <moqui.basic.LocalizedMessage original="Also show" locale="es" localized="Mostrar también"/>
+    <moqui.basic.LocalizedMessage original="Always show them" locale="es" localized="Mostrarlos siempre"/>
+    <moqui.basic.LocalizedMessage original="An activity is a call, an email, a to-do or a meeting, not ${activityType}" locale="es" localized="Una actividad es una llamada, un correo electrónico, una tarea pendiente o una reunión, no ${activityType}"/>
+    <moqui.basic.LocalizedMessage original="An activity is always on a record: open the record, then schedule its activity from the + menu or Today." locale="es" localized="Una actividad siempre está en un registro: abra el registro y luego programe su actividad desde el menú + o Hoy."/>
+    <moqui.basic.LocalizedMessage original="An administrator of the space changes its settings." locale="es" localized="Un administrador del espacio cambia su configuración."/>
+    <moqui.basic.LocalizedMessage original="An event is not linked to itself" locale="es" localized="Un evento no se vincula consigo mismo"/>
+    <moqui.basic.LocalizedMessage original="An event needs its start" locale="es" localized="Un evento necesita su inicio"/>
+    <moqui.basic.LocalizedMessage original="An export needs a user" locale="es" localized="Una exportación necesita un usuario"/>
+    <moqui.basic.LocalizedMessage original="An import needs a user" locale="es" localized="Una importación necesita un usuario"/>
+    <moqui.basic.LocalizedMessage original="An organization needs a name" locale="es" localized="Una organización necesita un nombre"/>
+    <moqui.basic.LocalizedMessage original="Answer ${event.name}" locale="es" localized="Responder ${event.name}"/>
+    <moqui.basic.LocalizedMessage original="Anyone who may edit" locale="es" localized="Cualquiera que pueda editar"/>
+    <moqui.basic.LocalizedMessage original="Anyone with the link can open it, without signing in. Add a password and an end date for anything private." locale="es" localized="Cualquiera con el enlace puede abrirlo, sin iniciar sesión. Añada una contraseña y una fecha de fin para lo privado."/>
+    <moqui.basic.LocalizedMessage original="App" locale="es" localized="Aplicación"/>
+    <moqui.basic.LocalizedMessage original="App menu" locale="es" localized="Menú de la aplicación"/>
+    <moqui.basic.LocalizedMessage original="App password for ${newAppPasswordName}" locale="es" localized="Contraseña de aplicación para ${newAppPasswordName}"/>
+    <moqui.basic.LocalizedMessage original="Appearance saved" locale="es" localized="Apariencia guardada"/>
+    <moqui.basic.LocalizedMessage original="Approvals waiting" locale="es" localized="Aprobaciones en espera"/>
+    <moqui.basic.LocalizedMessage original="Approve and publish" locale="es" localized="Aprobar y publicar"/>
+    <moqui.basic.LocalizedMessage original="Approve selected" locale="es" localized="Aprobar seleccionados"/>
+    <moqui.basic.LocalizedMessage original="Approve version ${shortVersionName} of ${pageName} and publish it?" locale="es" localized="¿Aprobar la versión ${shortVersionName} de ${pageName} y publicarla?"/>
+    <moqui.basic.LocalizedMessage original="Approved and published" locale="es" localized="Aprobado y publicado"/>
+    <moqui.basic.LocalizedMessage original="Apps and devices" locale="es" localized="Aplicaciones y dispositivos"/>
+    <moqui.basic.LocalizedMessage original="Archive ${titleText}? It becomes read only and leaves the rail; you can bring it back here." locale="es" localized="¿Archivar ${titleText}? Queda en solo lectura y sale de la barra; puede recuperarlo aquí."/>
+    <moqui.basic.LocalizedMessage original="Archive Opens Next" locale="es" localized="Al archivar, abrir el siguiente"/>
+    <moqui.basic.LocalizedMessage original="Archives" locale="es" localized="Archivados"/>
+    <moqui.basic.LocalizedMessage original="Area code" locale="es" localized="Código de área"/>
+    <moqui.basic.LocalizedMessage original="As Personal" locale="es" localized="Como personal"/>
+    <moqui.basic.LocalizedMessage original="As soon as it opens" locale="es" localized="En cuanto se abre"/>
+    <moqui.basic.LocalizedMessage original="As the space" locale="es" localized="Como el espacio"/>
+    <moqui.basic.LocalizedMessage original="Ask first (senders can tell when you read their mail)" locale="es" localized="Preguntar primero (quienes envían pueden saber cuándo lee su correo)"/>
+    <moqui.basic.LocalizedMessage original="Ask the person who shared this calendar for a new link." locale="es" localized="Pida un enlace nuevo a la persona que compartió este calendario."/>
+    <moqui.basic.LocalizedMessage original="Asked by" locale="es" localized="Solicitado por"/>
+    <moqui.basic.LocalizedMessage original="Assign the selected tasks to" locale="es" localized="Asignar las tareas seleccionadas a"/>
+    <moqui.basic.LocalizedMessage original="Assignees" locale="es" localized="Responsables"/>
+    <moqui.basic.LocalizedMessage original="At the start" locale="es" localized="Al inicio"/>
+    <moqui.basic.LocalizedMessage original="Attendees" locale="es" localized="Asistentes"/>
+    <moqui.basic.LocalizedMessage original="Audio and video" locale="es" localized="Audio y video"/>
+    <moqui.basic.LocalizedMessage original="Authenticator app" locale="es" localized="Aplicación de autenticación"/>
+    <moqui.basic.LocalizedMessage original="Auto-map" locale="es" localized="Mapear automáticamente"/>
+    <moqui.basic.LocalizedMessage original="Back to Contacts" locale="es" localized="Volver a contactos"/>
+    <moqui.basic.LocalizedMessage original="Back to Files" locale="es" localized="Volver a archivos"/>
+    <moqui.basic.LocalizedMessage original="Back to rooms and equipment" locale="es" localized="Volver a salas y equipos"/>
+    <moqui.basic.LocalizedMessage original="Back to the calendar" locale="es" localized="Volver al calendario"/>
+    <moqui.basic.LocalizedMessage original="Back to the case" locale="es" localized="Volver al caso"/>
+    <moqui.basic.LocalizedMessage original="Back to the current version" locale="es" localized="Volver a la versión actual"/>
+    <moqui.basic.LocalizedMessage original="Below the list" locale="es" localized="Debajo de la lista"/>
+    <moqui.basic.LocalizedMessage original="Book" locale="es" localized="Reservar"/>
+    <moqui.basic.LocalizedMessage original="Book a room" locale="es" localized="Reservar una sala"/>
+    <moqui.basic.LocalizedMessage original="Book equipment" locale="es" localized="Reservar equipo"/>
+    <moqui.basic.LocalizedMessage original="Book it" locale="es" localized="Reservarlo"/>
+    <moqui.basic.LocalizedMessage original="Booked" locale="es" localized="Reservado"/>
+    <moqui.basic.LocalizedMessage original="Booked at once: no approval needed" locale="es" localized="Reservado de inmediato: no se necesita aprobación"/>
+    <moqui.basic.LocalizedMessage original="Booked by" locale="es" localized="Reservado por"/>
+    <moqui.basic.LocalizedMessage original="Booked then" locale="es" localized="Reservado entonces"/>
+    <moqui.basic.LocalizedMessage original="Booking" locale="es" localized="Reserva"/>
+    <moqui.basic.LocalizedMessage original="Booking a room or equipment and cancelling a booking are in the browser." locale="es" localized="Reservar una sala o un equipo y cancelar una reserva se hacen en el navegador."/>
+    <moqui.basic.LocalizedMessage original="Booking cancelled" locale="es" localized="Reserva cancelada"/>
+    <moqui.basic.LocalizedMessage original="Booking needs a user with a party" locale="es" localized="La reserva necesita un usuario con un participante"/>
+    <moqui.basic.LocalizedMessage original="Bookings on ${dayText}" locale="es" localized="Reservas el ${dayText}"/>
+    <moqui.basic.LocalizedMessage original="Books" locale="es" localized="Agendas"/>
+    <moqui.basic.LocalizedMessage original="Branch ${space.branch}${space.headCommit ? &apos; · newest commit &apos; + space.headCommit : &apos;&apos;}${space.headNote ? &apos;: &apos; + space.headNote : &apos;&apos;}" locale="es" localized="Rama ${space.branch}${space.headCommit ? &apos; · newest commit &apos; + space.headCommit : &apos;&apos;}${space.headNote ? &apos;: &apos; + space.headNote : &apos;&apos;}"/>
+    <moqui.basic.LocalizedMessage original="Branch (main when empty)" locale="es" localized="Rama (main si está vacío)"/>
+    <moqui.basic.LocalizedMessage original="Bring back" locale="es" localized="Recuperar"/>
+    <moqui.basic.LocalizedMessage original="Brown" locale="es" localized="Marrón"/>
+    <moqui.basic.LocalizedMessage original="CASE_DUE_DATE: This request is a support case: its due date comes from its service level; leave it empty" locale="es" localized="CASE_DUE_DATE: Esta solicitud es un caso de soporte: su fecha de vencimiento viene del nivel de servicio; déjela vacía"/>
+    <moqui.basic.LocalizedMessage original="CalDAV address" locale="es" localized="Dirección CalDAV"/>
+    <moqui.basic.LocalizedMessage original="Calendar ID" locale="es" localized="ID de calendario"/>
+    <moqui.basic.LocalizedMessage original="Calendar feeds cannot be read: the iCalendar tool is not available" locale="es" localized="No se pueden leer las fuentes del calendario: la herramienta iCalendar no está disponible"/>
+    <moqui.basic.LocalizedMessage original="Calendar options" locale="es" localized="Opciones del calendario"/>
+    <moqui.basic.LocalizedMessage original="Calendar preferences" locale="es" localized="Preferencias del calendario"/>
+    <moqui.basic.LocalizedMessage original="Calendar settings and sharing" locale="es" localized="Configuración del calendario y uso compartido"/>
+    <moqui.basic.LocalizedMessage original="Calendar settings saved" locale="es" localized="Configuración del calendario guardada"/>
+    <moqui.basic.LocalizedMessage original="Calendar: New Calendar, On the Network, with ${syncUsername} and the location ${davUrl}; Find Calendars lists them all. Contacts: New Address Book, Add CardDAV Address Book, with the same location. Use an app password when it asks." locale="es" localized="Calendario: Nuevo calendario, En la red, con ${syncUsername} y la ubicación ${davUrl}; Buscar calendarios los lista. Contactos: Nueva agenda, Añadir agenda CardDAV, con la misma ubicación. Use una contraseña de aplicación si la pide."/>
+    <moqui.basic.LocalizedMessage original="Calendar: agenda" locale="es" localized="Calendario: agenda"/>
+    <moqui.basic.LocalizedMessage original="Calendar: day view" locale="es" localized="Calendario: vista de día"/>
+    <moqui.basic.LocalizedMessage original="Calendar: month view" locale="es" localized="Calendario: vista de mes"/>
+    <moqui.basic.LocalizedMessage original="Calendar: new event" locale="es" localized="Calendario: nuevo evento"/>
+    <moqui.basic.LocalizedMessage original="Calendar: next" locale="es" localized="Calendario: siguiente"/>
+    <moqui.basic.LocalizedMessage original="Calendar: previous" locale="es" localized="Calendario: anterior"/>
+    <moqui.basic.LocalizedMessage original="Calendar: today" locale="es" localized="Calendario: hoy"/>
+    <moqui.basic.LocalizedMessage original="Calendar: week view" locale="es" localized="Calendario: vista de semana"/>
+    <moqui.basic.LocalizedMessage original="Calendar: work week view" locale="es" localized="Calendario: vista de semana laboral"/>
+    <moqui.basic.LocalizedMessage original="Calendars" locale="es" localized="Calendarios"/>
+    <moqui.basic.LocalizedMessage original="Calendars and contacts: Thunderbird (below), or Outlook with a CalDAV synchronizer add-in." locale="es" localized="Calendarios y contactos: Thunderbird (abajo) u Outlook con un complemento sincronizador CalDAV."/>
+    <moqui.basic.LocalizedMessage original="Calendars and tasks (CalDAV)" locale="es" localized="Calendarios y tareas (CalDAV)"/>
+    <moqui.basic.LocalizedMessage original="Calendars, sharing and subscriptions" locale="es" localized="Calendarios, uso compartido y suscripciones"/>
+    <moqui.basic.LocalizedMessage original="Cancel ${event.name}" locale="es" localized="Cancelar ${event.name}"/>
+    <moqui.basic.LocalizedMessage original="Cancel booking" locale="es" localized="Cancelar reserva"/>
+    <moqui.basic.LocalizedMessage original="Cancel event" locale="es" localized="Cancelar evento"/>
+    <moqui.basic.LocalizedMessage original="Cancel request" locale="es" localized="Cancelar solicitud"/>
+    <moqui.basic.LocalizedMessage original="Cancel the booking" locale="es" localized="Cancelar la reserva"/>
+    <moqui.basic.LocalizedMessage original="Cancel the booking ${title}?" locale="es" localized="¿Cancelar la reserva ${title}?"/>
+    <moqui.basic.LocalizedMessage original="Cancel the booking of ${name}?" locale="es" localized="¿Cancelar la reserva de ${name}?"/>
+    <moqui.basic.LocalizedMessage original="Cancel the review request" locale="es" localized="Cancelar la solicitud de revisión"/>
+    <moqui.basic.LocalizedMessage original="Cancelled by its requester" locale="es" localized="Cancelado por quien lo solicitó"/>
+    <moqui.basic.LocalizedMessage original="Candidate pairs among the directory&apos;s people and organizations; personal contacts are never in the scan. Compare a pair to merge it, or mark it not a duplicate." locale="es" localized="Pares candidatos entre las personas y organizaciones del directorio; los contactos personales no entran en el análisis. Compare un par para fusionarlo, o márquelo como no duplicado."/>
+    <moqui.basic.LocalizedMessage original="CardDAV address" locale="es" localized="Dirección CardDAV"/>
+    <moqui.basic.LocalizedMessage original="Change anyway" locale="es" localized="Cambiar de todos modos"/>
+    <moqui.basic.LocalizedMessage original="Change it even when a room or equipment is booked then" locale="es" localized="Cambiarlo aunque una sala o un equipo esté reservado entonces"/>
+    <moqui.basic.LocalizedMessage original="Change password" locale="es" localized="Cambiar contraseña"/>
+    <moqui.basic.LocalizedMessage original="Changed ${changeText}" locale="es" localized="Modificado ${changeText}"/>
+    <moqui.basic.LocalizedMessage original="Changed ${note.lastChange?.dateText || &apos;&apos;}" locale="es" localized="Modificado ${note.lastChange?.dateText || &apos;&apos;}"/>
+    <moqui.basic.LocalizedMessage original="Changed from its series" locale="es" localized="Cambiado respecto a su serie"/>
+    <moqui.basic.LocalizedMessage original="Changed instance" locale="es" localized="Instancia cambiada"/>
+    <moqui.basic.LocalizedMessage original="Changed since the invitation" locale="es" localized="Cambiado desde la invitación"/>
+    <moqui.basic.LocalizedMessage original="Changes from" locale="es" localized="Cambios desde"/>
+    <moqui.basic.LocalizedMessage original="Changes requested" locale="es" localized="Cambios solicitados"/>
+    <moqui.basic.LocalizedMessage original="Changing the password needs an authentication code from: ${factorTypeDescriptions ? factorTypeDescriptions.join(&apos;, &apos;) : &apos;&apos;}" locale="es" localized="Cambiar la contraseña necesita un código de autenticación de: ${factorTypeDescriptions ? factorTypeDescriptions.join(&apos;, &apos;) : &apos;&apos;}"/>
+    <moqui.basic.LocalizedMessage original="Character set" locale="es" localized="Juego de caracteres"/>
+    <moqui.basic.LocalizedMessage original="Choose a book you may add to" locale="es" localized="Elija una agenda a la que pueda añadir"/>
+    <moqui.basic.LocalizedMessage original="Choose a drive" locale="es" localized="Elegir una unidad"/>
+    <moqui.basic.LocalizedMessage original="Choose a file or folder to see its details." locale="es" localized="Elija un archivo o una carpeta para ver sus detalles."/>
+    <moqui.basic.LocalizedMessage original="Choose a note, or start a new one" locale="es" localized="Elija una nota, o empiece una nueva"/>
+    <moqui.basic.LocalizedMessage original="Choose a person or a group to share with" locale="es" localized="Elija una persona o un grupo con quien compartir"/>
+    <moqui.basic.LocalizedMessage original="Choose a user" locale="es" localized="Elegir un usuario"/>
+    <moqui.basic.LocalizedMessage original="Choose a user or a user group" locale="es" localized="Elegir un usuario o un grupo de usuarios"/>
+    <moqui.basic.LocalizedMessage original="Choose a vCard or CSV file" locale="es" localized="Elija un archivo vCard o CSV"/>
+    <moqui.basic.LocalizedMessage original="Choose an image file: PNG, JPEG, GIF or WebP" locale="es" localized="Elija un archivo de imagen: PNG, JPEG, GIF o WebP"/>
+    <moqui.basic.LocalizedMessage original="Choose another contact" locale="es" localized="Elegir otro contacto"/>
+    <moqui.basic.LocalizedMessage original="Choose one or more files to upload" locale="es" localized="Elija uno o más archivos para subir"/>
+    <moqui.basic.LocalizedMessage original="Choose the book" locale="es" localized="Elegir la agenda"/>
+    <moqui.basic.LocalizedMessage original="Choose the dates to show" locale="es" localized="Elija las fechas a mostrar"/>
+    <moqui.basic.LocalizedMessage original="Choose the group" locale="es" localized="Elegir el grupo"/>
+    <moqui.basic.LocalizedMessage original="Choose the options first" locale="es" localized="Elija primero las opciones"/>
+    <moqui.basic.LocalizedMessage original="Choose the organization" locale="es" localized="Elegir la organización"/>
+    <moqui.basic.LocalizedMessage original="Choose the purpose" locale="es" localized="Elegir el propósito"/>
+    <moqui.basic.LocalizedMessage original="Choose the record to link" locale="es" localized="Elija el registro a vincular"/>
+    <moqui.basic.LocalizedMessage original="Choose to compare" locale="es" localized="Elegir para comparar"/>
+    <moqui.basic.LocalizedMessage original="Choose two different contacts" locale="es" localized="Elija dos contactos distintos"/>
+    <moqui.basic.LocalizedMessage original="Choose what to do with duplicates" locale="es" localized="Elija qué hacer con los duplicados"/>
+    <moqui.basic.LocalizedMessage original="Choose where the space keeps its pages" locale="es" localized="Elija dónde guarda el espacio sus páginas"/>
+    <moqui.basic.LocalizedMessage original="Choose who to assign them to" locale="es" localized="Elija a quién asignarlas"/>
+    <moqui.basic.LocalizedMessage original="Clean the HTML of HTML pages (safe)" locale="es" localized="Limpiar el HTML de las páginas HTML (seguro)"/>
+    <moqui.basic.LocalizedMessage original="Clear filters" locale="es" localized="Limpiar filtros"/>
+    <moqui.basic.LocalizedMessage original="Clear search" locale="es" localized="Limpiar búsqueda"/>
+    <moqui.basic.LocalizedMessage original="Clear the search" locale="es" localized="Limpiar la búsqueda"/>
+    <moqui.basic.LocalizedMessage original="Clear the selection" locale="es" localized="Limpiar la selección"/>
+    <moqui.basic.LocalizedMessage original="Click a day of a row to book it." locale="es" localized="Haga clic en un día de la fila para reservarlo."/>
+    <moqui.basic.LocalizedMessage original="Clone a space" locale="es" localized="Clonar un espacio"/>
+    <moqui.basic.LocalizedMessage original="Clone from" locale="es" localized="Clonar desde"/>
+    <moqui.basic.LocalizedMessage original="Close calendars" locale="es" localized="Cerrar calendarios"/>
+    <moqui.basic.LocalizedMessage original="Close event details" locale="es" localized="Cerrar detalles del evento"/>
+    <moqui.basic.LocalizedMessage original="Close event editor" locale="es" localized="Cerrar el editor del evento"/>
+    <moqui.basic.LocalizedMessage original="Close the compare" locale="es" localized="Cerrar la comparación"/>
+    <moqui.basic.LocalizedMessage original="Close the editor; the changes stay for the others and are saved when the last editor leaves" locale="es" localized="Cerrar el editor; los cambios quedan para los demás y se guardan cuando sale el último editor"/>
+    <moqui.basic.LocalizedMessage original="Close the tray panel" locale="es" localized="Cerrar el panel de la bandeja"/>
+    <moqui.basic.LocalizedMessage original="Coming later: a Google or Microsoft 365 account as a subscription. Until then, subscribe here to the calendar&apos;s secret iCal address." locale="es" localized="Más adelante: una cuenta de Google o Microsoft 365 como suscripción. Hasta entonces, suscríbase aquí a la dirección iCal secreta del calendario."/>
+    <moqui.basic.LocalizedMessage original="Comma separated; someone new becomes one of your contacts" locale="es" localized="Separados por comas; alguien nuevo pasa a ser uno de sus contactos"/>
+    <moqui.basic.LocalizedMessage original="Comment added" locale="es" localized="Comentario añadido"/>
+    <moqui.basic.LocalizedMessage original="Commons" locale="es" localized="Área común"/>
+    <moqui.basic.LocalizedMessage original="Commons does not set a request to ${toStatusId}" locale="es" localized="Área común no establece una solicitud en ${toStatusId}"/>
+    <moqui.basic.LocalizedMessage original="Commons home" locale="es" localized="Inicio de Área común"/>
+    <moqui.basic.LocalizedMessage original="Comms settings" locale="es" localized="Configuración de comunicaciones"/>
+    <moqui.basic.LocalizedMessage original="Compare and merge" locale="es" localized="Comparar y fusionar"/>
+    <moqui.basic.LocalizedMessage original="Compare the two chosen" locale="es" localized="Comparar los dos elegidos"/>
+    <moqui.basic.LocalizedMessage original="Compare with the current" locale="es" localized="Comparar con el actual"/>
+    <moqui.basic.LocalizedMessage original="Compare with the current one" locale="es" localized="Comparar con el actual"/>
+    <moqui.basic.LocalizedMessage original="Compare with the one before" locale="es" localized="Comparar con el anterior"/>
+    <moqui.basic.LocalizedMessage original="Complete ${item.title}" locale="es" localized="Completar ${item.title}"/>
+    <moqui.basic.LocalizedMessage original="Compose email" locale="es" localized="Redactar correo electrónico"/>
+    <moqui.basic.LocalizedMessage original="Connect a calendar" locale="es" localized="Conectar un calendario"/>
+    <moqui.basic.LocalizedMessage original="Contact Book Group ID" locale="es" localized="ID de grupo de agenda de contactos"/>
+    <moqui.basic.LocalizedMessage original="Contact Book ID" locale="es" localized="ID de agenda de contactos"/>
+    <moqui.basic.LocalizedMessage original="Contact book" locale="es" localized="Agenda de contactos"/>
+    <moqui.basic.LocalizedMessage original="Contact book deleted" locale="es" localized="Agenda de contactos eliminada"/>
+    <moqui.basic.LocalizedMessage original="Contact book deleted; its personal contacts are in your default book" locale="es" localized="Agenda de contactos eliminada; sus contactos personales están en su agenda predeterminada"/>
+    <moqui.basic.LocalizedMessage original="Contact books" locale="es" localized="Agendas de contactos"/>
+    <moqui.basic.LocalizedMessage original="Contact info" locale="es" localized="Datos del contacto"/>
+    <moqui.basic.LocalizedMessage original="Contact information" locale="es" localized="Información del contacto"/>
+    <moqui.basic.LocalizedMessage original="Contact information not found" locale="es" localized="No se encontró la información del contacto"/>
+    <moqui.basic.LocalizedMessage original="Contacts" locale="es" localized="Contactos"/>
+    <moqui.basic.LocalizedMessage original="Contacts (CardDAV)" locale="es" localized="Contactos (CardDAV)"/>
+    <moqui.basic.LocalizedMessage original="Contacts merged" locale="es" localized="Contactos fusionados"/>
+    <moqui.basic.LocalizedMessage original="Contacts: the find is not kept:" locale="es" localized="Contactos: la búsqueda no se conserva:"/>
+    <moqui.basic.LocalizedMessage original="Conversation view" locale="es" localized="Vista de conversación"/>
+    <moqui.basic.LocalizedMessage original="Copied" locale="es" localized="Copiado"/>
+    <moqui.basic.LocalizedMessage original="Copy a link to it" locale="es" localized="Copiar un enlace a esto"/>
+    <moqui.basic.LocalizedMessage original="Copy every version (slower; without it each page is copied as it is now)" locale="es" localized="Copiar todas las versiones (más lento; sin ello cada página se copia como está ahora)"/>
+    <moqui.basic.LocalizedMessage original="Copy here" locale="es" localized="Copiar aquí"/>
+    <moqui.basic.LocalizedMessage original="Copy link" locale="es" localized="Copiar enlace"/>
+    <moqui.basic.LocalizedMessage original="Copy of" locale="es" localized="Copia de"/>
+    <moqui.basic.LocalizedMessage original="Copy the link" locale="es" localized="Copiar el enlace"/>
+    <moqui.basic.LocalizedMessage original="Copy the link now: it is shown only once." locale="es" localized="Copie el enlace ahora: se muestra solo una vez."/>
+    <moqui.basic.LocalizedMessage original="Copy the pages&apos; files" locale="es" localized="Copiar los archivos de las páginas"/>
+    <moqui.basic.LocalizedMessage original="Create a space" locale="es" localized="Crear un espacio"/>
+    <moqui.basic.LocalizedMessage original="Create and edit" locale="es" localized="Crear y editar"/>
+    <moqui.basic.LocalizedMessage original="Create another contact anyway" locale="es" localized="Crear otro contacto de todos modos"/>
+    <moqui.basic.LocalizedMessage original="a read-only mirror" locale="es" localized="un espejo de solo lectura"/>
+    <moqui.basic.LocalizedMessage original="added to favorites" locale="es" localized="añadido a favoritos"/>
+    <moqui.basic.LocalizedMessage original="an earlier row" locale="es" localized="una fila anterior"/>
+    <moqui.basic.LocalizedMessage original="available until" locale="es" localized="disponible hasta"/>
+    <moqui.basic.LocalizedMessage original="becomes the newest version; the others stay." locale="es" localized="pasa a ser la versión más reciente; las demás se conservan."/>
+    <moqui.basic.LocalizedMessage original="by email" locale="es" localized="por correo electrónico"/>
+    <moqui.basic.LocalizedMessage original="clone and push" locale="es" localized="clonar y subir"/>
+    <moqui.basic.LocalizedMessage original="clone; editors push" locale="es" localized="clonar; quienes editan suben"/>
+    <moqui.basic.LocalizedMessage original="compared with the published" locale="es" localized="comparado con lo publicado"/>
+</entity-facade-xml>

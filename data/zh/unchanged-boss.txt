@@ -1,0 +1,56 @@
+# Messages the same in Simplified Chinese: the catalog has no row for them (a missing row returns the original).
+# Each line is also a Spanish key (a row or an unchanged line).
+${assigneeName}${isMine ? ' (' + ec.l10n.localize('you') + ')' : ''}
+${chip.label}${chip.count ? ' · ' + chip.count : ''}
+${ec.l10n.format(viewedDate, 'MMM d h:mm a')}
+${ec.l10n.localize('Edit')} ${book.contactBookName}
+${ec.l10n.localize('Edit')} ${calendar.calendarName}
+${estimatedText || remainingText ? (estimatedText || '0') + ' / ' + (remainingText || '0') : ''}
+${file.whenText ? ' · ' + file.whenText : ''}${file.byName ? ' · ' + file.byName : ''}
+${folderTitle || ec.l10n.localize('Folder')}
+${name}${isMe ? ' (' + ec.l10n.localize('you') + ')' : ''}
+${resource.typeLabel}${resource.site ? ' · ' + resource.site : ''}
+${result.entityTypeName}${result.code ? ' ' + result.code : ''}${result.category ? ' · ' + result.category : ''}
+${sentText ? ec.l10n.localize('Last sent') + ' ' + sentText : ''}
+Esc
+Git URL
+Mac
+Q
+Thunderbird
+UTF-16
+Windows
+${(isEstimate ? ec.l10n.localize('The estimate') + ' · ' : '') + ec.l10n.localize('asked') + ' ' + requestedText}
+${[whenText, atText ? ec.l10n.localize('at') + ' ' + atText : ''].filter((part) => part).join(' · ')}
+${assigneeName || ec.l10n.localize('Unassigned')}${isMine ? ' (' + ec.l10n.localize('you') + ')' : ''}
+${branchText}${conflict ? ' · ' + ec.l10n.localize('Conflicts') : ''}
+${checkContext}${required ? ' · ' + ec.l10n.localize('required') : ''}
+${clientUser ? '' : ec.l10n.localize('Act')}
+${dueText ? ec.l10n.localize('due') + ' ' + dueText : ''}
+${ec.l10n.localize('Edit')} ${milestone.workEffortName}
+${ec.l10n.localize('Edit')} ${mr.numText}
+${ec.l10n.localize('Edit')} ${release.workEffortName}
+${ec.l10n.localize('Edit')} ${sprint.workEffortName}
+${ec.l10n.localize('Invoice')} ${invoiceId}
+${fromName} · ${whenText}${waiting ? ' · ' + ec.l10n.localize('waiting for your reply') : ''}
+${listLabel}${filtered ? ' · ' + ec.l10n.localize('as found') : ''}
+${makes == 'workItems' ? ec.l10n.localize('Work items') : ec.l10n.localize('Requests')}${ruleCount ? '' : ' · ' + ec.l10n.localize('no rule')}
+${parentWorkEffortId ? parentWorkEffortId + ' ' + parentName : ''}
+${sourceText}${linkedText ? ' · ' + linkedText : ''}
+${statusColor || ec.l10n.localize('(by its name)')}
+git clone ${httpsUrl}
+git clone ${sampleHttpsUrl || 'https://this-server/git/repository.git'}
+git clone ${sampleSshUrl || 'ssh://' + username + '@this-server/repository.git'}
+git clone ${sshUrl}
+git push ${httpsUrl} main
+Redmine CSV
+Rust
+${ec.l10n.localize('Edit')} ${record.name}
+${ec.l10n.localize('Edit')} ${task.workEffortName}
+${ec.l10n.localize('Edit')} ${workEffortId}
+${ec.l10n.localize('Order')} ${orderId}
+${evidenceText || ''}${comments ? ' · ' + comments : ''}
+${repositoryId} · ${sourceRef} → ${targetRef}${completeOnMerge ? ' · ' + ec.l10n.localize('completes this item on merge') : ''}
+${repositoryId}${refText ? ' · ' + refText : ''} · ${linkedBy}
+${repositoryId}${summary ? ' · ' + summary : ''}
+${request.requestResolutionEnumId != 'RrUnresolved' ? (request.resolutionLabel || '—') : '—'}
+${sharedText}${billedText ? ' · ' + billedText : ''}

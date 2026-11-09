@@ -56,3 +56,19 @@ Mantle and marble texts over 255 characters stay in English. The message key is 
 - Moved quantity from Asset ... to Asset ...
 - Found GlAccount Org TimePeriod ...
 - Set quantity on details for an invoice item, when the message names every facility
+
+Commons and Projects texts over 255 characters stay in English. The message key is still used; there is no `es` or `zh` row for it:
+
+- Your phone and desktop apps read and change your calendars, tasks, contacts and files here: the calendar, contacts and files apps
+- Settings, Calendar (or Contacts), Accounts, Add Account, Other: Add CalDAV Account for calendars and reminders, Add CardDAV Account
+- Install DAVx⁵ (from Google Play or F-Droid), add an account with Login with URL and user name: the URL ${davUrl}
+- GNOME Online Accounts and KDE accounts take the CalDAV and CardDAV address ${davUrl}. A file manager opens davs:// with the WebDAV address
+- Mentions, assignments, approvals and reminders come to the Notifications inbox, which the header counts; record updates and system messages
+- A phone or a contacts app logged in with your username ${syncAddresses.username} and an app password (Settings, Sync) finds these books
+- Utilization is the hours logged over capacity; billable utilization the billable hours over capacity. Capacity is the working hours less holidays
+- Cost is the hours at the workers' rates plus expenses; billable value is the billable hours at the client rates plus billable expenses
+- Each row is its subtree's totals, cancelled items left out; days are the hours over the hours a day given. Act/est is actual over estimated
+- A CSV file with a header line and a row per entry: date (yyyy-MM-dd), person (email or user name), work item or project key, hours
+- Assignees and reporters are matched by user name, email or full name; one not found is left unassigned and named in the preview
+- The estimate is kept as a file of the project's Estimate milestone, and its approval is asked of the client's manager (else the client)
+- The branch-protection summary on a repository's settings (force push, delete, merge requests, approvals, checks, methods, pushes)

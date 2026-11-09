@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="es">
+    <moqui.basic.LocalizedMessage original="${draft.clientName}: ${draft.readyHoursText} h approved, ${draft.readyAmountText}." locale="es" localized="${draft.clientName}: ${draft.readyHoursText} h aprobadas, ${draft.readyAmountText}."/>
+    <moqui.basic.LocalizedMessage original="${draft.waitingHoursText} h more wait for approval and are not invoiced yet." locale="es" localized="${draft.waitingHoursText} h más esperan aprobación y aún no se facturan."/>
+    <moqui.basic.LocalizedMessage original="${ec.l10n.format(overview.undatedHours || 0, &apos;#,##0.#&apos;)} h of assigned work has no due date and is not spread over the weeks." locale="es" localized="${ec.l10n.format(overview.undatedHours || 0, &apos;#,##0.#&apos;)} h de trabajo asignado no tienen vencimiento y no se reparten en las semanas."/>
+    <moqui.basic.LocalizedMessage original="${file.tooLarge ? &apos;Too large to show here&apos; : &apos;A binary file&apos;}: download it to open it." locale="es" localized="${file.tooLarge ? &apos;Too large to show here&apos; : &apos;A binary file&apos;}: descárguelo para abrirlo."/>
+    <moqui.basic.LocalizedMessage original="${fileList.length} files changed: open one to see its diff" locale="es" localized="${fileList.length} archivos cambiados: abra uno para ver la diferencia"/>
+    <moqui.basic.LocalizedMessage original="${header.statusId == &apos;WeInPlanning&apos; || header.statusId == &apos;WeApproved&apos; ? &apos;Begin&apos; : &apos;Resume&apos;}: ${header.workEffortName}?" locale="es" localized="¿${header.statusId == &apos;WeInPlanning&apos; || header.statusId == &apos;WeApproved&apos; ? &apos;Begin&apos; : &apos;Resume&apos;}: ${header.workEffortName}?"/>
+    <moqui.basic.LocalizedMessage original="${head} has nothing that ${base} lacks." locale="es" localized="${head} no tiene nada que le falte a ${base}."/>
+    <moqui.basic.LocalizedMessage original="${head} or ${base} is not a branch, tag or commit of ${repositoryId}." locale="es" localized="${head} o ${base} no es una rama, etiqueta o confirmación de ${repositoryId}."/>
+    <moqui.basic.LocalizedMessage original="${hoursTotals.estimatedText || &apos;0&apos;} h estimated · ${hoursTotals.remainingText || &apos;0&apos;} h remaining · ${hoursTotals.actualText || &apos;0&apos;} h actual" locale="es" localized="${hoursTotals.estimatedText || &apos;0&apos;} h estimadas · ${hoursTotals.remainingText || &apos;0&apos;} h restantes · ${hoursTotals.actualText || &apos;0&apos;} h reales"/>
+    <moqui.basic.LocalizedMessage original="${id} is not available" locale="es" localized="${id} no está disponible"/>
+    <moqui.basic.LocalizedMessage original="${id} is not moved on the timeline" locale="es" localized="${id} no se mueve en la cronología"/>
+    <moqui.basic.LocalizedMessage original="${id} moved" locale="es" localized="${id} se movió"/>
+    <moqui.basic.LocalizedMessage original="${id} moved, and ${others}" locale="es" localized="${id} se movió, y ${others}"/>
+    <moqui.basic.LocalizedMessage original="${id} no longer waits for ${to}" locale="es" localized="${id} ya no espera a ${to}"/>
+    <moqui.basic.LocalizedMessage original="${id} now waits for ${to}" locale="es" localized="${id} ahora espera a ${to}"/>
+    <moqui.basic.LocalizedMessage original="${missingRates} entries have no client rate and cannot be invoiced: add a rate (Billing, Rates), then Update rates on the project&apos;s Time tab." locale="es" localized="${missingRates} entradas sin tarifa de cliente no se pueden facturar: añada una tarifa (Facturación, Tarifas) y luego Actualizar tarifas en la pestaña Tiempo del proyecto."/>
+    <moqui.basic.LocalizedMessage original="${person.billableText} billable" locale="es" localized="${person.billableText} facturable"/>
+    <moqui.basic.LocalizedMessage original="${releaseNote}. The release is complete today." locale="es" localized="${releaseNote}. El lanzamiento queda completo hoy."/>
+    <moqui.basic.LocalizedMessage original="${sprint.itemCount} work items, ${sprint.committedText}. Only one sprint of a project is in progress at a time unless its settings allow several." locale="es" localized="${sprint.itemCount} elementos de trabajo, ${sprint.committedText}. Solo una iteración del proyecto está en progreso a la vez, salvo que su configuración permita varias."/>
+    <moqui.basic.LocalizedMessage original="${startSummary} is made, in planning. Go on with its team, modules and money; its name, client and dates change in its settings." locale="es" localized="${startSummary} quedó creado, en planificación. Siga con su equipo, módulos y dinero; el nombre, el cliente y las fechas cambian en su configuración."/>
+    <moqui.basic.LocalizedMessage original="${unfinishedCount} work items are not done." locale="es" localized="${unfinishedCount} elementos de trabajo no están hechos."/>
+    <moqui.basic.LocalizedMessage original="% complete" locale="es" localized="% completado"/>
+    <moqui.basic.LocalizedMessage original="% complete by project" locale="es" localized="% completado por proyecto"/>
+    <moqui.basic.LocalizedMessage original="% complete: the estimate less what remains, over the estimate. Forecast: the latest due date of the open items; late when after the target. Budget used: the actual client cost over the client budget." locale="es" localized="% completado: la estimación menos lo que queda, dividida por la estimación. Pronóstico: el vencimiento más tardío de lo abierto; tarde si pasa del objetivo. Presupuesto usado: el costo real del cliente sobre su presupuesto."/>
+    <moqui.basic.LocalizedMessage original="(by its name)" locale="es" localized="(por su nombre)"/>
+    <moqui.basic.LocalizedMessage original="(recorded for the approver)" locale="es" localized="(registrado para el aprobador)"/>
+    <moqui.basic.LocalizedMessage original="15 minutes (0.25 h)" locale="es" localized="15 minutos (0.25 h)"/>
+    <moqui.basic.LocalizedMessage original="2 weeks" locale="es" localized="2 semanas"/>
+    <moqui.basic.LocalizedMessage original="30 minutes (0.5 h)" locale="es" localized="30 minutos (0.5 h)"/>
+    <moqui.basic.LocalizedMessage original="4 weeks" locale="es" localized="4 semanas"/>
+    <moqui.basic.LocalizedMessage original="6 minutes (0.1 h)" locale="es" localized="6 minutos (0.1 h)"/>
+    <moqui.basic.LocalizedMessage original="8 of 12 points" locale="es" localized="8 de 12 puntos"/>
+    <moqui.basic.LocalizedMessage original="A CSV file exported from Jira (Filters, Export, CSV all fields), Redmine (the issues list, CSV), GitHub (a project&apos;s issues as CSV) or a spreadsheet with a header line. Nothing is imported until the last step." locale="es" localized="Un CSV de Jira (Filters, Export, CSV all fields), Redmine (lista de incidencias, CSV), GitHub (incidencias del proyecto en CSV) o una hoja con encabezado. Nada se importa hasta el último paso."/>
+    <moqui.basic.LocalizedMessage original="A billing share of ${milestone.workEffortName}" locale="es" localized="Una parte de facturación de ${milestone.workEffortName}"/>
+    <moqui.basic.LocalizedMessage original="A binary file" locale="es" localized="Un archivo binario"/>
+    <moqui.basic.LocalizedMessage original="A binary file: no diff to show." locale="es" localized="Un archivo binario: no hay diferencia que mostrar."/>
+    <moqui.basic.LocalizedMessage original="A branch pattern names the work item: &lt;id&gt;, or &lt;KEY&gt;-&lt;n&gt;" locale="es" localized="Un patrón de rama nombra el elemento de trabajo: &lt;id&gt;, o &lt;KEY&gt;-&lt;n&gt;"/>
+    <moqui.basic.LocalizedMessage original="A branch rule of ${repositoryId}" locale="es" localized="Una regla de rama de ${repositoryId}"/>
+    <moqui.basic.LocalizedMessage original="A break is from 0 to 12 hours" locale="es" localized="Un descanso es de 0 a 12 horas"/>
+    <moqui.basic.LocalizedMessage original="A category cannot be under itself" locale="es" localized="Una categoría no puede estar bajo sí misma"/>
+    <moqui.basic.LocalizedMessage original="A category needs a name" locale="es" localized="Una categoría necesita un nombre"/>
+    <moqui.basic.LocalizedMessage original="A copy keeps the work items, plan items, members and settings, the items back in planning and without dates." locale="es" localized="Una copia conserva los elementos de trabajo, los del plan, los miembros y la configuración; los elementos vuelven a planificación y quedan sin fechas."/>
+    <moqui.basic.LocalizedMessage original="A copy of ${header.workEffortName}" locale="es" localized="Una copia de ${header.workEffortName}"/>
+    <moqui.basic.LocalizedMessage original="A day is yyyy-MM-dd" locale="es" localized="Un día es yyyy-MM-dd"/>
+    <moqui.basic.LocalizedMessage original="A day of the month is 1 to 31, or -1 for the last" locale="es" localized="Un día del mes va de 1 a 31, o -1 para el último"/>
+    <moqui.basic.LocalizedMessage original="A day of the week" locale="es" localized="Un día de la semana"/>
+    <moqui.basic.LocalizedMessage original="A deliverable needs a name" locale="es" localized="Un entregable necesita un nombre"/>
+    <moqui.basic.LocalizedMessage original="A deliverable of ${milestone.workEffortName}" locale="es" localized="Un entregable de ${milestone.workEffortName}"/>
+    <moqui.basic.LocalizedMessage original="A documentation space (in the database)" locale="es" localized="Un espacio de documentación (en la base de datos)"/>
+    <moqui.basic.LocalizedMessage original="A draft from the done work items and the merged merge requests: Save keeps it, Publish publishes it." locale="es" localized="Un borrador con los elementos de trabajo hechos y las solicitudes de fusión fusionadas: Guardar lo conserva, Publicar lo publica."/>
+    <moqui.basic.LocalizedMessage original="A due date is yyyy-MM-dd" locale="es" localized="Una fecha de vencimiento es yyyy-MM-dd"/>
+    <moqui.basic.LocalizedMessage original="A file (optional; more on the request&apos;s Files tab)" locale="es" localized="Un archivo (opcional; hay más en la pestaña Archivos de la solicitud)"/>
+    <moqui.basic.LocalizedMessage original="A fixed amount" locale="es" localized="Un importe fijo"/>
+    <moqui.basic.LocalizedMessage original="A label" locale="es" localized="Una etiqueta"/>
+    <moqui.basic.LocalizedMessage original="A line per entry" locale="es" localized="Una línea por entrada"/>
+    <moqui.basic.LocalizedMessage original="A line per time entry" locale="es" localized="Una línea por registro de tiempo"/>
+    <moqui.basic.LocalizedMessage original="A line per worker" locale="es" localized="Una línea por trabajador"/>
+    <moqui.basic.LocalizedMessage original="A merged or closed merge request takes no comments" locale="es" localized="Una solicitud de fusión fusionada o cerrada no admite comentarios"/>
+    <moqui.basic.LocalizedMessage original="A milestone marks a point or a phase of a project; a release is a version that ships its work items." locale="es" localized="Un hito marca un punto o una fase de un proyecto; un lanzamiento es una versión que entrega sus elementos de trabajo."/>
+    <moqui.basic.LocalizedMessage original="A mirror URL is https, ssh or file" locale="es" localized="Una URL de espejo es https, ssh o file"/>
+    <moqui.basic.LocalizedMessage original="A mirror of a repository hosted elsewhere" locale="es" localized="Un espejo de un repositorio alojado en otro lugar"/>
+    <moqui.basic.LocalizedMessage original="A move goes to another status" locale="es" localized="Un movimiento pasa a otro estado"/>
+    <moqui.basic.LocalizedMessage original="A move of ${flowName}" locale="es" localized="Un movimiento de ${flowName}"/>
+    <moqui.basic.LocalizedMessage original="A new branch of ${repositoryId}" locale="es" localized="Una rama nueva de ${repositoryId}"/>
+    <moqui.basic.LocalizedMessage original="A new one in the database" locale="es" localized="Uno nuevo en la base de datos"/>
+    <moqui.basic.LocalizedMessage original="A new one on disk (code)" locale="es" localized="Uno nuevo en disco (código)"/>
+    <moqui.basic.LocalizedMessage original="A new push sets the approvals back" locale="es" localized="Un envío nuevo reinicia las aprobaciones"/>
+    <moqui.basic.LocalizedMessage original="A new repository" locale="es" localized="Un repositorio nuevo"/>
+    <moqui.basic.LocalizedMessage original="A new repository of ${workEffortId}" locale="es" localized="Un repositorio nuevo de ${workEffortId}"/>
+    <moqui.basic.LocalizedMessage original="A new sprint" locale="es" localized="Una iteración nueva"/>
+    <moqui.basic.LocalizedMessage original="A new tag of ${repositoryId}" locale="es" localized="Una etiqueta nueva de ${repositoryId}"/>
+    <moqui.basic.LocalizedMessage original="A percent of the line" locale="es" localized="Un porcentaje de la línea"/>
+    <moqui.basic.LocalizedMessage original="A person&apos;s rate on the project is used when it is the greater; a work item&apos;s rates, else its project&apos;s, come before rates on no project." locale="es" localized="La tarifa de la persona en el proyecto se usa si es la mayor; las del elemento, o si no las del proyecto, van antes que las tarifas sin proyecto."/>
+    <moqui.basic.LocalizedMessage original="A phase on the timeline" locale="es" localized="Una fase en la cronología"/>
+    <moqui.basic.LocalizedMessage original="A plus tag is letters, digits, dot or dash" locale="es" localized="Una etiqueta de más usa letras, dígitos, punto o guion"/>
+    <moqui.basic.LocalizedMessage original="A project cannot be under itself or one of its sub-projects" locale="es" localized="Un proyecto no puede estar bajo sí mismo ni bajo un subproyecto"/>
+    <moqui.basic.LocalizedMessage original="A project key is one to eight letters or digits" locale="es" localized="Una clave de proyecto tiene de una a ocho letras o dígitos"/>
+    <moqui.basic.LocalizedMessage original="A project needs a name" locale="es" localized="Un proyecto necesita un nombre"/>
+    <moqui.basic.LocalizedMessage original="A project template" locale="es" localized="Una plantilla de proyecto"/>
+    <moqui.basic.LocalizedMessage original="A project&apos;s estimated, actual and remaining work by milestone and down the work item tree." locale="es" localized="El trabajo estimado, real y restante de un proyecto, por hito y bajando por el árbol de elementos de trabajo."/>
+    <moqui.basic.LocalizedMessage original="A rate is a number, 0 or more" locale="es" localized="Una tarifa es un número, 0 o más"/>
+    <moqui.basic.LocalizedMessage original="A rate is for client billing or worker pay" locale="es" localized="Una tarifa sirve para facturar al cliente o pagar al trabajador"/>
+    <moqui.basic.LocalizedMessage original="A rate on this project" locale="es" localized="Una tarifa en este proyecto"/>
+    <moqui.basic.LocalizedMessage original="A request completes when its work does" locale="es" localized="Una solicitud se completa cuando lo hace su trabajo"/>
+    <moqui.basic.LocalizedMessage original="A role to staff (no person yet)" locale="es" localized="Un rol por cubrir (aún sin persona)"/>
+    <moqui.basic.LocalizedMessage original="A row that fails is left out and named with its reason; the others are imported." locale="es" localized="Una fila que falla se omite y se nombra con su motivo; las demás se importan."/>
+    <moqui.basic.LocalizedMessage original="A row that fails is listed with its reason and the others are imported." locale="es" localized="Una fila que falla se lista con su motivo y las demás se importan."/>
+    <moqui.basic.LocalizedMessage original="A subject, please" locale="es" localized="Un asunto, por favor"/>
+    <moqui.basic.LocalizedMessage original="A supervisor may override the conflicts: ask with a reason." locale="es" localized="Un supervisor puede omitir los conflictos: pídalo con un motivo."/>
+    <moqui.basic.LocalizedMessage original="A tag for ${release.workEffortName}" locale="es" localized="Una etiqueta para ${release.workEffortName}"/>
+    <moqui.basic.LocalizedMessage original="A tag named as the version, or v and the version (v1.4.0), links to the release when it is pushed." locale="es" localized="Una etiqueta llamada como la versión, o v y la versión (v1.4.0), se vincula al lanzamiento al enviarse."/>
+    <moqui.basic.LocalizedMessage original="A template from ${header.workEffortName}" locale="es" localized="Una plantilla a partir de ${header.workEffortName}"/>
+    <moqui.basic.LocalizedMessage original="A time entry finds its rate when it is logged: a rate on its work item, else on its project, else on no project; a person&apos;s own rate when it is the greater; the closest work type and position. Rates change only the time logged in their dates." locale="es" localized="Al registrarse, un registro de tiempo toma su tarifa: la del elemento, si no la del proyecto, si no ninguna; la de la persona si es mayor; el tipo y el puesto más cercanos. Solo cambia el tiempo registrado en sus fechas."/>
+    <moqui.basic.LocalizedMessage original="A type needs a label" locale="es" localized="Un tipo necesita una etiqueta"/>
+    <moqui.basic.LocalizedMessage original="A webhook of ${repositoryId}" locale="es" localized="Un webhook de ${repositoryId}"/>
+    <moqui.basic.LocalizedMessage original="A week is seen by its person and those who approve it." locale="es" localized="Una semana la ven su persona y quienes la aprueban."/>
+    <moqui.basic.LocalizedMessage original="A work flow moves between work statuses" locale="es" localized="Un flujo de trabajo pasa entre estados de trabajo"/>
+    <moqui.basic.LocalizedMessage original="A work item is not linked to itself" locale="es" localized="Un elemento de trabajo no se vincula a sí mismo"/>
+    <moqui.basic.LocalizedMessage original="A work item needs a title" locale="es" localized="Un elemento de trabajo necesita un título"/>
+    <moqui.basic.LocalizedMessage original="A work item type of your own" locale="es" localized="Un tipo de elemento de trabajo propio"/>
+    <moqui.basic.LocalizedMessage original="A work item&apos;s key in a commit message (IRON-12) links the commit to it; Fixes IRON-12 completes it when the commit reaches the default branch." locale="es" localized="La clave de un elemento de trabajo en el mensaje de confirmación (IRON-12) vincula la confirmación; Fixes IRON-12 lo completa cuando la confirmación llega a la rama predeterminada."/>
+    <moqui.basic.LocalizedMessage original="A work type needs a label" locale="es" localized="Un tipo de trabajo necesita una etiqueta"/>
+    <moqui.basic.LocalizedMessage original="A work type of your own" locale="es" localized="Un tipo de trabajo propio"/>
+    <moqui.basic.LocalizedMessage original="Able to merge (fast-forward)" locale="es" localized="Se puede fusionar (avance rápido)"/>
+    <moqui.basic.LocalizedMessage original="Access token (empty: kept)" locale="es" localized="Token de acceso (vacío: se conserva)"/>
+    <moqui.basic.LocalizedMessage original="Access tokens" locale="es" localized="Tokens de acceso"/>
+    <moqui.basic.LocalizedMessage original="Actual + remaining of estimate" locale="es" localized="Real + restante de la estimación"/>
+    <moqui.basic.LocalizedMessage original="Actual / est. h" locale="es" localized="Real / estim. h"/>
+    <moqui.basic.LocalizedMessage original="Actual d" locale="es" localized="Real d"/>
+    <moqui.basic.LocalizedMessage original="Actual h" locale="es" localized="Real h"/>
+    <moqui.basic.LocalizedMessage original="Actual hours" locale="es" localized="Horas reales"/>
+    <moqui.basic.LocalizedMessage original="Add SSH key" locale="es" localized="Añadir clave SSH"/>
+    <moqui.basic.LocalizedMessage original="Add Sprint ID" locale="es" localized="Añadir ID de iteración"/>
+    <moqui.basic.LocalizedMessage original="Add To Invoice ID" locale="es" localized="Añadir a ID de factura"/>
+    <moqui.basic.LocalizedMessage original="Add a client contact to ${project.workEffortName}" locale="es" localized="Añadir un contacto del cliente a ${project.workEffortName}"/>
+    <moqui.basic.LocalizedMessage original="Add a dependency" locale="es" localized="Añadir una dependencia"/>
+    <moqui.basic.LocalizedMessage original="Add a label to the selected work items" locale="es" localized="Añadir una etiqueta a los elementos de trabajo seleccionados"/>
+    <moqui.basic.LocalizedMessage original="Add a member to ${project.workEffortName}" locale="es" localized="Añadir un miembro a ${project.workEffortName}"/>
+    <moqui.basic.LocalizedMessage original="Add a row: a work item" locale="es" localized="Añadir una fila: un elemento de trabajo"/>
+    <moqui.basic.LocalizedMessage original="Add a team to ${project.workEffortName}" locale="es" localized="Añadir un equipo a ${project.workEffortName}"/>
+    <moqui.basic.LocalizedMessage original="Add a work item" locale="es" localized="Añadir un elemento de trabajo"/>
+    <moqui.basic.LocalizedMessage original="Add an SSH key" locale="es" localized="Añadir una clave SSH"/>
+    <moqui.basic.LocalizedMessage original="Add an address" locale="es" localized="Añadir una dirección"/>
+    <moqui.basic.LocalizedMessage original="Add an entry" locale="es" localized="Añadir una entrada"/>
+    <moqui.basic.LocalizedMessage original="Add contact" locale="es" localized="Añadir contacto"/>
+    <moqui.basic.LocalizedMessage original="Add deliverable" locale="es" localized="Añadir entregable"/>
+    <moqui.basic.LocalizedMessage original="Add dependency" locale="es" localized="Añadir dependencia"/>
+    <moqui.basic.LocalizedMessage original="Add items" locale="es" localized="Añadir elementos"/>
+    <moqui.basic.LocalizedMessage original="Add label" locale="es" localized="Añadir etiqueta"/>
+    <moqui.basic.LocalizedMessage original="Add member" locale="es" localized="Añadir miembro"/>
+    <moqui.basic.LocalizedMessage original="Add or rename a move" locale="es" localized="Añadir o cambiar el nombre de un movimiento"/>
+    <moqui.basic.LocalizedMessage original="Add rate" locale="es" localized="Añadir tarifa"/>
+    <moqui.basic.LocalizedMessage original="Add reviewers" locale="es" localized="Añadir revisores"/>
+    <moqui.basic.LocalizedMessage original="Add row" locale="es" localized="Añadir fila"/>
+    <moqui.basic.LocalizedMessage original="Add share" locale="es" localized="Añadir parte"/>
+    <moqui.basic.LocalizedMessage original="Add team" locale="es" localized="Añadir equipo"/>
+    <moqui.basic.LocalizedMessage original="Add the notes to CHANGELOG.md of the repository" locale="es" localized="Añadir las notas a CHANGELOG.md del repositorio"/>
+    <moqui.basic.LocalizedMessage original="Add time" locale="es" localized="Añadir tiempo"/>
+    <moqui.basic.LocalizedMessage original="Add to" locale="es" localized="Añadir a"/>
+    <moqui.basic.LocalizedMessage original="Add to an open draft (empty: a new invoice)" locale="es" localized="Añadir a un borrador abierto (vacío: una factura nueva)"/>
+    <moqui.basic.LocalizedMessage original="Add work items to ${milestone.workEffortName}" locale="es" localized="Añadir elementos de trabajo a ${milestone.workEffortName}"/>
+    <moqui.basic.LocalizedMessage original="Add work items to ${release.workEffortName}" locale="es" localized="Añadir elementos de trabajo a ${release.workEffortName}"/>
+    <moqui.basic.LocalizedMessage original="Added after the start" locale="es" localized="Añadido después del inicio"/>
+    <moqui.basic.LocalizedMessage original="Ahead · behind" locale="es" localized="Por delante · por detrás"/>
+    <moqui.basic.LocalizedMessage original="All billable time is invoiced" locale="es" localized="Todo el tiempo facturable está facturado"/>
+    <moqui.basic.LocalizedMessage original="All files" locale="es" localized="Todos los archivos"/>
+    <moqui.basic.LocalizedMessage original="All invoices" locale="es" localized="Todas las facturas"/>
+    <moqui.basic.LocalizedMessage original="All kinds" locale="es" localized="Todas las clases"/>
+    <moqui.basic.LocalizedMessage original="All merge requests" locale="es" localized="Todas las solicitudes de fusión"/>
+    <moqui.basic.LocalizedMessage original="All my work items" locale="es" localized="Todos mis elementos de trabajo"/>
+    <moqui.basic.LocalizedMessage original="All projects" locale="es" localized="Todos los proyectos"/>
+    <moqui.basic.LocalizedMessage original="All rates" locale="es" localized="Todas las tarifas"/>
+    <moqui.basic.LocalizedMessage original="All reports" locale="es" localized="Todos los reportes"/>
+    <moqui.basic.LocalizedMessage original="All time" locale="es" localized="Todo el tiempo"/>
+    <moqui.basic.LocalizedMessage original="All timesheets to approve" locale="es" localized="Todas las hojas de horas por aprobar"/>
+    <moqui.basic.LocalizedMessage original="All unbilled" locale="es" localized="Todo sin facturar"/>
+    <moqui.basic.LocalizedMessage original="All unbilled time" locale="es" localized="Todo el tiempo sin facturar"/>
+    <moqui.basic.LocalizedMessage original="All users" locale="es" localized="Todos los usuarios"/>
+    <moqui.basic.LocalizedMessage original="All work items" locale="es" localized="Todos los elementos de trabajo"/>
+    <moqui.basic.LocalizedMessage original="Alloc Work Effort ID" locale="es" localized="ID de actividad de asignación"/>
+    <moqui.basic.LocalizedMessage original="Allocate" locale="es" localized="Asignar"/>
+    <moqui.basic.LocalizedMessage original="Allocation" locale="es" localized="Asignación"/>
+    <moqui.basic.LocalizedMessage original="Allocation ${workEffortAllocationId} is not available." locale="es" localized="La asignación ${workEffortAllocationId} no está disponible."/>
+    <moqui.basic.LocalizedMessage original="Allocation moved" locale="es" localized="Asignación movida"/>
+    <moqui.basic.LocalizedMessage original="Allocation requests" locale="es" localized="Solicitudes de asignación"/>
+    <moqui.basic.LocalizedMessage original="Allocations" locale="es" localized="Asignaciones"/>
+    <moqui.basic.LocalizedMessage original="Allocations · ${allocationList.length}" locale="es" localized="Asignaciones · ${allocationList.length}"/>
+    <moqui.basic.LocalizedMessage original="Allocations · ${allocationRows.length}" locale="es" localized="Asignaciones · ${allocationRows.length}"/>
+    <moqui.basic.LocalizedMessage original="Already merged" locale="es" localized="Ya fusionado"/>
+    <moqui.basic.LocalizedMessage original="Already open" locale="es" localized="Ya abierto"/>
+    <moqui.basic.LocalizedMessage original="Also made: ${madeText}." locale="es" localized="También creado: ${madeText}."/>
+    <moqui.basic.LocalizedMessage original="Amber" locale="es" localized="Ámbar"/>
+    <moqui.basic.LocalizedMessage original="Amber: waiting" locale="es" localized="Ámbar: en espera"/>
+    <moqui.basic.LocalizedMessage original="Amount an hour" locale="es" localized="Importe por hora"/>
+    <moqui.basic.LocalizedMessage original="An accepted deliverable stays" locale="es" localized="Un entregable aceptado permanece"/>
+    <moqui.basic.LocalizedMessage original="An allocation on ${project.workEffortName}" locale="es" localized="Una asignación en ${project.workEffortName}"/>
+    <moqui.basic.LocalizedMessage original="An archived repository is read only: pushes, merges and changes are refused and its open merge requests closed. It is left out of the lists, under the Archived chip." locale="es" localized="Un repositorio archivado es de solo lectura: se rechazan envíos, fusiones y cambios, y se cierran sus solicitudes de fusión abiertas. Queda fuera de las listas, bajo la etiqueta Archivado."/>
+    <moqui.basic.LocalizedMessage original="An email address we can answer, please" locale="es" localized="Un correo electrónico al que podamos responder, por favor"/>
+    <moqui.basic.LocalizedMessage original="An hour" locale="es" localized="Una hora"/>
+    <moqui.basic.LocalizedMessage original="An invoice is a draft until approved; Send emails it to the client&apos;s billing address as a PDF with the time detail." locale="es" localized="Una factura es un borrador hasta aprobarse; Enviar la manda por correo electrónico a la dirección de facturación del cliente, en PDF y con el detalle de tiempo."/>
+    <moqui.basic.LocalizedMessage original="An item is in one milestone at a time: adding it here takes it out of another." locale="es" localized="Un elemento está en un solo hito a la vez: añadirlo aquí lo saca de otro."/>
+    <moqui.basic.LocalizedMessage original="An item is in one release at a time: adding it here takes it out of another." locale="es" localized="Un elemento está en un solo lanzamiento a la vez: añadirlo aquí lo saca de otro."/>
+    <moqui.basic.LocalizedMessage original="An order line this project fulfils" locale="es" localized="Una línea de orden que cumple este proyecto"/>
+    <moqui.basic.LocalizedMessage original="Any project" locale="es" localized="Cualquier proyecto"/>
+    <moqui.basic.LocalizedMessage original="Any project manager (the Time approve permission)" locale="es" localized="Cualquier gerente de proyecto (el permiso de aprobar Tiempo)"/>
+    <moqui.basic.LocalizedMessage original="Any work" locale="es" localized="Cualquier trabajo"/>
+    <moqui.basic.LocalizedMessage original="Anyone" locale="es" localized="Cualquiera"/>
+    <moqui.basic.LocalizedMessage original="Anyone with the link may send a request" locale="es" localized="Quien tenga el enlace puede enviar una solicitud"/>
+    <moqui.basic.LocalizedMessage original="Applies to" locale="es" localized="Se aplica a"/>
+    <moqui.basic.LocalizedMessage original="Approval asked for" locale="es" localized="Aprobación solicitada"/>
+    <moqui.basic.LocalizedMessage original="Approvals a merge needs" locale="es" localized="Aprobaciones que una fusión necesita"/>
+    <moqui.basic.LocalizedMessage original="Approvals required" locale="es" localized="Aprobaciones requeridas"/>
+    <moqui.basic.LocalizedMessage original="Approve ${milestone.workEffortName}? It is reached. ${approveNote}" locale="es" localized="¿Aprobar ${milestone.workEffortName}? Queda alcanzado. ${approveNote}"/>
+    <moqui.basic.LocalizedMessage original="Approve override" locale="es" localized="Aprobar excepción"/>
+    <moqui.basic.LocalizedMessage original="Approve the override" locale="es" localized="Aprobar la excepción"/>
+    <moqui.basic.LocalizedMessage original="Approve time" locale="es" localized="Aprobar tiempo"/>
+    <moqui.basic.LocalizedMessage original="Approve, reject or cancel an allocation" locale="es" localized="Aprobar, rechazar o cancelar una asignación"/>
+    <moqui.basic.LocalizedMessage original="Approve: ${header.workEffortName}?" locale="es" localized="¿Aprobar: ${header.workEffortName}?"/>
+    <moqui.basic.LocalizedMessage original="Approve: ready to merge" locale="es" localized="Aprobar: listo para fusionar"/>
+    <moqui.basic.LocalizedMessage original="Approved time to invoice" locale="es" localized="Tiempo aprobado para facturar"/>
+    <moqui.basic.LocalizedMessage original="Approved: the milestone is reached" locale="es" localized="Aprobado: el hito se alcanzó"/>
+    <moqui.basic.LocalizedMessage original="Approved: the milestone is reached and the project approved" locale="es" localized="Aprobado: el hito se alcanzó y el proyecto quedó aprobado"/>
+    <moqui.basic.LocalizedMessage original="Approver (a manager or a client contact)" locale="es" localized="Aprobador (un gerente o un contacto del cliente)"/>
+    <moqui.basic.LocalizedMessage original="Approver: ${extras.approverName}" locale="es" localized="Aprobador: ${extras.approverName}"/>
+    <moqui.basic.LocalizedMessage original="Approvers" locale="es" localized="Aprobadores"/>
+    <moqui.basic.LocalizedMessage original="Approving it reaches the milestone." locale="es" localized="Aprobarlo alcanza el hito."/>
+    <moqui.basic.LocalizedMessage original="Archive ${repositoryId}? It becomes read only." locale="es" localized="¿Archivar ${repositoryId}? Queda en solo lectura."/>
+    <moqui.basic.LocalizedMessage original="Archived: read only." locale="es" localized="Archivado: solo lectura."/>
+    <moqui.basic.LocalizedMessage original="As" locale="es" localized="Como"/>
+    <moqui.basic.LocalizedMessage original="Ask ${extras.approverName} to approve ${milestone.workEffortName}" locale="es" localized="Pedir a ${extras.approverName} que apruebe ${milestone.workEffortName}"/>
+    <moqui.basic.LocalizedMessage original="Ask a project manager to add you to a project." locale="es" localized="Pida a un gerente de proyecto que le añada a un proyecto."/>
+    <moqui.basic.LocalizedMessage original="Ask for a CAPTCHA (reCAPTCHA)" locale="es" localized="Pedir un CAPTCHA (reCAPTCHA)"/>
+    <moqui.basic.LocalizedMessage original="Ask for a review of ${mr.numText}" locale="es" localized="Pedir una revisión de ${mr.numText}"/>
+    <moqui.basic.LocalizedMessage original="Ask for approval" locale="es" localized="Pedir aprobación"/>
+    <moqui.basic.LocalizedMessage original="Asked" locale="es" localized="Solicitado"/>
+    <moqui.basic.LocalizedMessage original="Assign the selected requests to" locale="es" localized="Asignar las solicitudes seleccionadas a"/>
+    <moqui.basic.LocalizedMessage original="Assign the selected work items to" locale="es" localized="Asignar los elementos de trabajo seleccionados a"/>
+    <moqui.basic.LocalizedMessage original="Assign to me" locale="es" localized="Asignarme"/>
+    <moqui.basic.LocalizedMessage original="Assigned work" locale="es" localized="Trabajo asignado"/>
+    <moqui.basic.LocalizedMessage original="Assignee (empty: for triage)" locale="es" localized="Responsable (vacío: para clasificar)"/>
+    <moqui.basic.LocalizedMessage original="Assignee (empty: unassigned)" locale="es" localized="Responsable (vacío: sin asignar)"/>
+    <moqui.basic.LocalizedMessage original="At (branch, tag or commit)" locale="es" localized="En (rama, etiqueta o confirmación)"/>
+    <moqui.basic.LocalizedMessage original="At (hour, 0 to 23)" locale="es" localized="A la hora (0 a 23)"/>
+    <moqui.basic.LocalizedMessage original="At most" locale="es" localized="Como máximo"/>
+    <moqui.basic.LocalizedMessage original="At risk" locale="es" localized="En riesgo"/>
+    <moqui.basic.LocalizedMessage original="At the bottom" locale="es" localized="Al final"/>
+    <moqui.basic.LocalizedMessage original="At the top" locale="es" localized="Al principio"/>
+    <moqui.basic.LocalizedMessage original="Auto-schedule" locale="es" localized="Programar automáticamente"/>
+    <moqui.basic.LocalizedMessage original="Average completed" locale="es" localized="Promedio completado"/>
+    <moqui.basic.LocalizedMessage original="Average cycle" locale="es" localized="Ciclo promedio"/>
+    <moqui.basic.LocalizedMessage original="Avg cycle (days)" locale="es" localized="Ciclo prom. (días)"/>
+    <moqui.basic.LocalizedMessage original="Awaiting approval" locale="es" localized="En espera de aprobación"/>
+    <moqui.basic.LocalizedMessage original="Back to Merge requests" locale="es" localized="Volver a solicitudes de fusión"/>
+    <moqui.basic.LocalizedMessage original="Back to Projects" locale="es" localized="Volver a proyectos"/>
+    <moqui.basic.LocalizedMessage original="Back to Repositories" locale="es" localized="Volver a repositorios"/>
+    <moqui.basic.LocalizedMessage original="Back to Start" locale="es" localized="Volver al inicio"/>
+    <moqui.basic.LocalizedMessage original="Back to the backlog" locale="es" localized="Volver a pendientes"/>
+    <moqui.basic.LocalizedMessage original="Back to the repository" locale="es" localized="Volver al repositorio"/>
+    <moqui.basic.LocalizedMessage original="Back to the roadmap" locale="es" localized="Volver a la hoja de ruta"/>
+    <moqui.basic.LocalizedMessage original="Back to the timesheets" locale="es" localized="Volver a las hojas de horas"/>
+    <moqui.basic.LocalizedMessage original="Back to the top" locale="es" localized="Volver arriba"/>
+    <moqui.basic.LocalizedMessage original="Backlog" locale="es" localized="Pendientes"/>
+    <moqui.basic.LocalizedMessage original="Backlog and sprints" locale="es" localized="Pendientes e iteraciones"/>
+    <moqui.basic.LocalizedMessage original="Base (into)" locale="es" localized="Base (destino)"/>
+    <moqui.basic.LocalizedMessage original="Based on" locale="es" localized="Basado en"/>
+    <moqui.basic.LocalizedMessage original="Basis of" locale="es" localized="Base de"/>
+    <moqui.basic.LocalizedMessage original="Before it merges" locale="es" localized="Antes de fusionarse"/>
+    <moqui.basic.LocalizedMessage original="Below its hours" locale="es" localized="Por debajo de sus horas"/>
+    <moqui.basic.LocalizedMessage original="Below the day&apos;s hours" locale="es" localized="Por debajo de las horas del día"/>
+    <moqui.basic.LocalizedMessage original="Bill to" locale="es" localized="Facturar a"/>
+    <moqui.basic.LocalizedMessage original="Billable hours" locale="es" localized="Horas facturables"/>
+    <moqui.basic.LocalizedMessage original="Billable or not" locale="es" localized="Facturable o no"/>
+    <moqui.basic.LocalizedMessage original="Billable share" locale="es" localized="Parte facturable"/>
+    <moqui.basic.LocalizedMessage original="Billable time is any rate type but no charge; its value is the hours at the client rate of each entry (the entry&apos;s own, else its rate)." locale="es" localized="El tiempo facturable es cualquier tipo de tarifa salvo sin cargo; su valor son las horas a la tarifa del cliente de cada entrada (la de la entrada o, si no, su tarifa)."/>
+    <moqui.basic.LocalizedMessage original="Billable utilization" locale="es" localized="Utilización facturable"/>
+    <moqui.basic.LocalizedMessage original="Billable value" locale="es" localized="Valor facturable"/>
+    <moqui.basic.LocalizedMessage original="Billable value and cost by project · ${rangeText}" locale="es" localized="Valor facturable y costo por proyecto · ${rangeText}"/>
+    <moqui.basic.LocalizedMessage original="Billed by milestones" locale="es" localized="Facturado por hitos"/>
+    <moqui.basic.LocalizedMessage original="Billing basis of a new project" locale="es" localized="Base de facturación de un proyecto nuevo"/>
+    <moqui.basic.LocalizedMessage original="Billing defaults" locale="es" localized="Valores de facturación"/>
+    <moqui.basic.LocalizedMessage original="Billing defaults for new projects, invoice grouping and time detail, contractor billing." locale="es" localized="Valores de facturación para proyectos nuevos, agrupación de facturas, detalle de tiempo y facturación de contratistas."/>
+    <moqui.basic.LocalizedMessage original="Billing defaults saved" locale="es" localized="Valores de facturación guardados"/>
+    <moqui.basic.LocalizedMessage original="Billing is for those who manage money." locale="es" localized="La facturación es para quienes administran el dinero."/>
+    <moqui.basic.LocalizedMessage original="Billing share saved" locale="es" localized="Parte de facturación guardada"/>
+    <moqui.basic.LocalizedMessage original="Billing share taken off" locale="es" localized="Parte de facturación quitada"/>
+    <moqui.basic.LocalizedMessage original="Billing · ${shareRows.length}" locale="es" localized="Facturación · ${shareRows.length}"/>
+    <moqui.basic.LocalizedMessage original="Blocks" locale="es" localized="Bloquea"/>
+    <moqui.basic.LocalizedMessage original="Blue: in progress" locale="es" localized="Azul: en progreso"/>
+    <moqui.basic.LocalizedMessage original="Branch name of a work item (&lt;id&gt;, &lt;KEY&gt;, &lt;n&gt;, &lt;words&gt;, &lt;type&gt;)" locale="es" localized="Nombre de la rama de un elemento de trabajo (&lt;id&gt;, &lt;KEY&gt;, &lt;n&gt;, &lt;words&gt;, &lt;type&gt;)"/>
+    <moqui.basic.LocalizedMessage original="Branch or pattern" locale="es" localized="Rama o patrón"/>
+    <moqui.basic.LocalizedMessage original="Branch or pattern (release/*, refs/tags/v*)" locale="es" localized="Rama o patrón (release/*, refs/tags/v*)"/>
+    <moqui.basic.LocalizedMessage original="Branch or tag" locale="es" localized="Rama o etiqueta"/>
+    <moqui.basic.LocalizedMessage original="Branch rule deleted" locale="es" localized="Regla de rama eliminada"/>
+    <moqui.basic.LocalizedMessage original="Branch rule saved" locale="es" localized="Regla de rama guardada"/>
+    <moqui.basic.LocalizedMessage original="Branch rules" locale="es" localized="Reglas de rama"/>
+    <moqui.basic.LocalizedMessage original="Branches" locale="es" localized="Ramas"/>
+    <moqui.basic.LocalizedMessage original="Branches · ${branchList.length}" locale="es" localized="Ramas · ${branchList.length}"/>
+    <moqui.basic.LocalizedMessage original="Break (h)" locale="es" localized="Descanso (h)"/>
+    <moqui.basic.LocalizedMessage original="Break (hours)" locale="es" localized="Descanso (horas)"/>
+    <moqui.basic.LocalizedMessage original="Breakdown" locale="es" localized="Desglose"/>
+    <moqui.basic.LocalizedMessage original="Browse files" locale="es" localized="Examinar archivos"/>
+    <moqui.basic.LocalizedMessage original="Budget Used Text" locale="es" localized="Texto de presupuesto usado"/>
+    <moqui.basic.LocalizedMessage original="Budget and actuals" locale="es" localized="Presupuesto y reales"/>
+    <moqui.basic.LocalizedMessage original="Budget h" locale="es" localized="Presupuesto h"/>
+    <moqui.basic.LocalizedMessage original="Budget of the project" locale="es" localized="Presupuesto del proyecto"/>
+    <moqui.basic.LocalizedMessage original="Budget remaining" locale="es" localized="Presupuesto restante"/>
+    <moqui.basic.LocalizedMessage original="Budget saved" locale="es" localized="Presupuesto guardado"/>
+    <moqui.basic.LocalizedMessage original="Budget used" locale="es" localized="Presupuesto usado"/>
+    <moqui.basic.LocalizedMessage original="Budget, cost, billable value, billed and margin by project, with totals by client." locale="es" localized="Presupuesto, costo, valor facturable, facturado y margen por proyecto, con totales por cliente."/>
+    <moqui.basic.LocalizedMessage original="Bug" locale="es" localized="Error"/>
+    <moqui.basic.LocalizedMessage original="Build" locale="es" localized="Compilación"/>
+    <moqui.basic.LocalizedMessage original="Burndown" locale="es" localized="Quemado"/>
+    <moqui.basic.LocalizedMessage original="Burndown by day" locale="es" localized="Quemado por día"/>
+    <moqui.basic.LocalizedMessage original="Burndown of ${sprint.workEffortName}" locale="es" localized="Quemado de ${sprint.workEffortName}"/>
+    <moqui.basic.LocalizedMessage original="Burndown · ${sprintTitle}" locale="es" localized="Quemado · ${sprintTitle}"/>
+    <moqui.basic.LocalizedMessage original="By ${groupTitle} · ${itemCountText} work items" locale="es" localized="Por ${groupTitle} · ${itemCountText} elementos de trabajo"/>
+    <moqui.basic.LocalizedMessage original="By Text" locale="es" localized="Por texto"/>
+    <moqui.basic.LocalizedMessage original="By client" locale="es" localized="Por cliente"/>
+    <moqui.basic.LocalizedMessage original="By hand" locale="es" localized="A mano"/>
+    <moqui.basic.LocalizedMessage original="By milestone" locale="es" localized="Por hito"/>
+    <moqui.basic.LocalizedMessage original="By milestones" locale="es" localized="Por hitos"/>
+    <moqui.basic.LocalizedMessage original="By person" locale="es" localized="Por persona"/>
+    <moqui.basic.LocalizedMessage original="By person and week" locale="es" localized="Por persona y semana"/>
+    <moqui.basic.LocalizedMessage original="By person · ${rangeText}" locale="es" localized="Por persona · ${rangeText}"/>
+    <moqui.basic.LocalizedMessage original="By project" locale="es" localized="Por proyecto"/>
+    <moqui.basic.LocalizedMessage original="By project · ${rangeText}" locale="es" localized="Por proyecto · ${rangeText}"/>
+    <moqui.basic.LocalizedMessage original="By week" locale="es" localized="Por semana"/>
+    <moqui.basic.LocalizedMessage original="By work item" locale="es" localized="Por elemento de trabajo"/>
+    <moqui.basic.LocalizedMessage original="By work item, against its estimate" locale="es" localized="Por elemento de trabajo, frente a su estimación"/>
+    <moqui.basic.LocalizedMessage original="By work type" locale="es" localized="Por tipo de trabajo"/>
+    <moqui.basic.LocalizedMessage original="Cancel ${project.workEffortName}? It will not be done." locale="es" localized="¿Cancelar ${project.workEffortName}? No se completará."/>
+    <moqui.basic.LocalizedMessage original="Cancel allocation" locale="es" localized="Cancelar asignación"/>
+    <moqui.basic.LocalizedMessage original="Cancel the allocation" locale="es" localized="Cancelar la asignación"/>
+    <moqui.basic.LocalizedMessage original="Cancel the project" locale="es" localized="Cancelar el proyecto"/>
+    <moqui.basic.LocalizedMessage original="Cancel the selected requests" locale="es" localized="Cancelar las solicitudes seleccionadas"/>
+    <moqui.basic.LocalizedMessage original="Cancel the selected requests?" locale="es" localized="¿Cancelar las solicitudes seleccionadas?"/>
+    <moqui.basic.LocalizedMessage original="Cancel them" locale="es" localized="Cancelarlas"/>
+    <moqui.basic.LocalizedMessage original="Cancel this allocation of ${whoText} on ${projectName}?" locale="es" localized="¿Cancelar esta asignación de ${whoText} en ${projectName}?"/>
+    <moqui.basic.LocalizedMessage original="Cancel this allocation of ${whoText}?" locale="es" localized="¿Cancelar esta asignación de ${whoText}?"/>
+    <moqui.basic.LocalizedMessage original="Cancel: ${header.workEffortName}?" locale="es" localized="¿Cancelar: ${header.workEffortName}?"/>
+    <moqui.basic.LocalizedMessage original="Cancel: ${milestone.workEffortName}?" locale="es" localized="¿Cancelar: ${milestone.workEffortName}?"/>
+    <moqui.basic.LocalizedMessage original="Cancel: ${release.workEffortName}?" locale="es" localized="¿Cancelar: ${release.workEffortName}?"/>
+    <moqui.basic.LocalizedMessage original="Candidate" locale="es" localized="Candidato"/>
+    <moqui.basic.LocalizedMessage original="a week" locale="es" localized="una semana"/>
+    <moqui.basic.LocalizedMessage original="an earlier push" locale="es" localized="un envío anterior"/>
+    <moqui.basic.LocalizedMessage original="any project" locale="es" localized="cualquier proyecto"/>
+    <moqui.basic.LocalizedMessage original="any work" locale="es" localized="cualquier trabajo"/>
+    <moqui.basic.LocalizedMessage original="as found" locale="es" localized="como se encontró"/>
+    <moqui.basic.LocalizedMessage original="asked by" locale="es" localized="solicitado por"/>
+    <moqui.basic.LocalizedMessage original="below its hours" locale="es" localized="por debajo de sus horas"/>
+</entity-facade-xml>

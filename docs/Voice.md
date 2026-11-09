@@ -98,3 +98,22 @@ Labels are short bare verbs (保存, 取消). Financial and GL account is 账户
 Do not use 軟體, 資訊, 預設, 檔案, 設定, 網路, 程式 (程序 is the word; 方程式 may stay), 視窗, 螢幕, 滑鼠, 資料, or Cantonese 嘅 喺 唔 佢 咗 啲. Use 软件, 信息, 默认, 文件, 设置, 网络, 程序, 窗口, 屏幕, 鼠标, 数据.
 
 A `zh` row is stored only when the text differs from the English original. The omitted originals are listed in `data/zh/unchanged-*.txt`, which the loader ignores. This pack follows the Spanish key set. A name that is spelled the same in English and Spanish, such as China or a province written in English, has no row in either pack, so a `zh` user still sees that English name. Placeholders `${...}` and `{0}` `{1}` `{2}` `{3}` are copied unchanged, including a `{n,choice,...}` pattern. Natural-language words inside a `${}` string literal are translated (`'No Lot #'`, `'N/A'`). A `##` inside a number pattern such as `#,##0.00` or `###-###` stays. The localized value is at most 255 characters.
+
+## Boss apps
+
+Commons, Comms, and Projects add these words. Use them for that sense wherever the English says so. Words already in the pack stay as stored: Party is Participante / 参与方, Work item is Elemento de trabajo / 工作项, Timesheet is Hoja de horas / 工时表, Milestone is Hito / 里程碑, Repository is Repositorio / 代码库, Task is Tarea / 任务, Request is Solicitud / 请求, Note is Nota / 备注, Notes is Notas / 备注, Contact is Contacto / 联系人, Chat is Conversación / 聊天, Comms is Comunicaciones / 通信, Inbox is Bandeja de entrada / 收件箱, Billable is Facturable / 可计费, Commit (a git commit) is Confirmación / 提交记录, Branch is Rama / 分支, and the verb Merge is Fusionar / 合并. Submit stays 提交. Wiki Space stays Espacio Wiki.
+
+| English | es | zh |
+| --- | --- | --- |
+| Sprint | Iteración | 迭代 |
+| Backlog | Pendientes | 待办 |
+| Merge request | Solicitud de fusión | 合并请求 |
+| Roadmap | Hoja de ruta | 路线图 |
+| Allocation | Asignación | 分配 |
+| Drive (a file drive) | Unidad | 网盘 |
+| Commons (the app) | Área común | 共享 |
+| Wiki page | Página wiki | 维基页面 |
+| Epic | Épica | 史诗 |
+| Unbilled | Sin facturar | 未开票 |
+
+A shell command (`git clone`, `git fetch`, `git checkout`, `git push`) stays byte for byte. Moqui, MR Moqui, Marble, Mantle, and IronStone stay as written. CalDAV, CardDAV, WebDAV, DAVx⁵, and PO stay as written.

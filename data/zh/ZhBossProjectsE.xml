@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="zh">
+    <moqui.basic.LocalizedMessage original="Sub-projects shown" locale="zh" localized="已显示子项目"/>
+    <moqui.basic.LocalizedMessage original="Submit anyway" locale="zh" localized="仍然提交"/>
+    <moqui.basic.LocalizedMessage original="Submit anyway, or add the missing time first." locale="zh" localized="仍然提交，或先补上缺少的时间。"/>
+    <moqui.basic.LocalizedMessage original="Submit review" locale="zh" localized="提交审阅"/>
+    <moqui.basic.LocalizedMessage original="Submit the week" locale="zh" localized="提交本周"/>
+    <moqui.basic.LocalizedMessage original="Submit the week? It is locked until its approver returns it." locale="zh" localized="提交本周？在审批人退回之前将保持锁定。"/>
+    <moqui.basic.LocalizedMessage original="Submit this week&apos;s time for approval? It is locked until it is returned or reopened." locale="zh" localized="提交本周工时以供审批？在退回或重新打开之前将保持锁定。"/>
+    <moqui.basic.LocalizedMessage original="Submit week" locale="zh" localized="提交本周"/>
+    <moqui.basic.LocalizedMessage original="Submitted or approved" locale="zh" localized="已提交或已批准"/>
+    <moqui.basic.LocalizedMessage original="Summary (markdown)" locale="zh" localized="摘要（markdown）"/>
+    <moqui.basic.LocalizedMessage original="Summary (markdown): what was done, what comes next, what is in the way" locale="zh" localized="摘要（markdown）：完成了什么、接下来做什么、有什么阻碍"/>
+    <moqui.basic.LocalizedMessage original="Swap" locale="zh" localized="交换"/>
+    <moqui.basic.LocalizedMessage original="Tag Name" locale="zh" localized="标签名称"/>
+    <moqui.basic.LocalizedMessage original="Tags · ${tagList.length}" locale="zh" localized="标签 · ${tagList.length}"/>
+    <moqui.basic.LocalizedMessage original="Take" locale="zh" localized="移除"/>
+    <moqui.basic.LocalizedMessage original="Take ${deliverableName} off the milestone?" locale="zh" localized="将 ${deliverableName} 移出里程碑？"/>
+    <moqui.basic.LocalizedMessage original="Take ${name} off ${project.workEffortName} as ${roleText}?" locale="zh" localized="将 ${name} 从 ${project.workEffortName} 移除（角色 ${roleText}）？"/>
+    <moqui.basic.LocalizedMessage original="Take ${name} off ${project.workEffortName}?" locale="zh" localized="将 ${name} 从 ${project.workEffortName} 移除？"/>
+    <moqui.basic.LocalizedMessage original="Take ${workEffortId} out of ${milestone.workEffortName}?" locale="zh" localized="将 ${workEffortId} 移出 ${milestone.workEffortName}？"/>
+    <moqui.basic.LocalizedMessage original="Take ${workEffortId} out of ${release.workEffortName}?" locale="zh" localized="将 ${workEffortId} 移出 ${release.workEffortName}？"/>
+    <moqui.basic.LocalizedMessage original="Take a label off the selected work items" locale="zh" localized="从所选工作项去掉一个标签"/>
+    <moqui.basic.LocalizedMessage original="Take it off" locale="zh" localized="移除它"/>
+    <moqui.basic.LocalizedMessage original="Take the address off" locale="zh" localized="去掉地址"/>
+    <moqui.basic.LocalizedMessage original="Take the share off" locale="zh" localized="去掉份额"/>
+    <moqui.basic.LocalizedMessage original="Take this billing share off?" locale="zh" localized="去掉此开票份额？"/>
+    <moqui.basic.LocalizedMessage original="Taken off its project" locale="zh" localized="已移出其项目"/>
+    <moqui.basic.LocalizedMessage original="Taken off the project" locale="zh" localized="已移出项目"/>
+    <moqui.basic.LocalizedMessage original="Target branch" locale="zh" localized="目标分支"/>
+    <moqui.basic.LocalizedMessage original="Target date" locale="zh" localized="目标日期"/>
+    <moqui.basic.LocalizedMessage original="Teal: informational" locale="zh" localized="青色：信息"/>
+    <moqui.basic.LocalizedMessage original="Team Party ID" locale="zh" localized="团队参与方 ID"/>
+    <moqui.basic.LocalizedMessage original="Team planner" locale="zh" localized="团队规划"/>
+    <moqui.basic.LocalizedMessage original="Team timesheet" locale="zh" localized="团队工时表"/>
+    <moqui.basic.LocalizedMessage original="Teams" locale="zh" localized="团队"/>
+    <moqui.basic.LocalizedMessage original="Tell the followers" locale="zh" localized="通知关注者"/>
+    <moqui.basic.LocalizedMessage original="Tell us what you need in the description, please" locale="zh" localized="请在描述中说明您的需要"/>
+    <moqui.basic.LocalizedMessage original="Tell us what you need. We answer by email." locale="zh" localized="请告诉我们您的需要。我们通过电子邮件回复。"/>
+    <moqui.basic.LocalizedMessage original="Template name" locale="zh" localized="模板名称"/>
+    <moqui.basic.LocalizedMessage original="Template: changes here shape the new projects made from it. It is left out of the project lists; Settings, Templates lists it." locale="zh" localized="模板：此处的更改决定据此新建的项目。它不在项目列表中；设置、模板会列出它。"/>
+    <moqui.basic.LocalizedMessage original="Templates" locale="zh" localized="模板"/>
+    <moqui.basic.LocalizedMessage original="Templates · ${templateList.length}" locale="zh" localized="模板 · ${templateList.length}"/>
+    <moqui.basic.LocalizedMessage original="Text in the comment" locale="zh" localized="评论中的文本"/>
+    <moqui.basic.LocalizedMessage original="Text in the name" locale="zh" localized="名称中的文本"/>
+    <moqui.basic.LocalizedMessage original="Text in the title" locale="zh" localized="标题中的文本"/>
+    <moqui.basic.LocalizedMessage original="Text or ID" locale="zh" localized="文本或 ID"/>
+    <moqui.basic.LocalizedMessage original="Text or id" locale="zh" localized="文本或 ID"/>
+    <moqui.basic.LocalizedMessage original="Text or key" locale="zh" localized="文本或键"/>
+    <moqui.basic.LocalizedMessage original="Thank you, we have your request" locale="zh" localized="谢谢，我们已收到您的请求"/>
+    <moqui.basic.LocalizedMessage original="The 15 with the most time are shown" locale="zh" localized="显示用时最多的 15 项"/>
+    <moqui.basic.LocalizedMessage original="The Backlog opens in the browser app (the qvue render mode)." locale="zh" localized="待办在浏览器应用中打开（qvue 渲染模式）。"/>
+    <moqui.basic.LocalizedMessage original="The CAPTCHA needs the reCAPTCHA keys (the reCAPTCHA.site.key and reCAPTCHA.secret.key preferences); none are set, so it is not asked." locale="zh" localized="CAPTCHA 需要 reCAPTCHA 密钥（首选项 reCAPTCHA.site.key 和 reCAPTCHA.secret.key）；均未设置，因此不会要求验证。"/>
+    <moqui.basic.LocalizedMessage original="The Code module is off for this project${repositoryList.length ? &apos;; its linked repositories are below&apos; : &apos;&apos;}." locale="zh" localized="此项目的代码模块已关闭${repositoryList.length ? &apos;；其关联的代码库如下&apos; : &apos;&apos;}。"/>
+    <moqui.basic.LocalizedMessage original="The Timeline opens in the browser app (the qvue render mode)." locale="zh" localized="时间线在浏览器应用中打开（qvue 渲染模式）。"/>
+    <moqui.basic.LocalizedMessage original="The backlog" locale="zh" localized="待办"/>
+    <moqui.basic.LocalizedMessage original="The backlog is empty" locale="zh" localized="待办为空"/>
+    <moqui.basic.LocalizedMessage original="The backlog is empty: every open work item is planned." locale="zh" localized="待办为空：每个未关闭的工作项都已列入计划。"/>
+    <moqui.basic.LocalizedMessage original="The backlog is of a project you see. Ask a project manager to add you to one." locale="zh" localized="待办属于您能看到的项目。请让项目经理把您加入其中一个。"/>
+    <moqui.basic.LocalizedMessage original="The branch rule ${refPattern}" locale="zh" localized="分支规则 ${refPattern}"/>
+    <moqui.basic.LocalizedMessage original="The branch rule applies when Protect is on, to repositories made from now on; each repository&apos;s own rules are in its Settings." locale="zh" localized="保护开启时，分支规则适用于此后新建的代码库；每个代码库自己的规则在其设置中。"/>
+    <moqui.basic.LocalizedMessage original="The burndown shows once the sprint has its dates." locale="zh" localized="迭代有了日期后才显示燃尽图。"/>
+    <moqui.basic.LocalizedMessage original="The client approved the estimate" locale="zh" localized="客户已批准估算"/>
+    <moqui.basic.LocalizedMessage original="The client budget" locale="zh" localized="客户预算"/>
+    <moqui.basic.LocalizedMessage original="The client&apos;s contacts may sign in to this project" locale="zh" localized="客户的联系人可以登录此项目"/>
+    <moqui.basic.LocalizedMessage original="The code of this project is not shared with you." locale="zh" localized="此项目的代码未与您共享。"/>
+    <moqui.basic.LocalizedMessage original="The conventions are too long to keep; shorten the branch pattern" locale="zh" localized="约定过长，无法保存；请缩短分支模式"/>
+    <moqui.basic.LocalizedMessage original="The copy has the work items, members and settings, its items back in planning and without dates." locale="zh" localized="副本含工作项、成员和设置；其工作项回到规划中，且没有日期。"/>
+    <moqui.basic.LocalizedMessage original="The counts are of each item&apos;s status now; created and resolved are in the range; the cycle time runs from first In Progress to first Complete or Closed, over the items resolved in the range." locale="zh" localized="计数是各项的当前状态；已创建和已解决计入范围；周期从首次进行中到首次完成或已关闭，针对范围内已解决的项。"/>
+    <moqui.basic.LocalizedMessage original="The default type is one of those offered" locale="zh" localized="默认类型是所提供类型之一"/>
+    <moqui.basic.LocalizedMessage original="The end date is yyyy-MM-dd" locale="zh" localized="结束日期为 yyyy-MM-dd"/>
+    <moqui.basic.LocalizedMessage original="The entries found as a team timesheet: by day, with the hours by person" locale="zh" localized="找到的条目作为团队工时表：按天，并按人列出小时"/>
+    <moqui.basic.LocalizedMessage original="The entry in full" locale="zh" localized="完整录入"/>
+    <moqui.basic.LocalizedMessage original="The estimate" locale="zh" localized="估算"/>
+    <moqui.basic.LocalizedMessage original="The estimate is a number of hours" locale="zh" localized="估算是小时数"/>
+    <moqui.basic.LocalizedMessage original="The estimate is in" locale="zh" localized="估算单位为"/>
+    <moqui.basic.LocalizedMessage original="The estimate is not available" locale="zh" localized="估算不可用"/>
+    <moqui.basic.LocalizedMessage original="The estimate unit is hours or points" locale="zh" localized="估算单位是小时或点数"/>
+    <moqui.basic.LocalizedMessage original="The estimate waits for the client&apos;s approval" locale="zh" localized="估算等待客户批准"/>
+    <moqui.basic.LocalizedMessage original="The file has no time entries" locale="zh" localized="文件中没有工时录入"/>
+    <moqui.basic.LocalizedMessage original="The file has no work items" locale="zh" localized="文件中没有工作项"/>
+    <moqui.basic.LocalizedMessage original="The file is not available" locale="zh" localized="文件不可用"/>
+    <moqui.basic.LocalizedMessage original="The first 300 operations are drawn; choose fewer days to see the others." locale="zh" localized="仅绘制前 300 项操作；请减少天数以查看其余。"/>
+    <moqui.basic.LocalizedMessage original="The first 500 work items of the find are drawn; narrow the find to see the others." locale="zh" localized="仅绘制查找的前 500 个工作项；请缩小查找范围以查看其余。"/>
+    <moqui.basic.LocalizedMessage original="The first 5000 entries" locale="zh" localized="前 5000 条"/>
+    <moqui.basic.LocalizedMessage original="The gate of ${milestone.workEffortName}" locale="zh" localized="${milestone.workEffortName} 的关口"/>
+    <moqui.basic.LocalizedMessage original="The hours budget" locale="zh" localized="小时预算"/>
+    <moqui.basic.LocalizedMessage original="The hours pass the budget" locale="zh" localized="小时超出预算"/>
+    <moqui.basic.LocalizedMessage original="The icon of ${label}" locale="zh" localized="${label} 的图标"/>
+    <moqui.basic.LocalizedMessage original="The invoice date is yyyy-MM-dd" locale="zh" localized="发票日期为 yyyy-MM-dd"/>
+    <moqui.basic.LocalizedMessage original="The items not done go to" locale="zh" localized="未完成的项转到"/>
+    <moqui.basic.LocalizedMessage original="The labels work items take, their colors, and merging two." locale="zh" localized="工作项所用的标签、其颜色，以及合并两个。"/>
+    <moqui.basic.LocalizedMessage original="The lag is a number of working days" locale="zh" localized="滞后是工作日天数"/>
+    <moqui.basic.LocalizedMessage original="The lag of ${id} after ${to} changed" locale="zh" localized="${id} 在 ${to} 之后的滞后已更改"/>
+    <moqui.basic.LocalizedMessage original="The last four weeks · ${totalText}" locale="zh" localized="最近四周 · ${totalText}"/>
+    <moqui.basic.LocalizedMessage original="The managers of the projects the week&apos;s time is on" locale="zh" localized="本周工时所在项目的经理"/>
+    <moqui.basic.LocalizedMessage original="The merge request is gone, or you may not view its repository." locale="zh" localized="合并请求已不存在，或者您不能查看其代码库。"/>
+    <moqui.basic.LocalizedMessage original="The next sprint" locale="zh" localized="下一次迭代"/>
+    <moqui.basic.LocalizedMessage original="The next weeks" locale="zh" localized="接下来的几周"/>
+    <moqui.basic.LocalizedMessage original="The notes as saved are published${notes.draft ? &apos; (the draft, as none are saved yet)&apos; : &apos;&apos;}." locale="zh" localized="已保存的备注会发布${notes.draft ? &apos;（草稿，因为尚未保存）&apos; : &apos;&apos;}。"/>
+    <moqui.basic.LocalizedMessage original="The notes as saved are published, or a draft from the done work items when none are saved." locale="zh" localized="发布已保存的备注；若尚未保存，则用已完成工作项生成的草稿。"/>
+    <moqui.basic.LocalizedMessage original="The order line it fulfils" locale="zh" localized="它所履行的订单行"/>
+    <moqui.basic.LocalizedMessage original="The percent complete is a whole number from 0 to 100" locale="zh" localized="完成百分比是 0 到 100 的整数"/>
+    <moqui.basic.LocalizedMessage original="The person of rows with no person" locale="zh" localized="无人员的行所用的人员"/>
+    <moqui.basic.LocalizedMessage original="The person&apos;s line manager (else the projects&apos; managers)" locale="zh" localized="该人员的直线经理（否则为各项目的经理）"/>
+    <moqui.basic.LocalizedMessage original="The plant is not one of yours." locale="zh" localized="该工厂不是您的。"/>
+    <moqui.basic.LocalizedMessage original="The project does not exist, or it is a Work group project you are not on." locale="zh" localized="项目不存在，或者是您未加入的工作组项目。"/>
+    <moqui.basic.LocalizedMessage original="The project has no billable time to invoice" locale="zh" localized="项目没有可开票的可计费时间"/>
+    <moqui.basic.LocalizedMessage original="The project has no documentation space: set it up on the project&apos;s Docs tab." locale="zh" localized="项目没有文档空间：请在项目的文档页签中设置。"/>
+    <moqui.basic.LocalizedMessage original="The project manager of the selected projects" locale="zh" localized="所选项目的项目经理"/>
+    <moqui.basic.LocalizedMessage original="The project of the selected requests" locale="zh" localized="所选请求的项目"/>
+    <moqui.basic.LocalizedMessage original="The project takes no mail" locale="zh" localized="项目不接收邮件"/>
+    <moqui.basic.LocalizedMessage original="The project&apos;s members may then clone it and push to it; its leads also force-push and delete branches." locale="zh" localized="之后成员可以克隆并向其推送；其负责人还可以强制推送并删除分支。"/>
+    <moqui.basic.LocalizedMessage original="The project&apos;s money (budget, billing and invoices) is for those who manage money." locale="zh" localized="项目的资金（预算、开票和发票）仅供管理资金的人使用。"/>
+    <moqui.basic.LocalizedMessage original="The public form has a new link; the old one no longer works" locale="zh" localized="公开表单有了新链接；旧链接已失效"/>
+    <moqui.basic.LocalizedMessage original="The public form is off" locale="zh" localized="公开表单已关闭"/>
+    <moqui.basic.LocalizedMessage original="The rate has ended already" locale="zh" localized="该费率已经结束"/>
+    <moqui.basic.LocalizedMessage original="The rate is a number" locale="zh" localized="费率是一个数字"/>
+    <moqui.basic.LocalizedMessage original="The rate is an amount, 0 or more" locale="zh" localized="费率是金额，为 0 或更大"/>
+    <moqui.basic.LocalizedMessage original="The rates of the time not invoiced are found again" locale="zh" localized="未开票时间的费率已重新查找"/>
+    <moqui.basic.LocalizedMessage original="The release notes are shown here once they are published." locale="zh" localized="版本说明发布后显示在这里。"/>
+    <moqui.basic.LocalizedMessage original="The repository is archived: this merge request is read only." locale="zh" localized="代码库已归档：此合并请求为只读。"/>
+    <moqui.basic.LocalizedMessage original="The request is withdrawn" locale="zh" localized="请求已撤回"/>
+    <moqui.basic.LocalizedMessage original="The robot check did not load; the request may be refused" locale="zh" localized="机器人验证未加载；请求可能会被拒绝"/>
+    <moqui.basic.LocalizedMessage original="The rules ran again" locale="zh" localized="规则已再次运行"/>
+    <moqui.basic.LocalizedMessage original="The sequence is a whole number" locale="zh" localized="序号是一个整数"/>
+    <moqui.basic.LocalizedMessage original="The settings of ${repositoryId} are changed by its maintainers: the leads of its projects (project managers, managers, lead programmers and architects) and administrators." locale="zh" localized="${repositoryId} 的设置由其维护者更改：其项目的负责人（项目经理、经理、首席程序员和架构师）以及管理员。"/>
+    <moqui.basic.LocalizedMessage original="The share is a number" locale="zh" localized="份额是一个数字"/>
+    <moqui.basic.LocalizedMessage original="The start" locale="zh" localized="开始"/>
+    <moqui.basic.LocalizedMessage original="The status flows of work items: their moves between statuses, and the statuses&apos; names and colors." locale="zh" localized="工作项的状态流：状态之间的转移，以及各状态的名称和颜色。"/>
+    <moqui.basic.LocalizedMessage original="The table shows the first 12 statuses; the totals count them all." locale="zh" localized="表格显示前 12 个状态；合计计入全部。"/>
+    <moqui.basic.LocalizedMessage original="The table shows the first 14 periods; the totals count the whole range. Use months, or a shorter range, to see every column." locale="zh" localized="表格显示前 14 个期间；合计覆盖整个范围。用月份或更短范围即可看到每一列。"/>
+    <moqui.basic.LocalizedMessage original="The tabs the project has beside Overview, Work items, Team and Files. Each comes with its part of Projects." locale="zh" localized="概览、工作项、团队和文件之外的页签。每个页签带来项目的一部分。"/>
+    <moqui.basic.LocalizedMessage original="The target date" locale="zh" localized="目标日期"/>
+    <moqui.basic.LocalizedMessage original="The target date is before the start" locale="zh" localized="目标日期早于开始"/>
+    <moqui.basic.LocalizedMessage original="The target moved; checking" locale="zh" localized="目标已移动；正在检查"/>
+    <moqui.basic.LocalizedMessage original="The team plan is not available" locale="zh" localized="团队计划不可用"/>
+    <moqui.basic.LocalizedMessage original="The team planner opens in the browser app (the qvue render mode)." locale="zh" localized="团队规划在浏览器应用中打开（qvue 渲染模式）。"/>
+    <moqui.basic.LocalizedMessage original="The timeline is of a project you see. Ask a project manager to add you to one." locale="zh" localized="时间线属于您能看到的项目。请让项目经理把您加入其中一个。"/>
+    <moqui.basic.LocalizedMessage original="The timer runs here: stop it first" locale="zh" localized="计时器正在此处运行：请先停止"/>
+    <moqui.basic.LocalizedMessage original="The timer runs on it: stop it first" locale="zh" localized="计时器正在其上运行：请先停止"/>
+    <moqui.basic.LocalizedMessage original="The timer runs on this entry: stop it first" locale="zh" localized="计时器正在此录入上运行：请先停止"/>
+    <moqui.basic.LocalizedMessage original="The timesheet policy&apos;s working week" locale="zh" localized="工时表策略的工作周"/>
+    <moqui.basic.LocalizedMessage original="The tree" locale="zh" localized="树"/>
+    <moqui.basic.LocalizedMessage original="The types the projects offer, in this order, in quick create and the work item lists; a project may choose its own in its settings." locale="zh" localized="项目提供的类型，按此顺序，用于快速创建和工作项列表；项目可在其设置中自选。"/>
+    <moqui.basic.LocalizedMessage original="The velocity of a project&apos;s last sprints and a sprint&apos;s burndown." locale="zh" localized="一个项目最近几次迭代的速度，以及一次迭代的燃尽图。"/>
+    <moqui.basic.LocalizedMessage original="The webhook to ${url}" locale="zh" localized="发往 ${url} 的 webhook"/>
+    <moqui.basic.LocalizedMessage original="The week starts on" locale="zh" localized="一周开始于"/>
+    <moqui.basic.LocalizedMessage original="The whole range" locale="zh" localized="整个范围"/>
+    <moqui.basic.LocalizedMessage original="The work items not done go to" locale="zh" localized="未完成的工作项转到"/>
+    <moqui.basic.LocalizedMessage original="The work types offered when time is logged, in this order. ${offeredCount} offered." locale="zh" localized="记录时间时提供的工作类型，按此顺序。已提供 ${offeredCount} 个。"/>
+    <moqui.basic.LocalizedMessage original="The worker pay rate of an employee is their pay: only payroll sets it" locale="zh" localized="员工的作业人员报酬费率即其工资：只有薪资可以设置"/>
+    <moqui.basic.LocalizedMessage original="The worker rate of an employee is their pay, set by payroll." locale="zh" localized="员工的作业人员费率即其工资，由薪资设置。"/>
+    <moqui.basic.LocalizedMessage original="The worker rate of an employee&apos;s time is their pay: only payroll sets it" locale="zh" localized="员工工时的作业人员费率即其工资：只有薪资可以设置"/>
+    <moqui.basic.LocalizedMessage original="The working days and hours set the expected hours of a week until people&apos;s own schedules are kept; holidays come off them." locale="zh" localized="在有各人自己的排程之前，工作日和小时决定一周的预期小时；节假日从中扣除。"/>
+    <moqui.basic.LocalizedMessage original="Their working hours (calendar settings)" locale="zh" localized="其工作小时（日历设置）"/>
+    <moqui.basic.LocalizedMessage original="Then by" locale="zh" localized="然后按"/>
+    <moqui.basic.LocalizedMessage original="These changes are not available" locale="zh" localized="这些变更不可用"/>
+    <moqui.basic.LocalizedMessage original="These days are below their hours:" locale="zh" localized="这些天低于应有小时："/>
+    <moqui.basic.LocalizedMessage original="This allocation is not yours to change, or you manage no project to request one on." locale="zh" localized="此分配不归您更改，或者您没有可在其上申请分配的项目。"/>
+    <moqui.basic.LocalizedMessage original="This backlog is not available" locale="zh" localized="此待办不可用"/>
+    <moqui.basic.LocalizedMessage original="This day has several entries: change them one by one" locale="zh" localized="这一天有多条录入：请逐条更改"/>
+    <moqui.basic.LocalizedMessage original="This entry is invoiced" locale="zh" localized="此录入已开票"/>
+    <moqui.basic.LocalizedMessage original="This item" locale="zh" localized="此条目"/>
+    <moqui.basic.LocalizedMessage original="This milestone is the project&apos;s Estimate: approving it approves the estimate, and the project moves on." locale="zh" localized="此里程碑是项目的估算：批准它即批准估算，项目随之继续。"/>
+    <moqui.basic.LocalizedMessage original="This person is not available: they are on no project you see." locale="zh" localized="此人员不可用：其不在您能看到的任何项目中。"/>
+    <moqui.basic.LocalizedMessage original="This project does not share its hours." locale="zh" localized="此项目不共享其小时。"/>
+    <moqui.basic.LocalizedMessage original="This project is a template" locale="zh" localized="此项目是模板"/>
+    <moqui.basic.LocalizedMessage original="This project is a template: it is offered in New project and Settings, Templates, and left out of the project lists." locale="zh" localized="此项目是模板：它出现在新建项目以及设置、模板中，并且不进入项目列表。"/>
+    <moqui.basic.LocalizedMessage original="This project is no longer a template" locale="zh" localized="此项目不再是模板"/>
+    <moqui.basic.LocalizedMessage original="This project is not available" locale="zh" localized="此项目不可用"/>
+    <moqui.basic.LocalizedMessage original="This project is now a template" locale="zh" localized="此项目现在是模板"/>
+    <moqui.basic.LocalizedMessage original="This project ranks its backlog without sprints." locale="zh" localized="此项目排列待办时不使用迭代。"/>
+    <moqui.basic.LocalizedMessage original="This schedule is not available" locale="zh" localized="此排程不可用"/>
+    <moqui.basic.LocalizedMessage original="This server was built without git hosting, so commit ${commitId} of ${repositoryId} cannot be shown." locale="zh" localized="此服务器构建时没有 git 托管，因此无法显示提交记录 ${commitId}（代码库 ${repositoryId}）。"/>
+    <moqui.basic.LocalizedMessage original="This server was built without git hosting, so merge request ${mergeRequestId} cannot be shown." locale="zh" localized="此服务器构建时没有 git 托管，因此无法显示合并请求 ${mergeRequestId}。"/>
+    <moqui.basic.LocalizedMessage original="This server was built without git hosting, so repository ${repositoryId} cannot be compared." locale="zh" localized="此服务器构建时没有 git 托管，因此无法比较代码库 ${repositoryId}。"/>
+    <moqui.basic.LocalizedMessage original="This server was built without git hosting, so repository ${repositoryId} cannot be shown." locale="zh" localized="此服务器构建时没有 git 托管，因此无法显示代码库 ${repositoryId}。"/>
+    <moqui.basic.LocalizedMessage original="This server was built without git hosting, so the project&apos;s repositories cannot be shown." locale="zh" localized="此服务器构建时没有 git 托管，因此无法显示该项目的代码库。"/>
+    <moqui.basic.LocalizedMessage original="This server was built without git hosting. Repositories, merge requests and git access need a build with the git feature." locale="zh" localized="此服务器构建时没有 git 托管。代码库、合并请求和 git 访问需要带 git 功能的构建。"/>
+    <moqui.basic.LocalizedMessage original="This sprint is not available" locale="zh" localized="此迭代不可用"/>
+    <moqui.basic.LocalizedMessage original="This timeline is not available" locale="zh" localized="此时间线不可用"/>
+    <moqui.basic.LocalizedMessage original="This timesheet is not available" locale="zh" localized="此工时表不可用"/>
+    <moqui.basic.LocalizedMessage original="This week is not available." locale="zh" localized="本周不可用。"/>
+    <moqui.basic.LocalizedMessage original="This week is read only." locale="zh" localized="本周为只读。"/>
+    <moqui.basic.LocalizedMessage original="This week is submitted: return or reopen it to change its time" locale="zh" localized="本周已提交：要更改其时间，请退回或重新打开"/>
+    <moqui.basic.LocalizedMessage original="This work item" locale="zh" localized="此工作项"/>
+    <moqui.basic.LocalizedMessage original="Thread reopened" locale="zh" localized="会话已重新打开"/>
+    <moqui.basic.LocalizedMessage original="Thread resolved" locale="zh" localized="会话已解决"/>
+    <moqui.basic.LocalizedMessage original="Three levels" locale="zh" localized="三级"/>
+    <moqui.basic.LocalizedMessage original="Thru (empty: open)" locale="zh" localized="至（空：开放）"/>
+    <moqui.basic.LocalizedMessage original="Thru is after from" locale="zh" localized="结束日期必须晚于开始日期"/>
+    <moqui.basic.LocalizedMessage original="Time Entry IDs" locale="zh" localized="工时录入 ID"/>
+    <moqui.basic.LocalizedMessage original="Time and budget" locale="zh" localized="时间和预算"/>
+    <moqui.basic.LocalizedMessage original="Time and materials" locale="zh" localized="时间和材料"/>
+    <moqui.basic.LocalizedMessage original="Time and materials: billable hours at the client rates, and expenses" locale="zh" localized="时间和材料：按客户费率的可计费小时，以及费用"/>
+    <moqui.basic.LocalizedMessage original="Time detail" locale="zh" localized="时间明细"/>
+    <moqui.basic.LocalizedMessage original="Time entries" locale="zh" localized="工时录入"/>
+    <moqui.basic.LocalizedMessage original="Time entry" locale="zh" localized="工时录入"/>
+    <moqui.basic.LocalizedMessage original="Time entry ${timeEntryId || &apos;&apos;} is not available." locale="zh" localized="工时录入 ${timeEntryId || &apos;&apos;} 不可用。"/>
+    <moqui.basic.LocalizedMessage original="Time entry ${timeEntryId}" locale="zh" localized="工时录入 ${timeEntryId}"/>
+    <moqui.basic.LocalizedMessage original="Time logged" locale="zh" localized="已记录时间"/>
+    <moqui.basic.LocalizedMessage original="Time may be logged on future days" locale="zh" localized="可以在未来的日期记录时间"/>
+    <moqui.basic.LocalizedMessage original="Time on the project" locale="zh" localized="项目上的时间"/>
+    <moqui.basic.LocalizedMessage original="Time removed" locale="zh" localized="时间已移除"/>
+    <moqui.basic.LocalizedMessage original="Time report" locale="zh" localized="时间报表"/>
+    <moqui.basic.LocalizedMessage original="Timer running since" locale="zh" localized="计时器运行自"/>
+    <moqui.basic.LocalizedMessage original="Timer stopped" locale="zh" localized="计时器已停止"/>
+    <moqui.basic.LocalizedMessage original="Timesheet ${timesheetId} is not available: it does not exist, or it is not yours or one you approve." locale="zh" localized="工时表 ${timesheetId} 不可用：不存在，或不是您的，也不是您审批的。"/>
+    <moqui.basic.LocalizedMessage original="Timesheet ID" locale="zh" localized="工时表 ID"/>
+    <moqui.basic.LocalizedMessage original="Timesheet policy" locale="zh" localized="工时表策略"/>
+    <moqui.basic.LocalizedMessage original="Timesheet policy saved" locale="zh" localized="工时表策略已保存"/>
+    <moqui.basic.LocalizedMessage original="Timesheet print" locale="zh" localized="工时表打印"/>
+    <moqui.basic.LocalizedMessage original="Timesheets" locale="zh" localized="工时表"/>
+    <moqui.basic.LocalizedMessage original="To (HH:mm)" locale="zh" localized="至（HH:mm）"/>
+    <moqui.basic.LocalizedMessage original="To CHANGELOG.md, a commit" locale="zh" localized="到 CHANGELOG.md，一条提交记录"/>
+    <moqui.basic.LocalizedMessage original="To Changelog" locale="zh" localized="到变更记录"/>
+    <moqui.basic.LocalizedMessage original="To Docs" locale="zh" localized="到文档"/>
+    <moqui.basic.LocalizedMessage original="To approve" locale="zh" localized="待批准"/>
+    <moqui.basic.LocalizedMessage original="To change what the rate applies to, end it and add a new rate." locale="zh" localized="要更改费率的适用对象，请结束它并添加一条新费率。"/>
+    <moqui.basic.LocalizedMessage original="To invoice" locale="zh" localized="待开票"/>
+    <moqui.basic.LocalizedMessage original="To review" locale="zh" localized="待审阅"/>
+    <moqui.basic.LocalizedMessage original="To send" locale="zh" localized="待发送"/>
+    <moqui.basic.LocalizedMessage original="To staff" locale="zh" localized="待配备"/>
+    <moqui.basic.LocalizedMessage original="To the documentation space, as Releases/${release.workEffortName}" locale="zh" localized="到文档空间，路径为 Releases/${release.workEffortName}"/>
+    <moqui.basic.LocalizedMessage original="Too large to show" locale="zh" localized="过大，无法显示"/>
+    <moqui.basic.LocalizedMessage original="Too large to show here." locale="zh" localized="过大，无法在此显示。"/>
+    <moqui.basic.LocalizedMessage original="Too many requests just now; try again in a minute" locale="zh" localized="刚才请求过多；请一分钟后再试"/>
+    <moqui.basic.LocalizedMessage original="Too many types for the setting: offer fewer" locale="zh" localized="类型超出该设置：请少提供一些"/>
+    <moqui.basic.LocalizedMessage original="Top-level item" locale="zh" localized="顶级条目"/>
+    <moqui.basic.LocalizedMessage original="Top-level items" locale="zh" localized="顶级条目"/>
+    <moqui.basic.LocalizedMessage original="Top-level only" locale="zh" localized="仅顶级"/>
+    <moqui.basic.LocalizedMessage original="Total Text" locale="zh" localized="合计文本"/>
+    <moqui.basic.LocalizedMessage original="Total rem." locale="zh" localized="合计剩余"/>
+    <moqui.basic.LocalizedMessage original="Triage assignee (empty: the project managers)" locale="zh" localized="分流负责人（空：项目经理）"/>
+    <moqui.basic.LocalizedMessage original="Triage: ${intake.triageName || ec.l10n.localize(&apos;the project managers&apos;)} · new requests are ${intake.defaultTypeLabel}" locale="zh" localized="分流：${intake.triageName || ec.l10n.localize(&apos;the project managers&apos;)} · 新请求为 ${intake.defaultTypeLabel}"/>
+    <moqui.basic.LocalizedMessage original="Triaged in Projects when they have no project" locale="zh" localized="没有项目时在项目中分流"/>
+    <moqui.basic.LocalizedMessage original="Turn it on in Settings" locale="zh" localized="在设置中开启"/>
+    <moqui.basic.LocalizedMessage original="Turn the public form off? Its link stops working." locale="zh" localized="关闭公开表单？其链接将失效。"/>
+    <moqui.basic.LocalizedMessage original="Twelve weeks" locale="zh" localized="十二周"/>
+    <moqui.basic.LocalizedMessage original="Two levels" locale="zh" localized="两级"/>
+    <moqui.basic.LocalizedMessage original="Type Label" locale="zh" localized="类型标签"/>
+    <moqui.basic.LocalizedMessage original="Type a key or a title" locale="zh" localized="输入键或标题"/>
+    <moqui.basic.LocalizedMessage original="Type · priority" locale="zh" localized="类型 · 优先级"/>
+    <moqui.basic.LocalizedMessage original="Types in the file, as work item types" locale="zh" localized="文件中的类型，作为工作项类型"/>
+    <moqui.basic.LocalizedMessage original="Types offered (in this order)" locale="zh" localized="提供的类型（按此顺序）"/>
+    <moqui.basic.LocalizedMessage original="Typing hours in the grid, Add row and Copy last week&apos;s rows are in the browser&apos;s My time; Log time adds an entry here." locale="zh" localized="在网格中填写小时、添加行和复制上周的行位于浏览器的我的时间；记录时间在此添加一条录入。"/>
+    <moqui.basic.LocalizedMessage original="UI design" locale="zh" localized="界面设计"/>
+    <moqui.basic.LocalizedMessage original="URL (https://ci.example.com/hook)" locale="zh" localized="网址（https://ci.example.com/hook）"/>
+    <moqui.basic.LocalizedMessage original="Unarchive" locale="zh" localized="取消归档"/>
+    <moqui.basic.LocalizedMessage original="Unbilled" locale="zh" localized="未开票"/>
+    <moqui.basic.LocalizedMessage original="Unbilled by client" locale="zh" localized="按客户未开票"/>
+    <moqui.basic.LocalizedMessage original="Unbilled lists the billable time not yet invoiced. Only approved time goes on an invoice, at each entry&apos;s client rate (Billing, Rates)." locale="zh" localized="未开票列出尚未开票的可计费时间。只有已批准的时间记入发票，按每条录入的客户费率（开票、费率）。"/>
+    <moqui.basic.LocalizedMessage original="Under (an item&apos;s key, any depth)" locale="zh" localized="下级（某项的键，任意层级）"/>
+    <moqui.basic.LocalizedMessage original="Unfollow" locale="zh" localized="取消关注"/>
+    <moqui.basic.LocalizedMessage original="Unified" locale="zh" localized="统一"/>
+    <moqui.basic.LocalizedMessage original="Unknown change" locale="zh" localized="未知变更"/>
+    <moqui.basic.LocalizedMessage original="Unlabel" locale="zh" localized="去掉标签"/>
+    <moqui.basic.LocalizedMessage original="Unlink ${repositoryId} from ${workEffortId}? The links of its commits stay." locale="zh" localized="将 ${repositoryId} 从 ${workEffortId} 取消链接？其提交记录的链接保留。"/>
+    <moqui.basic.LocalizedMessage original="Unlink ${workEffortId} from ${mr.numText}?" locale="zh" localized="将 ${workEffortId} 从 ${mr.numText} 取消链接？"/>
+    <moqui.basic.LocalizedMessage original="Unlink ${workEffortId} from this commit?" locale="zh" localized="将 ${workEffortId} 从此提交记录取消链接？"/>
+    <moqui.basic.LocalizedMessage original="Unlink order line ${orderId} ${orderItemSeqId} from the project? Its milestone shares go with it." locale="zh" localized="将订单行 ${orderId} ${orderItemSeqId} 从项目取消链接？其里程碑份额一并去掉。"/>
+    <moqui.basic.LocalizedMessage original="Unlink the line" locale="zh" localized="取消链接该行"/>
+    <moqui.basic.LocalizedMessage original="Unpaid Text" locale="zh" localized="未付文本"/>
+    <moqui.basic.LocalizedMessage original="Unstaffed" locale="zh" localized="未配备人员"/>
+    <moqui.basic.LocalizedMessage original="Upcoming" locale="zh" localized="即将到来"/>
+    <moqui.basic.LocalizedMessage original="Update rates" locale="zh" localized="更新费率"/>
+    <moqui.basic.LocalizedMessage original="Update the items from the file" locale="zh" localized="根据文件更新条目"/>
+    <moqui.basic.LocalizedMessage original="Updated Text" locale="zh" localized="已更新文本"/>
+    <moqui.basic.LocalizedMessage original="Users in Admin" locale="zh" localized="Admin 中的用户"/>
+    <moqui.basic.LocalizedMessage original="Utilization" locale="zh" localized="利用率"/>
+    <moqui.basic.LocalizedMessage original="Utilization report" locale="zh" localized="利用率报表"/>
+    <moqui.basic.LocalizedMessage original="Value at client rates" locale="zh" localized="按客户费率的价值"/>
+    <moqui.basic.LocalizedMessage original="Values not set here come from your organization&apos;s Projects settings." locale="zh" localized="此处未设置的值来自您所在组织的项目设置。"/>
+    <moqui.basic.LocalizedMessage original="Velocity (${unitLabel})" locale="zh" localized="速度（${unitLabel}）"/>
+    <moqui.basic.LocalizedMessage original="Velocity of the last sprints" locale="zh" localized="最近几次迭代的速度"/>
+    <moqui.basic.LocalizedMessage original="Version (as 1.4.0)" locale="zh" localized="版本（如 1.4.0）"/>
+    <moqui.basic.LocalizedMessage original="Visibility of the selected work items" locale="zh" localized="所选工作项的可见性"/>
+    <moqui.basic.LocalizedMessage original="Waiting for my review" locale="zh" localized="等待我的审阅"/>
+    <moqui.basic.LocalizedMessage original="Waiting for your approval" locale="zh" localized="等待您的批准"/>
+    <moqui.basic.LocalizedMessage original="Waiting for your reply" locale="zh" localized="等待您的回复"/>
+    <moqui.basic.LocalizedMessage original="Waits for" locale="zh" localized="等待"/>
+    <moqui.basic.LocalizedMessage original="Warning" locale="zh" localized="警告"/>
+    <moqui.basic.LocalizedMessage original="We will answer by email. To add more, reply to the email we send you." locale="zh" localized="我们将通过电子邮件回复。如需补充，请回复我们发给您的邮件。"/>
+    <moqui.basic.LocalizedMessage original="Webhook deleted" locale="zh" localized="Webhook 已删除"/>
+    <moqui.basic.LocalizedMessage original="Webhook saved" locale="zh" localized="Webhook 已保存"/>
+    <moqui.basic.LocalizedMessage original="Week Date" locale="zh" localized="周日期"/>
+    <moqui.basic.LocalizedMessage original="Week Text" locale="zh" localized="周文本"/>
+    <moqui.basic.LocalizedMessage original="Week of" locale="zh" localized="周次"/>
+    <moqui.basic.LocalizedMessage original="What and for whom" locale="zh" localized="事项及对象"/>
+    <moqui.basic.LocalizedMessage original="What are you working on?" locale="zh" localized="您在做什么？"/>
+    <moqui.basic.LocalizedMessage original="What do you need?" locale="zh" localized="您需要什么？"/>
+    <moqui.basic.LocalizedMessage original="What kind of request" locale="zh" localized="哪种请求"/>
+    <moqui.basic.LocalizedMessage original="What the client&apos;s contacts see when they sign in to Projects (client sign-in comes with client access; these keep the choice)." locale="zh" localized="客户联系人登录项目时看到的内容（客户登录随客户访问提供；这些选项保留该选择）。"/>
+    <moqui.basic.LocalizedMessage original="What to change" locale="zh" localized="要更改的内容"/>
+    <moqui.basic.LocalizedMessage original="What to compare" locale="zh" localized="比较内容"/>
+    <moqui.basic.LocalizedMessage original="What was done" locale="zh" localized="已完成的内容"/>
+    <moqui.basic.LocalizedMessage original="What you are doing" locale="zh" localized="您正在做的事"/>
+    <moqui.basic.LocalizedMessage original="When reached" locale="zh" localized="达到时"/>
+    <moqui.basic.LocalizedMessage original="Which rate" locale="zh" localized="哪种费率"/>
+    <moqui.basic.LocalizedMessage original="Which rate applies" locale="zh" localized="适用哪种费率"/>
+    <moqui.basic.LocalizedMessage original="Which rate · ${whichQuestion}" locale="zh" localized="哪种费率 · ${whichQuestion}"/>
+    <moqui.basic.LocalizedMessage original="Which work item types the projects offer, their order and icons, and your own types." locale="zh" localized="项目提供哪些工作项类型、其顺序和图标，以及您自己的类型。"/>
+    <moqui.basic.LocalizedMessage original="Who approves a week" locale="zh" localized="谁审批一周"/>
+    <moqui.basic.LocalizedMessage original="Who works on it" locale="zh" localized="谁在做"/>
+    <moqui.basic.LocalizedMessage original="Why (optional)" locale="zh" localized="原因（可选）"/>
+    <moqui.basic.LocalizedMessage original="Why (required)" locale="zh" localized="原因（必填）"/>
+    <moqui.basic.LocalizedMessage original="Why (the person sees it)" locale="zh" localized="原因（该人员可见）"/>
+    <moqui.basic.LocalizedMessage original="Windows (Western)" locale="zh" localized="Windows（西欧）"/>
+    <moqui.basic.LocalizedMessage original="With no project" locale="zh" localized="无项目"/>
+    <moqui.basic.LocalizedMessage original="Withdraw the approval request of ${milestone.workEffortName}?" locale="zh" localized="撤回 ${milestone.workEffortName} 的审批请求？"/>
+    <moqui.basic.LocalizedMessage original="Withdraw the request" locale="zh" localized="撤回请求"/>
+    <moqui.basic.LocalizedMessage original="Won&apos;t do" locale="zh" localized="不做"/>
+    <moqui.basic.LocalizedMessage original="Work Effort Allocation ID" locale="zh" localized="任务分配 ID"/>
+    <moqui.basic.LocalizedMessage original="Work Effort Category ID" locale="zh" localized="任务类别 ID"/>
+    <moqui.basic.LocalizedMessage original="Work Type Enum ID" locale="zh" localized="工作类型枚举 ID"/>
+    <moqui.basic.LocalizedMessage original="Work breakdown to" locale="zh" localized="工作分解到"/>
+    <moqui.basic.LocalizedMessage original="Work center" locale="zh" localized="工作中心"/>
+    <moqui.basic.LocalizedMessage original="Work group (internal)" locale="zh" localized="工作组（内部）"/>
+    <moqui.basic.LocalizedMessage original="Work item (a key or title)" locale="zh" localized="工作项（键或标题）"/>
+    <moqui.basic.LocalizedMessage original="Work item and its sub-items (key)" locale="zh" localized="工作项及其子项（键）"/>
+    <moqui.basic.LocalizedMessage original="Work item due" locale="zh" localized="工作项到期"/>
+    <moqui.basic.LocalizedMessage original="Work item flow" locale="zh" localized="工作项流程"/>
+    <moqui.basic.LocalizedMessage original="Work item key (IRON-12)" locale="zh" localized="工作项键（IRON-12）"/>
+    <moqui.basic.LocalizedMessage original="Work item labels · ${labelList.length}" locale="zh" localized="工作项标签 · ${labelList.length}"/>
+    <moqui.basic.LocalizedMessage original="Work item report" locale="zh" localized="工作项报表"/>
+    <moqui.basic.LocalizedMessage original="Work item types" locale="zh" localized="工作项类型"/>
+    <moqui.basic.LocalizedMessage original="Work item types saved" locale="zh" localized="工作项类型已保存"/>
+    <moqui.basic.LocalizedMessage original="Work items" locale="zh" localized="工作项"/>
+    <moqui.basic.LocalizedMessage original="Work items (key or words)" locale="zh" localized="工作项（键或词语）"/>
+    <moqui.basic.LocalizedMessage original="Work items are numbered KEY-1, KEY-2; the key is typed in commit messages and branch names" locale="zh" localized="工作项编号为 KEY-1、KEY-2；键写在提交说明和分支名称中"/>
+    <moqui.basic.LocalizedMessage original="Work items by status" locale="zh" localized="按状态的工作项"/>
+    <moqui.basic.LocalizedMessage original="Work items from the team, requests from others" locale="zh" localized="来自团队的工作项，来自他人的请求"/>
+    <moqui.basic.LocalizedMessage original="Work items · ${itemRowsCount}" locale="zh" localized="工作项 · ${itemRowsCount}"/>
+    <moqui.basic.LocalizedMessage original="Work items · ${overview.itemCount || 0}" locale="zh" localized="工作项 · ${overview.itemCount || 0}"/>
+    <moqui.basic.LocalizedMessage original="Work moves" locale="zh" localized="转移"/>
+    <moqui.basic.LocalizedMessage original="Work statuses" locale="zh" localized="工作状态"/>
+    <moqui.basic.LocalizedMessage original="Work type" locale="zh" localized="工作类型"/>
+    <moqui.basic.LocalizedMessage original="Work type (empty: any)" locale="zh" localized="工作类型（空：任意）"/>
+    <moqui.basic.LocalizedMessage original="Work type (empty: none)" locale="zh" localized="工作类型（空：无）"/>
+    <moqui.basic.LocalizedMessage original="Work type of the selected entries" locale="zh" localized="所选录入的工作类型"/>
+    <moqui.basic.LocalizedMessage original="Work type renamed" locale="zh" localized="工作类型已重命名"/>
+    <moqui.basic.LocalizedMessage original="Work types" locale="zh" localized="工作类型"/>
+    <moqui.basic.LocalizedMessage original="Work types saved" locale="zh" localized="工作类型已保存"/>
+    <moqui.basic.LocalizedMessage original="Work types, the timesheet week, approvers, required fields and reminders." locale="zh" localized="工作类型、工时表的周、审批人、必填字段和提醒。"/>
+    <moqui.basic.LocalizedMessage original="Worker amount" locale="zh" localized="作业人员金额"/>
+    <moqui.basic.LocalizedMessage original="Worker cost ${projectTime.vendorAmountText || &apos;—&apos;}" locale="zh" localized="作业人员成本 ${projectTime.vendorAmountText || &apos;—&apos;}"/>
+    <moqui.basic.LocalizedMessage original="Worker invoice" locale="zh" localized="作业人员发票"/>
+    <moqui.basic.LocalizedMessage original="Worker invoiced" locale="zh" localized="已向作业人员开票"/>
+    <moqui.basic.LocalizedMessage original="Worker invoices" locale="zh" localized="作业人员发票"/>
+    <moqui.basic.LocalizedMessage original="Worker pay" locale="zh" localized="作业人员报酬"/>
+    <moqui.basic.LocalizedMessage original="Worker rate" locale="zh" localized="作业人员费率"/>
+    <moqui.basic.LocalizedMessage original="Worker rate (an hour)" locale="zh" localized="作业人员费率（每小时）"/>
+    <moqui.basic.LocalizedMessage original="Workflows" locale="zh" localized="工作流"/>
+    <moqui.basic.LocalizedMessage original="Working h" locale="zh" localized="工作小时"/>
+    <moqui.basic.LocalizedMessage original="Working hours" locale="zh" localized="工作小时"/>
+    <moqui.basic.LocalizedMessage original="Working hours: ${sourceText}. Load: the larger of the allocated hours and the assigned work against the capacity; utilization: the time logged against it." locale="zh" localized="工作小时：${sourceText}。负载：已分配小时与已分派工作中的较大者，相对容量；利用率：已记录时间相对容量。"/>
+    <moqui.basic.LocalizedMessage original="Writes" locale="zh" localized="写入"/>
+    <moqui.basic.LocalizedMessage original="Years Text" locale="zh" localized="年份文本"/>
+    <moqui.basic.LocalizedMessage original="You are its project manager; it is seen by everyone in your organization (General). Change both in the project&apos;s settings." locale="zh" localized="您是其项目经理；您所在组织的所有人都能看到它（常规）。请在项目设置中更改这两项。"/>
+    <moqui.basic.LocalizedMessage original="You are not watching any open work item" locale="zh" localized="您没有关注任何未关闭的工作项"/>
+    <moqui.basic.LocalizedMessage original="You are on no open project" locale="zh" localized="您不在任何未关闭的项目中"/>
+    <moqui.basic.LocalizedMessage original="You are on no project yet. A project holds the work items, the team, the code and the time of one piece of work." locale="zh" localized="您还没有任何项目。一个项目包含一项工作的工作项、团队、代码和时间。"/>
+    <moqui.basic.LocalizedMessage original="You are on no project yet: a work item goes in a project you are on. Ask a project manager to add you, or use a personal task in Commons." locale="zh" localized="您还没有项目：工作项属于您所在的项目。请让项目经理把您加入，或在共享中使用个人任务。"/>
+    <moqui.basic.LocalizedMessage original="You belong to no organization, so there is nowhere to keep the setting" locale="zh" localized="您不属于任何组织，因此无处保存该设置"/>
+    <moqui.basic.LocalizedMessage original="You belong to no organization, so there is nowhere to keep these settings." locale="zh" localized="您不属于任何组织，因此无处保存这些设置。"/>
+    <moqui.basic.LocalizedMessage original="You have no open merge request" locale="zh" localized="您没有未关闭的合并请求"/>
+    <moqui.basic.LocalizedMessage original="You may not change this week" locale="zh" localized="您不能更改本周"/>
+    <moqui.basic.LocalizedMessage original="You may not log time for that person" locale="zh" localized="您不能代该人员记录时间"/>
+    <moqui.basic.LocalizedMessage original="You may not use git over SSH yet: ask an administrator for SSH access. Git over HTTPS with an access token works now." locale="zh" localized="您还不能通过 SSH 使用 git：请向管理员申请 SSH 访问。现在可用访问令牌通过 HTTPS 使用 Git。"/>
+    <moqui.basic.LocalizedMessage original="Your first and last name, please" locale="zh" localized="请填写您的名和姓"/>
+    <moqui.basic.LocalizedMessage original="Your open requests" locale="zh" localized="您未关闭的请求"/>
+    <moqui.basic.LocalizedMessage original="Your projects" locale="zh" localized="您的项目"/>
+    <moqui.basic.LocalizedMessage original="Your request was not sent: no connection" locale="zh" localized="您的请求未发送：没有连接"/>
+    <moqui.basic.LocalizedMessage original="Your request was not sent; try again" locale="zh" localized="您的请求未发送；请重试"/>
+    <moqui.basic.LocalizedMessage original="Your review" locale="zh" localized="您的审阅"/>
+    <moqui.basic.LocalizedMessage original="the backlog" locale="zh" localized="待办"/>
+    <moqui.basic.LocalizedMessage original="the branch name" locale="zh" localized="分支名称"/>
+    <moqui.basic.LocalizedMessage original="the branch rules" locale="zh" localized="分支规则"/>
+    <moqui.basic.LocalizedMessage original="the branches" locale="zh" localized="分支"/>
+    <moqui.basic.LocalizedMessage original="the commits" locale="zh" localized="提交记录"/>
+    <moqui.basic.LocalizedMessage original="the docs space" locale="zh" localized="文档空间"/>
+    <moqui.basic.LocalizedMessage original="the followers" locale="zh" localized="关注者"/>
+    <moqui.basic.LocalizedMessage original="the merge requests" locale="zh" localized="合并请求"/>
+    <moqui.basic.LocalizedMessage original="the project managers" locale="zh" localized="项目经理"/>
+    <moqui.basic.LocalizedMessage original="the recent commits" locale="zh" localized="最近的提交记录"/>
+    <moqui.basic.LocalizedMessage original="the repositories" locale="zh" localized="代码库"/>
+    <moqui.basic.LocalizedMessage original="the review threads" locale="zh" localized="审阅会话"/>
+    <moqui.basic.LocalizedMessage original="the reviewer options" locale="zh" localized="审阅人选项"/>
+    <moqui.basic.LocalizedMessage original="the tags" locale="zh" localized="标签"/>
+    <moqui.basic.LocalizedMessage original="the timer runs on it" locale="zh" localized="计时器正在其上运行"/>
+    <moqui.basic.LocalizedMessage original="the webhooks" locale="zh" localized="各 webhook"/>
+    <moqui.basic.LocalizedMessage original="this project is a template" locale="zh" localized="此项目是模板"/>
+    <moqui.basic.LocalizedMessage original="thread is still open" locale="zh" localized="个会话仍未关闭"/>
+    <moqui.basic.LocalizedMessage original="threads are still open" locale="zh" localized="个会话仍未关闭"/>
+    <moqui.basic.LocalizedMessage original="waiting for approval" locale="zh" localized="等待审批"/>
+    <moqui.basic.LocalizedMessage original="waiting for approval." locale="zh" localized="等待审批。"/>
+    <moqui.basic.LocalizedMessage original="waiting for your reply" locale="zh" localized="等待您的回复"/>
+    <moqui.basic.LocalizedMessage original="waits for" locale="zh" localized="等待"/>
+    <moqui.basic.LocalizedMessage original="waits for (starts after it is done)" locale="zh" localized="等待（在对方完成后开始）"/>
+    <moqui.basic.LocalizedMessage original="work item" locale="zh" localized="工作项"/>
+    <moqui.basic.LocalizedMessage original="work items (requests for outside senders)" locale="zh" localized="工作项（外部发送者的请求）"/>
+    <moqui.basic.LocalizedMessage original="work type" locale="zh" localized="工作类型"/>
+    <moqui.basic.LocalizedMessage original="you do not manage it" locale="zh" localized="您不管理它"/>
+</entity-facade-xml>

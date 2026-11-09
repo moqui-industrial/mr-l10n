@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="zh">
+    <moqui.basic.LocalizedMessage original="Create in the current app" locale="zh" localized="在当前应用中新建"/>
+    <moqui.basic.LocalizedMessage original="Create note" locale="zh" localized="新建备注"/>
+    <moqui.basic.LocalizedMessage original="Create this page" locale="zh" localized="新建此页面"/>
+    <moqui.basic.LocalizedMessage original="Created by me" locale="zh" localized="由我创建"/>
+    <moqui.basic.LocalizedMessage original="Ctrl+S saves a new version. Link a page with [text](Page name), [[Page/Child]] or [text](wiki:SPACE/Page); a link from a page goes from where the page is." locale="zh" localized="Ctrl+S 会保存一个新版本。用 [text](Page name)、[[Page/Child]] 或 [text](wiki:SPACE/Page) 链接页面；从页面发出的链接以其页面所在位置为起点。"/>
+    <moqui.basic.LocalizedMessage original="Current password" locale="zh" localized="当前密码"/>
+    <moqui.basic.LocalizedMessage original="Customer ${customerPartyId} is not available" locale="zh" localized="客户 ${customerPartyId} 不可用"/>
+    <moqui.basic.LocalizedMessage original="Daily" locale="zh" localized="每天"/>
+    <moqui.basic.LocalizedMessage original="Daily digest" locale="zh" localized="每日摘要"/>
+    <moqui.basic.LocalizedMessage original="Dark mode" locale="zh" localized="深色模式"/>
+    <moqui.basic.LocalizedMessage original="Dark mode, the app menu, density, the app to start in, and the keyboard shortcuts." locale="zh" localized="深色模式、应用菜单、密度、启动时进入的应用以及键盘快捷键。"/>
+    <moqui.basic.LocalizedMessage original="Dark mode, the menu and density apply when saved; the app to start in applies the next time you open the apps. For the color scheme, fonts, text sizes and the rest, open Appearance in the account menu." locale="zh" localized="深色模式、菜单和密度在保存后生效；启动应用在下次打开应用时生效。配色、字体、文字大小及其他项，请在账号菜单中打开外观。"/>
+    <moqui.basic.LocalizedMessage original="Database files" locale="zh" localized="数据库文件"/>
+    <moqui.basic.LocalizedMessage original="Database files (the default): each save keeps the version before it as a small difference" locale="zh" localized="数据库文件（默认）：每次保存都将前一版本保留为很小的差异"/>
+    <moqui.basic.LocalizedMessage original="Database files: each save keeps the version before it as a small difference" locale="zh" localized="数据库文件：每次保存都将前一版本保留为很小的差异"/>
+    <moqui.basic.LocalizedMessage original="Date alert" locale="zh" localized="日期提醒"/>
+    <moqui.basic.LocalizedMessage original="Day after" locale="zh" localized="后一天"/>
+    <moqui.basic.LocalizedMessage original="Day before" locale="zh" localized="前一天"/>
+    <moqui.basic.LocalizedMessage original="Decide" locale="zh" localized="决定"/>
+    <moqui.basic.LocalizedMessage original="Declined events" locale="zh" localized="已谢绝的事件"/>
+    <moqui.basic.LocalizedMessage original="Default Keys" locale="zh" localized="默认按键"/>
+    <moqui.basic.LocalizedMessage original="Default account" locale="zh" localized="默认账号"/>
+    <moqui.basic.LocalizedMessage original="Delete ${book.contactBookName}? Its groups and shares go too." locale="zh" localized="删除 ${book.contactBookName}？其组和共享也会一并删除。"/>
+    <moqui.basic.LocalizedMessage original="Delete ${calendar.calendarName}? Its events stay for the people on them; the calendar and its shares go." locale="zh" localized="删除 ${calendar.calendarName}？其事件仍留给其中的人员；日历及其共享会被删除。"/>
+    <moqui.basic.LocalizedMessage original="Delete forever" locale="zh" localized="永久删除"/>
+    <moqui.basic.LocalizedMessage original="Delete forever?" locale="zh" localized="永久删除吗？"/>
+    <moqui.basic.LocalizedMessage original="Delete the group" locale="zh" localized="删除该组"/>
+    <moqui.basic.LocalizedMessage original="Delete the group ${groupName}? Its contacts stay in the book." locale="zh" localized="删除组 ${groupName}？其联系人仍保留在通讯录中。"/>
+    <moqui.basic.LocalizedMessage original="Delete the note" locale="zh" localized="删除备注"/>
+    <moqui.basic.LocalizedMessage original="Delete the page" locale="zh" localized="删除页面"/>
+    <moqui.basic.LocalizedMessage original="Delete the selected contacts?" locale="zh" localized="删除所选联系人吗？"/>
+    <moqui.basic.LocalizedMessage original="Deleted for good" locale="zh" localized="已永久删除"/>
+    <moqui.basic.LocalizedMessage original="Details" locale="zh" localized="详情"/>
+    <moqui.basic.LocalizedMessage original="Device or app" locale="zh" localized="设备或应用"/>
+    <moqui.basic.LocalizedMessage original="Devices" locale="zh" localized="设备"/>
+    <moqui.basic.LocalizedMessage original="Directory (everyone)" locale="zh" localized="目录（所有人）"/>
+    <moqui.basic.LocalizedMessage original="Directory contacts (my organization sees them)" locale="zh" localized="目录联系人（我的组织可见）"/>
+    <moqui.basic.LocalizedMessage original="Discard your changes?" locale="zh" localized="丢弃更改吗？"/>
+    <moqui.basic.LocalizedMessage original="Dismiss all" locale="zh" localized="全部忽略"/>
+    <moqui.basic.LocalizedMessage original="Does not repeat" locale="zh" localized="不重复"/>
+    <moqui.basic.LocalizedMessage original="Done: open it again" locale="zh" localized="完成：再次打开"/>
+    <moqui.basic.LocalizedMessage original="Download all" locale="zh" localized="全部下载"/>
+    <moqui.basic.LocalizedMessage original="Download as zip" locale="zh" localized="下载为 zip"/>
+    <moqui.basic.LocalizedMessage original="Download the failures (CSV)" locale="zh" localized="下载失败项 (CSV)"/>
+    <moqui.basic.LocalizedMessage original="Download this version" locale="zh" localized="下载此版本"/>
+    <moqui.basic.LocalizedMessage original="Drag a page to move it" locale="zh" localized="拖动页面以移动"/>
+    <moqui.basic.LocalizedMessage original="Drag along a row, or click it, to book that time." locale="zh" localized="沿一行拖动，或点击该行，以预订该时段。"/>
+    <moqui.basic.LocalizedMessage original="Drive" locale="zh" localized="网盘"/>
+    <moqui.basic.LocalizedMessage original="Drive archived: it is read only" locale="zh" localized="网盘已归档：只读"/>
+    <moqui.basic.LocalizedMessage original="Drive back in use" locale="zh" localized="网盘已恢复使用"/>
+    <moqui.basic.LocalizedMessage original="Drives" locale="zh" localized="网盘"/>
+    <moqui.basic.LocalizedMessage original="Drives and views" locale="zh" localized="网盘和视图"/>
+    <moqui.basic.LocalizedMessage original="Drop before, after or inside a page" locale="zh" localized="放在页面之前、之后或之内"/>
+    <moqui.basic.LocalizedMessage original="Drop files here, or choose them" locale="zh" localized="将文件拖放到此处，或选择文件"/>
+    <moqui.basic.LocalizedMessage original="Drop files here, or use Upload" locale="zh" localized="将文件拖放到此处，或使用上传"/>
+    <moqui.basic.LocalizedMessage original="Drop the task on a day" locale="zh" localized="将任务拖放到某一天"/>
+    <moqui.basic.LocalizedMessage original="Drop to upload into" locale="zh" localized="拖放以上传到"/>
+    <moqui.basic.LocalizedMessage original="Due (empty: no due date)" locale="zh" localized="到期（空：无到期日）"/>
+    <moqui.basic.LocalizedMessage original="Due (optional)" locale="zh" localized="到期（可选）"/>
+    <moqui.basic.LocalizedMessage original="Due Text" locale="zh" localized="到期文本"/>
+    <moqui.basic.LocalizedMessage original="Due date of the selected tasks" locale="zh" localized="所选任务的到期日"/>
+    <moqui.basic.LocalizedMessage original="Duplicates are created anyway" locale="zh" localized="重复项仍会创建"/>
+    <moqui.basic.LocalizedMessage original="Duplicates are skipped" locale="zh" localized="重复项会被跳过"/>
+    <moqui.basic.LocalizedMessage original="Duplicates are updated" locale="zh" localized="重复项会被更新"/>
+    <moqui.basic.LocalizedMessage original="Each room says whether it is free at the event&apos;s time" locale="zh" localized="每个房间会显示在事件时间是否空闲"/>
+    <moqui.basic.LocalizedMessage original="Each row is imported on its own: a row that fails is listed with its reason and the others are imported." locale="zh" localized="每一行单独导入：失败的行会连同原因列出，其余行仍会导入。"/>
+    <moqui.basic.LocalizedMessage original="Edit (add, change, share)" locale="zh" localized="编辑（添加、更改、分享）"/>
+    <moqui.basic.LocalizedMessage original="Edit members and groups" locale="zh" localized="编辑成员和组"/>
+    <moqui.basic.LocalizedMessage original="Edit, history, reviews and files are in the browser." locale="zh" localized="编辑、历史、审阅和文件都在浏览器中。"/>
+    <moqui.basic.LocalizedMessage original="Editing together is not available here now; edit the markdown text" locale="zh" localized="此处目前无法协同编辑；请编辑 markdown 文本"/>
+    <moqui.basic.LocalizedMessage original="Editing, tags, history and moving a note are in the browser." locale="zh" localized="编辑、标签、历史以及移动备注都在浏览器中。"/>
+    <moqui.basic.LocalizedMessage original="Email - Primary Address" locale="zh" localized="电子邮件 - 主要地址"/>
+    <moqui.basic.LocalizedMessage original="Email the customer its published address" locale="zh" localized="向客户的已发布地址发送电子邮件"/>
+    <moqui.basic.LocalizedMessage original="Empty the trash?" locale="zh" localized="清空已删除吗？"/>
+    <moqui.basic.LocalizedMessage original="Enter" locale="zh" localized="回车"/>
+    <moqui.basic.LocalizedMessage original="Enter a valid end date and time" locale="zh" localized="请输入有效的结束日期和时间"/>
+    <moqui.basic.LocalizedMessage original="Enter it in the device now, as the password of the account with the username ${syncUsername}. It is shown only this once; make another if you lose it." locale="zh" localized="请立即在设备中输入，作为用户名 ${syncUsername} 的账号密码。仅显示这一次；如果丢失，请另行创建。"/>
+    <moqui.basic.LocalizedMessage original="Enter the email address" locale="zh" localized="请输入电子邮件地址"/>
+    <moqui.basic.LocalizedMessage original="Enter the phone number" locale="zh" localized="请输入电话号码"/>
+    <moqui.basic.LocalizedMessage original="Enter the street and city" locale="zh" localized="请输入街道和城市"/>
+    <moqui.basic.LocalizedMessage original="Enter the website address" locale="zh" localized="请输入网站地址"/>
+    <moqui.basic.LocalizedMessage original="Entity Type" locale="zh" localized="实体类型"/>
+    <moqui.basic.LocalizedMessage original="Est / rem (h)" locale="zh" localized="估计 / 剩余（小时）"/>
+    <moqui.basic.LocalizedMessage original="Estimated Completion Date" locale="zh" localized="预计完成日期"/>
+    <moqui.basic.LocalizedMessage original="Event ${workEffortId} is not available: it does not exist, or you are not on it and it is in no calendar you see." locale="zh" localized="事件 ${workEffortId} 不可用：它不存在，或者您不在其中，且它不在您可见的任何日历里。"/>
+    <moqui.basic.LocalizedMessage original="Events matching" locale="zh" localized="匹配的事件"/>
+    <moqui.basic.LocalizedMessage original="Events of the file go in the calendar you choose; an event imported before (the same UID) is updated." locale="zh" localized="文件中的事件会进入您选择的日历；先前导入的事件（相同 UID）会被更新。"/>
+    <moqui.basic.LocalizedMessage original="Events today" locale="zh" localized="今天的事件"/>
+    <moqui.basic.LocalizedMessage original="Every" locale="zh" localized="每"/>
+    <moqui.basic.LocalizedMessage original="Every 15 minutes" locale="zh" localized="每 15 分钟"/>
+    <moqui.basic.LocalizedMessage original="Every 6 hours" locale="zh" localized="每 6 小时"/>
+    <moqui.basic.LocalizedMessage original="Every day" locale="zh" localized="每天"/>
+    <moqui.basic.LocalizedMessage original="Every hour" locale="zh" localized="每小时"/>
+    <moqui.basic.LocalizedMessage original="Every weekday" locale="zh" localized="每个工作日"/>
+    <moqui.basic.LocalizedMessage original="Every weekday (Monday to Friday)" locale="zh" localized="每个工作日（星期一至星期五）"/>
+    <moqui.basic.LocalizedMessage original="Every year on" locale="zh" localized="每年的"/>
+    <moqui.basic.LocalizedMessage original="Everyone has the latest invitation" locale="zh" localized="所有人都有最新邀请"/>
+    <moqui.basic.LocalizedMessage original="Everyone who may read" locale="zh" localized="所有可阅读的人"/>
+    <moqui.basic.LocalizedMessage original="Everyone, each their own records" locale="zh" localized="所有人，各自拥有自己的记录"/>
+    <moqui.basic.LocalizedMessage original="Everything in the trash of this drive is deleted for good. This cannot be undone." locale="zh" localized="此网盘的已删除中的全部内容将被永久删除。此操作无法撤销。"/>
+    <moqui.basic.LocalizedMessage original="Export .ics" locale="zh" localized="导出 .ics"/>
+    <moqui.basic.LocalizedMessage original="Export CSV" locale="zh" localized="导出 CSV"/>
+    <moqui.basic.LocalizedMessage original="Export and archive" locale="zh" localized="导出并归档"/>
+    <moqui.basic.LocalizedMessage original="Export as .ics" locale="zh" localized="导出为 .ics"/>
+    <moqui.basic.LocalizedMessage original="Export is not available: the iCalendar tool is turned off" locale="zh" localized="导出不可用：iCalendar 工具已关闭"/>
+    <moqui.basic.LocalizedMessage original="Export the repository" locale="zh" localized="导出代码库"/>
+    <moqui.basic.LocalizedMessage original="Export vCard" locale="zh" localized="导出 vCard"/>
+    <moqui.basic.LocalizedMessage original="Favorite" locale="zh" localized="收藏"/>
+    <moqui.basic.LocalizedMessage original="Favorites" locale="zh" localized="收藏"/>
+    <moqui.basic.LocalizedMessage original="Fetch every (minutes)" locale="zh" localized="抓取间隔（分钟）"/>
+    <moqui.basic.LocalizedMessage original="Fetch now" locale="zh" localized="立即抓取"/>
+    <moqui.basic.LocalizedMessage original="Fetched" locale="zh" localized="已抓取"/>
+    <moqui.basic.LocalizedMessage original="Fetched from ${space.remoteUrl}" locale="zh" localized="抓取自 ${space.remoteUrl}"/>
+    <moqui.basic.LocalizedMessage original="File (.ics)" locale="zh" localized="文件（.ics）"/>
+    <moqui.basic.LocalizedMessage original="Files (SFTP)" locale="zh" localized="文件（SFTP）"/>
+    <moqui.basic.LocalizedMessage original="Files (WebDAV)" locale="zh" localized="文件（WebDAV）"/>
+    <moqui.basic.LocalizedMessage original="Files to add" locale="zh" localized="要添加的文件"/>
+    <moqui.basic.LocalizedMessage original="Files: File Explorer, This PC, Map network drive, Connect to a Web site that you can use to store your documents and pictures, with ${addresses.filesUrl}, then your username and an app password. The server must be reached over HTTPS." locale="zh" localized="文件：文件资源管理器、此电脑、映射网络驱动器、连接到可存储文档和图片的网站，地址 ${addresses.filesUrl}，然后输入用户名和应用密码。须能通过 HTTPS 访问服务器。"/>
+    <moqui.basic.LocalizedMessage original="Files: a file manager with WebDAV (Material Files, Solid Explorer) with ${addresses.filesUrl}." locale="zh" localized="文件：使用 WebDAV 的文件管理器（Material Files、Solid Explorer），地址为 ${addresses.filesUrl}。"/>
+    <moqui.basic.LocalizedMessage original="Files: in the Files app, the menu (…) then Connect to Server, with ${addresses.filesUrl}." locale="zh" localized="文件：在文件应用中打开菜单（…），然后连接服务器，地址为 ${addresses.filesUrl}。"/>
+    <moqui.basic.LocalizedMessage original="Files: in the Finder, Go, Connect to Server (Command-K), with ${addresses.filesUrl}." locale="zh" localized="文件：在 Finder 中依次选择前往、连接服务器（Command-K），地址为 ${addresses.filesUrl}。"/>
+    <moqui.basic.LocalizedMessage original="Find a room or equipment" locale="zh" localized="查找房间或设备"/>
+    <moqui.basic.LocalizedMessage original="Find a time" locale="zh" localized="查找时间"/>
+    <moqui.basic.LocalizedMessage original="Find duplicates" locale="zh" localized="查找重复项"/>
+    <moqui.basic.LocalizedMessage original="Find it from the file" locale="zh" localized="从文件中查找"/>
+    <moqui.basic.LocalizedMessage original="Finder, File Explorer, a phone&apos;s files app, rclone" locale="zh" localized="Finder、文件资源管理器、手机的文件应用、rclone"/>
+    <moqui.basic.LocalizedMessage original="First name" locale="zh" localized="名"/>
+    <moqui.basic.LocalizedMessage original="Folder drive: each file keeps its own versions" locale="zh" localized="文件夹网盘：每个文件保留自己的版本"/>
+    <moqui.basic.LocalizedMessage original="Folder: each file keeps its own versions" locale="zh" localized="文件夹：每个文件保留自己的版本"/>
+    <moqui.basic.LocalizedMessage original="For (a script, an app)" locale="zh" localized="用于（脚本、应用）"/>
+    <moqui.basic.LocalizedMessage original="For case" locale="zh" localized="对应案例"/>
+    <moqui.basic.LocalizedMessage original="For scripts and file transfer apps" locale="zh" localized="用于脚本和文件传输应用"/>
+    <moqui.basic.LocalizedMessage original="Free/busy only" locale="zh" localized="仅空闲/忙碌"/>
+    <moqui.basic.LocalizedMessage original="Fri" locale="zh" localized="周五"/>
+    <moqui.basic.LocalizedMessage original="From a vCard or CSV file, Google or Outlook" locale="zh" localized="来自 vCard 或 CSV 文件、Google 或 Outlook"/>
+    <moqui.basic.LocalizedMessage original="From the IronStone Contacts setting" locale="zh" localized="来自 IronStone 联系人设置"/>
+    <moqui.basic.LocalizedMessage original="Get started" locale="zh" localized="开始使用"/>
+    <moqui.basic.LocalizedMessage original="Git access" locale="zh" localized="Git 访问"/>
+    <moqui.basic.LocalizedMessage original="Git and API access" locale="zh" localized="Git 和 API 访问"/>
+    <moqui.basic.LocalizedMessage original="Git in the database" locale="zh" localized="数据库中的 Git"/>
+    <moqui.basic.LocalizedMessage original="Git mirror (read only)" locale="zh" localized="Git 镜像（只读）"/>
+    <moqui.basic.LocalizedMessage original="Git on disk" locale="zh" localized="磁盘上的 Git"/>
+    <moqui.basic.LocalizedMessage original="Go to My files" locale="zh" localized="转到我的文件"/>
+    <moqui.basic.LocalizedMessage original="Go to Recent" locale="zh" localized="转到最近"/>
+    <moqui.basic.LocalizedMessage original="Go to Shared with me" locale="zh" localized="转到共享给我的"/>
+    <moqui.basic.LocalizedMessage original="Go to id" locale="zh" localized="转到 ID"/>
+    <moqui.basic.LocalizedMessage original="Go to the space home" locale="zh" localized="转到空间首页"/>
+    <moqui.basic.LocalizedMessage original="Good afternoon" locale="zh" localized="下午好"/>
+    <moqui.basic.LocalizedMessage original="Good evening" locale="zh" localized="晚上好"/>
+    <moqui.basic.LocalizedMessage original="Good morning" locale="zh" localized="早上好"/>
+    <moqui.basic.LocalizedMessage original="Google Contacts CSV" locale="zh" localized="Google 联系人 CSV"/>
+    <moqui.basic.LocalizedMessage original="Google and Microsoft 365" locale="zh" localized="Google 和微软 365"/>
+    <moqui.basic.LocalizedMessage original="Groups need a book" locale="zh" localized="组需要通讯录"/>
+    <moqui.basic.LocalizedMessage original="HTML pages" locale="zh" localized="HTML 页面"/>
+    <moqui.basic.LocalizedMessage original="HTTPS URL of the git repository" locale="zh" localized="git 代码库的 HTTPS URL"/>
+    <moqui.basic.LocalizedMessage original="Head commit" locale="zh" localized="HEAD 提交记录"/>
+    <moqui.basic.LocalizedMessage original="Hide the details" locale="zh" localized="隐藏详情"/>
+    <moqui.basic.LocalizedMessage original="High (1-3)" locale="zh" localized="高（1-3）"/>
+    <moqui.basic.LocalizedMessage original="Hours are more than 0 and at most 24" locale="zh" localized="小时须大于 0，且最多 24"/>
+    <moqui.basic.LocalizedMessage original="How long" locale="zh" localized="时长"/>
+    <moqui.basic.LocalizedMessage original="How many" locale="zh" localized="数量"/>
+    <moqui.basic.LocalizedMessage original="ISO-8859-1 (Latin 1)" locale="zh" localized="ISO-8859-1（拉丁 1）"/>
+    <moqui.basic.LocalizedMessage original="Id" locale="zh" localized="ID"/>
+    <moqui.basic.LocalizedMessage original="Images" locale="zh" localized="图片"/>
+    <moqui.basic.LocalizedMessage original="Import .ics" locale="zh" localized="导入 .ics"/>
+    <moqui.basic.LocalizedMessage original="Import ID" locale="zh" localized="导入 ID"/>
+    <moqui.basic.LocalizedMessage original="Import another file" locale="zh" localized="导入另一个文件"/>
+    <moqui.basic.LocalizedMessage original="Import as" locale="zh" localized="导入为"/>
+    <moqui.basic.LocalizedMessage original="Import contacts" locale="zh" localized="导入联系人"/>
+    <moqui.basic.LocalizedMessage original="Import events from an .ics file" locale="zh" localized="从 .ics 文件导入事件"/>
+    <moqui.basic.LocalizedMessage original="Import progress" locale="zh" localized="导入进度"/>
+    <moqui.basic.LocalizedMessage original="Imported" locale="zh" localized="已导入"/>
+    <moqui.basic.LocalizedMessage original="Imported {done} of {total}" locale="zh" localized="已导入 {done}/{total}"/>
+    <moqui.basic.LocalizedMessage original="Imported; showing the result" locale="zh" localized="已导入；正在显示结果"/>
+    <moqui.basic.LocalizedMessage original="Importing" locale="zh" localized="正在导入"/>
+    <moqui.basic.LocalizedMessage original="Importing {total} rows" locale="zh" localized="正在导入 {total} 行"/>
+    <moqui.basic.LocalizedMessage original="In a repository of the project, beside the code (docs/)" locale="zh" localized="在项目的代码库中，位于代码旁边（docs/）"/>
+    <moqui.basic.LocalizedMessage original="In app" locale="zh" localized="应用内"/>
+    <moqui.basic.LocalizedMessage original="In review" locale="zh" localized="审核中"/>
+    <moqui.basic.LocalizedMessage original="In review by" locale="zh" localized="审核人"/>
+    <moqui.basic.LocalizedMessage original="In this folder" locale="zh" localized="在此文件夹"/>
+    <moqui.basic.LocalizedMessage original="Inboxes" locale="zh" localized="收件箱"/>
+    <moqui.basic.LocalizedMessage original="Indigo" locale="zh" localized="靛蓝"/>
+    <moqui.basic.LocalizedMessage original="Install on your phone" locale="zh" localized="安装到手机"/>
+    <moqui.basic.LocalizedMessage original="Instance Start" locale="zh" localized="实例开始"/>
+    <moqui.basic.LocalizedMessage original="Into the book" locale="zh" localized="导入到通讯录"/>
+    <moqui.basic.LocalizedMessage original="Invitation" locale="zh" localized="邀请"/>
+    <moqui.basic.LocalizedMessage original="Invitations" locale="zh" localized="邀请"/>
+    <moqui.basic.LocalizedMessage original="Invite" locale="zh" localized="邀请"/>
+    <moqui.basic.LocalizedMessage original="Invite people" locale="zh" localized="邀请人员"/>
+    <moqui.basic.LocalizedMessage original="It goes off your calendar." locale="zh" localized="它会从您的日历中消失。"/>
+    <moqui.basic.LocalizedMessage original="It may have been deleted or moved to a space." locale="zh" localized="它可能已被删除或移动到某个空间。"/>
+    <moqui.basic.LocalizedMessage original="It may have been deleted or moved, or you may not have access to it." locale="zh" localized="它可能已被删除或移动，或者您可能无权访问。"/>
+    <moqui.basic.LocalizedMessage original="It may have been deleted, or you may not have access to it." locale="zh" localized="它可能已被删除，或者您可能无权访问。"/>
+    <moqui.basic.LocalizedMessage original="It repeats: which events are cancelled?" locale="zh" localized="此事件会重复：要取消哪些事件？"/>
+    <moqui.basic.LocalizedMessage original="It repeats: which events change?" locale="zh" localized="此事件会重复：要更改哪些事件？"/>
+    <moqui.basic.LocalizedMessage original="It was linked already" locale="zh" localized="已经链接"/>
+    <moqui.basic.LocalizedMessage original="It was not linked" locale="zh" localized="并未链接"/>
+    <moqui.basic.LocalizedMessage original="Items in the trash keep their history; restore puts them back where they were." locale="zh" localized="已删除中的条目会保留历史；还原后会回到原处。"/>
+    <moqui.basic.LocalizedMessage original="Its people and calendars" locale="zh" localized="其人员和日历"/>
+    <moqui.basic.LocalizedMessage original="Its work group" locale="zh" localized="其工作组"/>
+    <moqui.basic.LocalizedMessage original="Just now" locale="zh" localized="刚刚"/>
+    <moqui.basic.LocalizedMessage original="Keep" locale="zh" localized="保留"/>
+    <moqui.basic.LocalizedMessage original="Keep as a draft (submit it later)" locale="zh" localized="保留为草稿（稍后提交）"/>
+    <moqui.basic.LocalizedMessage original="Keep both" locale="zh" localized="两者都保留"/>
+    <moqui.basic.LocalizedMessage original="Keep it open" locale="zh" localized="保持打开"/>
+    <moqui.basic.LocalizedMessage original="Keep its pages in" locale="zh" localized="将其页面保存在"/>
+    <moqui.basic.LocalizedMessage original="Kept in" locale="zh" localized="保存在"/>
+    <moqui.basic.LocalizedMessage original="Keymap" locale="zh" localized="按键映射"/>
+    <moqui.basic.LocalizedMessage original="Keys like Mod+K (Ctrl, or Cmd on a Mac), Ctrl+Shift+A, ? or a chord such as g c. A changed key applies when the next page loads; ? shows the keys on now." locale="zh" localized="按键如 Mod+K（Ctrl，或 Mac 上的 Cmd）、Ctrl+Shift+A、?，或 g c 这样的组合。更改的按键在下次加载页面时生效；? 显示当前按键。"/>
+    <moqui.basic.LocalizedMessage original="Knowledge" locale="zh" localized="知识"/>
+    <moqui.basic.LocalizedMessage original="Knowledge: edit the page" locale="zh" localized="知识：编辑页面"/>
+    <moqui.basic.LocalizedMessage original="Knowledge: history" locale="zh" localized="知识：历史"/>
+    <moqui.basic.LocalizedMessage original="Knowledge: new page" locale="zh" localized="知识：新建页面"/>
+    <moqui.basic.LocalizedMessage original="Knowledge: save a new version" locale="zh" localized="知识：保存新版本"/>
+    <moqui.basic.LocalizedMessage original="Knowledge: the page did not load" locale="zh" localized="知识：页面未加载"/>
+    <moqui.basic.LocalizedMessage original="Label (optional)" locale="zh" localized="标签（可选）"/>
+    <moqui.basic.LocalizedMessage original="Language and region" locale="zh" localized="语言和地区"/>
+    <moqui.basic.LocalizedMessage original="Last day" locale="zh" localized="最后一天"/>
+    <moqui.basic.LocalizedMessage original="Last fetch" locale="zh" localized="上次抓取"/>
+    <moqui.basic.LocalizedMessage original="Last fetch error" locale="zh" localized="上次抓取错误"/>
+    <moqui.basic.LocalizedMessage original="Last fetch failed" locale="zh" localized="上次抓取失败"/>
+    <moqui.basic.LocalizedMessage original="Last fetched" locale="zh" localized="最后抓取"/>
+    <moqui.basic.LocalizedMessage original="Last name" locale="zh" localized="姓"/>
+    <moqui.basic.LocalizedMessage original="Last read" locale="zh" localized="最后阅读"/>
+    <moqui.basic.LocalizedMessage original="Last sent" locale="zh" localized="最后发送"/>
+    <moqui.basic.LocalizedMessage original="Last synced" locale="zh" localized="最后同步"/>
+    <moqui.basic.LocalizedMessage original="Leave them out" locale="zh" localized="排除"/>
+    <moqui.basic.LocalizedMessage original="Leave without saving your changes?" locale="zh" localized="不保存更改就离开吗？"/>
+    <moqui.basic.LocalizedMessage original="Leave without saving?" locale="zh" localized="不保存就离开吗？"/>
+    <moqui.basic.LocalizedMessage original="Let everyone who reads the space read and edit ${pagePath}?" locale="zh" localized="允许所有能阅读该空间的人阅读并编辑 ${pagePath}？"/>
+    <moqui.basic.LocalizedMessage original="Letters, digits, spaces and . , &apos; - _ : ( ) ! ? The name is part of the page&apos;s address, so links can name it." locale="zh" localized="字母、数字、空格以及 . , &apos; - _ : ( ) ! ?。名称是页面地址的一部分，因此链接可以用它来指称。"/>
+    <moqui.basic.LocalizedMessage original="Link a page of another space" locale="zh" localized="链接另一空间的页面"/>
+    <moqui.basic.LocalizedMessage original="Link a task, event or request (id or words)" locale="zh" localized="链接任务、事件或请求（ID 或词语）"/>
+    <moqui.basic.LocalizedMessage original="Link copied" locale="zh" localized="链接已复制"/>
+    <moqui.basic.LocalizedMessage original="Link copied: it opens for those who may see the file" locale="zh" localized="链接已复制：可查看该文件的人才能打开"/>
+    <moqui.basic.LocalizedMessage original="Link made" locale="zh" localized="链接已创建"/>
+    <moqui.basic.LocalizedMessage original="Link made: copy it now, it is shown only once" locale="zh" localized="链接已创建：请立即复制，仅显示这一次"/>
+    <moqui.basic.LocalizedMessage original="Link to a record (an id or a name)" locale="zh" localized="链接到记录（ID 或名称）"/>
+    <moqui.basic.LocalizedMessage original="Link to case" locale="zh" localized="链接到案例"/>
+    <moqui.basic.LocalizedMessage original="Linked from" locale="zh" localized="链接来自"/>
+    <moqui.basic.LocalizedMessage original="Linked pages" locale="zh" localized="已链接的页面"/>
+    <moqui.basic.LocalizedMessage original="Linked record id" locale="zh" localized="已链接记录 ID"/>
+    <moqui.basic.LocalizedMessage original="Linked records" locale="zh" localized="已链接记录"/>
+    <moqui.basic.LocalizedMessage original="Linked tasks and requests" locale="zh" localized="已链接的任务和请求"/>
+    <moqui.basic.LocalizedMessage original="Linked to ${recordLabel}" locale="zh" localized="已链接到 ${recordLabel}"/>
+    <moqui.basic.LocalizedMessage original="Linked to ${recordTitle || recordId}" locale="zh" localized="已链接到 ${recordTitle || recordId}"/>
+    <moqui.basic.LocalizedMessage original="Linked; the claim is at a new revision" locale="zh" localized="已链接；索赔已进入新修订"/>
+    <moqui.basic.LocalizedMessage original="Links to pages not made yet" locale="zh" localized="指向尚未创建的页面的链接"/>
+    <moqui.basic.LocalizedMessage original="Links to the old name keep working." locale="zh" localized="指向旧名称的链接仍然有效。"/>
+    <moqui.basic.LocalizedMessage original="Linux and scripts" locale="zh" localized="Linux 和脚本"/>
+    <moqui.basic.LocalizedMessage original="Live editing is not available here now; edit the markdown text" locale="zh" localized="此处目前无法实时编辑；请编辑 markdown 文本"/>
+    <moqui.basic.LocalizedMessage original="Load the saved text" locale="zh" localized="加载已保存的文本"/>
+    <moqui.basic.LocalizedMessage original="Location or link" locale="zh" localized="位置或链接"/>
+    <moqui.basic.LocalizedMessage original="Log in with your username ${syncAddresses.username} and an app password (Settings, Sync); git over HTTPS takes an app password too." locale="zh" localized="请使用用户名 ${syncAddresses.username} 和应用密码登录（设置、同步）；通过 HTTPS 的 git 同样使用应用密码。"/>
+    <moqui.basic.LocalizedMessage original="Look ahead" locale="zh" localized="向后查看"/>
+    <moqui.basic.LocalizedMessage original="Low (7-9)" locale="zh" localized="低（7-9）"/>
+    <moqui.basic.LocalizedMessage original="Mail accounts, identities and signatures, rules, out of office, text blocks, chat and calls are set in Comms." locale="zh" localized="邮件账号、身份和签名、规则、外出回复、文本块、聊天和通话在通信中设置。"/>
+    <moqui.basic.LocalizedMessage original="Mail and chat" locale="zh" localized="邮件和聊天"/>
+    <moqui.basic.LocalizedMessage original="Make changes" locale="zh" localized="进行更改"/>
+    <moqui.basic.LocalizedMessage original="Make changes and share" locale="zh" localized="进行更改并分享"/>
+    <moqui.basic.LocalizedMessage original="Make editor" locale="zh" localized="设为编辑者"/>
+    <moqui.basic.LocalizedMessage original="Make it my default (new events go in it)" locale="zh" localized="设为我的默认（新事件放入其中）"/>
+    <moqui.basic.LocalizedMessage original="Make manager" locale="zh" localized="设为管理员"/>
+    <moqui.basic.LocalizedMessage original="Make one for each phone, computer or app, so that losing one means revoking only its password. You see the password once, when it is made." locale="zh" localized="请为每部手机、每台计算机或每个应用各创建一个，这样丢失一个只撤销其密码。密码仅在创建时显示一次。"/>
+    <moqui.basic.LocalizedMessage original="Make this my default book (new personal contacts go here)" locale="zh" localized="将此设为我的默认通讯录（新的个人联系人放在这里）"/>
+    <moqui.basic.LocalizedMessage original="Make this my default calendar (new events go in it)" locale="zh" localized="将此设为我的默认日历（新事件放入其中）"/>
+    <moqui.basic.LocalizedMessage original="Make token" locale="zh" localized="创建令牌"/>
+    <moqui.basic.LocalizedMessage original="Make viewer" locale="zh" localized="设为查看者"/>
+    <moqui.basic.LocalizedMessage original="Manage drives" locale="zh" localized="管理网盘"/>
+    <moqui.basic.LocalizedMessage original="Manage the book and its shares" locale="zh" localized="管理通讯录及其共享"/>
+    <moqui.basic.LocalizedMessage original="Manage the drive" locale="zh" localized="管理网盘"/>
+    <moqui.basic.LocalizedMessage original="Manage the drive and its members" locale="zh" localized="管理网盘及其成员"/>
+    <moqui.basic.LocalizedMessage original="Map" locale="zh" localized="映射"/>
+    <moqui.basic.LocalizedMessage original="Map at least one column" locale="zh" localized="请至少映射一列"/>
+    <moqui.basic.LocalizedMessage original="Map the columns" locale="zh" localized="映射列"/>
+    <moqui.basic.LocalizedMessage original="Mapped from the file kind" locale="zh" localized="已按文件种类映射"/>
+    <moqui.basic.LocalizedMessage original="Mark a message read" locale="zh" localized="将消息标为已读"/>
+    <moqui.basic.LocalizedMessage original="Mark unread" locale="zh" localized="标为未读"/>
+    <moqui.basic.LocalizedMessage original="Markdown note" locale="zh" localized="Markdown 备注"/>
+    <moqui.basic.LocalizedMessage original="Marked read" locale="zh" localized="已标为已读"/>
+    <moqui.basic.LocalizedMessage original="Matching" locale="zh" localized="匹配"/>
+    <moqui.basic.LocalizedMessage original="May add files" locale="zh" localized="可添加文件"/>
+    <moqui.basic.LocalizedMessage original="May edit" locale="zh" localized="可编辑"/>
+    <moqui.basic.LocalizedMessage original="May view" locale="zh" localized="可查看"/>
+    <moqui.basic.LocalizedMessage original="Maybe" locale="zh" localized="待定"/>
+    <moqui.basic.LocalizedMessage original="Maybe busy" locale="zh" localized="可能忙碌"/>
+    <moqui.basic.LocalizedMessage original="Meeting room" locale="zh" localized="会议室"/>
+    <moqui.basic.LocalizedMessage original="Member saved" locale="zh" localized="成员已保存"/>
+    <moqui.basic.LocalizedMessage original="Members may" locale="zh" localized="成员可以"/>
+    <moqui.basic.LocalizedMessage original="Merge these two contacts into one? This cannot be undone." locale="zh" localized="将这两个联系人合并为一个吗？此操作无法撤销。"/>
+    <moqui.basic.LocalizedMessage original="Merge two" locale="zh" localized="合并两个"/>
+    <moqui.basic.LocalizedMessage original="Method Text" locale="zh" localized="方法文本"/>
+    <moqui.basic.LocalizedMessage original="Middle name" locale="zh" localized="中间名"/>
+    <moqui.basic.LocalizedMessage original="Minimum score" locale="zh" localized="最低分"/>
+    <moqui.basic.LocalizedMessage original="Mirror of" locale="zh" localized="镜像来源"/>
+    <moqui.basic.LocalizedMessage original="Mirror of (HTTPS URL)" locale="zh" localized="镜像来源（HTTPS URL）"/>
+    <moqui.basic.LocalizedMessage original="Modified" locale="zh" localized="已修改"/>
+    <moqui.basic.LocalizedMessage original="Mon" locale="zh" localized="周一"/>
+    <moqui.basic.LocalizedMessage original="Monthly on" locale="zh" localized="每月的"/>
+    <moqui.basic.LocalizedMessage original="Monthly on day" locale="zh" localized="每月某日"/>
+    <moqui.basic.LocalizedMessage original="Monthly on day 15" locale="zh" localized="每月 15 日"/>
+    <moqui.basic.LocalizedMessage original="Monthly on the second Tuesday" locale="zh" localized="每月第二个星期二"/>
+    <moqui.basic.LocalizedMessage original="More options" locale="zh" localized="更多选项"/>
+    <moqui.basic.LocalizedMessage original="Move here" locale="zh" localized="移到此处"/>
+    <moqui.basic.LocalizedMessage original="Move the selected tasks to a project" locale="zh" localized="将所选任务移到一个项目"/>
+    <moqui.basic.LocalizedMessage original="Move to a space" locale="zh" localized="移到空间"/>
+    <moqui.basic.LocalizedMessage original="Move to project" locale="zh" localized="移到项目"/>
+    <moqui.basic.LocalizedMessage original="Move to the trash" locale="zh" localized="移到已删除"/>
+    <moqui.basic.LocalizedMessage original="Move to…" locale="zh" localized="移到…"/>
+    <moqui.basic.LocalizedMessage original="Moved" locale="zh" localized="已移动"/>
+    <moqui.basic.LocalizedMessage original="Moved to" locale="zh" localized="已移至"/>
+    <moqui.basic.LocalizedMessage original="Moved to the space" locale="zh" localized="已移到该空间"/>
+    <moqui.basic.LocalizedMessage original="Moved to the trash" locale="zh" localized="已移到已删除"/>
+    <moqui.basic.LocalizedMessage original="My bookings of it" locale="zh" localized="我对此的预订"/>
+    <moqui.basic.LocalizedMessage original="My calendars" locale="zh" localized="我的日历"/>
+    <moqui.basic.LocalizedMessage original="My calendars and calendars shared with me" locale="zh" localized="我的日历以及共享给我的日历"/>
+    <moqui.basic.LocalizedMessage original="My files and Records are always there. A shared drive&apos;s owner and its managers change its members, quota and settings; an archived drive is read only and leaves the rail." locale="zh" localized="我的文件和记录始终都在。共享网盘的所有者及其管理员可更改成员、配额和设置；已归档的网盘为只读，并从侧栏消失。"/>
+    <moqui.basic.LocalizedMessage original="My notes" locale="zh" localized="我的备注"/>
+    <moqui.basic.LocalizedMessage original="My personal contacts (only I see them)" locale="zh" localized="我的个人联系人（仅我可见）"/>
+    <moqui.basic.LocalizedMessage original="My reminders" locale="zh" localized="我的提醒"/>
+    <moqui.basic.LocalizedMessage original="My requests" locale="zh" localized="我的请求"/>
+    <moqui.basic.LocalizedMessage original="My tasks" locale="zh" localized="我的任务"/>
+    <moqui.basic.LocalizedMessage original="Name (default the site&apos;s)" locale="zh" localized="名称（默认为站点名称）"/>
+    <moqui.basic.LocalizedMessage original="Name of the copy" locale="zh" localized="副本名称"/>
+    <moqui.basic.LocalizedMessage original="Nearly full" locale="zh" localized="即将用尽"/>
+    <moqui.basic.LocalizedMessage original="Needs approval" locale="zh" localized="需要审批"/>
+    <moqui.basic.LocalizedMessage original="New access token" locale="zh" localized="新建访问令牌"/>
+    <moqui.basic.LocalizedMessage original="New app password" locale="zh" localized="新建应用密码"/>
+    <moqui.basic.LocalizedMessage original="New book" locale="zh" localized="新建通讯录"/>
+    <moqui.basic.LocalizedMessage original="New calendar" locale="zh" localized="新建日历"/>
+    <moqui.basic.LocalizedMessage original="New contact" locale="zh" localized="新建联系人"/>
+    <moqui.basic.LocalizedMessage original="New contact book" locale="zh" localized="新建联系人通讯录"/>
+    <moqui.basic.LocalizedMessage original="New drive" locale="zh" localized="新建网盘"/>
+    <moqui.basic.LocalizedMessage original="New due date" locale="zh" localized="新到期日"/>
+    <moqui.basic.LocalizedMessage original="New events go in" locale="zh" localized="新事件放入"/>
+    <moqui.basic.LocalizedMessage original="New file" locale="zh" localized="新建文件"/>
+    <moqui.basic.LocalizedMessage original="New folder" locale="zh" localized="新建文件夹"/>
+    <moqui.basic.LocalizedMessage original="New group" locale="zh" localized="新建组"/>
+    <moqui.basic.LocalizedMessage original="New groups (comma separated)" locale="zh" localized="新建组（逗号分隔）"/>
+    <moqui.basic.LocalizedMessage original="New meeting" locale="zh" localized="新建会议"/>
+    <moqui.basic.LocalizedMessage original="New note" locale="zh" localized="新建备注"/>
+    <moqui.basic.LocalizedMessage original="New page" locale="zh" localized="新建页面"/>
+    <moqui.basic.LocalizedMessage original="New page under this one" locale="zh" localized="在此页下新建页面"/>
+    <moqui.basic.LocalizedMessage original="New password again" locale="zh" localized="再次输入新密码"/>
+    <moqui.basic.LocalizedMessage original="New request" locale="zh" localized="新建请求"/>
+    <moqui.basic.LocalizedMessage original="New shared drive" locale="zh" localized="新建共享网盘"/>
+    <moqui.basic.LocalizedMessage original="New space" locale="zh" localized="新建空间"/>
+    <moqui.basic.LocalizedMessage original="Next 7 days" locale="zh" localized="未来 7 天"/>
+    <moqui.basic.LocalizedMessage original="Next item" locale="zh" localized="下一条目"/>
+    <moqui.basic.LocalizedMessage original="Next item in the grid" locale="zh" localized="网格中的下一条目"/>
+    <moqui.basic.LocalizedMessage original="Next month" locale="zh" localized="下个月"/>
+    <moqui.basic.LocalizedMessage original="created anyway" locale="zh" localized="仍会创建"/>
+    <moqui.basic.LocalizedMessage original="directory contacts" locale="zh" localized="目录联系人"/>
+    <moqui.basic.LocalizedMessage original="event details" locale="zh" localized="事件详情"/>
+    <moqui.basic.LocalizedMessage original="fetch only: a mirror" locale="zh" localized="仅抓取：镜像"/>
+    <moqui.basic.LocalizedMessage original="files of this upload have the names of files in the folder." locale="zh" localized="个本次上传的文件与文件夹中的文件同名。"/>
+    <moqui.basic.LocalizedMessage original="free/busy only" locale="zh" localized="仅空闲/忙碌"/>
+    <moqui.basic.LocalizedMessage original="git over HTTPS" locale="zh" localized="通过 HTTPS 的 git"/>
+    <moqui.basic.LocalizedMessage original="git over SSH" locale="zh" localized="通过 SSH 的 git"/>
+    <moqui.basic.LocalizedMessage original="given the due date" locale="zh" localized="已设置到期日"/>
+    <moqui.basic.LocalizedMessage original="given the priority" locale="zh" localized="已设置优先级"/>
+    <moqui.basic.LocalizedMessage original="iPhone and iPad" locale="zh" localized="iPhone 和 iPad"/>
+    <moqui.basic.LocalizedMessage original="in the database" locale="zh" localized="在数据库中"/>
+    <moqui.basic.LocalizedMessage original="in this folder" locale="zh" localized="在此文件夹"/>
+    <moqui.basic.LocalizedMessage original="is deleted for good." locale="zh" localized="已被永久删除。"/>
+    <moqui.basic.LocalizedMessage original="items are deleted for good." locale="zh" localized="个条目被永久删除。"/>
+    <moqui.basic.LocalizedMessage original="items moved to the trash" locale="zh" localized="个条目已移到已删除"/>
+    <moqui.basic.LocalizedMessage original="link expired or not found" locale="zh" localized="链接已过期或未找到"/>
+    <moqui.basic.LocalizedMessage original="linked records" locale="zh" localized="已链接记录"/>
+    <moqui.basic.LocalizedMessage original="members who may edit" locale="zh" localized="可编辑的成员"/>
+    <moqui.basic.LocalizedMessage original="more records are not listed: search to find them" locale="zh" localized="条更多记录未列出：请搜索查找"/>
+    <moqui.basic.LocalizedMessage original="moved from" locale="zh" localized="移自"/>
+    <moqui.basic.LocalizedMessage original="needs approval" locale="zh" localized="需要审批"/>
+</entity-facade-xml>
