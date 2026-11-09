@@ -39,7 +39,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Approves orders matching current find options. Use the Find Options dialog to adjust as needed before doing this." locale="zh" localized="批准符合当前查找选项的订单。执行前请用查找选项对话框按需调整。"/>
     <moqui.basic.LocalizedMessage original="Are you sure you want to cancel this return?" locale="zh" localized="确定要取消此退货单吗？"/>
     <moqui.basic.LocalizedMessage original="Are you sure, and are all return quantities correct? This will cancel the return shipment, receive full quantity of all Approved or Shipped items, and process item responses." locale="zh" localized="确定且所有退货数量都正确？这将取消退货发货单，按全部数量接收所有已批准或已发货明细，并处理明细响应。"/>
-    <moqui.basic.LocalizedMessage original="Asset ${resInfo.existingRes.assetId}" locale="zh" localized="资产 ${resInfo.existingRes.assetId}"/>
     <moqui.basic.LocalizedMessage original="Asset Reservations" locale="zh" localized="资产预留"/>
     <moqui.basic.LocalizedMessage original="Auto Invoice" locale="zh" localized="自动开票"/>
     <moqui.basic.LocalizedMessage original="Auto Payments Term" locale="zh" localized="自动付款条款"/>
@@ -47,8 +46,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Auto Reservation" locale="zh" localized="自动预留"/>
     <moqui.basic.LocalizedMessage original="Billed Quantity" locale="zh" localized="已开票数量"/>
     <moqui.basic.LocalizedMessage original="Billed Total" locale="zh" localized="已开票合计"/>
-    <moqui.basic.LocalizedMessage original="By ${paua?.firstName||''} ${paua?.lastName||''} (${paua?.username || content.userId}) at ${ec.l10n.format(content.contentDate, 'yyyy-MM-dd HH:mm')}" locale="zh" localized="${paua?.firstName||''} ${paua?.lastName||''}（${paua?.username || content.userId}）于 ${ec.l10n.format(content.contentDate, 'yyyy-MM-dd HH:mm')}"/>
-    <moqui.basic.LocalizedMessage original="By ${paua?.firstName||''} ${paua?.lastName||''} (${paua?.username || partyNote.userId}) at ${ec.l10n.format(partyNote.noteDate, 'yyyy-MM-dd HH:mm')}" locale="zh" localized="${paua?.firstName||''} ${paua?.lastName||''}（${paua?.username || partyNote.userId}）于 ${ec.l10n.format(partyNote.noteDate, 'yyyy-MM-dd HH:mm')}"/>
+    <moqui.basic.LocalizedMessage original="By ${noteByFirst} ${noteByLast} (${noteByUser}) at ${noteByWhen}" locale="zh" localized="${noteByFirst} ${noteByLast}（${noteByUser}）于 ${noteByWhen}"/>
     <moqui.basic.LocalizedMessage original="CIM ID: ${methodInfo.paymentMethod.gatewayCimId}" locale="zh" localized="CIM ID：${methodInfo.paymentMethod.gatewayCimId}"/>
     <moqui.basic.LocalizedMessage original="Calc Price" locale="zh" localized="计算单价"/>
     <moqui.basic.LocalizedMessage original="Cancelled: ${quantityCancelled}" locale="zh" localized="已取消：${quantityCancelled}"/>
@@ -63,7 +61,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Closes orders matching current find options. Use the Find Options dialog to adjust as needed before doing this." locale="zh" localized="关闭符合当前查找选项的订单。执行前请用查找选项对话框按需调整。"/>
     <moqui.basic.LocalizedMessage original="Closing an order will cancel all items not yet shipped. If all items cancelled then the order will be Cancelled. If any item was shipped the order will be Completed." locale="zh" localized="关闭订单将取消所有尚未发货的明细。若全部明细被取消，订单将为已取消。若有任何明细已发货，订单将为已完成。"/>
     <moqui.basic.LocalizedMessage original="Code Expires" locale="zh" localized="代码到期"/>
-    <moqui.basic.LocalizedMessage original="Component:" locale="zh" localized="组件："/>
     <moqui.basic.LocalizedMessage original="Cost for accounting if different from Price, used to set Asset Acquire Cost on receipt" locale="zh" localized="若与单价不同则作为会计成本，用于在收货时设置资产取得成本"/>
     <moqui.basic.LocalizedMessage original="Create Invoice" locale="zh" localized="新建发票"/>
     <moqui.basic.LocalizedMessage original="Create Return" locale="zh" localized="新建退货单"/>
@@ -92,7 +89,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Do the current find options and orders displayed match what you want to approve?" locale="zh" localized="当前查找选项和显示的订单是否就是要批准的？"/>
     <moqui.basic.LocalizedMessage original="Do the current find options and orders displayed match what you want to close (cancel all unshipped, complete any partially shipped)?" locale="zh" localized="当前查找选项和显示的订单是否就是要关闭的（取消全部未发货，完成任何部分发货）？"/>
     <moqui.basic.LocalizedMessage original="Duplicate Order Parts" locale="zh" localized="复制订单部分"/>
-    <moqui.basic.LocalizedMessage original="Edit ${partPaymentInfo.paymentMethod?.description || 'Payment Method ' + partPaymentInfo.partPayment.paymentMethodId}" locale="zh" localized="编辑 ${partPaymentInfo.paymentMethod?.description || '付款方式 ' + partPaymentInfo.partPayment.paymentMethodId}"/>
     <moqui.basic.LocalizedMessage original="Edit Account" locale="zh" localized="编辑账户"/>
     <moqui.basic.LocalizedMessage original="Edit Payment ${partPaymentInfo.partPayment.paymentId}" locale="zh" localized="编辑付款 ${partPaymentInfo.partPayment.paymentId}"/>
     <moqui.basic.LocalizedMessage original="Email Messages" locale="zh" localized="电子邮件消息"/>
@@ -146,7 +142,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Only Partly Shipped" locale="zh" localized="仅部分发货"/>
     <moqui.basic.LocalizedMessage original="Only Recurring" locale="zh" localized="仅周期性"/>
     <moqui.basic.LocalizedMessage original="Only count Product" locale="zh" localized="仅统计产品"/>
-    <moqui.basic.LocalizedMessage original="Order #${orderId}" locale="zh" localized="订单 #${orderId}"/>
     <moqui.basic.LocalizedMessage original="Order ${orderId}" locale="zh" localized="订单 ${orderId}"/>
     <moqui.basic.LocalizedMessage original="Order Content ID" locale="zh" localized="订单内容 ID"/>
     <moqui.basic.LocalizedMessage original="Order Detail" locale="zh" localized="订单详情"/>

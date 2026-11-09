@@ -51,7 +51,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Packed ${ec.l10n.format(quantityHandledTotal, '#,##0.##')} of ${ec.l10n.format(quantityTotal, '#,##0.##')}" locale="es" localized="Empacado ${ec.l10n.format(quantityHandledTotal, '#,##0.##')} de ${ec.l10n.format(quantityTotal, '#,##0.##')}"/>
     <moqui.basic.LocalizedMessage original="Packed Date" locale="es" localized="Fecha de empacado"/>
     <moqui.basic.LocalizedMessage original="Packed/Issued: ${ec.l10n.format(sid.quantityTotal ?? 0, '#.##')}, Remaining: ${ec.l10n.format(quantityPackRemaining, '#.##')}  (Unit: ${productUom?.description || 'N/A'})" locale="es" localized="Empacado/con salida: ${ec.l10n.format(sid.quantityTotal ?? 0, '#.##')}, Restante: ${ec.l10n.format(quantityPackRemaining, '#.##')}  (Unidad: ${productUom?.description || 'N/A'})"/>
-    <moqui.basic.LocalizedMessage original="Packed/Issued: ${ec.l10n.format(sid.quantityTotal || 0, '#.##')}, Remaining: ${ec.l10n.format(quantityPackRemaining, '#.##')}  (Unit: ${productUom?.description || 'N/A'})" locale="es" localized="Empacado/con salida: ${ec.l10n.format(sid.quantityTotal || 0, '#.##')}, Restante: ${ec.l10n.format(quantityPackRemaining, '#.##')}  (Unidad: ${productUom?.description || 'N/A'})"/>
     <moqui.basic.LocalizedMessage original="Parent Facility" locale="es" localized="Instalación padre"/>
     <moqui.basic.LocalizedMessage original="Payment ${shipmentPayment.paymentId} - ${pmntInstrumentEnum?.description || 'Unknown Type'} - ${pmntStatus?.description}" locale="es" localized="Pago ${shipmentPayment.paymentId} - ${pmntInstrumentEnum?.description || 'Unknown Type'} - ${pmntStatus?.description}"/>
     <moqui.basic.LocalizedMessage original="Payments associated with this shipment through order or invoice will not be changed" locale="es" localized="Los pagos asociados a este envío mediante la orden o la factura no se cambiarán"/>
@@ -153,7 +152,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Signature Required Enum ID" locale="es" localized="ID de enumeración de firma requerida"/>
     <moqui.basic.LocalizedMessage original="Size UOM" locale="es" localized="UOM de tamaño"/>
     <moqui.basic.LocalizedMessage original="Size/UOM" locale="es" localized="Tamaño/UOM"/>
-    <moqui.basic.LocalizedMessage original="Status: ${workEffort.status?.description || statusId}" locale="es" localized="Estado: ${workEffort.status?.description || statusId}"/>
     <moqui.basic.LocalizedMessage original="Stored At" locale="es" localized="Almacenado en"/>
     <moqui.basic.LocalizedMessage original="These items will be removed from the Assembly Task automatically, so must be removed from packages before continuing." locale="es" localized="Estos artículos se quitarán automáticamente de la tarea de ensamblaje, por lo que deben quitarse de los paquetes antes de continuar."/>
     <moqui.basic.LocalizedMessage original="To Party" locale="es" localized="Participante de destino"/>

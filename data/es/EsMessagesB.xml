@@ -62,6 +62,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Please enter current password" locale="es" localized="Introducir la contraseña actual"/>
     <moqui.basic.LocalizedMessage original="Print" locale="es" localized="Imprimir"/>
     <moqui.basic.LocalizedMessage original="Quarter" locale="es" localized="Trimestre"/>
+    <moqui.basic.LocalizedMessage original="Your report is being generated and will be sent to ${reportTo} when ready." locale="es" localized="El informe se está generando y se enviará a ${reportTo} cuando esté listo."/>
     <moqui.basic.LocalizedMessage original="reCAPTCHA token required, confirm you are not a robot" locale="es" localized="Se requiere el token de reCAPTCHA; confirmar que no es un robot"/>
     <moqui.basic.LocalizedMessage original="record#SendResult is internal" locale="es" localized="record#SendResult es interno"/>
     <moqui.basic.LocalizedMessage original="Remote data load location is not allowed" locale="es" localized="No se permite la ubicación de carga remota de datos"/>
@@ -154,11 +155,9 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="The worker pool size is set by the conf (tools worker-pool-max) when the server starts" locale="es" localized="El tamaño del grupo de trabajadores lo define la configuración (tools worker-pool-max) al iniciar el servidor"/>
     <moqui.basic.LocalizedMessage original="There is a page at ${rootPageLocation} already" locale="es" localized="Ya hay una página en ${rootPageLocation}"/>
     <moqui.basic.LocalizedMessage original="There is no earlier version to compare with" locale="es" localized="No hay una versión anterior para comparar"/>
-    <moqui.basic.LocalizedMessage original="There is no page ${pagePath} in ${wikiSpaceId}" locale="es" localized="No hay una página ${pagePath} en ${wikiSpaceId}"/>
     <moqui.basic.LocalizedMessage original="This" locale="es" localized="Este"/>
     <moqui.basic.LocalizedMessage original="This account is shared with 1 more person: remove them first, so only one is left, to make it personal" locale="es" localized="Esta cuenta se comparte con 1 persona más: quitarla primero para que quede solo una y hacerla personal"/>
     <moqui.basic.LocalizedMessage original="This drive is read only" locale="es" localized="Esta unidad es de solo lectura"/>
-    <moqui.basic.LocalizedMessage original="This link has expired or was not found" locale="es" localized="Este enlace caducó o no se encontró"/>
     <moqui.basic.LocalizedMessage original="This link takes no files" locale="es" localized="Este enlace no admite archivos"/>
     <moqui.basic.LocalizedMessage original="This message has no List-Unsubscribe header" locale="es" localized="Este mensaje no tiene el encabezado List-Unsubscribe"/>
     <moqui.basic.LocalizedMessage original="This message is too old to edit" locale="es" localized="Este mensaje es demasiado antiguo para editarlo"/>
@@ -241,6 +240,4 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="You may not share this" locale="es" localized="No se puede compartir esto"/>
     <moqui.basic.LocalizedMessage original="You set only your own status" locale="es" localized="Solo se establece el propio estado"/>
     <moqui.basic.LocalizedMessage original="Your notifications" locale="es" localized="Notificaciones propias"/>
-    <moqui.basic.LocalizedMessage original="Your report is being generated and will be sent to ${ec.user.userAccount?.emailAddress} when ready." locale="es" localized="El informe se está generando y se enviará a ${ec.user.userAccount?.emailAddress} cuando esté listo."/>
-    <moqui.basic.LocalizedMessage original="Your report is being generated and will be sent to ${toAddresses} when ready." locale="es" localized="El informe se está generando y se enviará a ${toAddresses} cuando esté listo."/>
 </entity-facade-xml>

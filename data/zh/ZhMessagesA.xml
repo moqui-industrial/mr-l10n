@@ -75,9 +75,8 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Authentication code is not valid" locale="zh" localized="验证码无效"/>
     <moqui.basic.LocalizedMessage original="Authentication code not valid" locale="zh" localized="验证码不正确"/>
     <moqui.basic.LocalizedMessage original="Authentication code required for user ${username}" locale="zh" localized="用户 ${username} 需要验证码"/>
-    <moqui.basic.LocalizedMessage original="Authentication code sent to ${contactNumber}" locale="zh" localized="验证码已发送至 ${contactNumber}"/>
-    <moqui.basic.LocalizedMessage original="Authentication code sent to ${emailAddress}" locale="zh" localized="验证码已发送至 ${emailAddress}"/>
     <moqui.basic.LocalizedMessage original="Authentication Factor ${factorId} is not valid for ${userAccount.get('username')}" locale="zh" localized="认证因子 ${factorId} 对 ${userAccount.get('username')} 无效"/>
+    <moqui.basic.LocalizedMessage original="Authentication code sent to ${authCodeSentTo}" locale="zh" localized="验证码已发送至 ${authCodeSentTo}"/>
     <moqui.basic.LocalizedMessage original="Authentication factor ${factorId} not found" locale="zh" localized="未找到认证因子 ${factorId}"/>
     <moqui.basic.LocalizedMessage original="Back" locale="zh" localized="返回"/>
     <moqui.basic.LocalizedMessage original="Because of password issues not creating account with username ${username}" locale="zh" localized="因密码问题，未用用户名 ${username} 创建账号"/>
@@ -96,6 +95,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Cannot update the password of another user without password admin permission" locale="zh" localized="没有密码管理权限时，不能更新其他用户的密码"/>
     <moqui.basic.LocalizedMessage original="Choose one option" locale="zh" localized="请选择一个选项"/>
     <moqui.basic.LocalizedMessage original="Choose the folder (emailFolderId) or the account (emailAccountId) to try the rule on" locale="zh" localized="请选择要试用规则的文件夹（emailFolderId）或账号（emailAccountId）"/>
+    <moqui.basic.LocalizedMessage original="Entity ${entityName} is not available through this tool" locale="zh" localized="实体 ${entityName} 不能通过此工具使用"/>
     <moqui.basic.LocalizedMessage original="claim#DraftSend is internal" locale="zh" localized="claim#DraftSend 为内部接口"/>
     <moqui.basic.LocalizedMessage original="Clear" locale="zh" localized="清除"/>
     <moqui.basic.LocalizedMessage original="Clear Current Find" locale="zh" localized="清除当前查找"/>
@@ -135,11 +135,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Each rule action is an {action, value}" locale="zh" localized="每个规则操作都是 {action, value}"/>
     <moqui.basic.LocalizedMessage original="Each rule condition is a {field, operator, value}" locale="zh" localized="每个规则条件都是 {field, operator, value}"/>
     <moqui.basic.LocalizedMessage original="Edit ${geoId}: a gallery demo, nothing is written" locale="zh" localized="编辑 ${geoId}：图库演示，不会写入任何数据"/>
-    <moqui.basic.LocalizedMessage original="Email ${emailAddress} is already in use. Login with username ${existingUaList.get(0).get('username')}" locale="zh" localized="电子邮件 ${emailAddress} 已被使用。请用用户名 ${existingUaList.get(0).get('username')} 登录"/>
     <moqui.basic.LocalizedMessage original="Enter the password of the link" locale="zh" localized="请输入此链接的密码"/>
-    <moqui.basic.LocalizedMessage original="Entity ${aen} is not available through this tool" locale="zh" localized="实体 ${aen} 不能通过此工具使用"/>
-    <moqui.basic.LocalizedMessage original="Entity ${den} is not available through this tool" locale="zh" localized="实体 ${den} 不能通过此工具使用"/>
-    <moqui.basic.LocalizedMessage original="Entity ${selectedEntity} is not available through this tool" locale="zh" localized="实体 ${selectedEntity} 不能通过此工具使用"/>
     <moqui.basic.LocalizedMessage original="Entity is not available through this tool" locale="zh" localized="此实体不能通过此工具使用"/>
     <moqui.basic.LocalizedMessage original="Entry already exists for ${factorOption}" locale="zh" localized="已存在 ${factorOption} 的条目"/>
     <moqui.basic.LocalizedMessage original="Enumeration ${enumId || ''} created (gallery demo: nothing is written)" locale="zh" localized="已创建枚举 ${enumId || ''}（图库演示：不会写入任何数据）"/>

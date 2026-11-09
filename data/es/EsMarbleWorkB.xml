@@ -19,7 +19,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Open Time Entry Task: ${openTimeEntry.workEffortId}" locale="es" localized="Tarea del registro de tiempo abierto: ${openTimeEntry.workEffortId}"/>
     <moqui.basic.LocalizedMessage original="Optional, defaults to now" locale="es" localized="Opcional, el valor predeterminado es ahora"/>
     <moqui.basic.LocalizedMessage original="Options for ${field.title}" locale="es" localized="Opciones para ${field.title}"/>
-    <moqui.basic.LocalizedMessage original="Order ${item.orderId}" locale="es" localized="Orden ${item.orderId}"/>
     <moqui.basic.LocalizedMessage original="Org" locale="es" localized="Organización"/>
     <moqui.basic.LocalizedMessage original="Outgoing Refund Payments" locale="es" localized="Pagos de reembolso salientes"/>
     <moqui.basic.LocalizedMessage original="P-CB Gap" locale="es" localized="Brecha avance-presupuesto"/>
@@ -34,7 +33,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Parent Comm Event ID" locale="es" localized="ID de evento de comunicación padre"/>
     <moqui.basic.LocalizedMessage original="Parent Path" locale="es" localized="Ruta padre"/>
     <moqui.basic.LocalizedMessage original="Parent Task" locale="es" localized="Tarea padre"/>
-    <moqui.basic.LocalizedMessage original="Parent Task:" locale="es" localized="Tarea padre:"/>
     <moqui.basic.LocalizedMessage original="Parties" locale="es" localized="Participantes"/>
     <moqui.basic.LocalizedMessage original="Party: ${ec.resource.expand('PartyNameTemplate','',party)}" locale="es" localized="Participante: ${ec.resource.expand('PartyNameTemplate','',party)}"/>
     <moqui.basic.LocalizedMessage original="Payable Return Invoices" locale="es" localized="Facturas de devolución por pagar"/>
@@ -45,7 +43,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Position Class" locale="es" localized="Clase de puesto"/>
     <moqui.basic.LocalizedMessage original="Posted Date" locale="es" localized="Fecha de contabilización"/>
     <moqui.basic.LocalizedMessage original="Pri" locale="es" localized="Prioridad"/>
-    <moqui.basic.LocalizedMessage original="Priority:" locale="es" localized="Prioridad:"/>
     <moqui.basic.LocalizedMessage original="Product: ${ec.resource.expand('ProductNameTemplate','',product)}" locale="es" localized="Producto: ${ec.resource.expand('ProductNameTemplate','',product)}"/>
     <moqui.basic.LocalizedMessage original="Profit ${ec.l10n.formatCurrency(pstats.actualProfit, project.costUomId, 2)}" locale="es" localized="Beneficio ${ec.l10n.formatCurrency(pstats.actualProfit, project.costUomId, 2)}"/>
     <moqui.basic.LocalizedMessage original="Progress" locale="es" localized="Avance"/>
@@ -54,7 +51,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Project Name" locale="es" localized="Nombre del proyecto"/>
     <moqui.basic.LocalizedMessage original="Project Note" locale="es" localized="Nota del proyecto"/>
     <moqui.basic.LocalizedMessage original="Project Summary" locale="es" localized="Resumen del proyecto"/>
-    <moqui.basic.LocalizedMessage original="Project:" locale="es" localized="Proyecto:"/>
     <moqui.basic.LocalizedMessage original="Projects" locale="es" localized="Proyectos"/>
     <moqui.basic.LocalizedMessage original="Provider Cost ${ec.l10n.formatCurrency(project.actualCost, project.costUomId, 2)}" locale="es" localized="Costo del proveedor ${ec.l10n.formatCurrency(project.actualCost, project.costUomId, 2)}"/>
     <moqui.basic.LocalizedMessage original="Public Attachment" locale="es" localized="Adjunto público"/>
@@ -81,7 +77,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Remaining (d)" locale="es" localized="Restante (d)"/>
     <moqui.basic.LocalizedMessage original="Remaining (h)" locale="es" localized="Restante (h)"/>
     <moqui.basic.LocalizedMessage original="Remaining Hours" locale="es" localized="Horas restantes"/>
-    <moqui.basic.LocalizedMessage original="Remaining Hours:" locale="es" localized="Horas restantes:"/>
     <moqui.basic.LocalizedMessage original="Remove request association from task?" locale="es" localized="¿Quitar de la tarea la asociación con la solicitud?"/>
     <moqui.basic.LocalizedMessage original="Remove task association from request?" locale="es" localized="¿Quitar de la solicitud la asociación con la tarea?"/>
     <moqui.basic.LocalizedMessage original="Reply" locale="es" localized="Responder"/>
@@ -97,7 +92,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Requests" locale="es" localized="Solicitudes"/>
     <moqui.basic.LocalizedMessage original="Required By" locale="es" localized="Requerido para"/>
     <moqui.basic.LocalizedMessage original="Resolution" locale="es" localized="Resolución"/>
-    <moqui.basic.LocalizedMessage original="Resolution:" locale="es" localized="Resolución:"/>
     <moqui.basic.LocalizedMessage original="Response Details" locale="es" localized="Detalles de la respuesta"/>
     <moqui.basic.LocalizedMessage original="Response Stats" locale="es" localized="Estadísticas de respuestas"/>
     <moqui.basic.LocalizedMessage original="Responses" locale="es" localized="Respuestas"/>
@@ -117,7 +111,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Seq: ${wikiPage?.sequenceNum || 50} ID: ${wikiPageId||''} (${wikiType})${versionName ? ' Version ' + versionName.substring(0, 12) : ''}${publishedVersionName ? ' Published ' + publishedVersionName.substring(0, 12) : ''}" locale="es" localized="Secuencia: ${wikiPage?.sequenceNum || 50} ID: ${wikiPageId||''} (${wikiType})${versionName ? ' Version ' + versionName.substring(0, 12) : ''}${publishedVersionName ? ' Published ' + publishedVersionName.substring(0, 12) : ''}"/>
     <moqui.basic.LocalizedMessage original="Set Assignee" locale="es" localized="Asignar responsable"/>
     <moqui.basic.LocalizedMessage original="Shipment" locale="es" localized="Envío"/>
-    <moqui.basic.LocalizedMessage original="Shipment ${shipmentId}" locale="es" localized="Envío ${shipmentId}"/>
     <moqui.basic.LocalizedMessage original="Shipping" locale="es" localized="Envío"/>
     <moqui.basic.LocalizedMessage original="Shipping - Pick &amp; Pack" locale="es" localized="Envío - surtido y empaque"/>
     <moqui.basic.LocalizedMessage original="Show Invoiced" locale="es" localized="Mostrar facturados"/>
@@ -126,7 +119,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Space" locale="es" localized="Espacio"/>
     <moqui.basic.LocalizedMessage original="Space ID" locale="es" localized="ID de espacio"/>
     <moqui.basic.LocalizedMessage original="Status Flow" locale="es" localized="Flujo de estados"/>
-    <moqui.basic.LocalizedMessage original="Status:" locale="es" localized="Estado:"/>
     <moqui.basic.LocalizedMessage original="Stores" locale="es" localized="Tiendas"/>
     <moqui.basic.LocalizedMessage original="Summary for Milestone &quot;${milestoneWorkEffort.workEffortName}&quot; - ${milestoneWorkEffortId}" locale="es" localized="Resumen del hito &quot;${milestoneWorkEffort.workEffortName}&quot; - ${milestoneWorkEffortId}"/>
     <moqui.basic.LocalizedMessage original="Supplier Credit Memos" locale="es" localized="Notas de crédito del proveedor"/>
@@ -172,7 +164,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Vendor Hour Rate" locale="es" localized="Tarifa por hora del vendedor"/>
     <moqui.basic.LocalizedMessage original="Vendor Invoice" locale="es" localized="Factura del vendedor"/>
     <moqui.basic.LocalizedMessage original="Vendors" locale="es" localized="Vendedores"/>
-    <moqui.basic.LocalizedMessage original="Version ${wph.versionName.substring(0, 12)}" locale="es" localized="Versión ${wph.versionName.substring(0, 12)}"/>
     <moqui.basic.LocalizedMessage original="View Pages" locale="es" localized="Ver páginas"/>
     <moqui.basic.LocalizedMessage original="View Space" locale="es" localized="Ver espacio"/>
     <moqui.basic.LocalizedMessage original="View/Edit Wiki Page" locale="es" localized="Ver/editar página Wiki"/>

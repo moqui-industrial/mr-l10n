@@ -13,10 +13,8 @@ along with this software (see the LICENSE.md file). If not, see
 <http://creativecommons.org/publicdomain/zero/1.0/>.
 -->
 <entity-facade-xml type="zh">
-    <moqui.basic.LocalizedMessage original="${activeSeconds ?? 0} of ${maxRunSeconds ?? '-'}" locale="zh" localized="${activeSeconds ?? 0}（共 ${maxRunSeconds ?? '-'}）"/>
     <moqui.basic.LocalizedMessage original="${retrieval?.skillCount ?? 0} skills in the index for this user, agent and surface." locale="zh" localized="此用户、智能体和界面的索引中有 ${retrieval?.skillCount ?? 0} 项技能。"/>
-    <moqui.basic.LocalizedMessage original="${stepCount ?? 0} of ${maxSteps ?? '-'}" locale="zh" localized="${stepCount ?? 0}（共 ${maxSteps ?? '-'}）"/>
-    <moqui.basic.LocalizedMessage original="${toolCallCount ?? 0} of ${maxToolCalls ?? '-'}" locale="zh" localized="${toolCallCount ?? 0}（共 ${maxToolCalls ?? '-'}）"/>
+    <moqui.basic.LocalizedMessage original="${used} of ${limit}" locale="zh" localized="${used}（共 ${limit}）"/>
     <moqui.basic.LocalizedMessage original="% of Budget" locale="zh" localized="预算占比"/>
     <moqui.basic.LocalizedMessage original="50 when empty" locale="zh" localized="留空则为 50"/>
     <moqui.basic.LocalizedMessage original="A conversation leaves out of this line the skills its catalog lists and the ones it loaded." locale="zh" localized="对话会从此行略去其目录列出的技能以及已加载的技能。"/>
@@ -157,8 +155,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Max Calls" locale="zh" localized="最大调用数"/>
     <moqui.basic.LocalizedMessage original="MCP Server ${mcpServerId}" locale="zh" localized="MCP 服务器 ${mcpServerId}"/>
     <moqui.basic.LocalizedMessage original="Meaning" locale="zh" localized="语义"/>
-    <moqui.basic.LocalizedMessage original="Model ${modelId}" locale="zh" localized="模型 ${modelId}"/>
-    <moqui.basic.LocalizedMessage original="Model ${preview?.modelId}" locale="zh" localized="模型 ${preview?.modelId}"/>
     <moqui.basic.LocalizedMessage original="Model Calls" locale="zh" localized="模型调用"/>
     <moqui.basic.LocalizedMessage original="Model Calls Today" locale="zh" localized="今日模型调用"/>
     <moqui.basic.LocalizedMessage original="More request headers, a JSON object of name to value" locale="zh" localized="更多请求头，一个从名称到值的 JSON 对象"/>

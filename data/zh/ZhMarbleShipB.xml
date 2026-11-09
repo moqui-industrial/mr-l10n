@@ -51,7 +51,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Packed ${ec.l10n.format(quantityHandledTotal, '#,##0.##')} of ${ec.l10n.format(quantityTotal, '#,##0.##')}" locale="zh" localized="已包装 ${ec.l10n.format(quantityHandledTotal, '#,##0.##')} / ${ec.l10n.format(quantityTotal, '#,##0.##')}"/>
     <moqui.basic.LocalizedMessage original="Packed Date" locale="zh" localized="包装完成日期"/>
     <moqui.basic.LocalizedMessage original="Packed/Issued: ${ec.l10n.format(sid.quantityTotal ?? 0, '#.##')}, Remaining: ${ec.l10n.format(quantityPackRemaining, '#.##')}  (Unit: ${productUom?.description || 'N/A'})" locale="zh" localized="已包装/已出库：${ec.l10n.format(sid.quantityTotal ?? 0, '#.##')}，剩余：${ec.l10n.format(quantityPackRemaining, '#.##')}  （单位：${productUom?.description || '无'}）"/>
-    <moqui.basic.LocalizedMessage original="Packed/Issued: ${ec.l10n.format(sid.quantityTotal || 0, '#.##')}, Remaining: ${ec.l10n.format(quantityPackRemaining, '#.##')}  (Unit: ${productUom?.description || 'N/A'})" locale="zh" localized="已包装/已出库：${ec.l10n.format(sid.quantityTotal || 0, '#.##')}，剩余：${ec.l10n.format(quantityPackRemaining, '#.##')}  （单位：${productUom?.description || '无'}）"/>
     <moqui.basic.LocalizedMessage original="Parent Facility" locale="zh" localized="上级设施"/>
     <moqui.basic.LocalizedMessage original="Payment ${shipmentPayment.paymentId} - ${pmntInstrumentEnum?.description || 'Unknown Type'} - ${pmntStatus?.description}" locale="zh" localized="付款 ${shipmentPayment.paymentId} - ${pmntInstrumentEnum?.description || '未知类型'} - ${pmntStatus?.description}"/>
     <moqui.basic.LocalizedMessage original="Payments associated with this shipment through order or invoice will not be changed" locale="zh" localized="通过订单或发票关联到此发货单的付款不会更改"/>
@@ -153,7 +152,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Signature Required Enum ID" locale="zh" localized="需要签名枚举 ID"/>
     <moqui.basic.LocalizedMessage original="Size UOM" locale="zh" localized="规格计量单位"/>
     <moqui.basic.LocalizedMessage original="Size/UOM" locale="zh" localized="规格/计量单位"/>
-    <moqui.basic.LocalizedMessage original="Status: ${workEffort.status?.description || statusId}" locale="zh" localized="状态：${workEffort.status?.description || statusId}"/>
     <moqui.basic.LocalizedMessage original="Stored At" locale="zh" localized="存放于"/>
     <moqui.basic.LocalizedMessage original="These items will be removed from the Assembly Task automatically, so must be removed from packages before continuing." locale="zh" localized="这些明细将自动从装配任务中移除，因此继续前必须从包裹中移除。"/>
     <moqui.basic.LocalizedMessage original="To Party" locale="zh" localized="去向参与方"/>

@@ -75,9 +75,8 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Authentication code is not valid" locale="es" localized="El código de autenticación no es válido"/>
     <moqui.basic.LocalizedMessage original="Authentication code not valid" locale="es" localized="Código de autenticación no válido"/>
     <moqui.basic.LocalizedMessage original="Authentication code required for user ${username}" locale="es" localized="Se requiere código de autenticación para el usuario ${username}"/>
-    <moqui.basic.LocalizedMessage original="Authentication code sent to ${contactNumber}" locale="es" localized="Código de autenticación enviado a ${contactNumber}"/>
-    <moqui.basic.LocalizedMessage original="Authentication code sent to ${emailAddress}" locale="es" localized="Código de autenticación enviado a ${emailAddress}"/>
     <moqui.basic.LocalizedMessage original="Authentication Factor ${factorId} is not valid for ${userAccount.get('username')}" locale="es" localized="El factor de autenticación ${factorId} no es válido para ${userAccount.get('username')}"/>
+    <moqui.basic.LocalizedMessage original="Authentication code sent to ${authCodeSentTo}" locale="es" localized="Código de autenticación enviado a ${authCodeSentTo}"/>
     <moqui.basic.LocalizedMessage original="Authentication factor ${factorId} not found" locale="es" localized="No se encontró el factor de autenticación ${factorId}"/>
     <moqui.basic.LocalizedMessage original="Back" locale="es" localized="Atrás"/>
     <moqui.basic.LocalizedMessage original="Because of password issues not creating account with username ${username}" locale="es" localized="Por problemas con la contraseña no se crea la cuenta con el nombre de usuario ${username}"/>
@@ -96,6 +95,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Cannot update the password of another user without password admin permission" locale="es" localized="No se puede actualizar la contraseña de otro usuario sin el permiso de administración de contraseñas"/>
     <moqui.basic.LocalizedMessage original="Choose one option" locale="es" localized="Elegir una opción"/>
     <moqui.basic.LocalizedMessage original="Choose the folder (emailFolderId) or the account (emailAccountId) to try the rule on" locale="es" localized="Elegir la carpeta (emailFolderId) o la cuenta (emailAccountId) en la que probar la regla"/>
+    <moqui.basic.LocalizedMessage original="Entity ${entityName} is not available through this tool" locale="es" localized="La entidad ${entityName} no está disponible en esta herramienta"/>
     <moqui.basic.LocalizedMessage original="claim#DraftSend is internal" locale="es" localized="claim#DraftSend es interno"/>
     <moqui.basic.LocalizedMessage original="Clear" locale="es" localized="Limpiar"/>
     <moqui.basic.LocalizedMessage original="Clear Current Find" locale="es" localized="Limpiar la búsqueda actual"/>
@@ -135,11 +135,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Each rule action is an {action, value}" locale="es" localized="Cada acción de regla es un {action, value}"/>
     <moqui.basic.LocalizedMessage original="Each rule condition is a {field, operator, value}" locale="es" localized="Cada condición de regla es un {field, operator, value}"/>
     <moqui.basic.LocalizedMessage original="Edit ${geoId}: a gallery demo, nothing is written" locale="es" localized="Editar ${geoId}: demo de galería, no se escribe nada"/>
-    <moqui.basic.LocalizedMessage original="Email ${emailAddress} is already in use. Login with username ${existingUaList.get(0).get('username')}" locale="es" localized="El correo electrónico ${emailAddress} ya está en uso. Iniciar sesión con el nombre de usuario ${existingUaList.get(0).get('username')}"/>
     <moqui.basic.LocalizedMessage original="Enter the password of the link" locale="es" localized="Introducir la contraseña del enlace"/>
-    <moqui.basic.LocalizedMessage original="Entity ${aen} is not available through this tool" locale="es" localized="La entidad ${aen} no está disponible en esta herramienta"/>
-    <moqui.basic.LocalizedMessage original="Entity ${den} is not available through this tool" locale="es" localized="La entidad ${den} no está disponible en esta herramienta"/>
-    <moqui.basic.LocalizedMessage original="Entity ${selectedEntity} is not available through this tool" locale="es" localized="La entidad ${selectedEntity} no está disponible en esta herramienta"/>
     <moqui.basic.LocalizedMessage original="Entity is not available through this tool" locale="es" localized="La entidad no está disponible en esta herramienta"/>
     <moqui.basic.LocalizedMessage original="Entry already exists for ${factorOption}" locale="es" localized="Ya existe una entrada para ${factorOption}"/>
     <moqui.basic.LocalizedMessage original="Enumeration ${enumId || ''} created (gallery demo: nothing is written)" locale="es" localized="Enumeración ${enumId || ''} creada (demo de galería: no se escribe nada)"/>

@@ -13,10 +13,8 @@ along with this software (see the LICENSE.md file). If not, see
 <http://creativecommons.org/publicdomain/zero/1.0/>.
 -->
 <entity-facade-xml type="es">
-    <moqui.basic.LocalizedMessage original="${activeSeconds ?? 0} of ${maxRunSeconds ?? '-'}" locale="es" localized="${activeSeconds ?? 0} de ${maxRunSeconds ?? '-'}"/>
     <moqui.basic.LocalizedMessage original="${retrieval?.skillCount ?? 0} skills in the index for this user, agent and surface." locale="es" localized="${retrieval?.skillCount ?? 0} habilidades en el índice de este usuario, agente y superficie."/>
-    <moqui.basic.LocalizedMessage original="${stepCount ?? 0} of ${maxSteps ?? '-'}" locale="es" localized="${stepCount ?? 0} de ${maxSteps ?? '-'}"/>
-    <moqui.basic.LocalizedMessage original="${toolCallCount ?? 0} of ${maxToolCalls ?? '-'}" locale="es" localized="${toolCallCount ?? 0} de ${maxToolCalls ?? '-'}"/>
+    <moqui.basic.LocalizedMessage original="${used} of ${limit}" locale="es" localized="${used} de ${limit}"/>
     <moqui.basic.LocalizedMessage original="% of Budget" locale="es" localized="% del presupuesto"/>
     <moqui.basic.LocalizedMessage original="50 when empty" locale="es" localized="50 si está vacío"/>
     <moqui.basic.LocalizedMessage original="A conversation leaves out of this line the skills its catalog lists and the ones it loaded." locale="es" localized="Una conversación omite en esta línea las habilidades que lista su catálogo y las que cargó."/>
@@ -157,8 +155,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Max Calls" locale="es" localized="Máximo de llamadas"/>
     <moqui.basic.LocalizedMessage original="MCP Server ${mcpServerId}" locale="es" localized="Servidor MCP ${mcpServerId}"/>
     <moqui.basic.LocalizedMessage original="Meaning" locale="es" localized="Significado"/>
-    <moqui.basic.LocalizedMessage original="Model ${modelId}" locale="es" localized="Modelo ${modelId}"/>
-    <moqui.basic.LocalizedMessage original="Model ${preview?.modelId}" locale="es" localized="Modelo ${preview?.modelId}"/>
     <moqui.basic.LocalizedMessage original="Model Calls" locale="es" localized="Llamadas al modelo"/>
     <moqui.basic.LocalizedMessage original="Model Calls Today" locale="es" localized="Llamadas al modelo hoy"/>
     <moqui.basic.LocalizedMessage original="More request headers, a JSON object of name to value" locale="es" localized="Más encabezados de solicitud, un objeto JSON de nombre a valor"/>

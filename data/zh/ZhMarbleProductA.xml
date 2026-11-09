@@ -14,8 +14,7 @@ along with this software (see the LICENSE.md file). If not, see
 -->
 <entity-facade-xml type="zh">
     <moqui.basic.LocalizedMessage original="${ec.l10n.format(toDecimal(bomDetail.quantityRemaining ?? 0).negate(), null)} too many of" locale="zh" localized="多出 ${ec.l10n.format(toDecimal(bomDetail.quantityRemaining ?? 0).negate(), null)}"/>
-    <moqui.basic.LocalizedMessage original="${ec.resource.expand('ProductNameTemplate', null, contAsset)} - Qty ${ec.l10n.format(contAsset.quantityOnHandTotal, null)}" locale="zh" localized="${ec.resource.expand('ProductNameTemplate', null, contAsset)} - 数量 ${ec.l10n.format(contAsset.quantityOnHandTotal, null)}"/>
-    <moqui.basic.LocalizedMessage original="${ec.resource.expand('ProductNameTemplate', null, locAsset)} - Qty ${ec.l10n.format(locAsset.quantityOnHandTotal, null)}" locale="zh" localized="${ec.resource.expand('ProductNameTemplate', null, locAsset)} - 数量 ${ec.l10n.format(locAsset.quantityOnHandTotal, null)}"/>
+    <moqui.basic.LocalizedMessage original="${ec.resource.expand('ProductNameTemplate', null, qtyAsset)} - Qty ${ec.l10n.format(qtyAsset.quantityOnHandTotal, null)}" locale="zh" localized="${ec.resource.expand('ProductNameTemplate', null, qtyAsset)} - 数量 ${ec.l10n.format(qtyAsset.quantityOnHandTotal, null)}"/>
     <moqui.basic.LocalizedMessage original="${productIds?.length || '0'} Products" locale="zh" localized="${productIds?.length || '0'} 个产品"/>
     <moqui.basic.LocalizedMessage original="(reservation removed)" locale="zh" localized="（预留已移除）"/>
     <moqui.basic.LocalizedMessage original="A. Class" locale="zh" localized="资产类别"/>
@@ -81,7 +80,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Assoc. Type" locale="zh" localized="关联类型"/>
     <moqui.basic.LocalizedMessage original="Associated" locale="zh" localized="已关联"/>
     <moqui.basic.LocalizedMessage original="Associated From" locale="zh" localized="关联来源"/>
-    <moqui.basic.LocalizedMessage original="At ${ec.l10n.format(version.versionDate, 'yyyy-MM-dd HH:mm')}" locale="zh" localized="于 ${ec.l10n.format(version.versionDate, 'yyyy-MM-dd HH:mm')}"/>
     <moqui.basic.LocalizedMessage original="Attachments" locale="zh" localized="附件"/>
     <moqui.basic.LocalizedMessage original="Authorize Service" locale="zh" localized="授权服务"/>
     <moqui.basic.LocalizedMessage original="Auto Approve Delay" locale="zh" localized="自动批准延迟"/>
@@ -174,7 +172,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Facilities" locale="zh" localized="设施"/>
     <moqui.basic.LocalizedMessage original="Facility ID" locale="zh" localized="设施 ID"/>
     <moqui.basic.LocalizedMessage original="Facility Locations" locale="zh" localized="设施库位"/>
-    <moqui.basic.LocalizedMessage original="Facility*" locale="zh" localized="设施*"/>
     <moqui.basic.LocalizedMessage original="Feature 2" locale="zh" localized="特性 2"/>
     <moqui.basic.LocalizedMessage original="Feature Group" locale="zh" localized="特性组"/>
     <moqui.basic.LocalizedMessage original="Feature Group ID" locale="zh" localized="特性组 ID"/>

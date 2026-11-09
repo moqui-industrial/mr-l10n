@@ -388,8 +388,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="The first segment of a location: git://ID/path/to/file.md" locale="zh" localized="位置的第一段：git://ID/path/to/file.md"/>
     <moqui.basic.LocalizedMessage original="This trace exceeds the display limit. Narrow the time range to inspect more spans." locale="zh" localized="此追踪超出显示上限。请缩小时间范围以查看更多跨度。"/>
     <moqui.basic.LocalizedMessage original="Threads" locale="zh" localized="线程"/>
-    <moqui.basic.LocalizedMessage original="Threads: ${processInfo.Threads}" locale="zh" localized="线程：${processInfo.Threads}"/>
-    <moqui.basic.LocalizedMessage original="Threads: ${threadMapList.length}" locale="zh" localized="线程：${threadMapList.length}"/>
+    <moqui.basic.LocalizedMessage original="Threads: ${threadCountText}" locale="zh" localized="线程：${threadCountText}"/>
     <moqui.basic.LocalizedMessage original="Time" locale="zh" localized="时间"/>
     <moqui.basic.LocalizedMessage original="Time period in milliseconds for each query across included entities" locale="zh" localized="对所含实体每次查询的时间段（毫秒）"/>
     <moqui.basic.LocalizedMessage original="Time Zone: ${visit.clientIpTimeZone}" locale="zh" localized="时区：${visit.clientIpTimeZone}"/>
@@ -398,8 +397,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Topic Email" locale="zh" localized="主题电子邮件"/>
     <moqui.basic.LocalizedMessage original="Topic Subscriptions" locale="zh" localized="主题订阅"/>
     <moqui.basic.LocalizedMessage original="Trace" locale="zh" localized="追踪"/>
-    <moqui.basic.LocalizedMessage original="Trace ${sampleTrace}" locale="zh" localized="追踪 ${sampleTrace}"/>
-    <moqui.basic.LocalizedMessage original="Trace ${traceId}" locale="zh" localized="追踪 ${traceId}"/>
     <moqui.basic.LocalizedMessage original="Trace detail" locale="zh" localized="追踪详情"/>
     <moqui.basic.LocalizedMessage original="Traces" locale="zh" localized="追踪列表"/>
     <moqui.basic.LocalizedMessage original="Type ID" locale="zh" localized="类型 ID"/>

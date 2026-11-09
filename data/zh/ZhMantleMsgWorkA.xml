@@ -161,7 +161,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Due before its start; the start is left empty" locale="zh" localized="到期早于开始；开始留空"/>
     <moqui.basic.LocalizedMessage original="Email ${emailAddress} is already in use. Login with username ${existingUaList[0].username}" locale="zh" localized="电子邮件 ${emailAddress} 已被使用。请用用户名 ${existingUaList[0].username} 登录"/>
     <moqui.basic.LocalizedMessage original="Email record missing" locale="zh" localized="缺少电子邮件记录"/>
-    <moqui.basic.LocalizedMessage original="Email sent to ${toAddresses}${sendOut.emailMessageId ? ', message ID ' + sendOut.emailMessageId : ''}" locale="zh" localized="电子邮件已发送至 ${toAddresses}${sendOut.emailMessageId ? '，消息 ID ' + sendOut.emailMessageId : ''}"/>
+    <moqui.basic.LocalizedMessage original="Email sent to ${sentTo}${sendOut.emailMessageId ? ', message ID ' + sendOut.emailMessageId : ''}" locale="zh" localized="电子邮件已发送至 ${sentTo}${sendOut.emailMessageId ? '，消息 ID ' + sendOut.emailMessageId : ''}"/>
     <moqui.basic.LocalizedMessage original="Employee ${ec.resource.expand('PartyNameTemplate', '', fromDetail)} is no longer employed" locale="zh" localized="员工 ${ec.resource.expand('PartyNameTemplate', '', fromDetail)} 已不再受雇"/>
     <moqui.basic.LocalizedMessage original="Employee ${ec.resource.expand('PartyNameTemplate', '', fromDetail)} is not paid in this type of period" locale="zh" localized="员工 ${ec.resource.expand('PartyNameTemplate', '', fromDetail)} 不在此类期间领取工资"/>
     <moqui.basic.LocalizedMessage original="Employee ${ec.resource.expand('PartyNameTemplate', '', fromDetail)} is not yet employed" locale="zh" localized="员工 ${ec.resource.expand('PartyNameTemplate', '', fromDetail)} 尚未受雇"/>

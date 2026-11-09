@@ -60,7 +60,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Only Cost Matches PO Amount" locale="es" localized="Solo costo igual al importe de PO"/>
     <moqui.basic.LocalizedMessage original="Only No Cost" locale="es" localized="Solo sin costo"/>
     <moqui.basic.LocalizedMessage original="Only No Location" locale="es" localized="Solo sin ubicación"/>
-    <moqui.basic.LocalizedMessage original="Order #${assetReservation?.orderId || orderId}" locale="es" localized="Orden #${assetReservation?.orderId || orderId}"/>
     <moqui.basic.LocalizedMessage original="Organization Party" locale="es" localized="Participante de la organización"/>
     <moqui.basic.LocalizedMessage original="Other ID" locale="es" localized="Otro ID"/>
     <moqui.basic.LocalizedMessage original="Other IDs" locale="es" localized="Otros ID"/>
@@ -112,7 +111,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Product and Facility are required. If no Location, Lot, Owner, Pool, or Status is selected only assets with no value will be included in the currently recorded quantity and only assets with no value will be adjusted." locale="es" localized="El producto y la instalación son obligatorios. Si no se elige ubicación, lote, propietario, grupo ni estado, solo los activos sin valor entran en la cantidad registrada y solo ellos se ajustan."/>
     <moqui.basic.LocalizedMessage original="Product to Produce" locale="es" localized="Producto a producir"/>
     <moqui.basic.LocalizedMessage original="Product to Produce: ${ec.resource.expand('ProductNameTemplate','',produceBomDetail.workEffortProductDetail)} - ${ec.l10n.format(produceBomDetail.estimatedQuantity, null)} (${produceBomDetail.workEffortProductDetail.amountUomDescription || ''})" locale="es" localized="Producto a producir: ${ec.resource.expand('ProductNameTemplate','',produceBomDetail.workEffortProductDetail)} - ${ec.l10n.format(produceBomDetail.estimatedQuantity, null)} (${produceBomDetail.workEffortProductDetail.amountUomDescription || ''})"/>
-    <moqui.basic.LocalizedMessage original="Product*" locale="es" localized="Producto*"/>
     <moqui.basic.LocalizedMessage original="Production Runs" locale="es" localized="Corridas de producción"/>
     <moqui.basic.LocalizedMessage original="Products" locale="es" localized="Productos"/>
     <moqui.basic.LocalizedMessage original="Products to Consume" locale="es" localized="Productos a consumir"/>
@@ -125,7 +123,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Quantity Change" locale="es" localized="Cambio de cantidad"/>
     <moqui.basic.LocalizedMessage original="Quantity Difference" locale="es" localized="Diferencia de cantidad"/>
     <moqui.basic.LocalizedMessage original="Quantity On Hand" locale="es" localized="Cantidad en existencia"/>
-    <moqui.basic.LocalizedMessage original="Quantity*" locale="es" localized="Cantidad*"/>
     <moqui.basic.LocalizedMessage original="Query String" locale="es" localized="Cadena de consulta"/>
     <moqui.basic.LocalizedMessage original="Read By" locale="es" localized="Leído por"/>
     <moqui.basic.LocalizedMessage original="Reading Date" locale="es" localized="Fecha de lectura"/>
@@ -195,8 +192,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Set to Y to show all Carrier Shipment Methods on Shipments instead of only Shipping Options for this Store" locale="es" localized="Establecer en Y para mostrar todos los métodos de envío del transportista en los envíos, en lugar de solo las opciones de envío de esta tienda"/>
     <moqui.basic.LocalizedMessage original="Setting Type" locale="es" localized="Tipo de configuración"/>
     <moqui.basic.LocalizedMessage original="Ship Insure Reqd" locale="es" localized="Seguro de envío req."/>
-    <moqui.basic.LocalizedMessage original="Shipment #${assetIssuance.shipmentId}" locale="es" localized="Envío #${assetIssuance.shipmentId}"/>
-    <moqui.basic.LocalizedMessage original="Shipment #${assetReceipt.shipmentId}" locale="es" localized="Envío #${assetReceipt.shipmentId}"/>
     <moqui.basic.LocalizedMessage original="Shipment Gateway" locale="es" localized="Puerta de enlace de envío"/>
     <moqui.basic.LocalizedMessage original="Shipment Method Enum ID" locale="es" localized="ID de enumeración de método de envío"/>
     <moqui.basic.LocalizedMessage original="Shipping Gateways" locale="es" localized="Puertas de enlace de envío"/>
@@ -227,7 +222,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Useful Years" locale="es" localized="Años útiles"/>
     <moqui.basic.LocalizedMessage original="Variance Reason" locale="es" localized="Motivo de la variación"/>
     <moqui.basic.LocalizedMessage original="Variant Type" locale="es" localized="Tipo de variante"/>
-    <moqui.basic.LocalizedMessage original="Version ${versionNameLhs.substring(0, 12)}" locale="es" localized="Versión ${versionNameLhs.substring(0, 12)}"/>
     <moqui.basic.LocalizedMessage original="WARNING: changing to incorrect or invalid services will break payment processing. Do you want to update?" locale="es" localized="ADVERTENCIA: cambiar a servicios incorrectos o no válidos interrumpirá el procesamiento de pagos. ¿Actualizar?"/>
     <moqui.basic.LocalizedMessage original="WH ATP" locale="es" localized="ATP de almacén"/>
     <moqui.basic.LocalizedMessage original="WH QOH" locale="es" localized="QOH de almacén"/>

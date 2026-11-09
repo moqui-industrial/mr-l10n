@@ -34,8 +34,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Not updating promotions, shipping, or tax for order part ${orderId}:${orderPartSeqId} with ${partBillingCount} OrderItemBilling records" locale="zh" localized="不更新订单部分 ${orderId}:${orderPartSeqId} 的促销、运费或税，因其已有 ${partBillingCount} 条 OrderItemBilling 记录"/>
     <moqui.basic.LocalizedMessage original="Not updating shipping info, Shipment ${shipmentId} is ${shipment.status?.description}" locale="zh" localized="不更新送货信息，发货单 ${shipmentId} 为 ${shipment.status?.description}"/>
     <moqui.basic.LocalizedMessage original="Offer at least one work type" locale="zh" localized="请至少提供一种作业类型"/>
-    <moqui.basic.LocalizedMessage original="Only ${quantityPicked} found to pick out of the ${quantity} requested, ${toDecimal(quantity).subtract(quantityPicked)} should be returned to the shelf" locale="zh" localized="只拣到 ${quantityPicked}，请求数量为 ${quantity}，${toDecimal(quantity).subtract(quantityPicked)} 应退回货架"/>
-    <moqui.basic.LocalizedMessage original="Only ${toDecimal(quantity).subtract(quantityToPick)} found to pick out of the ${quantity} requested, ${quantityToPick} should be returned to the shelf" locale="zh" localized="只拣到 ${toDecimal(quantity).subtract(quantityToPick)}，请求数量为 ${quantity}，${quantityToPick} 应退回货架"/>
+    <moqui.basic.LocalizedMessage original="Only ${foundQty} found to pick out of the ${requestedQty} requested, ${returnQty} should be returned to the shelf" locale="zh" localized="只拣到 ${foundQty}，请求数量为 ${requestedQty}，${returnQty} 应退回货架"/>
     <moqui.basic.LocalizedMessage original="Only a requested allocation is approved" locale="zh" localized="只能批准已请求的分配"/>
     <moqui.basic.LocalizedMessage original="Only a requested allocation is rejected" locale="zh" localized="只能拒绝已请求的分配"/>
     <moqui.basic.LocalizedMessage original="Only a submitted week is approved" locale="zh" localized="只能批准已提交的周次"/>
@@ -103,7 +102,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Product ${productId} is a Virtual product and may not be used on an Order" locale="zh" localized="产品 ${productId} 是虚拟产品，不能用在订单上"/>
     <moqui.basic.LocalizedMessage original="Product ${productId} not found" locale="zh" localized="找不到产品 ${productId}"/>
     <moqui.basic.LocalizedMessage original="Product ${productId} requires a selected amount" locale="zh" localized="产品 ${productId} 需要选定金额"/>
-    <moqui.basic.LocalizedMessage original="Project ${id} not found" locale="zh" localized="找不到项目 ${id}"/>
     <moqui.basic.LocalizedMessage original="Project ${workEffortId} not found" locale="zh" localized="找不到项目 ${workEffortId}"/>
     <moqui.basic.LocalizedMessage original="Project ID must be only letters and digits and between 1 and 8 characters long" locale="zh" localized="项目 ID 只能包含字母和数字，且长度须在 1 到 8 个字符之间"/>
     <moqui.basic.LocalizedMessage original="Project date range is not valid." locale="zh" localized="项目日期范围无效。"/>

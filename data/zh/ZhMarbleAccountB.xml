@@ -13,6 +13,10 @@ along with this software (see the LICENSE.md file). If not, see
 <http://creativecommons.org/publicdomain/zero/1.0/>.
 -->
 <entity-facade-xml type="zh">
+    <moqui.basic.LocalizedMessage original="Asset Issuance##glBasis" locale="zh" localized="资产发出"/>
+    <moqui.basic.LocalizedMessage original="Asset Receipt##glBasis" locale="zh" localized="资产接收"/>
+    <moqui.basic.LocalizedMessage original="Financial Account Transaction##glBasis" locale="zh" localized="财务账户交易"/>
+    <moqui.basic.LocalizedMessage original="Invoice##glBasis" locale="zh" localized="发票"/>
     <moqui.basic.LocalizedMessage original="Issued Quantity" locale="zh" localized="发出数量"/>
     <moqui.basic.LocalizedMessage original="Issued Total" locale="zh" localized="发出合计"/>
     <moqui.basic.LocalizedMessage original="Item ${invoiceItem.invoiceItemSeqId}: ${invoiceItem.description}" locale="zh" localized="明细 ${invoiceItem.invoiceItemSeqId}：${invoiceItem.description}"/>
@@ -34,7 +38,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Local Currency" locale="zh" localized="本地货币"/>
     <moqui.basic.LocalizedMessage original="Local currency for financial reporting, only needed IF DIFFERENT from Base Currency; if used separate local currency amounts are calculated for each GL transaction" locale="zh" localized="用于财务报告的本地货币，仅在与基准货币不同时需要；若使用，则为每笔总账交易单独计算本地货币金额"/>
     <moqui.basic.LocalizedMessage original="Loss Account" locale="zh" localized="损失账户"/>
-    <moqui.basic.LocalizedMessage original="Lot #" locale="zh" localized="批次 #"/>
     <moqui.basic.LocalizedMessage original="MA Periods" locale="zh" localized="移动平均期数"/>
     <moqui.basic.LocalizedMessage original="Main" locale="zh" localized="主要"/>
     <moqui.basic.LocalizedMessage original="Manufacturer Name" locale="zh" localized="制造商名称"/>
@@ -120,6 +123,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Payable" locale="zh" localized="应付"/>
     <moqui.basic.LocalizedMessage original="Payable Invoice ${invoiceId} for ${ec.resource.expand('PartyNameTemplate', null, organizationParty)}" locale="zh" localized="应付发票 ${invoiceId}，组织为 ${ec.resource.expand('PartyNameTemplate', null, organizationParty)}"/>
     <moqui.basic.LocalizedMessage original="Payment Application ID" locale="zh" localized="付款核销 ID"/>
+    <moqui.basic.LocalizedMessage original="Payment Application##glBasis" locale="zh" localized="付款核销"/>
     <moqui.basic.LocalizedMessage original="Payment Applications" locale="zh" localized="付款核销"/>
     <moqui.basic.LocalizedMessage original="Payment Applications with Invoice after Period" locale="zh" localized="发票晚于期间的付款核销"/>
     <moqui.basic.LocalizedMessage original="Payment Content ID" locale="zh" localized="付款内容 ID"/>
@@ -129,6 +133,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Payment Method ID Save" locale="zh" localized="已保存的付款方式 ID"/>
     <moqui.basic.LocalizedMessage original="Payment Type Enum ID" locale="zh" localized="付款类型枚举 ID"/>
     <moqui.basic.LocalizedMessage original="Payment Types" locale="zh" localized="付款类型"/>
+    <moqui.basic.LocalizedMessage original="Payment##glBasis" locale="zh" localized="付款"/>
     <moqui.basic.LocalizedMessage original="Payments Unapplied" locale="zh" localized="未核销付款"/>
     <moqui.basic.LocalizedMessage original="Payments where Applied different from GL Amount" locale="zh" localized="已核销金额与总账金额不同的付款"/>
     <moqui.basic.LocalizedMessage original="Per 1" locale="zh" localized="期 1"/>
@@ -156,6 +161,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Periods" locale="zh" localized="期间"/>
     <moqui.basic.LocalizedMessage original="Periods: ${ec.l10n.format(subPerTotal, '')}" locale="zh" localized="期间：${ec.l10n.format(subPerTotal, '')}"/>
     <moqui.basic.LocalizedMessage original="Physical Inv" locale="zh" localized="实地盘点"/>
+    <moqui.basic.LocalizedMessage original="Physical Inventory##glBasis" locale="zh" localized="实地盘点"/>
     <moqui.basic.LocalizedMessage original="Pkg Quantity" locale="zh" localized="包裹数量"/>
     <moqui.basic.LocalizedMessage original="Pkg Weight" locale="zh" localized="包裹重量"/>
     <moqui.basic.LocalizedMessage original="Please select a Date Range" locale="zh" localized="请选择日期范围"/>
@@ -308,13 +314,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Void this payment and cancel all invoices it is applied to?" locale="zh" localized="作废此付款并取消其已核销的全部发票？"/>
     <moqui.basic.LocalizedMessage original="Voucher Date" locale="zh" localized="凭证日期"/>
     <moqui.basic.LocalizedMessage original="Voucher Ref" locale="zh" localized="凭证参考"/>
-    <moqui.basic.LocalizedMessage original="WARNING: This GL Transaction is based on Asset Issuance ${acctgTrans.assetIssuanceId}, manual changes to Transaction Date, Amounts, etc may cause reconciliation exceptions or audit flags." locale="zh" localized="警告：此总账交易基于资产发出 ${acctgTrans.assetIssuanceId}，手动更改交易日期、金额等可能导致对账异常或审计标记。"/>
-    <moqui.basic.LocalizedMessage original="WARNING: This GL Transaction is based on Asset Receipt ${acctgTrans.assetReceiptId}, manual changes to Transaction Date, Amounts, etc may cause reconciliation exceptions or audit flags." locale="zh" localized="警告：此总账交易基于资产接收 ${acctgTrans.assetReceiptId}，手动更改交易日期、金额等可能导致对账异常或审计标记。"/>
-    <moqui.basic.LocalizedMessage original="WARNING: This GL Transaction is based on Financial Account Transaction ${acctgTrans.finAccountTransId}, manual changes to Transaction Date, Amounts, etc may cause reconciliation exceptions or audit flags." locale="zh" localized="警告：此总账交易基于财务账户交易 ${acctgTrans.finAccountTransId}，手动更改交易日期、金额等可能导致对账异常或审计标记。"/>
-    <moqui.basic.LocalizedMessage original="WARNING: This GL Transaction is based on Invoice ${acctgTrans.invoiceId}, manual changes to Transaction Date, Amounts, etc may cause reconciliation exceptions or audit flags." locale="zh" localized="警告：此总账交易基于发票 ${acctgTrans.invoiceId}，手动更改交易日期、金额等可能导致对账异常或审计标记。"/>
-    <moqui.basic.LocalizedMessage original="WARNING: This GL Transaction is based on Payment ${acctgTrans.paymentId}, manual changes to Transaction Date, Amounts, etc may cause reconciliation exceptions or audit flags." locale="zh" localized="警告：此总账交易基于付款 ${acctgTrans.paymentId}，手动更改交易日期、金额等可能导致对账异常或审计标记。"/>
-    <moqui.basic.LocalizedMessage original="WARNING: This GL Transaction is based on Payment Application ${acctgTrans.paymentApplicationId}, manual changes to Transaction Date, Amounts, etc may cause reconciliation exceptions or audit flags." locale="zh" localized="警告：此总账交易基于付款核销 ${acctgTrans.paymentApplicationId}，手动更改交易日期、金额等可能导致对账异常或审计标记。"/>
-    <moqui.basic.LocalizedMessage original="WARNING: This GL Transaction is based on Physical Inventory ${acctgTrans.physicalInventoryId}, manual changes to Transaction Date, Amounts, etc may cause reconciliation exceptions or audit flags." locale="zh" localized="警告：此总账交易基于实地盘点 ${acctgTrans.physicalInventoryId}，手动更改交易日期、金额等可能导致对账异常或审计标记。"/>
+    <moqui.basic.LocalizedMessage original="WARNING: This GL Transaction is based on ${basis}, manual changes to Transaction Date, Amounts, etc may cause reconciliation exceptions or audit flags." locale="zh" localized="警告：此总账交易基于${basis}，手动更改交易日期、金额等可能导致对账异常或审计标记。"/>
     <moqui.basic.LocalizedMessage original="Y (Applied when posted)" locale="zh" localized="Y（过账时核销）"/>
     <moqui.basic.LocalizedMessage original="Y (Payable)" locale="zh" localized="Y（应付）"/>
     <moqui.basic.LocalizedMessage original="Y (Payable/Outgoing)" locale="zh" localized="Y（应付/发出）"/>

@@ -39,7 +39,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Approves orders matching current find options. Use the Find Options dialog to adjust as needed before doing this." locale="es" localized="Aprueba las órdenes que coinciden con las opciones de búsqueda actuales. Use el diálogo de opciones de búsqueda para ajustar lo necesario antes de hacerlo."/>
     <moqui.basic.LocalizedMessage original="Are you sure you want to cancel this return?" locale="es" localized="¿Está seguro de que desea cancelar esta devolución?"/>
     <moqui.basic.LocalizedMessage original="Are you sure, and are all return quantities correct? This will cancel the return shipment, receive full quantity of all Approved or Shipped items, and process item responses." locale="es" localized="¿Está seguro y son correctas todas las cantidades de la devolución? Esto cancelará el envío de devolución, recibirá la cantidad completa de todos los artículos Aprobados o Enviados y procesará las respuestas de los artículos."/>
-    <moqui.basic.LocalizedMessage original="Asset ${resInfo.existingRes.assetId}" locale="es" localized="Activo ${resInfo.existingRes.assetId}"/>
     <moqui.basic.LocalizedMessage original="Asset Reservations" locale="es" localized="Reservas de activo"/>
     <moqui.basic.LocalizedMessage original="Auto Invoice" locale="es" localized="Factura automática"/>
     <moqui.basic.LocalizedMessage original="Auto Payments Term" locale="es" localized="Término de pagos automáticos"/>
@@ -47,8 +46,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Auto Reservation" locale="es" localized="Reserva automática"/>
     <moqui.basic.LocalizedMessage original="Billed Quantity" locale="es" localized="Cantidad facturada"/>
     <moqui.basic.LocalizedMessage original="Billed Total" locale="es" localized="Total facturado"/>
-    <moqui.basic.LocalizedMessage original="By ${paua?.firstName||''} ${paua?.lastName||''} (${paua?.username || content.userId}) at ${ec.l10n.format(content.contentDate, 'yyyy-MM-dd HH:mm')}" locale="es" localized="Por ${paua?.firstName||''} ${paua?.lastName||''} (${paua?.username || content.userId}) el ${ec.l10n.format(content.contentDate, 'yyyy-MM-dd HH:mm')}"/>
-    <moqui.basic.LocalizedMessage original="By ${paua?.firstName||''} ${paua?.lastName||''} (${paua?.username || partyNote.userId}) at ${ec.l10n.format(partyNote.noteDate, 'yyyy-MM-dd HH:mm')}" locale="es" localized="Por ${paua?.firstName||''} ${paua?.lastName||''} (${paua?.username || partyNote.userId}) el ${ec.l10n.format(partyNote.noteDate, 'yyyy-MM-dd HH:mm')}"/>
+    <moqui.basic.LocalizedMessage original="By ${noteByFirst} ${noteByLast} (${noteByUser}) at ${noteByWhen}" locale="es" localized="Por ${noteByFirst} ${noteByLast} (${noteByUser}) el ${noteByWhen}"/>
     <moqui.basic.LocalizedMessage original="CIM ID: ${methodInfo.paymentMethod.gatewayCimId}" locale="es" localized="ID CIM: ${methodInfo.paymentMethod.gatewayCimId}"/>
     <moqui.basic.LocalizedMessage original="Calc Price" locale="es" localized="Precio calculado"/>
     <moqui.basic.LocalizedMessage original="Cancelled: ${quantityCancelled}" locale="es" localized="Cancelado: ${quantityCancelled}"/>
@@ -63,7 +61,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Closes orders matching current find options. Use the Find Options dialog to adjust as needed before doing this." locale="es" localized="Cierra las órdenes que coinciden con las opciones de búsqueda actuales. Use el diálogo de opciones de búsqueda para ajustar lo necesario antes de hacerlo."/>
     <moqui.basic.LocalizedMessage original="Closing an order will cancel all items not yet shipped. If all items cancelled then the order will be Cancelled. If any item was shipped the order will be Completed." locale="es" localized="Cerrar una orden cancelará todos los artículos aún no enviados. Si se cancelan todos los artículos, la orden quedará Cancelada. Si se envió algún artículo, la orden quedará Completada."/>
     <moqui.basic.LocalizedMessage original="Code Expires" locale="es" localized="Vencimiento del código"/>
-    <moqui.basic.LocalizedMessage original="Component:" locale="es" localized="Componente:"/>
     <moqui.basic.LocalizedMessage original="Cost for accounting if different from Price, used to set Asset Acquire Cost on receipt" locale="es" localized="Costo contable si difiere del precio, usado para establecer el costo de adquisición del activo al recibirlo"/>
     <moqui.basic.LocalizedMessage original="Create Invoice" locale="es" localized="Crear factura"/>
     <moqui.basic.LocalizedMessage original="Create Return" locale="es" localized="Crear devolución"/>
@@ -92,7 +89,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Do the current find options and orders displayed match what you want to approve?" locale="es" localized="¿Las opciones de búsqueda actuales y las órdenes mostradas coinciden con lo que desea aprobar?"/>
     <moqui.basic.LocalizedMessage original="Do the current find options and orders displayed match what you want to close (cancel all unshipped, complete any partially shipped)?" locale="es" localized="¿Las opciones de búsqueda actuales y las órdenes mostradas coinciden con lo que desea cerrar (cancelar todo lo no enviado, completar lo enviado parcialmente)?"/>
     <moqui.basic.LocalizedMessage original="Duplicate Order Parts" locale="es" localized="Partes de orden duplicadas"/>
-    <moqui.basic.LocalizedMessage original="Edit ${partPaymentInfo.paymentMethod?.description || 'Payment Method ' + partPaymentInfo.partPayment.paymentMethodId}" locale="es" localized="Editar ${partPaymentInfo.paymentMethod?.description || 'Payment Method ' + partPaymentInfo.partPayment.paymentMethodId}"/>
     <moqui.basic.LocalizedMessage original="Edit Account" locale="es" localized="Editar cuenta"/>
     <moqui.basic.LocalizedMessage original="Edit Payment ${partPaymentInfo.partPayment.paymentId}" locale="es" localized="Editar pago ${partPaymentInfo.partPayment.paymentId}"/>
     <moqui.basic.LocalizedMessage original="Email Messages" locale="es" localized="Mensajes de correo electrónico"/>
@@ -146,7 +142,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Only Partly Shipped" locale="es" localized="Solo enviado parcialmente"/>
     <moqui.basic.LocalizedMessage original="Only Recurring" locale="es" localized="Solo recurrentes"/>
     <moqui.basic.LocalizedMessage original="Only count Product" locale="es" localized="Contar solo producto"/>
-    <moqui.basic.LocalizedMessage original="Order #${orderId}" locale="es" localized="Orden #${orderId}"/>
     <moqui.basic.LocalizedMessage original="Order ${orderId}" locale="es" localized="Orden ${orderId}"/>
     <moqui.basic.LocalizedMessage original="Order Content ID" locale="es" localized="ID de contenido de orden"/>
     <moqui.basic.LocalizedMessage original="Order Detail" locale="es" localized="Detalle de orden"/>

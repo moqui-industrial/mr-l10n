@@ -14,8 +14,7 @@ along with this software (see the LICENSE.md file). If not, see
 -->
 <entity-facade-xml type="es">
     <moqui.basic.LocalizedMessage original="${ec.l10n.format(toDecimal(bomDetail.quantityRemaining ?? 0).negate(), null)} too many of" locale="es" localized="${ec.l10n.format(toDecimal(bomDetail.quantityRemaining ?? 0).negate(), null)} de más de"/>
-    <moqui.basic.LocalizedMessage original="${ec.resource.expand('ProductNameTemplate', null, contAsset)} - Qty ${ec.l10n.format(contAsset.quantityOnHandTotal, null)}" locale="es" localized="${ec.resource.expand('ProductNameTemplate', null, contAsset)} - Cant. ${ec.l10n.format(contAsset.quantityOnHandTotal, null)}"/>
-    <moqui.basic.LocalizedMessage original="${ec.resource.expand('ProductNameTemplate', null, locAsset)} - Qty ${ec.l10n.format(locAsset.quantityOnHandTotal, null)}" locale="es" localized="${ec.resource.expand('ProductNameTemplate', null, locAsset)} - Cant. ${ec.l10n.format(locAsset.quantityOnHandTotal, null)}"/>
+    <moqui.basic.LocalizedMessage original="${ec.resource.expand('ProductNameTemplate', null, qtyAsset)} - Qty ${ec.l10n.format(qtyAsset.quantityOnHandTotal, null)}" locale="es" localized="${ec.resource.expand('ProductNameTemplate', null, qtyAsset)} - Cant. ${ec.l10n.format(qtyAsset.quantityOnHandTotal, null)}"/>
     <moqui.basic.LocalizedMessage original="${productIds?.length || '0'} Products" locale="es" localized="${productIds?.length || '0'} productos"/>
     <moqui.basic.LocalizedMessage original="(reservation removed)" locale="es" localized="(reserva eliminada)"/>
     <moqui.basic.LocalizedMessage original="A. Class" locale="es" localized="Clase de activo"/>
@@ -81,7 +80,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Assoc. Type" locale="es" localized="Tipo de asociación"/>
     <moqui.basic.LocalizedMessage original="Associated" locale="es" localized="Asociado"/>
     <moqui.basic.LocalizedMessage original="Associated From" locale="es" localized="Asociado de origen"/>
-    <moqui.basic.LocalizedMessage original="At ${ec.l10n.format(version.versionDate, 'yyyy-MM-dd HH:mm')}" locale="es" localized="El ${ec.l10n.format(version.versionDate, 'yyyy-MM-dd HH:mm')}"/>
     <moqui.basic.LocalizedMessage original="Attachments" locale="es" localized="Adjuntos"/>
     <moqui.basic.LocalizedMessage original="Authorize Service" locale="es" localized="Servicio de autorización"/>
     <moqui.basic.LocalizedMessage original="Auto Approve Delay" locale="es" localized="Retraso de aprobación automática"/>
@@ -174,7 +172,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Facilities" locale="es" localized="Instalaciones"/>
     <moqui.basic.LocalizedMessage original="Facility ID" locale="es" localized="ID de instalación"/>
     <moqui.basic.LocalizedMessage original="Facility Locations" locale="es" localized="Ubicaciones de la instalación"/>
-    <moqui.basic.LocalizedMessage original="Facility*" locale="es" localized="Instalación*"/>
     <moqui.basic.LocalizedMessage original="Feature 2" locale="es" localized="Característica 2"/>
     <moqui.basic.LocalizedMessage original="Feature Group" locale="es" localized="Grupo de características"/>
     <moqui.basic.LocalizedMessage original="Feature Group ID" locale="es" localized="ID de grupo de características"/>

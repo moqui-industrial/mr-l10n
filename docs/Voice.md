@@ -3,6 +3,8 @@
 The wording rules and glossaries of each language in this pack. Loading and the file layout are in the
 [README](../README.md).
 
+A mark that is not part of the word (`:`, `*`, ` #`) stays outside the message when the plain word is the same message. A question keeps its `?` in the message, since Spanish needs `¿…?`. The screen or service appends the mark, as `localize("Status") + ": "`. A sentence used in more than one place uses one `${}` template; call sites share that placeholder text, with a local when the expression would otherwise differ. Do not fold a mark into the key when the marked form is a different word (`Check` / `Check #`, `Account` / `Account #`).
+
 ## Spanish (es)
 
 Locale `es` is neutral international Spanish: Latin American words that Spain also understands.
@@ -36,6 +38,8 @@ Placeholders `${...}` and `{0}` `{1}` `{2}` `{3}` are copied unchanged. A `##` s
 Locale `zh` is Simplified Chinese, mainland UI wording, the same script as the `zh` rows in `CommonL10nData.xml`. There is no `zh_CN`, `zh_TW`, or `zh_HK` file. Traditional Chinese is a later catalog: a missing `zh_TW` row would fall back to Simplified `zh` before English.
 
 The nine seed originals stay in `framework/data/CommonL10nData.xml` and are not repeated here.
+
+A colon the screen appends to a label is half-width (`状态: `); a colon inside a translated message is full-width `：`.
 
 Labels are short bare verbs (保存, 取消). Financial and GL account is 账户 (户, not 帐户). A login account is 账号. Shipment is 发货单. Party is 参与方. The token PO stays PO. Moqui, MR Moqui, Marble, and Mantle stay as written. `N/A` inside a template literal is 无.
 

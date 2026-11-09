@@ -13,6 +13,10 @@ along with this software (see the LICENSE.md file). If not, see
 <http://creativecommons.org/publicdomain/zero/1.0/>.
 -->
 <entity-facade-xml type="es">
+    <moqui.basic.LocalizedMessage original="Asset Issuance##glBasis" locale="es" localized="la salida de activo"/>
+    <moqui.basic.LocalizedMessage original="Asset Receipt##glBasis" locale="es" localized="la recepción de activo"/>
+    <moqui.basic.LocalizedMessage original="Financial Account Transaction##glBasis" locale="es" localized="la transacción de cuenta financiera"/>
+    <moqui.basic.LocalizedMessage original="Invoice##glBasis" locale="es" localized="la factura"/>
     <moqui.basic.LocalizedMessage original="Issued Quantity" locale="es" localized="Cantidad de salida"/>
     <moqui.basic.LocalizedMessage original="Issued Total" locale="es" localized="Total de salida"/>
     <moqui.basic.LocalizedMessage original="Item ${invoiceItem.invoiceItemSeqId}: ${invoiceItem.description}" locale="es" localized="Elemento ${invoiceItem.invoiceItemSeqId}: ${invoiceItem.description}"/>
@@ -34,7 +38,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Local Currency" locale="es" localized="Moneda local"/>
     <moqui.basic.LocalizedMessage original="Local currency for financial reporting, only needed IF DIFFERENT from Base Currency; if used separate local currency amounts are calculated for each GL transaction" locale="es" localized="Moneda local para reportes financieros, solo necesaria SI ES DISTINTA de la moneda base; si se usa se calculan importes en moneda local para cada transacción GL"/>
     <moqui.basic.LocalizedMessage original="Loss Account" locale="es" localized="Cuenta contable de pérdida"/>
-    <moqui.basic.LocalizedMessage original="Lot #" locale="es" localized="Lote #"/>
     <moqui.basic.LocalizedMessage original="MA Periods" locale="es" localized="Periodos prom."/>
     <moqui.basic.LocalizedMessage original="Main" locale="es" localized="Principal"/>
     <moqui.basic.LocalizedMessage original="Manufacturer Name" locale="es" localized="Nombre del fabricante"/>
@@ -120,6 +123,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Payable" locale="es" localized="Por pagar"/>
     <moqui.basic.LocalizedMessage original="Payable Invoice ${invoiceId} for ${ec.resource.expand('PartyNameTemplate', null, organizationParty)}" locale="es" localized="Factura por pagar ${invoiceId} de ${ec.resource.expand('PartyNameTemplate', null, organizationParty)}"/>
     <moqui.basic.LocalizedMessage original="Payment Application ID" locale="es" localized="ID de aplicación de pago"/>
+    <moqui.basic.LocalizedMessage original="Payment Application##glBasis" locale="es" localized="la aplicación de pago"/>
     <moqui.basic.LocalizedMessage original="Payment Applications" locale="es" localized="Aplicaciones de pago"/>
     <moqui.basic.LocalizedMessage original="Payment Applications with Invoice after Period" locale="es" localized="Aplicaciones de pago con factura posterior al periodo"/>
     <moqui.basic.LocalizedMessage original="Payment Content ID" locale="es" localized="ID de contenido de pago"/>
@@ -129,6 +133,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Payment Method ID Save" locale="es" localized="ID de método de pago guardado"/>
     <moqui.basic.LocalizedMessage original="Payment Type Enum ID" locale="es" localized="ID de enumeración de tipo de pago"/>
     <moqui.basic.LocalizedMessage original="Payment Types" locale="es" localized="Tipos de pago"/>
+    <moqui.basic.LocalizedMessage original="Payment##glBasis" locale="es" localized="el pago"/>
     <moqui.basic.LocalizedMessage original="Payments Unapplied" locale="es" localized="Pagos no aplicados"/>
     <moqui.basic.LocalizedMessage original="Payments where Applied different from GL Amount" locale="es" localized="Pagos en los que el importe aplicado difiere del importe GL"/>
     <moqui.basic.LocalizedMessage original="Per 1" locale="es" localized="Per. 1"/>
@@ -156,6 +161,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Periods" locale="es" localized="Periodos"/>
     <moqui.basic.LocalizedMessage original="Periods: ${ec.l10n.format(subPerTotal, '')}" locale="es" localized="Periodos: ${ec.l10n.format(subPerTotal, '')}"/>
     <moqui.basic.LocalizedMessage original="Physical Inv" locale="es" localized="Inv. físico"/>
+    <moqui.basic.LocalizedMessage original="Physical Inventory##glBasis" locale="es" localized="el inventario físico"/>
     <moqui.basic.LocalizedMessage original="Pkg Quantity" locale="es" localized="Cant. de paquete"/>
     <moqui.basic.LocalizedMessage original="Pkg Weight" locale="es" localized="Peso de paquete"/>
     <moqui.basic.LocalizedMessage original="Please select a Date Range" locale="es" localized="Seleccionar un rango de fechas"/>
@@ -308,13 +314,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Void this payment and cancel all invoices it is applied to?" locale="es" localized="¿Anular este pago y cancelar todas las facturas a las que está aplicado?"/>
     <moqui.basic.LocalizedMessage original="Voucher Date" locale="es" localized="Fecha de comprobante"/>
     <moqui.basic.LocalizedMessage original="Voucher Ref" locale="es" localized="Ref. de comprobante"/>
-    <moqui.basic.LocalizedMessage original="WARNING: This GL Transaction is based on Asset Issuance ${acctgTrans.assetIssuanceId}, manual changes to Transaction Date, Amounts, etc may cause reconciliation exceptions or audit flags." locale="es" localized="AVISO: Esta transacción GL se basa en la salida de activo ${acctgTrans.assetIssuanceId}; cambios manuales de fecha de transacción, importes, etc. pueden causar excepciones de conciliación o alertas de auditoría."/>
-    <moqui.basic.LocalizedMessage original="WARNING: This GL Transaction is based on Asset Receipt ${acctgTrans.assetReceiptId}, manual changes to Transaction Date, Amounts, etc may cause reconciliation exceptions or audit flags." locale="es" localized="AVISO: Esta transacción GL se basa en la recepción de activo ${acctgTrans.assetReceiptId}; cambios manuales de fecha de transacción, importes, etc. pueden causar excepciones de conciliación o alertas de auditoría."/>
-    <moqui.basic.LocalizedMessage original="WARNING: This GL Transaction is based on Financial Account Transaction ${acctgTrans.finAccountTransId}, manual changes to Transaction Date, Amounts, etc may cause reconciliation exceptions or audit flags." locale="es" localized="AVISO: Esta transacción GL se basa en la transacción de cuenta financiera ${acctgTrans.finAccountTransId}; cambios manuales de fecha de transacción, importes, etc. pueden causar excepciones de conciliación o alertas de auditoría."/>
-    <moqui.basic.LocalizedMessage original="WARNING: This GL Transaction is based on Invoice ${acctgTrans.invoiceId}, manual changes to Transaction Date, Amounts, etc may cause reconciliation exceptions or audit flags." locale="es" localized="AVISO: Esta transacción GL se basa en la factura ${acctgTrans.invoiceId}; cambios manuales de fecha de transacción, importes, etc. pueden causar excepciones de conciliación o alertas de auditoría."/>
-    <moqui.basic.LocalizedMessage original="WARNING: This GL Transaction is based on Payment ${acctgTrans.paymentId}, manual changes to Transaction Date, Amounts, etc may cause reconciliation exceptions or audit flags." locale="es" localized="AVISO: Esta transacción GL se basa en el pago ${acctgTrans.paymentId}; cambios manuales de fecha de transacción, importes, etc. pueden causar excepciones de conciliación o alertas de auditoría."/>
-    <moqui.basic.LocalizedMessage original="WARNING: This GL Transaction is based on Payment Application ${acctgTrans.paymentApplicationId}, manual changes to Transaction Date, Amounts, etc may cause reconciliation exceptions or audit flags." locale="es" localized="AVISO: Esta transacción GL se basa en la aplicación de pago ${acctgTrans.paymentApplicationId}; cambios manuales de fecha de transacción, importes, etc. pueden causar excepciones de conciliación o alertas de auditoría."/>
-    <moqui.basic.LocalizedMessage original="WARNING: This GL Transaction is based on Physical Inventory ${acctgTrans.physicalInventoryId}, manual changes to Transaction Date, Amounts, etc may cause reconciliation exceptions or audit flags." locale="es" localized="AVISO: Esta transacción GL se basa en el inventario físico ${acctgTrans.physicalInventoryId}; cambios manuales de fecha de transacción, importes, etc. pueden causar excepciones de conciliación o alertas de auditoría."/>
+    <moqui.basic.LocalizedMessage original="WARNING: This GL Transaction is based on ${basis}, manual changes to Transaction Date, Amounts, etc may cause reconciliation exceptions or audit flags." locale="es" localized="AVISO: Esta transacción GL se basa en ${basis}; cambios manuales de fecha de transacción, importes, etc. pueden causar excepciones de conciliación o alertas de auditoría."/>
     <moqui.basic.LocalizedMessage original="Y (Applied when posted)" locale="es" localized="Y (Aplicado al contabilizar)"/>
     <moqui.basic.LocalizedMessage original="Y (Payable)" locale="es" localized="Y (Por pagar)"/>
     <moqui.basic.LocalizedMessage original="Y (Payable/Outgoing)" locale="es" localized="Y (Por pagar/salida)"/>

@@ -60,7 +60,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Only Cost Matches PO Amount" locale="zh" localized="仅成本与 PO 金额相符"/>
     <moqui.basic.LocalizedMessage original="Only No Cost" locale="zh" localized="仅无成本"/>
     <moqui.basic.LocalizedMessage original="Only No Location" locale="zh" localized="仅无库位"/>
-    <moqui.basic.LocalizedMessage original="Order #${assetReservation?.orderId || orderId}" locale="zh" localized="订单 #${assetReservation?.orderId || orderId}"/>
     <moqui.basic.LocalizedMessage original="Organization Party" locale="zh" localized="组织参与方"/>
     <moqui.basic.LocalizedMessage original="Other ID" locale="zh" localized="其他 ID"/>
     <moqui.basic.LocalizedMessage original="Other IDs" locale="zh" localized="其他 ID"/>
@@ -112,7 +111,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Product and Facility are required. If no Location, Lot, Owner, Pool, or Status is selected only assets with no value will be included in the currently recorded quantity and only assets with no value will be adjusted." locale="zh" localized="产品和设施为必填。若未选择库位、批次、所有者、池或状态，则当前记录数量仅包含没有这些值的资产，且仅调整这些资产。"/>
     <moqui.basic.LocalizedMessage original="Product to Produce" locale="zh" localized="待生产产品"/>
     <moqui.basic.LocalizedMessage original="Product to Produce: ${ec.resource.expand('ProductNameTemplate','',produceBomDetail.workEffortProductDetail)} - ${ec.l10n.format(produceBomDetail.estimatedQuantity, null)} (${produceBomDetail.workEffortProductDetail.amountUomDescription || ''})" locale="zh" localized="待生产产品：${ec.resource.expand('ProductNameTemplate','',produceBomDetail.workEffortProductDetail)} - ${ec.l10n.format(produceBomDetail.estimatedQuantity, null)}（${produceBomDetail.workEffortProductDetail.amountUomDescription || ''}）"/>
-    <moqui.basic.LocalizedMessage original="Product*" locale="zh" localized="产品*"/>
     <moqui.basic.LocalizedMessage original="Production Runs" locale="zh" localized="生产运行"/>
     <moqui.basic.LocalizedMessage original="Products" locale="zh" localized="产品"/>
     <moqui.basic.LocalizedMessage original="Products to Consume" locale="zh" localized="待消耗产品"/>
@@ -125,7 +123,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Quantity Change" locale="zh" localized="数量变更"/>
     <moqui.basic.LocalizedMessage original="Quantity Difference" locale="zh" localized="数量差额"/>
     <moqui.basic.LocalizedMessage original="Quantity On Hand" locale="zh" localized="现有数量"/>
-    <moqui.basic.LocalizedMessage original="Quantity*" locale="zh" localized="数量*"/>
     <moqui.basic.LocalizedMessage original="Query String" locale="zh" localized="查询字符串"/>
     <moqui.basic.LocalizedMessage original="Read By" locale="zh" localized="读取人"/>
     <moqui.basic.LocalizedMessage original="Reading Date" locale="zh" localized="读数日期"/>
@@ -195,8 +192,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Set to Y to show all Carrier Shipment Methods on Shipments instead of only Shipping Options for this Store" locale="zh" localized="设为 Y 则在发货单上显示全部承运商发货方式，而不只是此商店的发货选项"/>
     <moqui.basic.LocalizedMessage original="Setting Type" locale="zh" localized="设置类型"/>
     <moqui.basic.LocalizedMessage original="Ship Insure Reqd" locale="zh" localized="需要发货保险"/>
-    <moqui.basic.LocalizedMessage original="Shipment #${assetIssuance.shipmentId}" locale="zh" localized="发货单 #${assetIssuance.shipmentId}"/>
-    <moqui.basic.LocalizedMessage original="Shipment #${assetReceipt.shipmentId}" locale="zh" localized="发货单 #${assetReceipt.shipmentId}"/>
     <moqui.basic.LocalizedMessage original="Shipment Gateway" locale="zh" localized="发货网关"/>
     <moqui.basic.LocalizedMessage original="Shipment Method Enum ID" locale="zh" localized="发货方式枚举 ID"/>
     <moqui.basic.LocalizedMessage original="Shipping Gateways" locale="zh" localized="发货网关"/>
@@ -227,7 +222,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Useful Years" locale="zh" localized="使用年限"/>
     <moqui.basic.LocalizedMessage original="Variance Reason" locale="zh" localized="差异原因"/>
     <moqui.basic.LocalizedMessage original="Variant Type" locale="zh" localized="变体类型"/>
-    <moqui.basic.LocalizedMessage original="Version ${versionNameLhs.substring(0, 12)}" locale="zh" localized="版本 ${versionNameLhs.substring(0, 12)}"/>
     <moqui.basic.LocalizedMessage original="WARNING: changing to incorrect or invalid services will break payment processing. Do you want to update?" locale="zh" localized="警告：改为不正确或无效的服务将中断付款处理。确定要更新吗？"/>
     <moqui.basic.LocalizedMessage original="WH ATP" locale="zh" localized="仓库 ATP"/>
     <moqui.basic.LocalizedMessage original="WH QOH" locale="zh" localized="仓库 QOH"/>

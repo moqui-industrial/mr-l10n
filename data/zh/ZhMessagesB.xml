@@ -62,6 +62,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Please enter current password" locale="zh" localized="请输入当前密码"/>
     <moqui.basic.LocalizedMessage original="Print" locale="zh" localized="打印"/>
     <moqui.basic.LocalizedMessage original="Quarter" locale="zh" localized="季度"/>
+    <moqui.basic.LocalizedMessage original="Your report is being generated and will be sent to ${reportTo} when ready." locale="zh" localized="正在生成您的报表，就绪后将发送到 ${reportTo}。"/>
     <moqui.basic.LocalizedMessage original="reCAPTCHA token required, confirm you are not a robot" locale="zh" localized="必须提供 reCAPTCHA 令牌，请确认您不是机器人"/>
     <moqui.basic.LocalizedMessage original="record#SendResult is internal" locale="zh" localized="record#SendResult 为内部接口"/>
     <moqui.basic.LocalizedMessage original="Remote data load location is not allowed" locale="zh" localized="不允许该远程数据加载位置"/>
@@ -154,11 +155,9 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="The worker pool size is set by the conf (tools worker-pool-max) when the server starts" locale="zh" localized="工作池大小在服务器启动时由配置（tools worker-pool-max）设定"/>
     <moqui.basic.LocalizedMessage original="There is a page at ${rootPageLocation} already" locale="zh" localized="${rootPageLocation} 已经有一个页面"/>
     <moqui.basic.LocalizedMessage original="There is no earlier version to compare with" locale="zh" localized="没有更早的版本可以比较"/>
-    <moqui.basic.LocalizedMessage original="There is no page ${pagePath} in ${wikiSpaceId}" locale="zh" localized="没有页面 ${pagePath}，所在空间为 ${wikiSpaceId}"/>
     <moqui.basic.LocalizedMessage original="This" locale="zh" localized="此"/>
     <moqui.basic.LocalizedMessage original="This account is shared with 1 more person: remove them first, so only one is left, to make it personal" locale="zh" localized="此账号还与另外 1 人共享：请先移除对方，只留下一人，才能改为个人账号"/>
     <moqui.basic.LocalizedMessage original="This drive is read only" locale="zh" localized="此网盘是只读的"/>
-    <moqui.basic.LocalizedMessage original="This link has expired or was not found" locale="zh" localized="此链接已过期或未找到"/>
     <moqui.basic.LocalizedMessage original="This link takes no files" locale="zh" localized="此链接不接受文件"/>
     <moqui.basic.LocalizedMessage original="This message has no List-Unsubscribe header" locale="zh" localized="此消息没有 List-Unsubscribe 头"/>
     <moqui.basic.LocalizedMessage original="This message is too old to edit" locale="zh" localized="此消息太旧，无法编辑"/>
@@ -241,6 +240,4 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="You may not share this" locale="zh" localized="您不能共享此项"/>
     <moqui.basic.LocalizedMessage original="You set only your own status" locale="zh" localized="您只能设置自己的状态"/>
     <moqui.basic.LocalizedMessage original="Your notifications" locale="zh" localized="您的通知"/>
-    <moqui.basic.LocalizedMessage original="Your report is being generated and will be sent to ${ec.user.userAccount?.emailAddress} when ready." locale="zh" localized="正在生成您的报表，就绪后将发送到 ${ec.user.userAccount?.emailAddress}。"/>
-    <moqui.basic.LocalizedMessage original="Your report is being generated and will be sent to ${toAddresses} when ready." locale="zh" localized="正在生成您的报表，就绪后将发送到 ${toAddresses}。"/>
 </entity-facade-xml>

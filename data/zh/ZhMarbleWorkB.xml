@@ -19,7 +19,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Open Time Entry Task: ${openTimeEntry.workEffortId}" locale="zh" localized="未结束工时的任务：${openTimeEntry.workEffortId}"/>
     <moqui.basic.LocalizedMessage original="Optional, defaults to now" locale="zh" localized="可选，默认为当前时间"/>
     <moqui.basic.LocalizedMessage original="Options for ${field.title}" locale="zh" localized="${field.title} 的选项"/>
-    <moqui.basic.LocalizedMessage original="Order ${item.orderId}" locale="zh" localized="订单 ${item.orderId}"/>
     <moqui.basic.LocalizedMessage original="Org" locale="zh" localized="组织"/>
     <moqui.basic.LocalizedMessage original="Outgoing Refund Payments" locale="zh" localized="付款退款"/>
     <moqui.basic.LocalizedMessage original="P-CB Gap" locale="zh" localized="进度-预算差"/>
@@ -34,7 +33,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Parent Comm Event ID" locale="zh" localized="上级沟通事件 ID"/>
     <moqui.basic.LocalizedMessage original="Parent Path" locale="zh" localized="上级路径"/>
     <moqui.basic.LocalizedMessage original="Parent Task" locale="zh" localized="上级任务"/>
-    <moqui.basic.LocalizedMessage original="Parent Task:" locale="zh" localized="上级任务："/>
     <moqui.basic.LocalizedMessage original="Parties" locale="zh" localized="参与方"/>
     <moqui.basic.LocalizedMessage original="Party: ${ec.resource.expand('PartyNameTemplate','',party)}" locale="zh" localized="参与方：${ec.resource.expand('PartyNameTemplate','',party)}"/>
     <moqui.basic.LocalizedMessage original="Payable Return Invoices" locale="zh" localized="应付退货发票"/>
@@ -45,7 +43,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Position Class" locale="zh" localized="职位类别"/>
     <moqui.basic.LocalizedMessage original="Posted Date" locale="zh" localized="过账日期"/>
     <moqui.basic.LocalizedMessage original="Pri" locale="zh" localized="优先级"/>
-    <moqui.basic.LocalizedMessage original="Priority:" locale="zh" localized="优先级："/>
     <moqui.basic.LocalizedMessage original="Product: ${ec.resource.expand('ProductNameTemplate','',product)}" locale="zh" localized="产品：${ec.resource.expand('ProductNameTemplate','',product)}"/>
     <moqui.basic.LocalizedMessage original="Profit ${ec.l10n.formatCurrency(pstats.actualProfit, project.costUomId, 2)}" locale="zh" localized="利润 ${ec.l10n.formatCurrency(pstats.actualProfit, project.costUomId, 2)}"/>
     <moqui.basic.LocalizedMessage original="Progress" locale="zh" localized="进度"/>
@@ -54,7 +51,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Project Name" locale="zh" localized="项目名称"/>
     <moqui.basic.LocalizedMessage original="Project Note" locale="zh" localized="项目备注"/>
     <moqui.basic.LocalizedMessage original="Project Summary" locale="zh" localized="项目摘要"/>
-    <moqui.basic.LocalizedMessage original="Project:" locale="zh" localized="项目："/>
     <moqui.basic.LocalizedMessage original="Projects" locale="zh" localized="项目"/>
     <moqui.basic.LocalizedMessage original="Provider Cost ${ec.l10n.formatCurrency(project.actualCost, project.costUomId, 2)}" locale="zh" localized="供应商成本 ${ec.l10n.formatCurrency(project.actualCost, project.costUomId, 2)}"/>
     <moqui.basic.LocalizedMessage original="Public Attachment" locale="zh" localized="公开附件"/>
@@ -81,7 +77,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Remaining (d)" locale="zh" localized="剩余（天）"/>
     <moqui.basic.LocalizedMessage original="Remaining (h)" locale="zh" localized="剩余（小时）"/>
     <moqui.basic.LocalizedMessage original="Remaining Hours" locale="zh" localized="剩余小时"/>
-    <moqui.basic.LocalizedMessage original="Remaining Hours:" locale="zh" localized="剩余小时："/>
     <moqui.basic.LocalizedMessage original="Remove request association from task?" locale="zh" localized="从任务中移除请求关联？"/>
     <moqui.basic.LocalizedMessage original="Remove task association from request?" locale="zh" localized="从请求中移除任务关联？"/>
     <moqui.basic.LocalizedMessage original="Reply" locale="zh" localized="回复"/>
@@ -97,7 +92,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Requests" locale="zh" localized="请求"/>
     <moqui.basic.LocalizedMessage original="Required By" locale="zh" localized="需求方"/>
     <moqui.basic.LocalizedMessage original="Resolution" locale="zh" localized="处理结果"/>
-    <moqui.basic.LocalizedMessage original="Resolution:" locale="zh" localized="处理结果："/>
     <moqui.basic.LocalizedMessage original="Response Details" locale="zh" localized="回复详情"/>
     <moqui.basic.LocalizedMessage original="Response Stats" locale="zh" localized="回复统计"/>
     <moqui.basic.LocalizedMessage original="Responses" locale="zh" localized="回复"/>
@@ -117,7 +111,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Seq: ${wikiPage?.sequenceNum || 50} ID: ${wikiPageId||''} (${wikiType})${versionName ? ' Version ' + versionName.substring(0, 12) : ''}${publishedVersionName ? ' Published ' + publishedVersionName.substring(0, 12) : ''}" locale="zh" localized="序号：${wikiPage?.sequenceNum || 50} ID：${wikiPageId||''}（${wikiType}）${versionName ? ' 版本 ' + versionName.substring(0, 12) : ''}${publishedVersionName ? ' 已发布 ' + publishedVersionName.substring(0, 12) : ''}"/>
     <moqui.basic.LocalizedMessage original="Set Assignee" locale="zh" localized="设置负责人"/>
     <moqui.basic.LocalizedMessage original="Shipment" locale="zh" localized="发货单"/>
-    <moqui.basic.LocalizedMessage original="Shipment ${shipmentId}" locale="zh" localized="发货单 ${shipmentId}"/>
     <moqui.basic.LocalizedMessage original="Shipping" locale="zh" localized="发货"/>
     <moqui.basic.LocalizedMessage original="Shipping - Pick &amp; Pack" locale="zh" localized="发货 - 拣货与包装"/>
     <moqui.basic.LocalizedMessage original="Show Invoiced" locale="zh" localized="显示已开票"/>
@@ -126,7 +119,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Space" locale="zh" localized="空间"/>
     <moqui.basic.LocalizedMessage original="Space ID" locale="zh" localized="空间 ID"/>
     <moqui.basic.LocalizedMessage original="Status Flow" locale="zh" localized="状态流"/>
-    <moqui.basic.LocalizedMessage original="Status:" locale="zh" localized="状态："/>
     <moqui.basic.LocalizedMessage original="Stores" locale="zh" localized="商店"/>
     <moqui.basic.LocalizedMessage original="Summary for Milestone &quot;${milestoneWorkEffort.workEffortName}&quot; - ${milestoneWorkEffortId}" locale="zh" localized="里程碑「${milestoneWorkEffort.workEffortName}」摘要 - ${milestoneWorkEffortId}"/>
     <moqui.basic.LocalizedMessage original="Supplier Credit Memos" locale="zh" localized="供应商贷项通知单"/>
@@ -172,7 +164,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Vendor Hour Rate" locale="zh" localized="供应商小时费率"/>
     <moqui.basic.LocalizedMessage original="Vendor Invoice" locale="zh" localized="供应商发票"/>
     <moqui.basic.LocalizedMessage original="Vendors" locale="zh" localized="供应商"/>
-    <moqui.basic.LocalizedMessage original="Version ${wph.versionName.substring(0, 12)}" locale="zh" localized="版本 ${wph.versionName.substring(0, 12)}"/>
     <moqui.basic.LocalizedMessage original="View Pages" locale="zh" localized="查看页面"/>
     <moqui.basic.LocalizedMessage original="View Space" locale="zh" localized="查看空间"/>
     <moqui.basic.LocalizedMessage original="View/Edit Wiki Page" locale="zh" localized="查看/编辑维基页面"/>
