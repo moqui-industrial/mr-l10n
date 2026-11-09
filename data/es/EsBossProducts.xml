@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="es">
+    <moqui.basic.LocalizedMessage original="${categoryCount} categories · ${categoryRows.length} placements" locale="es" localized="${categoryCount} categorías · ${categoryRows.length} colocaciones"/>
+    <moqui.basic.LocalizedMessage original="${successCount} products updated, ${failedCount} failed" locale="es" localized="${successCount} productos actualizados, ${failedCount} fallidos"/>
+    <moqui.basic.LocalizedMessage original="${totalCount} combinations · interactive limit ${batchLimit}" locale="es" localized="${totalCount} combinaciones · límite interactivo ${batchLimit}"/>
+    <moqui.basic.LocalizedMessage original="A category may appear under several parents. Move changes the selected dated edge; Add parent keeps the existing edges." locale="es" localized="Una categoría puede aparecer bajo varios padres. Mover cambia el vínculo con fecha seleccionado; Añadir padre conserva los vínculos existentes."/>
+    <moqui.basic.LocalizedMessage original="Active SKUs" locale="es" localized="SKU activos"/>
+    <moqui.basic.LocalizedMessage original="Add a feature to the group" locale="es" localized="Añadir una característica al grupo"/>
+    <moqui.basic.LocalizedMessage original="Add feature" locale="es" localized="Añadir característica"/>
+    <moqui.basic.LocalizedMessage original="Add the feature to a group" locale="es" localized="Añadir la característica a un grupo"/>
+    <moqui.basic.LocalizedMessage original="Add the group to a category" locale="es" localized="Añadir el grupo a una categoría"/>
+    <moqui.basic.LocalizedMessage original="Add to category" locale="es" localized="Añadir a la categoría"/>
+    <moqui.basic.LocalizedMessage original="After" locale="es" localized="Después"/>
+    <moqui.basic.LocalizedMessage original="All categories" locale="es" localized="Todas las categorías"/>
+    <moqui.basic.LocalizedMessage original="Allow cost self approval" locale="es" localized="Permitir la autoaprobación del costo"/>
+    <moqui.basic.LocalizedMessage original="Allowed copy fields" locale="es" localized="Campos de copia permitidos"/>
+    <moqui.basic.LocalizedMessage original="Any category" locale="es" localized="Cualquier categoría"/>
+    <moqui.basic.LocalizedMessage original="Appl Type Enum ID" locale="es" localized="ID de enumeración del tipo de aplicación"/>
+    <moqui.basic.LocalizedMessage original="Apply reviewed changes" locale="es" localized="Aplicar cambios revisados"/>
+    <moqui.basic.LocalizedMessage original="Apply the feature to a product" locale="es" localized="Aplicar la característica a un producto"/>
+    <moqui.basic.LocalizedMessage original="Apply to product" locale="es" localized="Aplicar al producto"/>
+    <moqui.basic.LocalizedMessage original="As of" locale="es" localized="A la fecha"/>
+    <moqui.basic.LocalizedMessage original="As of ${summary.asOf}" locale="es" localized="A fecha de ${summary.asOf}"/>
+    <moqui.basic.LocalizedMessage original="Asset type" locale="es" localized="Tipo de activo"/>
+    <moqui.basic.LocalizedMessage original="Batch limit" locale="es" localized="Límite de lote"/>
+    <moqui.basic.LocalizedMessage original="Before" locale="es" localized="Antes"/>
+    <moqui.basic.LocalizedMessage original="Branch Product Count" locale="es" localized="Cantidad de productos de la rama"/>
+    <moqui.basic.LocalizedMessage original="Build variants" locale="es" localized="Generar variantes"/>
+    <moqui.basic.LocalizedMessage original="Catalog checks" locale="es" localized="Comprobaciones del catálogo"/>
+    <moqui.basic.LocalizedMessage original="Catalog settings" locale="es" localized="Configuración del catálogo"/>
+    <moqui.basic.LocalizedMessage original="Category Count" locale="es" localized="Cantidad de categorías"/>
+    <moqui.basic.LocalizedMessage original="Category match" locale="es" localized="Coincidencia de categoría"/>
+    <moqui.basic.LocalizedMessage original="Change prices of the selected products" locale="es" localized="Cambiar los precios de los productos seleccionados"/>
+    <moqui.basic.LocalizedMessage original="Changes take effect on their start date. Each save ends the prior policy and preserves its history." locale="es" localized="Los cambios entran en vigor en su fecha de inicio. Cada guardado termina la política anterior y conserva su historial."/>
+    <moqui.basic.LocalizedMessage original="Combinations" locale="es" localized="Combinaciones"/>
+    <moqui.basic.LocalizedMessage original="Combinations to process" locale="es" localized="Combinaciones por procesar"/>
+    <moqui.basic.LocalizedMessage original="Confirm reviewed changes" locale="es" localized="Confirmar cambios revisados"/>
+    <moqui.basic.LocalizedMessage original="Confirm reviewed price changes" locale="es" localized="Confirmar cambios de precio revisados"/>
+    <moqui.basic.LocalizedMessage original="Copy Fields Json" locale="es" localized="JSON de campos a copiar"/>
+    <moqui.basic.LocalizedMessage original="Copy categories" locale="es" localized="Copiar categorías"/>
+    <moqui.basic.LocalizedMessage original="Copy fields" locale="es" localized="Copiar campos"/>
+    <moqui.basic.LocalizedMessage original="Cost history" locale="es" localized="Historial de costos"/>
+    <moqui.basic.LocalizedMessage original="Cost roll-up" locale="es" localized="Acumulación de costos"/>
+    <moqui.basic.LocalizedMessage original="Create category" locale="es" localized="Crear categoría"/>
+    <moqui.basic.LocalizedMessage original="Create draft" locale="es" localized="Crear borrador"/>
+    <moqui.basic.LocalizedMessage original="Create draft product" locale="es" localized="Crear producto en borrador"/>
+    <moqui.basic.LocalizedMessage original="Create feature" locale="es" localized="Crear característica"/>
+    <moqui.basic.LocalizedMessage original="Create feature group" locale="es" localized="Crear grupo de características"/>
+    <moqui.basic.LocalizedMessage original="Create product" locale="es" localized="Crear producto"/>
+    <moqui.basic.LocalizedMessage original="Create the first product, or import a catalog from a spreadsheet." locale="es" localized="Cree el primer producto, o importe un catálogo desde una hoja de cálculo."/>
+    <moqui.basic.LocalizedMessage original="Creating categories needs the catalog editor role. Ask a catalog administrator for it." locale="es" localized="Crear categorías requiere el rol de editor de catálogo. Pídaselo a un administrador de catálogo."/>
+    <moqui.basic.LocalizedMessage original="Creating feature groups needs the catalog editor role. Ask a catalog administrator for it." locale="es" localized="Crear grupos de características requiere el rol de editor de catálogo. Pídaselo a un administrador de catálogo."/>
+    <moqui.basic.LocalizedMessage original="Creating features needs the catalog editor role. Ask a catalog administrator for it." locale="es" localized="Crear características requiere el rol de editor de catálogo. Pídaselo a un administrador de catálogo."/>
+    <moqui.basic.LocalizedMessage original="Creating products needs the catalog editor role. Ask a catalog administrator for it." locale="es" localized="Crear productos requiere el rol de editor de catálogo. Pídaselo a un administrador de catálogo."/>
+    <moqui.basic.LocalizedMessage original="Default amount" locale="es" localized="Importe predeterminado"/>
+    <moqui.basic.LocalizedMessage original="Default amount unit" locale="es" localized="Unidad de importe predeterminada"/>
+    <moqui.basic.LocalizedMessage original="Default currency" locale="es" localized="Moneda predeterminada"/>
+    <moqui.basic.LocalizedMessage original="Default product type" locale="es" localized="Tipo de producto predeterminado"/>
+    <moqui.basic.LocalizedMessage original="Default purpose" locale="es" localized="Propósito predeterminado"/>
+    <moqui.basic.LocalizedMessage original="Default rounding increment" locale="es" localized="Incremento de redondeo predeterminado"/>
+    <moqui.basic.LocalizedMessage original="Default sales list" locale="es" localized="Lista de ventas predeterminada"/>
+    <moqui.basic.LocalizedMessage original="Defaults suggest values for new prices. Dated changes preserve the earlier policy. Valuation and posting settings are maintained in Accounting." locale="es" localized="Los valores predeterminados sugieren valores para los precios nuevos. Los cambios con fecha conservan la política anterior. La valuación y la configuración de contabilización se mantienen en Contabilidad."/>
+    <moqui.basic.LocalizedMessage original="Delete the unused feature ${master.description}?" locale="es" localized="¿Eliminar la característica no utilizada ${master.description}?"/>
+    <moqui.basic.LocalizedMessage original="Delete the unused feature group ${master.description}?" locale="es" localized="¿Eliminar el grupo de características no utilizado ${master.description}?"/>
+    <moqui.basic.LocalizedMessage original="Delete unused feature" locale="es" localized="Eliminar característica no usada"/>
+    <moqui.basic.LocalizedMessage original="Delete unused group" locale="es" localized="Eliminar grupo no usado"/>
+    <moqui.basic.LocalizedMessage original="Discontinued" locale="es" localized="Descontinuado"/>
+    <moqui.basic.LocalizedMessage original="Discontinuing soon" locale="es" localized="Se descontinúa pronto"/>
+    <moqui.basic.LocalizedMessage original="Each save starts a dated policy and preserves earlier settings. Future policies apply on their start date." locale="es" localized="Cada guardado inicia una política con fecha y conserva la configuración anterior. Las políticas futuras se aplican en su fecha de inicio."/>
+    <moqui.basic.LocalizedMessage original="Edit ${productFeatureId} → ${toProductFeatureId}" locale="es" localized="Editar ${productFeatureId} → ${toProductFeatureId}"/>
+    <moqui.basic.LocalizedMessage original="Edit category membership" locale="es" localized="Editar pertenencia a la categoría"/>
+    <moqui.basic.LocalizedMessage original="Edit feature membership" locale="es" localized="Editar pertenencia de la característica"/>
+    <moqui.basic.LocalizedMessage original="Edit feature rule" locale="es" localized="Editar regla de característica"/>
+    <moqui.basic.LocalizedMessage original="Edit group membership" locale="es" localized="Editar pertenencia al grupo"/>
+    <moqui.basic.LocalizedMessage original="Edit product application" locale="es" localized="Editar aplicación al producto"/>
+    <moqui.basic.LocalizedMessage original="Effective date" locale="es" localized="Fecha de vigencia"/>
+    <moqui.basic.LocalizedMessage original="Effective from" locale="es" localized="Vigente desde"/>
+    <moqui.basic.LocalizedMessage original="End existing row" locale="es" localized="Finalizar fila existente"/>
+    <moqui.basic.LocalizedMessage original="Ending in 30 days" locale="es" localized="Finaliza en 30 días"/>
+    <moqui.basic.LocalizedMessage original="Exact identifier" locale="es" localized="Identificador exacto"/>
+    <moqui.basic.LocalizedMessage original="Existing product" locale="es" localized="Producto existente"/>
+    <moqui.basic.LocalizedMessage original="Existing start" locale="es" localized="Inicio existente"/>
+    <moqui.basic.LocalizedMessage original="Expected From Date" locale="es" localized="Fecha desde esperada"/>
+    <moqui.basic.LocalizedMessage original="Expected Last Updated Stamp" locale="es" localized="Marca de última actualización esperada"/>
+    <moqui.basic.LocalizedMessage original="Expected Version" locale="es" localized="Versión esperada"/>
+    <moqui.basic.LocalizedMessage original="Explain price" locale="es" localized="Explicar precio"/>
+    <moqui.basic.LocalizedMessage original="Feature Count" locale="es" localized="Cantidad de características"/>
+    <moqui.basic.LocalizedMessage original="Feature filters" locale="es" localized="Filtros de características"/>
+    <moqui.basic.LocalizedMessage original="Feature group" locale="es" localized="Grupo de características"/>
+    <moqui.basic.LocalizedMessage original="Feature groups" locale="es" localized="Grupos de características"/>
+    <moqui.basic.LocalizedMessage original="Feature interactions" locale="es" localized="Interacciones de características"/>
+    <moqui.basic.LocalizedMessage original="Feature key" locale="es" localized="Clave de característica"/>
+    <moqui.basic.LocalizedMessage original="Filter Feature IDs Json" locale="es" localized="JSON de ID de características del filtro"/>
+    <moqui.basic.LocalizedMessage original="Find history" locale="es" localized="Buscar historial"/>
+    <moqui.basic.LocalizedMessage original="Full combination key" locale="es" localized="Clave de combinación completa"/>
+    <moqui.basic.LocalizedMessage original="Generate feature sets" locale="es" localized="Generar conjuntos de características"/>
+    <moqui.basic.LocalizedMessage original="Generate selected" locale="es" localized="Generar seleccionados"/>
+    <moqui.basic.LocalizedMessage original="Generate selected combinations" locale="es" localized="Generar combinaciones seleccionadas"/>
+    <moqui.basic.LocalizedMessage original="History scope" locale="es" localized="Alcance del historial"/>
+    <moqui.basic.LocalizedMessage original="I reviewed these rows and their proposed amounts" locale="es" localized="Revisé estas filas y sus importes propuestos"/>
+    <moqui.basic.LocalizedMessage original="ID Code" locale="es" localized="Código de ID"/>
+    <moqui.basic.LocalizedMessage original="ID or name" locale="es" localized="ID o nombre"/>
+    <moqui.basic.LocalizedMessage original="ID policy" locale="es" localized="Política de ID"/>
+    <moqui.basic.LocalizedMessage original="ID, description or code" locale="es" localized="ID, descripción o código"/>
+    <moqui.basic.LocalizedMessage original="Iactn Type Enum ID" locale="es" localized="ID de enumeración del tipo de interacción"/>
+    <moqui.basic.LocalizedMessage original="Identification types" locale="es" localized="Tipos de identificación"/>
+    <moqui.basic.LocalizedMessage original="Identifier pattern" locale="es" localized="Patrón de identificador"/>
+    <moqui.basic.LocalizedMessage original="Identity, prices, costs and transaction data cannot be copied. Existing variants keep their overrides." locale="es" localized="La identidad, los precios, los costos y los datos de transacción no se pueden copiar. Las variantes existentes conservan sus anulaciones."/>
+    <moqui.basic.LocalizedMessage original="Import catalog" locale="es" localized="Importar catálogo"/>
+    <moqui.basic.LocalizedMessage original="Interaction" locale="es" localized="Interacción"/>
+    <moqui.basic.LocalizedMessage original="Interactions" locale="es" localized="Interacciones"/>
+    <moqui.basic.LocalizedMessage original="Interactive batch limit" locale="es" localized="Límite de lote interactivo"/>
+    <moqui.basic.LocalizedMessage original="Internal generation or manual" locale="es" localized="Generación interna o manual"/>
+    <moqui.basic.LocalizedMessage original="Issue" locale="es" localized="Problema"/>
+    <moqui.basic.LocalizedMessage original="JSON array" locale="es" localized="Arreglo JSON"/>
+    <moqui.basic.LocalizedMessage original="JSON array; empty: all" locale="es" localized="Arreglo JSON; vacío: todos"/>
+    <moqui.basic.LocalizedMessage original="JSON array; empty: policy defaults" locale="es" localized="Arreglo JSON; vacío: valores predeterminados de la política"/>
+    <moqui.basic.LocalizedMessage original="Keyword" locale="es" localized="Palabra clave"/>
+    <moqui.basic.LocalizedMessage original="Leave empty for a rule on every product" locale="es" localized="Déjelo vacío para una regla en cada producto"/>
+    <moqui.basic.LocalizedMessage original="Leave empty to change each row&apos;s amount by the percent or amount below" locale="es" localized="Déjelo vacío para cambiar el importe de cada fila por el porcentaje o el importe de abajo"/>
+    <moqui.basic.LocalizedMessage original="Leave empty to have one generated" locale="es" localized="Déjelo vacío para que se genere uno"/>
+    <moqui.basic.LocalizedMessage original="Leave empty to start now" locale="es" localized="Déjelo vacío para comenzar ahora"/>
+    <moqui.basic.LocalizedMessage original="Lifecycle" locale="es" localized="Ciclo de vida"/>
+    <moqui.basic.LocalizedMessage original="Manual IDs required" locale="es" localized="ID manuales requeridos"/>
+    <moqui.basic.LocalizedMessage original="Maximum unit price" locale="es" localized="Precio unitario máximo"/>
+    <moqui.basic.LocalizedMessage original="Minimum quantity" locale="es" localized="Cantidad mínima"/>
+    <moqui.basic.LocalizedMessage original="Minimum unit price" locale="es" localized="Precio unitario mínimo"/>
+    <moqui.basic.LocalizedMessage original="Missing price" locale="es" localized="Precio faltante"/>
+    <moqui.basic.LocalizedMessage original="My catalog tasks" locale="es" localized="Mis tareas de catálogo"/>
+    <moqui.basic.LocalizedMessage original="New feature" locale="es" localized="Nueva característica"/>
+    <moqui.basic.LocalizedMessage original="New feature group" locale="es" localized="Nuevo grupo de características"/>
+    <moqui.basic.LocalizedMessage original="New product" locale="es" localized="Nuevo producto"/>
+    <moqui.basic.LocalizedMessage original="No catalog tasks are assigned to you." locale="es" localized="No hay tareas de catálogo asignadas a usted."/>
+    <moqui.basic.LocalizedMessage original="No products yet" locale="es" localized="Aún no hay productos"/>
+    <moqui.basic.LocalizedMessage original="Number Uom ID" locale="es" localized="ID de Uom del número"/>
+    <moqui.basic.LocalizedMessage original="Obsolete" locale="es" localized="Obsoleto"/>
+    <moqui.basic.LocalizedMessage original="Occurrence ID" locale="es" localized="ID de ocurrencia"/>
+    <moqui.basic.LocalizedMessage original="One rule per feature pair" locale="es" localized="Una regla por par de características"/>
+    <moqui.basic.LocalizedMessage original="Only a catalog administrator changes the variant policy." locale="es" localized="Solo un administrador de catálogo cambia la política de variantes."/>
+    <moqui.basic.LocalizedMessage original="Operation Key" locale="es" localized="Clave de operación"/>
+    <moqui.basic.LocalizedMessage original="Operation key" locale="es" localized="Clave de operación"/>
+    <moqui.basic.LocalizedMessage original="Operation results" locale="es" localized="Resultados de la operación"/>
+    <moqui.basic.LocalizedMessage original="Optional parent" locale="es" localized="Padre opcional"/>
+    <moqui.basic.LocalizedMessage original="Or price row IDs" locale="es" localized="O ID de filas de precio"/>
+    <moqui.basic.LocalizedMessage original="Organization pricing defaults" locale="es" localized="Valores predeterminados de precios de la organización"/>
+    <moqui.basic.LocalizedMessage original="Original Parent Product Category ID" locale="es" localized="ID de categoría de producto padre original"/>
+    <moqui.basic.LocalizedMessage original="Packaging" locale="es" localized="Embalaje"/>
+    <moqui.basic.LocalizedMessage original="Parent Occurrence ID" locale="es" localized="ID de ocurrencia padre"/>
+    <moqui.basic.LocalizedMessage original="Party item code" locale="es" localized="Código de artículo del participante"/>
+    <moqui.basic.LocalizedMessage original="Paste complete feature-ID arrays to generate a selection spanning pages. An empty selection creates nothing." locale="es" localized="Pegue arreglos completos de ID de características para generar una selección que abarque páginas. Una selección vacía no crea nada."/>
+    <moqui.basic.LocalizedMessage original="Percent change" locale="es" localized="Cambio porcentual"/>
+    <moqui.basic.LocalizedMessage original="Permit category copying" locale="es" localized="Permitir copiar categorías"/>
+    <moqui.basic.LocalizedMessage original="Permitted purpose IDs" locale="es" localized="ID de propósitos permitidos"/>
+    <moqui.basic.LocalizedMessage original="Policy as of" locale="es" localized="Política a la fecha"/>
+    <moqui.basic.LocalizedMessage original="Policy history" locale="es" localized="Historial de la política"/>
+    <moqui.basic.LocalizedMessage original="Preview Revision" locale="es" localized="Revisión de vista previa"/>
+    <moqui.basic.LocalizedMessage original="Preview Token" locale="es" localized="Token de vista previa"/>
+    <moqui.basic.LocalizedMessage original="Preview combinations" locale="es" localized="Previsualizar combinaciones"/>
+    <moqui.basic.LocalizedMessage original="Preview fixes the selected rows, their current stamps and the proposed amounts. Applying returns a result per row and keeps completed rows on retry." locale="es" localized="La vista previa fija las filas seleccionadas, sus marcas de tiempo actuales y los importes propuestos. Aplicar devuelve un resultado por fila y conserva las filas completadas al reintentar."/>
+    <moqui.basic.LocalizedMessage original="Preview price changes" locale="es" localized="Previsualizar cambios de precio"/>
+    <moqui.basic.LocalizedMessage original="Preview selection" locale="es" localized="Previsualizar selección"/>
+    <moqui.basic.LocalizedMessage original="Price change setup" locale="es" localized="Configuración del cambio de precios"/>
+    <moqui.basic.LocalizedMessage original="Price changes" locale="es" localized="Cambios de precio"/>
+    <moqui.basic.LocalizedMessage original="Price history" locale="es" localized="Historial de precios"/>
+    <moqui.basic.LocalizedMessage original="Price lists" locale="es" localized="Listas de precios"/>
+    <moqui.basic.LocalizedMessage original="Price row" locale="es" localized="Fila de precio"/>
+    <moqui.basic.LocalizedMessage original="Price row ID" locale="es" localized="ID de fila de precio"/>
+    <moqui.basic.LocalizedMessage original="Prices to change" locale="es" localized="Precios por cambiar"/>
+    <moqui.basic.LocalizedMessage original="Pricing &amp; costs" locale="es" localized="Precios y costos"/>
+    <moqui.basic.LocalizedMessage original="Pricing settings" locale="es" localized="Configuración de precios"/>
+    <moqui.basic.LocalizedMessage original="Process next batch" locale="es" localized="Procesar el siguiente lote"/>
+    <moqui.basic.LocalizedMessage original="Product Category Type Enum ID" locale="es" localized="ID de enumeración del tipo de categoría de producto"/>
+    <moqui.basic.LocalizedMessage original="Product Feature Group IDs" locale="es" localized="ID de grupos de características de producto"/>
+    <moqui.basic.LocalizedMessage original="Product Feature Type Enum ID" locale="es" localized="ID de enumeración del tipo de característica de producto"/>
+    <moqui.basic.LocalizedMessage original="Product IDs" locale="es" localized="ID de productos"/>
+    <moqui.basic.LocalizedMessage original="Product Type Enum ID" locale="es" localized="ID de enumeración del tipo de producto"/>
+    <moqui.basic.LocalizedMessage original="Product identifiers" locale="es" localized="Identificadores de producto"/>
+    <moqui.basic.LocalizedMessage original="Product import" locale="es" localized="Importación de productos"/>
+    <moqui.basic.LocalizedMessage original="Product scope" locale="es" localized="Alcance del producto"/>
+    <moqui.basic.LocalizedMessage original="Product type" locale="es" localized="Tipo de producto"/>
+    <moqui.basic.LocalizedMessage original="Products in branch" locale="es" localized="Productos de la rama"/>
+    <moqui.basic.LocalizedMessage original="Proposed SKU" locale="es" localized="SKU propuesto"/>
+    <moqui.basic.LocalizedMessage original="Queue feature sets" locale="es" localized="Encolar conjuntos de características"/>
+    <moqui.basic.LocalizedMessage original="Queue selected" locale="es" localized="Encolar seleccionados"/>
+    <moqui.basic.LocalizedMessage original="Related feature" locale="es" localized="Característica relacionada"/>
+    <moqui.basic.LocalizedMessage original="Required activation fields" locale="es" localized="Campos de activación requeridos"/>
+    <moqui.basic.LocalizedMessage original="Required fields" locale="es" localized="Campos requeridos"/>
+    <moqui.basic.LocalizedMessage original="Required to end a row" locale="es" localized="Requerido para finalizar una fila"/>
+    <moqui.basic.LocalizedMessage original="Retry failed" locale="es" localized="Reintentar fallidos"/>
+    <moqui.basic.LocalizedMessage original="Review price changes" locale="es" localized="Revisar cambios de precio"/>
+    <moqui.basic.LocalizedMessage original="Reviewed prices" locale="es" localized="Precios revisados"/>
+    <moqui.basic.LocalizedMessage original="Sales prices" locale="es" localized="Precios de venta"/>
+    <moqui.basic.LocalizedMessage original="Save dated pricing policy" locale="es" localized="Guardar política de precios con fecha"/>
+    <moqui.basic.LocalizedMessage original="Selected combinations" locale="es" localized="Combinaciones seleccionadas"/>
+    <moqui.basic.LocalizedMessage original="Selected feature sets" locale="es" localized="Conjuntos de características seleccionados"/>
+    <moqui.basic.LocalizedMessage original="Selected features" locale="es" localized="Características seleccionadas"/>
+    <moqui.basic.LocalizedMessage original="Selected products" locale="es" localized="Productos seleccionados"/>
+    <moqui.basic.LocalizedMessage original="Separate several with commas" locale="es" localized="Separe varios con comas"/>
+    <moqui.basic.LocalizedMessage original="Separate several with commas, or select products on the Products list" locale="es" localized="Separe varios con comas, o seleccione productos en la lista de productos"/>
+    <moqui.basic.LocalizedMessage original="Shared catalog" locale="es" localized="Catálogo compartido"/>
+    <moqui.basic.LocalizedMessage original="Show policy" locale="es" localized="Mostrar política"/>
+    <moqui.basic.LocalizedMessage original="Some earlier changes are outside your current permissions." locale="es" localized="Algunos cambios anteriores están fuera de sus permisos actuales."/>
+    <moqui.basic.LocalizedMessage original="Source row" locale="es" localized="Fila de origen"/>
+    <moqui.basic.LocalizedMessage original="Standard costs" locale="es" localized="Costos estándar"/>
+    <moqui.basic.LocalizedMessage original="Still requires approval authority" locale="es" localized="Aún requiere autoridad de aprobación"/>
+    <moqui.basic.LocalizedMessage original="Stock / amount unit" locale="es" localized="Unidad de existencias / importe"/>
+    <moqui.basic.LocalizedMessage original="Stocked" locale="es" localized="Inventariado"/>
+    <moqui.basic.LocalizedMessage original="Submit durable operation" locale="es" localized="Enviar operación persistente"/>
+    <moqui.basic.LocalizedMessage original="Successor row" locale="es" localized="Fila sucesora"/>
+    <moqui.basic.LocalizedMessage original="Supplier offers" locale="es" localized="Ofertas del proveedor"/>
+    <moqui.basic.LocalizedMessage original="Supplier prices" locale="es" localized="Precios del proveedor"/>
+    <moqui.basic.LocalizedMessage original="The next page previews every change before any price is saved." locale="es" localized="La página siguiente previsualiza cada cambio antes de guardar cualquier precio."/>
+    <moqui.basic.LocalizedMessage original="Then add amount" locale="es" localized="Luego añadir importe"/>
+    <moqui.basic.LocalizedMessage original="This feature group is not available: it does not exist, or it belongs to an organization you are not in." locale="es" localized="Este grupo de características no está disponible: no existe, o pertenece a una organización de la que usted no forma parte."/>
+    <moqui.basic.LocalizedMessage original="This feature is not available: it does not exist, or it belongs to an organization you are not in." locale="es" localized="Esta característica no está disponible: no existe, o pertenece a una organización de la que usted no forma parte."/>
+    <moqui.basic.LocalizedMessage original="To Product Feature ID" locale="es" localized="ID de característica de producto de destino"/>
+    <moqui.basic.LocalizedMessage original="Total amount" locale="es" localized="Importe total"/>
+    <moqui.basic.LocalizedMessage original="Transacted order prices" locale="es" localized="Precios de orden ya transaccionados"/>
+    <moqui.basic.LocalizedMessage original="Translations" locale="es" localized="Traducciones"/>
+    <moqui.basic.LocalizedMessage original="Unique operation key" locale="es" localized="Clave de operación única"/>
+    <moqui.basic.LocalizedMessage original="Units" locale="es" localized="Unidades"/>
+    <moqui.basic.LocalizedMessage original="Units &amp; barcodes" locale="es" localized="Unidades y códigos de barras"/>
+    <moqui.basic.LocalizedMessage original="Update selected product IDs" locale="es" localized="Actualizar los ID de productos seleccionados"/>
+    <moqui.basic.LocalizedMessage original="Variant combination list" locale="es" localized="Lista de combinaciones de variantes"/>
+    <moqui.basic.LocalizedMessage original="Variant policy" locale="es" localized="Política de variantes"/>
+    <moqui.basic.LocalizedMessage original="Variant settings" locale="es" localized="Configuración de variantes"/>
+    <moqui.basic.LocalizedMessage original="Variant setup" locale="es" localized="Configuración inicial de variantes"/>
+    <moqui.basic.LocalizedMessage original="Variant type" locale="es" localized="Tipo de variante"/>
+    <moqui.basic.LocalizedMessage original="Variants" locale="es" localized="Variantes"/>
+    <moqui.basic.LocalizedMessage original="Virtual product" locale="es" localized="Producto virtual"/>
+    <moqui.basic.LocalizedMessage original="Weighted unit price" locale="es" localized="Precio unitario ponderado"/>
+</entity-facade-xml>

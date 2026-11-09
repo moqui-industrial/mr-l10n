@@ -117,3 +117,36 @@ Commons, Comms, and Projects add these words. Use them for that sense wherever t
 | Unbilled | Sin facturar | 未开票 |
 
 A shell command (`git clone`, `git fetch`, `git checkout`, `git push`) stays byte for byte. Moqui, MR Moqui, Marble, Mantle, and IronStone stay as written. CalDAV, CardDAV, WebDAV, DAVx⁵, and PO stay as written.
+
+Products, Accounting, Warehouse, Manufacturing, Purchasing, and Customer Service add these senses. Words already stored stay as stored: Warehouse is Almacén / 仓库, Facility is Instalación / 设施, Bin is Cas / 货位, Pick is Surtir / 拣货, On hand is En existencia / 现有, Replenishment is Reposición / 补充, Standard cost is Costo estándar / 标准成本, Raw material is Materia prima / 原材料, Finished good is Bien terminado / 产成品, GL account is Cuenta contable / 总账账户, and Routing is Ruta / 工艺路线.
+
+| English | es | zh |
+| --- | --- | --- |
+| Bill (supplier bill) | Factura recibida | 账单 |
+| Post to the ledger | Contabilizar | 过账 |
+| Bank or customer statement | Estado de cuenta | 对账单 |
+| Financial statement | Estado financiero | 财务报表 |
+| Journal entry | Asiento | 日记账分录 |
+| Cost center | Centro de costo | 成本中心 |
+| Exchange rate | Tipo de cambio | 汇率 |
+| Cheque | Cheque | 支票 |
+| Release a hold or a blanket order | Liberar | 发放 |
+| Goods receipt | Recepción | 收货 |
+| Cycle count | Conteo cíclico | 循环盘点 |
+| Work order | Orden de trabajo | 工单 |
+| Work center | Centro de trabajo | 工作中心 |
+| Bill of materials | Lista de materiales | 物料清单 |
+| Shop floor | Taller | 车间 |
+| Scrap | Merma | 报废 |
+| Variance | Variación | 差异 |
+| Put away | Ubicar | 上架 |
+| Work in process | Trabajo en proceso | 在制品 |
+| Subcontract | Subcontrato | 外协 |
+| Inspection | Inspección | 检验 |
+| Customer-service case | Caso | 案例 |
+| Landed cost | Costo en destino | 到岸成本 |
+| Safety stock | Stock de seguridad | 安全库存 |
+| Lead time | Plazo de entrega | 提前期 |
+| Backorder | Pedido pendiente | 缺货订单 |
+
+The single stored words Post (Publicar / 发布), Statement (Sentencia / 语句), and Release (Lanzamiento / 版本) keep those older senses. A longer sentence in these apps uses the table. Payment application is aplicación / 核销. A financial account is Cuenta / 账户. PO, RFQ, ASN, BOM, WIP, MRP, OEE, SKU, RMA, UOM, GL, ATP, and NACHA stay as written when the English is the token. BOM spelled out is Lista de materiales / 物料清单.

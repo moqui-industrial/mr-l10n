@@ -1,0 +1,57 @@
+${(accountCode || glAccountId) + ' ' + (accountName || '')}
+${[match.label != match.recordId ? match.label : '', match.detail, match.facilityName]                                     .filter(Boolean).join(' · ')}
+${[statement.bankLabel, statement.statementFromDateText + ' – '                                     + statement.statementThruDateText].join(' · ')}
+${[statement.formatText, statement.fileName, statement.statementFromDateText                                 ? statement.statementFromDateText + ' – ' + statement.statementThruDateText : null]                                 .filter(Boolean).join(' · ')}
+${assetId}${identityText ? ' · ' + identityText : ''}
+${cc.accountText}${cc.emailText ? ' · ' + cc.emailText : ''}
+${changedByName}${changeReason ? ': ' + changeReason : ''}
+${componentText || ''}${productName ? ' · ' + productName : ''}
+${countModeText}${blindText ? ' · ' + blindText : ''}
+${decisionText}${stepText ? ' · ' + stepText : ''}
+${document.partyLabel || ''} ${document.partyName || ''}
+${ec.l10n.format(creditedQuantity, '#,##0.###')}${creditText                                                     ? ' · ' + creditText : ''}
+${itemText}${sourceText ? ' · ' + sourceText : ''}
+${label.quantity || ''} ${label.quantityUomId || ''}${label.identityText ? ' · ' + label.identityText : ''}
+${lastPrint ? lastPrint.statusText + (lastPrint.failed ? ': ' +                                             (lastPrint.errorMessage || '') : '') : ''}
+${leadTimeDays ? leadTimeDays + ' (' + leadTimeSource.toLowerCase() + ')' : ''}
+${manufacturingOrder.directionText}${manufacturingOrder.orderName ? ' · ' + manufacturingOrder.orderName : ''}
+${order?.run?.workEffortName || ''} · ${order?.run?.facilityName || ''}
+${placeText}${statusText ? ' · ' + statusText : ''}
+${pr.approval.stateText}${pr.approval.refusalText ? ' · '                                 + pr.approval.refusalText : ''}
+${productName}${assetId ? ' · ' + assetId : ''}
+${promisedText}${promisedQuantityText ? ' · ' + promisedQuantityText : ''}
+${putawayRuleId}${description ? ' · ' + description : ''}
+${qualityInspectionId} · ${inspectionStatusText}${                                             resultText ? ' · ' + resultText : ''}
+${quantity || ''} ${uomText || ''}
+${readingTypeText}${limitsText ? ': ' + limitsText : ''}
+${reason || ''}${reservedText ? ' ' + reservedText : ''}
+${reasonText} · ${responseText}${priceText ? ' · ' + priceText : ''}
+${reasonText}${responseText ? ' · ' + responseText : ''}
+${record.counterpartyName || ''}${record.documentDateText ? ' · '                                                 + record.documentDateText : ''}
+${releaseRequestedByName ? releaseRequestedByName + ' · '                                 + releaseRequestedDateText + (releaseRequestNote ? ': ' + releaseRequestNote : '') : ''}
+${reopenReason ? reopenReason + ' (' + reopenedDateText + ')' : ''}
+${reorderMethodText}${reorderQuantity && reorderMethodEnumId == 'RdmFixedQuantity' ? ' ' + reorderQuantity : ''}
+${resultText}${movementText ? ' (' + movementText + ')' : ''}
+${sentText || 'PDF'}
+${state}${approvedByText ? ': ' + approvedByText : ''}
+${statusText}${postMessage ? ': ' + postMessage : ''}
+${statusText}${resultText ? ' · ' +                                                                     resultText : ''}
+${statusText}${resultText ? ' · ' + resultText : ''}
+${statusText}${subStatus ? ' · ' + subStatus : ''}
+${workEffortId || ''}${operationName ? ' · ' + operationName : ''}
+BOM ID
+Code128
+EAN-13
+EAN-8
+Fit ID
+GS1-128
+ITF-14
+PO ${replacementOrderId}
+RFQ ${quote.rfqId}
+RFQ ${requestId}
+RFQ ${requestId} · ${rfq.requestName}
+RFQ ${rfqLineText}
+RMA ${supplierRmaId}
+UPC-A
+git fetch origin
+git checkout

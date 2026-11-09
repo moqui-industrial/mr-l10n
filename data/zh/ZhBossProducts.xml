@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="zh">
+    <moqui.basic.LocalizedMessage original="${categoryCount} categories · ${categoryRows.length} placements" locale="zh" localized="${categoryCount} 个类别 · ${categoryRows.length} 个放置"/>
+    <moqui.basic.LocalizedMessage original="${organizationName} · ${fromDate ? &apos;effective from &apos; + ec.l10n.format(new Date(Number(String(fromDate))), &apos;yyyy-MM-dd HH:mm&apos;) : &apos;the default policy&apos;}" locale="zh" localized="${organizationName} · ${fromDate ? &apos;生效自 &apos; + ec.l10n.format(new Date(Number(String(fromDate))), &apos;yyyy-MM-dd HH:mm&apos;) : &apos;默认策略&apos;}"/>
+    <moqui.basic.LocalizedMessage original="${preview.valid ? &apos;Selection is valid&apos; : &apos;Selection has conflicts&apos;}" locale="zh" localized="${preview.valid ? &apos;选择有效&apos; : &apos;选择存在冲突&apos;}"/>
+    <moqui.basic.LocalizedMessage original="${successCount} products updated, ${failedCount} failed" locale="zh" localized="${successCount} 个产品已更新，${failedCount} 个失败"/>
+    <moqui.basic.LocalizedMessage original="${totalCount} combinations · interactive limit ${batchLimit}" locale="zh" localized="${totalCount} 种组合 · 交互上限 ${batchLimit}"/>
+    <moqui.basic.LocalizedMessage original="A category may appear under several parents. Move changes the selected dated edge; Add parent keeps the existing edges." locale="zh" localized="一个类别可以出现在多个上级之下。移动会更改所选的带日期从属关系；添加上级会保留现有从属关系。"/>
+    <moqui.basic.LocalizedMessage original="Active SKUs" locale="zh" localized="有效 SKU"/>
+    <moqui.basic.LocalizedMessage original="Actor" locale="zh" localized="执行者"/>
+    <moqui.basic.LocalizedMessage original="Add a feature to the group" locale="zh" localized="向组添加特征"/>
+    <moqui.basic.LocalizedMessage original="Add feature" locale="zh" localized="添加特征"/>
+    <moqui.basic.LocalizedMessage original="Add the feature to a group" locale="zh" localized="将特征添加到组"/>
+    <moqui.basic.LocalizedMessage original="Add the group to a category" locale="zh" localized="将组添加到类别"/>
+    <moqui.basic.LocalizedMessage original="Add to category" locale="zh" localized="添加到类别"/>
+    <moqui.basic.LocalizedMessage original="After" locale="zh" localized="之后"/>
+    <moqui.basic.LocalizedMessage original="All categories" locale="zh" localized="全部类别"/>
+    <moqui.basic.LocalizedMessage original="Allow cost self approval" locale="zh" localized="允许自行批准成本"/>
+    <moqui.basic.LocalizedMessage original="Allowed copy fields" locale="zh" localized="允许复制的字段"/>
+    <moqui.basic.LocalizedMessage original="Any category" locale="zh" localized="任何类别"/>
+    <moqui.basic.LocalizedMessage original="Appl Type Enum ID" locale="zh" localized="核销类型枚举 ID"/>
+    <moqui.basic.LocalizedMessage original="Apply reviewed changes" locale="zh" localized="应用已复核的变更"/>
+    <moqui.basic.LocalizedMessage original="Apply the feature to a product" locale="zh" localized="将特征应用于产品"/>
+    <moqui.basic.LocalizedMessage original="Apply to product" locale="zh" localized="应用于产品"/>
+    <moqui.basic.LocalizedMessage original="As of" locale="zh" localized="截至"/>
+    <moqui.basic.LocalizedMessage original="As of ${summary.asOf}" locale="zh" localized="截至 ${summary.asOf}"/>
+    <moqui.basic.LocalizedMessage original="Asset type" locale="zh" localized="资产类型"/>
+    <moqui.basic.LocalizedMessage original="Batch limit" locale="zh" localized="批次上限"/>
+    <moqui.basic.LocalizedMessage original="Before" locale="zh" localized="之前"/>
+    <moqui.basic.LocalizedMessage original="Branch Product Count" locale="zh" localized="分支产品数量"/>
+    <moqui.basic.LocalizedMessage original="Build variants" locale="zh" localized="生成变体"/>
+    <moqui.basic.LocalizedMessage original="Catalog checks" locale="zh" localized="目录检查"/>
+    <moqui.basic.LocalizedMessage original="Catalog settings" locale="zh" localized="目录设置"/>
+    <moqui.basic.LocalizedMessage original="Category Count" locale="zh" localized="类别数量"/>
+    <moqui.basic.LocalizedMessage original="Category match" locale="zh" localized="类别匹配"/>
+    <moqui.basic.LocalizedMessage original="Change prices of the selected products" locale="zh" localized="更改所选产品的价格"/>
+    <moqui.basic.LocalizedMessage original="Changes take effect on their start date. Each save ends the prior policy and preserves its history." locale="zh" localized="变更在其开始日期生效。每次保存都会结束先前的策略并保留其历史。"/>
+    <moqui.basic.LocalizedMessage original="Combinations" locale="zh" localized="组合"/>
+    <moqui.basic.LocalizedMessage original="Combinations to process" locale="zh" localized="待处理组合"/>
+    <moqui.basic.LocalizedMessage original="Confirm reviewed changes" locale="zh" localized="确认已复核的变更"/>
+    <moqui.basic.LocalizedMessage original="Confirm reviewed price changes" locale="zh" localized="确认已复核的价格变更"/>
+    <moqui.basic.LocalizedMessage original="Copy Fields Json" locale="zh" localized="复制字段 JSON"/>
+    <moqui.basic.LocalizedMessage original="Copy categories" locale="zh" localized="复制类别"/>
+    <moqui.basic.LocalizedMessage original="Copy fields" locale="zh" localized="复制字段"/>
+    <moqui.basic.LocalizedMessage original="Cost history" locale="zh" localized="成本历史"/>
+    <moqui.basic.LocalizedMessage original="Cost roll-up" locale="zh" localized="成本汇总"/>
+    <moqui.basic.LocalizedMessage original="Create category" locale="zh" localized="创建类别"/>
+    <moqui.basic.LocalizedMessage original="Create draft" locale="zh" localized="创建草稿"/>
+    <moqui.basic.LocalizedMessage original="Create draft product" locale="zh" localized="创建草稿产品"/>
+    <moqui.basic.LocalizedMessage original="Create feature" locale="zh" localized="创建特征"/>
+    <moqui.basic.LocalizedMessage original="Create feature group" locale="zh" localized="创建特征组"/>
+    <moqui.basic.LocalizedMessage original="Create product" locale="zh" localized="创建产品"/>
+    <moqui.basic.LocalizedMessage original="Create the first product, or import a catalog from a spreadsheet." locale="zh" localized="请创建第一个产品，或从电子表格导入目录。"/>
+    <moqui.basic.LocalizedMessage original="Creating categories needs the catalog editor role. Ask a catalog administrator for it." locale="zh" localized="创建类别需要目录编辑角色。请向目录管理员申请。"/>
+    <moqui.basic.LocalizedMessage original="Creating feature groups needs the catalog editor role. Ask a catalog administrator for it." locale="zh" localized="创建特征组需要目录编辑角色。请向目录管理员申请。"/>
+    <moqui.basic.LocalizedMessage original="Creating features needs the catalog editor role. Ask a catalog administrator for it." locale="zh" localized="创建特征需要目录编辑角色。请向目录管理员申请。"/>
+    <moqui.basic.LocalizedMessage original="Creating products needs the catalog editor role. Ask a catalog administrator for it." locale="zh" localized="创建产品需要目录编辑角色。请向目录管理员申请。"/>
+    <moqui.basic.LocalizedMessage original="Default amount" locale="zh" localized="默认金额"/>
+    <moqui.basic.LocalizedMessage original="Default amount unit" locale="zh" localized="默认金额单位"/>
+    <moqui.basic.LocalizedMessage original="Default currency" locale="zh" localized="默认货币"/>
+    <moqui.basic.LocalizedMessage original="Default product type" locale="zh" localized="默认产品类型"/>
+    <moqui.basic.LocalizedMessage original="Default purpose" locale="zh" localized="默认用途"/>
+    <moqui.basic.LocalizedMessage original="Default rounding increment" locale="zh" localized="默认舍入增量"/>
+    <moqui.basic.LocalizedMessage original="Default sales list" locale="zh" localized="默认销售列表"/>
+    <moqui.basic.LocalizedMessage original="Defaults suggest values for new prices. Dated changes preserve the earlier policy. Valuation and posting settings are maintained in Accounting." locale="zh" localized="默认值为新价格建议取值。带日期的变更会保留较早的策略。计价与过账设置在会计中维护。"/>
+    <moqui.basic.LocalizedMessage original="Delete the unused feature ${master.description}?" locale="zh" localized="删除未使用的特征 ${master.description}？"/>
+    <moqui.basic.LocalizedMessage original="Delete the unused feature group ${master.description}?" locale="zh" localized="删除未使用的特征组 ${master.description}？"/>
+    <moqui.basic.LocalizedMessage original="Delete unused feature" locale="zh" localized="删除未使用的特征"/>
+    <moqui.basic.LocalizedMessage original="Delete unused group" locale="zh" localized="删除未使用的组"/>
+    <moqui.basic.LocalizedMessage original="Discontinued" locale="zh" localized="已停产"/>
+    <moqui.basic.LocalizedMessage original="Discontinuing soon" locale="zh" localized="即将停产"/>
+    <moqui.basic.LocalizedMessage original="Each save starts a dated policy and preserves earlier settings. Future policies apply on their start date." locale="zh" localized="每次保存都会开始一条带日期的策略并保留较早的设置。未来的策略在其开始日期生效。"/>
+    <moqui.basic.LocalizedMessage original="Edit ${productFeatureId} → ${toProductFeatureId}" locale="zh" localized="编辑 ${productFeatureId} → ${toProductFeatureId}"/>
+    <moqui.basic.LocalizedMessage original="Edit category membership" locale="zh" localized="编辑类别成员"/>
+    <moqui.basic.LocalizedMessage original="Edit feature membership" locale="zh" localized="编辑特征成员"/>
+    <moqui.basic.LocalizedMessage original="Edit feature rule" locale="zh" localized="编辑特征规则"/>
+    <moqui.basic.LocalizedMessage original="Edit group membership" locale="zh" localized="编辑组成员"/>
+    <moqui.basic.LocalizedMessage original="Edit product application" locale="zh" localized="编辑产品应用"/>
+    <moqui.basic.LocalizedMessage original="Effective date" locale="zh" localized="生效日期"/>
+    <moqui.basic.LocalizedMessage original="Effective from" locale="zh" localized="生效从"/>
+    <moqui.basic.LocalizedMessage original="End existing row" locale="zh" localized="结束现有行"/>
+    <moqui.basic.LocalizedMessage original="Ending in 30 days" locale="zh" localized="30天内结束"/>
+    <moqui.basic.LocalizedMessage original="Exact identifier" locale="zh" localized="精确标识"/>
+    <moqui.basic.LocalizedMessage original="Existing product" locale="zh" localized="现有产品"/>
+    <moqui.basic.LocalizedMessage original="Existing start" locale="zh" localized="现有开始"/>
+    <moqui.basic.LocalizedMessage original="Expected From Date" locale="zh" localized="预计开始日期"/>
+    <moqui.basic.LocalizedMessage original="Expected Last Updated Stamp" locale="zh" localized="预计最后更新时间戳"/>
+    <moqui.basic.LocalizedMessage original="Expected Version" locale="zh" localized="预计版本"/>
+    <moqui.basic.LocalizedMessage original="Explain price" locale="zh" localized="解释价格"/>
+    <moqui.basic.LocalizedMessage original="Feature Count" locale="zh" localized="特征数量"/>
+    <moqui.basic.LocalizedMessage original="Feature filters" locale="zh" localized="特征筛选"/>
+    <moqui.basic.LocalizedMessage original="Feature group" locale="zh" localized="特征组"/>
+    <moqui.basic.LocalizedMessage original="Feature groups" locale="zh" localized="特征组"/>
+    <moqui.basic.LocalizedMessage original="Feature interactions" locale="zh" localized="特征交互"/>
+    <moqui.basic.LocalizedMessage original="Feature key" locale="zh" localized="特征键"/>
+    <moqui.basic.LocalizedMessage original="Filter Feature IDs Json" locale="zh" localized="筛选特征 ID JSON"/>
+    <moqui.basic.LocalizedMessage original="Find history" locale="zh" localized="查找历史"/>
+    <moqui.basic.LocalizedMessage original="Full combination key" locale="zh" localized="完整组合键"/>
+    <moqui.basic.LocalizedMessage original="Generate feature sets" locale="zh" localized="生成特征集"/>
+    <moqui.basic.LocalizedMessage original="Generate selected" locale="zh" localized="生成所选"/>
+    <moqui.basic.LocalizedMessage original="Generate selected combinations" locale="zh" localized="生成所选组合"/>
+    <moqui.basic.LocalizedMessage original="History scope" locale="zh" localized="历史范围"/>
+    <moqui.basic.LocalizedMessage original="I reviewed these rows and their proposed amounts" locale="zh" localized="我已复核这些行及其建议金额"/>
+    <moqui.basic.LocalizedMessage original="ID Code" locale="zh" localized="ID 代码"/>
+    <moqui.basic.LocalizedMessage original="ID or name" locale="zh" localized="ID 或名称"/>
+    <moqui.basic.LocalizedMessage original="ID policy" locale="zh" localized="ID 策略"/>
+    <moqui.basic.LocalizedMessage original="ID, description or code" locale="zh" localized="ID、描述或代码"/>
+    <moqui.basic.LocalizedMessage original="Iactn Type Enum ID" locale="zh" localized="交互类型枚举 ID"/>
+    <moqui.basic.LocalizedMessage original="Identification types" locale="zh" localized="标识类型"/>
+    <moqui.basic.LocalizedMessage original="Identifier pattern" locale="zh" localized="标识模式"/>
+    <moqui.basic.LocalizedMessage original="Identity, prices, costs and transaction data cannot be copied. Existing variants keep their overrides." locale="zh" localized="身份、价格、成本和交易数据不能复制。现有变体保留其覆盖值。"/>
+    <moqui.basic.LocalizedMessage original="Import catalog" locale="zh" localized="导入目录"/>
+    <moqui.basic.LocalizedMessage original="Interaction" locale="zh" localized="交互"/>
+    <moqui.basic.LocalizedMessage original="Interactions" locale="zh" localized="交互"/>
+    <moqui.basic.LocalizedMessage original="Interactive batch limit" locale="zh" localized="交互批次上限"/>
+    <moqui.basic.LocalizedMessage original="Internal generation or manual" locale="zh" localized="内部生成或手动"/>
+    <moqui.basic.LocalizedMessage original="Issue" locale="zh" localized="问题"/>
+    <moqui.basic.LocalizedMessage original="JSON array" locale="zh" localized="JSON 数组"/>
+    <moqui.basic.LocalizedMessage original="JSON array; empty: all" locale="zh" localized="JSON 数组；空：全部"/>
+    <moqui.basic.LocalizedMessage original="JSON array; empty: policy defaults" locale="zh" localized="JSON 数组；空：策略默认值"/>
+    <moqui.basic.LocalizedMessage original="Keyword" locale="zh" localized="关键字"/>
+    <moqui.basic.LocalizedMessage original="Leave empty for a rule on every product" locale="zh" localized="留空则规则适用于每个产品"/>
+    <moqui.basic.LocalizedMessage original="Leave empty to change each row&apos;s amount by the percent or amount below" locale="zh" localized="留空则按下方的百分比或金额更改每行金额"/>
+    <moqui.basic.LocalizedMessage original="Leave empty to have one generated" locale="zh" localized="留空则自动生成一个"/>
+    <moqui.basic.LocalizedMessage original="Leave empty to start now" locale="zh" localized="留空则立即开始"/>
+    <moqui.basic.LocalizedMessage original="Lifecycle" locale="zh" localized="生命周期"/>
+    <moqui.basic.LocalizedMessage original="Manual IDs required" locale="zh" localized="手动 ID 必填"/>
+    <moqui.basic.LocalizedMessage original="Maximum unit price" locale="zh" localized="最高单价"/>
+    <moqui.basic.LocalizedMessage original="Minimum quantity" locale="zh" localized="最小数量"/>
+    <moqui.basic.LocalizedMessage original="Minimum unit price" locale="zh" localized="最低单价"/>
+    <moqui.basic.LocalizedMessage original="Missing price" locale="zh" localized="缺少价格"/>
+    <moqui.basic.LocalizedMessage original="My catalog tasks" locale="zh" localized="我的目录任务"/>
+    <moqui.basic.LocalizedMessage original="New feature" locale="zh" localized="新建特征"/>
+    <moqui.basic.LocalizedMessage original="New feature group" locale="zh" localized="新建特征组"/>
+    <moqui.basic.LocalizedMessage original="New product" locale="zh" localized="新建产品"/>
+    <moqui.basic.LocalizedMessage original="No catalog tasks are assigned to you." locale="zh" localized="没有分派给您的目录任务。"/>
+    <moqui.basic.LocalizedMessage original="No products yet" locale="zh" localized="还没有产品"/>
+    <moqui.basic.LocalizedMessage original="Number Uom ID" locale="zh" localized="数字 Uom ID"/>
+    <moqui.basic.LocalizedMessage original="Obsolete" locale="zh" localized="已淘汰"/>
+    <moqui.basic.LocalizedMessage original="Occurrence ID" locale="zh" localized="发生 ID"/>
+    <moqui.basic.LocalizedMessage original="One rule per feature pair" locale="zh" localized="每对特征一条规则"/>
+    <moqui.basic.LocalizedMessage original="Only a catalog administrator changes the variant policy." locale="zh" localized="只有目录管理员可以更改变体策略。"/>
+    <moqui.basic.LocalizedMessage original="Operation Key" locale="zh" localized="操作键"/>
+    <moqui.basic.LocalizedMessage original="Operation key" locale="zh" localized="操作键"/>
+    <moqui.basic.LocalizedMessage original="Operation results" locale="zh" localized="操作结果"/>
+    <moqui.basic.LocalizedMessage original="Optional parent" locale="zh" localized="可选上级"/>
+    <moqui.basic.LocalizedMessage original="Or price row IDs" locale="zh" localized="或价格行 ID"/>
+    <moqui.basic.LocalizedMessage original="Organization pricing defaults" locale="zh" localized="组织定价默认值"/>
+    <moqui.basic.LocalizedMessage original="Original Parent Product Category ID" locale="zh" localized="原上级产品类别 ID"/>
+    <moqui.basic.LocalizedMessage original="Packaging" locale="zh" localized="包装"/>
+    <moqui.basic.LocalizedMessage original="Parent Occurrence ID" locale="zh" localized="上级发生 ID"/>
+    <moqui.basic.LocalizedMessage original="Party item code" locale="zh" localized="参与方物料代码"/>
+    <moqui.basic.LocalizedMessage original="Paste complete feature-ID arrays to generate a selection spanning pages. An empty selection creates nothing." locale="zh" localized="请粘贴完整的特征 ID 数组，以生成跨页选择。空选择不会创建任何内容。"/>
+    <moqui.basic.LocalizedMessage original="Percent change" locale="zh" localized="百分比变更"/>
+    <moqui.basic.LocalizedMessage original="Permit category copying" locale="zh" localized="允许复制类别"/>
+    <moqui.basic.LocalizedMessage original="Permitted purpose IDs" locale="zh" localized="允许的用途 ID"/>
+    <moqui.basic.LocalizedMessage original="Policy as of" locale="zh" localized="截至的策略"/>
+    <moqui.basic.LocalizedMessage original="Policy history" locale="zh" localized="策略历史"/>
+    <moqui.basic.LocalizedMessage original="Preview Revision" locale="zh" localized="预览修订"/>
+    <moqui.basic.LocalizedMessage original="Preview Token" locale="zh" localized="预览令牌"/>
+    <moqui.basic.LocalizedMessage original="Preview combinations" locale="zh" localized="预览组合"/>
+    <moqui.basic.LocalizedMessage original="Preview fixes the selected rows, their current stamps and the proposed amounts. Applying returns a result per row and keeps completed rows on retry." locale="zh" localized="预览会固定所选行、其当前时间戳和建议金额。应用时按行返回结果，并在重试时保留已完成的行。"/>
+    <moqui.basic.LocalizedMessage original="Preview price changes" locale="zh" localized="预览价格变更"/>
+    <moqui.basic.LocalizedMessage original="Preview selection" locale="zh" localized="预览选择"/>
+    <moqui.basic.LocalizedMessage original="Price change setup" locale="zh" localized="价格变更设置"/>
+    <moqui.basic.LocalizedMessage original="Price changes" locale="zh" localized="价格变更"/>
+    <moqui.basic.LocalizedMessage original="Price history" locale="zh" localized="价格历史"/>
+    <moqui.basic.LocalizedMessage original="Price lists" locale="zh" localized="价格表"/>
+    <moqui.basic.LocalizedMessage original="Price row" locale="zh" localized="价格行"/>
+    <moqui.basic.LocalizedMessage original="Price row ID" locale="zh" localized="价格行 ID"/>
+    <moqui.basic.LocalizedMessage original="Prices to change" locale="zh" localized="待更改的价格"/>
+    <moqui.basic.LocalizedMessage original="Pricing &amp; costs" locale="zh" localized="定价与成本"/>
+    <moqui.basic.LocalizedMessage original="Pricing settings" locale="zh" localized="定价设置"/>
+    <moqui.basic.LocalizedMessage original="Process next batch" locale="zh" localized="处理下一批次"/>
+    <moqui.basic.LocalizedMessage original="Product Category Type Enum ID" locale="zh" localized="产品类别类型枚举 ID"/>
+    <moqui.basic.LocalizedMessage original="Product Feature Group IDs" locale="zh" localized="产品特征组 ID"/>
+    <moqui.basic.LocalizedMessage original="Product Feature Type Enum ID" locale="zh" localized="产品特征类型枚举 ID"/>
+    <moqui.basic.LocalizedMessage original="Product IDs" locale="zh" localized="产品 ID"/>
+    <moqui.basic.LocalizedMessage original="Product Type Enum ID" locale="zh" localized="产品类型枚举 ID"/>
+    <moqui.basic.LocalizedMessage original="Product identifiers" locale="zh" localized="产品标识"/>
+    <moqui.basic.LocalizedMessage original="Product import" locale="zh" localized="产品导入"/>
+    <moqui.basic.LocalizedMessage original="Product scope" locale="zh" localized="产品范围"/>
+    <moqui.basic.LocalizedMessage original="Product type" locale="zh" localized="产品类型"/>
+    <moqui.basic.LocalizedMessage original="Products in branch" locale="zh" localized="分支中的产品"/>
+    <moqui.basic.LocalizedMessage original="Proposed SKU" locale="zh" localized="建议 SKU"/>
+    <moqui.basic.LocalizedMessage original="Queue feature sets" locale="zh" localized="将特征集加入队列"/>
+    <moqui.basic.LocalizedMessage original="Queue selected" locale="zh" localized="将所选加入队列"/>
+    <moqui.basic.LocalizedMessage original="Related feature" locale="zh" localized="相关特征"/>
+    <moqui.basic.LocalizedMessage original="Required activation fields" locale="zh" localized="激活必填字段"/>
+    <moqui.basic.LocalizedMessage original="Required fields" locale="zh" localized="必填字段"/>
+    <moqui.basic.LocalizedMessage original="Required to end a row" locale="zh" localized="结束行时必填"/>
+    <moqui.basic.LocalizedMessage original="Retry failed" locale="zh" localized="重试失败项"/>
+    <moqui.basic.LocalizedMessage original="Review price changes" locale="zh" localized="复核价格变更"/>
+    <moqui.basic.LocalizedMessage original="Reviewed prices" locale="zh" localized="已复核价格"/>
+    <moqui.basic.LocalizedMessage original="Sales prices" locale="zh" localized="销售价格"/>
+    <moqui.basic.LocalizedMessage original="Save dated pricing policy" locale="zh" localized="保存带日期的定价策略"/>
+    <moqui.basic.LocalizedMessage original="Selected combinations" locale="zh" localized="所选组合"/>
+    <moqui.basic.LocalizedMessage original="Selected feature sets" locale="zh" localized="所选特征集"/>
+    <moqui.basic.LocalizedMessage original="Selected features" locale="zh" localized="所选特征"/>
+    <moqui.basic.LocalizedMessage original="Selected products" locale="zh" localized="所选产品"/>
+    <moqui.basic.LocalizedMessage original="Separate several with commas" locale="zh" localized="多个请用逗号分隔"/>
+    <moqui.basic.LocalizedMessage original="Separate several with commas, or select products on the Products list" locale="zh" localized="多个请用逗号分隔，或在产品列表中选择产品"/>
+    <moqui.basic.LocalizedMessage original="Shared catalog" locale="zh" localized="共享目录"/>
+    <moqui.basic.LocalizedMessage original="Show policy" locale="zh" localized="显示策略"/>
+    <moqui.basic.LocalizedMessage original="Some earlier changes are outside your current permissions." locale="zh" localized="部分较早的变更超出您当前的权限。"/>
+    <moqui.basic.LocalizedMessage original="Source row" locale="zh" localized="来源行"/>
+    <moqui.basic.LocalizedMessage original="Standard costs" locale="zh" localized="标准成本"/>
+    <moqui.basic.LocalizedMessage original="Still requires approval authority" locale="zh" localized="仍需要批准权限"/>
+    <moqui.basic.LocalizedMessage original="Stock / amount unit" locale="zh" localized="库存/金额单位"/>
+    <moqui.basic.LocalizedMessage original="Stocked" locale="zh" localized="存货"/>
+    <moqui.basic.LocalizedMessage original="Submit durable operation" locale="zh" localized="提交持久操作"/>
+    <moqui.basic.LocalizedMessage original="Successor row" locale="zh" localized="后续行"/>
+    <moqui.basic.LocalizedMessage original="Supplier offers" locale="zh" localized="供应商报价"/>
+    <moqui.basic.LocalizedMessage original="Supplier prices" locale="zh" localized="供应商价格"/>
+    <moqui.basic.LocalizedMessage original="The next page previews every change before any price is saved." locale="zh" localized="下一页会在保存任何价格之前预览每一项变更。"/>
+    <moqui.basic.LocalizedMessage original="Then add amount" locale="zh" localized="然后添加金额"/>
+    <moqui.basic.LocalizedMessage original="This feature group is not available: it does not exist, or it belongs to an organization you are not in." locale="zh" localized="此特征组不可用：它不存在，或不属于您所在的组织。"/>
+    <moqui.basic.LocalizedMessage original="This feature is not available: it does not exist, or it belongs to an organization you are not in." locale="zh" localized="此特征不可用：它不存在，或不属于您所在的组织。"/>
+    <moqui.basic.LocalizedMessage original="To Product Feature ID" locale="zh" localized="目标产品特征 ID"/>
+    <moqui.basic.LocalizedMessage original="Total amount" locale="zh" localized="合计金额"/>
+    <moqui.basic.LocalizedMessage original="Transacted order prices" locale="zh" localized="已交易的订单价格"/>
+    <moqui.basic.LocalizedMessage original="Translations" locale="zh" localized="翻译"/>
+    <moqui.basic.LocalizedMessage original="Unique operation key" locale="zh" localized="唯一操作键"/>
+    <moqui.basic.LocalizedMessage original="Units" locale="zh" localized="单位"/>
+    <moqui.basic.LocalizedMessage original="Units &amp; barcodes" locale="zh" localized="单位与条形码"/>
+    <moqui.basic.LocalizedMessage original="Update selected product IDs" locale="zh" localized="更新所选产品 ID"/>
+    <moqui.basic.LocalizedMessage original="Variant combination list" locale="zh" localized="变体组合列表"/>
+    <moqui.basic.LocalizedMessage original="Variant policy" locale="zh" localized="变体策略"/>
+    <moqui.basic.LocalizedMessage original="Variant settings" locale="zh" localized="变体设置"/>
+    <moqui.basic.LocalizedMessage original="Variant setup" locale="zh" localized="变体初始设置"/>
+    <moqui.basic.LocalizedMessage original="Variant type" locale="zh" localized="变体类型"/>
+    <moqui.basic.LocalizedMessage original="Variants" locale="zh" localized="变体"/>
+    <moqui.basic.LocalizedMessage original="Virtual" locale="zh" localized="虚拟"/>
+    <moqui.basic.LocalizedMessage original="Virtual product" locale="zh" localized="虚拟产品"/>
+    <moqui.basic.LocalizedMessage original="Weighted unit price" locale="zh" localized="加权单价"/>
+</entity-facade-xml>

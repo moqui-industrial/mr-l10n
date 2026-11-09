@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="es">
+    <moqui.basic.LocalizedMessage original="Quantities only. The report creates no supply and does not post stock." locale="es" localized="Solo cantidades. El informe no crea suministro ni contabiliza existencias."/>
+    <moqui.basic.LocalizedMessage original="Quantity delivered" locale="es" localized="Cantidad entregada"/>
+    <moqui.basic.LocalizedMessage original="Quantity in quarantine is left out until it is released. Inspection results are not                             recorded yet, so no inspection is checked." locale="es" localized="La cantidad en cuarentena se excluye hasta que se libera. Los resultados de inspección aún no se                             registran, así que no se comprueba ninguna inspección."/>
+    <moqui.basic.LocalizedMessage original="Quantity included" locale="es" localized="Cantidad incluida"/>
+    <moqui.basic.LocalizedMessage original="Quantity received" locale="es" localized="Cantidad recibida"/>
+    <moqui.basic.LocalizedMessage original="Quantity unit" locale="es" localized="Unidad de cantidad"/>
+    <moqui.basic.LocalizedMessage original="Quarantine location" locale="es" localized="Ubicación de cuarentena"/>
+    <moqui.basic.LocalizedMessage original="Quoted" locale="es" localized="Cotizado"/>
+    <moqui.basic.LocalizedMessage original="RECORD_UNAVAILABLE: Order ${orderId} part ${orderPartSeqId || &apos;01&apos;} is not available" locale="es" localized="RECORD_UNAVAILABLE: Orden ${orderId} parte ${orderPartSeqId || &apos;01&apos;} no está disponible"/>
+    <moqui.basic.LocalizedMessage original="REQUEST_STATUS: Request ${requestId} cannot be moved to ${toStatusId}" locale="es" localized="REQUEST_STATUS: La solicitud ${requestId} no se puede mover a ${toStatusId}"/>
+    <moqui.basic.LocalizedMessage original="RETURN_NOT_OPEN: Return ${returnId} is authorized; the warehouse or accounting                         reverses it now" locale="es" localized="RETURN_NOT_OPEN: La devolución ${returnId} está autorizada; el almacén o contabilidad la revierte ahora"/>
+    <moqui.basic.LocalizedMessage original="Raised ${stockRequest.requestDateText}. Approval makes each                                         item an approved requirement; allocation sends it on a transfer, or moves it within                                         ${stockRequest.facilityName}." locale="es" localized="Generado ${stockRequest.requestDateText}. La aprobación convierte cada artículo en un requerimiento aprobado; la asignación lo envía en una transferencia, o lo mueve dentro de ${stockRequest.facilityName}."/>
+    <moqui.basic.LocalizedMessage original="Rate per unit" locale="es" localized="Tasa por unidad"/>
+    <moqui.basic.LocalizedMessage original="Reached the customer" locale="es" localized="Se contactó al cliente"/>
+    <moqui.basic.LocalizedMessage original="Read only in Commerce: Customer Service authorizes the return and Accounting settles it." locale="es" localized="Solo lectura en Comercio: Servicio al cliente autoriza la devolución y Contabilidad la liquida."/>
+    <moqui.basic.LocalizedMessage original="Read rules" locale="es" localized="Leer reglas"/>
+    <moqui.basic.LocalizedMessage original="Readiness issues include evidence and a suggested correction. Each record is checked independently." locale="es" localized="Los problemas de preparación incluyen evidencia y una corrección sugerida. Cada registro se comprueba de forma independiente."/>
+    <moqui.basic.LocalizedMessage original="Readings are still needed for ${missingText}." locale="es" localized="Aún se necesitan lecturas para ${missingText}."/>
+    <moqui.basic.LocalizedMessage original="Reason (unless every line is received in full)" locale="es" localized="Motivo (a menos que cada línea se reciba completa)"/>
+    <moqui.basic.LocalizedMessage original="Reason for the override" locale="es" localized="Motivo de la anulación"/>
+    <moqui.basic.LocalizedMessage original="Reason: ${reason}" locale="es" localized="Motivo: ${reason}"/>
+    <moqui.basic.LocalizedMessage original="Recalculate the plan? It replaces the current plan&apos;s unconverted suggestions." locale="es" localized="¿Recalcular el plan? Reemplaza las sugerencias no convertidas del plan actual."/>
+    <moqui.basic.LocalizedMessage original="Recalculate the supply plan of ${plan.facilityNames}" locale="es" localized="Recalcular el plan de suministro de ${plan.facilityNames}"/>
+    <moqui.basic.LocalizedMessage original="Receipt ${shipmentId}" locale="es" localized="Recepción ${shipmentId}"/>
+    <moqui.basic.LocalizedMessage original="Receipt ${shipmentId} names no purchase order line" locale="es" localized="La recepción ${shipmentId} no indica ninguna línea de orden de compra"/>
+    <moqui.basic.LocalizedMessage original="Receipt ${shipmentId} · ${rc.supplierName}" locale="es" localized="Recepción ${shipmentId} · ${rc.supplierName}"/>
+    <moqui.basic.LocalizedMessage original="Receipt not available" locale="es" localized="Recepción no disponible"/>
+    <moqui.basic.LocalizedMessage original="Receipt steps" locale="es" localized="Pasos de la recepción"/>
+    <moqui.basic.LocalizedMessage original="Receiptless" locale="es" localized="Sin recepción"/>
+    <moqui.basic.LocalizedMessage original="Receipts &amp; quality" locale="es" localized="Recepciones y calidad"/>
+    <moqui.basic.LocalizedMessage original="Receipts and inspection" locale="es" localized="Recepciones e inspección"/>
+    <moqui.basic.LocalizedMessage original="Receive ${productName}" locale="es" localized="Recibir ${productName}"/>
+    <moqui.basic.LocalizedMessage original="Receive ${productName} on ${shipmentId}" locale="es" localized="Recibir ${productName} en ${shipmentId}"/>
+    <moqui.basic.LocalizedMessage original="Receive ${productName}, ${itemText}" locale="es" localized="Recibir ${productName}, ${itemText}"/>
+    <moqui.basic.LocalizedMessage original="Receive Output" locale="es" localized="Recibir salida"/>
+    <moqui.basic.LocalizedMessage original="Receive a box of item ${returnItemSeqId}" locale="es" localized="Recibir una caja del artículo ${returnItemSeqId}"/>
+    <moqui.basic.LocalizedMessage original="Receive against" locale="es" localized="Recibir contra"/>
+    <moqui.basic.LocalizedMessage original="Receive all" locale="es" localized="Recibir todo"/>
+    <moqui.basic.LocalizedMessage original="Receive all as expected" locale="es" localized="Recibir todo según lo previsto"/>
+    <moqui.basic.LocalizedMessage original="Receive and accept" locale="es" localized="Recibir y aceptar"/>
+    <moqui.basic.LocalizedMessage original="Receive at: ${po.facilityName}" locale="es" localized="Recibir en: ${po.facilityName}"/>
+    <moqui.basic.LocalizedMessage original="Receive every remaining unit of ${shipmentId} as expected" locale="es" localized="Recibir cada unidad restante de ${shipmentId} según lo esperado"/>
+    <moqui.basic.LocalizedMessage original="Receive output" locale="es" localized="Recibir salida"/>
+    <moqui.basic.LocalizedMessage original="Receive the finished work at ${outputReceipt.destinationName}" locale="es" localized="Recibir el trabajo terminado en ${outputReceipt.destinationName}"/>
+    <moqui.basic.LocalizedMessage original="Receive these units of                                                                     ${productName} on ${shipmentId}?" locale="es" localized="¿Recibir estas unidades de ${productName} en ${shipmentId}?"/>
+    <moqui.basic.LocalizedMessage original="Receive what arrived" locale="es" localized="Recibir lo que llegó"/>
+    <moqui.basic.LocalizedMessage original="Received at" locale="es" localized="Recibido el"/>
+    <moqui.basic.LocalizedMessage original="Received at ${transfer.destinationName}, which is not one of your facilities." locale="es" localized="Recibido en ${transfer.destinationName}, que no es una de sus instalaciones."/>
+    <moqui.basic.LocalizedMessage original="Receiving is done by the warehouse&apos;s receivers; you see its progress here." locale="es" localized="La recepción la hacen los receptores del almacén; usted ve aquí su avance."/>
+    <moqui.basic.LocalizedMessage original="Receiving location" locale="es" localized="Ubicación de recepción"/>
+    <moqui.basic.LocalizedMessage original="Recent cases of ${sc.customerName}" locale="es" localized="Casos recientes de ${sc.customerName}"/>
+    <moqui.basic.LocalizedMessage original="Record ${characteristicName}" locale="es" localized="Registrar ${characteristicName}"/>
+    <moqui.basic.LocalizedMessage original="Record ${po.supplierName}&apos;s acknowledgement of revision ${po.orderRevision}" locale="es" localized="Registrar el acuse de ${po.supplierName} de la revisión ${po.orderRevision}"/>
+    <moqui.basic.LocalizedMessage original="Record Kind" locale="es" localized="Clase de registro"/>
+    <moqui.basic.LocalizedMessage original="Record RMA" locale="es" localized="Registrar RMA"/>
+    <moqui.basic.LocalizedMessage original="Record a contact with ${customerName}" locale="es" localized="Registrar un contacto con ${customerName}"/>
+    <moqui.basic.LocalizedMessage original="Record a promise of ${customerName}" locale="es" localized="Registrar una promesa de ${customerName}"/>
+    <moqui.basic.LocalizedMessage original="Record acceptance" locale="es" localized="Registrar aceptación"/>
+    <moqui.basic.LocalizedMessage original="Record acknowledgement" locale="es" localized="Registrar acuse"/>
+    <moqui.basic.LocalizedMessage original="Record contact" locale="es" localized="Registrar contacto"/>
+    <moqui.basic.LocalizedMessage original="Record decision" locale="es" localized="Registrar decisión"/>
+    <moqui.basic.LocalizedMessage original="Record kind" locale="es" localized="Clase de registro"/>
+    <moqui.basic.LocalizedMessage original="Record promise" locale="es" localized="Registrar promesa"/>
+    <moqui.basic.LocalizedMessage original="Record reading" locale="es" localized="Registrar lectura"/>
+    <moqui.basic.LocalizedMessage original="Record type" locale="es" localized="Tipo de registro"/>
+    <moqui.basic.LocalizedMessage original="RecordFiles of" locale="es" localized="Archivos de registro de"/>
+    <moqui.basic.LocalizedMessage original="Recorded ${ack.recordedText}" locale="es" localized="Registrado ${ack.recordedText}"/>
+    <moqui.basic.LocalizedMessage original="Recorded rating" locale="es" localized="Calificación registrada"/>
+    <moqui.basic.LocalizedMessage original="Recorded supplier rating" locale="es" localized="Calificación registrada del proveedor"/>
+    <moqui.basic.LocalizedMessage original="Records the receipt the supplier is sending. A purchase order has one open receipt: a second                             request opens the same one." locale="es" localized="Registra la recepción que el proveedor está enviando. Una orden de compra tiene una recepción abierta: una segunda                             solicitud abre la misma."/>
+    <moqui.basic.LocalizedMessage original="Recurring Amount" locale="es" localized="Importe recurrente"/>
+    <moqui.basic.LocalizedMessage original="Recurring amount" locale="es" localized="Importe recurrente"/>
+    <moqui.basic.LocalizedMessage original="Reexplode" locale="es" localized="Reexplotar"/>
+    <moqui.basic.LocalizedMessage original="Refuse ${supplier.supplierName} for ${organizationName}" locale="es" localized="Rechazar ${supplier.supplierName} por ${organizationName}"/>
+    <moqui.basic.LocalizedMessage original="Refuse ${supplier.supplierName}? It is set Rejected." locale="es" localized="¿Rechazar ${supplier.supplierName}? Queda en estado Rechazado."/>
+    <moqui.basic.LocalizedMessage original="Refuse purchase order ${orderId}" locale="es" localized="Rechazar orden de compra ${orderId}"/>
+    <moqui.basic.LocalizedMessage original="Refuse purchase order ${orderId}? It is rejected and not sent to ${po.supplierName}." locale="es" localized="¿Rechazar la orden de compra ${orderId}? Se rechaza y no se envía a ${po.supplierName}."/>
+    <moqui.basic.LocalizedMessage original="Refuse purchase request ${requestId}" locale="es" localized="Rechazar solicitud de compra ${requestId}"/>
+    <moqui.basic.LocalizedMessage original="Refuse purchase request ${requestId}?" locale="es" localized="¿Rechazar la solicitud de compra ${requestId}?"/>
+    <moqui.basic.LocalizedMessage original="Refuse revision ${po.orderRevision}" locale="es" localized="Rechazar revisión ${po.orderRevision}"/>
+    <moqui.basic.LocalizedMessage original="Rejected at the dock" locale="es" localized="Rechazado en el muelle"/>
+    <moqui.basic.LocalizedMessage original="Release asked for" locale="es" localized="Liberación solicitada"/>
+    <moqui.basic.LocalizedMessage original="Release from agreement" locale="es" localized="Liberar desde el acuerdo"/>
+    <moqui.basic.LocalizedMessage original="Release method" locale="es" localized="Liberar método"/>
+    <moqui.basic.LocalizedMessage original="Release routing" locale="es" localized="Liberar ruta"/>
+    <moqui.basic.LocalizedMessage original="Release the credit hold of order ${                                                                                 orderId}?" locale="es" localized="¿Liberar la retención de crédito de la orden ${                                                                                 orderId}?"/>
+    <moqui.basic.LocalizedMessage original="Release the credit hold of order ${orderId}" locale="es" localized="Liberar la retención de crédito de la orden ${orderId}"/>
+    <moqui.basic.LocalizedMessage original="Release the purchase hold of ${orderId}" locale="es" localized="Liberar la retención de compra de ${orderId}"/>
+    <moqui.basic.LocalizedMessage original="Release to a draft order" locale="es" localized="Liberar a una orden en borrador"/>
+    <moqui.basic.LocalizedMessage original="Release to a draft purchase order" locale="es" localized="Liberar a una orden de compra en borrador"/>
+    <moqui.basic.LocalizedMessage original="Released at" locale="es" localized="Liberado el"/>
+    <moqui.basic.LocalizedMessage original="Released components and outputs" locale="es" localized="Componentes y salidas liberados"/>
+    <moqui.basic.LocalizedMessage original="Released method, or purchased item" locale="es" localized="Método liberado, o artículo comprado"/>
+    <moqui.basic.LocalizedMessage original="Released operations" locale="es" localized="Operaciones liberadas"/>
+    <moqui.basic.LocalizedMessage original="Released stock to a storage location, scrap to a morgue location, held                                                     stock within quarantine; empty keeps it where it is" locale="es" localized="Existencias liberadas a una ubicación de almacenamiento, merma a una ubicación de descarte, existencias                                                     retenidas en la cuarentena; vacío las deja donde están"/>
+    <moqui.basic.LocalizedMessage original="Released values and draft edits are separate. Approval starts the dated lines; it does not change stock or released runs." locale="es" localized="Los valores liberados y las ediciones en borrador están separados. La aprobación inicia las líneas con fecha; no cambia las existencias ni las corridas liberadas."/>
+    <moqui.basic.LocalizedMessage original="Released work orders · ${amendRunRows.length}" locale="es" localized="Órdenes de trabajo liberadas · ${amendRunRows.length}"/>
+    <moqui.basic.LocalizedMessage original="Remind ${po.supplierName} to acknowledge revision ${po.orderRevision} of ${orderId}?" locale="es" localized="¿Recordar a ${po.supplierName} que acuse la revisión ${po.orderRevision} de ${orderId}?"/>
+    <moqui.basic.LocalizedMessage original="Removal proposal" locale="es" localized="Propuesta de eliminación"/>
+    <moqui.basic.LocalizedMessage original="Remove line ${orderItemSeqId} of ${orderId}?" locale="es" localized="¿Quitar la línea ${orderItemSeqId} de ${orderId}?"/>
+    <moqui.basic.LocalizedMessage original="Remove line ${requestItemSeqId} from request ${requestId}?" locale="es" localized="¿Quitar la línea ${requestItemSeqId} de la solicitud ${requestId}?"/>
+    <moqui.basic.LocalizedMessage original="Remove mapping" locale="es" localized="Quitar mapeo"/>
+    <moqui.basic.LocalizedMessage original="Remove on next release" locale="es" localized="Quitar en la próxima liberación"/>
+    <moqui.basic.LocalizedMessage original="Remove the line" locale="es" localized="Quitar la línea"/>
+    <moqui.basic.LocalizedMessage original="Remove this routing&apos;s current operations in the draft" locale="es" localized="Quitar las operaciones actuales de esta ruta en el borrador"/>
+    <moqui.basic.LocalizedMessage original="Render PDF" locale="es" localized="Renderizar PDF"/>
+    <moqui.basic.LocalizedMessage original="Repair a product&apos;s acquire cost" locale="es" localized="Reparar el costo de adquisición de un producto"/>
+    <moqui.basic.LocalizedMessage original="Repair acquire cost" locale="es" localized="Reparar costo de adquisición"/>
+    <moqui.basic.LocalizedMessage original="Repair and repost" locale="es" localized="Reparar y volver a contabilizar"/>
+    <moqui.basic.LocalizedMessage original="Repair product cost" locale="es" localized="Reparar costo del producto"/>
+    <moqui.basic.LocalizedMessage original="Repair the acquire cost of ${asset.assetName}" locale="es" localized="Corregir el costo de adquisición de ${asset.assetName}"/>
+    <moqui.basic.LocalizedMessage original="Repeat count" locale="es" localized="Número de repeticiones"/>
+    <moqui.basic.LocalizedMessage original="Replace file version" locale="es" localized="Reemplazar versión del archivo"/>
+    <moqui.basic.LocalizedMessage original="Replace item ${returnItemSeqId} of return ${returnId}" locale="es" localized="Reemplazar el artículo ${returnItemSeqId} de la devolución ${returnId}"/>
+    <moqui.basic.LocalizedMessage original="Replacement orders" locale="es" localized="Órdenes de reemplazo"/>
+    <moqui.basic.LocalizedMessage original="Replaces" locale="es" localized="Reemplaza"/>
+    <moqui.basic.LocalizedMessage original="Reply Block ID" locale="es" localized="ID de bloque de respuesta"/>
+    <moqui.basic.LocalizedMessage original="Reply in the forum topic ${forumTopic?.title || &apos;&apos;}" locale="es" localized="Responder en el tema del foro ${forumTopic?.title || &apos;&apos;}"/>
+    <moqui.basic.LocalizedMessage original="Reply publicly in forum" locale="es" localized="Responder públicamente en el foro"/>
+    <moqui.basic.LocalizedMessage original="Reply with a saved reply" locale="es" localized="Responder con una respuesta guardada"/>
+    <moqui.basic.LocalizedMessage original="Reply… @ to mention, # for a record" locale="es" localized="Responder… @ para mencionar, # para un registro"/>
+    <moqui.basic.LocalizedMessage original="Report a stop of ${productionEquipment.asset.assetName}" locale="es" localized="Informar una parada de ${productionEquipment.asset.assetName}"/>
+    <moqui.basic.LocalizedMessage original="Request RMA" locale="es" localized="Solicitar RMA"/>
+    <moqui.basic.LocalizedMessage original="Request exception" locale="es" localized="Solicitar excepción"/>
+    <moqui.basic.LocalizedMessage original="Request maintenance of ${productionEquipment.asset.assetName}" locale="es" localized="Solicitar el mantenimiento de ${productionEquipment.asset.assetName}"/>
+    <moqui.basic.LocalizedMessage original="Request order change" locale="es" localized="Solicitar cambio de orden"/>
+    <moqui.basic.LocalizedMessage original="Request prepayment" locale="es" localized="Solicitar anticipo"/>
+    <moqui.basic.LocalizedMessage original="Request quotes" locale="es" localized="Solicitar cotizaciones"/>
+    <moqui.basic.LocalizedMessage original="Request release" locale="es" localized="Solicitar liberación"/>
+    <moqui.basic.LocalizedMessage original="Request release of this method" locale="es" localized="Solicitar liberación de este método"/>
+    <moqui.basic.LocalizedMessage original="Request release of this routing" locale="es" localized="Solicitar liberación de esta ruta"/>
+    <moqui.basic.LocalizedMessage original="Request revaluation" locale="es" localized="Solicitar revaluación"/>
+    <moqui.basic.LocalizedMessage original="Request supplier prepayment" locale="es" localized="Solicitar anticipo al proveedor"/>
+    <moqui.basic.LocalizedMessage original="Request the label" locale="es" localized="Solicitar la etiqueta"/>
+    <moqui.basic.LocalizedMessage original="Required before submitting" locale="es" localized="Requerido antes de enviar"/>
+    <moqui.basic.LocalizedMessage original="Required for a credit without receipt" locale="es" localized="Requerido para un crédito sin recepción"/>
+    <moqui.basic.LocalizedMessage original="Required output" locale="es" localized="Salida requerida"/>
+    <moqui.basic.LocalizedMessage original="Required to refuse" locale="es" localized="Requerido para rechazar"/>
+    <moqui.basic.LocalizedMessage original="Required when no return policy covers it (manual review)" locale="es" localized="Requerido cuando ninguna política de devolución lo cubre (revisión manual)"/>
+    <moqui.basic.LocalizedMessage original="Requirements" locale="es" localized="Requisitos"/>
+    <moqui.basic.LocalizedMessage original="Resend confirmation" locale="es" localized="Reenviar confirmación"/>
+    <moqui.basic.LocalizedMessage original="Resend the confirmation of order ${orderId} as placed" locale="es" localized="Reenviar la confirmación de la orden ${orderId} tal como se emitió"/>
+    <moqui.basic.LocalizedMessage original="Reserve for this order" locale="es" localized="Reservar para esta orden"/>
+    <moqui.basic.LocalizedMessage original="Reserve the received stock for order ${orderId} line ${orderItemSeqId}? Another order&apos;s reservation of it moves to other stock or waits." locale="es" localized="¿Reservar el inventario recibido para la orden ${orderId} línea ${orderItemSeqId}? La reserva de otra orden pasa a otro inventario o espera."/>
+    <moqui.basic.LocalizedMessage original="Reserved here" locale="es" localized="Reservado aquí"/>
+    <moqui.basic.LocalizedMessage original="Residual value" locale="es" localized="Valor residual"/>
+    <moqui.basic.LocalizedMessage original="Resolve a scan" locale="es" localized="Resolver un escaneo"/>
+    <moqui.basic.LocalizedMessage original="Resolve prices" locale="es" localized="Resolver precios"/>
+    <moqui.basic.LocalizedMessage original="Resolve scan" locale="es" localized="Resolver escaneo"/>
+    <moqui.basic.LocalizedMessage original="Resolved price" locale="es" localized="Precio resuelto"/>
+    <moqui.basic.LocalizedMessage original="Resolved product prices" locale="es" localized="Precios de producto resueltos"/>
+    <moqui.basic.LocalizedMessage original="Resource requirement" locale="es" localized="Requisito de recurso"/>
+    <moqui.basic.LocalizedMessage original="Restore a retained version" locale="es" localized="Restaurar una versión conservada"/>
+    <moqui.basic.LocalizedMessage original="Restore as new version" locale="es" localized="Restaurar como versión nueva"/>
+    <moqui.basic.LocalizedMessage original="Restore this content as a new version? Existing versions will be retained." locale="es" localized="¿Restaurar este contenido como una versión nueva? Las versiones existentes se conservarán."/>
+    <moqui.basic.LocalizedMessage original="Restore this version as the newest one?" locale="es" localized="¿Restaurar esta versión como la más reciente?"/>
+    <moqui.basic.LocalizedMessage original="Resume existing run" locale="es" localized="Reanudar la ejecución existente"/>
+    <moqui.basic.LocalizedMessage original="Retained versions" locale="es" localized="Versiones conservadas"/>
+    <moqui.basic.LocalizedMessage original="Retire ${template.templateName}" locale="es" localized="Dar de baja ${template.templateName}"/>
+    <moqui.basic.LocalizedMessage original="Retire ${template.templateName}?" locale="es" localized="¿Dar de baja ${template.templateName}?"/>
+    <moqui.basic.LocalizedMessage original="Retry a failed send" locale="es" localized="Reintentar un envío fallido"/>
+    <moqui.basic.LocalizedMessage original="Retry check" locale="es" localized="Reintentar comprobación"/>
+    <moqui.basic.LocalizedMessage original="Return ${productName}" locale="es" localized="Devolución ${productName}"/>
+    <moqui.basic.LocalizedMessage original="Return ${returnId} is not approved" locale="es" localized="La devolución ${returnId} no está aprobada"/>
+    <moqui.basic.LocalizedMessage original="Return ${returnId} is not available: it does not exist, it is not a return                                     of an organization you work in, or you may not read its side&apos;s invoices." locale="es" localized="La devolución ${returnId} no está disponible: no existe, no es una devolución de una organización en la que trabaja, o no puede leer las facturas de su lado."/>
+    <moqui.basic.LocalizedMessage original="Return ${returnId} is not available: it does not exist, or it is not a return                                         of your organizations from a customer you serve." locale="es" localized="La devolución ${returnId} no está disponible: no existe, o no es una devolución de sus organizaciones de un cliente al que atiende."/>
+    <moqui.basic.LocalizedMessage original="Return ${returnId} is not available: it does not exist, or it is not of a                                         facility you work in." locale="es" localized="La devolución ${returnId} no está disponible: no existe, o no es de una instalación en la que trabaja."/>
+    <moqui.basic.LocalizedMessage original="Return ${returnId} is not available: it does not exist, or it is not of an order of a store you work." locale="es" localized="La devolución ${returnId} no está disponible: no existe, o no es de una orden de una tienda en la que trabaja."/>
+    <moqui.basic.LocalizedMessage original="Return ${returnId} · ${returnDetail.counterpartyName}" locale="es" localized="Devolución ${returnId} · ${returnDetail.counterpartyName}"/>
+    <moqui.basic.LocalizedMessage original="Return ${returnLinkId}" locale="es" localized="Devolución ${returnLinkId}"/>
+    <moqui.basic.LocalizedMessage original="Return ${returnRow.returnId} · ${returnRow.statusText}" locale="es" localized="Devolución ${returnRow.returnId} · ${returnRow.statusText}"/>
+    <moqui.basic.LocalizedMessage original="Return ${rh.displayId}" locale="es" localized="Devolución ${rh.displayId}"/>
+    <moqui.basic.LocalizedMessage original="Return ${rh.displayId} · ${rh.customerName}" locale="es" localized="Devolución ${rh.displayId} · ${rh.customerName}"/>
+    <moqui.basic.LocalizedMessage original="Return Item Seq ID" locale="es" localized="ID de secuencia del artículo de devolución"/>
+    <moqui.basic.LocalizedMessage original="Return Request ID" locale="es" localized="ID de solicitud de devolución"/>
+    <moqui.basic.LocalizedMessage original="Return it to the inspector" locale="es" localized="Devolverlo al inspector"/>
+    <moqui.basic.LocalizedMessage original="Return items" locale="es" localized="Artículos de devolución"/>
+    <moqui.basic.LocalizedMessage original="Return label for ${rh.displayId}" locale="es" localized="Etiqueta de devolución para ${rh.displayId}"/>
+    <moqui.basic.LocalizedMessage original="Return not available" locale="es" localized="Devolución no disponible"/>
+    <moqui.basic.LocalizedMessage original="Return the cost review of work order ${workEffortId}" locale="es" localized="Devolver la revisión de costo de la orden de trabajo ${workEffortId}"/>
+    <moqui.basic.LocalizedMessage original="Return the review" locale="es" localized="Devolver la revisión"/>
+    <moqui.basic.LocalizedMessage original="Return to production" locale="es" localized="Devolver a producción"/>
+    <moqui.basic.LocalizedMessage original="Return to supplier" locale="es" localized="Devolver al proveedor"/>
+    <moqui.basic.LocalizedMessage original="Return unused" locale="es" localized="Devolver lo no usado"/>
+    <moqui.basic.LocalizedMessage original="Returnable" locale="es" localized="Retornable"/>
+    <moqui.basic.LocalizedMessage original="Returns · ${commerceCustomer.returns.length}" locale="es" localized="Devoluciones · ${commerceCustomer.returns.length}"/>
+    <moqui.basic.LocalizedMessage original="Returns · ${storeOrder.returns.length}" locale="es" localized="Devoluciones · ${storeOrder.returns.length}"/>
+    <moqui.basic.LocalizedMessage original="Returns${orderReturnRows.length ? &apos; · &apos; + orderReturnRows.length : &apos;&apos;}" locale="es" localized="Devoluciones${orderReturnRows.length ? &apos; · &apos; + orderReturnRows.length : &apos;&apos;}"/>
+    <moqui.basic.LocalizedMessage original="Revalue" locale="es" localized="Revaluar"/>
+    <moqui.basic.LocalizedMessage original="Reverse" locale="es" localized="Reversar"/>
+    <moqui.basic.LocalizedMessage original="Reverse the ${typeText} of ${eventDateText}" locale="es" localized="Revertir el ${typeText} de ${eventDateText}"/>
+    <moqui.basic.LocalizedMessage original="Reverse this ${typeText} of ${eventDateText}?" locale="es" localized="¿Revertir este ${typeText} de ${eventDateText}?"/>
+    <moqui.basic.LocalizedMessage original="Review at date" locale="es" localized="Revisar a la fecha"/>
+    <moqui.basic.LocalizedMessage original="Review bulk change" locale="es" localized="Revisar cambio masivo"/>
+    <moqui.basic.LocalizedMessage original="Review change" locale="es" localized="Revisar cambio"/>
+    <moqui.basic.LocalizedMessage original="Review gateway action" locale="es" localized="Revisar acción de pasarela"/>
+    <moqui.basic.LocalizedMessage original="Review selected prices" locale="es" localized="Revisar precios seleccionados"/>
+    <moqui.basic.LocalizedMessage original="Review source and translation" locale="es" localized="Revisar origen y traducción"/>
+    <moqui.basic.LocalizedMessage original="Review supplier price changes" locale="es" localized="Revisar cambios de precio del proveedor"/>
+    <moqui.basic.LocalizedMessage original="Review the current owned stock position. Posting records a value adjustment and its ledger entries." locale="es" localized="Revise la posición actual de existencias propias. Contabilizar registra un ajuste de valor y sus asientos."/>
+    <moqui.basic.LocalizedMessage original="Review the organization, counterparties, dates and rule table above. Publishing applies this policy to matching future price lookups; recorded order lines retain their sources." locale="es" localized="Revise la organización, las contrapartes, las fechas y la tabla de reglas de arriba. Publicar aplica esta política a las consultas de precio futuras que coincidan; las líneas de orden registradas conservan sus orígenes."/>
+    <moqui.basic.LocalizedMessage original="Review transfer" locale="es" localized="Revisar transferencia"/>
+    <moqui.basic.LocalizedMessage original="Reviewed against this source" locale="es" localized="Revisado contra este origen"/>
+    <moqui.basic.LocalizedMessage original="Reviewed reason" locale="es" localized="Motivo revisado"/>
+    <moqui.basic.LocalizedMessage original="Revision history" locale="es" localized="Historial de revisiones"/>
+    <moqui.basic.LocalizedMessage original="Revisions · ${revisionRows.length}" locale="es" localized="Revisiones · ${revisionRows.length}"/>
+    <moqui.basic.LocalizedMessage original="Rewrite the posted history of ${asset.assetName}?" locale="es" localized="¿Reescribir el historial contabilizado de ${asset.assetName}?"/>
+    <moqui.basic.LocalizedMessage original="Rewrite this product&apos;s acquire cost and repost its                                                             history?" locale="es" localized="¿Reescribir el costo de adquisición de este producto y recontabilizar su historial?"/>
+    <moqui.basic.LocalizedMessage original="Rfq Item Keys" locale="es" localized="Claves de artículo Rfq"/>
+    <moqui.basic.LocalizedMessage original="Roll up estimate" locale="es" localized="Acumular estimación"/>
+    <moqui.basic.LocalizedMessage original="Rounding increment" locale="es" localized="Incremento de redondeo"/>
+    <moqui.basic.LocalizedMessage original="Route" locale="es" localized="Ruta"/>
+    <moqui.basic.LocalizedMessage original="Routes and tracking" locale="es" localized="Rutas y seguimiento"/>
+    <moqui.basic.LocalizedMessage original="Routing draft" locale="es" localized="Borrador de ruta"/>
+    <moqui.basic.LocalizedMessage original="Routing name" locale="es" localized="Nombre de la ruta"/>
+    <moqui.basic.LocalizedMessage original="Row ID" locale="es" localized="ID de fila"/>
+    <moqui.basic.LocalizedMessage original="Rows ${(Number(pageIndex) || 0) * 50 + 1}–${(Number(pageIndex) || 0) * 50 + (previewRows?.length || 0)} of ${rowCount}" locale="es" localized="Filas ${(Number(pageIndex) || 0) * 50 + 1}–${(Number(pageIndex) || 0) * 50 + (previewRows?.length || 0)} de ${rowCount}"/>
+    <moqui.basic.LocalizedMessage original="Rules effective at the selected date" locale="es" localized="Reglas vigentes en la fecha seleccionada"/>
+    <moqui.basic.LocalizedMessage original="Run ${outputReceipt.runId} has no lines to receive its output on." locale="es" localized="La ejecución ${outputReceipt.runId} no tiene líneas para recibir su salida."/>
+    <moqui.basic.LocalizedMessage original="Run Checks" locale="es" localized="Ejecutar comprobaciones"/>
+    <moqui.basic.LocalizedMessage original="Run Effective Prices" locale="es" localized="Ejecutar precios vigentes"/>
+    <moqui.basic.LocalizedMessage original="Run Facility ID" locale="es" localized="ID de instalación de la ejecución"/>
+    <moqui.basic.LocalizedMessage original="Run catalog checks" locale="es" localized="Ejecutar comprobaciones del catálogo"/>
+    <moqui.basic.LocalizedMessage original="Run materials" locale="es" localized="Materiales de ejecución"/>
+    <moqui.basic.LocalizedMessage original="Run per batch" locale="es" localized="Ejecución por lote"/>
+    <moqui.basic.LocalizedMessage original="Safe use" locale="es" localized="Uso seguro"/>
+    <moqui.basic.LocalizedMessage original="Sales allowed" locale="es" localized="Ventas permitidas"/>
+    <moqui.basic.LocalizedMessage original="Sales discontinuation" locale="es" localized="Discontinuación de ventas"/>
+    <moqui.basic.LocalizedMessage original="Sales introduction" locale="es" localized="Introducción de ventas"/>
+    <moqui.basic.LocalizedMessage original="Sample Number" locale="es" localized="Número de muestra"/>
+    <moqui.basic.LocalizedMessage original="Sample basis" locale="es" localized="Base de muestreo"/>
+    <moqui.basic.LocalizedMessage original="Sample kind" locale="es" localized="Tipo de muestra"/>
+    <moqui.basic.LocalizedMessage original="Sampling and applicability" locale="es" localized="Muestreo y aplicabilidad"/>
+    <moqui.basic.LocalizedMessage original="Save adjustment" locale="es" localized="Guardar ajuste"/>
+    <moqui.basic.LocalizedMessage original="Save allocation" locale="es" localized="Guardar asignación"/>
+    <moqui.basic.LocalizedMessage original="Save bank account" locale="es" localized="Guardar cuenta bancaria"/>
+    <moqui.basic.LocalizedMessage original="Save buyer" locale="es" localized="Guardar comprador"/>
+    <moqui.basic.LocalizedMessage original="Save column mapping" locale="es" localized="Guardar asignación de columnas"/>
+    <moqui.basic.LocalizedMessage original="Save component" locale="es" localized="Guardar componente"/>
+    <moqui.basic.LocalizedMessage original="Save component draft" locale="es" localized="Guardar borrador del componente"/>
+    <moqui.basic.LocalizedMessage original="Save dated rule" locale="es" localized="Guardar regla con fecha"/>
+    <moqui.basic.LocalizedMessage original="Save document" locale="es" localized="Guardar documento"/>
+    <moqui.basic.LocalizedMessage original="Save draft successor" locale="es" localized="Guardar sucesor en borrador"/>
+    <moqui.basic.LocalizedMessage original="Save facility" locale="es" localized="Guardar instalación"/>
+    <moqui.basic.LocalizedMessage original="Save for later purchases" locale="es" localized="Guardar para compras posteriores"/>
+    <moqui.basic.LocalizedMessage original="Save formats and clear choices" locale="es" localized="Guardar formatos y limpiar las opciones"/>
+    <moqui.basic.LocalizedMessage original="Save hourly rate" locale="es" localized="Guardar tarifa por hora"/>
+    <moqui.basic.LocalizedMessage original="Save identification" locale="es" localized="Guardar identificación"/>
+    <moqui.basic.LocalizedMessage original="Save method draft" locale="es" localized="Guardar borrador del método"/>
+    <moqui.basic.LocalizedMessage original="Save offer" locale="es" localized="Guardar oferta"/>
+    <moqui.basic.LocalizedMessage original="Save operation draft" locale="es" localized="Guardar borrador de la operación"/>
+    <moqui.basic.LocalizedMessage original="Save operation policy" locale="es" localized="Guardar política de la operación"/>
+    <moqui.basic.LocalizedMessage original="Save profile" locale="es" localized="Guardar perfil"/>
+    <moqui.basic.LocalizedMessage original="Save reading" locale="es" localized="Guardar lectura"/>
+    <moqui.basic.LocalizedMessage original="Save reservation default" locale="es" localized="Guardar predeterminado de reserva"/>
+    <moqui.basic.LocalizedMessage original="Save resource draft" locale="es" localized="Guardar borrador del recurso"/>
+    <moqui.basic.LocalizedMessage original="Save reviewed draft" locale="es" localized="Guardar borrador revisado"/>
+    <moqui.basic.LocalizedMessage original="Save routing draft" locale="es" localized="Guardar borrador de la ruta"/>
+    <moqui.basic.LocalizedMessage original="Save tags" locale="es" localized="Guardar etiquetas"/>
+    <moqui.basic.LocalizedMessage original="Save tax registration" locale="es" localized="Guardar registro fiscal"/>
+    <moqui.basic.LocalizedMessage original="Save translation" locale="es" localized="Guardar traducción"/>
+    <moqui.basic.LocalizedMessage original="Save unit" locale="es" localized="Guardar unidad"/>
+    <moqui.basic.LocalizedMessage original="Save work center" locale="es" localized="Guardar centro de trabajo"/>
+    <moqui.basic.LocalizedMessage original="Saved replies" locale="es" localized="Respuestas guardadas"/>
+    <moqui.basic.LocalizedMessage original="Scanned identifier" locale="es" localized="Identificador escaneado"/>
+    <moqui.basic.LocalizedMessage original="Schedule a successor price" locale="es" localized="Programar un precio sucesor"/>
+    <moqui.basic.LocalizedMessage original="Schedule activity" locale="es" localized="Programar actividad"/>
+    <moqui.basic.LocalizedMessage original="Schedule change" locale="es" localized="Programar cambio"/>
+    <moqui.basic.LocalizedMessage original="Schedule offer" locale="es" localized="Programar oferta"/>
+    <moqui.basic.LocalizedMessage original="Schedule successor" locale="es" localized="Programar sucesor"/>
+    <moqui.basic.LocalizedMessage original="Schedule the next activity" locale="es" localized="Programar la actividad siguiente"/>
+    <moqui.basic.LocalizedMessage original="Scoped identifier" locale="es" localized="Identificador con alcance"/>
+    <moqui.basic.LocalizedMessage original="Scoped identifiers" locale="es" localized="Identificadores con alcance"/>
+    <moqui.basic.LocalizedMessage original="Scrap factor" locale="es" localized="Factor de merma"/>
+    <moqui.basic.LocalizedMessage original="Scrap reason" locale="es" localized="Motivo de merma"/>
+    <moqui.basic.LocalizedMessage original="Search articles" locale="es" localized="Buscar artículos"/>
+    <moqui.basic.LocalizedMessage original="Search the timeline" locale="es" localized="Buscar en la línea de tiempo"/>
+    <moqui.basic.LocalizedMessage original="Selection" locale="es" localized="Selección"/>
+    <moqui.basic.LocalizedMessage original="Selling organization" locale="es" localized="Organización vendedora"/>
+    <moqui.basic.LocalizedMessage original="Selling price" locale="es" localized="Precio de venta"/>
+    <moqui.basic.LocalizedMessage original="Send ${title} to the customer" locale="es" localized="Enviar ${title} al cliente"/>
+    <moqui.basic.LocalizedMessage original="Send RMA" locale="es" localized="Enviar RMA"/>
+    <moqui.basic.LocalizedMessage original="Send a copy" locale="es" localized="Enviar una copia"/>
+    <moqui.basic.LocalizedMessage original="Send a copy of invoice ${invoiceId}" locale="es" localized="Enviar una copia de la factura ${invoiceId}"/>
+    <moqui.basic.LocalizedMessage original="Send a copy of invoice ${invoiceId}?" locale="es" localized="¿Enviar una copia de la factura ${invoiceId}?"/>
+    <moqui.basic.LocalizedMessage original="Send back" locale="es" localized="Enviar de vuelta"/>
+    <moqui.basic.LocalizedMessage original="Send back ${productName}, ${itemText}" locale="es" localized="Enviar de vuelta ${productName}, ${itemText}"/>
+    <moqui.basic.LocalizedMessage original="Send feedback" locale="es" localized="Enviar comentarios"/>
+    <moqui.basic.LocalizedMessage original="Send purchase order ${orderId} to ${po.supplierName}" locale="es" localized="Enviar la orden de compra ${orderId} a ${po.supplierName}"/>
+    <moqui.basic.LocalizedMessage original="Send revision ${po.orderRevision}" locale="es" localized="Enviar revisión ${po.orderRevision}"/>
+    <moqui.basic.LocalizedMessage original="Send stock" locale="es" localized="Enviar existencias"/>
+    <moqui.basic.LocalizedMessage original="Send stock on a line" locale="es" localized="Enviar existencias en una línea"/>
+    <moqui.basic.LocalizedMessage original="Send suggestion" locale="es" localized="Enviar sugerencia"/>
+    <moqui.basic.LocalizedMessage original="Send the authorization of ${rh.displayId}" locale="es" localized="Enviar la autorización de ${rh.displayId}"/>
+    <moqui.basic.LocalizedMessage original="Send the reply and apply the actions" locale="es" localized="Enviar la respuesta y aplicar las acciones"/>
+    <moqui.basic.LocalizedMessage original="Send the stored confirmation of order ${orderId}?" locale="es" localized="¿Enviar la confirmación guardada de la orden ${orderId}?"/>
+    <moqui.basic.LocalizedMessage original="Send these rendered labels to the selected printer?" locale="es" localized="¿Enviar estas etiquetas generadas a la impresora seleccionada?"/>
+    <moqui.basic.LocalizedMessage original="Send to printer" locale="es" localized="Enviar a la impresora"/>
+    <moqui.basic.LocalizedMessage original="Send to the approvers" locale="es" localized="Enviar a los aprobadores"/>
+    <moqui.basic.LocalizedMessage original="Sent revision" locale="es" localized="Revisión enviada"/>
+    <moqui.basic.LocalizedMessage original="Serials count up from it" locale="es" localized="Los números de serie aumentan a partir de este"/>
+    <moqui.basic.LocalizedMessage original="Serials count up from it, one a unit" locale="es" localized="Los números de serie aumentan a partir de este, uno por unidad"/>
+    <moqui.basic.LocalizedMessage original="Service accepted" locale="es" localized="Servicio aceptado"/>
+    <moqui.basic.LocalizedMessage original="Settle as previewed" locale="es" localized="Liquidar según la vista previa"/>
+    <moqui.basic.LocalizedMessage original="Settle return" locale="es" localized="Liquidar devolución"/>
+    <moqui.basic.LocalizedMessage original="Settle return ${returnId}" locale="es" localized="Liquidar la devolución ${returnId}"/>
+    <moqui.basic.LocalizedMessage original="Settle return ${rh.displayId}" locale="es" localized="Liquidar la devolución ${rh.displayId}"/>
+    <moqui.basic.LocalizedMessage original="Settle these lines of return ${returnId}?" locale="es" localized="¿Liquidar estas líneas de la devolución ${returnId}?"/>
+    <moqui.basic.LocalizedMessage original="Settled ${rh.settledQuantity} of ${rh.receivedQuantity} received. Credits and                                         refunds are finance&apos;s, for what was received." locale="es" localized="Liquidado ${rh.settledQuantity} de ${rh.receivedQuantity} recibido. Los créditos y reembolsos corresponden a finanzas, por lo recibido."/>
+    <moqui.basic.LocalizedMessage original="Settlement" locale="es" localized="Liquidación"/>
+    <moqui.basic.LocalizedMessage original="Settlement applied" locale="es" localized="Liquidación aplicada"/>
+    <moqui.basic.LocalizedMessage original="Settlement for ${review.partyName || review.partyId}" locale="es" localized="Liquidación de ${review.partyName || review.partyId}"/>
+    <moqui.basic.LocalizedMessage original="Settlement review not available" locale="es" localized="Revisión de liquidación no disponible"/>
+    <moqui.basic.LocalizedMessage original="Setup follows the BOM costing lot, with fractional cycles retained. Work-center efficiency adjusts setup and run hours. Percentage overhead applies once to material plus conversion at each level." locale="es" localized="La preparación sigue el lote de costeo del BOM y conserva ciclos fraccionarios. La eficiencia del centro de trabajo ajusta horas de preparación y ejecución. El porcentaje de gastos indirectos se aplica una vez al material más la conversión en cada nivel."/>
+    <moqui.basic.LocalizedMessage original="Ship short" locale="es" localized="Enviar de menos"/>
+    <moqui.basic.LocalizedMessage original="Ship supplier return ${shipmentId}" locale="es" localized="Enviar la devolución al proveedor ${shipmentId}"/>
+    <moqui.basic.LocalizedMessage original="Ship supplier return ${shipmentId}? Its items go to Shipped." locale="es" localized="¿Enviar la devolución al proveedor ${shipmentId}? Sus artículos pasan a Enviado."/>
+    <moqui.basic.LocalizedMessage original="Ship to: ${[dropShip.shipToName, dropShip.shipToAddress].filter(Boolean).join(&apos;, &apos;)}" locale="es" localized="Enviar a: ${[dropShip.shipToName, dropShip.shipToAddress].filter(Boolean).join(&apos;, &apos;)}"/>
+    <moqui.basic.LocalizedMessage original="Ship transfer ${shipmentId}" locale="es" localized="Enviar transferencia ${shipmentId}"/>
+    <moqui.basic.LocalizedMessage original="Ship-to country ID" locale="es" localized="ID de país de destino"/>
+    <moqui.basic.LocalizedMessage original="Shipment ${shipmentId} is not available: it does not exist, it is not a                                     shipment of an organization you work in, or you may not read its invoices." locale="es" localized="El envío ${shipmentId} no está disponible: no existe, no es un envío de una organización en la que trabaja, o no puede leer sus facturas."/>
+    <moqui.basic.LocalizedMessage original="Shipment ${shipmentId} is not available: it does not exist, or it is not                                         received at or sent from a facility you work in." locale="es" localized="El envío ${shipmentId} no está disponible: no existe, o no se recibe en ni se envía desde una instalación en la que trabaja."/>
+    <moqui.basic.LocalizedMessage original="Shipment ${shipmentId} is not available: it does not exist, or it is not a                                         receipt of your organizations&apos; purchase orders from a supplier you work with." locale="es" localized="El envío ${shipmentId} no está disponible: no existe, o no es una recepción de las órdenes de compra de sus organizaciones de un proveedor con el que trabaja."/>
+    <moqui.basic.LocalizedMessage original="Shipment ${shipmentId} is not available: it does not exist, or it is not a                                         shipment of a customer you serve." locale="es" localized="El envío ${shipmentId} no está disponible: no existe, o no es un envío de un cliente al que atiende."/>
+    <moqui.basic.LocalizedMessage original="Shipment ${shipmentId} is not available: it is not a subcontract dispatch of your organizations&apos; work orders." locale="es" localized="El envío ${shipmentId} no está disponible: no es un despacho de subcontrato de las órdenes de trabajo de sus organizaciones."/>
+    <moqui.basic.LocalizedMessage original="Shipment ${shipmentId} · ${sh.customerName}" locale="es" localized="Envío ${shipmentId} · ${sh.customerName}"/>
+    <moqui.basic.LocalizedMessage original="Shipment and label" locale="es" localized="Envío y etiqueta"/>
+    <moqui.basic.LocalizedMessage original="Shipment not available" locale="es" localized="Envío no disponible"/>
+    <moqui.basic.LocalizedMessage original="Shipments and receipts" locale="es" localized="Envíos y recepciones"/>
+    <moqui.basic.LocalizedMessage original="Shipments and tracking · ${serviceOrder.shipmentRows.length}" locale="es" localized="Envíos y seguimiento · ${serviceOrder.shipmentRows.length}"/>
+    <moqui.basic.LocalizedMessage original="Shipments · ${storeOrder.shipments.length}" locale="es" localized="Envíos · ${storeOrder.shipments.length}"/>
+    <moqui.basic.LocalizedMessage original="Shipments · ${warehouseInvoice.shipmentRows.length}" locale="es" localized="Envíos · ${warehouseInvoice.shipmentRows.length}"/>
+    <moqui.basic.LocalizedMessage original="Shipped or delivered" locale="es" localized="Enviado o entregado"/>
+    <moqui.basic.LocalizedMessage original="Shipping charged" locale="es" localized="Flete cobrado"/>
+    <moqui.basic.LocalizedMessage original="Short quantity" locale="es" localized="Cantidad faltante"/>
+    <moqui.basic.LocalizedMessage original="Show ended and scheduled offers" locale="es" localized="Mostrar ofertas terminadas y programadas"/>
+    <moqui.basic.LocalizedMessage original="Show method" locale="es" localized="Mostrar método"/>
+    <moqui.basic.LocalizedMessage original="Show plan" locale="es" localized="Mostrar plan"/>
+    <moqui.basic.LocalizedMessage original="Show quoted text" locale="es" localized="Mostrar texto citado"/>
+</entity-facade-xml>

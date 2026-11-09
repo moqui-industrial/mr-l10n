@@ -72,3 +72,102 @@ Commons and Projects texts over 255 characters stay in English. The message key 
 - Assignees and reporters are matched by user name, email or full name; one not found is left unassigned and named in the preview
 - The estimate is kept as a file of the project's Estimate milestone, and its approval is asked of the client's manager (else the client)
 - The branch-protection summary on a repository's settings (force push, delete, merge requests, approvals, checks, methods, pushes)
+
+Products, Accounting, Warehouse, Manufacturing, Purchasing, and Customer Service texts over 255 characters stay in English. The message key is still used; there is no `es` or `zh` row for it:
+
+Accounting:
+
+- Link earlier bills to their orders and receipts from the billing links and receipts they already have. A
+- Post ${totalText} over ${preview.allocationRows.length} receipts? The stock on hand takes its share in its
+- ${bill.referenceNumber ? 'Supplier reference ' + bill.referenceNumber + ' · ' : ''}${ bill.invoiceDateText
+- ${current.stateText == 'Default' ? 'No row yet: the default applies, overhead at each work center overhead
+- ${testResult ? testResult.matchedCount + ' open lines match; ' + testResult.applyCount + ' would be
+- ${rejectedImport.rejectedCount} rows of statement import ${ rejectedImport.statementImportId} were
+- A CSV with the headers direction (receivable or payable), partyId, documentNumber, documentDate and dueDate
+- The chart and conventions the books start from, and the day they open. An organization that has its own
+- Activation posts the opening balances once, on the opening day: the receivable and payable balances against
+
+Warehouse:
+
+- ${[inspection.organizationName + ', ' + inspection.facilityName, inspection.productName +
+- Result: ${inspection.resultText || 'not submitted'}${inspection.resultEnumId ? ', ' +
+- ${[(returnShipment.supplierReturn ? 'to ' : 'from ') + returnShipment.partyName,
+- ${['Shipment ' + line.shipmentId, line.bin != null ? 'bin ' + line.bin : '', line.containerId ? 'into ' +
+- ${packedCount} packed in ${packages.length} package${packages.length == 1 ? '' : 's'}${leftCount > 0 ? '; '
+- Takes ${contentsText} back off the shipment; the stock stays where it is, for another pack or a put back. A
+- ${[container.typeText, container.serialNumber ? 'Serial ' + container.serialNumber : '',
+- ${[selectedAsset.identityText, 'at ' + (selectedAsset.placeText || 'no location'),
+- From ${sheet.transfer.originName} to ${sheet.transfer.destinationName} · owner ${sheet.transfer.ownerName}
+- ${[selectedAsset.identityText, 'at ' + (selectedAsset.sourceText || 'no location'),
+- ${[receipt.organizationName + ', ' + receipt.facilityName, 'from ' + receipt.supplierName,
+
+Manufacturing:
+
+- ${materialsFound?.vendorFacilityName ? 'At ' + materialsFound.vendorFacilityName + ', in the custody of ' +
+- Plan ${planRun?.planningRunId} revision ${planRun?.revision}, calculated
+- ${load.utilizationFormula} Calendar-adjusted hours are the slots over the work hours less holidays, at the
+- Columns: routingName, operationName, quantityUomId; optional sequenceNum, setupTime, runTime,
+- ${[selectedTemplate.centerText, selectedTemplate.methodRequiredEvidence ? 'Evidence: ' +
+- Each work center's OEE: availability (run time over planned production time, planned stops excluded and
+- Each work order's cost evidence: material, labor, machine, overhead and outside cost, output relief, WIP
+- Each released work order's material lines, planned against net issued, with substitutes and the usage
+- Columns: productId, componentProductId, quantity; optional methodCode, bomName, baseQuantity, baseUomId,
+- ${[inspection.organizationName + ', ' + inspection.facilityName, inspection.productName +
+- Result: ${inspection.resultText || 'not submitted'}${inspection.resultEnumId ? ', ' +
+- ${['Work order ' + workEffortId + (checklist.run.workEffortName ? ' ' + checklist.run.workEffortName : ''),
+
+Purchasing:
+
+- ${[quote.organizationName, quote.reference ? 'their reference ' + quote.reference : '', quote.quoteDateText
+- ${[rfq.organizationName, rfq.dueText ? 'respond by ' + rfq.dueText : '', rfq.facilityName ? 'deliver to ' +
+- ${[rfq.organizationName, rfq.currencyUomId, rfq.respondedText, {start: '1 Review · 2 Place · 3 Close',
+- ${lineRows.map((line) => line.orderItemSeqId + ' ' + line.productText + ' ' + line.quantityText +
+- ${closePreview.closingRows.length ? closePreview.closingRows.map((row) => row.supplierName + ' (' +
+- Link earlier bills to their orders and receipts from the billing links and receipts they already have. A
+- ${['To ' + returnHeader.supplierName, 'from ' + returnHeader.organizationName, returnHeader.facilityName ?
+- ${run ? ['Calculated ' + run.ageText, 'as of ' + run.planDateText, run.suggestionCount + ' suggestions',
+
+Shared product, order, and inventory screens:
+
+- ${previewed.policy.stateText} policy: overhead ${previewed.policy.overheadBasisText}, co-products by
+- ${currentMatch.isLegacy == 'Y' ? 'Linked from existing billing evidence' : 'Applied by ' +
+- ${[inspection.inspectorName ? 'Inspector ' + inspection.inspectorName : 'Not assigned', inspection.dueText
+- Left to dispose: ${detail.acceptedLeft} accepted (Release) and ${ detail.rejectedLeft} rejected (the other
+- ${'Sample of ' + inspection.sampleSize + ' from ' + inspection.quantity + (inspection.templateName ? ',
+- ${inspection.assetId ? 'Stock ' + inspection.assetId + ' at ' + (inspection.assetLocationSeqId || 'no
+- ${inspection.resultText}: ${inspection.quantityAccepted} accepted, ${ inspection.quantityRejected}
+- Sample: ${template.samplePolicyText}${template.samplePolicyEnumId == 'QspFixed' ? ', ' +
+- Applies to ${[template.productName || (template.productId ? template.productId : ''), template.categoryName
+- ${template.stageText} inspection, sample on ${template.sampleBasisText.toLowerCase()}${
+- ${[count.facilityName, count.blind ? 'Blind' : '', count.assigneeName ? 'Assigned to ' + count.assigneeName
+- ${['Demand ' + selected.grossQuantity, 'stock and supply ' + selected.availableQuantity,
+- The line takes the agreement's price. A release over what the item has left is refused unless it stays
+- ${['From ' + rc.supplierName, rc.facilityName ? 'to ' + rc.facilityName : '', 'expected ' +
+- Use this only when everything that remains arrived: every due unit is accepted, then the receipt is
+- This rewrites the cost of the product's stock and reposts its receipts, issues and count variances. Use it
+- Stock as of an earlier day: each asset's cost then, before the revaluations and landed costs dated after
+- Credit ${settlement.creditTotalText} · Refund ${
+- Credits ${settlement.receiptlessTotalText} for authorized quantity that was not received. It creates no
+- ${[so.orderName, so.organizationName, so.placedText ? 'placed ' + so.placedText : 'entered ' +
+- ${serviceOrder.confirmation.stored ? 'The confirmation stored ' + serviceOrder.confirmation.storedText + '
+- ${serviceOrder.confirmation.stored ? serviceOrder.confirmation.description + ', stored ' +
+- ${[order.customerName, order.orderName, order.entryText ? 'entered ' + order.entryText : '',
+- ${[(receipt.purchase ? 'From ' : '') + receipt.supplierName, 'to ' + receipt.facilityName, 'expected ' +
+- ${['to ' + outbound.toName, 'from ' + outbound.facilityName, 'scheduled ' + outbound.scheduledText,
+- ${[(rh.supplierReturn ? 'to ' : 'from ') + rh.partyName, rh.facilityName ? 'at ' + rh.facilityName : '',
+- Nothing more of this ${rh.supplierReturn ? 'supplier' : 'customer'} can be returned: ${rh.supplierReturn ?
+- ${[(rs.supplierReturn ? 'to ' : 'from ') + rs.partyName, (rs.supplierReturn ? 'from ' : 'at ') +
+- ${['from ' + transfer.originName, 'to ' + transfer.destinationName, 'ships ' + transfer.shipText, 'due ' +
+- ${transfer.quantity} to send · ${transfer.sent} sent · ${transfer.inTransit} in transit ·
+- ${transfer.statusId == 'ShipInput' || transfer.statusId == 'ShipScheduled' ? 'Sending stock needs the issue
+- ${transfer.inTransit} sent from ${transfer.originName} and not yet received at ${transfer.destinationName}:
+- ${transfer.statusId == 'ShipDelivered' ? 'Received in full.' : transfer.statusId == 'ShipShipped' ?
+- ${['Held by ' + (transfer.custodianName || 'the supplier'), 'run ' + transfer.runText,
+- The components stay the organization's stock at their cost in the vendor-custody facility. ${transfer.kind
+- ${[outputReceipt.received + ' of ' + outputReceipt.planned + ' received on run ' + outputReceipt.runId,
+- ${['to ' + rh.supplierName, 'from ' + rh.organizationName, rh.facilityName ? 'at ' + rh.facilityName : '',
+- ${rh.canAuthorize || rh.statusId == 'ReturnCreated' || rh.statusId == 'ReturnRequested' ? 'Authorizing the
+- ${[rh.customerName, rh.customerReference ? 'their reference ' + rh.customerReference : '', rh.orderText ?
+- From ${warehouseInvoice.invoice.fromName} · ${warehouseInvoice.invoice.invoiceDateText}
+- ${[pr.organizationName, pr.filedByName ? 'requested by ' + pr.filedByName : '', pr.facilityName ? 'for ' +
+- ${['Stock request ' + requestId, 'for ' + stockRequest.facilityName, stockRequest.requesterName ? 'by ' +

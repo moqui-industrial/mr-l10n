@@ -1,6 +1,6 @@
 # mr-l10n
 
-Language packs for mr-moqui. Spanish and Simplified Chinese cover the framework, tools, webroot, basic-comms, example, dev-aide, mr-mantle, mr-marble, and the Commons, Comms, and Projects apps in mr-boss. The rest of mr-boss is not in this pack. Each language is a two-letter directory under `data/` and the same load type. Spanish is `data/es/` with `type="es"`. Simplified Chinese is `data/zh/` with `type="zh"`.
+Language packs for mr-moqui. Spanish and Simplified Chinese cover the framework, tools, webroot, basic-comms, example, dev-aide, mr-mantle, mr-marble, and the Commons, Comms, Projects, Products, Accounting, Warehouse, Manufacturing, Purchasing, and Customer Service apps in mr-boss. The rest of mr-boss is not in this pack. Each language is a two-letter directory under `data/` and the same load type. Spanish is `data/es/` with `type="es"`. Simplified Chinese is `data/zh/` with `type="zh"`.
 
 `moqui load` and an empty-database startup load `seed`, `seed-initial`, and `install`. They do not load these files. Load Spanish with `moqui load types=es`, and Simplified Chinese with `moqui load types=zh`, or add `es` or `zh` to a longer type list. `types=all` includes them. A database that already has data does not pick a language up until that load runs.
 
@@ -19,7 +19,7 @@ large:
 | `DevAide` | Dev AIDE |
 | `Mantle*` | mr-mantle enumerations, states and provinces, messages and templates |
 | `Marble*` | mr-marble screens, email and print |
-| `Boss*` | mr-boss Commons, Comms, and Projects, and the shared screens those apps mount |
+| `Boss*` | mr-boss Commons, Comms, Projects, Products, Accounting, Warehouse, Manufacturing, Purchasing, and Customer Service, and the shared screens those apps mount |
 | `EsRegional.xml` | `es_ES` overrides (still type `es`); `es_MX` has none of its own |
 
 `Geo.geoName`, enumeration and status descriptions, status transition names, and UOM description and symbol have `enable-localization="true"`, so these rows show on screen. Product feature description and abbreviation do too. `geoNameLocal` is the place's own name, not the viewer's language. Party names, product names, and GL account names are stored text and stay as entered.

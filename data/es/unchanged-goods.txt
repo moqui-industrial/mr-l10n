@@ -1,0 +1,295 @@
+${(accountCode || glAccountId) + ' ' + (accountName || '')}
+${['Work order ' + inspection.workEffortId, inspection.operationName, inspection.gateText]                         .filter(Boolean).join(' · ')}
+${['Work order ' + status.run.workEffortId + ' ' + status.run.workEffortName, status.run.facilityName,                                 supplierName ? 'by ' + supplierName : '', subcontract ? subcontract.productName : ''].filter(Boolean).join(' · ')}
+${[co.orderName, co.storeName, co.salesChannelText, 'placed ' + co.placedText,                                             co.externalId ? 'reference ' + co.externalId : ''].filter(Boolean).join(' · ')}
+${[contact.addressText, facility.locationCount == null ? '' : facility.locationCount +                                 ' open locations', facility.isWorkCenter ? 'Work center' : ''].filter(Boolean).join(' · ')}
+${[count.facilityName, count.countModeText, count.scopeText, count.assigneeName ? 'Assigned to '                         + count.assigneeName : '', count.plannedDateText].filter(Boolean).join(' · ')}
+${[currentMinimum, currentMaximum].some(Boolean) ? (currentMinimum || '–') + ' to ' + (currentMaximum || '–') : 'No levels'}
+${[facility.typeText, facility.ownerName, facility.parentName ? 'inside ' +                                 facility.parentName : ''].filter(Boolean).join(' · ')}
+${[inspection.contextText, inspection.sourceText, inspection.shipmentId ? 'receipt ' +                                 inspection.shipmentId : ''].filter(Boolean).join(' · ')}
+${[load.facilityName, 'starts ' + load.startText, load.endText ? 'ends ' + load.endText :                                     '',                                     load.description].filter(Boolean).join(' · ')}
+${[lot.mfgName,                                             lot.manufacturedDateText ? 'Manufactured ' + lot.manufacturedDateText : '',                                         lot.expiryText].filter(Boolean).join(' · ')}
+${[match.label != match.recordId ? match.label : '', match.detail, match.facilityName]                                     .filter(Boolean).join(' · ')}
+${[pb.referenceNumber ? 'Supplier bill ' + pb.referenceNumber : '',                                                 pb.organizationName, 'total ' + pb.totalText].filter(Boolean).join(' · ')}
+${[plan.organizationName, runCaption || 'No plan has been calculated yet']                                 .filter(Boolean).join(' · ')}
+${[po.orderName, po.organizationName, 'Revision ' + po.orderRevision,                                             po.totalText ? 'total ' + po.totalText : ''].filter(Boolean).join(' · ')}
+${[policy.scopeText, policy.storeName ? 'orders of ' + policy.storeName : '',                             policy.productName, 'as of ' + policy.asOfText].filter(Boolean).join(' · ')}
+${[receipt.facilityName, stepText, receipt.dueQuantity + ' due'].filter(Boolean)                                 .join(' · ')}
+${[rh.storeName, 'requested ' + rh.entryText, 'order ' + rh.orderIds.join(', ')].join(' · ')}
+${[rq.customerName, rq.storeName, rq.queueText ? 'queue ' + rq.queueText : '',                                             rq.assigneeText ? 'with ' + rq.assigneeText : '', rq.dueText ? 'due ' + rq.dueText : ''].filter(Boolean).join(' · ')}
+${[run?.stale ? run.staleReason + '; recalculate before converting.' : '',                                 scheduleText].filter(Boolean).join(' · ')}
+${[sc.customerName, sc.queueName, sc.typeText, sc.channelText ? 'by ' + sc.channelText : '',                                             'opened ' + sc.requestDateText].filter(Boolean).join(' · ')}
+${[scorecard.organizationName, scorecard.periodText, scorecard.eligibleText, scorecard.policyText,                                     'due dates: ' + scorecard.dueDateBasisText, 'evaluated ' + scorecard.evaluatedText].join(' · ')}
+${[sh.kindText, sh.arrivalText ? 'expected ' + sh.arrivalText : '',                                             sh.trackingText ? 'tracking ' + sh.trackingText : ''].filter(Boolean).join(' · ')}
+${[si.organizationName, si.dateText ? 'dated ' + si.dateText : '',                                             si.dueText ? 'due ' + si.dueText : '', si.referenceNumber].filter(Boolean).join(' · ')}
+${[statement.bankLabel, statement.statementFromDateText + ' – '                                     + statement.statementThruDateText].join(' · ')}
+${[statement.formatText, statement.fileName, statement.statementFromDateText                                 ? statement.statementFromDateText + ' – ' + statement.statementThruDateText : null]                                 .filter(Boolean).join(' · ')}
+${[template.contextText, template.organizationName, 'characteristics as of ' +                                     detail.asOfText].filter(Boolean).join(' · ')}
+${[template.organizationName, template.contextText, template.statusText, 'as of ' +                         detail.asOfText].filter(Boolean).join(' · ')}
+${acctgTransId || 'Any'}
+${act.edit ? 'No items yet. Add the products the agreement covers with Add item.' : 'This agreement has no items.'}
+${act.edit ? 'No lines yet. Add one with Add line, then place the order.' : 'This order has no lines.'}
+${actionRow.action == 'cancel' ? 'Cancel work order ' + workEffortId + '?' : (actionRow.action == 'unrelease' ? 'Unrelease work order ' + workEffortId + '?' : '')}
+${actionRow.reasonRequired ? 'Note (a reason or a note is required)' : 'Note'}
+${actionRow.reexplodeOffered ? 'Re-explode as of now' : actionRow.label}
+${agr.template ? 'A template has no balance: start an agreement from it' : 'Balance'}
+${agr.template ? 'Template' : 'Agreement'} ${agreementId}
+${allocated ? 'Allocated' : eligible ? 'To allocate'                                         : chargeGlAccountId ? 'Not a charge' : 'Not posted'}
+${allowed ? (message || 'Allowed') : 'Not allowed: ' + message}
+${amount == null ? 'Unavailable'                                                     : ec.l10n.format(amount, '#,##0.00')}
+${amountRequire == 'N' ? 'No' : amountRequire == 'Y' ? 'Yes' : ''}
+${appRoot == 'CustomerService' ? 'Open the order' : 'Open the purchase order'}
+${arrivalText ? 'arrives ' + arrivalText : ''}
+${assetId}${identityText ? ' · ' + identityText : ''}
+${assetReceiptId ? assetReceiptId + (receivedDateText ? ' · '                                                 + receivedDateText : '') : 'Ordered quantity'}
+${awards.awardText || 'No part of this quote is awarded.'}
+${bankLineFitId || 'Not reconciled yet'}
+${bankReconciliationId == statement.bankReconciliationId ? 'Cleared'                                             : bankReconciliationId ? 'In statement ' + bankReconciliationId : 'Not cleared'}
+${bin != null ? bin : '—'}${binSource == 'line' ? ' (line)' : ''}
+${budget.canRevise ? 'Revise budget' : 'Add account'}
+${budget.canRevise ? 'Revise budget' : 'Save amounts'}
+${budget.canRevise ? 'Revise' : 'Change'}
+${budget.canRevise ? 'Revise' : 'Change'} ${accountText}
+${buyRequests ? 'Purchase request, as the buying policy says' : 'Draft purchase order'}
+${cancellation.mode == 'reversal' ? 'Reverse and cancel' : 'Close out'}
+${cc.accountText}${cc.emailText ? ' · ' + cc.emailText : ''}
+${cc.selfAccess ? 'Sees its own orders, invoices and cases on the site.' : cc.emailVerified ? 'No self access: the account is staff or disabled.' : 'No self access until its email is verified.'}
+${change.cancel ? 'Cancellation requested' : 'Change requested · ' + change.kindText}
+${changedByName}${changeReason ? ': ' + changeReason : ''}
+${characteristicName}${mandatory == 'N' ? ' (optional)' : ''}
+${chargeShipping == 'N' ? 'No' : chargeShipping == 'Y' ? 'Yes' : ''}
+${checkRow.title} (${checkRow.countText || 'unavailable'})
+${chosen ? 'Chosen' : ''}
+${cloneConflicts.length ? cloneConflicts.length                                         + ' existing entries stay as they are' : 'Nothing here conflicts'}
+${comparable ? normalizedText : 'Not comparable'}
+${compareAmount == null ? 'Unavailable'                                                     : ec.l10n.format(compareAmount, '#,##0.00')}
+${complete ? "Complete estimate" : "Incomplete — review findings"}
+${componentText || ''}${productName ? ' · ' + productName : ''}
+${costCenterRequired == 'Y' ? 'Required' : 'Optional'}
+${countModeText}${blindText ? ' · ' + blindText : ''}
+${csClock.open ? 'Due ' + csClock.dueText : csClock.actualText ? 'Done ' + csClock.actualText : 'Due was ' + csClock.dueText}
+${csPrimary.reasonRequired ? 'Reason' : 'Note on the conversation'}
+${csPrimary?.reopens ? 'Reopen' : 'Resolve'}
+${currentMatch ? 'Matched sources' : 'Order and receipt sources'}
+${currentView == 'held' ? 'No bill of your organizations is held.' : 'No match has a variance to resolve.'}
+${currentView == 'receivedNotBilled' ? 'Every accepted receipt of your approved orders is billed.'                                     : 'No bill covers more than was accepted.'}
+${debitCreditFlag == 'D' ? 'Debit' : debitCreditFlag == 'C' ? 'Credit' : ''}
+${decisionText}${stepText ? ' · ' + stepText : ''}
+${description || 'Journal entry ' + acctgTransId}
+${description || 'Run ' + paymentRunId}
+${destinationText}${adjustment ? ' (adjustment)' : ''}
+${detail.openRuntimeId ? 'Stop machine' : 'Start machine'}
+${detail.verified ? 'Quality certificate' : 'Inspection evidence (not verified)'} ${                         qualityInspectionId}
+${direction === 'payable' ? 'Create bill from approved work'                                                 : 'Create invoice from approved work'}
+${direction === 'payable' ? 'Create draft bill'                                                                 : 'Create draft invoice'}
+${direction === 'payable' ? 'Create draft bill'                                                 : 'Create draft invoice'}
+${disputedCount ? disputedCount + ' disputed' : ''}
+${document.partyLabel || ''} ${document.partyName || ''}
+${documentKind == 'invoices' ? 'Customer' : documentKind == 'bills' ? 'Supplier'                                     : 'Counterparty'}
+${documentKind == 'payments' ? 'Amount' : 'Total'}
+${documentLabel == 'payment' ? 'Payment' : 'Document'}
+${ec.l10n.format(creditedQuantity, '#,##0.###')}${creditText                                                     ? ' · ' + creditText : ''}
+${ec.l10n.localize('Audience')}: ${forumPreview.audience}
+${ec.l10n.localize('Edit')} ${accountName}
+${ec.l10n.localize('Edit')} ${description || paymentMethodId}
+${ec.l10n.localize('Edit')} ${description}
+${ec.l10n.localize('Edit')} ${document.filename || 'document'}
+${ec.l10n.localize('Edit')} ${entryName}
+${ec.l10n.localize('Edit')} ${facility.facilityName}
+${ec.l10n.localize('Edit')} ${selectedTemplate.workEffortName}
+${ec.l10n.localize('Edit')} ${template.templateName}
+${ec.l10n.localize('New')} ${documentLabel}
+${ec.l10n.localize('Order')} ${orderLinkId}
+${ec.l10n.localize('Order')} ${orderRow.orderId}
+${ec.l10n.localize('Order')} ${rq.orderId}
+${ec.l10n.localize('Shipment')} ${shipmentId}
+${equipment.asset.facilityName || 'Facilities'}
+${equipment.openMaintenanceCount ? equipment.openMaintenanceCount +                                     ' maintenance jobs open' : 'No maintenance job is open.'}
+${eventTypeText} · ${eventDateText}${afterClose ? ' · after the close' : ''}
+${exceptionMessage || warningText ||                                                         (pendingReleaseQuantity ? pendingReleaseQuantity + ' held for inspection' : '')}
+${exceptionText || 'Within the policy'}
+${facilityRequired == 'Y' ? 'Required' : 'Optional'}
+${filtered ? 'No loss matches these filters.' : 'No production loss is recorded.'}
+${fixedAsset ? 'Adjust this asset' : 'Choose the stock and the adjustment'}
+${found?.message || 'The count schedule is not available to you.'}
+${fromDateText || 'Draft'}
+${fromDateText}${thruDateText ? ' to ' + thruDateText : ''}
+${gatesFound.gated ? 'This work order has no quality gate: no template applied when it was released.'                         : 'This work order keeps no quality gates: it is a draft, or it was released before they were kept.'}
+${gatewayNames[paymentGatewayConfigId] || paymentGatewayConfigId || 'None'}
+${hold.reasonText || 'No reason was given.'}
+${identifierPreview.normalizedValue}: ${identifierPreview.valid ? 'Ready to assign' : identifierPreview.issues.join('; ')}
+${identifierTest.valid ? "Valid" : "Invalid"}: ${identifierTest.normalizedValue}
+${inEffect ? 'Yes' : 'No'}${fromText ? ' · from ' + fromText : ''}${thruText ?                                                 ' · until ' + thruText : ''}
+${includeEnded == 'Y' ? 'Hide ended rules' : 'Show ended rules'}
+${includeHistory == 'Y' ? 'Show rows in effect' : 'Show ended rows too'}
+${inspection.productName}${inspection.lotNumber ? ' · lot ' +                                         inspection.lotNumber : ''}
+${inspection.templateName ? 'Template ' + inspection.templateName + ', as of ' +                         inspection.templateAsOfDateText : 'No template'} · ${inspection.statusText}
+${inspectorName || 'Not assigned'}
+${inspectorName || 'Unassigned'}
+${invoiceType == 'payable' ? 'Supplier' : 'Customer'}
+${isService ? acceptedText + ' accepted' : receivedText}
+${itemText}${sourceText ? ' · ' + sourceText : ''}
+${label.quantity || ''} ${label.quantityUomId || ''}${label.identityText ? ' · ' + label.identityText : ''}
+${lastPrint ? lastPrint.statusText + (lastPrint.failed ? ': ' +                                             (lastPrint.errorMessage || '') : '') : ''}
+${leadTimeDays ? leadTimeDays + ' (' + leadTimeSource.toLowerCase() + ')' : ''}
+${line ? 'Purchase order ' + line.orderId + ':' + line.orderItemSeqId + ' · ' + line.supplierName + ' · ' + line.description : 'No purchase order line yet'}
+${load ? load.rangeText + ' · ' + (load.timeZone || 'server time') : ''}
+${manufacturingOrder.directionText}${manufacturingOrder.orderName ? ' · ' + manufacturingOrder.orderName : ''}
+${matchText}${matchStale ? ' (waiting for re-evaluation)' : ''}
+${materialsFound.vendorFacilityName ? (returning ? 'From ' : 'To ') + materialsFound.vendorFacilityName + ', in the custody of ' + materialsFound.custodianName : 'No vendor-custody facility is chosen yet'}
+${move.reasonRequired ? 'Reason' : 'Note on the conversation'}
+${newFacilityTitle || 'New facility'}
+${order?.run?.workEffortName || ''} · ${order?.run?.facilityName || ''}
+${orderDetail.payable ? 'Bill from order' : 'Invoice from order'}
+${orderDetail.payable ? 'Bill' : 'Invoice'}
+${orderDetail.payable ? 'Create bill' : 'Create invoice'}
+${organizationName} · ${fromDate ? 'effective from ' + ec.l10n.format(new Date(Number(String(fromDate))), 'yyyy-MM-dd HH:mm') : 'the default policy'}
+${over ? 'Over the demand' : leftText}
+${over}${tolerance != '0' ? ' (tolerance ' + tolerance + ')' : ''}${approvedOver != '0' ? ', approved ' + approvedOver : ''}
+${paymentDraftValue.paymentId ? 'Save payment' : 'Create payment'}
+${paymentHold.reasonText || 'A payment exception after placement.'}
+${paymentId}${checkNumber ? ' · check ' + checkNumber : ''}
+${paymentOutput.fileName || 'Payment document'}
+${pb.matchDetail || (pb.matchText == 'Not matched'                                                 ? 'Not matched yet: a match operator matches it to its order lines and receipts.'                                                 : pb.matchText)}
+${placeText}${statusText ? ' · ' + statusText : ''}
+${policy.policyFromDateText ? 'In effect since ' + policy.policyFromDateText : 'Built-in defaults'}
+${policy?.message || 'This policy is not available to you.'}
+${pr.approval.stateText}${pr.approval.refusalText ? ' · '                                 + pr.approval.refusalText : ''}
+${pr.canEditItems ? 'No lines yet. Add what is needed with Add line, then submit the request.'                                             : 'This request has no lines.'}
+${preview.direction == 'unpack' ? 'Unpack' : 'Repack'}
+${preview.valid ? 'Selection is valid' : 'Selection has conflicts'}
+${preview?.amountText}: ${preview?.noPolicy ? 'one purchase approver decides (no policy)' : previewStepRows.length + ' steps'}
+${previewError || 'The kit is not available.'}
+${previewError || 'The split is not available.'}
+${previewed.mode == 'adjustment' ? 'Post adjustment' : 'Post cost close'}
+${previewed?.modeText || 'Cost close'}
+${primaryAction == 'answer' ? 'Record the answer' : 'Edit quote'}
+${productBom ? (productBom.bomName || 'Manufacturing method') : 'Manufacturing method'}
+${productName || ''} · ${destinationText}${adjustment ? ' (adjustment)' : ''}
+${productName}${assetId ? ' · ' + assetId : ''}
+${productName}${lotId ? ' · lot ' + lotId : ''}${assetId ? ' · ' + assetId : ''}
+${productName}${lotNumber ? ' · lot ' + lotNumber : ''}
+${promisedText}${promisedQuantityText ? ' · ' + promisedQuantityText : ''}
+${purchaseAllowed == 'N' ? 'No' : purchaseAllowed == 'Y' ? 'Yes' : ''}
+${putawayRuleId}${description ? ' · ' + description : ''}
+${qualityInspectionId} · ${inspectionStatusText}${                                             resultText ? ' · ' + resultText : ''}
+${quantity || ''} ${uomText || ''}
+${quantity}${target ? ' (target ' + previousTarget + ' to ' + target + ')' : ''}
+${readingTypeText}${limitsText ? ': ' + limitsText : ''}
+${reason || ''}${reservedText ? ' ' + reservedText : ''}
+${reasonText} · ${responseText}${priceText ? ' · ' + priceText : ''}
+${reasonText}${responseText ? ' · ' + responseText : ''}
+${receiptRequired == 'Y' ? 'Yes' : 'No'}
+${receivable.isDraft ? 'Finalize and send' : 'Send invoice'}
+${receivedQuantity}${rejectedQuantity != '0' ? ' (' + rejectedQuantity + ' rejected)' : ''}
+${reconciliation.reconciled ? 'Reconciled: the work order can complete' : (reconciliation.message || '')}
+${reconciliation.reconciled ? 'The quantities reconcile.' : reconciliation.message}
+${record.counterpartyName || ''}${record.documentDateText ? ' · '                                                 + record.documentDateText : ''}
+${record.transactionDateText || 'No date'} · ${totalsText}
+${releaseRequestedByName ? releaseRequestedByName + ' · '                                 + releaseRequestedDateText + (releaseRequestNote ? ': ' + releaseRequestNote : '') : ''}
+${releasedByName ? releasedByName + ' · ' + releasedDateText + ': '                                 + releaseComment : 'Open'}
+${reopenReason ? reopenReason + ' (' + reopenedDateText + ')' : ''}
+${reorderMethodText}${reorderQuantity && reorderMethodEnumId == 'RdmFixedQuantity' ? ' ' + reorderQuantity : ''}
+${report.comparePeriodName || 'Comparison'}
+${requestItemSeqId == chosenSeqId ? 'Shown' : ''}
+${requireInventory == 'N' ? 'No' : requireInventory == 'Y' ? 'Yes' : ''}
+${resultAssetId || ''}${toLocationSeqId ? ' at ' + toLocationSeqId : ''}
+${resultStatus == 'FAILED' ? 'Not sent: ' + (errorCode || '').replace(/_/g, ' ').toLowerCase()                                                             : resultStatus == 'QUEUED' ? 'Queued' : 'Sent'}
+${resultStatus == 'READY' ? 'Ready' : 'Fails: ' + (errorCode || '').replace(/_/g, ' ').toLowerCase()}
+${resultText}${movementText ? ' (' + movementText + ')' : ''}
+${returnDetail.supplierReturn ? 'To' : 'From'} ${returnDetail.counterpartyName}${                                                 returnDetail.entryDateText ? ' · entered ' + returnDetail.entryDateText : ''}
+${returnUnused == 'true' ? 'Keep unused issues' : 'Return unused issues first'}
+${returnable == 'N' ? 'No' : returnable == 'Y' ? 'Yes' : ''}
+${returning ? 'Nothing is left at the supplier to bring back.' : 'Every component has been sent.'}
+${revisionText}${current ? '' : ' (earlier)'}
+${rfq.canEdit ? 'No items yet. Add what you want quoted with Add item, then invite suppliers.'                                     : 'This RFQ has no items.'}
+${rh.exceptionText}${rh.exceptionApproved ? ' · approved at this revision' : ''}.
+${rh.outcomeText}${rh.policyName ? ' · policy ' + rh.policyName : ''}
+${rh.settlementText || 'Nothing credited yet.'}
+${rh.supplierReturn ? 'Accepted' : 'Invoiced'}
+${rh.supplierReturn ? 'Send back' : 'Receive'}
+${rh.supplierReturn ? 'Sent' : 'Received'}
+${routing.workEffortName || 'Routing'}
+${rq.description || 'No description.'}
+${rs.supplierReturn ? 'Carrier and tracking' : 'Tracking'}
+${rs.supplierReturn ? 'Print supplier-return slip' : 'Print RMA receiving slip'}
+${run.description || 'Payment run ' + paymentRunId}
+${salesAllowed == 'N' ? 'No' : salesAllowed == 'Y' ? 'Yes' : ''}
+${salesDiscWhenNotAvail == 'N' ? 'No' : salesDiscWhenNotAvail == 'Y' ? 'Yes' : ''}
+${sc.assigneeName || 'Unassigned'}
+${scanResult.found ? "Resolved" : scanResult.ambiguous ? "Ambiguous code" : "No matching product"}
+${scopeText}${facilityId ? '' : ' (organization)'}
+${selfBillingDefault == 'Y' ? 'Yes' : 'No'}
+${sentText || 'PDF'}
+${settlement.reasonText || 'Nothing on this return may be settled now.'}
+${shipmentDetail.incoming ? 'From' : 'To'} ${shipmentDetail.counterpartyName}
+${shipmentId ? 'Stock movements of shipment ' + shipmentId : 'Stock movements'}
+${showRetired == 'Y' ? 'Hide retired' : 'Show retired'}
+${slaOut?.noPolicy ? 'No service level applies to this case' : ''}
+${snoozed ? 'Until ' + snoozeThruText + (snoozeReason ? ': ' + snoozeReason : '') : ''}
+${sourceText}${lotText ? ' · lot ' + lotText : ''}
+${sources.bill.description || 'Bill ' + invoiceId}
+${stale ? "Inputs changed or the review expired. Preview again." : complete ? "Reviewed inputs are complete." : "Resolve the findings before posting."}
+${state == 'all' ? 'Hide ended' : 'Show ended'}
+${statement.statementReference || 'Bank statement'}
+${statement.statusId == 'SimCommitted' ? 'Imported statement' : 'Review the statement'}
+${state}${approvedByText ? ': ' + approvedByText : ''}
+${statusDescription}${isHeld ? ' · On hold' : ''}
+${statusId == 'InvoiceApproved' ? 'Approved for payment' : 'Awaiting finance'}
+${statusText}${postMessage ? ': ' + postMessage : ''}
+${statusText}${resultText ? ' · ' +                                                                     resultText : ''}
+${statusText}${resultText ? ' · ' + resultText : ''}
+${statusText}${subStatus ? ' · ' + subStatus : ''}
+${stockRequest.description || 'No notes.'}
+${summary.setupStatus == 'inSetup' ? 'Continue setup' : 'Start setup'}
+${summary.setupStatus == 'inSetup' ? 'Finish setting up accounting'                             : 'Set up accounting'}
+${supplierName || 'No supplier yet'}
+${supplierName || 'No supplier'}
+${supplies.length ? 'Purchase order ' +                                                         supplies[0].orderId : ''}
+${supplies.length ? 'Work order ' +                                                         supplies[0].workEffortId : ''}
+${taxable == 'N' ? 'No' : taxable == 'Y' ? 'Yes' : ''}
+${termLinesById[settlementTermId] || 'Due in full'}
+${thruDateText || 'In effect'}
+${thruDateText || 'Open'}
+${thruDateText || (inEffect ? 'In effect' : '')}
+${txDescription || 'Journal entry ' + acctgTransId}
+${valueText}${passIndicator == 'N' ? ' (fail)' : ''}
+${words.doneTitle || 'Packed'}
+${words.groupTitle || 'Kit'}
+${words.historyEmpty || 'Nothing is issued to this kit yet.'}
+${words.historyTitle || 'Issues and kit receipts'} · ${movementRows.length}
+${workEffortId || ''}${operationName ? ' · ' + operationName : ''}
+${{FAILED: 'Failed: ' + (errorCode || '').replace(/_/g, ' ').toLowerCase(),                                                             PENDING_APPROVAL: 'Waiting for the award approval', REFUSED: 'Refused'}[resultStatus] || ''}
+${{TO_SEND: 'Will be sent', RECIPIENT_REQUIRED: 'No address: not sent',                                                             RECIPIENT_INVALID: 'Invalid address: not sent'}[resultStatus] || resultStatus}
+45 min
+6 (normal)
+Actor
+Base
+Code128
+EAN-13
+EAN-8
+Factor
+GS1-128
+Global
+ITF-14
+Incoterm
+Incoterm: ${quote.incotermText || 'not given'}
+Inspector
+Kit
+Manual
+Material
+Nominal
+PO ${replacementOrderId}
+RFQ ${quote.rfqId}
+RFQ ${requestId}
+RFQ ${requestId} · ${rfq.requestName}
+RFQ ${rfqLineText}
+RMA ${supplierRmaId}
+Ratio
+Residual
+Selector
+Supervisor
+UPC-A
+Virtual
+git fetch origin
+git checkout

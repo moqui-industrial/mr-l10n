@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="zh">
+    <moqui.basic.LocalizedMessage original="Shipment ${shipmentId} is not available: it does not exist, it is not a                                     shipment of an organization you work in, or you may not read its invoices." locale="zh" localized="发货单 ${shipmentId} 不可用：它不存在、不是您所在组织的发货单，或您不能读取其发票。"/>
+    <moqui.basic.LocalizedMessage original="Shipment ${shipmentId} is not available: it does not exist, or it is not                                         received at or sent from a facility you work in." locale="zh" localized="发货单 ${shipmentId} 不可用：它不存在，或并非在您工作的设施收货或从其发出。"/>
+    <moqui.basic.LocalizedMessage original="Shipment ${shipmentId} is not available: it does not exist, or it is not a                                         receipt of your organizations&apos; purchase orders from a supplier you work with." locale="zh" localized="发货单 ${shipmentId} 不可用：它不存在，或不是您所在组织向合作供应商的采购订单的收货。"/>
+    <moqui.basic.LocalizedMessage original="Shipment ${shipmentId} is not available: it does not exist, or it is not a                                         shipment of a customer you serve." locale="zh" localized="发货单 ${shipmentId} 不可用：它不存在，或不是您所服务客户的发货单。"/>
+    <moqui.basic.LocalizedMessage original="Shipment ${shipmentId} is not available: it is not a subcontract dispatch of your organizations&apos; work orders." locale="zh" localized="发货单 ${shipmentId} 不可用：它不是您所在组织工单的外协发出。"/>
+    <moqui.basic.LocalizedMessage original="Shipment ${shipmentId} · ${sh.customerName}" locale="zh" localized="发货单 ${shipmentId} · ${sh.customerName}"/>
+    <moqui.basic.LocalizedMessage original="Shipment and label" locale="zh" localized="发货单和标签"/>
+    <moqui.basic.LocalizedMessage original="Shipment not available" locale="zh" localized="发货单不可用"/>
+    <moqui.basic.LocalizedMessage original="Shipments and receipts" locale="zh" localized="发货单和收货"/>
+    <moqui.basic.LocalizedMessage original="Shipments and tracking · ${serviceOrder.shipmentRows.length}" locale="zh" localized="发货单与跟踪 · ${serviceOrder.shipmentRows.length}"/>
+    <moqui.basic.LocalizedMessage original="Shipments · ${storeOrder.shipments.length}" locale="zh" localized="发货单 · ${storeOrder.shipments.length}"/>
+    <moqui.basic.LocalizedMessage original="Shipments · ${warehouseInvoice.shipmentRows.length}" locale="zh" localized="发货单 · ${warehouseInvoice.shipmentRows.length}"/>
+    <moqui.basic.LocalizedMessage original="Shipped or delivered" locale="zh" localized="已发货或已交付"/>
+    <moqui.basic.LocalizedMessage original="Shipping charged" locale="zh" localized="已计运费"/>
+    <moqui.basic.LocalizedMessage original="Short quantity" locale="zh" localized="短缺数量"/>
+    <moqui.basic.LocalizedMessage original="Show ended and scheduled offers" locale="zh" localized="显示已结束和已安排的报价"/>
+    <moqui.basic.LocalizedMessage original="Show method" locale="zh" localized="显示方法"/>
+    <moqui.basic.LocalizedMessage original="Show plan" locale="zh" localized="显示计划"/>
+    <moqui.basic.LocalizedMessage original="Show quoted text" locale="zh" localized="显示引述文本"/>
+    <moqui.basic.LocalizedMessage original="Show valuation" locale="zh" localized="显示计价"/>
+    <moqui.basic.LocalizedMessage original="Shown in ${storesText}" locale="zh" localized="显示于 ${storesText}"/>
+    <moqui.basic.LocalizedMessage original="Sold" locale="zh" localized="已售"/>
+    <moqui.basic.LocalizedMessage original="Sold from" locale="zh" localized="售出自"/>
+    <moqui.basic.LocalizedMessage original="Sold thru" locale="zh" localized="售出至"/>
+    <moqui.basic.LocalizedMessage original="Some stock is costed in another currency and is left out of the stock value." locale="zh" localized="部分库存按另一种货币计算成本，未计入库存价值。"/>
+    <moqui.basic.LocalizedMessage original="Source Content ID" locale="zh" localized="来源内容 ID"/>
+    <moqui.basic.LocalizedMessage original="Source ID" locale="zh" localized="来源 ID"/>
+    <moqui.basic.LocalizedMessage original="Source Key" locale="zh" localized="来源键"/>
+    <moqui.basic.LocalizedMessage original="Source Type" locale="zh" localized="来源类型"/>
+    <moqui.basic.LocalizedMessage original="Source and history" locale="zh" localized="来源和历史"/>
+    <moqui.basic.LocalizedMessage original="Source column" locale="zh" localized="来源列"/>
+    <moqui.basic.LocalizedMessage original="Source language" locale="zh" localized="来源语言"/>
+    <moqui.basic.LocalizedMessage original="Source line" locale="zh" localized="来源行"/>
+    <moqui.basic.LocalizedMessage original="Source movements" locale="zh" localized="来源移动"/>
+    <moqui.basic.LocalizedMessage original="Source order" locale="zh" localized="来源订单"/>
+    <moqui.basic.LocalizedMessage original="Source product" locale="zh" localized="来源产品"/>
+    <moqui.basic.LocalizedMessage original="Source remaining" locale="zh" localized="来源剩余"/>
+    <moqui.basic.LocalizedMessage original="Source text" locale="zh" localized="来源文本"/>
+    <moqui.basic.LocalizedMessage original="Source type" locale="zh" localized="来源类型"/>
+    <moqui.basic.LocalizedMessage original="Source value" locale="zh" localized="来源值"/>
+    <moqui.basic.LocalizedMessage original="Sources · ${orderSourceRows.length}" locale="zh" localized="来源 · ${orderSourceRows.length}"/>
+    <moqui.basic.LocalizedMessage original="Split into a new case" locale="zh" localized="拆分为新案例"/>
+    <moqui.basic.LocalizedMessage original="Stage change" locale="zh" localized="暂存变更"/>
+    <moqui.basic.LocalizedMessage original="Stage import" locale="zh" localized="暂存导入"/>
+    <moqui.basic.LocalizedMessage original="Stage standards" locale="zh" localized="暂存标准"/>
+    <moqui.basic.LocalizedMessage original="Staging location" locale="zh" localized="暂存位置"/>
+    <moqui.basic.LocalizedMessage original="Standard cost" locale="zh" localized="标准成本"/>
+    <moqui.basic.LocalizedMessage original="Standard estimate" locale="zh" localized="标准估算"/>
+    <moqui.basic.LocalizedMessage original="Standard estimates, receipt acquisition costs and valuation adjustments are separate bases. Currencies and units are shown for each fact." locale="zh" localized="标准估算、收货取得成本和计价调整是各自独立的基准。每项数据都显示货币和单位。"/>
+    <moqui.basic.LocalizedMessage original="Start a new run" locale="zh" localized="开始新运行"/>
+    <moqui.basic.LocalizedMessage original="Start a separate run for the same file" locale="zh" localized="为同一文件开始单独运行"/>
+    <moqui.basic.LocalizedMessage original="Start another import" locale="zh" localized="开始另一次导入"/>
+    <moqui.basic.LocalizedMessage original="Start another settlement" locale="zh" localized="开始另一次结算"/>
+    <moqui.basic.LocalizedMessage original="Step ${nextStep.stepNumber}: ${nextStep.characteristicName}, sample ${                                                 nextStep.sampleNumber}${nextStep.limitsText ? &apos; (&apos; + nextStep.limitsText + &apos;)&apos; :                                                 &apos;&apos;}" locale="zh" localized="步骤 ${nextStep.stepNumber}：${nextStep.characteristicName}，样本 ${                                                 nextStep.sampleNumber}${nextStep.limitsText ? &apos; (&apos; + nextStep.limitsText + &apos;)&apos; :                                                 &apos;&apos;}"/>
+    <moqui.basic.LocalizedMessage original="Stock (a move here)" locale="zh" localized="库存（此处的一次移动）"/>
+    <moqui.basic.LocalizedMessage original="Stock at date" locale="zh" localized="截至日期的库存"/>
+    <moqui.basic.LocalizedMessage original="Stock at date is not available in this app." locale="zh" localized="此应用中没有截至日期的库存。"/>
+    <moqui.basic.LocalizedMessage original="Stock at each asset&apos;s cost beside the inventory and WIP accounts of                                 ${valuationScope.organizationName || &apos;your organization&apos;}" locale="zh" localized="按各资产成本列示的库存，并列于 ${valuationScope.organizationName || &apos;您的组织&apos;} 的库存账户与 WIP 账户"/>
+    <moqui.basic.LocalizedMessage original="Stock at each asset&apos;s current cost beside the inventory and WIP accounts" locale="zh" localized="按每项资产的当前成本列示库存，并排在库存账户与 WIP 账户旁"/>
+    <moqui.basic.LocalizedMessage original="Stock by location" locale="zh" localized="按位置的库存"/>
+    <moqui.basic.LocalizedMessage original="Stock facility" locale="zh" localized="库存设施"/>
+    <moqui.basic.LocalizedMessage original="Stock request ${requestId} is not available: it does not exist, it is not a                                         stock request, or it is not for a facility you work in." locale="zh" localized="库存请求 ${requestId} 不可用：它不存在、不是库存请求，或不是针对您工作的设施。"/>
+    <moqui.basic.LocalizedMessage original="Stock to send" locale="zh" localized="待发出库存"/>
+    <moqui.basic.LocalizedMessage original="Stock value" locale="zh" localized="库存价值"/>
+    <moqui.basic.LocalizedMessage original="Stock values need financial read, an Accounting permission. The quantity reports                                     are complete without it." locale="zh" localized="库存价值需要财务读取权限，这是会计权限。没有它，数量报表也是完整的。"/>
+    <moqui.basic.LocalizedMessage original="Stock · ${product.productName}" locale="zh" localized="库存 · ${product.productName}"/>
+    <moqui.basic.LocalizedMessage original="Stocked subassembly" locale="zh" localized="库存型子装配件"/>
+    <moqui.basic.LocalizedMessage original="Stop at stocked subassemblies" locale="zh" localized="在库存型子装配件处停止"/>
+    <moqui.basic.LocalizedMessage original="Stop granting ${resourceText} with later purchases? Refused while live subscriptions use it." locale="zh" localized="停止在后续采购中授予 ${resourceText}？有效订阅仍在使用时将被拒绝。"/>
+    <moqui.basic.LocalizedMessage original="Stopped work" locale="zh" localized="已停止的作业"/>
+    <moqui.basic.LocalizedMessage original="Store ID" locale="zh" localized="商店 ID"/>
+    <moqui.basic.LocalizedMessage original="Store dated conversion" locale="zh" localized="存储带日期的换算"/>
+    <moqui.basic.LocalizedMessage original="Store dated policy" locale="zh" localized="存储带日期的政策"/>
+    <moqui.basic.LocalizedMessage original="Store packaging definition" locale="zh" localized="存储包装定义"/>
+    <moqui.basic.LocalizedMessage original="Stored confirmation (PDF)" locale="zh" localized="已存储的确认（PDF）"/>
+    <moqui.basic.LocalizedMessage original="Stored in" locale="zh" localized="存储于"/>
+    <moqui.basic.LocalizedMessage original="Subcontract service" locale="zh" localized="外协服务"/>
+    <moqui.basic.LocalizedMessage original="Subcontract shipment ${shipmentId}" locale="zh" localized="外协发货单 ${shipmentId}"/>
+    <moqui.basic.LocalizedMessage original="Submit ${supplier.supplierName} for approval" locale="zh" localized="提交 ${supplier.supplierName} 以供批准"/>
+    <moqui.basic.LocalizedMessage original="Submit for authorization" locale="zh" localized="提交以待授权"/>
+    <moqui.basic.LocalizedMessage original="Submit purchase request ${requestId} for approval?" locale="zh" localized="提交采购请求 ${requestId} 以供批准？"/>
+    <moqui.basic.LocalizedMessage original="Submit result" locale="zh" localized="提交结果"/>
+    <moqui.basic.LocalizedMessage original="Submit return ${returnId} for authorization? Its items can no longer                                                 change once it is authorized." locale="zh" localized="提交退货 ${returnId} 以供授权？一旦授权，其明细不能再更改。"/>
+    <moqui.basic.LocalizedMessage original="Submit the result of inspection ${qualityInspectionId}" locale="zh" localized="提交检验 ${qualityInspectionId} 的结果"/>
+    <moqui.basic.LocalizedMessage original="Submitted draft" locale="zh" localized="已提交草稿"/>
+    <moqui.basic.LocalizedMessage original="Subscriber" locale="zh" localized="订阅者"/>
+    <moqui.basic.LocalizedMessage original="Subscription Resource ID" locale="zh" localized="订阅资源 ID"/>
+    <moqui.basic.LocalizedMessage original="Subscriptions · ${(commerceCustomer.subscriptions || []).length}" locale="zh" localized="订阅 · ${(commerceCustomer.subscriptions || []).length}"/>
+    <moqui.basic.LocalizedMessage original="Substitute product" locale="zh" localized="替代产品"/>
+    <moqui.basic.LocalizedMessage original="Substitutes" locale="zh" localized="替代项"/>
+    <moqui.basic.LocalizedMessage original="Substitution" locale="zh" localized="替代"/>
+    <moqui.basic.LocalizedMessage original="Successor effective from" locale="zh" localized="后继生效自"/>
+    <moqui.basic.LocalizedMessage original="Successor unit price" locale="zh" localized="后继单价"/>
+    <moqui.basic.LocalizedMessage original="Suggest an edit to ${title}" locale="zh" localized="建议编辑 ${title}"/>
+    <moqui.basic.LocalizedMessage original="Suggested action" locale="zh" localized="建议操作"/>
+    <moqui.basic.LocalizedMessage original="Suggested articles${ck.requesterLanguage ? &apos; (&apos; + String(ck.requesterLanguage).toUpperCase() + &apos; first)&apos; : &apos;&apos;}" locale="zh" localized="建议文章${ck.requesterLanguage ? &apos; (&apos; + String(ck.requesterLanguage).toUpperCase() + &apos; 首先)&apos; : &apos;&apos;}"/>
+    <moqui.basic.LocalizedMessage original="Supplier acknowledgement" locale="zh" localized="供应商回执"/>
+    <moqui.basic.LocalizedMessage original="Supplier bill link" locale="zh" localized="供应商账单链接"/>
+    <moqui.basic.LocalizedMessage original="Supplier for line ${requestItemSeqId}" locale="zh" localized="行 ${requestItemSeqId} 的供应商"/>
+    <moqui.basic.LocalizedMessage original="Supplier is the vendor; the internal buying organization is the customer. A case or pallet offer prices the pack product." locale="zh" localized="供应商即供货方；内部采购组织是客户。箱或托盘报价为包装产品定价。"/>
+    <moqui.basic.LocalizedMessage original="Supplier item code" locale="zh" localized="供应商货号"/>
+    <moqui.basic.LocalizedMessage original="Supplier item name" locale="zh" localized="供应商货名"/>
+    <moqui.basic.LocalizedMessage original="Supplier prices are not available to you." locale="zh" localized="您无法查看供应商价格。"/>
+    <moqui.basic.LocalizedMessage original="Supplier reference: ${po.supplierReference}" locale="zh" localized="供应商参考：${po.supplierReference}"/>
+    <moqui.basic.LocalizedMessage original="Supplier return ${returnId}" locale="zh" localized="供应商退货 ${returnId}"/>
+    <moqui.basic.LocalizedMessage original="Supplier return ${returnId} is not available: it does not exist, or it                                         is not a return of your organizations to a supplier you work with." locale="zh" localized="供应商退货 ${returnId} 不可用：它不存在，或不是您所在组织退给合作供应商的退货。"/>
+    <moqui.basic.LocalizedMessage original="Supplier return ${returnId} · ${rh.supplierName}" locale="zh" localized="供应商退货 ${returnId} · ${rh.supplierName}"/>
+    <moqui.basic.LocalizedMessage original="Supplier scope" locale="zh" localized="供应商范围"/>
+    <moqui.basic.LocalizedMessage original="Supplier to ${buyerOrganization?.organizationName || organizationPartyId}" locale="zh" localized="${buyerOrganization?.organizationName || organizationPartyId} 的供应商"/>
+    <moqui.basic.LocalizedMessage original="Supplier&apos;s document" locale="zh" localized="供应商的单据"/>
+    <moqui.basic.LocalizedMessage original="Supplier&apos;s reason: ${ack.note}" locale="zh" localized="供应商原因：${ack.note}"/>
+    <moqui.basic.LocalizedMessage original="Supplier&apos;s reference: ${ack.supplierReference}${ack.supplierDateText ? &apos; of &apos; + ack.supplierDateText : &apos;&apos;}" locale="zh" localized="供应商参考：${ack.supplierReference}${ack.supplierDateText ? &apos; 的 &apos; + ack.supplierDateText : &apos;&apos;}"/>
+    <moqui.basic.LocalizedMessage original="Supplier: ${po.supplierName}" locale="zh" localized="供应商：${po.supplierName}"/>
+    <moqui.basic.LocalizedMessage original="Supplying work orders · ${orderRunRows.length}" locale="zh" localized="供应工单 · ${orderRunRows.length}"/>
+    <moqui.basic.LocalizedMessage original="Support discontinuation" locale="zh" localized="支持中止"/>
+    <moqui.basic.LocalizedMessage original="Suspend" locale="zh" localized="暂停"/>
+    <moqui.basic.LocalizedMessage original="Suspend ${supplier.supplierName}" locale="zh" localized="暂停 ${supplier.supplierName}"/>
+    <moqui.basic.LocalizedMessage original="Suspend ${supplier.supplierName}? Purchase orders and RFQs to it are stopped; open orders stay." locale="zh" localized="暂停 ${supplier.supplierName}？发往它的采购订单和 RFQ 将停止；未结订单保留。"/>
+    <moqui.basic.LocalizedMessage original="Symbology" locale="zh" localized="码制"/>
+    <moqui.basic.LocalizedMessage original="Take ${asset.assetName} off the books?" locale="zh" localized="将 ${asset.assetName} 下账？"/>
+    <moqui.basic.LocalizedMessage original="Take ${movePreview.operationName} off the schedule?" locale="zh" localized="将 ${movePreview.operationName} 移出计划？"/>
+    <moqui.basic.LocalizedMessage original="Take this off the record?" locale="zh" localized="从记录中移除此项？"/>
+    <moqui.basic.LocalizedMessage original="Target Content ID" locale="zh" localized="目标内容 ID"/>
+    <moqui.basic.LocalizedMessage original="Target Locale" locale="zh" localized="目标区域设置"/>
+    <moqui.basic.LocalizedMessage original="Target Revision" locale="zh" localized="目标修订"/>
+    <moqui.basic.LocalizedMessage original="Target language" locale="zh" localized="目标语言"/>
+    <moqui.basic.LocalizedMessage original="Target remaining" locale="zh" localized="目标剩余"/>
+    <moqui.basic.LocalizedMessage original="Target text" locale="zh" localized="目标文本"/>
+    <moqui.basic.LocalizedMessage original="Tax ID" locale="zh" localized="税务 ID"/>
+    <moqui.basic.LocalizedMessage original="Tax authority" locale="zh" localized="税务机关"/>
+    <moqui.basic.LocalizedMessage original="Tax authority ID" locale="zh" localized="税务机关 ID"/>
+    <moqui.basic.LocalizedMessage original="Tax exempt" locale="zh" localized="免税"/>
+    <moqui.basic.LocalizedMessage original="Tax included" locale="zh" localized="含税"/>
+    <moqui.basic.LocalizedMessage original="Tax percent" locale="zh" localized="税百分比"/>
+    <moqui.basic.LocalizedMessage original="Tax registrations" locale="zh" localized="税务登记"/>
+    <moqui.basic.LocalizedMessage original="Temperature only" locale="zh" localized="仅温度"/>
+    <moqui.basic.LocalizedMessage original="Template Action" locale="zh" localized="模板操作"/>
+    <moqui.basic.LocalizedMessage original="Template Work Effort ID" locale="zh" localized="模板工作投入 ID"/>
+    <moqui.basic.LocalizedMessage original="Term unit" locale="zh" localized="期限单位"/>
+    <moqui.basic.LocalizedMessage original="Term unit ID" locale="zh" localized="期限单位 ID"/>
+    <moqui.basic.LocalizedMessage original="Terms: ${po.termsText}" locale="zh" localized="条款：${po.termsText}"/>
+    <moqui.basic.LocalizedMessage original="Test an identifier" locale="zh" localized="测试标识"/>
+    <moqui.basic.LocalizedMessage original="The ${documentLabel} starts as a draft; add its lines, then approve it." locale="zh" localized="${documentLabel} 以草稿开始；添加其行，然后批准。"/>
+    <moqui.basic.LocalizedMessage original="The ${documentWord} does not exist, or you may not see it." locale="zh" localized="${documentWord} 不存在，或您不能查看。"/>
+    <moqui.basic.LocalizedMessage original="The PDF of the revision is attached and kept on the order; an address it was already sent to is not sent again." locale="zh" localized="修订的 PDF 会附上并保留在订单中；已经发送过的地址不会再发送。"/>
+    <moqui.basic.LocalizedMessage original="The bank or other party the fee is paid to; the from method&apos;s bank when left empty" locale="zh" localized="费用付给的银行或其他参与方；留空时为来源方式的银行"/>
+    <moqui.basic.LocalizedMessage original="The buyer of ${supplier.supplierName}" locale="zh" localized="${supplier.supplierName} 的采购员"/>
+    <moqui.basic.LocalizedMessage original="The calendar could not be read just now." locale="zh" localized="刚才无法读取日历。"/>
+    <moqui.basic.LocalizedMessage original="The carrier&apos;s, when there is one" locale="zh" localized="承运商的，如有"/>
+    <moqui.basic.LocalizedMessage original="The category of ${supplier.supplierName}" locale="zh" localized="${supplier.supplierName} 的类别"/>
+    <moqui.basic.LocalizedMessage original="The comparison includes entries before this date, not on it" locale="zh" localized="比较包含此日期之前的记录，不含当日"/>
+    <moqui.basic.LocalizedMessage original="The confirmation of order" locale="zh" localized="订单的确认"/>
+    <moqui.basic.LocalizedMessage original="The contact signs in to see this supplier&apos;s quotes, purchase orders and bills with ${organizationName}, and nothing else." locale="zh" localized="联系人使用 ${organizationName} 登录，只能查看此供应商的报价、采购订单和账单。"/>
+    <moqui.basic.LocalizedMessage original="The cost close is Accounting&apos;s: it needs financial read, and posting it the cost close authority. Request the review from the Costs tab." locale="zh" localized="成本关闭属于会计：需要财务读取权限，过账需要成本关闭权限。请从成本页签请求审核。"/>
+    <moqui.basic.LocalizedMessage original="The current version was kept. Download a submitted draft and reconcile it against the current text." locale="zh" localized="已保留当前版本。请下载已提交的草稿，并与当前文本核对。"/>
+    <moqui.basic.LocalizedMessage original="The customer does not exist, or has no order or cart in a store you work." locale="zh" localized="客户不存在，或在您工作的商店里没有订单或购物车。"/>
+    <moqui.basic.LocalizedMessage original="The customer does not exist, or you do not serve it." locale="zh" localized="客户不存在，或您不为其服务。"/>
+    <moqui.basic.LocalizedMessage original="The customer does not exist, or you may not see it." locale="zh" localized="客户不存在，或您不可以查看它。"/>
+    <moqui.basic.LocalizedMessage original="The customer sees: ${sc.customerStatusLabel}" locale="zh" localized="客户看到：${sc.customerStatusLabel}"/>
+    <moqui.basic.LocalizedMessage original="The customer&apos;s billing addresses when empty" locale="zh" localized="留空时为客户的账单地址"/>
+    <moqui.basic.LocalizedMessage original="The customer&apos;s open cases you see" locale="zh" localized="您看到的该客户未结案例"/>
+    <moqui.basic.LocalizedMessage original="The customer&apos;s or supplier&apos;s account or card, when the payment names one" locale="zh" localized="付款写明时，为客户或供应商的账户或卡"/>
+    <moqui.basic.LocalizedMessage original="The customer&apos;s or supplier&apos;s return number" locale="zh" localized="客户或供应商的退货号"/>
+    <moqui.basic.LocalizedMessage original="The default for its products" locale="zh" localized="其产品的默认值"/>
+    <moqui.basic.LocalizedMessage original="The difference is not available: the valuation is incomplete." locale="zh" localized="差额不可用：计价不完整。"/>
+    <moqui.basic.LocalizedMessage original="The draft&apos;s checks run first. The method approvers are notified and release it on this method." locale="zh" localized="先运行草稿的检查。通知方法审批人，并在此方法上发放。"/>
+    <moqui.basic.LocalizedMessage original="The draft&apos;s checks run first. The method approvers are notified and release it on this routing." locale="zh" localized="先运行草稿的检查。通知方法审批人，并在此工艺路线上发放。"/>
+    <moqui.basic.LocalizedMessage original="The end of this day; today when empty" locale="zh" localized="此日的结束；留空时为今天"/>
+    <moqui.basic.LocalizedMessage original="The exception of return ${rh.displayId}" locale="zh" localized="退货 ${rh.displayId} 的例外"/>
+    <moqui.basic.LocalizedMessage original="The facility and those under it are planned together" locale="zh" localized="该设施及其下级一起计划"/>
+    <moqui.basic.LocalizedMessage original="The facility&apos;s owner when a facility is chosen" locale="zh" localized="选择设施时，用该设施的所有者"/>
+    <moqui.basic.LocalizedMessage original="The file is not on order ${orderId}" locale="zh" localized="文件不在订单 ${orderId} 上"/>
+    <moqui.basic.LocalizedMessage original="The first of the cut-off&apos;s month when empty" locale="zh" localized="留空时为截止日所在月的第一天"/>
+    <moqui.basic.LocalizedMessage original="The hold is not on bill ${invoiceId}" locale="zh" localized="暂挂不在账单 ${invoiceId} 上"/>
+    <moqui.basic.LocalizedMessage original="The hold is not on order ${orderId}" locale="zh" localized="暂挂不在订单 ${orderId} 上"/>
+    <moqui.basic.LocalizedMessage original="The invoices a dispute is about" locale="zh" localized="争议所涉及的发票"/>
+    <moqui.basic.LocalizedMessage original="The key numbers are not complete. Open the customer&apos;s invoices to narrow the selection." locale="zh" localized="关键编号不完整。请打开客户发票以缩小选择范围。"/>
+    <moqui.basic.LocalizedMessage original="The legacy component import is incomplete:" locale="zh" localized="旧组件导入不完整："/>
+    <moqui.basic.LocalizedMessage original="The line moves to the supplier&apos;s drop-ship facility and is reserved there; on an approved order its purchase order is made now, else when the order is approved." locale="zh" localized="该行转到供应商的直运设施并在那里预留；订单已批准则现在创建其采购订单，否则在订单批准时创建。"/>
+    <moqui.basic.LocalizedMessage original="The machine that stopped, when one did" locale="zh" localized="如有机器停机，则为那一台"/>
+    <moqui.basic.LocalizedMessage original="The match of bill ${invoiceId || &apos;&apos;} is not available: ${matchError                             || &apos;it is not a supplier bill, or you may not see it&apos;}." locale="zh" localized="账单 ${invoiceId || &apos;&apos;} 的匹配不可用：${matchError                             || &apos;它不是供应商账单，或您可能无法查看它&apos;}。"/>
+    <moqui.basic.LocalizedMessage original="The move could not be previewed: the operation is not available." locale="zh" localized="无法预览该移动：该操作不可用。"/>
+    <moqui.basic.LocalizedMessage original="The note… @ to mention, # for a record" locale="zh" localized="备注… @ 提及，# 表示一条记录"/>
+    <moqui.basic.LocalizedMessage original="The order the customer returns goods of" locale="zh" localized="客户退货所对应的订单"/>
+    <moqui.basic.LocalizedMessage original="The order&apos;s payments apply when it is approved. A bill takes the                                                     supplier&apos;s payment terms." locale="zh" localized="订单付款在订单批准时核销。账单采用供应商的付款条件。"/>
+    <moqui.basic.LocalizedMessage original="The order&apos;s payments apply when the bill is approved. A bill takes the supplier&apos;s                                                 payment terms; quantity held in inspection is not billed." locale="zh" localized="订单付款在账单批准时核销。账单采用供应商的付款条件；检验中暂挂的数量不计入账单。"/>
+    <moqui.basic.LocalizedMessage original="The organization holds more stock than one valuation reads; the totals and products shown                             are a part of it. Narrow it by facility or product." locale="zh" localized="组织持有的库存多于一项计价所读到的；所示合计和产品只是其中一部分。请按设施或产品缩小范围。"/>
+    <moqui.basic.LocalizedMessage original="The organization holds no stock and its inventory accounts have no postings." locale="zh" localized="该组织没有库存，其库存账户没有过账。"/>
+    <moqui.basic.LocalizedMessage original="The organization&apos;s Supplier site has no canonical host to link to" locale="zh" localized="该组织的供应商站点没有可链接的规范主机"/>
+    <moqui.basic.LocalizedMessage original="The package&apos;s weight (the carrier needs it)" locale="zh" localized="包裹重量（承运商需要）"/>
+    <moqui.basic.LocalizedMessage original="The plant and the lines under it are planned together" locale="zh" localized="该工厂及其下的生产线一起计划"/>
+    <moqui.basic.LocalizedMessage original="The priority of case ${requestId}" locale="zh" localized="案例 ${requestId} 的优先级"/>
+    <moqui.basic.LocalizedMessage original="The purchase history is not available." locale="zh" localized="采购历史不可用。"/>
+    <moqui.basic.LocalizedMessage original="The report includes entries before this date, not on it" locale="zh" localized="报表包含此日期之前的记录，不含当日"/>
+    <moqui.basic.LocalizedMessage original="The review&apos;s proposed date when empty; today for an adjustment after the close" locale="zh" localized="留空时为审核的建议日期；关闭后的调整则为今天"/>
+    <moqui.basic.LocalizedMessage original="The site, building or warehouse it is part of" locale="zh" localized="它所属的站点、建筑或仓库"/>
+    <moqui.basic.LocalizedMessage original="The stock stays where it is; a quarantined receipt may be inspected again." locale="zh" localized="库存留在原处；隔离的收货可以再次检验。"/>
+    <moqui.basic.LocalizedMessage original="The stock value and the inventory accounts agree as of ${asOfDay}." locale="zh" localized="库存价值与库存账户截至 ${asOfDay} 一致。"/>
+    <moqui.basic.LocalizedMessage original="The stock value and the inventory accounts differ by                                             ${money.difference} as of ${asOfDay}. The products below show where, and the                                             exceptions what explains it." locale="zh" localized="库存价值与库存账户相差 ${money.difference}，截至 ${asOfDay}。下列产品显示差异所在，例外说明其原因。"/>
+    <moqui.basic.LocalizedMessage original="The supplier goods go back to" locale="zh" localized="货物退回的供应商"/>
+    <moqui.basic.LocalizedMessage original="The supplier opens the order&apos;s bill upload page on your                                             supplier site and sends its bill there, without signing in. Each link is new;                                             it is shown once." locale="zh" localized="供应商在您的供应商站点打开该订单的账单上传页，并在那里发送账单，无需登录。每个链接都是新的；只显示一次。"/>
+    <moqui.basic.LocalizedMessage original="The supplier&apos;s RMA for return ${returnId}" locale="zh" localized="供应商对退货 ${returnId} 的 RMA"/>
+    <moqui.basic.LocalizedMessage original="The tags of case ${requestId}" locale="zh" localized="案例 ${requestId} 的标签"/>
+    <moqui.basic.LocalizedMessage original="The valuation is not available for these choices." locale="zh" localized="这些选项无法使用计价。"/>
+    <moqui.basic.LocalizedMessage original="These balances are incomplete. Narrow the selection before previewing a settlement." locale="zh" localized="这些余额不完整。请在预览结算前缩小选择范围。"/>
+    <moqui.basic.LocalizedMessage original="These figures are incomplete" locale="zh" localized="这些数字不完整"/>
+    <moqui.basic.LocalizedMessage original="These values use their existing LocalizedEntityField storage." locale="zh" localized="这些值使用其现有的 LocalizedEntityField 存储。"/>
+    <moqui.basic.LocalizedMessage original="This ${documentLabel} does not exist, or you do not work in its organization." locale="zh" localized="此 ${documentLabel} 不存在，或您不在其组织中工作。"/>
+    <moqui.basic.LocalizedMessage original="This action is Warehouse&apos;s" locale="zh" localized="此操作属于仓库"/>
+    <moqui.basic.LocalizedMessage original="This action is not available in" locale="zh" localized="此操作不可用于"/>
+    <moqui.basic.LocalizedMessage original="This bill has no lines yet." locale="zh" localized="此账单还没有行。"/>
+    <moqui.basic.LocalizedMessage original="This case&apos;s history stays here; it is no longer worked, and the customer&apos;s replies to it go to case ${cd.lineage.mergedIntoRequestId} · ${cd.lineage.mergedIntoName}." locale="zh" localized="此案例的历史留在此处；不再处理，客户的回复转到案例 ${cd.lineage.mergedIntoRequestId} · ${cd.lineage.mergedIntoName}。"/>
+    <moqui.basic.LocalizedMessage original="This category is not available: it does not exist, or it belongs to an organization you are not in." locale="zh" localized="此类别不可用：它不存在，或属于您不在其中的组织。"/>
+    <moqui.basic.LocalizedMessage original="This characteristic is published: the change ends it now and starts a new                                                 one; inspections made before keep the old one." locale="zh" localized="此特性已发布：变更现在结束它并开始一个新的；此前的检验保留原来的。"/>
+    <moqui.basic.LocalizedMessage original="This document changed. Your submission is retained as a separate draft; review it beside the current version." locale="zh" localized="此文档已变更。您的提交作为单独草稿保留；请对照当前版本审核。"/>
+    <moqui.basic.LocalizedMessage original="This document is not available." locale="zh" localized="此文档不可用。"/>
+    <moqui.basic.LocalizedMessage original="This equipment is not available in this app." locale="zh" localized="此设备在此应用中不可用。"/>
+    <moqui.basic.LocalizedMessage original="This facility is not available in this app." locale="zh" localized="此设施在此应用中不可用。"/>
+    <moqui.basic.LocalizedMessage original="This inspection has no template, so it has no characteristics to read; submit its result." locale="zh" localized="此检验没有模板，因此没有可读取的特性；请提交其结果。"/>
+    <moqui.basic.LocalizedMessage original="This inspection is not available in this app." locale="zh" localized="此检验在此应用中不可用。"/>
+    <moqui.basic.LocalizedMessage original="This kind of record has no files." locale="zh" localized="此类记录没有文件。"/>
+    <moqui.basic.LocalizedMessage original="This kind of record keeps no files." locale="zh" localized="此类记录不保留文件。"/>
+    <moqui.basic.LocalizedMessage original="This material work is not available here" locale="zh" localized="此物料作业在此不可用"/>
+    <moqui.basic.LocalizedMessage original="This material work is not available." locale="zh" localized="此物料作业不可用。"/>
+    <moqui.basic.LocalizedMessage original="This order" locale="zh" localized="此订单"/>
+    <moqui.basic.LocalizedMessage original="This preview does not assign the identifier." locale="zh" localized="此预览不分派该标识。"/>
+    <moqui.basic.LocalizedMessage original="This product" locale="zh" localized="此产品"/>
+    <moqui.basic.LocalizedMessage original="This product already has a tracking exception here; change it in the list" locale="zh" localized="此产品在此已有跟踪例外；请在列表中更改"/>
+    <moqui.basic.LocalizedMessage original="This product has no manufacturing method yet. Start one with New method, or import its legacy components from More." locale="zh" localized="此产品还没有制造方法。请用新建方法开始一个，或从更多导入其旧组件。"/>
+    <moqui.basic.LocalizedMessage original="This receipt has no lines." locale="zh" localized="此收货没有行。"/>
+    <moqui.basic.LocalizedMessage original="This record is not available." locale="zh" localized="此记录不可用。"/>
+    <moqui.basic.LocalizedMessage original="This report could not run" locale="zh" localized="此报表未能运行"/>
+    <moqui.basic.LocalizedMessage original="This return has no items yet." locale="zh" localized="此退货还没有明细。"/>
+    <moqui.basic.LocalizedMessage original="This return is not available in this app." locale="zh" localized="此退货在此应用中不可用。"/>
+    <moqui.basic.LocalizedMessage original="This review can no longer be confirmed. Go back to the selection to prepare a new one." locale="zh" localized="此审核已不能确认。请返回选择以准备一个新的。"/>
+    <moqui.basic.LocalizedMessage original="This review expired or is not yours. Open the selection to prepare a new one." locale="zh" localized="此审核已过期或不属于您。请打开选择以准备一个新的。"/>
+    <moqui.basic.LocalizedMessage original="This shipment is not available in this app." locale="zh" localized="此发货单在此应用中不可用。"/>
+    <moqui.basic.LocalizedMessage original="This supplier does not drop-ship for you: add its drop-ship facility to buy customer lines from it." locale="zh" localized="此供应商不为您直运：添加其直运设施，以便向其购买客户行。"/>
+    <moqui.basic.LocalizedMessage original="This supplier has not been evaluated yet." locale="zh" localized="此供应商尚未评估。"/>
+    <moqui.basic.LocalizedMessage original="This supplier is not available to you." locale="zh" localized="您无法使用此供应商。"/>
+    <moqui.basic.LocalizedMessage original="This supply plan is not available to you." locale="zh" localized="您无法使用此供应计划。"/>
+    <moqui.basic.LocalizedMessage original="Thousands separator" locale="zh" localized="千位分隔符"/>
+    <moqui.basic.LocalizedMessage original="To (people here)" locale="zh" localized="至（此处的人员）"/>
+    <moqui.basic.LocalizedMessage original="To Product ID" locale="zh" localized="目标产品 ID"/>
+    <moqui.basic.LocalizedMessage original="To a supplier" locale="zh" localized="至供应商"/>
+    <moqui.basic.LocalizedMessage original="To copy into the case&apos;s reply" locale="zh" localized="用于复制到案例的回复"/>
+    <moqui.basic.LocalizedMessage original="To location (a move here)" locale="zh" localized="至位置（此处的一次移动）"/>
+    <moqui.basic.LocalizedMessage original="To match" locale="zh" localized="待匹配"/>
+    <moqui.basic.LocalizedMessage original="To settle" locale="zh" localized="待结算"/>
+    <moqui.basic.LocalizedMessage original="To ship" locale="zh" localized="待发货"/>
+    <moqui.basic.LocalizedMessage original="To the team working on this" locale="zh" localized="至正在处理此事的团队"/>
+    <moqui.basic.LocalizedMessage original="To unit" locale="zh" localized="目标单位"/>
+    <moqui.basic.LocalizedMessage original="To version" locale="zh" localized="目标版本"/>
+    <moqui.basic.LocalizedMessage original="To: ${pv.recipients.map((row) =&gt; row.name + &apos; &lt;&apos; + row.address + &apos;&gt;&apos;).join(&apos;, &apos;) || &apos;no one&apos;}" locale="zh" localized="至：${pv.recipients.map((row) =&gt; row.name + &apos; &lt;&apos; + row.address + &apos;&gt;&apos;).join(&apos;, &apos;) || &apos;无人&apos;}"/>
+    <moqui.basic.LocalizedMessage original="Total ${po.totalText}" locale="zh" localized="合计 ${po.totalText}"/>
+    <moqui.basic.LocalizedMessage original="Total ${standardCost.totalCost == null ? &quot;Unvalued&quot; : standardCost.totalCost} ${standardCost.priceUomId} · unit estimate ${standardCost.unitCost == null ? &quot;Unvalued&quot; : standardCost.unitCost}" locale="zh" localized="合计 ${standardCost.totalCost == null ? &quot;未计价&quot; : standardCost.totalCost} ${standardCost.priceUomId} · 单位估算 ${standardCost.unitCost == null ? &quot;未计价&quot; : standardCost.unitCost}"/>
+    <moqui.basic.LocalizedMessage original="Tracking link" locale="zh" localized="跟踪链接"/>
+    <moqui.basic.LocalizedMessage original="Tracking · ${trackingRows.length}" locale="zh" localized="跟踪 · ${trackingRows.length}"/>
+    <moqui.basic.LocalizedMessage original="Tracking: ${dropShip.trackingText}" locale="zh" localized="跟踪：${dropShip.trackingText}"/>
+    <moqui.basic.LocalizedMessage original="Transaction price context" locale="zh" localized="交易价格上下文"/>
+    <moqui.basic.LocalizedMessage original="Transit · ${transfer.inTransit} on the way" locale="zh" localized="在途 · ${transfer.inTransit} 运送中"/>
+    <moqui.basic.LocalizedMessage original="Translate ${recordId}: ${contentTypeText}" locale="zh" localized="翻译 ${recordId}：${contentTypeText}"/>
+    <moqui.basic.LocalizedMessage original="Typed base" locale="zh" localized="键入的基数"/>
+    <moqui.basic.LocalizedMessage original="UTF-8 CSV file" locale="zh" localized="UTF-8 CSV 文件"/>
+    <moqui.basic.LocalizedMessage original="Unapply match" locale="zh" localized="取消匹配"/>
+    <moqui.basic.LocalizedMessage original="Unapply the match of bill ${invoiceId}? Its billing links go back; a hold                                     stays." locale="zh" localized="取消账单 ${invoiceId} 的匹配？其开票关联将退回；暂挂保留。"/>
+    <moqui.basic.LocalizedMessage original="Uniqueness" locale="zh" localized="唯一性"/>
+    <moqui.basic.LocalizedMessage original="Unit ID" locale="zh" localized="单位 ID"/>
+    <moqui.basic.LocalizedMessage original="Unit ID or name" locale="zh" localized="单位 ID 或名称"/>
+    <moqui.basic.LocalizedMessage original="Unit costs · ${costChart.title}" locale="zh" localized="单位成本 · ${costChart.title}"/>
+    <moqui.basic.LocalizedMessage original="Unit currency" locale="zh" localized="单位货币"/>
+    <moqui.basic.LocalizedMessage original="Unit estimate" locale="zh" localized="单位估算"/>
+    <moqui.basic.LocalizedMessage original="Unit metadata" locale="zh" localized="单位元数据"/>
+    <moqui.basic.LocalizedMessage original="Unit type" locale="zh" localized="单位类型"/>
+    <moqui.basic.LocalizedMessage original="Units and conversions" locale="zh" localized="单位和换算"/>
+    <moqui.basic.LocalizedMessage original="Units needed" locale="zh" localized="所需单位"/>
+    <moqui.basic.LocalizedMessage original="Units to sample" locale="zh" localized="待抽样单位"/>
+    <moqui.basic.LocalizedMessage original="Units: ${report.unitsText}${report.currencyText ? &apos; · Currency: &apos; + report.currencyText : &apos;&apos;}" locale="zh" localized="单位：${report.unitsText}${report.currencyText ? &apos; · 货币： &apos; + report.currencyText : &apos;&apos;}"/>
+    <moqui.basic.LocalizedMessage original="Unlink ${title} from case ${requestId}" locale="zh" localized="取消 ${title} 与案例 ${requestId} 的关联"/>
+    <moqui.basic.LocalizedMessage original="Unlink ${title} from case ${requestId}?" locale="zh" localized="取消 ${title} 与案例 ${requestId} 的关联？"/>
+    <moqui.basic.LocalizedMessage original="Unlink from this record" locale="zh" localized="取消与此记录的关联"/>
+    <moqui.basic.LocalizedMessage original="Unused returns · ${returnRows.length}" locale="zh" localized="未使用的退货 · ${returnRows.length}"/>
+    <moqui.basic.LocalizedMessage original="Up to 10 files, 10 MiB each and 20 MiB in all" locale="zh" localized="最多 10 个文件，每个 10 MiB，合计 20 MiB"/>
+    <moqui.basic.LocalizedMessage original="Up to 25 records of each type are listed; a record opens where an app you have shows it." locale="zh" localized="每种类型最多列出 25 条记录；记录在您拥有的、能显示它的应用中打开。"/>
+    <moqui.basic.LocalizedMessage original="Update mode" locale="zh" localized="更新模式"/>
+    <moqui.basic.LocalizedMessage original="Update only" locale="zh" localized="仅更新"/>
+    <moqui.basic.LocalizedMessage original="Upload a bill for order ${orderId}" locale="zh" localized="为订单 ${orderId} 上传账单"/>
+    <moqui.basic.LocalizedMessage original="Upload a new version" locale="zh" localized="上传新版本"/>
+    <moqui.basic.LocalizedMessage original="Upload catalog files" locale="zh" localized="上传目录文件"/>
+    <moqui.basic.LocalizedMessage original="Upload the supplier&apos;s bill for order ${orderId}" locale="zh" localized="上传订单 ${orderId} 的供应商账单"/>
+    <moqui.basic.LocalizedMessage original="Upload → Map columns and values → Validate → Review and apply → Results. Saved runs resume from this page." locale="zh" localized="上传 → 映射列和值 → 验证 → 审核并应用 → 结果。已保存的运行从此页继续。"/>
+    <moqui.basic.LocalizedMessage original="Upper limit" locale="zh" localized="上限"/>
+    <moqui.basic.LocalizedMessage original="Use limit" locale="zh" localized="使用限额"/>
+    <moqui.basic.LocalizedMessage original="Use this only when everything that remains arrived: every due unit is accepted, then the                             receipt is delivered. Lot and serial-tracked lines are received one by one." locale="zh" localized="仅当剩余的都已到达时才用：接受每个到期单位，然后交付收货。按批次和序列号跟踪的行逐一收货。"/>
+    <moqui.basic.LocalizedMessage original="Use time" locale="zh" localized="使用时间"/>
+    <moqui.basic.LocalizedMessage original="Use time unit" locale="zh" localized="使用时间单位"/>
+    <moqui.basic.LocalizedMessage original="Used by role" locale="zh" localized="按角色使用"/>
+    <moqui.basic.LocalizedMessage original="Valid for days" locale="zh" localized="有效天数"/>
+    <moqui.basic.LocalizedMessage original="Valid until ${rh.previewExpireText}. ${rh.feeText}. Nothing is credited                                                 until the goods are received and finance settles them." locale="zh" localized="有效期至 ${rh.previewExpireText}。${rh.feeText}。在收到货物且财务结算之前，不作贷记。"/>
+    <moqui.basic.LocalizedMessage original="Validate draft" locale="zh" localized="验证草稿"/>
+    <moqui.basic.LocalizedMessage original="Validate mapped rows" locale="zh" localized="验证已映射的行"/>
+    <moqui.basic.LocalizedMessage original="Validate method draft" locale="zh" localized="验证方法草稿"/>
+    <moqui.basic.LocalizedMessage original="Validate routing" locale="zh" localized="验证工艺路线"/>
+    <moqui.basic.LocalizedMessage original="Validate without assigning" locale="zh" localized="验证但不分派"/>
+    <moqui.basic.LocalizedMessage original="Valuation adjustment" locale="zh" localized="计价调整"/>
+    <moqui.basic.LocalizedMessage original="Valuation exceptions" locale="zh" localized="计价例外"/>
+    <moqui.basic.LocalizedMessage original="Value at the transfer account: ${transfer.transferAccountText} (what is in transit,                                             and rejected units until they are written off)." locale="zh" localized="调拨账户中的价值：${transfer.transferAccountText}（在途部分，以及核销前的拒收单位）。"/>
+    <moqui.basic.LocalizedMessage original="Value mappings" locale="zh" localized="值映射"/>
+    <moqui.basic.LocalizedMessage original="Variants &amp; features" locale="zh" localized="变体和特征"/>
+    <moqui.basic.LocalizedMessage original="Vendor ID" locale="zh" localized="供应商 ID"/>
+    <moqui.basic.LocalizedMessage original="Vendor role" locale="zh" localized="供应商角色"/>
+    <moqui.basic.LocalizedMessage original="Verification: ${inspection.verificationComments}" locale="zh" localized="验证：${inspection.verificationComments}"/>
+    <moqui.basic.LocalizedMessage original="Verified by ${inspection.verifiedByName} on ${inspection.verifiedDateText}." locale="zh" localized="由 ${inspection.verifiedByName} 于 ${inspection.verifiedDateText} 验证。"/>
+    <moqui.basic.LocalizedMessage original="Verify inspection ${qualityInspectionId}" locale="zh" localized="验证检验 ${qualityInspectionId}"/>
+    <moqui.basic.LocalizedMessage original="Verify the result" locale="zh" localized="检查结果"/>
+    <moqui.basic.LocalizedMessage original="Version to restore" locale="zh" localized="待恢复的版本"/>
+    <moqui.basic.LocalizedMessage original="WIP accounts" locale="zh" localized="WIP 账户"/>
+    <moqui.basic.LocalizedMessage original="Waiting for stock" locale="zh" localized="等待库存"/>
+    <moqui.basic.LocalizedMessage original="Waiting for the cost close" locale="zh" localized="等待成本关闭"/>
+    <moqui.basic.LocalizedMessage original="Warehouse home" locale="zh" localized="仓库首页"/>
+    <moqui.basic.LocalizedMessage original="Warranty assessment" locale="zh" localized="质保评估"/>
+    <moqui.basic.LocalizedMessage original="What changed" locale="zh" localized="有何变更"/>
+    <moqui.basic.LocalizedMessage original="What did not arrive" locale="zh" localized="什么没有到达"/>
+    <moqui.basic.LocalizedMessage original="What happened? It is logged as a note on the record. @ to mention, # for a record" locale="zh" localized="发生了什么？会作为该记录的备注保存。@ 提及，# 表示一条记录"/>
+    <moqui.basic.LocalizedMessage original="What is needed, for a line with no product" locale="zh" localized="需要什么，用于没有产品的行"/>
+    <moqui.basic.LocalizedMessage original="What production should fix" locale="zh" localized="生产应修正的内容"/>
+    <moqui.basic.LocalizedMessage original="What was missing or wrong" locale="zh" localized="缺了什么或哪里不对"/>
+    <moqui.basic.LocalizedMessage original="What was on hand at the end of a day: each place&apos;s opening, receipts, issues, adjustments and                             closing. Days are in your time zone (${ec.user.timeZone || &apos;the server zone&apos;})." locale="zh" localized="一天结束时的现有量：每个地点的期初、收货、发出、调整和期末。日期采用您的时区（${ec.user.timeZone || &apos;服务器时区&apos;}）。"/>
+    <moqui.basic.LocalizedMessage original="What was ordered and is not billed" locale="zh" localized="已订购但未开账单的内容"/>
+    <moqui.basic.LocalizedMessage original="Where used" locale="zh" localized="使用处"/>
+    <moqui.basic.LocalizedMessage original="Who holds access from this product · ${usage?.subscriptionsCount || 0}" locale="zh" localized="谁持有来自此产品的访问权限 · ${usage?.subscriptionsCount || 0}"/>
+    <moqui.basic.LocalizedMessage original="Who holds access is shown to a store or subscription operator." locale="zh" localized="谁持有访问权限会显示给商店或订阅操作员。"/>
+    <moqui.basic.LocalizedMessage original="With scrap" locale="zh" localized="含报废"/>
+    <moqui.basic.LocalizedMessage original="With scrap / hours" locale="zh" localized="含报废 / 小时"/>
+    <moqui.basic.LocalizedMessage original="With what it has left" locale="zh" localized="用它所剩的"/>
+    <moqui.basic.LocalizedMessage original="Work order ${manufacturingShipment.workEffortId}" locale="zh" localized="工单 ${manufacturingShipment.workEffortId}"/>
+    <moqui.basic.LocalizedMessage original="Work template" locale="zh" localized="工作模板"/>
+    <moqui.basic.LocalizedMessage original="Write a message to the team…" locale="zh" localized="给团队写一条消息…"/>
+    <moqui.basic.LocalizedMessage original="Write a message… @ to mention, # for a record" locale="zh" localized="写一条消息… @ 提及，# 表示一条记录"/>
+    <moqui.basic.LocalizedMessage original="Write the email" locale="zh" localized="撰写电子邮件"/>
+    <moqui.basic.LocalizedMessage original="Year-month-day" locale="zh" localized="年-月-日"/>
+    <moqui.basic.LocalizedMessage original="Years left" locale="zh" localized="剩余年数"/>
+    <moqui.basic.LocalizedMessage original="Yes, a supervisor exception" locale="zh" localized="是，主管例外"/>
+    <moqui.basic.LocalizedMessage original="You do not read order prices, so the stored confirmation is not shown" locale="zh" localized="您不能读取订单价格，因此不显示已存储的确认"/>
+    <moqui.basic.LocalizedMessage original="You have no mail account to send from: ask your administrator for the service mailbox." locale="zh" localized="您没有可用来发送的发件邮箱：请向管理员索取服务邮箱。"/>
+    <moqui.basic.LocalizedMessage original="You, unless you choose someone" locale="zh" localized="您本人，除非您选择其他人"/>
+    <moqui.basic.LocalizedMessage original="Your replies, your team&apos;s and every service agent&apos;s" locale="zh" localized="您的回复、您团队的以及每位服务人员的"/>
+    <moqui.basic.LocalizedMessage original="inventory account" locale="zh" localized="库存账户"/>
+    <moqui.basic.LocalizedMessage original="not sent" locale="zh" localized="未发送"/>
+    <moqui.basic.LocalizedMessage original="on its way" locale="zh" localized="在途中"/>
+    <moqui.basic.LocalizedMessage original="stock value" locale="zh" localized="库存价值"/>
+    <moqui.basic.LocalizedMessage original="the panel did not load (status" locale="zh" localized="面板未加载(状态"/>
+    <moqui.basic.LocalizedMessage original="the record is not visible to this user" locale="zh" localized="此用户看不到该记录"/>
+</entity-facade-xml>

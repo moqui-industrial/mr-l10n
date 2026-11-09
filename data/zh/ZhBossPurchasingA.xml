@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="zh">
+    <moqui.basic.LocalizedMessage original="${[currentMinimum, currentMaximum].some(Boolean) ? (currentMinimum || &apos;–&apos;) + &apos; to &apos; + (currentMaximum || &apos;–&apos;) : &apos;No levels&apos;}" locale="zh" localized="${[currentMinimum, currentMaximum].some(Boolean) ? (currentMinimum || &apos;–&apos;) + &apos; 至 &apos; + (currentMaximum || &apos;–&apos;) : &apos;无级别&apos;}"/>
+    <moqui.basic.LocalizedMessage original="${[scorecard.organizationName, scorecard.periodText, scorecard.eligibleText, scorecard.policyText,                                     &apos;due dates: &apos; + scorecard.dueDateBasisText, &apos;evaluated &apos; + scorecard.evaluatedText].join(&apos; · &apos;)}" locale="zh" localized="${[scorecard.organizationName, scorecard.periodText, scorecard.eligibleText, scorecard.policyText,                                     &apos;到期日： &apos; + scorecard.dueDateBasisText, &apos;已评估 &apos; + scorecard.evaluatedText].join(&apos; · &apos;)}"/>
+    <moqui.basic.LocalizedMessage original="${act.edit ? &apos;No items yet. Add the products the agreement covers with Add item.&apos; : &apos;This agreement has no items.&apos;}" locale="zh" localized="${act.edit ? &apos;还没有明细。请使用添加明细加入协议涵盖的产品。&apos; : &apos;此协议没有明细。&apos;}"/>
+    <moqui.basic.LocalizedMessage original="${agr.template ? &apos;A template has no balance: start an agreement from it&apos; : &apos;Balance&apos;}" locale="zh" localized="${agr.template ? &apos;模板没有余额：请据此开始协议&apos; : &apos;余额&apos;}"/>
+    <moqui.basic.LocalizedMessage original="${agr.template ? &apos;Template&apos; : &apos;Agreement&apos;} ${agreementId}" locale="zh" localized="${agr.template ? &apos;模板&apos; : &apos;协议&apos;} ${agreementId}"/>
+    <moqui.basic.LocalizedMessage original="${arrivalText ? &apos;arrives &apos; + arrivalText : &apos;&apos;}" locale="zh" localized="${arrivalText ? &apos;到达 &apos; + arrivalText : &apos;&apos;}"/>
+    <moqui.basic.LocalizedMessage original="${awards.awardText || &apos;No part of this quote is awarded.&apos;}" locale="zh" localized="${awards.awardText || &apos;此报价没有任何部分已授标。&apos;}"/>
+    <moqui.basic.LocalizedMessage original="${closeResult.closingRows.length} quotes cancelled                                                 as not awarded. ${closeResult.warningText}" locale="zh" localized="${closeResult.closingRows.length} 份报价已取消                                                 因未中标。${closeResult.warningText}"/>
+    <moqui.basic.LocalizedMessage original="${comparable ? normalizedText : &apos;Not comparable&apos;}" locale="zh" localized="${comparable ? normalizedText : &apos;不可比&apos;}"/>
+    <moqui.basic.LocalizedMessage original="${currentView == &apos;held&apos; ? &apos;No bill of your organizations is held.&apos; : &apos;No match has a variance to resolve.&apos;}" locale="zh" localized="${currentView == &apos;held&apos; ? &apos;没有暂挂属于您组织的账单。&apos; : &apos;没有任何匹配有待解决的差异。&apos;}"/>
+    <moqui.basic.LocalizedMessage original="${currentView == &apos;receivedNotBilled&apos; ? &apos;Every accepted receipt of your approved orders is billed.&apos;                                     : &apos;No bill covers more than was accepted.&apos;}" locale="zh" localized="${currentView == &apos;receivedNotBilled&apos; ? &apos;您已批准订单的每笔已接受收货均已开账单。&apos;                                     : &apos;没有账单超过已接受的部分。&apos;}"/>
+    <moqui.basic.LocalizedMessage original="${description} (withheld)" locale="zh" localized="${description} (暂扣)"/>
+    <moqui.basic.LocalizedMessage original="${fromDateText}${thruDateText ? &apos; to &apos; + thruDateText : &apos;&apos;}" locale="zh" localized="${fromDateText}${thruDateText ? &apos; 至 &apos; + thruDateText : &apos;&apos;}"/>
+    <moqui.basic.LocalizedMessage original="${legacy.linkCount} to link · ${legacy.ambiguousCount} ambiguous · ${                                         legacy.noEvidenceCount} without evidence · ${legacy.unexplainedCount} not explained" locale="zh" localized="${legacy.linkCount} 待关联 · ${legacy.ambiguousCount} 歧义 · ${                                         legacy.noEvidenceCount} 无证据 · ${legacy.unexplainedCount} 未说明"/>
+    <moqui.basic.LocalizedMessage original="${over ? &apos;Over the demand&apos; : leftText}" locale="zh" localized="${over ? &apos;超过需求&apos; : leftText}"/>
+    <moqui.basic.LocalizedMessage original="${policy.policyFromDateText ? &apos;In effect since &apos; + policy.policyFromDateText : &apos;Built-in defaults&apos;}" locale="zh" localized="${policy.policyFromDateText ? &apos;生效自 &apos; + policy.policyFromDateText : &apos;内置默认值&apos;}"/>
+    <moqui.basic.LocalizedMessage original="${preview.approvalText}. The orders are                                                     placed, not approved or sent: each goes through its purchase order approval." locale="zh" localized="${preview.approvalText}。订单已                                                     下达，尚未批准或发送：每一张都经过其采购订单的审批。"/>
+    <moqui.basic.LocalizedMessage original="${preview?.amountText}: ${preview?.noPolicy ? &apos;one purchase approver decides (no policy)&apos; : previewStepRows.length + &apos; steps&apos;}" locale="zh" localized="${preview?.amountText}： ${preview?.noPolicy ? &apos;由一名采购审批人决定 (无策略)&apos; : previewStepRows.length + &apos; 个步骤&apos;}"/>
+    <moqui.basic.LocalizedMessage original="${primaryAction == &apos;answer&apos; ? &apos;Record the answer&apos; : &apos;Edit quote&apos;}" locale="zh" localized="${primaryAction == &apos;answer&apos; ? &apos;记录答案&apos; : &apos;编辑报价&apos;}"/>
+    <moqui.basic.LocalizedMessage original="${requestItemSeqId == chosenSeqId ? &apos;Shown&apos; : &apos;&apos;}" locale="zh" localized="${requestItemSeqId == chosenSeqId ? &apos;已显示&apos; : &apos;&apos;}"/>
+    <moqui.basic.LocalizedMessage original="${resultStatus == &apos;FAILED&apos; ? &apos;Not sent: &apos; + (errorCode || &apos;&apos;).replace(/_/g, &apos; &apos;).toLowerCase()                                                             : resultStatus == &apos;QUEUED&apos; ? &apos;Queued&apos; : &apos;Sent&apos;}" locale="zh" localized="${resultStatus == &apos;FAILED&apos; ? &apos;未发送： &apos; + (errorCode || &apos;&apos;).replace(/_/g, &apos; &apos;).toLowerCase()                                                             : resultStatus == &apos;QUEUED&apos; ? &apos;已排队&apos; : &apos;已发送&apos;}"/>
+    <moqui.basic.LocalizedMessage original="${resultStatus == &apos;READY&apos; ? &apos;Ready&apos; : &apos;Fails: &apos; + (errorCode || &apos;&apos;).replace(/_/g, &apos; &apos;).toLowerCase()}" locale="zh" localized="${resultStatus == &apos;READY&apos; ? &apos;就绪&apos; : &apos;失败： &apos; + (errorCode || &apos;&apos;).replace(/_/g, &apos; &apos;).toLowerCase()}"/>
+    <moqui.basic.LocalizedMessage original="${rfq.canEdit ? &apos;No items yet. Add what you want quoted with Add item, then invite suppliers.&apos;                                     : &apos;This RFQ has no items.&apos;}" locale="zh" localized="${rfq.canEdit ? &apos;还没有明细。请使用添加明细加入需要报价的内容，然后邀请供应商。&apos;                                     : &apos;此 RFQ 没有明细。&apos;}"/>
+    <moqui.basic.LocalizedMessage original="${snoozed ? &apos;Until &apos; + snoozeThruText + (snoozeReason ? &apos;: &apos; + snoozeReason : &apos;&apos;) : &apos;&apos;}" locale="zh" localized="${snoozed ? &apos;直到 &apos; + snoozeThruText + (snoozeReason ? &apos;: &apos; + snoozeReason : &apos;&apos;) : &apos;&apos;}"/>
+    <moqui.basic.LocalizedMessage original="${supplierName || &apos;No supplier&apos;}" locale="zh" localized="${supplierName || &apos;无供应商&apos;}"/>
+    <moqui.basic.LocalizedMessage original="${supplierName} declined RFQ ${requestId}" locale="zh" localized="${supplierName} 拒绝了 RFQ ${requestId}"/>
+    <moqui.basic.LocalizedMessage original="${{FAILED: &apos;Failed: &apos; + (errorCode || &apos;&apos;).replace(/_/g, &apos; &apos;).toLowerCase(),                                                             PENDING_APPROVAL: &apos;Waiting for the award approval&apos;, REFUSED: &apos;Refused&apos;}[resultStatus] || &apos;&apos;}" locale="zh" localized="${{FAILED: &apos;已失败： &apos; + (errorCode || &apos;&apos;).replace(/_/g, &apos; &apos;).toLowerCase(),                                                             PENDING_APPROVAL: &apos;等待授标批准&apos;, REFUSED: &apos;已拒绝&apos;}[resultStatus] || &apos;&apos;}"/>
+    <moqui.basic.LocalizedMessage original="${{TO_SEND: &apos;Will be sent&apos;, RECIPIENT_REQUIRED: &apos;No address: not sent&apos;,                                                             RECIPIENT_INVALID: &apos;Invalid address: not sent&apos;}[resultStatus] || resultStatus}" locale="zh" localized="${{TO_SEND: &apos;将会发送&apos;, RECIPIENT_REQUIRED: &apos;无地址：未发送&apos;,                                                             RECIPIENT_INVALID: &apos;无效地址：未发送&apos;}[resultStatus] || resultStatus}"/>
+    <moqui.basic.LocalizedMessage original="1 · Proposed change: lines" locale="zh" localized="1 · 提议的变更：行"/>
+    <moqui.basic.LocalizedMessage original="1 · Proposed change: the order" locale="zh" localized="1 · 提议的变更：订单"/>
+    <moqui.basic.LocalizedMessage original="1 · Review the award" locale="zh" localized="1 · 审核授标"/>
+    <moqui.basic.LocalizedMessage original="2 · Effects · ${changeRows.length} changes" locale="zh" localized="2 · 影响 · ${changeRows.length} 项变更"/>
+    <moqui.basic.LocalizedMessage original="2 · The award placed · ${awardResult.doneText}" locale="zh" localized="2 · 已下达的授标 · ${awardResult.doneText}"/>
+    <moqui.basic.LocalizedMessage original="3 · Apply revision ${preview.proposedRevision}" locale="zh" localized="3 · 应用修订 ${preview.proposedRevision}"/>
+    <moqui.basic.LocalizedMessage original="3 · Close RFQ ${requestId}" locale="zh" localized="3 · 关闭 RFQ ${requestId}"/>
+    <moqui.basic.LocalizedMessage original="3 · The RFQ closed · ${closeResult.doneText}" locale="zh" localized="3 · RFQ 已关闭 · ${closeResult.doneText}"/>
+    <moqui.basic.LocalizedMessage original="90 days before the end when empty" locale="zh" localized="为空时为结束前 90 天"/>
+    <moqui.basic.LocalizedMessage original="A call with whom, an email&apos;s subject" locale="zh" localized="与谁的通话、电子邮件的主题"/>
+    <moqui.basic.LocalizedMessage original="A change of the response date or the specification needs a new send." locale="zh" localized="响应日期或规格的变更需要重新发送。"/>
+    <moqui.basic.LocalizedMessage original="A change of the supplier, dates or currency is a new revision: the agreement takes no                                                 release until it is approved." locale="zh" localized="供应商、日期或货币的变更是新修订：协议在批准前不予发放。"/>
+    <moqui.basic.LocalizedMessage original="A code of an industry classification, if any" locale="zh" localized="行业分类代码，如有"/>
+    <moqui.basic.LocalizedMessage original="A draft for the supplier; add its lines on the order, then place it." locale="zh" localized="给供应商的草稿；在订单上添加其行，然后下达。"/>
+    <moqui.basic.LocalizedMessage original="A draft of what you need; add its lines on the request, then submit it for approval." locale="zh" localized="您所需内容的草稿；在请求上添加其行，然后提交审批。"/>
+    <moqui.basic.LocalizedMessage original="A draft request for quotation; add its items and invite suppliers on it, then send it." locale="zh" localized="询价草稿；添加其项目并邀请供应商，然后发送。"/>
+    <moqui.basic.LocalizedMessage original="A new supplier starts Pending approval; empty takes No" locale="zh" localized="新供应商从待批准开始；为空时取否"/>
+    <moqui.basic.LocalizedMessage original="A purchase approver approves it on the order, which releases the hold; then it is sent to ${supplierName} again. To change it further, start from the order once it is approved." locale="zh" localized="采购审批人在订单上批准，从而发放暂挂；然后再次发送给 ${supplierName}。若要再改，请在订单批准后从该订单开始。"/>
+    <moqui.basic.LocalizedMessage original="A quantity tier: the price from this quantity up" locale="zh" localized="数量阶梯：从此数量起的单价"/>
+    <moqui.basic.LocalizedMessage original="A receipt allows what it accepted less what earlier returns took, no more than is on hand;                                 rejected stock goes back once its inspection&apos;s disposition is Return to supplier." locale="zh" localized="收货允许已接受数减去先前退货取走的数，且不超过现有量；拒收库存仅在其检验处置为退回供应商时退回。"/>
+    <moqui.basic.LocalizedMessage original="A year before the end when empty" locale="zh" localized="为空时为结束前一年"/>
+    <moqui.basic.LocalizedMessage original="Accept the substitute" locale="zh" localized="接受替代"/>
+    <moqui.basic.LocalizedMessage original="Accepted with changes" locale="zh" localized="接受并有变更"/>
+    <moqui.basic.LocalizedMessage original="Acknowledgement reminder days" locale="zh" localized="确认提醒天数"/>
+    <moqui.basic.LocalizedMessage original="Acknowledgements" locale="zh" localized="确认"/>
+    <moqui.basic.LocalizedMessage original="Add a file to agreement ${agreementId}" locale="zh" localized="向协议 ${agreementId} 添加文件"/>
+    <moqui.basic.LocalizedMessage original="Add a line to quote ${orderId}" locale="zh" localized="向报价 ${orderId} 添加一行"/>
+    <moqui.basic.LocalizedMessage original="Add a reorder rule" locale="zh" localized="添加再订货规则"/>
+    <moqui.basic.LocalizedMessage original="Add a signer to agreement ${agreementId}" locale="zh" localized="向协议 ${agreementId} 添加签署人"/>
+    <moqui.basic.LocalizedMessage original="Add a term to agreement ${agreementId}" locale="zh" localized="向协议 ${agreementId} 添加条款"/>
+    <moqui.basic.LocalizedMessage original="Add allocation" locale="zh" localized="添加分配"/>
+    <moqui.basic.LocalizedMessage original="Add an item to RFQ ${requestId}" locale="zh" localized="向 RFQ ${requestId} 添加项目"/>
+    <moqui.basic.LocalizedMessage original="Add an item to agreement ${agreementId}" locale="zh" localized="向协议 ${agreementId} 添加项目"/>
+    <moqui.basic.LocalizedMessage original="Add file" locale="zh" localized="添加文件"/>
+    <moqui.basic.LocalizedMessage original="Add item" locale="zh" localized="添加项目"/>
+    <moqui.basic.LocalizedMessage original="Add signer" locale="zh" localized="添加签署人"/>
+    <moqui.basic.LocalizedMessage original="Add term" locale="zh" localized="添加条款"/>
+    <moqui.basic.LocalizedMessage original="Age" locale="zh" localized="账龄"/>
+    <moqui.basic.LocalizedMessage original="Agreement ${agreementId}" locale="zh" localized="协议 ${agreementId}"/>
+    <moqui.basic.LocalizedMessage original="Agreement ${agreementId} is not available" locale="zh" localized="协议 ${agreementId} 不可用"/>
+    <moqui.basic.LocalizedMessage original="Agreement ${agreementId} · ${agr.supplierName}" locale="zh" localized="协议 ${agreementId} · ${agr.supplierName}"/>
+    <moqui.basic.LocalizedMessage original="Agreement Item Seq ID" locale="zh" localized="协议项目序号 ID"/>
+    <moqui.basic.LocalizedMessage original="Agreement Revision" locale="zh" localized="协议修订"/>
+    <moqui.basic.LocalizedMessage original="Agreement document" locale="zh" localized="协议文件"/>
+    <moqui.basic.LocalizedMessage original="Agreement or description" locale="zh" localized="协议或描述"/>
+    <moqui.basic.LocalizedMessage original="All agreements" locale="zh" localized="全部协议"/>
+    <moqui.basic.LocalizedMessage original="Allocate ${chosenDemand.requestItemSeqId} · ${chosenDemand.remainingText} ${chosenDemand.uomText} left" locale="zh" localized="分配 ${chosenDemand.requestItemSeqId} · 剩余 ${chosenDemand.remainingText} ${chosenDemand.uomText}"/>
+    <moqui.basic.LocalizedMessage original="Allocations Text" locale="zh" localized="分配文本"/>
+    <moqui.basic.LocalizedMessage original="Amendments" locale="zh" localized="修订"/>
+    <moqui.basic.LocalizedMessage original="Amount now" locale="zh" localized="当前金额"/>
+    <moqui.basic.LocalizedMessage original="Another product for the line, where the buying policy allows it" locale="zh" localized="该行的另一产品，在采购策略允许时"/>
+    <moqui.basic.LocalizedMessage original="Apply levels" locale="zh" localized="应用库存水平"/>
+    <moqui.basic.LocalizedMessage original="Apply revision ${preview.proposedRevision}" locale="zh" localized="应用修订 ${preview.proposedRevision}"/>
+    <moqui.basic.LocalizedMessage original="Apply revision ${preview.proposedRevision} of ${orderId}? It then waits for its approval before it is sent." locale="zh" localized="应用修订 ${preview.proposedRevision}（属于 ${orderId}）？发送前将等待其批准。"/>
+    <moqui.basic.LocalizedMessage original="Apply the suggested levels" locale="zh" localized="应用建议的库存水平"/>
+    <moqui.basic.LocalizedMessage original="Apply the suggested minimum and maximum to each selected rule? A product without a suggestion is named and left." locale="zh" localized="将建议的最小值和最大值应用到每条所选规则？没有建议的产品会被点名并保留。"/>
+    <moqui.basic.LocalizedMessage original="Approval good for (days)" locale="zh" localized="批准有效期（天）"/>
+    <moqui.basic.LocalizedMessage original="Approval policies" locale="zh" localized="批准策略"/>
+    <moqui.basic.LocalizedMessage original="Approval policies are not available to you." locale="zh" localized="批准策略对您不可用。"/>
+    <moqui.basic.LocalizedMessage original="Approval policies of ${found.organizationName}: a source whose amount is in a band is approved in the band&apos;s steps, in order. With no step for a source type one purchase approver decides; with steps, an amount no band covers cannot be approved." locale="zh" localized="${found.organizationName} 的审批政策：金额落在某区间的来源按该区间步骤依次审批。某来源类型无步骤时，由一名采购审批人决定；有步骤时，任何区间都未覆盖的金额不能批准。"/>
+    <moqui.basic.LocalizedMessage original="Approval steps · ${policyRows.length}" locale="zh" localized="审批步骤 · ${policyRows.length}"/>
+    <moqui.basic.LocalizedMessage original="Approve agreement ${agreementId}" locale="zh" localized="批准协议 ${agreementId}"/>
+    <moqui.basic.LocalizedMessage original="Approve each selected purchase order at the revision shown?" locale="zh" localized="按所示修订批准每张所选采购订单？"/>
+    <moqui.basic.LocalizedMessage original="Approve revision ${agr.agreementRevision}" locale="zh" localized="批准修订 ${agr.agreementRevision}"/>
+    <moqui.basic.LocalizedMessage original="Approve the selected purchase orders" locale="zh" localized="批准所选采购订单"/>
+    <moqui.basic.LocalizedMessage original="Approved by" locale="zh" localized="批准人"/>
+    <moqui.basic.LocalizedMessage original="Approved, not sent" locale="zh" localized="已批准，未发送"/>
+    <moqui.basic.LocalizedMessage original="Approver" locale="zh" localized="批准人"/>
+    <moqui.basic.LocalizedMessage original="Approver group" locale="zh" localized="批准人组"/>
+    <moqui.basic.LocalizedMessage original="Approvers needed" locale="zh" localized="所需批准人"/>
+    <moqui.basic.LocalizedMessage original="Approves" locale="zh" localized="批准"/>
+    <moqui.basic.LocalizedMessage original="As published" locale="zh" localized="按已发布"/>
+    <moqui.basic.LocalizedMessage original="As quoted" locale="zh" localized="按报价"/>
+    <moqui.basic.LocalizedMessage original="Ask finance to release the hold on bill ${invoiceId}" locale="zh" localized="请财务发放账单 ${invoiceId} 的暂挂"/>
+    <moqui.basic.LocalizedMessage original="Ask finance to release the hold on bill ${invoiceId}?" locale="zh" localized="请财务发放账单 ${invoiceId} 的暂挂？"/>
+    <moqui.basic.LocalizedMessage original="Ask to release" locale="zh" localized="请求发放"/>
+    <moqui.basic.LocalizedMessage original="Asked for" locale="zh" localized="已请求"/>
+    <moqui.basic.LocalizedMessage original="Assign a buyer to the selected suppliers" locale="zh" localized="为所选供应商分派采购员"/>
+    <moqui.basic.LocalizedMessage original="Assign buyer" locale="zh" localized="分派采购员"/>
+    <moqui.basic.LocalizedMessage original="Assign this buyer to the selected suppliers?" locale="zh" localized="将此采购员分派给所选供应商？"/>
+    <moqui.basic.LocalizedMessage original="Automatic conversion leaves the shortage until then; the plan still shows it. Empty ends the snooze." locale="zh" localized="在此之前自动转换会留下短缺；计划仍会显示它。为空时结束暂缓。"/>
+    <moqui.basic.LocalizedMessage original="Award" locale="zh" localized="授标"/>
+    <moqui.basic.LocalizedMessage original="Award of RFQ ${requestId}" locale="zh" localized="RFQ ${requestId} 的授标"/>
+    <moqui.basic.LocalizedMessage original="Award · ${rfq.requestName}" locale="zh" localized="授标 · ${rfq.requestName}"/>
+    <moqui.basic.LocalizedMessage original="Award · RFQ ${requestId} · ${rfq.requestName}" locale="zh" localized="授标 · RFQ ${requestId} · ${rfq.requestName}"/>
+    <moqui.basic.LocalizedMessage original="Awarded" locale="zh" localized="已授标"/>
+    <moqui.basic.LocalizedMessage original="Awards" locale="zh" localized="授标"/>
+    <moqui.basic.LocalizedMessage original="Back to RFQs" locale="zh" localized="返回 RFQ"/>
+    <moqui.basic.LocalizedMessage original="Back to quotes" locale="zh" localized="返回报价"/>
+    <moqui.basic.LocalizedMessage original="Back to the order" locale="zh" localized="返回订单"/>
+    <moqui.basic.LocalizedMessage original="Back to the purchase orders" locale="zh" localized="返回采购订单"/>
+    <moqui.basic.LocalizedMessage original="Back to the scorecards" locale="zh" localized="返回评分卡"/>
+    <moqui.basic.LocalizedMessage original="Balances of ${answer.supplierName}" locale="zh" localized="${answer.supplierName} 的余额"/>
+    <moqui.basic.LocalizedMessage original="Basis Key" locale="zh" localized="基准键"/>
+    <moqui.basic.LocalizedMessage original="Basis history" locale="zh" localized="基准历史"/>
+    <moqui.basic.LocalizedMessage original="Below minimum" locale="zh" localized="低于最小值"/>
+    <moqui.basic.LocalizedMessage original="Below this the plan orders" locale="zh" localized="低于此时计划会下单"/>
+    <moqui.basic.LocalizedMessage original="Bill, supplier&apos;s number or description" locale="zh" localized="账单、供应商编号或描述"/>
+    <moqui.basic.LocalizedMessage original="Bills &amp; matching" locale="zh" localized="账单与匹配"/>
+    <moqui.basic.LocalizedMessage original="Bills and credits" locale="zh" localized="账单与贷项"/>
+    <moqui.basic.LocalizedMessage original="Bills, credits and payments with a supplier, with the opening and closing balance in each currency." locale="zh" localized="与供应商的账单、贷项和付款，以及每种货币的期初和期末余额。"/>
+    <moqui.basic.LocalizedMessage original="Blanket agreement" locale="zh" localized="框架协议"/>
+    <moqui.basic.LocalizedMessage original="Blocked only" locale="zh" localized="仅已冻结"/>
+    <moqui.basic.LocalizedMessage original="Budget ${{NONE: &apos;not controlled&apos;, WITHHELD: &apos;decided at the order approval&apos;, OK: &apos;within&apos;,                                                             WARN: &apos;warns&apos;, STOP: &apos;stops&apos;}[budgetResult] || budgetResult}" locale="zh" localized="预算 ${{NONE: &apos;未管控&apos;, WITHHELD: &apos;在订单批准时决定&apos;, OK: &apos;范围内&apos;,                                                             WARN: &apos;警告&apos;, STOP: &apos;阻止&apos;}[budgetResult] || budgetResult}"/>
+    <moqui.basic.LocalizedMessage original="Budget commitments of purchase requests, purchase orders and bills: a reservation, its order and its actual count once, each at the stage it is at." locale="zh" localized="采购请求、采购订单和账单的预算承诺：预留、其订单及其实际各计一次，各自处于其所在阶段。"/>
+    <moqui.basic.LocalizedMessage original="Budget decision" locale="zh" localized="预算决定"/>
+    <moqui.basic.LocalizedMessage original="Buyer" locale="zh" localized="采购员"/>
+    <moqui.basic.LocalizedMessage original="Buyers approve their own orders" locale="zh" localized="采购员批准自己的订单"/>
+    <moqui.basic.LocalizedMessage original="Buying defaults" locale="zh" localized="采购默认值"/>
+    <moqui.basic.LocalizedMessage original="Buying organization" locale="zh" localized="采购组织"/>
+    <moqui.basic.LocalizedMessage original="Buying policy" locale="zh" localized="采购策略"/>
+    <moqui.basic.LocalizedMessage original="Buying policy of ${policy.organizationName}: each change starts a dated policy and ends the one before it; a document keeps the policy it was checked against." locale="zh" localized="${policy.organizationName} 的采购政策：每次变更开始一条带日期的政策并结束上一条；单据保留其接受检查时所用的政策。"/>
+    <moqui.basic.LocalizedMessage original="Buying profiles of ${buyingOrganizationName}" locale="zh" localized="${buyingOrganizationName} 的采购档案"/>
+    <moqui.basic.LocalizedMessage original="By ${answer.groupLabel.toLowerCase()}" locale="zh" localized="由 ${answer.groupLabel.toLowerCase()}"/>
+    <moqui.basic.LocalizedMessage original="Calculate the plan of ${plan.facilityNames} now? It replaces the current plan&apos;s unconverted suggestions." locale="zh" localized="立即计算 ${plan.facilityNames} 的计划？这将替换当前计划中未转换的建议。"/>
+    <moqui.basic.LocalizedMessage original="Cancel agreement" locale="zh" localized="取消协议"/>
+    <moqui.basic.LocalizedMessage original="Cancel agreement ${agreementId}" locale="zh" localized="取消协议 ${agreementId}"/>
+    <moqui.basic.LocalizedMessage original="Change ${metricText}" locale="zh" localized="更改 ${metricText}"/>
+    <moqui.basic.LocalizedMessage original="Change approval step ${stepText}, ${bandText}" locale="zh" localized="更改审批步骤 ${stepText}，${bandText}"/>
+    <moqui.basic.LocalizedMessage original="Change basis" locale="zh" localized="变更基准"/>
+    <moqui.basic.LocalizedMessage original="Change controls" locale="zh" localized="变更控制"/>
+    <moqui.basic.LocalizedMessage original="Change defaults" locale="zh" localized="变更默认值"/>
+    <moqui.basic.LocalizedMessage original="Change of the order&apos;s amount: ${preview.amountDeltaText}. A lowered line&apos;s budget commitment is released to what it still needs; a raised line is reserved when the new revision is approved." locale="zh" localized="订单金额变更：${preview.amountDeltaText}。降低行的预算承诺发放至其仍需金额；提高的行在新修订批准时预留。"/>
+    <moqui.basic.LocalizedMessage original="Change purchase order ${orderId}" locale="zh" localized="更改采购订单 ${orderId}"/>
+    <moqui.basic.LocalizedMessage original="Change purchase order ${orderId} · ${supplierName}" locale="zh" localized="更改采购订单 ${orderId} · ${supplierName}"/>
+    <moqui.basic.LocalizedMessage original="Change the buying defaults of ${policy.organizationName}" locale="zh" localized="更改 ${policy.organizationName} 的采购默认值"/>
+    <moqui.basic.LocalizedMessage original="Change the purchase controls of ${policy.organizationName}" locale="zh" localized="更改 ${policy.organizationName} 的采购控制"/>
+    <moqui.basic.LocalizedMessage original="Change the scorecard basis of ${policy.organizationName}" locale="zh" localized="更改 ${policy.organizationName} 的评分卡基准"/>
+    <moqui.basic.LocalizedMessage original="Changes Text" locale="zh" localized="变更文本"/>
+    <moqui.basic.LocalizedMessage original="Check and create" locale="zh" localized="检查并创建"/>
+    <moqui.basic.LocalizedMessage original="Choose a product to see its units, packaging, supplier prices and stock." locale="zh" localized="选择产品以查看其单位、包装、供应商单价和库存。"/>
+    <moqui.basic.LocalizedMessage original="Choose a supplier to see its statement." locale="zh" localized="选择供应商以查看其对账单。"/>
+    <moqui.basic.LocalizedMessage original="Choose an agreement document, supporting document or price sheet" locale="zh" localized="选择协议文件、支持文件或价格表"/>
+    <moqui.basic.LocalizedMessage original="Choose supplier" locale="zh" localized="选择供应商"/>
+    <moqui.basic.LocalizedMessage original="Choose the offers" locale="zh" localized="选择报盘"/>
+    <moqui.basic.LocalizedMessage original="Close RFQ" locale="zh" localized="关闭 RFQ"/>
+    <moqui.basic.LocalizedMessage original="Close RFQ ${requestId} and cancel ${closePreview.closingRows.length} quotes as not awarded?" locale="zh" localized="关闭 RFQ ${requestId} 并按未中标取消 ${closePreview.closingRows.length} 份报价？"/>
+    <moqui.basic.LocalizedMessage original="Close agreement" locale="zh" localized="关闭协议"/>
+    <moqui.basic.LocalizedMessage original="Close agreement ${agreementId}? It takes no more releases; its orders stay." locale="zh" localized="关闭协议 ${agreementId}？不再接受发放；其订单保留。"/>
+    <moqui.basic.LocalizedMessage original="Close remainder" locale="zh" localized="关闭剩余"/>
+    <moqui.basic.LocalizedMessage original="Close what is left of the selected purchase orders" locale="zh" localized="关闭所选采购订单的剩余部分"/>
+    <moqui.basic.LocalizedMessage original="Close what is left to receive on each selected purchase order?" locale="zh" localized="关闭每张所选采购订单中待收的剩余部分？"/>
+    <moqui.basic.LocalizedMessage original="Committed and billed, last three months, as of ${spendSummary.asOfText}. They are separate measures." locale="zh" localized="已承诺与已开账单，近三个月，截至 ${spendSummary.asOfText}。二者为独立度量。"/>
+    <moqui.basic.LocalizedMessage original="Committed by orders" locale="zh" localized="由订单承诺"/>
+    <moqui.basic.LocalizedMessage original="Committed, received, billed and paid are separate measures, each in its own column and currency; they are never added together." locale="zh" localized="已承诺、已收货、已列入账单和已付是分开的度量，各有自己的列和货币；从不相加。"/>
+    <moqui.basic.LocalizedMessage original="Compare quotes" locale="zh" localized="比较报价"/>
+    <moqui.basic.LocalizedMessage original="Compare quotes of RFQ ${requestId}" locale="zh" localized="比较 RFQ ${requestId} 的报价"/>
+    <moqui.basic.LocalizedMessage original="Compare quotes · ${basisValue.requestName}" locale="zh" localized="比较报价 · ${basisValue.requestName}"/>
+    <moqui.basic.LocalizedMessage original="Compare quotes · RFQ ${requestId} · ${basisValue.requestName}" locale="zh" localized="比较报价 · RFQ ${requestId} · ${basisValue.requestName}"/>
+    <moqui.basic.LocalizedMessage original="Compare the quotes and allocate each item&apos;s quantity to its offers, then review                                         the award here. When the award is placed, close the RFQ to tell the other suppliers." locale="zh" localized="比较报价并把每个项目的数量分配给其报盘，然后在此审核授标。授标下达后，关闭 RFQ 以通知其他供应商。"/>
+    <moqui.basic.LocalizedMessage original="Compared quantity" locale="zh" localized="比较数量"/>
+    <moqui.basic.LocalizedMessage original="Converting a buy suggestion makes a purchase request sent for approval; empty takes No (a draft purchase order)" locale="zh" localized="转换采购建议会生成送审的采购请求；为空时取否（草稿采购订单）"/>
+    <moqui.basic.LocalizedMessage original="Count held stock" locale="zh" localized="盘点暂挂库存"/>
+    <moqui.basic.LocalizedMessage original="Count stock held for an inspection that is due within the lead time" locale="zh" localized="盘点在提前期内到期的检验所暂挂的库存"/>
+    <moqui.basic.LocalizedMessage original="Cover Days" locale="zh" localized="覆盖天数"/>
+    <moqui.basic.LocalizedMessage original="Create ${newSupplierName}" locale="zh" localized="创建 ${newSupplierName}"/>
+    <moqui.basic.LocalizedMessage original="Create Anyway" locale="zh" localized="仍然创建"/>
+    <moqui.basic.LocalizedMessage original="Create anyway" locale="zh" localized="仍然创建"/>
+    <moqui.basic.LocalizedMessage original="Create return" locale="zh" localized="创建退货"/>
+    <moqui.basic.LocalizedMessage original="Credit and replacement" locale="zh" localized="贷项与更换"/>
+    <moqui.basic.LocalizedMessage original="Criterion" locale="zh" localized="准则"/>
+    <moqui.basic.LocalizedMessage original="Current plan" locale="zh" localized="当前计划"/>
+    <moqui.basic.LocalizedMessage original="Daily demand" locale="zh" localized="日需求"/>
+    <moqui.basic.LocalizedMessage original="Date and time" locale="zh" localized="日期和时间"/>
+    <moqui.basic.LocalizedMessage original="Days a supplier has to answer an RFQ; empty takes 7" locale="zh" localized="供应商答复 RFQ 的天数；为空时取 7"/>
+    <moqui.basic.LocalizedMessage original="Days after sending an unacknowledged order is reminded; empty takes 3" locale="zh" localized="发送后提醒未确认订单的天数；为空时取 3"/>
+    <moqui.basic.LocalizedMessage original="Days to ship" locale="zh" localized="发货天数"/>
+    <moqui.basic.LocalizedMessage original="Default buyer" locale="zh" localized="默认采购员"/>
+    <moqui.basic.LocalizedMessage original="Deliver to" locale="zh" localized="交付至"/>
+    <moqui.basic.LocalizedMessage original="Delivery by" locale="zh" localized="交付截止"/>
+    <moqui.basic.LocalizedMessage original="Delivery by: ${quote.deliveryText || &apos;not given&apos;}" locale="zh" localized="交货截止：${quote.deliveryText || &apos;未提供&apos;}"/>
+    <moqui.basic.LocalizedMessage original="Demand history in days" locale="zh" localized="需求历史天数"/>
+    <moqui.basic.LocalizedMessage original="Demand left" locale="zh" localized="剩余需求"/>
+    <moqui.basic.LocalizedMessage original="Demand · ${demandRows.length}" locale="zh" localized="需求 · ${demandRows.length}"/>
+    <moqui.basic.LocalizedMessage original="Dispatch" locale="zh" localized="发运"/>
+    <moqui.basic.LocalizedMessage original="Display currency" locale="zh" localized="显示货币"/>
+    <moqui.basic.LocalizedMessage original="Draft orders" locale="zh" localized="草稿订单"/>
+    <moqui.basic.LocalizedMessage original="Drop Ship Key" locale="zh" localized="直运键"/>
+    <moqui.basic.LocalizedMessage original="Drop-ship" locale="zh" localized="直运"/>
+    <moqui.basic.LocalizedMessage original="Drop-ship ${requestItemKey} from a supplier" locale="zh" localized="由供应商直发 ${requestItemKey}"/>
+    <moqui.basic.LocalizedMessage original="Drop-ship from supplier" locale="zh" localized="供应商直运"/>
+    <moqui.basic.LocalizedMessage original="Due basis" locale="zh" localized="到期基准"/>
+    <moqui.basic.LocalizedMessage original="Each request line to its orders, and each order line through receipt, inspection, bill, match and payment." locale="zh" localized="每条请求行对应其订单，每条订单行经过收货、检验、账单、匹配和付款。"/>
+    <moqui.basic.LocalizedMessage original="Each supplier group becomes a draft purchase order; place and approve each on its own." locale="zh" localized="每个供应商组成为一张草稿采购订单；请分别下达并批准。"/>
+    <moqui.basic.LocalizedMessage original="Edit RFQ" locale="zh" localized="编辑 RFQ"/>
+    <moqui.basic.LocalizedMessage original="Edit RFQ ${requestId}" locale="zh" localized="编辑 RFQ ${requestId}"/>
+    <moqui.basic.LocalizedMessage original="Edit agreement ${agreementId}" locale="zh" localized="编辑协议 ${agreementId}"/>
+    <moqui.basic.LocalizedMessage original="Edit item ${agreementItemSeqId}" locale="zh" localized="编辑项目 ${agreementItemSeqId}"/>
+    <moqui.basic.LocalizedMessage original="Edit price" locale="zh" localized="编辑单价"/>
+    <moqui.basic.LocalizedMessage original="Eligible" locale="zh" localized="符合条件"/>
+    <moqui.basic.LocalizedMessage original="Eligible receipts" locale="zh" localized="符合条件的收货"/>
+    <moqui.basic.LocalizedMessage original="Empty ends the current buyer" locale="zh" localized="为空时结束当前采购员"/>
+    <moqui.basic.LocalizedMessage original="Empty for a quote the supplier sent unasked" locale="zh" localized="为空时表示供应商未经请求发出的报价"/>
+    <moqui.basic.LocalizedMessage original="Empty for every item" locale="zh" localized="为空时适用于每个项目"/>
+    <moqui.basic.LocalizedMessage original="Empty for the production policy&apos;s" locale="zh" localized="为空时采用生产策略的"/>
+    <moqui.basic.LocalizedMessage original="Empty is no value cap" locale="zh" localized="为空即无金额上限"/>
+    <moqui.basic.LocalizedMessage original="Empty removes the category" locale="zh" localized="为空时移除类别"/>
+    <moqui.basic.LocalizedMessage original="Empty suggests for every product with a rule here" locale="zh" localized="为空时为这里有规则的每个产品提出建议"/>
+    <moqui.basic.LocalizedMessage original="Empty takes 7" locale="zh" localized="为空时取 7"/>
+    <moqui.basic.LocalizedMessage original="Empty takes No" locale="zh" localized="为空时取否"/>
+    <moqui.basic.LocalizedMessage original="Empty takes Not allowed" locale="zh" localized="为空时取不允许"/>
+    <moqui.basic.LocalizedMessage original="Empty takes the buying policy&apos;s receiving facility" locale="zh" localized="为空时取采购策略的收货设施"/>
+    <moqui.basic.LocalizedMessage original="Empty takes the estimate off: the comparison&apos;s landed cost is then unknown" locale="zh" localized="为空时去掉估算：比较的到岸成本便为未知"/>
+    <moqui.basic.LocalizedMessage original="Empty takes the organization&apos;s currency" locale="zh" localized="为空时取组织的货币"/>
+    <moqui.basic.LocalizedMessage original="Empty takes the template&apos;s supplier" locale="zh" localized="为空时取模板的供应商"/>
+    <moqui.basic.LocalizedMessage original="Empty takes the template&apos;s, else the buying policy&apos;s" locale="zh" localized="为空时取模板的，否则取采购策略的"/>
+    <moqui.basic.LocalizedMessage original="Empty: any purchase approver of the organization" locale="zh" localized="为空：组织的任一采购批准人"/>
+    <moqui.basic.LocalizedMessage original="Empty: by risk only" locale="zh" localized="为空：仅按风险"/>
+    <moqui.basic.LocalizedMessage original="Empty: every supplier with a receipt in the period" locale="zh" localized="为空：期间内有收货的每个供应商"/>
+    <moqui.basic.LocalizedMessage original="Empty: never expires" locale="zh" localized="为空：永不过期"/>
+    <moqui.basic.LocalizedMessage original="Empty: none set" locale="zh" localized="为空：未设置"/>
+    <moqui.basic.LocalizedMessage original="Empty: now" locale="zh" localized="为空：现在"/>
+    <moqui.basic.LocalizedMessage original="Empty: the RFQ&apos;s, else the buying policy&apos;s" locale="zh" localized="为空：RFQ 的，否则采购策略的"/>
+    <moqui.basic.LocalizedMessage original="Empty: the buying policy&apos;s response days from today" locale="zh" localized="为空：从今天起的采购策略响应天数"/>
+    <moqui.basic.LocalizedMessage original="Empty: the end of the quote&apos;s validity" locale="zh" localized="为空：报价有效期的结束"/>
+    <moqui.basic.LocalizedMessage original="Empty: the requests and orders of the period" locale="zh" localized="为空：该期间的请求和订单"/>
+    <moqui.basic.LocalizedMessage original="Empty: the scorecard policy&apos;s period before the end" locale="zh" localized="为空：结束前的评分卡策略期间"/>
+    <moqui.basic.LocalizedMessage original="End approval step ${stepText} of ${bandText}?" locale="zh" localized="结束审批步骤 ${stepText}（${bandText}）？"/>
+    <moqui.basic.LocalizedMessage original="End approval step ${stepText}, ${bandText}" locale="zh" localized="结束审批步骤 ${stepText}，${bandText}"/>
+    <moqui.basic.LocalizedMessage original="End at" locale="zh" localized="结束于"/>
+    <moqui.basic.LocalizedMessage original="End item ${agreementItemSeqId} now? It takes no more releases." locale="zh" localized="立即结束项目 ${agreementItemSeqId}？不再接受发放。"/>
+    <moqui.basic.LocalizedMessage original="End risk" locale="zh" localized="结束风险"/>
+    <moqui.basic.LocalizedMessage original="End step" locale="zh" localized="结束步骤"/>
+    <moqui.basic.LocalizedMessage original="End the risk of ${scorecard.supplierName}" locale="zh" localized="结束 ${scorecard.supplierName} 的风险"/>
+    <moqui.basic.LocalizedMessage original="End the rule ${ruleText}" locale="zh" localized="结束规则 ${ruleText}"/>
+    <moqui.basic.LocalizedMessage original="End the rule ${ruleText}?" locale="zh" localized="结束规则 ${ruleText}？"/>
+    <moqui.basic.LocalizedMessage original="End this risk of ${scorecard.supplierName}?" locale="zh" localized="结束 ${scorecard.supplierName} 的这一风险？"/>
+    <moqui.basic.LocalizedMessage original="End this term now?" locale="zh" localized="现在结束此条款？"/>
+    <moqui.basic.LocalizedMessage original="Enter a supplier&apos;s quote" locale="zh" localized="录入供应商报价"/>
+    <moqui.basic.LocalizedMessage original="Enter quote" locale="zh" localized="录入报价"/>
+    <moqui.basic.LocalizedMessage original="Enter the prices on the lines; saving the answer marks the quote quoted by the supplier." locale="zh" localized="在行上输入单价；保存答复会把报价标为供应商已报价。"/>
+    <moqui.basic.LocalizedMessage original="Entered by" locale="zh" localized="录入人"/>
+    <moqui.basic.LocalizedMessage original="Est. landed" locale="zh" localized="估计到岸"/>
+    <moqui.basic.LocalizedMessage original="Evaluate again" locale="zh" localized="再次评估"/>
+    <moqui.basic.LocalizedMessage original="Evaluate each selected bill against its orders and receipts as                                                     they are now? A source that changed holds the bill; no hold is released." locale="zh" localized="按当前状态评估每张所选账单及其订单和收货？来源有变则暂挂该账单；不发放任何暂挂。"/>
+    <moqui.basic.LocalizedMessage original="Evaluate suppliers" locale="zh" localized="评估供应商"/>
+    <moqui.basic.LocalizedMessage original="Evaluate the selected bills against their sources" locale="zh" localized="按来源评估所选账单"/>
+    <moqui.basic.LocalizedMessage original="Evaluation ${scorecard.supplierScorecardId}" locale="zh" localized="评估 ${scorecard.supplierScorecardId}"/>
+    <moqui.basic.LocalizedMessage original="Evaluation ${supplierScorecardId} is not available: it does not exist or it is not of your organizations&apos; suppliers." locale="zh" localized="评估 ${supplierScorecardId} 不可用：它不存在，或不是您所在组织的供应商评估。"/>
+    <moqui.basic.LocalizedMessage original="Evaluation basis" locale="zh" localized="评估基准"/>
+    <moqui.basic.LocalizedMessage original="Every commitment" locale="zh" localized="每项承诺"/>
+    <moqui.basic.LocalizedMessage original="Every currency when empty" locale="zh" localized="为空时为每种货币"/>
+    <moqui.basic.LocalizedMessage original="Every evaluation" locale="zh" localized="每次评估"/>
+    <moqui.basic.LocalizedMessage original="Every how many hours" locale="zh" localized="每隔多少小时"/>
+    <moqui.basic.LocalizedMessage original="Every step, with the ended ones" locale="zh" localized="每个步骤，包括已结束的"/>
+    <moqui.basic.LocalizedMessage original="Find a product" locale="zh" localized="查找产品"/>
+    <moqui.basic.LocalizedMessage original="Floor (score 0)" locale="zh" localized="下限（评分 0）"/>
+    <moqui.basic.LocalizedMessage original="For RFQ" locale="zh" localized="用于 RFQ"/>
+    <moqui.basic.LocalizedMessage original="For a product whose supplier gives none" locale="zh" localized="用于供应商未提供任何值的产品"/>
+    <moqui.basic.LocalizedMessage original="For an amendment of a quote already recorded" locale="zh" localized="用于已记录报价的修订"/>
+    <moqui.basic.LocalizedMessage original="For every line" locale="zh" localized="用于每一行"/>
+    <moqui.basic.LocalizedMessage original="For request lines" locale="zh" localized="用于请求行"/>
+    <moqui.basic.LocalizedMessage original="Freight (${quote.currencyUomId})" locale="zh" localized="运费 (${quote.currencyUomId})"/>
+    <moqui.basic.LocalizedMessage original="Freight estimate" locale="zh" localized="运费估算"/>
+    <moqui.basic.LocalizedMessage original="From Amount" locale="zh" localized="起始金额"/>
+    <moqui.basic.LocalizedMessage original="From amount" locale="zh" localized="起始金额"/>
+    <moqui.basic.LocalizedMessage original="From quantity" locale="zh" localized="起始数量"/>
+    <moqui.basic.LocalizedMessage original="Handled by" locale="zh" localized="经办人"/>
+    <moqui.basic.LocalizedMessage original="Held bills" locale="zh" localized="暂挂账单"/>
+    <moqui.basic.LocalizedMessage original="Held since" locale="zh" localized="暂挂自"/>
+    <moqui.basic.LocalizedMessage original="History Days" locale="zh" localized="历史天数"/>
+    <moqui.basic.LocalizedMessage original="Hold purchase order ${orderId} while it changes?" locale="zh" localized="在变更期间暂挂采购订单 ${orderId}？"/>
+    <moqui.basic.LocalizedMessage original="Horizon in days" locale="zh" localized="展望天数"/>
+    <moqui.basic.LocalizedMessage original="How it came" locale="zh" localized="如何收到"/>
+    <moqui.basic.LocalizedMessage original="How the response came: a phone call, an email" locale="zh" localized="回复如何收到：一次电话、一封电子邮件"/>
+    <moqui.basic.LocalizedMessage original="In effect and starting later" locale="zh" localized="已生效且稍后开始"/>
+    <moqui.basic.LocalizedMessage original="Included; empty is zero" locale="zh" localized="已包含；留空为零"/>
+    <moqui.basic.LocalizedMessage original="Incoterm" locale="zh" localized="贸易术语"/>
+    <moqui.basic.LocalizedMessage original="Incoterm: ${quote.incotermText || &apos;not given&apos;}" locale="zh" localized="Incoterm：${quote.incotermText || &apos;未提供&apos;}"/>
+    <moqui.basic.LocalizedMessage original="Inspected" locale="zh" localized="已检验"/>
+    <moqui.basic.LocalizedMessage original="Invite a supplier to RFQ ${requestId}" locale="zh" localized="邀请供应商参加 RFQ ${requestId}"/>
+    <moqui.basic.LocalizedMessage original="Invite supplier" locale="zh" localized="邀请供应商"/>
+    <moqui.basic.LocalizedMessage original="Is ${newSupplierName} one of these suppliers?" locale="zh" localized="${newSupplierName} 是这些供应商之一吗？"/>
+    <moqui.basic.LocalizedMessage original="It does not exist, or it is not one of your organizations&apos; agreements." locale="zh" localized="它不存在，或不是您所属组织的协议。"/>
+    <moqui.basic.LocalizedMessage original="Item ${requestItemSeqId} of RFQ ${requestId}" locale="zh" localized="项目 ${requestItemSeqId}，RFQ ${requestId}"/>
+    <moqui.basic.LocalizedMessage original="Items · ${detail.itemRows.length}" locale="zh" localized="项目 · ${detail.itemRows.length}"/>
+    <moqui.basic.LocalizedMessage original="Items · ${rfq.itemRows.length}" locale="zh" localized="项目 · ${rfq.itemRows.length}"/>
+    <moqui.basic.LocalizedMessage original="Its items, prices and terms; never its releases" locale="zh" localized="其项目、价格和条款；绝不包含其发放"/>
+    <moqui.basic.LocalizedMessage original="Landed costs in Accounting" locale="zh" localized="会计中的到岸成本"/>
+    <moqui.basic.LocalizedMessage original="Late receipts" locale="zh" localized="延迟收货"/>
+    <moqui.basic.LocalizedMessage original="Latest promise" locale="zh" localized="最新承诺"/>
+    <moqui.basic.LocalizedMessage original="Lead Time Days" locale="zh" localized="提前期天数"/>
+    <moqui.basic.LocalizedMessage original="Lead days" locale="zh" localized="提前天数"/>
+    <moqui.basic.LocalizedMessage original="Leave empty to end now" locale="zh" localized="留空则现在结束"/>
+    <moqui.basic.LocalizedMessage original="Left out because" locale="zh" localized="排除原因"/>
+    <moqui.basic.LocalizedMessage original="Left out: ${spendSummary.omittedText}" locale="zh" localized="未列入：${spendSummary.omittedText}"/>
+    <moqui.basic.LocalizedMessage original="Left to award" locale="zh" localized="待授标"/>
+    <moqui.basic.LocalizedMessage original="Left to source" locale="zh" localized="待寻源"/>
+    <moqui.basic.LocalizedMessage original="Legacy Preview" locale="zh" localized="旧版预览"/>
+    <moqui.basic.LocalizedMessage original="Let the change go" locale="zh" localized="放行变更"/>
+    <moqui.basic.LocalizedMessage original="Let the change of ${orderId} go? Nothing is changed and the order is no longer held for it." locale="zh" localized="放弃 ${orderId} 的变更？不会做任何更改，订单也不再因此暂挂。"/>
+    <moqui.basic.LocalizedMessage original="Limit ${agr.limitText}" locale="zh" localized="限额 ${agr.limitText}"/>
+    <moqui.basic.LocalizedMessage original="Line ${orderItemSeqId} of quote ${orderId}" locale="zh" localized="行 ${orderItemSeqId}，报价 ${orderId}"/>
+    <moqui.basic.LocalizedMessage original="Line Key" locale="zh" localized="行键"/>
+    <moqui.basic.LocalizedMessage original="Lines · ${quote.lineRows.length}" locale="zh" localized="行 · ${quote.lineRows.length}"/>
+    <moqui.basic.LocalizedMessage original="Link ${legacy.linkCount} bill lines from their evidence, and record                                                 ${legacy.ambiguousCount} ambiguous lines as exceptions?" locale="zh" localized="根据其证据关联 ${legacy.linkCount} 条账单行，并记录                                                 ${legacy.ambiguousCount} 条歧义行为例外？"/>
+    <moqui.basic.LocalizedMessage original="Link earlier bills" locale="zh" localized="关联先前的账单"/>
+    <moqui.basic.LocalizedMessage original="Lowest" locale="zh" localized="最低"/>
+    <moqui.basic.LocalizedMessage original="Lowest quantity" locale="zh" localized="最低数量"/>
+    <moqui.basic.LocalizedMessage original="Make a draft purchase order for each of the ${readyCount} supplier groups ready?" locale="zh" localized="为每个已就绪的 ${readyCount} 供应商组创建草稿采购订单？"/>
+    <moqui.basic.LocalizedMessage original="Make this ${quote.supplierName} price effective for ${quote.organizationName}?                                                             A price of the same tier in effect ends where it starts." locale="zh" localized="使此 ${quote.supplierName} 价格对 ${quote.organizationName} 生效？                                                             同一档正在生效的价格在新价格开始处结束。"/>
+    <moqui.basic.LocalizedMessage original="Maximum covers days of demand" locale="zh" localized="最大值覆盖的需求天数"/>
+    <moqui.basic.LocalizedMessage original="Maximum stock" locale="zh" localized="最高库存"/>
+    <moqui.basic.LocalizedMessage original="Measure" locale="zh" localized="指标"/>
+    <moqui.basic.LocalizedMessage original="Measures" locale="zh" localized="指标"/>
+    <moqui.basic.LocalizedMessage original="Message to the suppliers" locale="zh" localized="给供应商的消息"/>
+    <moqui.basic.LocalizedMessage original="Metric Enum ID" locale="zh" localized="指标枚举 ID"/>
+    <moqui.basic.LocalizedMessage original="Minimum eligible receipts" locale="zh" localized="最低合格收货数"/>
+    <moqui.basic.LocalizedMessage original="Minimum sample" locale="zh" localized="最小样本"/>
+    <moqui.basic.LocalizedMessage original="Minimum stock" locale="zh" localized="最低库存"/>
+    <moqui.basic.LocalizedMessage original="Missing data: ${scorecard.missingDataText}" locale="zh" localized="缺少数据：${scorecard.missingDataText}"/>
+    <moqui.basic.LocalizedMessage original="Move the customer&apos;s line to the supplier&apos;s drop-ship facility and buy it there?" locale="zh" localized="将客户的行移到供应商的直发设施并在那里购买？"/>
+    <moqui.basic.LocalizedMessage original="My work" locale="zh" localized="我的工作"/>
+    <moqui.basic.LocalizedMessage original="Name, ID or external ID" locale="zh" localized="名称、ID 或外部 ID"/>
+    <moqui.basic.LocalizedMessage original="Narrows the purchase orders to this supplier&apos;s" locale="zh" localized="将采购订单限定为此供应商的"/>
+    <moqui.basic.LocalizedMessage original="Needed for a changed or rejected response" locale="zh" localized="变更或被拒的回复所需"/>
+    <moqui.basic.LocalizedMessage original="New RFQ" locale="zh" localized="新建 RFQ"/>
+    <moqui.basic.LocalizedMessage original="New RFQs and orders get" locale="zh" localized="新建的 RFQ 和订单得到"/>
+    <moqui.basic.LocalizedMessage original="New agreement" locale="zh" localized="新建协议"/>
+    <moqui.basic.LocalizedMessage original="New agreement from template ${agreementId}" locale="zh" localized="从模板 ${agreementId} 新建协议"/>
+    <moqui.basic.LocalizedMessage original="New agreement from this template" locale="zh" localized="从此模板新建协议"/>
+    <moqui.basic.LocalizedMessage original="New approval step of ${found.organizationName}" locale="zh" localized="${found.organizationName} 的新审批步骤"/>
+    <moqui.basic.LocalizedMessage original="New individual supplier" locale="zh" localized="新建个人供应商"/>
+    <moqui.basic.LocalizedMessage original="New purchase order" locale="zh" localized="新建采购订单"/>
+    <moqui.basic.LocalizedMessage original="New purchase request" locale="zh" localized="新建采购请求"/>
+    <moqui.basic.LocalizedMessage original="New purpose" locale="zh" localized="新建用途"/>
+    <moqui.basic.LocalizedMessage original="New request for quotation" locale="zh" localized="新建询价请求"/>
+    <moqui.basic.LocalizedMessage original="New request purpose" locale="zh" localized="新建请求用途"/>
+    <moqui.basic.LocalizedMessage original="New response rule of ${policy.organizationName}" locale="zh" localized="${policy.organizationName} 的新响应规则"/>
+    <moqui.basic.LocalizedMessage original="New step" locale="zh" localized="新建步骤"/>
+    <moqui.basic.LocalizedMessage original="New supplier" locale="zh" localized="新建供应商"/>
+    <moqui.basic.LocalizedMessage original="New supplier agreement" locale="zh" localized="新建供应商协议"/>
+    <moqui.basic.LocalizedMessage original="New supplier category" locale="zh" localized="新建供应商类别"/>
+    <moqui.basic.LocalizedMessage original="New supplier organization" locale="zh" localized="新建供应商组织"/>
+</entity-facade-xml>

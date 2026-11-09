@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="es">
+    <moqui.basic.LocalizedMessage original="Make statement" locale="es" localized="Elaborar estado de cuenta"/>
+    <moqui.basic.LocalizedMessage original="Make the 1099 data of the chosen year?" locale="es" localized="¿Elaborar los datos 1099 del año elegido?"/>
+    <moqui.basic.LocalizedMessage original="Make the draft for ${nextDateText} of ${description                                                 || invoiceScheduleId}?" locale="es" localized="¿Crear el borrador para ${nextDateText} de ${description                                                 || invoiceScheduleId}?"/>
+    <moqui.basic.LocalizedMessage original="Make the selected rates active" locale="es" localized="Activar los tipos de cambio seleccionados"/>
+    <moqui.basic.LocalizedMessage original="Make the year&apos;s 1099-MISC data" locale="es" localized="Elaborar los datos 1099-MISC del año"/>
+    <moqui.basic.LocalizedMessage original="Map Action" locale="es" localized="Acción de mapeo"/>
+    <moqui.basic.LocalizedMessage original="Mapping Actions" locale="es" localized="Acciones de mapeo"/>
+    <moqui.basic.LocalizedMessage original="Mapping Kind" locale="es" localized="Tipo de mapeo"/>
+    <moqui.basic.LocalizedMessage original="Mappings of" locale="es" localized="Mapeos de"/>
+    <moqui.basic.LocalizedMessage original="Match and clear" locale="es" localized="Conciliar y compensar"/>
+    <moqui.basic.LocalizedMessage original="Match automatically" locale="es" localized="Conciliar automáticamente"/>
+    <moqui.basic.LocalizedMessage original="Match policies" locale="es" localized="Políticas de conciliación"/>
+    <moqui.basic.LocalizedMessage original="Match the bank line of ${postedDateText}" locale="es" localized="Hacer coincidir la línea bancaria de ${postedDateText}"/>
+    <moqui.basic.LocalizedMessage original="Matched with" locale="es" localized="Conciliado con"/>
+    <moqui.basic.LocalizedMessage original="Memo column" locale="es" localized="Columna de nota"/>
+    <moqui.basic.LocalizedMessage original="Method Actions" locale="es" localized="Acciones del método"/>
+    <moqui.basic.LocalizedMessage original="Migration Gl Account ID" locale="es" localized="ID de cuenta contable de migración"/>
+    <moqui.basic.LocalizedMessage original="Migration clearing account" locale="es" localized="Cuenta de compensación de la migración"/>
+    <moqui.basic.LocalizedMessage original="Missing mappings" locale="es" localized="Mapeos faltantes"/>
+    <moqui.basic.LocalizedMessage original="Money in column" locale="es" localized="Columna de entradas de dinero"/>
+    <moqui.basic.LocalizedMessage original="Money out column" locale="es" localized="Columna de salidas de dinero"/>
+    <moqui.basic.LocalizedMessage original="Money out is negative" locale="es" localized="La salida de dinero es negativa"/>
+    <moqui.basic.LocalizedMessage original="More customers are overdue than this list reads. Choose a customer or a collector to see                                     the rest." locale="es" localized="Hay más clientes vencidos de los que lee esta lista. Elija un cliente o un cobrador para ver el resto."/>
+    <moqui.basic.LocalizedMessage original="Most days overdue" locale="es" localized="Máximo de días vencidos"/>
+    <moqui.basic.LocalizedMessage original="Move line" locale="es" localized="Mover línea"/>
+    <moqui.basic.LocalizedMessage original="Move line ${acctgTransEntrySeqId} of ${entryName}" locale="es" localized="Mover la línea ${acctgTransEntrySeqId} de ${entryName}"/>
+    <moqui.basic.LocalizedMessage original="Move to another draft" locale="es" localized="Mover a otro borrador"/>
+    <moqui.basic.LocalizedMessage original="Movement" locale="es" localized="Movimiento"/>
+    <moqui.basic.LocalizedMessage original="Movements" locale="es" localized="Movimientos"/>
+    <moqui.basic.LocalizedMessage original="NACHA return file" locale="es" localized="Archivo de devolución NACHA"/>
+    <moqui.basic.LocalizedMessage original="Needs an account" locale="es" localized="Necesita una cuenta"/>
+    <moqui.basic.LocalizedMessage original="Neither the opening balances nor the open items reach a receivable or payable account yet." locale="es" localized="Ni los saldos iniciales ni las partidas abiertas llegan todavía a una cuenta por cobrar o por pagar."/>
+    <moqui.basic.LocalizedMessage original="Net" locale="es" localized="Neto"/>
+    <moqui.basic.LocalizedMessage original="Net book" locale="es" localized="Valor neto en libros"/>
+    <moqui.basic.LocalizedMessage original="Net book after" locale="es" localized="Valor neto en libros después"/>
+    <moqui.basic.LocalizedMessage original="Net invoiced" locale="es" localized="Neto facturado"/>
+    <moqui.basic.LocalizedMessage original="New account" locale="es" localized="Nueva cuenta"/>
+    <moqui.basic.LocalizedMessage original="New bill" locale="es" localized="Nueva factura recibida"/>
+    <moqui.basic.LocalizedMessage original="New budget" locale="es" localized="Nuevo presupuesto"/>
+    <moqui.basic.LocalizedMessage original="New currency" locale="es" localized="Nueva moneda"/>
+    <moqui.basic.LocalizedMessage original="New invoice" locale="es" localized="Nueva factura"/>
+    <moqui.basic.LocalizedMessage original="New invoices take these lines; issued ones keep theirs. Save?" locale="es" localized="Las facturas nuevas toman estas líneas; las emitidas conservan las suyas. ¿Guardar?"/>
+    <moqui.basic.LocalizedMessage original="New journal batch" locale="es" localized="Nuevo lote de diario"/>
+    <moqui.basic.LocalizedMessage original="New journal entry" locale="es" localized="Nuevo asiento"/>
+    <moqui.basic.LocalizedMessage original="New journal template" locale="es" localized="Nueva plantilla de diario"/>
+    <moqui.basic.LocalizedMessage original="New lines" locale="es" localized="Nuevas líneas"/>
+    <moqui.basic.LocalizedMessage original="New payment" locale="es" localized="Nuevo pago"/>
+    <moqui.basic.LocalizedMessage original="New payment method" locale="es" localized="Nuevo método de pago"/>
+    <moqui.basic.LocalizedMessage original="New payment term" locale="es" localized="Nuevo término de pago"/>
+    <moqui.basic.LocalizedMessage original="New rate (percent)" locale="es" localized="Nueva tasa (porcentaje)"/>
+    <moqui.basic.LocalizedMessage original="New receivable" locale="es" localized="Nueva cuenta por cobrar"/>
+    <moqui.basic.LocalizedMessage original="New reminder run" locale="es" localized="Nueva ejecución de recordatorios"/>
+    <moqui.basic.LocalizedMessage original="New run" locale="es" localized="Nueva ejecución"/>
+    <moqui.basic.LocalizedMessage original="New sales tax statement" locale="es" localized="Nuevo estado de impuesto sobre las ventas"/>
+    <moqui.basic.LocalizedMessage original="New schedule" locale="es" localized="Nueva programación"/>
+    <moqui.basic.LocalizedMessage original="New stored-value account" locale="es" localized="Nueva cuenta de valor almacenado"/>
+    <moqui.basic.LocalizedMessage original="New suppliers self-billing" locale="es" localized="Nueva autofacturación de proveedores"/>
+    <moqui.basic.LocalizedMessage original="New unit cost" locale="es" localized="Nuevo costo unitario"/>
+    <moqui.basic.LocalizedMessage original="New version" locale="es" localized="Nueva versión"/>
+    <moqui.basic.LocalizedMessage original="Next action" locale="es" localized="Siguiente acción"/>
+    <moqui.basic.LocalizedMessage original="Next bills" locale="es" localized="Siguientes facturas recibidas"/>
+    <moqui.basic.LocalizedMessage original="Next draft of ${previewScheduleId}: ${period.partyName} · ${period.invoiceDate}${                                 period.dueDate ? &apos; · due &apos; + period.dueDate : &apos;&apos;}" locale="es" localized="Siguiente borrador de ${previewScheduleId}: ${period.partyName} · ${period.invoiceDate}${                                 period.dueDate ? &apos; · due &apos; + period.dueDate : &apos;&apos;}"/>
+    <moqui.basic.LocalizedMessage original="No ${mappingKindLabel.toLowerCase()} mappings yet. Add one, or map a missing default below." locale="es" localized="Aún no hay asignaciones de ${mappingKindLabel.toLowerCase()}. Añada una, o asigne abajo un valor predeterminado que falte."/>
+    <moqui.basic.LocalizedMessage original="No accounts match. Choose another organization or search, or assign an existing chart account." locale="es" localized="Ninguna cuenta coincide. Elija otra organización o busque, o asigne una cuenta existente del plan de cuentas."/>
+    <moqui.basic.LocalizedMessage original="No agreements with this supplier." locale="es" localized="No hay acuerdos con este proveedor."/>
+    <moqui.basic.LocalizedMessage original="No amounts yet. Add an account with its amount for the period." locale="es" localized="Aún no hay importes. Añada una cuenta con su importe del periodo."/>
+    <moqui.basic.LocalizedMessage original="No approved unbilled work matches these filters." locale="es" localized="Ningún trabajo aprobado sin facturar coincide con estos filtros."/>
+    <moqui.basic.LocalizedMessage original="No asset classes for this organization. A finance administrator adds one to give its assets book defaults." locale="es" localized="No hay clases de activo para esta organización. Un administrador de finanzas añade una para dar a sus activos los valores predeterminados del libro."/>
+    <moqui.basic.LocalizedMessage original="No asset has depreciation to post for this month: each is depreciated already, fully depreciated                     or not in service." locale="es" localized="Ningún activo tiene depreciación por contabilizar este mes: cada uno ya está depreciado, está totalmente depreciado o no está en servicio."/>
+    <moqui.basic.LocalizedMessage original="No bill is in this run. Refresh the selection, or put back a bill left out." locale="es" localized="No hay ninguna factura recibida en esta ejecución. Actualice la selección, o reincorpore una factura recibida que quedó fuera."/>
+    <moqui.basic.LocalizedMessage original="No bill is on hold." locale="es" localized="Ninguna factura recibida está en retención."/>
+    <moqui.basic.LocalizedMessage original="No bill without a match has product lines to link." locale="es" localized="Ninguna factura recibida sin conciliación tiene líneas de producto para vincular."/>
+    <moqui.basic.LocalizedMessage original="No bills from this supplier." locale="es" localized="No hay facturas recibidas de este proveedor."/>
+    <moqui.basic.LocalizedMessage original="No bills match these filters. Upload a supplier&apos;s bill or create one from its order." locale="es" localized="Ninguna factura recibida coincide con estos filtros. Cargue la factura recibida de un proveedor o cree una a partir de su orden."/>
+    <moqui.basic.LocalizedMessage original="No budget" locale="es" localized="Sin presupuesto"/>
+    <moqui.basic.LocalizedMessage original="No budget commitment is recorded for this invoice." locale="es" localized="No hay un compromiso de presupuesto registrado para esta factura."/>
+    <moqui.basic.LocalizedMessage original="No budgets for this organization yet. A budget editor starts one with New budget." locale="es" localized="Aún no hay presupuestos para esta organización. Un editor de presupuestos inicia uno con Nuevo presupuesto."/>
+    <moqui.basic.LocalizedMessage original="No changes have been recorded for this invoice." locale="es" localized="No se han registrado cambios de esta factura."/>
+    <moqui.basic.LocalizedMessage original="No changes of this payment are recorded yet." locale="es" localized="Aún no hay cambios registrados de este pago."/>
+    <moqui.basic.LocalizedMessage original="No commitments. Purchase orders and bills hold spending here against an approved budget." locale="es" localized="No hay compromisos. Las órdenes de compra y las facturas recibidas reservan aquí el gasto contra un presupuesto aprobado."/>
+    <moqui.basic.LocalizedMessage original="No control policy: spending is not checked against the budgets. A finance administrator adds one." locale="es" localized="No hay política de control: el gasto no se comprueba contra los presupuestos. Un administrador de finanzas añade una."/>
+    <moqui.basic.LocalizedMessage original="No cost" locale="es" localized="Sin costo"/>
+    <moqui.basic.LocalizedMessage original="No customer has a reminder due in this run." locale="es" localized="Ningún cliente tiene un recordatorio por vencer en esta ejecución."/>
+    <moqui.basic.LocalizedMessage original="No customer has an open balance for this selection." locale="es" localized="Ningún cliente tiene un saldo abierto para esta selección."/>
+    <moqui.basic.LocalizedMessage original="No customer of the organization is overdue." locale="es" localized="Ningún cliente de la organización está vencido."/>
+    <moqui.basic.LocalizedMessage original="No customer or supplier postings match these options." locale="es" localized="Ninguna contabilización de clientes o proveedores coincide con estas opciones."/>
+    <moqui.basic.LocalizedMessage original="No depreciation runs yet." locale="es" localized="Aún no hay ejecuciones de depreciación."/>
+    <moqui.basic.LocalizedMessage original="No employee or contractor bill is waiting. Bills of approved time come from Billing queue." locale="es" localized="Ninguna factura recibida de un empleado o contratista está en espera. Las facturas recibidas del tiempo aprobado provienen de la cola de facturación."/>
+    <moqui.basic.LocalizedMessage original="No evidence" locale="es" localized="Sin evidencia"/>
+    <moqui.basic.LocalizedMessage original="No exceptions." locale="es" localized="No hay excepciones."/>
+    <moqui.basic.LocalizedMessage original="No exchange rates yet. Add one, or import them from CSV." locale="es" localized="Aún no hay tipos de cambio. Añada uno, o impórtelos desde CSV."/>
+    <moqui.basic.LocalizedMessage original="No findings: the entry is ready to post." locale="es" localized="No hay hallazgos: el asiento está listo para contabilizar."/>
+    <moqui.basic.LocalizedMessage original="No fiscal periods match. Choose another organization, or generate the periods of a year." locale="es" localized="Ningún periodo fiscal coincide. Elija otra organización, o genere los periodos de un año."/>
+    <moqui.basic.LocalizedMessage original="No fixed assets for this organization. Equipment it receives or records shows here to be capitalized." locale="es" localized="No hay activos fijos para esta organización. El equipo que recibe o registra se muestra aquí para capitalizarse."/>
+    <moqui.basic.LocalizedMessage original="No gateway transactions match these filters." locale="es" localized="Ninguna transacción de pasarela coincide con estos filtros."/>
+    <moqui.basic.LocalizedMessage original="No invoice of the period has tax of this authority." locale="es" localized="Ninguna factura del periodo tiene impuesto de esta autoridad."/>
+    <moqui.basic.LocalizedMessage original="No invoice schedules yet. Start one with New schedule from an invoice to repeat." locale="es" localized="Aún no hay programaciones de facturas. Inicie una con Nueva programación desde una factura para repetirla."/>
+    <moqui.basic.LocalizedMessage original="No invoices match these filters." locale="es" localized="Ninguna factura coincide con estos filtros."/>
+    <moqui.basic.LocalizedMessage original="No journal batches match. Choose another organization or search, or create a new journal batch." locale="es" localized="Ningún lote de diario coincide. Elija otra organización o busque, o cree un nuevo lote de diario."/>
+    <moqui.basic.LocalizedMessage original="No journal entries match. Choose another organization or search, or create a new journal entry." locale="es" localized="Ningún asiento coincide. Elija otra organización o busque, o cree un nuevo asiento."/>
+    <moqui.basic.LocalizedMessage original="No journal templates match. Choose another organization or search, or create a new journal template." locale="es" localized="Ninguna plantilla de diario coincide. Elija otra organización o busque, o cree una nueva plantilla de diario."/>
+    <moqui.basic.LocalizedMessage original="No ledger transaction is linked to this invoice." locale="es" localized="Ninguna transacción del libro mayor está vinculada a esta factura."/>
+    <moqui.basic.LocalizedMessage original="No match policy rows yet: bills match accepted receipts with no tolerance. Start one with                     Change policy." locale="es" localized="Aún no hay filas de política de conciliación: las facturas recibidas se concilian con recepciones aceptadas sin tolerancia. Inicie una con Cambiar política."/>
+    <moqui.basic.LocalizedMessage original="No open items yet. Import the customer invoices and supplier bills open on the opening day,                                     or go on when there are none." locale="es" localized="Aún no hay partidas abiertas. Importe las facturas de clientes y las facturas recibidas de proveedores abiertas el día de apertura, o continúe si no hay ninguna."/>
+    <moqui.basic.LocalizedMessage original="No opening balances yet. Add each account&apos;s balance on the opening day with Add line, or                                     import the trial balance." locale="es" localized="Aún no hay saldos iniciales. Añada el saldo de cada cuenta en el día de apertura con Añadir línea, o importe el balance de comprobación."/>
+    <moqui.basic.LocalizedMessage original="No order lines are linked to this invoice." locale="es" localized="Ninguna línea de orden está vinculada a esta factura."/>
+    <moqui.basic.LocalizedMessage original="No payment methods yet. Add one with New payment method." locale="es" localized="Aún no hay métodos de pago. Añada uno con Nuevo método de pago."/>
+    <moqui.basic.LocalizedMessage original="No payment runs yet. Start one with New run to pay the bills that are due." locale="es" localized="Aún no hay ejecuciones de pago. Inicie una con Nueva ejecución para pagar las facturas recibidas que vencen."/>
+    <moqui.basic.LocalizedMessage original="No payment terms yet. Add one with New payment term." locale="es" localized="Aún no hay términos de pago. Añada uno con Nuevo término de pago."/>
+    <moqui.basic.LocalizedMessage original="No payments to this supplier." locale="es" localized="No hay pagos a este proveedor."/>
+    <moqui.basic.LocalizedMessage original="No period runs yet. Start a run to calculate one without posting." locale="es" localized="Aún no hay ejecuciones de periodo. Inicie una ejecución para calcular un periodo sin contabilizar."/>
+    <moqui.basic.LocalizedMessage original="No posted entries in the comparison period." locale="es" localized="No hay asientos contabilizados en el periodo de comparación."/>
+    <moqui.basic.LocalizedMessage original="No posted entries match these options." locale="es" localized="Ningún asiento contabilizado coincide con estas opciones."/>
+    <moqui.basic.LocalizedMessage original="No posting locks. Postings are refused only in closed fiscal periods." locale="es" localized="No hay bloqueos de contabilización. Las contabilizaciones solo se rechazan en periodos fiscales cerrados."/>
+    <moqui.basic.LocalizedMessage original="No promise" locale="es" localized="Sin promesa"/>
+    <moqui.basic.LocalizedMessage original="No receipts or credits are applied to this invoice." locale="es" localized="No hay recibos ni créditos aplicados a esta factura."/>
+    <moqui.basic.LocalizedMessage original="No reminder levels yet. Add the first with Add level: a friendly reminder from one day                                     overdue, for example." locale="es" localized="Aún no hay niveles de recordatorio. Añada el primero con Añadir nivel: un recordatorio amistoso a partir de un día vencido, por ejemplo."/>
+    <moqui.basic.LocalizedMessage original="No reminder runs yet. Start one with New reminder run." locale="es" localized="Aún no hay ejecuciones de recordatorios. Inicie una con Nueva ejecución de recordatorios."/>
+    <moqui.basic.LocalizedMessage original="No reports are available to you." locale="es" localized="No hay informes disponibles para usted."/>
+    <moqui.basic.LocalizedMessage original="No rows of this kind." locale="es" localized="No hay filas de este tipo."/>
+    <moqui.basic.LocalizedMessage original="No sales orders, invoices or returns in these days." locale="es" localized="No hay órdenes de venta, facturas ni devoluciones en estos días."/>
+    <moqui.basic.LocalizedMessage original="No shipments are linked to this invoice." locale="es" localized="Ningún envío está vinculado a esta factura."/>
+    <moqui.basic.LocalizedMessage original="No stock moved in this period." locale="es" localized="No se movió inventario en este periodo."/>
+    <moqui.basic.LocalizedMessage original="No tax authorities yet. A finance administrator adds the authorities the organization collects for." locale="es" localized="Aún no hay autoridades fiscales. Un administrador de finanzas añade las autoridades para las que la organización recauda."/>
+    <moqui.basic.LocalizedMessage original="No tax rates for this organization. A finance administrator adds one for each authority it collects for." locale="es" localized="No hay tasas de impuesto para esta organización. Un administrador de finanzas añade una por cada autoridad para la que recauda."/>
+    <moqui.basic.LocalizedMessage original="No tax statements yet. Make a sales tax statement for a period, or the year&apos;s 1099 data." locale="es" localized="Aún no hay estados de impuestos. Haga un estado de impuesto sobre las ventas de un periodo, o los datos 1099 del año."/>
+    <moqui.basic.LocalizedMessage original="No transaction entries match. Choose another organization or search." locale="es" localized="Ningún asiento de transacción coincide. Elija otra organización o busque."/>
+    <moqui.basic.LocalizedMessage original="No transactions yet." locale="es" localized="Aún no hay transacciones."/>
+    <moqui.basic.LocalizedMessage original="Not allowed" locale="es" localized="No permitido"/>
+    <moqui.basic.LocalizedMessage original="Not every file is listed: check Files for a missing one." locale="es" localized="No se listan todos los archivos: compruebe Archivos por si falta alguno."/>
+    <moqui.basic.LocalizedMessage original="Not every record was checked for ${incompleteText}: the period has more than the                                     report lists. The rows below are a part of them." locale="es" localized="No se comprobó cada registro de ${incompleteText}: el periodo tiene más de lo que el informe enumera. Las filas de abajo son una parte de ellos."/>
+    <moqui.basic.LocalizedMessage original="Not explained" locale="es" localized="Sin explicación"/>
+    <moqui.basic.LocalizedMessage original="Not made: ${period.errorMessage}" locale="es" localized="No creado: ${period.errorMessage}"/>
+    <moqui.basic.LocalizedMessage original="Not reconciled" locale="es" localized="No conciliado"/>
+    <moqui.basic.LocalizedMessage original="Not refundable now: the payment is not delivered, is a refund, or is all refunded." locale="es" localized="No se puede reembolsar ahora: el pago no está entregado, es un reembolso o ya está reembolsado por completo."/>
+    <moqui.basic.LocalizedMessage original="Not taxed" locale="es" localized="No gravado"/>
+    <moqui.basic.LocalizedMessage original="Not taxed because" locale="es" localized="No gravado porque"/>
+    <moqui.basic.LocalizedMessage original="Nothing disagrees in this period." locale="es" localized="Nada discrepa en este periodo."/>
+    <moqui.basic.LocalizedMessage original="Nothing is waiting for you." locale="es" localized="Nada está en espera para usted."/>
+    <moqui.basic.LocalizedMessage original="Nothing keeps the period from closing." locale="es" localized="Nada impide cerrar el periodo."/>
+    <moqui.basic.LocalizedMessage original="Nothing was open on that day." locale="es" localized="Nada estaba abierto ese día."/>
+    <moqui.basic.LocalizedMessage original="Notice Seq ID" locale="es" localized="ID de secuencia del aviso"/>
+    <moqui.basic.LocalizedMessage original="Now when empty" locale="es" localized="Ahora cuando está vacío"/>
+    <moqui.basic.LocalizedMessage original="ORGANIZATION_REQUIRED: Choose an internal organization" locale="es" localized="ORGANIZATION_REQUIRED: Elija una organización interna"/>
+    <moqui.basic.LocalizedMessage original="Of" locale="es" localized="De"/>
+    <moqui.basic.LocalizedMessage original="Oldest due" locale="es" localized="Vencimiento más antiguo"/>
+    <moqui.basic.LocalizedMessage original="On an invoice&apos;s product line, the category, product and asset-type accounts come first." locale="es" localized="En la línea de producto de una factura, las cuentas de categoría, producto y tipo de activo van primero."/>
+    <moqui.basic.LocalizedMessage original="On day" locale="es" localized="El día"/>
+    <moqui.basic.LocalizedMessage original="On hand" locale="es" localized="En existencia"/>
+    <moqui.basic.LocalizedMessage original="On the ordered basis, a line with no accepted                                 receipt is an exception" locale="es" localized="En la base de lo ordenado, una línea sin recepción aceptada es una excepción"/>
+    <moqui.basic.LocalizedMessage original="On: a delivered receipt bills itself only for a self-billing supplier, for the                                     accepted quantity; other suppliers send their bills" locale="es" localized="Activado: una recepción entregada se factura sola solo para un proveedor de autofacturación, por la cantidad aceptada; los demás proveedores envían sus facturas recibidas"/>
+    <moqui.basic.LocalizedMessage original="On: a kit assembled at pack is received at the cost of its components, so they                                     leave work in process and the kit&apos;s shipment posts its cost of goods sold" locale="es" localized="Activado: un kit ensamblado al empacar se recibe al costo de sus componentes, de modo que salen del trabajo en proceso y el envío del kit contabiliza su costo de ventas"/>
+    <moqui.basic.LocalizedMessage original="On: a placed sales order&apos;s confirmation PDF is stored at placement; off, it is                                     stored when first sent or resent, as of the placed time" locale="es" localized="Activado: el PDF de confirmación de una orden de venta colocada se guarda al colocarla; desactivado, se guarda cuando se envía o reenvía por primera vez, a la fecha en que se colocó"/>
+    <moqui.basic.LocalizedMessage original="On: approving a project timesheet posts its time at cost to project cost, from the                                     labor clearing account" locale="es" localized="Activado: aprobar la hoja de tiempo de un proyecto contabiliza su tiempo al costo en el costo del proyecto, desde la cuenta transitoria de mano de obra"/>
+    <moqui.basic.LocalizedMessage original="On: approving or receiving a return credits nothing; finance settles what was                                     received from the return" locale="es" localized="Activado: aprobar o recibir una devolución no acredita nada; finanzas liquida lo recibido de la devolución"/>
+    <moqui.basic.LocalizedMessage original="On: the invoice made at pack stays a draft, with no payment applied, until the                                     shipment ships" locale="es" localized="Activado: la factura creada al empacar permanece en borrador, sin pago aplicado, hasta que el envío se despacha"/>
+    <moqui.basic.LocalizedMessage original="One statement for each vendor registered with the IRS whom the organization paid at least                                 the threshold in the year, from its payments. Vendors that cannot be reported are named." locale="es" localized="Una declaración por cada proveedor registrado ante el IRS a quien la organización pagó al menos el umbral en el año, según sus pagos. Se nombran los proveedores que no se pueden informar."/>
+    <moqui.basic.LocalizedMessage original="Only for the first statement; later ones open at the last closing balance" locale="es" localized="Solo para el primer estado de cuenta; los posteriores se abren con el último saldo de cierre"/>
+    <moqui.basic.LocalizedMessage original="Only the gateways Admin permitted this organization" locale="es" localized="Solo las pasarelas que el administrador permitió a esta organización"/>
+    <moqui.basic.LocalizedMessage original="Only the latest 200 policies are shown." locale="es" localized="Solo se muestran las 200 políticas más recientes."/>
+    <moqui.basic.LocalizedMessage original="Only the latest 50 exceptions are shown." locale="es" localized="Solo se muestran las 50 excepciones más recientes."/>
+    <moqui.basic.LocalizedMessage original="Open a report for the organization, or set its options first." locale="es" localized="Abra un informe de la organización, o defina primero sus opciones."/>
+    <moqui.basic.LocalizedMessage original="Open account ledger" locale="es" localized="Libro mayor de cuentas abiertas"/>
+    <moqui.basic.LocalizedMessage original="Open after" locale="es" localized="Abierta después de"/>
+    <moqui.basic.LocalizedMessage original="Open amount" locale="es" localized="Importe abierto"/>
+    <moqui.basic.LocalizedMessage original="Open bank lines" locale="es" localized="Líneas bancarias abiertas"/>
+    <moqui.basic.LocalizedMessage original="Open before" locale="es" localized="Abierta antes de"/>
+    <moqui.basic.LocalizedMessage original="Open collection policies" locale="es" localized="Abrir políticas de cobro"/>
+    <moqui.basic.LocalizedMessage original="Open invoices" locale="es" localized="Facturas abiertas"/>
+    <moqui.basic.LocalizedMessage original="Open invoices and bills" locale="es" localized="Facturas y facturas recibidas abiertas"/>
+    <moqui.basic.LocalizedMessage original="Open lines" locale="es" localized="Líneas abiertas"/>
+    <moqui.basic.LocalizedMessage original="Open lines and suggestions" locale="es" localized="Líneas abiertas y sugerencias"/>
+    <moqui.basic.LocalizedMessage original="Open on ${report.asOfDateText}, by days past due on that day; each currency is totaled on its                             own." locale="es" localized="Abierto al ${report.asOfDateText}, por días de atraso en esa fecha; cada moneda se totaliza por separado."/>
+    <moqui.basic.LocalizedMessage original="Open payable" locale="es" localized="Cuenta por pagar abierta"/>
+    <moqui.basic.LocalizedMessage original="Open receivables by customer" locale="es" localized="Cuentas por cobrar abiertas por cliente"/>
+    <moqui.basic.LocalizedMessage original="Open report" locale="es" localized="Abrir informe"/>
+    <moqui.basic.LocalizedMessage original="Open the bank account" locale="es" localized="Abrir la cuenta bancaria"/>
+    <moqui.basic.LocalizedMessage original="Opening" locale="es" localized="Apertura"/>
+    <moqui.basic.LocalizedMessage original="Opening ${amounts.opening}, cleared in ${amounts.inflow}, cleared out ${                                     amounts.outflow}." locale="es" localized="Inicial ${amounts.opening}, compensado de entrada ${amounts.inflow}, compensado de salida ${                                     amounts.outflow}."/>
+    <moqui.basic.LocalizedMessage original="Opening balance" locale="es" localized="Saldo inicial"/>
+    <moqui.basic.LocalizedMessage original="Opening balances" locale="es" localized="Saldos iniciales"/>
+    <moqui.basic.LocalizedMessage original="Opening day" locale="es" localized="Día de apertura"/>
+    <moqui.basic.LocalizedMessage original="Opening entry ${setupRun.activatedAcctgTransId}" locale="es" localized="Asiento de apertura ${setupRun.activatedAcctgTransId}"/>
+    <moqui.basic.LocalizedMessage original="Opening trial balance" locale="es" localized="Balance de comprobación de apertura"/>
+    <moqui.basic.LocalizedMessage original="Or group" locale="es" localized="O grupo"/>
+    <moqui.basic.LocalizedMessage original="Or paste its contents" locale="es" localized="O pegue su contenido"/>
+    <moqui.basic.LocalizedMessage original="Or paste the statement" locale="es" localized="O pegue el estado de cuenta"/>
+    <moqui.basic.LocalizedMessage original="Or the rows" locale="es" localized="O las filas"/>
+    <moqui.basic.LocalizedMessage original="Order Item Seq ID" locale="es" localized="ID de secuencia del ítem de la orden"/>
+    <moqui.basic.LocalizedMessage original="Order confirmations" locale="es" localized="Confirmaciones de orden"/>
+    <moqui.basic.LocalizedMessage original="Order number prefix" locale="es" localized="Prefijo del número de orden"/>
+    <moqui.basic.LocalizedMessage original="Ordered value" locale="es" localized="Valor ordenado"/>
+    <moqui.basic.LocalizedMessage original="Organization method" locale="es" localized="Método de la organización"/>
+    <moqui.basic.LocalizedMessage original="Original date" locale="es" localized="Fecha original"/>
+    <moqui.basic.LocalizedMessage original="Outside tolerance" locale="es" localized="Fuera de tolerancia"/>
+    <moqui.basic.LocalizedMessage original="Over %" locale="es" localized="Sobre %"/>
+    <moqui.basic.LocalizedMessage original="Over (under)" locale="es" localized="Exceso (faltante)"/>
+    <moqui.basic.LocalizedMessage original="Over 90 days" locale="es" localized="Más de 90 días"/>
+    <moqui.basic.LocalizedMessage original="Overdue amount" locale="es" localized="Importe vencido"/>
+    <moqui.basic.LocalizedMessage original="Overdue as of" locale="es" localized="Vencido al"/>
+    <moqui.basic.LocalizedMessage original="Overdue customers" locale="es" localized="Clientes vencidos"/>
+    <moqui.basic.LocalizedMessage original="Overhead" locale="es" localized="Gastos indirectos"/>
+    <moqui.basic.LocalizedMessage original="Overhead basis" locale="es" localized="Base de gastos indirectos"/>
+    <moqui.basic.LocalizedMessage original="Override Reason" locale="es" localized="Motivo de la anulación"/>
+    <moqui.basic.LocalizedMessage original="Override reason" locale="es" localized="Motivo de la anulación"/>
+    <moqui.basic.LocalizedMessage original="Paid to" locale="es" localized="Pagado a"/>
+    <moqui.basic.LocalizedMessage original="Parent Gl Account ID" locale="es" localized="ID de la cuenta contable superior"/>
+    <moqui.basic.LocalizedMessage original="Parent account" locale="es" localized="Cuenta superior"/>
+    <moqui.basic.LocalizedMessage original="Partner ledger" locale="es" localized="Libro mayor del socio"/>
+    <moqui.basic.LocalizedMessage original="Party Actions" locale="es" localized="Acciones del participante"/>
+    <moqui.basic.LocalizedMessage original="Party role" locale="es" localized="Rol del participante"/>
+    <moqui.basic.LocalizedMessage original="Paste the provider&apos;s daily file when the server cannot reach the provider" locale="es" localized="Pegue el archivo diario del proveedor cuando el servidor no pueda comunicarse con el proveedor"/>
+    <moqui.basic.LocalizedMessage original="Pay" locale="es" localized="Pagar"/>
+    <moqui.basic.LocalizedMessage original="Pay ${run.selectedCount} bills for ${run.approvedTotalText} from ${                                         run.bankText}?" locale="es" localized="¿Pagar ${run.selectedCount} facturas recibidas por ${run.approvedTotalText} desde ${                                         run.bankText}?"/>
+    <moqui.basic.LocalizedMessage original="Pay Date Text" locale="es" localized="Texto de la fecha de pago"/>
+    <moqui.basic.LocalizedMessage original="Pay by" locale="es" localized="Pagar antes del"/>
+    <moqui.basic.LocalizedMessage original="Pay date" locale="es" localized="Fecha de pago"/>
+    <moqui.basic.LocalizedMessage original="Pay from" locale="es" localized="Pagar desde"/>
+    <moqui.basic.LocalizedMessage original="Payables" locale="es" localized="Por pagar"/>
+    <moqui.basic.LocalizedMessage original="Payables due" locale="es" localized="Por pagar al vencimiento"/>
+    <moqui.basic.LocalizedMessage original="Payables workbench" locale="es" localized="Mesa de trabajo de por pagar"/>
+    <moqui.basic.LocalizedMessage original="Payment ${paymentId || recordId} · ${paymentOutput.fileName || outputType || &apos;detail&apos;}" locale="es" localized="Pago ${paymentId || recordId} · ${paymentOutput.fileName || outputType || &apos;detail&apos;}"/>
+    <moqui.basic.LocalizedMessage original="Payment Run ID" locale="es" localized="ID de la ejecución de pago"/>
+    <moqui.basic.LocalizedMessage original="Payment Run Item Seq ID" locale="es" localized="ID de secuencia del ítem de la ejecución de pago"/>
+    <moqui.basic.LocalizedMessage original="Payment date" locale="es" localized="Fecha de pago"/>
+    <moqui.basic.LocalizedMessage original="Payment date ${document.paymentDateText || &apos;&apos;}" locale="es" localized="Fecha de pago ${document.paymentDateText || &apos;&apos;}"/>
+    <moqui.basic.LocalizedMessage original="Payment document" locale="es" localized="Documento de pago"/>
+    <moqui.basic.LocalizedMessage original="Payment files and issued documents" locale="es" localized="Archivos de pago y documentos emitidos"/>
+    <moqui.basic.LocalizedMessage original="Payment history" locale="es" localized="Historial de pagos"/>
+    <moqui.basic.LocalizedMessage original="Payment layout" locale="es" localized="Formato de pago"/>
+    <moqui.basic.LocalizedMessage original="Payment ledger" locale="es" localized="Libro mayor de pagos"/>
+    <moqui.basic.LocalizedMessage original="Payment methods" locale="es" localized="Métodos de pago"/>
+    <moqui.basic.LocalizedMessage original="Payment or credit" locale="es" localized="Pago o crédito"/>
+    <moqui.basic.LocalizedMessage original="Payment overview" locale="es" localized="Resumen de pagos"/>
+    <moqui.basic.LocalizedMessage original="Payment print" locale="es" localized="Impresión de pago"/>
+    <moqui.basic.LocalizedMessage original="Payment reminder levels" locale="es" localized="Niveles de recordatorio de pago"/>
+    <moqui.basic.LocalizedMessage original="Payment reminders" locale="es" localized="Recordatorios de pago"/>
+    <moqui.basic.LocalizedMessage original="Payment run" locale="es" localized="Ejecución de pago"/>
+    <moqui.basic.LocalizedMessage original="Payment run not available" locale="es" localized="Ejecución de pago no disponible"/>
+    <moqui.basic.LocalizedMessage original="Payment runs" locale="es" localized="Ejecuciones de pago"/>
+    <moqui.basic.LocalizedMessage original="Payment term" locale="es" localized="Término de pago"/>
+    <moqui.basic.LocalizedMessage original="Payment terms: ${supplierDetail.profile?.termText || &apos;the default terms&apos;}" locale="es" localized="Condiciones de pago: ${supplierDetail.profile?.termText || &apos;the default terms&apos;}"/>
+    <moqui.basic.LocalizedMessage original="Payment type" locale="es" localized="Tipo de pago"/>
+    <moqui.basic.LocalizedMessage original="Payment, deposit or ledger entry" locale="es" localized="Pago, depósito o asiento del libro mayor"/>
+    <moqui.basic.LocalizedMessage original="Payments and credits" locale="es" localized="Pagos y créditos"/>
+    <moqui.basic.LocalizedMessage original="Payments found" locale="es" localized="Pagos encontrados"/>
+    <moqui.basic.LocalizedMessage original="Pays to" locale="es" localized="Paga a"/>
+    <moqui.basic.LocalizedMessage original="Percent of the acquire cost" locale="es" localized="Porcentaje del costo de adquisición"/>
+    <moqui.basic.LocalizedMessage original="Percentage of labor" locale="es" localized="Porcentaje de mano de obra"/>
+    <moqui.basic.LocalizedMessage original="Period Run ID" locale="es" localized="ID de la ejecución de periodo"/>
+    <moqui.basic.LocalizedMessage original="Period close" locale="es" localized="Cierre de periodo"/>
+    <moqui.basic.LocalizedMessage original="Period runs" locale="es" localized="Ejecuciones de periodo"/>
+    <moqui.basic.LocalizedMessage original="Period total" locale="es" localized="Suma total del periodo"/>
+    <moqui.basic.LocalizedMessage original="Place a hold on ${invoiceId}?" locale="es" localized="¿Retener ${invoiceId}?"/>
+    <moqui.basic.LocalizedMessage original="Place a hold on bill ${invoiceId}" locale="es" localized="Retener la factura recibida ${invoiceId}"/>
+    <moqui.basic.LocalizedMessage original="Place a hold on bill ${invoiceId}?" locale="es" localized="¿Retener la factura recibida ${invoiceId}?"/>
+    <moqui.basic.LocalizedMessage original="Place a hold on the selected bills" locale="es" localized="Retener las facturas recibidas seleccionadas"/>
+    <moqui.basic.LocalizedMessage original="Place a hold on the selected bills?" locale="es" localized="¿Retener las facturas recibidas seleccionadas?"/>
+    <moqui.basic.LocalizedMessage original="Place hold" locale="es" localized="Retener"/>
+    <moqui.basic.LocalizedMessage original="Placed By Name" locale="es" localized="Nombre de quien colocó"/>
+    <moqui.basic.LocalizedMessage original="Planned payments" locale="es" localized="Pagos planificados"/>
+    <moqui.basic.LocalizedMessage original="Policy Actions" locale="es" localized="Acciones de la política"/>
+    <moqui.basic.LocalizedMessage original="Portion %" locale="es" localized="Porción %"/>
+    <moqui.basic.LocalizedMessage original="Portions and discounts" locale="es" localized="Porciones y descuentos"/>
+    <moqui.basic.LocalizedMessage original="Portions and discounts of ${description || settlementTermId}" locale="es" localized="Porciones y descuentos de ${description || settlementTermId}"/>
+    <moqui.basic.LocalizedMessage original="Post ${entryName}?" locale="es" localized="¿Contabilizar ${entryName}?"/>
+    <moqui.basic.LocalizedMessage original="Post ${readyCount} assets for ${run.periodText}?" locale="es" localized="¿Contabilizar ${readyCount} activos para ${run.periodText}?"/>
+    <moqui.basic.LocalizedMessage original="Post ${selectedRun.kindText} for ${selectedRun.periodText}" locale="es" localized="Contabilizar ${selectedRun.kindText} para ${selectedRun.periodText}"/>
+    <moqui.basic.LocalizedMessage original="Post a dated adjustment for a changed issuance instead of reposting it" locale="es" localized="Contabilizar un ajuste fechado por una entrega modificada en lugar de volver a contabilizarla"/>
+    <moqui.basic.LocalizedMessage original="Post a dated adjustment for a changed receipt instead of reposting it; a kit&apos;s disassembly needs it" locale="es" localized="Contabilizar un ajuste fechado por una recepción modificada en lugar de volver a contabilizarla; el desensamble de un kit lo necesita"/>
+    <moqui.basic.LocalizedMessage original="Post a dated reversal of ${entryName}?" locale="es" localized="¿Contabilizar una reversión fechada de ${entryName}?"/>
+    <moqui.basic.LocalizedMessage original="Post depreciation" locale="es" localized="Contabilizar depreciación"/>
+    <moqui.basic.LocalizedMessage original="Post depreciation for ${run.periodText}" locale="es" localized="Contabilizar la depreciación de ${run.periodText}"/>
+    <moqui.basic.LocalizedMessage original="Post entry" locale="es" localized="Contabilizar asiento"/>
+    <moqui.basic.LocalizedMessage original="Post landed cost" locale="es" localized="Contabilizar costo en destino"/>
+    <moqui.basic.LocalizedMessage original="Post run" locale="es" localized="Contabilizar ejecución"/>
+    <moqui.basic.LocalizedMessage original="Post the landed cost of line ${invoiceItemSeqId}" locale="es" localized="Contabilizar el costo en destino de la línea ${invoiceItemSeqId}"/>
+    <moqui.basic.LocalizedMessage original="Post this run&apos;s ready results?" locale="es" localized="¿Contabilizar los resultados listos de esta ejecución?"/>
+    <moqui.basic.LocalizedMessage original="Posted Only" locale="es" localized="Solo contabilizados"/>
+    <moqui.basic.LocalizedMessage original="Posted amounts" locale="es" localized="Importes contabilizados"/>
+    <moqui.basic.LocalizedMessage original="Posted as" locale="es" localized="Contabilizado como"/>
+    <moqui.basic.LocalizedMessage original="Posted entries" locale="es" localized="Asientos contabilizados"/>
+    <moqui.basic.LocalizedMessage original="Posted on" locale="es" localized="Contabilizado el"/>
+    <moqui.basic.LocalizedMessage original="Posted only" locale="es" localized="Solo contabilizados"/>
+    <moqui.basic.LocalizedMessage original="Posting" locale="es" localized="Contabilización"/>
+    <moqui.basic.LocalizedMessage original="Posting account" locale="es" localized="Cuenta de contabilización"/>
+    <moqui.basic.LocalizedMessage original="Posting date" locale="es" localized="Fecha de contabilización"/>
+    <moqui.basic.LocalizedMessage original="Posting defaults" locale="es" localized="Valores predeterminados de contabilización"/>
+    <moqui.basic.LocalizedMessage original="Posting guard" locale="es" localized="Protección de contabilización"/>
+    <moqui.basic.LocalizedMessage original="Posting locks" locale="es" localized="Bloqueos de contabilización"/>
+    <moqui.basic.LocalizedMessage original="Posting needs general ledger authority." locale="es" localized="La contabilización requiere permiso del libro mayor."/>
+    <moqui.basic.LocalizedMessage original="Posting reason" locale="es" localized="Motivo de contabilización"/>
+    <moqui.basic.LocalizedMessage original="Posting review" locale="es" localized="Revisión de contabilización"/>
+    <moqui.basic.LocalizedMessage original="Postings waiting in the error journal" locale="es" localized="Contabilizaciones en espera en el diario de errores"/>
+    <moqui.basic.LocalizedMessage original="Preview ID" locale="es" localized="ID de vista previa"/>
+    <moqui.basic.LocalizedMessage original="Preview Kind" locale="es" localized="Tipo de vista previa"/>
+    <moqui.basic.LocalizedMessage original="Preview allocation" locale="es" localized="Previsualizar distribución"/>
+    <moqui.basic.LocalizedMessage original="Preview links" locale="es" localized="Previsualizar vínculos"/>
+    <moqui.basic.LocalizedMessage original="Preview payment reminders" locale="es" localized="Previsualizar recordatorios de pago"/>
+    <moqui.basic.LocalizedMessage original="Preview reminders" locale="es" localized="Previsualizar recordatorios"/>
+    <moqui.basic.LocalizedMessage original="Preview statements" locale="es" localized="Previsualizar estados de cuenta"/>
+    <moqui.basic.LocalizedMessage original="Preview the copy" locale="es" localized="Previsualizar la copia"/>
+    <moqui.basic.LocalizedMessage original="Preview the links to see what each bill line&apos;s evidence supports." locale="es" localized="Previsualice los vínculos para ver qué respalda la evidencia de cada línea de la factura recibida."/>
+    <moqui.basic.LocalizedMessage original="Price tolerance" locale="es" localized="Tolerancia de precio"/>
+    <moqui.basic.LocalizedMessage original="Price tolerance %" locale="es" localized="Tolerancia de precio %"/>
+    <moqui.basic.LocalizedMessage original="Print statements" locale="es" localized="Imprimir estados de cuenta"/>
+    <moqui.basic.LocalizedMessage original="Problem" locale="es" localized="Problema"/>
+    <moqui.basic.LocalizedMessage original="Process ${batchCount} invoices" locale="es" localized="Procesar ${batchCount} facturas"/>
+    <moqui.basic.LocalizedMessage original="Process ${batchCount} invoices? Each failure will be named." locale="es" localized="¿Procesar ${batchCount} facturas? Se indicará cada fallo."/>
+    <moqui.basic.LocalizedMessage original="Product category" locale="es" localized="Categoría de producto"/>
+    <moqui.basic.LocalizedMessage original="Production cost close" locale="es" localized="Cierre del costo de producción"/>
+    <moqui.basic.LocalizedMessage original="Progress Text" locale="es" localized="Texto de avance"/>
+    <moqui.basic.LocalizedMessage original="Project cost" locale="es" localized="Costo del proyecto"/>
+    <moqui.basic.LocalizedMessage original="Propose rates" locale="es" localized="Proponer tasas"/>
+    <moqui.basic.LocalizedMessage original="Proposed rates: ${proposals.length} to accept or reject" locale="es" localized="Tasas propuestas: ${proposals.length} por aceptar o rechazar"/>
+    <moqui.basic.LocalizedMessage original="Provider&apos;s file" locale="es" localized="Archivo del proveedor"/>
+    <moqui.basic.LocalizedMessage original="Publish ${selectedName}? A published version cannot be changed." locale="es" localized="¿Publicar ${selectedName}? Una versión publicada no se puede cambiar."/>
+    <moqui.basic.LocalizedMessage original="Purchase order" locale="es" localized="Orden de compra"/>
+    <moqui.basic.LocalizedMessage original="Purchases" locale="es" localized="Compras"/>
+    <moqui.basic.LocalizedMessage original="Put Back" locale="es" localized="Reincorporar"/>
+    <moqui.basic.LocalizedMessage original="Quantity tolerance" locale="es" localized="Tolerancia de cantidad"/>
+    <moqui.basic.LocalizedMessage original="Quantity tolerance %" locale="es" localized="Tolerancia de cantidad %"/>
+    <moqui.basic.LocalizedMessage original="Quick Options" locale="es" localized="Opciones rápidas"/>
+    <moqui.basic.LocalizedMessage original="Rate (percent)" locale="es" localized="Tasa (porcentaje)"/>
+    <moqui.basic.LocalizedMessage original="Rate Actions" locale="es" localized="Acciones de la tasa"/>
+    <moqui.basic.LocalizedMessage original="Rate an hour" locale="es" localized="Tasa por hora"/>
+    <moqui.basic.LocalizedMessage original="Rate import: ${importResults.filter(row =&gt;                                         row.success).length} stored, ${importResults.filter(row =&gt;                                         !row.success).length} refused" locale="es" localized="Importación de tasas: ${importResults.filter(row =&gt;                                         row.success).length} guardadas, ${importResults.filter(row =&gt;                                         !row.success).length} rechazadas"/>
+    <moqui.basic.LocalizedMessage original="Rate version" locale="es" localized="Versión de la tasa"/>
+    <moqui.basic.LocalizedMessage original="Read a BAI2, OFX or CSV statement and review its lines before they are imported." locale="es" localized="Lea un estado de cuenta BAI2, OFX o CSV y revise sus líneas antes de que se importen."/>
+    <moqui.basic.LocalizedMessage original="Readiness" locale="es" localized="Preparación"/>
+    <moqui.basic.LocalizedMessage original="Reason Text" locale="es" localized="Texto del motivo"/>
+    <moqui.basic.LocalizedMessage original="Reason for the change" locale="es" localized="Motivo del cambio"/>
+    <moqui.basic.LocalizedMessage original="Reason for the release" locale="es" localized="Motivo de la liberación"/>
+    <moqui.basic.LocalizedMessage original="Reason for the revision" locale="es" localized="Motivo de la revisión"/>
+    <moqui.basic.LocalizedMessage original="Recalculate" locale="es" localized="Recalcular"/>
+    <moqui.basic.LocalizedMessage original="Receipt account" locale="es" localized="Cuenta de recepción"/>
+    <moqui.basic.LocalizedMessage original="Receipt bills" locale="es" localized="Facturas recibidas de la recepción"/>
+    <moqui.basic.LocalizedMessage original="Receipt required" locale="es" localized="Recepción requerida"/>
+    <moqui.basic.LocalizedMessage original="Receipt, shipment, order or product" locale="es" localized="Recepción, envío, orden o producto"/>
+    <moqui.basic.LocalizedMessage original="Receipts" locale="es" localized="Recepciones"/>
+    <moqui.basic.LocalizedMessage original="Receipts, disbursements, authorizations and their current state." locale="es" localized="Recibos, desembolsos, autorizaciones y su estado actual."/>
+    <moqui.basic.LocalizedMessage original="Receivable and payable accounts against the open items" locale="es" localized="Cuentas por cobrar y por pagar frente a las partidas abiertas"/>
+    <moqui.basic.LocalizedMessage original="Receivables" locale="es" localized="Por cobrar"/>
+    <moqui.basic.LocalizedMessage original="Receivables due" locale="es" localized="Por cobrar al vencimiento"/>
+    <moqui.basic.LocalizedMessage original="Receivables overdue" locale="es" localized="Por cobrar vencido"/>
+    <moqui.basic.LocalizedMessage original="Receivables workbench" locale="es" localized="Mesa de trabajo de por cobrar"/>
+    <moqui.basic.LocalizedMessage original="Recent depreciation runs" locale="es" localized="Ejecuciones de depreciación recientes"/>
+    <moqui.basic.LocalizedMessage original="Recipient override" locale="es" localized="Reemplazo de destinatario"/>
+    <moqui.basic.LocalizedMessage original="Recipients Text" locale="es" localized="Texto de destinatarios"/>
+    <moqui.basic.LocalizedMessage original="Recipients: ${statementRow.recipients.join(&apos;, &apos;) || &apos;none&apos;}" locale="es" localized="Destinatarios: ${statementRow.recipients.join(&apos;, &apos;) || &apos;none&apos;}"/>
+    <moqui.basic.LocalizedMessage original="Reconcile each open line with its one matching payment? Lines with more ${                                             &apos;than one match&apos;} stay open." locale="es" localized="¿Conciliar cada línea abierta con su único pago coincidente? Las líneas con más ${                                             &apos;than one match&apos;} permanecen abiertas."/>
+    <moqui.basic.LocalizedMessage original="Reconcile line" locale="es" localized="Conciliar línea"/>
+    <moqui.basic.LocalizedMessage original="Reconcile the bank line of ${postedDateText}" locale="es" localized="Conciliar la línea bancaria de ${postedDateText}"/>
+    <moqui.basic.LocalizedMessage original="Reconcile the line" locale="es" localized="Conciliar la línea"/>
+    <moqui.basic.LocalizedMessage original="Reconcile the lines whose rule finds exactly one payment? Ambiguous lines stay ${                                     &apos;open&apos;}." locale="es" localized="¿Conciliar las líneas cuya regla encuentra exactamente un pago? Las líneas ambiguas permanecen ${                                     &apos;open&apos;}."/>
+    <moqui.basic.LocalizedMessage original="Records of this bank with the same amount, near the line&apos;s date" locale="es" localized="Registros de este banco con el mismo importe, cerca de la fecha de la línea"/>
+    <moqui.basic.LocalizedMessage original="Recurring invoices" locale="es" localized="Facturas recurrentes"/>
+    <moqui.basic.LocalizedMessage original="Recurring orders" locale="es" localized="Órdenes recurrentes"/>
+    <moqui.basic.LocalizedMessage original="Reference ${document.referenceNumber || &apos;&apos;}" locale="es" localized="Referencia ${document.referenceNumber || &apos;&apos;}"/>
+    <moqui.basic.LocalizedMessage original="Reference ${financePayment.referenceNumber}" locale="es" localized="Referencia ${financePayment.referenceNumber}"/>
+    <moqui.basic.LocalizedMessage original="Reference column" locale="es" localized="Columna de referencia"/>
+    <moqui.basic.LocalizedMessage original="Refresh selection" locale="es" localized="Actualizar selección"/>
+    <moqui.basic.LocalizedMessage original="Refund amount" locale="es" localized="Importe del reembolso"/>
+    <moqui.basic.LocalizedMessage original="Refund amounts" locale="es" localized="Importes del reembolso"/>
+    <moqui.basic.LocalizedMessage original="Refund date" locale="es" localized="Fecha del reembolso"/>
+    <moqui.basic.LocalizedMessage original="Refund of payment ${financePayment.refundForPaymentId}" locale="es" localized="Reembolso del pago ${financePayment.refundForPaymentId}"/>
+</entity-facade-xml>
