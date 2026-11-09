@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="es">
+    <moqui.basic.LocalizedMessage original="${checkedCount} tables checked, ${diffList.length} with a difference. Planning makes a database job whose statements are shown before they run; creating an index uses the online form where the database has one." locale="es" localized="${checkedCount} tablas comprobadas, ${diffList.length} con una diferencia. Planificar crea un trabajo de base de datos cuyas sentencias se muestran antes de ejecutarse; crear un índice usa CREATE INDEX en línea si la base de datos lo tiene."/>
+    <moqui.basic.LocalizedMessage original="${confirmation.changeCount} statements may change data. With changes the script is one transaction and stops at the first failure." locale="es" localized="${confirmation.changeCount} sentencias pueden cambiar datos. Con cambios, el script es una sola transacción y se detiene en el primer fallo."/>
+    <moqui.basic.LocalizedMessage original="${confirmation.ownTransactionCount} of them (such as VACUUM or CREATE INDEX CONCURRENTLY) run on their own outside any transaction, so they are not rolled back." locale="es" localized="${confirmation.ownTransactionCount} de ellas (como VACUUM o CREATE INDEX CONCURRENTLY) se ejecutan por su cuenta fuera de cualquier transacción, así que no se revierten."/>
+    <moqui.basic.LocalizedMessage original="${dirtyName} Has Changes" locale="es" localized="${dirtyName} tiene cambios"/>
+    <moqui.basic.LocalizedMessage original="${job.db || ''} · planned ${job.createdDate ? ec.l10n.format(basicConvert(job.createdDate, 'java.sql.Timestamp'), null) : ''}" locale="es" localized="${job.db || ''} · planificado ${job.createdDate ? ec.l10n.format(basicConvert(job.createdDate, 'java.sql.Timestamp'), null) : ''}"/>
+    <moqui.basic.LocalizedMessage original="${preview.characters ?? 0} characters, ${preview.bytes ?? 0} bytes in UTF-8, in ${preview.locale ?? locale}. A run keeps the section it started with; a change applies from the next run." locale="es" localized="${preview.characters ?? 0} caracteres, ${preview.bytes ?? 0} bytes en UTF-8, en ${preview.locale ?? locale}. Una ejecución conserva la sección con la que empezó; un cambio se aplica desde la ejecución siguiente."/>
+    <moqui.basic.LocalizedMessage original="${referenceCount} references" locale="es" localized="${referenceCount} referencias"/>
+    <moqui.basic.LocalizedMessage original="${replayInfo.url} · ${replayInfo.userId} · ${replayInfo.start} to ${replayInfo.end} (${ec.user.timeZone})" locale="es" localized="${replayInfo.url} · ${replayInfo.userId} · ${replayInfo.start} a ${replayInfo.end} (${ec.user.timeZone})"/>
+    <moqui.basic.LocalizedMessage original="${smap.System.CPU} · ${smap.System.Processors} processors" locale="es" localized="${smap.System.CPU} · ${smap.System.Processors} procesadores"/>
+    <moqui.basic.LocalizedMessage original="${totals.traces} traces, ${totals.calls} LLM calls, ${totals.inputTokens} input and ${totals.outputTokens} output tokens, ${totals.errors} failed calls" locale="es" localized="${totals.traces} trazas, ${totals.calls} llamadas LLM, ${totals.inputTokens} tokens de entrada y ${totals.outputTokens} de salida, ${totals.errors} llamadas fallidas"/>
+    <moqui.basic.LocalizedMessage original="0.05 when empty." locale="es" localized="0.05 si está vacío."/>
+    <moqui.basic.LocalizedMessage original="0.99 when empty." locale="es" localized="0.99 si está vacío."/>
+    <moqui.basic.LocalizedMessage original="1 to 40 letters, digits, _ or -" locale="es" localized="De 1 a 40 letras, dígitos, _ o -"/>
+    <moqui.basic.LocalizedMessage original="A host name or address, reached over TCP (no socket path)" locale="es" localized="Un nombre de host o una dirección, accesible por TCP (sin ruta de socket)"/>
+    <moqui.basic.LocalizedMessage original="A load with the foreign keys dropped needs the DATABASE_ADMIN permission" locale="es" localized="Una carga con las claves foráneas eliminadas necesita el permiso DATABASE_ADMIN"/>
+    <moqui.basic.LocalizedMessage original="A module path (moqui_core::service) or a dotted target (moqui.monitor.audit); it covers the targets below it" locale="es" localized="Una ruta de módulo (moqui_core::service) o un destino con puntos (moqui.monitor.audit); cubre los destinos por debajo"/>
+    <moqui.basic.LocalizedMessage original="A part of the description, the target or the ID" locale="es" localized="Una parte de la descripción, el destino o el ID"/>
+    <moqui.basic.LocalizedMessage original="A public name whose DNS points at this edge node, such as erp.example.com. A name goes to one local node" locale="es" localized="Un nombre público cuyo DNS apunta a este nodo de borde, como erp.example.com. Un nombre va a un solo nodo local"/>
+    <moqui.basic.LocalizedMessage original="A reference URL is https:// on a trusted origin (Origins tab) or a path on this server starting with /. Its title is in the default language." locale="es" localized="Una URL de referencia es https:// en un origen de confianza (pestaña Orígenes) o una ruta de este servidor que empieza por /. Su título está en el idioma predeterminado."/>
+    <moqui.basic.LocalizedMessage original="A scheduled-job-check-time of 0 disables the scheduler." locale="es" localized="Un scheduled-job-check-time de 0 desactiva el programador."/>
+    <moqui.basic.LocalizedMessage original="A shared silence with label matchers can also affect matching rules without an explicit reference." locale="es" localized="Un silencio compartido con comparadores de etiquetas también puede afectar reglas coincidentes sin una referencia explícita."/>
+    <moqui.basic.LocalizedMessage original="A value map turns a source value into the target's, such as Yes into Y; a mapping field names one." locale="es" localized="Un mapa de valores convierte un valor de origen en el del destino, como Yes en Y; un campo de la asignación nombra uno."/>
+    <moqui.basic.LocalizedMessage original="Access token" locale="es" localized="Token de acceso"/>
+    <moqui.basic.LocalizedMessage original="Accounts that send through it" locale="es" localized="Cuentas que envían a través de él"/>
+    <moqui.basic.LocalizedMessage original="Actions per day" locale="es" localized="Acciones por día"/>
+    <moqui.basic.LocalizedMessage original="Active overrides" locale="es" localized="Reemplazos activos"/>
+    <moqui.basic.LocalizedMessage original="Active users" locale="es" localized="Usuarios activos"/>
+    <moqui.basic.LocalizedMessage original="Active workers: ${workerPool.activeCount} of ${workerPool.poolSize} (maximum ${workerPool.maximumPoolSize})" locale="es" localized="Trabajadores activos: ${workerPool.activeCount} de ${workerPool.poolSize} (máximo ${workerPool.maximumPoolSize})"/>
+    <moqui.basic.LocalizedMessage original="Active: ${workerPool.activeCount}" locale="es" localized="Activos: ${workerPool.activeCount}"/>
+    <moqui.basic.LocalizedMessage original="Activity" locale="es" localized="Actividad"/>
+    <moqui.basic.LocalizedMessage original="Adapter" locale="es" localized="Adaptador"/>
+    <moqui.basic.LocalizedMessage original="Adapter ID" locale="es" localized="ID de adaptador"/>
+    <moqui.basic.LocalizedMessage original="Adapter ID already exists. Close this dialog and choose Edit on that row." locale="es" localized="El ID de adaptador ya existe. Cerrar este cuadro de diálogo y elegir Editar en esa fila."/>
+    <moqui.basic.LocalizedMessage original="Adapter not found. Choose Edit on a listed adapter, or create a new one." locale="es" localized="Adaptador no encontrado. Elegir Editar en un adaptador de la lista, o crear uno nuevo."/>
+    <moqui.basic.LocalizedMessage original="Adapter: ${manualAction.adapterId || ec.l10n.localize('Not recorded')}" locale="es" localized="Adaptador: ${manualAction.adapterId || ec.l10n.localize('Not recorded')}"/>
+    <moqui.basic.LocalizedMessage original="Adapters" locale="es" localized="Adaptadores"/>
+    <moqui.basic.LocalizedMessage original="Add a delivery destination for state changes. Use the fields for its selected type; grouping and repeat settings apply to every type." locale="es" localized="Agregar un destino de entrega para los cambios de estado. Usar los campos del tipo seleccionado; la agrupación y la repetición se aplican a todos los tipos."/>
+    <moqui.basic.LocalizedMessage original="Add a host name" locale="es" localized="Agregar un nombre de host"/>
+    <moqui.basic.LocalizedMessage original="Add a log target rule for a while" locale="es" localized="Agregar una regla de destino de registro por un tiempo"/>
+    <moqui.basic.LocalizedMessage original="Add a note" locale="es" localized="Agregar una nota"/>
+    <moqui.basic.LocalizedMessage original="Add a reference to ${ruleId}" locale="es" localized="Agregar una referencia a ${ruleId}"/>
+    <moqui.basic.LocalizedMessage original="Add check" locale="es" localized="Agregar comprobación"/>
+    <moqui.basic.LocalizedMessage original="Add note" locale="es" localized="Agregar nota"/>
+    <moqui.basic.LocalizedMessage original="Add origin" locale="es" localized="Agregar origen"/>
+    <moqui.basic.LocalizedMessage original="Add reference" locale="es" localized="Agregar referencia"/>
+    <moqui.basic.LocalizedMessage original="Add rule" locale="es" localized="Agregar regla"/>
+    <moqui.basic.LocalizedMessage original="Add target" locale="es" localized="Agregar destino"/>
+    <moqui.basic.LocalizedMessage original="Add the rule for a while" locale="es" localized="Agregar la regla por un tiempo"/>
+    <moqui.basic.LocalizedMessage original="Added the names the edge node has for this node now: ${mergedText}. A name taken out of the lists is removed from the edge node when you apply." locale="es" localized="Se agregaron los nombres que el nodo de borde tiene ahora para este nodo: ${mergedText}. Un nombre quitado de las listas se quita del nodo de borde al aplicar."/>
+    <moqui.basic.LocalizedMessage original="Advisory by default: an action runs only when approved on its incident (MONITOR_RECOVER), or under an automatic policy when telemetry recovery allow-automatic is true. Escalation always runs. No action reverses committed business transactions." locale="es" localized="Predeterminado e informativo: solo corre si se aprueba en su incidente (MONITOR_RECOVER), o en automático si telemetry recovery allow-automatic es true. El escalamiento siempre corre. No revierte transacciones de negocio confirmadas."/>
+    <moqui.basic.LocalizedMessage original="Affected" locale="es" localized="Afectado"/>
+    <moqui.basic.LocalizedMessage original="Against" locale="es" localized="Contra"/>
+    <moqui.basic.LocalizedMessage original="Agent instructions" locale="es" localized="Instrucciones del agente"/>
+    <moqui.basic.LocalizedMessage original="Agent or frame" locale="es" localized="Agente o marco"/>
+    <moqui.basic.LocalizedMessage original="Agent or frame contains" locale="es" localized="El agente o el marco contiene"/>
+    <moqui.basic.LocalizedMessage original="Agent Prompt" locale="es" localized="Prompt del agente"/>
+    <moqui.basic.LocalizedMessage original="Agent prompt section" locale="es" localized="Sección del prompt del agente"/>
+    <moqui.basic.LocalizedMessage original="AI" locale="es" localized="IA"/>
+    <moqui.basic.LocalizedMessage original="AI and agent traces" locale="es" localized="Trazas de IA y de agentes"/>
+    <moqui.basic.LocalizedMessage original="AI dashboard" locale="es" localized="Panel de control de IA"/>
+    <moqui.basic.LocalizedMessage original="Alert instances" locale="es" localized="Instancias de alerta"/>
+    <moqui.basic.LocalizedMessage original="Alert rules" locale="es" localized="Reglas de alerta"/>
+    <moqui.basic.LocalizedMessage original="All alert rules" locale="es" localized="Todas las reglas de alerta"/>
+    <moqui.basic.LocalizedMessage original="All runs" locale="es" localized="Todas las ejecuciones"/>
+    <moqui.basic.LocalizedMessage original="Allow Changes" locale="es" localized="Permitir cambios"/>
+    <moqui.basic.LocalizedMessage original="Allow private addresses" locale="es" localized="Permitir direcciones privadas"/>
+    <moqui.basic.LocalizedMessage original="Analyzed" locale="es" localized="Analizado"/>
+    <moqui.basic.LocalizedMessage original="Api Key" locale="es" localized="Clave de API"/>
+    <moqui.basic.LocalizedMessage original="API reference" locale="es" localized="Referencia de API"/>
+    <moqui.basic.LocalizedMessage original="Applied: this node is set up with the edge node" locale="es" localized="Aplicado: este nodo está configurado con el nodo de borde"/>
+    <moqui.basic.LocalizedMessage original="Apply again" locale="es" localized="Aplicar de nuevo"/>
+    <moqui.basic.LocalizedMessage original="Apply Changes" locale="es" localized="Aplicar cambios"/>
+    <moqui.basic.LocalizedMessage original="Apply the setup first" locale="es" localized="Aplicar la configuración primero"/>
+    <moqui.basic.LocalizedMessage original="Apply what can be live; the rest waits for a restart" locale="es" localized="Aplicar lo que puede quedar en caliente; el resto espera un reinicio"/>
+    <moqui.basic.LocalizedMessage original="Artifact groups" locale="es" localized="Grupos de artefactos"/>
+    <moqui.basic.LocalizedMessage original="Artifact performance" locale="es" localized="Rendimiento de artefactos"/>
+    <moqui.basic.LocalizedMessage original="Artifact statistics" locale="es" localized="Estadísticas de artefactos"/>
+    <moqui.basic.LocalizedMessage original="Ask the database again for what it allows" locale="es" localized="Volver a preguntar a la base de datos qué permite"/>
+    <moqui.basic.LocalizedMessage original="At last check: ${jobRunner.lastJobsActive} active · ${jobRunner.lastJobsPaused} paused" locale="es" localized="En la última comprobación: ${jobRunner.lastJobsActive} activos · ${jobRunner.lastJobsPaused} en pausa"/>
+    <moqui.basic.LocalizedMessage original="At most 64 host names, the XMPP domain counted" locale="es" localized="Como máximo 64 nombres de host, contando el dominio XMPP"/>
+    <moqui.basic.LocalizedMessage original="At Next Start" locale="es" localized="En el próximo inicio"/>
+    <moqui.basic.LocalizedMessage original="Attribute" locale="es" localized="Atributo"/>
+    <moqui.basic.LocalizedMessage original="Audit log" locale="es" localized="Registro de auditoría"/>
+    <moqui.basic.LocalizedMessage original="Back to Apply" locale="es" localized="Volver a Aplicar"/>
+    <moqui.basic.LocalizedMessage original="Back to caches" locale="es" localized="Volver a las cachés"/>
+    <moqui.basic.LocalizedMessage original="Back to Find" locale="es" localized="Volver a Buscar"/>
+    <moqui.basic.LocalizedMessage original="Back to incidents" locale="es" localized="Volver a los incidentes"/>
+    <moqui.basic.LocalizedMessage original="Back to job runs" locale="es" localized="Volver a las ejecuciones de trabajos"/>
+    <moqui.basic.LocalizedMessage original="Backup job" locale="es" localized="Trabajo de copia de seguridad"/>
+    <moqui.basic.LocalizedMessage original="Baseline → candidate" locale="es" localized="Línea base → candidato"/>
+    <moqui.basic.LocalizedMessage original="Bearer token" locale="es" localized="Token de portador"/>
+    <moqui.basic.LocalizedMessage original="Blast radius" locale="es" localized="Radio de impacto"/>
+    <moqui.basic.LocalizedMessage original="Blocked by" locale="es" localized="Bloqueado por"/>
+    <moqui.basic.LocalizedMessage original="Blocks hit" locale="es" localized="Bloques acertados"/>
+    <moqui.basic.LocalizedMessage original="Blocks read" locale="es" localized="Bloques leídos"/>
+    <moqui.basic.LocalizedMessage original="Body contains" locale="es" localized="El cuerpo contiene"/>
+    <moqui.basic.LocalizedMessage original="Bridges" locale="es" localized="Puentes"/>
+    <moqui.basic.LocalizedMessage original="Browse" locale="es" localized="Examinar"/>
+    <moqui.basic.LocalizedMessage original="Browse related records" locale="es" localized="Examinar registros relacionados"/>
+    <moqui.basic.LocalizedMessage original="Browse Service List" locale="es" localized="Examinar la lista de servicios"/>
+    <moqui.basic.LocalizedMessage original="Browser" locale="es" localized="Navegador"/>
+    <moqui.basic.LocalizedMessage original="Browser telemetry is sent only when telemetry browser enabled is true, and only by signed-in pages. No data here does not establish that pages are healthy." locale="es" localized="La telemetría del navegador se envía solo cuando telemetry browser enabled es verdadero, y solo desde páginas con sesión iniciada. Que aquí no haya datos no demuestra que las páginas estén sanas."/>
+    <moqui.basic.LocalizedMessage original="Cache entries" locale="es" localized="Entradas de caché"/>
+    <moqui.basic.LocalizedMessage original="Cache name filter" locale="es" localized="Filtro del nombre de caché"/>
+    <moqui.basic.LocalizedMessage original="Caches" locale="es" localized="Cachés"/>
+    <moqui.basic.LocalizedMessage original="calls" locale="es" localized="llamadas"/>
+    <moqui.basic.LocalizedMessage original="Calls Offered" locale="es" localized="Llamadas ofrecidas"/>
+    <moqui.basic.LocalizedMessage original="Cancel it anyway" locale="es" localized="Cancelarlo de todos modos"/>
+    <moqui.basic.LocalizedMessage original="Cannot deploy now" locale="es" localized="No se puede desplegar ahora"/>
+    <moqui.basic.LocalizedMessage original="Cause status: ${incident.causeStatus || ec.l10n.localize('Not recorded')}" locale="es" localized="Estado de la causa: ${incident.causeStatus || ec.l10n.localize('Not recorded')}"/>
+    <moqui.basic.LocalizedMessage original="Causes remain hypotheses until confirmed." locale="es" localized="Las causas siguen siendo hipótesis hasta que se confirman."/>
+    <moqui.basic.LocalizedMessage original="Change ${selected.settingName} for a while" locale="es" localized="Cambiar ${selected.settingName} por un tiempo"/>
+    <moqui.basic.LocalizedMessage original="Change for a while" locale="es" localized="Cambiar por un tiempo"/>
+    <moqui.basic.LocalizedMessage original="Change status" locale="es" localized="Cambiar estado"/>
+    <moqui.basic.LocalizedMessage original="Changes waiting" locale="es" localized="Cambios en espera"/>
+    <moqui.basic.LocalizedMessage original="Change…" locale="es" localized="Cambiar…"/>
+    <moqui.basic.LocalizedMessage original="Changing the Constitution needs the ADMIN_CONSTITUTION_GLOBAL permission" locale="es" localized="Cambiar la Constitución necesita el permiso ADMIN_CONSTITUTION_GLOBAL"/>
+    <moqui.basic.LocalizedMessage original="Changing the Constitution needs the ADMIN_CONSTITUTION_GLOBAL permission; the Rules tab shows it." locale="es" localized="Cambiar la Constitución necesita el permiso ADMIN_CONSTITUTION_GLOBAL; la pestaña Reglas lo muestra."/>
+    <moqui.basic.LocalizedMessage original="Changing these settings needs the MONITOR_SETTINGS permission." locale="es" localized="Cambiar esta configuración necesita el permiso MONITOR_SETTINGS."/>
+    <moqui.basic.LocalizedMessage original="Chart" locale="es" localized="Gráfico"/>
+    <moqui.basic.LocalizedMessage original="Chat Bridge IDs" locale="es" localized="ID de puentes de conversación"/>
+    <moqui.basic.LocalizedMessage original="Chat webhooks" locale="es" localized="Webhooks de conversación"/>
+    <moqui.basic.LocalizedMessage original="Check again" locale="es" localized="Comprobar de nuevo"/>
+    <moqui.basic.LocalizedMessage original="Check for Update" locale="es" localized="Comprobar actualización"/>
+    <moqui.basic.LocalizedMessage original="Check ID" locale="es" localized="ID de comprobación"/>
+    <moqui.basic.LocalizedMessage original="Check only" locale="es" localized="Solo comprobar"/>
+    <moqui.basic.LocalizedMessage original="Check or save" locale="es" localized="Comprobar o guardar"/>
+    <moqui.basic.LocalizedMessage original="Check table" locale="es" localized="Comprobar tabla"/>
+    <moqui.basic.LocalizedMessage original="Check tables" locale="es" localized="Comprobar tablas"/>
+    <moqui.basic.LocalizedMessage original="Check Tables creates the missing tables, columns, indexes and foreign keys of the entities on this database, and lists the statements it ran. It does not change or drop anything." locale="es" localized="Comprobar tablas crea las tablas, columnas, índices y claves foráneas que faltan de las entidades en esta base de datos, y lista las sentencias que ejecutó. No cambia ni elimina nada."/>
+    <moqui.basic.LocalizedMessage original="Checks dashboard" locale="es" localized="Panel de control de comprobaciones"/>
+    <moqui.basic.LocalizedMessage original="Checks performed: ${jobRunner.executeCount} · Jobs run: ${jobRunner.totalJobsRun}" locale="es" localized="Comprobaciones hechas: ${jobRunner.executeCount} · Trabajos ejecutados: ${jobRunner.totalJobsRun}"/>
+    <moqui.basic.LocalizedMessage original="Choose" locale="es" localized="Elegir"/>
+    <moqui.basic.LocalizedMessage original="Choose recurring quiet periods in each alert rule owner's time zone. The start is inclusive and the end exclusive; 24:00 means the end of the day." locale="es" localized="Elegir períodos de silencio recurrentes en la zona horaria del propietario de cada regla de alerta. El inicio es inclusivo y el fin exclusivo; 24:00 es el final del día."/>
+    <moqui.basic.LocalizedMessage original="Choose the delivery type, then fill its section. Grouping, timing and label matchers apply to all delivery types." locale="es" localized="Elegir el tipo de entrega y luego completar su sección. La agrupación, los tiempos y los comparadores de etiquetas se aplican a todos los tipos de entrega."/>
+    <moqui.basic.LocalizedMessage original="Choose the sites and enter the SSO callback address, with its path" locale="es" localized="Elegir los sitios e introducir la dirección de devolución de llamada de SSO, con su ruta"/>
+    <moqui.basic.LocalizedMessage original="Choose what to set up first, in Discover" locale="es" localized="Elegir qué configurar primero, en Descubrir"/>
+    <moqui.basic.LocalizedMessage original="Choose what to set up first." locale="es" localized="Elegir qué configurar primero."/>
+    <moqui.basic.LocalizedMessage original="Clone into" locale="es" localized="Clonar en"/>
+    <moqui.basic.LocalizedMessage original="Comma separated; data files that declare no type load with any" locale="es" localized="Separados por comas; los archivos de datos que no declaran un tipo se cargan con cualquiera"/>
+    <moqui.basic.LocalizedMessage original="Comma-separated fields. Leave empty to use safe bucket dimensions." locale="es" localized="Campos separados por comas. Dejar vacío para usar dimensiones de intervalo seguras."/>
+    <moqui.basic.LocalizedMessage original="Compare with" locale="es" localized="Comparar con"/>
+    <moqui.basic.LocalizedMessage original="Compare with ${releaseInfo.previousVersion || ''}" locale="es" localized="Comparar con ${releaseInfo.previousVersion || ''}"/>
+    <moqui.basic.LocalizedMessage original="Completed successfully" locale="es" localized="Completado correctamente"/>
+    <moqui.basic.LocalizedMessage original="Completed with errors" locale="es" localized="Completado con errores"/>
+    <moqui.basic.LocalizedMessage original="Completion time unavailable" locale="es" localized="Hora de finalización no disponible"/>
+    <moqui.basic.LocalizedMessage original="Conf" locale="es" localized="Configuración"/>
+    <moqui.basic.LocalizedMessage original="Conf attribute" locale="es" localized="Atributo de configuración"/>
+    <moqui.basic.LocalizedMessage original="Conf changes" locale="es" localized="Cambios de configuración"/>
+    <moqui.basic.LocalizedMessage original="Conf value" locale="es" localized="Valor de configuración"/>
+    <moqui.basic.LocalizedMessage original="Conf Waiting for a Restart" locale="es" localized="Configuración en espera de un reinicio"/>
+    <moqui.basic.LocalizedMessage original="Confidence" locale="es" localized="Confianza"/>
+    <moqui.basic.LocalizedMessage original="Configuration" locale="es" localized="Configuración"/>
+    <moqui.basic.LocalizedMessage original="Configure models, tools and the agents' constitution, then inspect activity and approvals." locale="es" localized="Configurar los modelos, las herramientas y la constitución de los agentes, y luego revisar la actividad y las aprobaciones."/>
+    <moqui.basic.LocalizedMessage original="Confirm Database Name" locale="es" localized="Confirmar el nombre de la base de datos"/>
+    <moqui.basic.LocalizedMessage original="Connect this instance to an edge node and inspect its clients." locale="es" localized="Conectar esta instancia con un nodo de borde e inspeccionar sus clientes."/>
+    <moqui.basic.LocalizedMessage original="Connecting" locale="es" localized="Conectando"/>
+    <moqui.basic.LocalizedMessage original="Connection" locale="es" localized="Conexión"/>
+    <moqui.basic.LocalizedMessage original="Connection ID" locale="es" localized="ID de conexión"/>
+    <moqui.basic.LocalizedMessage original="Connections" locale="es" localized="Conexiones"/>
+    <moqui.basic.LocalizedMessage original="Connections to databases the entity groups do not use, for SQL and the data grid. Each is offered as a database once saved." locale="es" localized="Conexiones a bases de datos que los grupos de entidades no usan, para SQL y la cuadrícula de datos. Cada una se ofrece como base de datos al guardarla."/>
+    <moqui.basic.LocalizedMessage original="Constitution" locale="es" localized="Constitución"/>
+    <moqui.basic.LocalizedMessage original="Constitution JSON" locale="es" localized="JSON de la Constitución"/>
+    <moqui.basic.LocalizedMessage original="Contradicting" locale="es" localized="Contradictorias"/>
+    <moqui.basic.LocalizedMessage original="Cooldown minutes" locale="es" localized="Minutos de enfriamiento"/>
+    <moqui.basic.LocalizedMessage original="Create an editable copy" locale="es" localized="Crear una copia editable"/>
+    <moqui.basic.LocalizedMessage original="Create the missing table, columns, indexes and foreign keys of this entity" locale="es" localized="Crear la tabla, las columnas, los índices y las claves foráneas que faltan de esta entidad"/>
+    <moqui.basic.LocalizedMessage original="Current: ${workerPool.poolSize} · Maximum: ${workerPool.maximumPoolSize}" locale="es" localized="Actual: ${workerPool.poolSize} · Máximo: ${workerPool.maximumPoolSize}"/>
+    <moqui.basic.LocalizedMessage original="Current: ${workerPool.queueSize}" locale="es" localized="Actual: ${workerPool.queueSize}"/>
+    <moqui.basic.LocalizedMessage original="Customize" locale="es" localized="Personalizar"/>
+    <moqui.basic.LocalizedMessage original="Customize the Constitution" locale="es" localized="Personalizar la Constitución"/>
+    <moqui.basic.LocalizedMessage original="Dashboard alerts" locale="es" localized="Alertas del panel de control"/>
+    <moqui.basic.LocalizedMessage original="Dashboard playlists" locale="es" localized="Listas de reproducción de paneles de control"/>
+    <moqui.basic.LocalizedMessage original="Data documents" locale="es" localized="Documentos de datos"/>
+    <moqui.basic.LocalizedMessage original="Data files" locale="es" localized="Archivos de datos"/>
+    <moqui.basic.LocalizedMessage original="Data files that declare no type load with any choice" locale="es" localized="Los archivos de datos que no declaran un tipo se cargan con cualquier elección"/>
+    <moqui.basic.LocalizedMessage original="Data snapshots" locale="es" localized="Instantáneas de datos"/>
+    <moqui.basic.LocalizedMessage original="Data to load" locale="es" localized="Datos a cargar"/>
+    <moqui.basic.LocalizedMessage original="Data types" locale="es" localized="Tipos de datos"/>
+    <moqui.basic.LocalizedMessage original="Data views" locale="es" localized="Vistas de datos"/>
+    <moqui.basic.LocalizedMessage original="Database connections" locale="es" localized="Conexiones de base de datos"/>
+    <moqui.basic.LocalizedMessage original="Database jobs" locale="es" localized="Trabajos de base de datos"/>
+    <moqui.basic.LocalizedMessage original="Database maintenance" locale="es" localized="Mantenimiento de la base de datos"/>
+    <moqui.basic.LocalizedMessage original="Database overrides" locale="es" localized="Reemplazos de la base de datos"/>
+    <moqui.basic.LocalizedMessage original="Database settings" locale="es" localized="Configuración de la base de datos"/>
+    <moqui.basic.LocalizedMessage original="Database: ${capabilities?.databaseName || ''}" locale="es" localized="Base de datos: ${capabilities?.databaseName || ''}"/>
+    <moqui.basic.LocalizedMessage original="Databases of the entity groups" locale="es" localized="Bases de datos de los grupos de entidades"/>
+    <moqui.basic.LocalizedMessage original="Dataset ID" locale="es" localized="ID del conjunto de datos"/>
+    <moqui.basic.LocalizedMessage original="Day partitions" locale="es" localized="Particiones por día"/>
+    <moqui.basic.LocalizedMessage original="Db" locale="es" localized="BD"/>
+    <moqui.basic.LocalizedMessage original="Dead rows" locale="es" localized="Filas muertas"/>
+    <moqui.basic.LocalizedMessage original="Deadline minutes" locale="es" localized="Minutos de plazo"/>
+    <moqui.basic.LocalizedMessage original="Decisions" locale="es" localized="Decisiones"/>
+    <moqui.basic.LocalizedMessage original="Default adapter" locale="es" localized="Adaptador predeterminado"/>
+    <moqui.basic.LocalizedMessage original="Default language" locale="es" localized="Idioma predeterminado"/>
+    <moqui.basic.LocalizedMessage original="Define document data, maintain indexes and explore results." locale="es" localized="Definir los datos del documento, mantener los índices y explorar los resultados."/>
+    <moqui.basic.LocalizedMessage original="Definition folder" locale="es" localized="Carpeta de la definición"/>
+    <moqui.basic.LocalizedMessage original="Definition ID" locale="es" localized="ID de definición"/>
+    <moqui.basic.LocalizedMessage original="Definition Type" locale="es" localized="Tipo de definición"/>
+    <moqui.basic.LocalizedMessage original="Definition Version" locale="es" localized="Versión de la definición"/>
+    <moqui.basic.LocalizedMessage original="Delete definition" locale="es" localized="Eliminar definición"/>
+    <moqui.basic.LocalizedMessage original="Delete shared item" locale="es" localized="Eliminar elemento compartido"/>
+    <moqui.basic.LocalizedMessage original="Dependencies" locale="es" localized="Dependencias"/>
+    <moqui.basic.LocalizedMessage original="Depends On" locale="es" localized="Depende de"/>
+    <moqui.basic.LocalizedMessage original="Deploy" locale="es" localized="Desplegar"/>
+    <moqui.basic.LocalizedMessage original="Deploy and Restart" locale="es" localized="Desplegar y reiniciar"/>
+    <moqui.basic.LocalizedMessage original="Deploy from Git" locale="es" localized="Desplegar desde Git"/>
+    <moqui.basic.LocalizedMessage original="Deployed" locale="es" localized="Desplegado"/>
+    <moqui.basic.LocalizedMessage original="Detected" locale="es" localized="Detectado"/>
+    <moqui.basic.LocalizedMessage original="Diagnostics and history" locale="es" localized="Diagnóstico e historial"/>
+    <moqui.basic.LocalizedMessage original="direct TLS" locale="es" localized="TLS directo"/>
+    <moqui.basic.LocalizedMessage original="Directory" locale="es" localized="Directorio"/>
+    <moqui.basic.LocalizedMessage original="Directory in the repository" locale="es" localized="Directorio en el repositorio"/>
+    <moqui.basic.LocalizedMessage original="Discard" locale="es" localized="Descartar"/>
+    <moqui.basic.LocalizedMessage original="Discover" locale="es" localized="Descubrir"/>
+    <moqui.basic.LocalizedMessage original="Dismiss" locale="es" localized="Ignorar"/>
+    <moqui.basic.LocalizedMessage original="DNS records to set" locale="es" localized="Registros DNS a definir"/>
+    <moqui.basic.LocalizedMessage original="Document definitions" locale="es" localized="Definiciones de documentos"/>
+    <moqui.basic.LocalizedMessage original="Documents and feeds" locale="es" localized="Documentos y fuentes"/>
+    <moqui.basic.LocalizedMessage original="Down" locale="es" localized="Abajo"/>
+    <moqui.basic.LocalizedMessage original="Download DDL" locale="es" localized="Descargar DDL"/>
+    <moqui.basic.LocalizedMessage original="Drop all foreign keys" locale="es" localized="Eliminar todas las claves foráneas"/>
+    <moqui.basic.LocalizedMessage original="Each definition of a folder is a JSON file in the repository directory. Saving a definition writes its file; a push or fetch to the repository saves the files that changed. Both run as the sync's user." locale="es" localized="Cada definición de una carpeta es un archivo JSON en el directorio del repositorio. Guardar una definición escribe su archivo; un push o una obtención en el repositorio guarda los archivos cambiados. Ambos corren como el usuario de la sincronización."/>
+    <moqui.basic.LocalizedMessage original="Each full send starts a new one" locale="es" localized="Cada envío completo inicia uno nuevo"/>
+    <moqui.basic.LocalizedMessage original="Each version a service started with, from its release markers. A new version is compared with the one before it for a day; regressions found are linked from the version." locale="es" localized="Cada versión con la que arrancó un servicio, según sus marcas de lanzamiento. Una versión nueva se compara con la anterior durante un día; las regresiones halladas se enlazan desde la versión."/>
+    <moqui.basic.LocalizedMessage original="Edge Clients" locale="es" localized="Clientes de borde"/>
+    <moqui.basic.LocalizedMessage original="Edge clients" locale="es" localized="Clientes de borde"/>
+    <moqui.basic.LocalizedMessage original="Edge connections" locale="es" localized="Conexiones de borde"/>
+    <moqui.basic.LocalizedMessage original="Edge node" locale="es" localized="Nodo de borde"/>
+    <moqui.basic.LocalizedMessage original="Edge Node" locale="es" localized="Nodo de borde"/>
+    <moqui.basic.LocalizedMessage original="Edge node version" locale="es" localized="Versión del nodo de borde"/>
+    <moqui.basic.LocalizedMessage original="Edit Adapter ID" locale="es" localized="Editar el ID de adaptador"/>
+    <moqui.basic.LocalizedMessage original="Edit Policy ID" locale="es" localized="Editar el ID de política"/>
+    <moqui.basic.LocalizedMessage original="Editing ${locale}${isDefaultLocale ? ', the default language: its text is required' : ': an empty field uses the default language'}. A change applies to agent runs that start after it." locale="es" localized="Editando ${locale}${isDefaultLocale ? ', the default language: its text is required' : ': an empty field uses the default language'}. Un cambio se aplica a las ejecuciones de agente que empiezan después."/>
+    <moqui.basic.LocalizedMessage original="Effective settings combine the configuration with the database overrides below." locale="es" localized="La configuración efectiva combina la configuración con los reemplazos de base de datos de abajo."/>
+    <moqui.basic.LocalizedMessage original="Elapsed" locale="es" localized="Transcurrido"/>
+    <moqui.basic.LocalizedMessage original="Email Account IDs" locale="es" localized="ID de cuentas de correo electrónico"/>
+    <moqui.basic.LocalizedMessage original="Empty" locale="es" localized="Vacío"/>
+    <moqui.basic.LocalizedMessage original="Empty for a new one" locale="es" localized="Vacío para uno nuevo"/>
+    <moqui.basic.LocalizedMessage original="Empty keeps the stored password, unless the type, host, port, user or TLS settings change" locale="es" localized="Vacío conserva la contraseña guardada, salvo que cambien el tipo, el host, el puerto, el usuario o TLS"/>
+    <moqui.basic.LocalizedMessage original="Empty uses a notification to the ADMIN group." locale="es" localized="Vacío usa una notificación al grupo ADMIN."/>
+    <moqui.basic.LocalizedMessage original="End it anyway" locale="es" localized="Terminarlo de todos modos"/>
+    <moqui.basic.LocalizedMessage original="Enter a host name, or turn web access off" locale="es" localized="Introducir un nombre de host, o desactivar el acceso web"/>
+    <moqui.basic.LocalizedMessage original="Enter a mail domain, or turn mail off" locale="es" localized="Introducir un dominio de correo, o desactivar el correo"/>
+    <moqui.basic.LocalizedMessage original="Enter it on the local node now, with this node's address. It pairs one node, once, until ${newCodeExpire}. It is shown only this once; make another if you lose it." locale="es" localized="Introducirlo ahora en el nodo local, con la dirección de este nodo. Empareja un nodo, una vez, hasta ${newCodeExpire}. Se muestra solo esta vez; hacer otro si se pierde."/>
+    <moqui.basic.LocalizedMessage original="Enter part of a name or a regular expression. Unsupported patterns are treated as literal text." locale="es" localized="Introducir parte de un nombre o una expresión regular. Los patrones no admitidos se tratan como texto literal."/>
+    <moqui.basic.LocalizedMessage original="Enter the edge node address" locale="es" localized="Introducir la dirección del nodo de borde"/>
+    <moqui.basic.LocalizedMessage original="Enter the edge node's address first." locale="es" localized="Introducir primero la dirección del nodo de borde."/>
+    <moqui.basic.LocalizedMessage original="Enter the pairing code made on the edge node" locale="es" localized="Introducir el código de emparejamiento creado en el nodo de borde"/>
+    <moqui.basic.LocalizedMessage original="Enter the user ID whose quota to check, then choose Check again." locale="es" localized="Introducir el ID de usuario cuya cuota comprobar, y luego elegir Comprobar de nuevo."/>
+    <moqui.basic.LocalizedMessage original="Entities it changes: ${entitiesChanged}" locale="es" localized="Entidades que cambia: ${entitiesChanged}"/>
+    <moqui.basic.LocalizedMessage original="Entities To Include" locale="es" localized="Entidades a incluir"/>
+    <moqui.basic.LocalizedMessage original="Entity Audit Default: ${entityNode.attribute('enable-audit-log') || 'false'}" locale="es" localized="Auditoría de entidad predeterminada: ${entityNode.attribute('enable-audit-log') || 'false'}"/>
+    <moqui.basic.LocalizedMessage original="Entity data" locale="es" localized="Datos de entidades"/>
+    <moqui.basic.LocalizedMessage original="Entity data sync" locale="es" localized="Sincronización de datos de entidades"/>
+    <moqui.basic.LocalizedMessage original="Entity definitions and their tables, indexes and keys; the database server, its sessions, statements, tables and jobs." locale="es" localized="Definiciones de entidades y sus tablas, índices y claves; el servidor de base de datos, sus sesiones, sentencias, tablas y trabajos."/>
+    <moqui.basic.LocalizedMessage original="Entity group" locale="es" localized="Grupo de entidades"/>
+    <moqui.basic.LocalizedMessage original="Entity Group: ${entityNode.attribute('group-name') || '(default)'}" locale="es" localized="Grupo de entidades: ${entityNode.attribute('group-name') || '(default)'}"/>
+    <moqui.basic.LocalizedMessage original="Entity groups" locale="es" localized="Grupos de entidades"/>
+    <moqui.basic.LocalizedMessage original="Entity speed test" locale="es" localized="Prueba de velocidad de entidades"/>
+    <moqui.basic.LocalizedMessage original="Entries" locale="es" localized="Entradas"/>
+    <moqui.basic.LocalizedMessage original="Epoch" locale="es" localized="Época"/>
+    <moqui.basic.LocalizedMessage original="Error file" locale="es" localized="Archivo de errores"/>
+    <moqui.basic.LocalizedMessage original="Error groups first seen since this release" locale="es" localized="Grupos de errores vistos por primera vez desde este lanzamiento"/>
+    <moqui.basic.LocalizedMessage original="Error recorded" locale="es" localized="Error registrado"/>
+    <moqui.basic.LocalizedMessage original="Escalation contact JSON" locale="es" localized="JSON del contacto de escalamiento"/>
+    <moqui.basic.LocalizedMessage original="ETL mappings" locale="es" localized="Asignaciones ETL"/>
+    <moqui.basic.LocalizedMessage original="ETL run ${runId}: ${statusText}${isCheck ? ' (check)' : ''}" locale="es" localized="Ejecución ETL ${runId}: ${statusText}${isCheck ? ' (check)' : ''}"/>
+    <moqui.basic.LocalizedMessage original="ETL runs" locale="es" localized="Ejecuciones ETL"/>
+    <moqui.basic.LocalizedMessage original="Evaluate" locale="es" localized="Evaluar"/>
+    <moqui.basic.LocalizedMessage original="Evaluate every (seconds)" locale="es" localized="Evaluar cada (segundos)"/>
+    <moqui.basic.LocalizedMessage original="Evaluation" locale="es" localized="Evaluación"/>
+    <moqui.basic.LocalizedMessage original="Evaluation requested. Rules within their evaluation interval or already being evaluated are skipped. Check the Evaluated time and state below." locale="es" localized="Evaluación pedida. Se omiten las reglas dentro de su intervalo de evaluación o que ya se están evaluando. Comprobar abajo la hora evaluada y el estado."/>
+    <moqui.basic.LocalizedMessage original="Every (s)" locale="es" localized="Cada (s)"/>
+    <moqui.basic.LocalizedMessage original="Every (seconds)" locale="es" localized="Cada (segundos)"/>
+    <moqui.basic.LocalizedMessage original="Every component in the component directories is loaded." locale="es" localized="Se carga cada componente de los directorios de componentes."/>
+    <moqui.basic.LocalizedMessage original="Every text needs a translation in the new default language before it can be saved" locale="es" localized="Cada texto necesita una traducción al nuevo idioma predeterminado antes de poder guardarse"/>
+    <moqui.basic.LocalizedMessage original="Expand the settings for the selected type. Values for other types are retained. Signing keys and header values stay in server properties; enter property names only." locale="es" localized="Desplegar la configuración del tipo seleccionado. Se conservan los valores de los otros tipos. Las claves de firma y los valores de encabezado quedan en propiedades del servidor; introducir solo nombres de propiedad."/>
+    <moqui.basic.LocalizedMessage original="Expect Fingerprint" locale="es" localized="Huella esperada"/>
+    <moqui.basic.LocalizedMessage original="Expected Hash" locale="es" localized="Hash esperado"/>
+    <moqui.basic.LocalizedMessage original="Expected Revision" locale="es" localized="Revisión esperada"/>
+    <moqui.basic.LocalizedMessage original="Expected status" locale="es" localized="Estado esperado"/>
+    <moqui.basic.LocalizedMessage original="Explore documents" locale="es" localized="Explorar documentos"/>
+    <moqui.basic.LocalizedMessage original="Export data" locale="es" localized="Exportar datos"/>
+    <moqui.basic.LocalizedMessage original="Export documents" locale="es" localized="Exportar documentos"/>
+    <moqui.basic.LocalizedMessage original="Export not found" locale="es" localized="Exportación no encontrada"/>
+    <moqui.basic.LocalizedMessage original="Extend" locale="es" localized="Extender"/>
+    <moqui.basic.LocalizedMessage original="External databases" locale="es" localized="Bases de datos externas"/>
+    <moqui.basic.LocalizedMessage original="Falls back: a field has no text in this language yet" locale="es" localized="Recurre al predeterminado: un campo aún no tiene texto en este idioma"/>
+    <moqui.basic.LocalizedMessage original="Feed indexes" locale="es" localized="Índices de fuentes"/>
+    <moqui.basic.LocalizedMessage original="Fetch and Preview" locale="es" localized="Obtener y previsualizar"/>
+    <moqui.basic.LocalizedMessage original="File read" locale="es" localized="Lectura de archivo"/>
+    <moqui.basic.LocalizedMessage original="Filters Json" locale="es" localized="JSON de filtros"/>
+    <moqui.basic.LocalizedMessage original="Find and edit records, browse related records, build views, and load, export or snapshot data." locale="es" localized="Buscar y editar registros, examinar registros relacionados, armar vistas, y cargar, exportar o tomar instantáneas de datos."/>
+    <moqui.basic.LocalizedMessage original="Find entities" locale="es" localized="Buscar entidades"/>
+    <moqui.basic.LocalizedMessage original="Find incidents" locale="es" localized="Buscar incidentes"/>
+    <moqui.basic.LocalizedMessage original="Find replays" locale="es" localized="Buscar reproducciones"/>
+    <moqui.basic.LocalizedMessage original="Finished" locale="es" localized="Terminado"/>
+    <moqui.basic.LocalizedMessage original="Finished — outcome not recorded" locale="es" localized="Terminado — resultado no registrado"/>
+    <moqui.basic.LocalizedMessage original="First page" locale="es" localized="Primera página"/>
+    <moqui.basic.LocalizedMessage original="For a large load: the foreign keys of the tables in the data are dropped, the data loaded on a worker, and the keys made again after it, as database jobs (DATABASE_ADMIN)" locale="es" localized="Para una carga grande: se eliminan las claves foráneas de las tablas de los datos, los datos se cargan en un trabajador y las claves se vuelven a crear después, como trabajos de base de datos (DATABASE_ADMIN)"/>
+    <moqui.basic.LocalizedMessage original="For a working clone: the component directory, component when empty" locale="es" localized="Para un clon de trabajo: el directorio del componente; el componente, si está vacío"/>
+    <moqui.basic.LocalizedMessage original="For above/below rules after firing. Leave empty to use the alert threshold." locale="es" localized="Para reglas por encima o por debajo, después de dispararse. Dejar vacío para usar el umbral de la alerta."/>
+    <moqui.basic.LocalizedMessage original="For example" locale="es" localized="Por ejemplo"/>
+    <moqui.basic.LocalizedMessage original="Foreign keys" locale="es" localized="Claves foráneas"/>
+    <moqui.basic.LocalizedMessage original="Found in a Component Directory" locale="es" localized="Hallado en un directorio de componentes"/>
+    <moqui.basic.LocalizedMessage original="Free" locale="es" localized="Libre"/>
+    <moqui.basic.LocalizedMessage original="Full send due" locale="es" localized="Envío completo pendiente"/>
+    <moqui.basic.LocalizedMessage original="Generation" locale="es" localized="Generación"/>
+    <moqui.basic.LocalizedMessage original="Git sync" locale="es" localized="Sincronización Git"/>
+    <moqui.basic.LocalizedMessage original="Git sync needs the REPORT_GIT_SYNC_ADMIN grant." locale="es" localized="La sincronización Git necesita la concesión REPORT_GIT_SYNC_ADMIN."/>
+    <moqui.basic.LocalizedMessage original="Goes up by one each time the link comes up" locale="es" localized="Sube uno cada vez que el enlace se establece"/>
+    <moqui.basic.LocalizedMessage original="Good for" locale="es" localized="Vigente por"/>
+    <moqui.basic.LocalizedMessage original="Grid" locale="es" localized="Cuadrícula"/>
+    <moqui.basic.LocalizedMessage original="Header properties JSON" locale="es" localized="JSON de propiedades de encabezado"/>
+    <moqui.basic.LocalizedMessage original="Held by" locale="es" localized="Retenido por"/>
+    <moqui.basic.LocalizedMessage original="Hide log patterns" locale="es" localized="Ocultar patrones de registro"/>
+    <moqui.basic.LocalizedMessage original="Host and database" locale="es" localized="Host y base de datos"/>
+    <moqui.basic.LocalizedMessage original="Host name" locale="es" localized="Nombre de host"/>
+    <moqui.basic.LocalizedMessage original="Host names" locale="es" localized="Nombres de host"/>
+    <moqui.basic.LocalizedMessage original="Host names only" locale="es" localized="Solo nombres de host"/>
+    <moqui.basic.LocalizedMessage original="How the reference supports the rule" locale="es" localized="Cómo la referencia respalda la regla"/>
+    <moqui.basic.LocalizedMessage original="HTTP or HTTPS URL without credentials; use URL property instead when configured there." locale="es" localized="URL HTTP o HTTPS sin credenciales; usar la propiedad de URL cuando esté configurada allí."/>
+    <moqui.basic.LocalizedMessage original="Identifier used when creating a rule. An existing rule keeps its ID." locale="es" localized="Identificador usado al crear una regla. Una regla existente conserva su ID."/>
+    <moqui.basic.LocalizedMessage original="in the models' price currency" locale="es" localized="en la moneda de precio de los modelos"/>
+    <moqui.basic.LocalizedMessage original="Incident" locale="es" localized="Incidente"/>
+    <moqui.basic.LocalizedMessage original="Incident ${incidentId} · Times shown in ${ec.user.timeZone}." locale="es" localized="Incidente ${incidentId} · Horas mostradas en ${ec.user.timeZone}."/>
+    <moqui.basic.LocalizedMessage original="Incident context" locale="es" localized="Contexto del incidente"/>
+    <moqui.basic.LocalizedMessage original="Incident ID" locale="es" localized="ID de incidente"/>
+    <moqui.basic.LocalizedMessage original="Incident state" locale="es" localized="Estado del incidente"/>
+    <moqui.basic.LocalizedMessage original="Incident unavailable" locale="es" localized="Incidente no disponible"/>
+    <moqui.basic.LocalizedMessage original="Incidents" locale="es" localized="Incidentes"/>
+    <moqui.basic.LocalizedMessage original="Incidents need the MONITOR_INCIDENT permission." locale="es" localized="Los incidentes necesitan el permiso MONITOR_INCIDENT."/>
+    <moqui.basic.LocalizedMessage original="Index health" locale="es" localized="Salud del índice"/>
+    <moqui.basic.LocalizedMessage original="Index use is counted since ${statsSinceText}." locale="es" localized="El uso del índice se cuenta desde ${statsSinceText}."/>
+    <moqui.basic.LocalizedMessage original="Indexes" locale="es" localized="Índices"/>
+    <moqui.basic.LocalizedMessage original="Indexes and keys" locale="es" localized="Índices y claves"/>
+    <moqui.basic.LocalizedMessage original="Inspect delivery and configure the systems exchanging data." locale="es" localized="Inspeccionar la entrega y configurar los sistemas que intercambian datos."/>
+    <moqui.basic.LocalizedMessage original="Inspect service inputs and results, run a service, and see status flows and artifact use." locale="es" localized="Inspeccionar entradas y resultados de servicios, ejecutar un servicio, y ver flujos de estado y uso de artefactos."/>
+    <moqui.basic.LocalizedMessage original="Instance ${instanceId} · ${memberCount} cluster member${memberCount == 1 ? '' : 's'} · changes apply to all running instances" locale="es" localized="Instancia ${instanceId} · ${memberCount} miembro${memberCount == 1 ? '' : 's'} del clúster · los cambios se aplican a todas las instancias en ejecución"/>
+    <moqui.basic.LocalizedMessage original="Instance overview" locale="es" localized="Resumen de la instancia"/>
+    <moqui.basic.LocalizedMessage original="Instances now" locale="es" localized="Instancias ahora"/>
+    <moqui.basic.LocalizedMessage original="Integration messages" locale="es" localized="Mensajes de integración"/>
+    <moqui.basic.LocalizedMessage original="Is this your edge node?" locale="es" localized="¿Es este su nodo de borde?"/>
+    <moqui.basic.LocalizedMessage original="It cannot be loaded now:" locale="es" localized="Ahora no se puede cargar:"/>
+    <moqui.basic.LocalizedMessage original="It is a connection of this server's pool or of a database job: ${forceSignal == 'terminate' ? 'ending it fails what uses it, and the pool opens another' : 'cancelling its statement fails the request or job running it'}." locale="es" localized="Es una conexión del grupo de este servidor o de un trabajo de base de datos: ${forceSignal == 'terminate' ? 'ending it fails what uses it, and the pool opens another' : 'cancelling its statement fails the request or job running it'}."/>
+    <moqui.basic.LocalizedMessage original="Items this node queued for the edge node, by kind. Each goes once, in order." locale="es" localized="Elementos que este nodo encoló para el nodo de borde, por clase. Cada uno va una vez, en orden."/>
+    <moqui.basic.LocalizedMessage original="Items waiting for the node, sent in order when its link is up; failed ones are kept" locale="es" localized="Elementos en espera del nodo, enviados en orden cuando su enlace está activo; los fallidos se conservan"/>
+    <moqui.basic.LocalizedMessage original="Its names" locale="es" localized="Sus nombres"/>
+    <moqui.basic.LocalizedMessage original="JavaScript expression that evaluates to an object" locale="es" localized="Expresión JavaScript que da como resultado un objeto"/>
+    <moqui.basic.LocalizedMessage original="Job" locale="es" localized="Trabajo"/>
+    <moqui.basic.LocalizedMessage original="Job history" locale="es" localized="Historial de trabajos"/>
+    <moqui.basic.LocalizedMessage original="Job run ${serviceJobRun.jobRunId}" locale="es" localized="Ejecución de trabajo ${serviceJobRun.jobRunId}"/>
+    <moqui.basic.LocalizedMessage original="Job run unavailable" locale="es" localized="Ejecución de trabajo no disponible"/>
+    <moqui.basic.LocalizedMessage original="Keep firing after recovery (seconds)" locale="es" localized="Seguir disparando tras la recuperación (segundos)"/>
+    <moqui.basic.LocalizedMessage original="Keep it" locale="es" localized="Conservarlo"/>
+    <moqui.basic.LocalizedMessage original="Key ID" locale="es" localized="ID de clave"/>
+    <moqui.basic.LocalizedMessage original="L:${ec.l10n.format(loadPercent, '00')}%" locale="es" localized="Carga:${ec.l10n.format(loadPercent, '00')}%"/>
+    <moqui.basic.LocalizedMessage original="Language" locale="es" localized="Idioma"/>
+    <moqui.basic.LocalizedMessage original="Languages" locale="es" localized="Idiomas"/>
+    <moqui.basic.LocalizedMessage original="Last acknowledged" locale="es" localized="Último acuse"/>
+    <moqui.basic.LocalizedMessage original="Last applied" locale="es" localized="Última aplicación"/>
+    <moqui.basic.LocalizedMessage original="Last batch" locale="es" localized="Último lote"/>
+    <moqui.basic.LocalizedMessage original="Last check: ${jobRunnerLastCheckText}" locale="es" localized="Última comprobación: ${jobRunnerLastCheckText}"/>
+    <moqui.basic.LocalizedMessage original="Last connect" locale="es" localized="Última conexión"/>
+    <moqui.basic.LocalizedMessage original="Last evaluated" locale="es" localized="Última evaluación"/>
+    <moqui.basic.LocalizedMessage original="Last full send" locale="es" localized="Último envío completo"/>
+    <moqui.basic.LocalizedMessage original="Last pull" locale="es" localized="Última extracción"/>
+    <moqui.basic.LocalizedMessage original="Last push" locale="es" localized="Último envío"/>
+    <moqui.basic.LocalizedMessage original="Last refused" locale="es" localized="Último rechazo"/>
+    <moqui.basic.LocalizedMessage original="Latest" locale="es" localized="Más reciente"/>
+    <moqui.basic.LocalizedMessage original="Leave empty to evaluate each numeric field." locale="es" localized="Dejar vacío para evaluar cada campo numérico."/>
+    <moqui.basic.LocalizedMessage original="Leave empty to generate a new ID." locale="es" localized="Dejar vacío para generar un ID nuevo."/>
+    <moqui.basic.LocalizedMessage original="Leave it" locale="es" localized="Dejarlo"/>
+    <moqui.basic.LocalizedMessage original="Like https://edge.example.com" locale="es" localized="Como https://edge.example.com"/>
+    <moqui.basic.LocalizedMessage original="link" locale="es" localized="enlace"/>
+    <moqui.basic.LocalizedMessage original="Link key fingerprint" locale="es" localized="Huella de la clave del enlace"/>
+    <moqui.basic.LocalizedMessage original="Link reusable contact points, silences or mute timings to this rule." locale="es" localized="Vincular a esta regla puntos de contacto, silencios u horarios de silencio reutilizables."/>
+    <moqui.basic.LocalizedMessage original="Links lost" locale="es" localized="Enlaces perdidos"/>
+    <moqui.basic.LocalizedMessage original="Load ${preview.component} ${preview.version}" locale="es" localized="Cargar ${preview.component} ${preview.version}"/>
+    <moqui.basic.LocalizedMessage original="Load Data" locale="es" localized="Cargar datos"/>
+    <moqui.basic.LocalizedMessage original="Load data" locale="es" localized="Cargar datos"/>
+    <moqui.basic.LocalizedMessage original="Load Data of ${dataComponent}" locale="es" localized="Cargar datos de ${dataComponent}"/>
+    <moqui.basic.LocalizedMessage original="Loaded" locale="es" localized="Cargado"/>
+    <moqui.basic.LocalizedMessage original="Loaded components" locale="es" localized="Componentes cargados"/>
+    <moqui.basic.LocalizedMessage original="Local node" locale="es" localized="Nodo local"/>
+    <moqui.basic.LocalizedMessage original="Local nodes paired with this edge node. A local node pairs in its own System, Edge Node, with a pairing code made here." locale="es" localized="Nodos locales emparejados con este nodo de borde. Un nodo local se empareja en su propio Sistema, Nodo de borde, con un código de emparejamiento creado aquí."/>
+    <moqui.basic.LocalizedMessage original="Localized entity fields" locale="es" localized="Campos de entidad localizados"/>
+    <moqui.basic.LocalizedMessage original="Localized messages" locale="es" localized="Mensajes localizados"/>
+    <moqui.basic.LocalizedMessage original="mail" locale="es" localized="correo"/>
+    <moqui.basic.LocalizedMessage original="Mail Domains" locale="es" localized="Dominios de correo"/>
+    <moqui.basic.LocalizedMessage original="Mail domains" locale="es" localized="Dominios de correo"/>
+    <moqui.basic.LocalizedMessage original="Mail out" locale="es" localized="Salida de correo"/>
+    <moqui.basic.LocalizedMessage original="Make a copy" locale="es" localized="Hacer una copia"/>
+    <moqui.basic.LocalizedMessage original="Make a pairing code" locale="es" localized="Crear un código de emparejamiento"/>
+    <moqui.basic.LocalizedMessage original="Make a pairing code on the edge node, in System, Edge Clients, then pair with it here." locale="es" localized="Crear un código de emparejamiento en el nodo de borde, en Sistema, Clientes de borde, y luego emparejarlo aquí."/>
+    <moqui.basic.LocalizedMessage original="Make the code" locale="es" localized="Crear el código"/>
+    <moqui.basic.LocalizedMessage original="Manage accounts, group membership and artifact access." locale="es" localized="Administrar cuentas, pertenencia a grupos y acceso a artefactos."/>
+    <moqui.basic.LocalizedMessage original="Manage components" locale="es" localized="Administrar componentes"/>
+    <moqui.basic.LocalizedMessage original="Manage the running instance, its components and background work." locale="es" localized="Administrar la instancia en ejecución, sus componentes y el trabajo en segundo plano."/>
+    <moqui.basic.LocalizedMessage original="Manual action ${manualAction.actionId}" locale="es" localized="Acción manual ${manualAction.actionId}"/>
+    <moqui.basic.LocalizedMessage original="Map header names to server property names; never paste header secrets." locale="es" localized="Asignar nombres de encabezado a nombres de propiedad del servidor; nunca pegar secretos de encabezado."/>
+    <moqui.basic.LocalizedMessage original="Mapping" locale="es" localized="Asignación"/>
+    <moqui.basic.LocalizedMessage original="Mapping ID" locale="es" localized="ID de asignación"/>
+    <moqui.basic.LocalizedMessage original="Mappings" locale="es" localized="Asignaciones"/>
+    <moqui.basic.LocalizedMessage original="Mark failed" locale="es" localized="Marcar como fallido"/>
+    <moqui.basic.LocalizedMessage original="Marks" locale="es" localized="Marcas"/>
+    <moqui.basic.LocalizedMessage original="Masked recordings of sampled signed-in sessions (telemetry browser replay-enabled): inputs and text are masked in the browser before they are sent. Each replay opened is logged." locale="es" localized="Grabaciones enmascaradas de sesiones muestreadas con sesión iniciada (telemetry browser replay-enabled): las entradas y el texto se enmascaran en el navegador antes de enviarse. Cada reproducción abierta queda registrada."/>
+    <moqui.basic.LocalizedMessage original="Match order" locale="es" localized="Orden de coincidencia"/>
+    <moqui.basic.LocalizedMessage original="Matching incidents" locale="es" localized="Incidentes coincidentes"/>
+    <moqui.basic.LocalizedMessage original="Maximum rollback rate" locale="es" localized="Tasa máxima de reversión"/>
+    <moqui.basic.LocalizedMessage original="Memory used: ${memoryUsedText}" locale="es" localized="Memoria usada: ${memoryUsedText}"/>
+    <moqui.basic.LocalizedMessage original="Message types" locale="es" localized="Tipos de mensaje"/>
+    <moqui.basic.LocalizedMessage original="Method" locale="es" localized="Método"/>
+    <moqui.basic.LocalizedMessage original="Minimum 60 seconds. Lower values are saved as 60." locale="es" localized="Mínimo 60 segundos. Los valores menores se guardan como 60."/>
+    <moqui.basic.LocalizedMessage original="Minimum confidence" locale="es" localized="Confianza mínima"/>
+    <moqui.basic.LocalizedMessage original="Minimum severity" locale="es" localized="Gravedad mínima"/>
+    <moqui.basic.LocalizedMessage original="Missing table" locale="es" localized="Tabla ausente"/>
+    <moqui.basic.LocalizedMessage original="mixed currencies" locale="es" localized="monedas mixtas"/>
+    <moqui.basic.LocalizedMessage original="Models and agents" locale="es" localized="Modelos y agentes"/>
+    <moqui.basic.LocalizedMessage original="Move telemetry tables into day partitions" locale="es" localized="Mover las tablas de telemetría a particiones por día"/>
+    <moqui.basic.LocalizedMessage original="Moved {0} telemetry tables ({1} rows) into day partitions. The old tables are kept to drop: {2}" locale="es" localized="Se movieron {0} tablas de telemetría ({1} filas) a particiones por día. Las tablas anteriores se conservan para eliminarlas: {2}"/>
+    <moqui.basic.LocalizedMessage original="MTA in moqui" locale="es" localized="MTA en moqui"/>
+    <moqui.basic.LocalizedMessage original="Mute timings suppress notifications for rules that reference them. Evaluation and state history continue." locale="es" localized="Los horarios de silencio suprimen las notificaciones de las reglas que los referencian. La evaluación y el historial de estado continúan."/>
+    <moqui.basic.LocalizedMessage original="Name holds" locale="es" localized="El nombre contiene"/>
+    <moqui.basic.LocalizedMessage original="Names" locale="es" localized="Nombres"/>
+    <moqui.basic.LocalizedMessage original="New adapter" locale="es" localized="Nuevo adaptador"/>
+    <moqui.basic.LocalizedMessage original="New calls have their media on the edge node's media node, and outside browsers relay through its TURN. Calls already going on stay where they are when this changes" locale="es" localized="Las llamadas nuevas tienen sus medios en el nodo de medios del nodo de borde, y los navegadores de fuera se retransmiten por su TURN. Las llamadas ya en curso siguen donde están cuando esto cambia"/>
+    <moqui.basic.LocalizedMessage original="New calls on the edge node's media node" locale="es" localized="Llamadas nuevas en el nodo de medios del nodo de borde"/>
+    <moqui.basic.LocalizedMessage original="New entities: ${entitiesAdded}" locale="es" localized="Entidades nuevas: ${entitiesAdded}"/>
+    <moqui.basic.LocalizedMessage original="New mapping" locale="es" localized="Nueva asignación"/>
+    <moqui.basic.LocalizedMessage original="New policy" locale="es" localized="Nueva política"/>
+    <moqui.basic.LocalizedMessage original="Newest actions" locale="es" localized="Acciones más recientes"/>
+    <moqui.basic.LocalizedMessage original="Newest first. Times shown in ${ec.user.timeZone}." locale="es" localized="Lo más reciente primero. Horas mostradas en ${ec.user.timeZone}."/>
+    <moqui.basic.LocalizedMessage original="Newest line" locale="es" localized="Línea más reciente"/>
+    <moqui.basic.LocalizedMessage original="Next connects to the edge node and checks its certificate. Nothing is paired yet." locale="es" localized="Siguiente se conecta al nodo de borde y comprueba su certificado. Aún no hay nada emparejado."/>
+    <moqui.basic.LocalizedMessage original="Next keeps these choices for Apply. Nothing is changed yet." locale="es" localized="Siguiente guarda estas elecciones para Aplicar. Aún no se cambia nada."/>
+    <moqui.basic.LocalizedMessage original="Next safe action" locale="es" localized="Siguiente acción segura"/>
+    <moqui.basic.LocalizedMessage original="No active alert rule was processed. If the rule is paused, resume it before evaluating." locale="es" localized="No se procesó ninguna regla de alerta activa. Si la regla está en pausa, reanudarla antes de evaluar."/>
+    <moqui.basic.LocalizedMessage original="No alert rules explicitly reference this item yet. Add it from an alert rule's Shared item selector." locale="es" localized="Ninguna regla de alerta referencia este elemento todavía. Agregarlo desde el selector de elemento compartido de una regla de alerta."/>
+    <moqui.basic.LocalizedMessage original="No alert rules yet. Create a rule to evaluate a query and track its state." locale="es" localized="Aún no hay reglas de alerta. Crear una regla para evaluar una consulta y seguir su estado."/>
+    <moqui.basic.LocalizedMessage original="No chat bridges yet" locale="es" localized="Aún no hay puentes de conversación"/>
+    <moqui.basic.LocalizedMessage original="No conflicts: no local node's record claims an item of this server's own." locale="es" localized="Sin conflictos: ningún registro de un nodo local reclama un elemento propio de este servidor."/>
+    <moqui.basic.LocalizedMessage original="No contact points have been added here." locale="es" localized="Aquí no se han agregado puntos de contacto."/>
+    <moqui.basic.LocalizedMessage original="No dashboard playlists yet. Create one to rotate through dashboards in a chosen order." locale="es" localized="Aún no hay listas de reproducción de paneles de control. Crear una para rotar paneles de control en un orden elegido."/>
+    <moqui.basic.LocalizedMessage original="No dashboards are available. Create a dashboard in the library before creating a playlist." locale="es" localized="No hay paneles de control disponibles. Crear un panel en la biblioteca antes de crear una lista de reproducción."/>
+    <moqui.basic.LocalizedMessage original="No dashboards or reports are available to preview." locale="es" localized="No hay paneles de control ni reportes disponibles para previsualizar."/>
+    <moqui.basic.LocalizedMessage original="No Data Document specified, not exporting anything." locale="es" localized="No se especificó un documento de datos; no se exporta nada."/>
+    <moqui.basic.LocalizedMessage original="No database jobs yet." locale="es" localized="Aún no hay trabajos de base de datos."/>
+    <moqui.basic.LocalizedMessage original="No dataset is available to you yet." locale="es" localized="Aún no hay un conjunto de datos disponible."/>
+    <moqui.basic.LocalizedMessage original="No deployment history: no component has been loaded, deployed or removed from this screen. The components the server started with run as usual; the Overview lists them." locale="es" localized="Sin historial de despliegue: desde esta pantalla no se ha cargado, desplegado ni quitado ningún componente. Los componentes con los que arrancó el servidor siguen igual; el Resumen los lista."/>
+    <moqui.basic.LocalizedMessage original="No end time is recorded. The run may still be active or may have stopped before recording completion." locale="es" localized="No hay hora de fin registrada. La ejecución puede seguir activa o haberse detenido antes de registrar la finalización."/>
+    <moqui.basic.LocalizedMessage original="No error flag was recorded. Inspect the results and any errors below." locale="es" localized="No se registró un indicador de error. Revisar los resultados y los errores de abajo."/>
+    <moqui.basic.LocalizedMessage original="No errors." locale="es" localized="No hay errores."/>
+    <moqui.basic.LocalizedMessage original="No host names or mail domains, so no records to set." locale="es" localized="No hay nombres de host ni dominios de correo, así que no hay registros que definir."/>
+    <moqui.basic.LocalizedMessage original="No host names yet. Add one for a paired local node, and point its DNS at this edge node." locale="es" localized="Aún no hay nombres de host. Agregar uno para un nodo local emparejado, y apuntar su DNS a este nodo de borde."/>
+    <moqui.basic.LocalizedMessage original="No incident was found for ID ${incidentId}." locale="es" localized="No se encontró un incidente para el ID ${incidentId}."/>
+    <moqui.basic.LocalizedMessage original="No incidents match these filters. Change the status or service and search again." locale="es" localized="Ningún incidente coincide con estos filtros. Cambiar el estado o el servicio y buscar de nuevo."/>
+    <moqui.basic.LocalizedMessage original="No index problems found." locale="es" localized="No se encontraron problemas de índice."/>
+    <moqui.basic.LocalizedMessage original="No index used" locale="es" localized="Ningún índice usado"/>
+    <moqui.basic.LocalizedMessage original="No local node has replicated a set here yet." locale="es" localized="Ningún nodo local ha replicado un conjunto aquí todavía."/>
+    <moqui.basic.LocalizedMessage original="No local node is paired yet. Make a pairing code, then pair on the local node." locale="es" localized="Aún no hay un nodo local emparejado. Crear un código de emparejamiento y luego emparejar en el nodo local."/>
+    <moqui.basic.LocalizedMessage original="No mail" locale="es" localized="Sin correo"/>
+    <moqui.basic.LocalizedMessage original="No mappings yet. Make one here, or from a file in Data › Grid with Load into…" locale="es" localized="Aún no hay asignaciones. Crear una aquí, o desde un archivo en Datos › Cuadrícula con Cargar en…"/>
+    <moqui.basic.LocalizedMessage original="No media node" locale="es" localized="Sin nodo de medios"/>
+    <moqui.basic.LocalizedMessage original="No mr-pass" locale="es" localized="Sin mr-pass"/>
+    <moqui.basic.LocalizedMessage original="No new error groups have appeared since this release started." locale="es" localized="No han aparecido grupos de errores nuevos desde que empezó este lanzamiento."/>
+    <moqui.basic.LocalizedMessage original="No numbers" locale="es" localized="Sin números"/>
+</entity-facade-xml>

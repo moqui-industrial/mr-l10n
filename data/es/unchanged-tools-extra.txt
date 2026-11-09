@@ -1,0 +1,29 @@
+# Messages the same in Spanish: the catalog has no row for them (a missing row returns the original), and they are
+# still message keys for the other catalogs.
+${ec.l10n.format(cpuTime/1E9, '#,##0.000')}s
+${ec.l10n.format(Number(duration_nano || 0)/1000000,'0.00')} ms
+${ec.l10n.format(userTime/1E9, '#,##0.000')}s
+CSV
+D:${ec.l10n.format(diskPercent, '00')}%
+Error
+ETL
+Excel
+H:${ec.l10n.format(heapPercent, '00')}%
+HTTP
+JSON
+MCP
+Monitor
+MR Moqui ${ec.factory.moquiVersion}
+mr-pass
+ms
+PASS
+PDF
+Ping
+PK 1
+PK 2
+PNG
+SQL
+TLS
+URL
+Webhooks
+X

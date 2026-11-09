@@ -22,6 +22,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="A note from the shell's quick create. With a record in the screen context it is linked to it." locale="es" localized="Una nota de la creación rápida del shell. Si hay un registro en el contexto de la pantalla, queda vinculada a él."/>
     <moqui.basic.LocalizedMessage original="A plain-text message" locale="es" localized="Un mensaje de texto plano"/>
     <moqui.basic.LocalizedMessage original="Activity: last 20 artifact hits" locale="es" localized="Actividad: últimos 20 accesos del artefacto"/>
+    <moqui.basic.LocalizedMessage original="Activity: last 20 requests" locale="es" localized="Actividad: últimas 20 solicitudes"/>
     <moqui.basic.LocalizedMessage original="Add to group" locale="es" localized="Añadir al grupo"/>
     <moqui.basic.LocalizedMessage original="Added to ${WebUtilities.encodeHtml(groupList.length ? (groupList[0].description || groupList[0].userGroupId) : 'no group')}" locale="es" localized="Añadido a ${WebUtilities.encodeHtml(groupList.length ? (groupList[0].description || groupList[0].userGroupId) : 'no group')}"/>
     <moqui.basic.LocalizedMessage original="Address" locale="es" localized="Dirección"/>
@@ -59,6 +60,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Base currency" locale="es" localized="Moneda base"/>
     <moqui.basic.LocalizedMessage original="Bin period" locale="es" localized="Periodo del intervalo"/>
     <moqui.basic.LocalizedMessage original="Bin start" locale="es" localized="Inicio del intervalo"/>
+    <moqui.basic.LocalizedMessage original="Browse pages, edit Markdown, and inspect versions from History. Compare changes before restoring or publishing a version. Editing, restoring and publishing change the selected demo space." locale="es" localized="Explore páginas, edite Markdown y revise versiones desde Historial. Compare los cambios antes de restaurar o publicar una versión. Editar, restaurar y publicar cambian el espacio de demostración seleccionado."/>
     <moqui.basic.LocalizedMessage original="Buttons (4.6): primary, tonal, flat, text" locale="es" localized="Botones (4.6): primary, tonal, flat, text"/>
     <moqui.basic.LocalizedMessage original="By" locale="es" localized="Por"/>
     <moqui.basic.LocalizedMessage original="Changed" locale="es" localized="Modificado"/>
@@ -70,20 +72,25 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Compare" locale="es" localized="Comparar"/>
     <moqui.basic.LocalizedMessage original="Compare with current" locale="es" localized="Comparar con la actual"/>
     <moqui.basic.LocalizedMessage original="Comparison operators" locale="es" localized="Operadores de comparación"/>
+    <moqui.basic.LocalizedMessage original="Comparison unavailable" locale="es" localized="Comparación no disponible"/>
     <moqui.basic.LocalizedMessage original="container-dialog and dynamic-container" locale="es" localized="container-dialog y dynamic-container"/>
     <moqui.basic.LocalizedMessage original="Containers (4.1, 4.2): box types, dialog, dynamic container, tree, editable, image" locale="es" localized="Contenedores (4.1, 4.2): tipos de box, dialog, dynamic container, tree, editable, image"/>
     <moqui.basic.LocalizedMessage original="Countries" locale="es" localized="Países"/>
     <moqui.basic.LocalizedMessage original="Create a comparison operator in a dialog" locale="es" localized="Crear un operador de comparación en un diálogo"/>
     <moqui.basic.LocalizedMessage original="Create the git space" locale="es" localized="Crear el espacio git"/>
+    <moqui.basic.LocalizedMessage original="current" locale="es" localized="actual"/>
     <moqui.basic.LocalizedMessage original="Customer name" locale="es" localized="Nombre del cliente"/>
+    <moqui.basic.LocalizedMessage original="danger" locale="es" localized="peligro"/>
     <moqui.basic.LocalizedMessage original="date-find type=date" locale="es" localized="Campo date-find type=date"/>
     <moqui.basic.LocalizedMessage original="date-time type=date" locale="es" localized="Campo date-time type=date"/>
     <moqui.basic.LocalizedMessage original="date-time type=date-time" locale="es" localized="Campo date-time type=date-time"/>
     <moqui.basic.LocalizedMessage original="date-time type=time" locale="es" localized="Campo date-time type=time"/>
     <moqui.basic.LocalizedMessage original="dbresource: EXAMPLE" locale="es" localized="Espacio dbresource: EXAMPLE"/>
+    <moqui.basic.LocalizedMessage original="default" locale="es" localized="predeterminado"/>
     <moqui.basic.LocalizedMessage original="Default length unit" locale="es" localized="Unidad de longitud predeterminada"/>
     <moqui.basic.LocalizedMessage original="Default locale" locale="es" localized="Configuración regional predeterminada"/>
     <moqui.basic.LocalizedMessage original="Description (JSON)" locale="es" localized="Descripción (JSON)"/>
+    <moqui.basic.LocalizedMessage original="Detail (shown unless part, required for other)" locale="es" localized="Detalle (se muestra salvo parte, obligatorio para otro)"/>
     <moqui.basic.LocalizedMessage original="Detail archetype" locale="es" localized="Arquetipo de detalle"/>
     <moqui.basic.LocalizedMessage original="Disable" locale="es" localized="Desactivar"/>
     <moqui.basic.LocalizedMessage original="display (label-wrapper)" locale="es" localized="Campo display (label-wrapper)"/>
@@ -110,7 +117,10 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Fallbacks for style-guide section 8: none needed; the dynamic container loads this screen with dynPart=Y because the gallery owns no second screen file." locale="es" localized="Alternativas de la sección 8 de la guía de estilo: no hacen falta; dynamic-container carga esta pantalla con dynPart=Y porque la galería no tiene un segundo archivo de pantalla."/>
     <moqui.basic.LocalizedMessage original="Fallbacks for style-guide section 8: the tray panel frame does not exist, so this is the content only; the context chip is a q-chip until the screen context element exists; the approvals count is a fixed number until the notification counts arrive." locale="es" localized="Alternativas de la sección 8 de la guía: no existe el marco del panel de bandeja y esto es solo el contenido; el chip de contexto es un q-chip hasta que exista el elemento de contexto; el conteo de aprobaciones es fijo hasta que lleguen los conteos."/>
     <moqui.basic.LocalizedMessage original="Fallbacks: the handheld density of §8 (48 px controls) does not exist yet, so the controls are the dense defaults; pick lines have no framework entity, so they are an inline list built in the screen actions." locale="es" localized="Alternativas: la densidad portátil de la §8 (controles de 48 px) aún no existe, así que los controles son los predeterminados densos; las líneas de surtido no tienen entidad del marco, así que son una lista en línea creada en las acciones de la pantalla."/>
+    <moqui.basic.LocalizedMessage original="Field rules (4.5): visible-when and require-when" locale="es" localized="Reglas de campo (4.5): visible-when y require-when"/>
     <moqui.basic.LocalizedMessage original="Fields (4.5): every widget, titled by its element" locale="es" localized="Campos (4.5): cada widget, titulado por su elemento"/>
+    <moqui.basic.LocalizedMessage original="file" locale="es" localized="archivo"/>
+    <moqui.basic.LocalizedMessage original="Find and inspect enumerations, choose columns, save searches and export results. New, clone and bulk-tag actions are demonstrations; saved finds and column preferences are stored for your account." locale="es" localized="Busque e inspeccione enumeraciones, elija columnas, guarde búsquedas y exporte resultados. Las acciones de nuevo, clonar y etiquetar en lote son demostraciones; las búsquedas guardadas y las preferencias de columnas se almacenan en su cuenta."/>
     <moqui.basic.LocalizedMessage original="Find enumerations" locale="es" localized="Buscar enumeraciones"/>
     <moqui.basic.LocalizedMessage original="Flag" locale="es" localized="Marca"/>
     <moqui.basic.LocalizedMessage original="Flagged" locale="es" localized="Marcado"/>
@@ -128,12 +138,14 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="h4 label: a landing greeting" locale="es" localized="Etiqueta h4: saludo de inicio"/>
     <moqui.basic.LocalizedMessage original="h5 label: a record title" locale="es" localized="Etiqueta h5: título de un registro"/>
     <moqui.basic.LocalizedMessage original="h6 label: a section title outside a box" locale="es" localized="Etiqueta h6: título de sección fuera de una caja"/>
+    <moqui.basic.LocalizedMessage original="Handheld" locale="es" localized="De mano"/>
     <moqui.basic.LocalizedMessage original="Header" locale="es" localized="Encabezado"/>
     <moqui.basic.LocalizedMessage original="Hide images again" locale="es" localized="Ocultar imágenes de nuevo"/>
     <moqui.basic.LocalizedMessage original="High" locale="es" localized="Alta"/>
     <moqui.basic.LocalizedMessage original="Hits and average time by day" locale="es" localized="Accesos y tiempo promedio por día"/>
     <moqui.basic.LocalizedMessage original="Hits by artifact type" locale="es" localized="Accesos por tipo de artefacto"/>
     <moqui.basic.LocalizedMessage original="image with the invertible class for dark mode:" locale="es" localized="image con la clase invertible para el modo oscuro:"/>
+    <moqui.basic.LocalizedMessage original="info" locale="es" localized="información"/>
     <moqui.basic.LocalizedMessage original="John Doe 360" locale="es" localized="Vista 360 de John Doe"/>
     <moqui.basic.LocalizedMessage original="Kind A" locale="es" localized="Clase A"/>
     <moqui.basic.LocalizedMessage original="Kind B" locale="es" localized="Clase B"/>
@@ -155,6 +167,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Matches part of the name" locale="es" localized="Coincide con parte del nombre"/>
     <moqui.basic.LocalizedMessage original="Max ms" locale="es" localized="Máx. ms"/>
     <moqui.basic.LocalizedMessage original="Meeting" locale="es" localized="Reunión"/>
+    <moqui.basic.LocalizedMessage original="negative" locale="es" localized="negativo"/>
     <moqui.basic.LocalizedMessage original="New address" locale="es" localized="Nueva dirección"/>
     <moqui.basic.LocalizedMessage original="New enumeration" locale="es" localized="Nueva enumeración"/>
     <moqui.basic.LocalizedMessage original="New event" locale="es" localized="Nuevo evento"/>
@@ -171,6 +184,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Normal" locale="es" localized="Media"/>
     <moqui.basic.LocalizedMessage original="Not flagged" locale="es" localized="Sin marcar"/>
     <moqui.basic.LocalizedMessage original="Note (click to edit)" locale="es" localized="Nota (clic para editar)"/>
+    <moqui.basic.LocalizedMessage original="Note (shown once a kind is chosen)" locale="es" localized="Nota (se muestra cuando se elige una clase)"/>
     <moqui.basic.LocalizedMessage original="Note: demo account of the framework" locale="es" localized="Nota: cuenta de demostración del framework"/>
     <moqui.basic.LocalizedMessage original="Notes" locale="es" localized="Notas"/>
     <moqui.basic.LocalizedMessage original="Numeric" locale="es" localized="Numérico"/>
@@ -181,6 +195,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Open ${requestId}" locale="es" localized="Abrir ${requestId}"/>
     <moqui.basic.LocalizedMessage original="Open dialog" locale="es" localized="Abrir diálogo"/>
     <moqui.basic.LocalizedMessage original="Open Notifications" locale="es" localized="Abrir notificaciones"/>
+    <moqui.basic.LocalizedMessage original="Open the Handheld example" locale="es" localized="Abrir el ejemplo de mano"/>
     <moqui.basic.LocalizedMessage original="Option value" locale="es" localized="Valor de la opción"/>
     <moqui.basic.LocalizedMessage original="Organization and defaults" locale="es" localized="Organización y valores predeterminados"/>
     <moqui.basic.LocalizedMessage original="Organization, base currency, locale, time zone and sign-in rules." locale="es" localized="Organización, moneda base, configuración regional, zona horaria y reglas de inicio de sesión."/>
@@ -188,14 +203,18 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Overview" locale="es" localized="Resumen"/>
     <moqui.basic.LocalizedMessage original="p label: a paragraph of body text, 14 px at line height 1.5." locale="es" localized="Etiqueta p: un párrafo de texto, 14 px con interlineado 1.5."/>
     <moqui.basic.LocalizedMessage original="Parent" locale="es" localized="Padre"/>
+    <moqui.basic.LocalizedMessage original="password" locale="es" localized="contraseña"/>
     <moqui.basic.LocalizedMessage original="Password change required" locale="es" localized="Cambio de contraseña obligatorio"/>
     <moqui.basic.LocalizedMessage original="Password set" locale="es" localized="Contraseña establecida"/>
     <moqui.basic.LocalizedMessage original="Phone" locale="es" localized="Teléfono"/>
     <moqui.basic.LocalizedMessage original="Pick" locale="es" localized="Surtir"/>
     <moqui.basic.LocalizedMessage original="Plain URL in a new window" locale="es" localized="URL simple en una ventana nueva"/>
+    <moqui.basic.LocalizedMessage original="positive" locale="es" localized="positivo"/>
     <moqui.basic.LocalizedMessage original="Post" locale="es" localized="Publicar"/>
+    <moqui.basic.LocalizedMessage original="primary" locale="es" localized="primario"/>
     <moqui.basic.LocalizedMessage original="Primary: a form's submit, outline until a field changes." locale="es" localized="Primario: el envío de un formulario, en contorno hasta que un campo cambie."/>
     <moqui.basic.LocalizedMessage original="Push" locale="es" localized="Aviso push"/>
+    <moqui.basic.LocalizedMessage original="Put away: scan the bin, then confirm" locale="es" localized="Ubicar: escanee el casillero y luego confirme"/>
     <moqui.basic.LocalizedMessage original="Put on hold" locale="es" localized="Poner en espera"/>
     <moqui.basic.LocalizedMessage original="Qty" locale="es" localized="Cant."/>
     <moqui.basic.LocalizedMessage original="Quick create" locale="es" localized="Creación rápida"/>
@@ -210,10 +229,12 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Restore this version" locale="es" localized="Restaurar esta versión"/>
     <moqui.basic.LocalizedMessage original="Row action value" locale="es" localized="Valor de la acción de fila"/>
     <moqui.basic.LocalizedMessage original="Save as a new version" locale="es" localized="Guardar como versión nueva"/>
+    <moqui.basic.LocalizedMessage original="Scan anything" locale="es" localized="Escanear lo que sea"/>
     <moqui.basic.LocalizedMessage original="Section 3.15 Tree list" locale="es" localized="Sección 3.15 lista en árbol"/>
     <moqui.basic.LocalizedMessage original="Section 8.2 List views: board and calendar" locale="es" localized="Sección 8.2 vistas de lista: tablero y calendario"/>
     <moqui.basic.LocalizedMessage original="Send message" locale="es" localized="Enviar mensaje"/>
     <moqui.basic.LocalizedMessage original="Send the monthly newsletter" locale="es" localized="Enviar el boletín mensual"/>
+    <moqui.basic.LocalizedMessage original="Serial (required for equipment)" locale="es" localized="Serie (obligatorio para equipo)"/>
     <moqui.basic.LocalizedMessage original="Shared by ${shared.sharerName || 'someone'}" locale="es" localized="Compartido por ${shared.sharerName || 'someone'}"/>
     <moqui.basic.LocalizedMessage original="Short" locale="es" localized="Faltante"/>
     <moqui.basic.LocalizedMessage original="Shortcuts" locale="es" localized="Atajos"/>
@@ -229,6 +250,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Status items" locale="es" localized="Elementos de estado"/>
     <moqui.basic.LocalizedMessage original="strong label" locale="es" localized="Etiqueta strong"/>
     <moqui.basic.LocalizedMessage original="Sub type" locale="es" localized="Subtipo"/>
+    <moqui.basic.LocalizedMessage original="success" locale="es" localized="éxito"/>
     <moqui.basic.LocalizedMessage original="Tag" locale="es" localized="Etiqueta"/>
     <moqui.basic.LocalizedMessage original="Tag selected" locale="es" localized="Etiquetar selección"/>
     <moqui.basic.LocalizedMessage original="Text link through a transition" locale="es" localized="Enlace de texto por una transición"/>
@@ -250,6 +272,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="The coded lists the apps choose from: types, categories and reasons." locale="es" localized="Las listas codificadas de las que eligen las aplicaciones: tipos, categorías y motivos."/>
     <moqui.basic.LocalizedMessage original="The counters are number-card elements in a dashboard. Fallbacks for §8: the assigned-to-me list is an inline list because the framework has no work-item entity; the status chips are tonal anchor-button links until the m-tonal chip exists." locale="es" localized="Los contadores son elementos number-card en un tablero. Alternativas de la §8: la lista de asignados a mí va en línea porque el marco no tiene entidad de trabajo; los chips de estado son enlaces anchor-button tonales hasta que exista el chip m-tonal."/>
     <moqui.basic.LocalizedMessage original="The country the customer trades from and what they want to receive." locale="es" localized="El país desde el que comercia el cliente y lo que quiere recibir."/>
+    <moqui.basic.LocalizedMessage original="The example provider fails for this number on purpose" locale="es" localized="El proveedor de ejemplo falla a propósito con este número"/>
     <moqui.basic.LocalizedMessage original="The files of ${recordEntity} ${recordId}: the gallery's stand-in for an app's shared RecordFiles screen, loaded by the record-files element under ${appRoot}." locale="es" localized="Los archivos de ${recordEntity} ${recordId}: el sustituto de la galería para la pantalla RecordFiles compartida de una aplicación, cargado por el elemento record-files bajo ${appRoot}."/>
     <moqui.basic.LocalizedMessage original="The HTML is cleaned in the browser and shown in a frame without scripts. Remote images wait for Show images or a trusted sender; the reply history is behind the dots." locale="es" localized="El HTML se limpia en el navegador y se muestra en un marco sin scripts. Las imágenes remotas esperan Mostrar imágenes o un remitente de confianza; el historial de respuestas está tras los puntos."/>
     <moqui.basic.LocalizedMessage original="The statuses a record moves through and the transitions between them." locale="es" localized="Los estados por los que pasa un registro y las transiciones entre ellos."/>
@@ -258,6 +281,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="There is no enumeration ${enumId}. The real screen goes back to the list with a notification." locale="es" localized="No existe la enumeración ${enumId}. La pantalla real vuelve a la lista con una notificación."/>
     <moqui.basic.LocalizedMessage original="There is no page ${pagePath} in ${wikiSpaceId}." locale="es" localized="No hay página ${pagePath} en ${wikiSpaceId}."/>
     <moqui.basic.LocalizedMessage original="There is no user account ${userId}. The real screen goes back to the list with a notification." locale="es" localized="No existe la cuenta de usuario ${userId}. La pantalla real vuelve a la lista con una notificación."/>
+    <moqui.basic.LocalizedMessage original="This example uses compact controls and an inline list of demonstration pick lines. The Handheld example shows 48 px touch controls and a scan-first workflow." locale="es" localized="Este ejemplo usa controles compactos y una lista en línea de líneas de recolección de demostración. El ejemplo de mano muestra controles táctiles de 48 px y un flujo que empieza por el escaneo."/>
     <moqui.basic.LocalizedMessage original="Time zone" locale="es" localized="Zona horaria"/>
     <moqui.basic.LocalizedMessage original="Tonal (secondary): transition links by btn-type, a danger link with confirmation, a button-menu." locale="es" localized="Tonal (secundario): enlaces de transición por btn-type, un enlace de peligro con confirmación y un button-menu."/>
     <moqui.basic.LocalizedMessage original="Tonal info" locale="es" localized="Tonal de información"/>
@@ -279,6 +303,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Version note" locale="es" localized="Nota de versión"/>
     <moqui.basic.LocalizedMessage original="View: list" locale="es" localized="Vista: lista"/>
     <moqui.basic.LocalizedMessage original="Waiting on finance" locale="es" localized="En espera de finanzas"/>
+    <moqui.basic.LocalizedMessage original="warning" locale="es" localized="advertencia"/>
     <moqui.basic.LocalizedMessage original="What" locale="es" localized="Qué"/>
     <moqui.basic.LocalizedMessage original="Who" locale="es" localized="Quién"/>
     <moqui.basic.LocalizedMessage original="Who can sign in, which groups they are in and what each group may do." locale="es" localized="Quién puede iniciar sesión, en qué grupos está y qué puede hacer cada grupo."/>

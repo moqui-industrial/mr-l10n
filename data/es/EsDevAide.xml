@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="es">
+    <moqui.basic.LocalizedMessage original="A change needs a restart" locale="es" localized="Un cambio necesita un reinicio"/>
+    <moqui.basic.LocalizedMessage original="A change that waits for a restart (a part of the conf that is not applied live, a component.xml, a component not loaded live) takes effect when the server restarts. Sessions and the sim overlay are lost." locale="es" localized="Un cambio que espera un reinicio (una parte de la configuración que no se aplica en vivo, un component.xml, un componente que no se carga en vivo) surte efecto cuando el servidor se reinicia. Se pierden las sesiones y la superposición de simulación."/>
+    <moqui.basic.LocalizedMessage original="A Rust change needs a rebuild first: ./moq build" locale="es" localized="Un cambio de Rust necesita primero una recompilación: ./moq build"/>
+    <moqui.basic.LocalizedMessage original="Add a directory" locale="es" localized="Agregar un directorio"/>
+    <moqui.basic.LocalizedMessage original="All artifacts" locale="es" localized="Todos los artefactos"/>
+    <moqui.basic.LocalizedMessage original="Allow editing upstream components" locale="es" localized="Permitir editar componentes de origen"/>
+    <moqui.basic.LocalizedMessage original="An upgrade of an upstream component removed what ${custom.brokenCount} of them extend." locale="es" localized="Una actualización de un componente de origen quitó lo que extienden ${custom.brokenCount} de esas extensiones."/>
+    <moqui.basic.LocalizedMessage original="Artifact (id or name)" locale="es" localized="Artefacto (id o nombre)"/>
+    <moqui.basic.LocalizedMessage original="Back to artifact" locale="es" localized="Volver al artefacto"/>
+    <moqui.basic.LocalizedMessage original="Choose an artifact to see what uses it and what it uses. Enter a name such as moqui.security.UserAccount, or find one in Artifact Search." locale="es" localized="Elija un artefacto para ver qué lo usa y qué usa él. Escriba un nombre como moqui.security.UserAccount, o búsquelo en Búsqueda de artefactos."/>
+    <moqui.basic.LocalizedMessage original="Comma list of prefixes, such as mantle.order, mantle/order or SimpleScreens/Order; empty: all" locale="es" localized="Lista de prefijos separada por comas, como mantle.order, mantle/order o SimpleScreens/Order; vacío: todos"/>
+    <moqui.basic.LocalizedMessage original="Create component" locale="es" localized="Crear componente"/>
+    <moqui.basic.LocalizedMessage original="Create site component" locale="es" localized="Crear componente de sitio"/>
+    <moqui.basic.LocalizedMessage original="Create something new" locale="es" localized="Crear algo nuevo"/>
+    <moqui.basic.LocalizedMessage original="Customizations" locale="es" localized="Personalizaciones"/>
+    <moqui.basic.LocalizedMessage original="Data file loaded" locale="es" localized="Archivo de datos cargado"/>
+    <moqui.basic.LocalizedMessage original="DDL on a dev database" locale="es" localized="DDL en una base de datos de desarrollo"/>
+    <moqui.basic.LocalizedMessage original="Dev only (runtime/dev-component)" locale="es" localized="Solo de desarrollo (runtime/dev-component)"/>
+    <moqui.basic.LocalizedMessage original="Directory (full path)" locale="es" localized="Directorio (ruta completa)"/>
+    <moqui.basic.LocalizedMessage original="Directory in it" locale="es" localized="Directorio dentro de él"/>
+    <moqui.basic.LocalizedMessage original="Docs" locale="es" localized="Documentación"/>
+    <moqui.basic.LocalizedMessage original="Docs exported" locale="es" localized="Documentación exportada"/>
+    <moqui.basic.LocalizedMessage original="Edit this site's extensions in the workspace. Settings controls which site component receives new extensions." locale="es" localized="Edite las extensiones de este sitio en el espacio de trabajo. Configuración controla qué componente de sitio recibe las extensiones nuevas."/>
+    <moqui.basic.LocalizedMessage original="Editing an upstream component in place is a fork: every upgrade of it has to merge your change. Turn this on to work on the framework or an app itself." locale="es" localized="Editar un componente de origen in situ es una bifurcación: cada actualización de él tiene que fusionar su cambio. Actívelo para trabajar en el framework o en la aplicación misma."/>
+    <moqui.basic.LocalizedMessage original="Export docs" locale="es" localized="Exportar documentación"/>
+    <moqui.basic.LocalizedMessage original="Extends" locale="es" localized="Extiende"/>
+    <moqui.basic.LocalizedMessage original="Extends (components, comma separated)" locale="es" localized="Extiende (componentes, separados por comas)"/>
+    <moqui.basic.LocalizedMessage original="Find an artifact" locale="es" localized="Buscar un artefacto"/>
+    <moqui.basic.LocalizedMessage original="Find artifacts" locale="es" localized="Buscar artefactos"/>
+    <moqui.basic.LocalizedMessage original="Find entities, services, screens and their references by name. Try UserAccount, UsrAcct or create#UserAccount; narrow the results by kind or component." locale="es" localized="Busque entidades, servicios, pantallas y sus referencias por nombre. Pruebe UserAccount, UsrAcct o create#UserAccount; acote los resultados por clase o componente."/>
+    <moqui.basic.LocalizedMessage original="For user (empty: the root's deploy token)" locale="es" localized="Para el usuario (vacío: el token de despliegue de la raíz)"/>
+    <moqui.basic.LocalizedMessage original="Git command" locale="es" localized="Comando de Git"/>
+    <moqui.basic.LocalizedMessage original="Git tokens" locale="es" localized="Tokens de Git"/>
+    <moqui.basic.LocalizedMessage original="How" locale="es" localized="Cómo"/>
+    <moqui.basic.LocalizedMessage original="Initialize git" locale="es" localized="Inicializar git"/>
+    <moqui.basic.LocalizedMessage original="Keep this site's entity and screen extensions, seed data and rules in a site component so upstream upgrades stay easy." locale="es" localized="Conserve en un componente de sitio las extensiones de entidades y pantallas, los datos semilla y las reglas de este sitio, para que las actualizaciones de origen sigan siendo fáciles."/>
+    <moqui.basic.LocalizedMessage original="Move or rename" locale="es" localized="Mover o renombrar"/>
+    <moqui.basic.LocalizedMessage original="Network git commands" locale="es" localized="Comandos de git en red"/>
+    <moqui.basic.LocalizedMessage original="New component" locale="es" localized="Componente nuevo"/>
+    <moqui.basic.LocalizedMessage original="No artifact matches '${artifactId}'" locale="es" localized="Ningún artefacto coincide con '${artifactId}'"/>
+    <moqui.basic.LocalizedMessage original="No artifacts match '${text}'" locale="es" localized="Ningún artefacto coincide con '${text}'"/>
+    <moqui.basic.LocalizedMessage original="No incoming references are recorded for this artifact." locale="es" localized="No hay referencias entrantes registradas para este artefacto."/>
+    <moqui.basic.LocalizedMessage original="No outgoing references are recorded for this artifact." locale="es" localized="No hay referencias salientes registradas para este artefacto."/>
+    <moqui.basic.LocalizedMessage original="No reloads yet. Saved or externally changed files appear here after they are reloaded." locale="es" localized="Aún no hay recargas. Los archivos guardados o cambiados desde fuera aparecen aquí después de recargarse."/>
+    <moqui.basic.LocalizedMessage original="No site component is set: Home creates one, Settings names one." locale="es" localized="No hay un componente de sitio definido: Inicio crea uno y Configuración indica uno."/>
+    <moqui.basic.LocalizedMessage original="No site component yet" locale="es" localized="Aún no hay un componente de sitio"/>
+    <moqui.basic.LocalizedMessage original="None checked: all" locale="es" localized="Ninguno marcado: todos"/>
+    <moqui.basic.LocalizedMessage original="None chosen: all" locale="es" localized="Ninguno elegido: todos"/>
+    <moqui.basic.LocalizedMessage original="On a shared dev server fetch, pull and push are off until an admin enables them; the server's git then uses its own credentials." locale="es" localized="En un servidor de desarrollo compartido, fetch, pull y push están desactivados hasta que un administrador los habilita; el git del servidor usa entonces sus propias credenciales."/>
+    <moqui.basic.LocalizedMessage original="Open a root to browse its files and review changes. Unpublished site changes: ${(overview.unpublished || 0)}." locale="es" localized="Abra una raíz para explorar sus archivos y revisar los cambios. Cambios del sitio sin publicar: ${(overview.unpublished || 0)}."/>
+    <moqui.basic.LocalizedMessage original="Open in the Browser" locale="es" localized="Abrir en el navegador"/>
+    <moqui.basic.LocalizedMessage original="Open in Workspace" locale="es" localized="Abrir en el espacio de trabajo"/>
+    <moqui.basic.LocalizedMessage original="Open the doc" locale="es" localized="Abrir la documentación"/>
+    <moqui.basic.LocalizedMessage original="Open workspace" locale="es" localized="Abrir espacio de trabajo"/>
+    <moqui.basic.LocalizedMessage original="Publish ${siteChanges}" locale="es" localized="Publicar ${siteChanges}"/>
+    <moqui.basic.LocalizedMessage original="Publish branch" locale="es" localized="Rama de publicación"/>
+    <moqui.basic.LocalizedMessage original="Relative to the repository or directory" locale="es" localized="Relativo al repositorio o al directorio"/>
+    <moqui.basic.LocalizedMessage original="Reload log" locale="es" localized="Registro de recargas"/>
+    <moqui.basic.LocalizedMessage original="Remote URL (empty: the root's origin)" locale="es" localized="URL remota (vacío: el origen de la raíz)"/>
+    <moqui.basic.LocalizedMessage original="Repository or directory" locale="es" localized="Repositorio o directorio"/>
+    <moqui.basic.LocalizedMessage original="Restart" locale="es" localized="Reiniciar"/>
+    <moqui.basic.LocalizedMessage original="Root" locale="es" localized="Raíz"/>
+    <moqui.basic.LocalizedMessage original="Roots" locale="es" localized="Raíces"/>
+    <moqui.basic.LocalizedMessage original="Save token" locale="es" localized="Guardar token"/>
+    <moqui.basic.LocalizedMessage original="Service definitions" locale="es" localized="Definiciones de servicios"/>
+    <moqui.basic.LocalizedMessage original="Service run for real" locale="es" localized="Servicio ejecutado de verdad"/>
+    <moqui.basic.LocalizedMessage original="Shared dev server" locale="es" localized="Servidor de desarrollo compartido"/>
+    <moqui.basic.LocalizedMessage original="Show" locale="es" localized="Mostrar"/>
+    <moqui.basic.LocalizedMessage original="Show doc" locale="es" localized="Mostrar documentación"/>
+    <moqui.basic.LocalizedMessage original="Showing ${artifacts.length} matches${artifacts.length === 100 ? '; narrow the search to see more specific results' : ''}. Open a name for references or a file to edit its source." locale="es" localized="Se muestran ${artifacts.length} coincidencias${artifacts.length === 100 ? '; narrow the search to see more specific results' : ''}. Abra un nombre para ver referencias o un archivo para editar su código fuente."/>
+    <moqui.basic.LocalizedMessage original="Site components" locale="es" localized="Componentes de sitio"/>
+    <moqui.basic.LocalizedMessage original="Site extensions: ${(custom.extensionCount || 0)}, ${(custom.brokenCount || 0)} broken" locale="es" localized="Extensiones del sitio: ${(custom.extensionCount || 0)}, ${(custom.brokenCount || 0)} rotas"/>
+    <moqui.basic.LocalizedMessage original="Site extensions: ${custom.extensionCount || 0}, ${custom.brokenCount || 0} broken" locale="es" localized="Extensiones del sitio: ${custom.extensionCount || 0}, ${custom.brokenCount || 0} rotas"/>
+    <moqui.basic.LocalizedMessage original="Site settings" locale="es" localized="Configuración del sitio"/>
+    <moqui.basic.LocalizedMessage original="Stale docs" locale="es" localized="Documentación desactualizada"/>
+    <moqui.basic.LocalizedMessage original="Start an application with entities, services, screens or a REST API, security, demo data and specs." locale="es" localized="Inicie una aplicación con entidades, servicios, pantallas o una API REST, seguridad, datos de demostración y especificaciones."/>
+    <moqui.basic.LocalizedMessage original="The components this site owns, comma separated, the first the default target of an extension. Every other component is upstream: read only, and extended from the site component instead of edited." locale="es" localized="Los componentes que posee este sitio, separados por comas; el primero es el destino predeterminado de una extensión. Cualquier otro componente es de origen: de solo lectura, y se extiende desde el componente de sitio en lugar de editarse."/>
+    <moqui.basic.LocalizedMessage original="There is no doc of ${docPath || artifactId}. Find an artifact above, or start from all artifacts." locale="es" localized="No hay documentación de ${docPath || artifactId}. Busque un artefacto arriba, o empiece por todos los artefactos."/>
+    <moqui.basic.LocalizedMessage original="Try a shorter name or clear the kind and component filters." locale="es" localized="Pruebe un nombre más corto, o borre los filtros de clase y de componente."/>
+    <moqui.basic.LocalizedMessage original="Upstream components" locale="es" localized="Componentes de origen"/>
+    <moqui.basic.LocalizedMessage original="Used by (${usedBy.length})" locale="es" localized="Usado por (${usedBy.length})"/>
+    <moqui.basic.LocalizedMessage original="Used by: ${usedBy.length}" locale="es" localized="Usado por: ${usedBy.length}"/>
+    <moqui.basic.LocalizedMessage original="User name on the remote" locale="es" localized="Nombre de usuario en el remoto"/>
+    <moqui.basic.LocalizedMessage original="Uses (${uses.length})" locale="es" localized="Usa (${uses.length})"/>
+    <moqui.basic.LocalizedMessage original="Uses: ${uses.length}" locale="es" localized="Usa: ${uses.length}"/>
+    <moqui.basic.LocalizedMessage original="Workspace" locale="es" localized="Espacio de trabajo"/>
+    <moqui.basic.LocalizedMessage original="Workspace roots" locale="es" localized="Raíces del espacio de trabajo"/>
+    <moqui.basic.LocalizedMessage original="Write the docs into a directory of a repository. Only the docs that changed are written; the directory's .autodoc.json lists them." locale="es" localized="Escriba la documentación en un directorio de un repositorio. Solo se escribe la que cambió; el .autodoc.json del directorio la lista."/>
+</entity-facade-xml>

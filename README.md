@@ -1,6 +1,6 @@
 # mr-l10n
 
-Language packs for mr-moqui. Spanish and Simplified Chinese cover the framework, tools, webroot, example, mr-mantle, and mr-marble. mr-boss is not in this pack. Each language is a two-letter directory under `data/` and the same load type. Spanish is `data/es/` with `type="es"`. Simplified Chinese is `data/zh/` with `type="zh"`.
+Language packs for mr-moqui. Spanish and Simplified Chinese cover the framework, tools, webroot, basic-comms, example, dev-aide, mr-mantle, and mr-marble. mr-boss is not in this pack. Each language is a two-letter directory under `data/` and the same load type. Spanish is `data/es/` with `type="es"`. Simplified Chinese is `data/zh/` with `type="zh"`.
 
 `moqui load` and an empty-database startup load `seed`, `seed-initial`, and `install`. They do not load these files. Load Spanish with `moqui load types=es`, and Simplified Chinese with `moqui load types=zh`, or add `es` or `zh` to a longer type list. `types=all` includes them. A database that already has data does not pick a language up until that load runs.
 
@@ -12,9 +12,11 @@ large:
 | Name | Contents |
 | --- | --- |
 | `Chrome*` | Shared labels and field titles |
-| `Messages*` | Service, screen and framework messages |
+| `Messages*`, `FrameworkExtra` | Service, screen and framework messages, including seed text added after the first catalog |
 | `SeedEnum*`, `SeedMeasure`, `Geo` | Framework enumeration and status text, currency and unit descriptions, country names |
 | `Tools*`, `Webroot`, `Example` | The tools screens, login and shell, the example app |
+| `Comms*` | basic-comms: mail, chat and calls |
+| `DevAide` | Dev AIDE |
 | `Mantle*` | mr-mantle enumerations, states and provinces, messages and templates |
 | `Marble*` | mr-marble screens, email and print |
 | `EsRegional.xml` | `es_ES` overrides (still type `es`); `es_MX` has none of its own |

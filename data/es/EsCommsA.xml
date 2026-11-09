@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="es">
+    <moqui.basic.LocalizedMessage original="${problem.accountName}: ${problem.problemText}; its mail is not syncing.${problem.canManage ? '' : ' Its owner can fix it.'}" locale="es" localized="${problem.accountName}: ${problem.problemText}; su correo electrónico no se está sincronizando.${problem.canManage ? '' : ' Its owner can fix it.'}"/>
+    <moqui.basic.LocalizedMessage original="${problemCount} accounts need your attention: their mail is not syncing." locale="es" localized="${problemCount} cuentas necesitan su atención: su correo electrónico no se está sincronizando."/>
+    <moqui.basic.LocalizedMessage original="(edited)" locale="es" localized="(editado)"/>
+    <moqui.basic.LocalizedMessage original="(muted)" locale="es" localized="(silenciado)"/>
+    <moqui.basic.LocalizedMessage original="(nothing was said)" locale="es" localized="(no se dijo nada)"/>
+    <moqui.basic.LocalizedMessage original="0 to 9, * or #; for an extension menu, its digits" locale="es" localized="0 a 9, * o #; para un menú de extensión, sus dígitos"/>
+    <moqui.basic.LocalizedMessage original="0: never" locale="es" localized="0: nunca"/>
+    <moqui.basic.LocalizedMessage original="1 account" locale="es" localized="1 cuenta"/>
+    <moqui.basic.LocalizedMessage original="1 needs your attention" locale="es" localized="1 necesita su atención"/>
+    <moqui.basic.LocalizedMessage original="1: one key; more: an extension ended by #" locale="es" localized="1: una tecla; más: una extensión terminada en #"/>
+    <moqui.basic.LocalizedMessage original="A bridge carries a room's messages to another network: SMS, WhatsApp, XMPP, Matrix and others. When one is not connected its rooms keep their messages, which go out once it is back." locale="es" localized="Un puente lleva los mensajes de una sala de conversación a otra red: SMS, WhatsApp, XMPP, Matrix y otras. Cuando uno no está conectado, sus salas de conversación conservan los mensajes, que salen cuando vuelve."/>
+    <moqui.basic.LocalizedMessage original="A call is not live in the terminal; call from the browser to talk." locale="es" localized="Una llamada no está en vivo en la terminal; llame desde el navegador para hablar."/>
+    <moqui.basic.LocalizedMessage original="A call is not live in the terminal; open it in the browser to talk." locale="es" localized="Una llamada no está en vivo en la terminal; ábrala en el navegador para hablar."/>
+    <moqui.basic.LocalizedMessage original="A desk phone or a phone app that rings with your calls, with voicemail after it as set in Phone, and calls out as you; its password is shown once." locale="es" localized="Un teléfono de escritorio o una aplicación de teléfono que timbra con sus llamadas, con el buzón de voz después según lo definido en Teléfono, y que llama como usted; su contraseña se muestra una vez."/>
+    <moqui.basic.LocalizedMessage original="A folder is sent as a link, and you may not share this one" locale="es" localized="Una carpeta se envía como enlace, y no puede compartir esta"/>
+    <moqui.basic.LocalizedMessage original="A folder of its own" locale="es" localized="Una carpeta propia"/>
+    <moqui.basic.LocalizedMessage original="A Google Workspace account whose administrator turned off app passwords needs Google sign-in." locale="es" localized="Una cuenta de Google Workspace cuyo administrador desactivó las contraseñas de aplicación necesita el inicio de sesión de Google."/>
+    <moqui.basic.LocalizedMessage original="A link to a meeting for people with no account: they open it in a browser and give their name. With a lobby, someone in the call lets each one in." locale="es" localized="Un enlace a una reunión para personas sin cuenta: lo abren en un navegador y dan su nombre. Con una sala de espera, alguien en la llamada deja entrar a cada uno."/>
+    <moqui.basic.LocalizedMessage original="A number of days" locale="es" localized="Un número de días"/>
+    <moqui.basic.LocalizedMessage original="A person calls out only from a number they are given here; it is the number the other side sees." locale="es" localized="Una persona llama solo desde un número que se le asigna aquí; es el número que ve la otra parte."/>
+    <moqui.basic.LocalizedMessage original="A queue" locale="es" localized="Una cola"/>
+    <moqui.basic.LocalizedMessage original="A ring group" locale="es" localized="Un grupo de timbrado"/>
+    <moqui.basic.LocalizedMessage original="A room is direct, private or public" locale="es" localized="Una sala de conversación es directa, privada o pública"/>
+    <moqui.basic.LocalizedMessage original="A shortcut is one word, without spaces" locale="es" localized="Un atajo es una sola palabra, sin espacios"/>
+    <moqui.basic.LocalizedMessage original="A status needs a text or an emoji" locale="es" localized="Un estado necesita un texto o un emoji"/>
+    <moqui.basic.LocalizedMessage original="A swipe action is archive, trash, read, unread, flag or spam" locale="es" localized="Una acción de deslizamiento es archivar, papelera, leído, no leído, marca o correo no deseado"/>
+    <moqui.basic.LocalizedMessage original="A tag after a plus sign still arrives here: sales+news@example.com goes to sales@example.com." locale="es" localized="Una etiqueta después de un signo más sigue llegando aquí: sales+news@example.com va a sales@example.com."/>
+    <moqui.basic.LocalizedMessage original="A trunk carries calls to and from the phone network. TLS with SRTP is the default; UDP, TCP or plain RTP need the profile of a PBX on a private network." locale="es" localized="Una troncal lleva llamadas hacia y desde la red telefónica. TLS con SRTP es el predeterminado; UDP, TCP o RTP simple necesitan el perfil de un PBX en una red privada."/>
+    <moqui.basic.LocalizedMessage original="A trunk that takes emergency calls" locale="es" localized="Una troncal que acepta llamadas de emergencia"/>
+    <moqui.basic.LocalizedMessage original="A user" locale="es" localized="Un usuario"/>
+    <moqui.basic.LocalizedMessage original="A WAV (16-bit PCM) or Ogg Opus file of at most a minute, recorded or made elsewhere; without one the menu plays a tone pattern. Moqui ships no recorded speech." locale="es" localized="Un archivo WAV (PCM de 16 bits) u Ogg Opus de un minuto como máximo, grabado o hecho en otro lugar; sin uno, el menú reproduce un patrón de tonos. Moqui no incluye voz grabada."/>
+    <moqui.basic.LocalizedMessage original="A wrong key" locale="es" localized="Una tecla incorrecta"/>
+    <moqui.basic.LocalizedMessage original="About" locale="es" localized="Acerca de"/>
+    <moqui.basic.LocalizedMessage original="above the quote" locale="es" localized="encima de la cita"/>
+    <moqui.basic.LocalizedMessage original="Activate account starts syncing your mail, the newest first: it shows in the Inbox as it arrives, and keeps in step with the server from then on. What you do here (read, move, delete, send) happens on the server too, as in any mail app." locale="es" localized="Activar la cuenta sincroniza el correo, lo más nuevo primero: aparece en la bandeja de entrada al llegar y sigue al servidor. Leer, mover, eliminar o enviar aquí también ocurre en el servidor, como en cualquier aplicación de correo."/>
+    <moqui.basic.LocalizedMessage original="Activate account turns the account on. The mail gateway delivers the mail, and there is no mail server to sync. A tag after a plus sign still arrives here: sales+news@example.com goes to sales@example.com." locale="es" localized="Activar la cuenta la deja activada. La pasarela de correo entrega el correo electrónico y no hay un servidor de correo que sincronizar. Una etiqueta después de un signo más sigue llegando aquí: sales+news@example.com va a sales@example.com."/>
+    <moqui.basic.LocalizedMessage original="Add a mail account" locale="es" localized="Agregar una cuenta de correo"/>
+    <moqui.basic.LocalizedMessage original="Add a mail account first: its address is your first identity." locale="es" localized="Agregue primero una cuenta de correo: su dirección es su primera identidad."/>
+    <moqui.basic.LocalizedMessage original="Add a mail account first: the automatic reply goes out from it." locale="es" localized="Agregue primero una cuenta de correo: la respuesta automática sale desde ella."/>
+    <moqui.basic.LocalizedMessage original="Add a mail account to send email" locale="es" localized="Agregue una cuenta de correo para enviar correo electrónico"/>
+    <moqui.basic.LocalizedMessage original="Add a member to ${name}" locale="es" localized="Agregar un miembro a ${name}"/>
+    <moqui.basic.LocalizedMessage original="Add a menu" locale="es" localized="Agregar un menú"/>
+    <moqui.basic.LocalizedMessage original="Add a number" locale="es" localized="Agregar un número"/>
+    <moqui.basic.LocalizedMessage original="Add a phone" locale="es" localized="Agregar un teléfono"/>
+    <moqui.basic.LocalizedMessage original="Add a queue" locale="es" localized="Agregar una cola"/>
+    <moqui.basic.LocalizedMessage original="Add a ring group" locale="es" localized="Agregar un grupo de timbrado"/>
+    <moqui.basic.LocalizedMessage original="Add a rule" locale="es" localized="Agregar una regla"/>
+    <moqui.basic.LocalizedMessage original="Add a schedule" locale="es" localized="Agregar un horario"/>
+    <moqui.basic.LocalizedMessage original="Add a trunk" locale="es" localized="Agregar una troncal"/>
+    <moqui.basic.LocalizedMessage original="Add an account" locale="es" localized="Agregar una cuenta"/>
+    <moqui.basic.LocalizedMessage original="Add an agent to ${name}" locale="es" localized="Agregar un agente a ${name}"/>
+    <moqui.basic.LocalizedMessage original="Add an emergency location" locale="es" localized="Agregar una ubicación de emergencia"/>
+    <moqui.basic.LocalizedMessage original="Add an identity to ${account.accountName}" locale="es" localized="Agregar una identidad a ${account.accountName}"/>
+    <moqui.basic.LocalizedMessage original="Add an option to ${name}" locale="es" localized="Agregar una opción a ${name}"/>
+    <moqui.basic.LocalizedMessage original="Add another account" locale="es" localized="Agregar otra cuenta"/>
+    <moqui.basic.LocalizedMessage original="Add hours or a holiday" locale="es" localized="Agregar horas o un feriado"/>
+    <moqui.basic.LocalizedMessage original="Add people" locale="es" localized="Agregar personas"/>
+    <moqui.basic.LocalizedMessage original="Add people who share it" locale="es" localized="Agregar personas que lo comparten"/>
+    <moqui.basic.LocalizedMessage original="Add the list" locale="es" localized="Agregar la lista"/>
+    <moqui.basic.LocalizedMessage original="Add the number" locale="es" localized="Agregar el número"/>
+    <moqui.basic.LocalizedMessage original="Add your email account" locale="es" localized="Agregar su cuenta de correo electrónico"/>
+    <moqui.basic.LocalizedMessage original="Add your email account (Gmail, Outlook.com, Yahoo, iCloud, your own domain) and your mail is here next to your chat." locale="es" localized="Agregue su cuenta de correo electrónico (Gmail, Outlook.com, Yahoo, iCloud, su propio dominio) y su correo queda aquí, junto a su conversación."/>
+    <moqui.basic.LocalizedMessage original="Add your email account and your mail is in the Inbox next to your internal messages: Gmail, Outlook.com, Yahoo, iCloud, Fastmail, your own domain, or any provider with IMAP or POP and SMTP." locale="es" localized="Agregue su cuenta de correo electrónico y su correo queda en la bandeja de entrada, junto a sus mensajes internos: Gmail, Outlook.com, Yahoo, iCloud, Fastmail, su propio dominio o cualquier proveedor con IMAP o POP y SMTP."/>
+    <moqui.basic.LocalizedMessage original="Address (JID)" locale="es" localized="Dirección (JID)"/>
+    <moqui.basic.LocalizedMessage original="Addresses, comma separated" locale="es" localized="Direcciones, separadas por comas"/>
+    <moqui.basic.LocalizedMessage original="agents free" locale="es" localized="agentes libres"/>
+    <moqui.basic.LocalizedMessage original="Agents free" locale="es" localized="Agentes libres"/>
+    <moqui.basic.LocalizedMessage original="All my accounts" locale="es" localized="Todas mis cuentas"/>
+    <moqui.basic.LocalizedMessage original="all of it" locale="es" localized="todo"/>
+    <moqui.basic.LocalizedMessage original="All rooms" locale="es" localized="Todas las salas de conversación"/>
+    <moqui.basic.LocalizedMessage original="All settings" locale="es" localized="Toda la configuración"/>
+    <moqui.basic.LocalizedMessage original="All voicemail" locale="es" localized="Todo el buzón de voz"/>
+    <moqui.basic.LocalizedMessage original="Also for this account" locale="es" localized="También para esta cuenta"/>
+    <moqui.basic.LocalizedMessage original="always" locale="es" localized="siempre"/>
+    <moqui.basic.LocalizedMessage original="Always" locale="es" localized="Siempre"/>
+    <moqui.basic.LocalizedMessage original="Always on" locale="es" localized="Siempre activado"/>
+    <moqui.basic.LocalizedMessage original="An account is personal, shared or hosted here" locale="es" localized="Una cuenta es personal, compartida o alojada aquí"/>
+    <moqui.basic.LocalizedMessage original="An app password below, never your own password" locale="es" localized="Abajo una contraseña de aplicación, nunca su propia contraseña"/>
+    <moqui.basic.LocalizedMessage original="An automatic reply to the people who write while you are away. Each sender gets it once every few days; mailing lists, newsletters, other automatic replies and spam get nothing." locale="es" localized="Una respuesta automática a quienes escriben mientras está ausente. Cada remitente la recibe una vez cada pocos días; las listas de correo, los boletines, otras respuestas automáticas y el correo no deseado no reciben nada."/>
+    <moqui.basic.LocalizedMessage original="An automatic reply while you are away, with a different one for people inside the organization." locale="es" localized="Una respuesta automática mientras está ausente, y otra distinta para las personas de la organización."/>
+    <moqui.basic.LocalizedMessage original="An emailMessageId or communicationEventId is required" locale="es" localized="Se requiere un emailMessageId o un communicationEventId"/>
+    <moqui.basic.LocalizedMessage original="An encrypted message is not read on the server: it is not filed on a record" locale="es" localized="Un mensaje cifrado no se lee en el servidor: no se archiva en un registro"/>
+    <moqui.basic.LocalizedMessage original="An encrypted message is not read on the server: nothing is made from it" locale="es" localized="Un mensaje cifrado no se lee en el servidor: no se crea nada a partir de él"/>
+    <moqui.basic.LocalizedMessage original="An IVR menu" locale="es" localized="Un menú IVR"/>
+    <moqui.basic.LocalizedMessage original="An outside number" locale="es" localized="Un número externo"/>
+    <moqui.basic.LocalizedMessage original="An XMPP app (Conversations or Monal on a phone, Dino or Gajim on a computer) shows your chat rooms and direct messages here, signed in with your address and an app password." locale="es" localized="Una aplicación XMPP (Conversations o Monal en un teléfono, Dino o Gajim en una computadora) muestra aquí sus salas de conversación y mensajes directos, con la sesión iniciada con su dirección y una contraseña de aplicación."/>
+    <moqui.basic.LocalizedMessage original="and" locale="es" localized="y"/>
+    <moqui.basic.LocalizedMessage original="Another group" locale="es" localized="Otro grupo"/>
+    <moqui.basic.LocalizedMessage original="AOL (and Verizon mail, which AOL keeps) asks for an app password: open Account security, choose Generate app password, and paste it below." locale="es" localized="AOL (y el correo de Verizon, que AOL conserva) pide una contraseña de aplicación: abra Seguridad de la cuenta, elija Generar contraseña de aplicación y péguela abajo."/>
+    <moqui.basic.LocalizedMessage original="AOL account security" locale="es" localized="Seguridad de la cuenta de AOL"/>
+    <moqui.basic.LocalizedMessage original="App or device" locale="es" localized="Aplicación o dispositivo"/>
+    <moqui.basic.LocalizedMessage original="App password" locale="es" localized="Contraseña de aplicación"/>
+    <moqui.basic.LocalizedMessage original="App password for ${newXmppPasswordName}" locale="es" localized="Contraseña de aplicación para ${newXmppPasswordName}"/>
+    <moqui.basic.LocalizedMessage original="App passwords" locale="es" localized="Contraseñas de aplicación"/>
+    <moqui.basic.LocalizedMessage original="Apple Account sign-in and security" locale="es" localized="Inicio de sesión y seguridad de la cuenta de Apple"/>
+    <moqui.basic.LocalizedMessage original="Apple asks for an app-specific password: sign in to your Apple Account, open Sign-In and Security, App-Specific Passwords (two-factor authentication must be on), and paste it below." locale="es" localized="Apple pide una contraseña específica de la aplicación: inicie sesión en su cuenta de Apple, abra Inicio de sesión y seguridad, Contraseñas específicas de apps (la autenticación de dos factores debe estar activada) y péguela abajo."/>
+    <moqui.basic.LocalizedMessage original="Applies" locale="es" localized="Se aplica"/>
+    <moqui.basic.LocalizedMessage original="Apply To All" locale="es" localized="Aplicar a todos"/>
+    <moqui.basic.LocalizedMessage original="Apply to my rooms now" locale="es" localized="Aplicar ahora a mis salas de conversación"/>
+    <moqui.basic.LocalizedMessage original="As people see it on the mail you send" locale="es" localized="Como lo ven en el correo electrónico que envía"/>
+    <moqui.basic.LocalizedMessage original="at most" locale="es" localized="como máximo"/>
+    <moqui.basic.LocalizedMessage original="At most 5000 threads at once" locale="es" localized="Como máximo 5000 hilos de correo a la vez"/>
+    <moqui.basic.LocalizedMessage original="At once / a day" locale="es" localized="A la vez / al día"/>
+    <moqui.basic.LocalizedMessage original="AT&amp;T asks for a secure mail key, not your password: make one in your AT&amp;T profile (Sign-in info, Secure mail key) and paste it below." locale="es" localized="AT&amp;T pide una clave de correo seguro, no su contraseña: créela en su perfil de AT&amp;T (Datos de inicio de sesión, Clave de correo seguro) y péguela abajo."/>
+    <moqui.basic.LocalizedMessage original="AT&amp;T secure mail key" locale="es" localized="Clave de correo seguro de AT&amp;T"/>
+    <moqui.basic.LocalizedMessage original="Attach the audio (mail cannot be recalled)" locale="es" localized="Adjuntar el audio (el correo electrónico no se puede anular)"/>
+    <moqui.basic.LocalizedMessage original="Attachment not found" locale="es" localized="Adjunto no encontrado"/>
+    <moqui.basic.LocalizedMessage original="Audio call" locale="es" localized="Llamada de audio"/>
+    <moqui.basic.LocalizedMessage original="Audio saved" locale="es" localized="Audio guardado"/>
+    <moqui.basic.LocalizedMessage original="Authentication code" locale="es" localized="Código de autenticación"/>
+    <moqui.basic.LocalizedMessage original="Authentication ID" locale="es" localized="ID de autenticación"/>
+    <moqui.basic.LocalizedMessage original="Automatic reply off" locale="es" localized="Respuesta automática desactivada"/>
+    <moqui.basic.LocalizedMessage original="Away after 1 to 480 minutes" locale="es" localized="Ausente después de 1 a 480 minutos"/>
+    <moqui.basic.LocalizedMessage original="Back to the Inbox" locale="es" localized="Volver a la bandeja de entrada"/>
+    <moqui.basic.LocalizedMessage original="Bcc" locale="es" localized="Cco"/>
+    <moqui.basic.LocalizedMessage original="Before ${digits} goes on" locale="es" localized="Antes de que continúe ${digits}"/>
+    <moqui.basic.LocalizedMessage original="below the quote" locale="es" localized="debajo de la cita"/>
+    <moqui.basic.LocalizedMessage original="Block for (seconds)" locale="es" localized="Bloquear durante (segundos)"/>
+    <moqui.basic.LocalizedMessage original="Blocked senders" locale="es" localized="Remitentes bloqueados"/>
+    <moqui.basic.LocalizedMessage original="Blocked until" locale="es" localized="Bloqueado hasta"/>
+    <moqui.basic.LocalizedMessage original="Blocked: their mail goes to Spam" locale="es" localized="Bloqueado: su correo electrónico va a correo no deseado"/>
+    <moqui.basic.LocalizedMessage original="Bridge" locale="es" localized="Puente"/>
+    <moqui.basic.LocalizedMessage original="bridged" locale="es" localized="con puente"/>
+    <moqui.basic.LocalizedMessage original="Bring in mail from" locale="es" localized="Traer correo de"/>
+    <moqui.basic.LocalizedMessage original="Call a number" locale="es" localized="Llamar a un número"/>
+    <moqui.basic.LocalizedMessage original="Call back" locale="es" localized="Devolver la llamada"/>
+    <moqui.basic.LocalizedMessage original="Call handling" locale="es" localized="Gestión de llamadas"/>
+    <moqui.basic.LocalizedMessage original="Call handling saved" locale="es" localized="Gestión de llamadas guardada"/>
+    <moqui.basic.LocalizedMessage original="Call handling: forwarding, do not disturb, your mobile, caller lists" locale="es" localized="Gestión de llamadas: desvío, no molestar, su celular, listas de llamantes"/>
+    <moqui.basic.LocalizedMessage original="Call link revoked" locale="es" localized="Enlace de llamada revocado"/>
+    <moqui.basic.LocalizedMessage original="Call links" locale="es" localized="Enlaces de llamada"/>
+    <moqui.basic.LocalizedMessage original="Call not found" locale="es" localized="Llamada no encontrada"/>
+    <moqui.basic.LocalizedMessage original="Call Queue ID" locale="es" localized="ID de cola de llamadas"/>
+    <moqui.basic.LocalizedMessage original="Call recordings you may play: yours, and those of calls you host. They play in the browser." locale="es" localized="Grabaciones de llamadas que puede reproducir: las suyas y las de las llamadas que organiza. Se reproducen en el navegador."/>
+    <moqui.basic.LocalizedMessage original="Call waiting" locale="es" localized="Llamada en espera"/>
+    <moqui.basic.LocalizedMessage original="Callback" locale="es" localized="Devolución de llamada"/>
+    <moqui.basic.LocalizedMessage original="Callback number" locale="es" localized="Número de devolución de llamada"/>
+    <moqui.basic.LocalizedMessage original="Caller IDs" locale="es" localized="Identificadores de llamadas"/>
+    <moqui.basic.LocalizedMessage original="Caller lists" locale="es" localized="Listas de llamantes"/>
+    <moqui.basic.LocalizedMessage original="Callers on (a list, for the selective rules)" locale="es" localized="Llamantes en (una lista, para las reglas selectivas)"/>
+    <moqui.basic.LocalizedMessage original="Calls are not available: no media server is running. An administrator sets rtc_media_port to start one." locale="es" localized="Las llamadas no están disponibles: no hay un servidor de medios en ejecución. Un administrador define rtc_media_port para iniciar uno."/>
+    <moqui.basic.LocalizedMessage original="Calls are not built into this server." locale="es" localized="Las llamadas no están incluidas en este servidor."/>
+    <moqui.basic.LocalizedMessage original="Calls at once" locale="es" localized="Llamadas a la vez"/>
+    <moqui.basic.LocalizedMessage original="Calls at once per person" locale="es" localized="Llamadas a la vez por persona"/>
+    <moqui.basic.LocalizedMessage original="Calls from" locale="es" localized="Llamadas de"/>
+    <moqui.basic.LocalizedMessage original="Calls from: ${callerIdText}" locale="es" localized="Llamadas de: ${callerIdText}"/>
+    <moqui.basic.LocalizedMessage original="Calls go to outside numbers (your mobile, a forward) only when an administrator allows it for you." locale="es" localized="Las llamadas van a números externos (su celular, un desvío) solo cuando un administrador lo permite."/>
+    <moqui.basic.LocalizedMessage original="Calls in a day" locale="es" localized="Llamadas en un día"/>
+    <moqui.basic.LocalizedMessage original="Calls in a day per person" locale="es" localized="Llamadas en un día por persona"/>
+    <moqui.basic.LocalizedMessage original="Calls out" locale="es" localized="Llamadas salientes"/>
+    <moqui.basic.LocalizedMessage original="Can be dropped" locale="es" localized="Se puede descartar"/>
+    <moqui.basic.LocalizedMessage original="Change the password or the server settings" locale="es" localized="Cambiar la contraseña o la configuración del servidor"/>
+    <moqui.basic.LocalizedMessage original="Change their location here when it changes" locale="es" localized="Cambiar aquí su ubicación cuando cambie"/>
+    <moqui.basic.LocalizedMessage original="Changed elsewhere since: not sent" locale="es" localized="Cambiado en otro lugar desde entonces: no enviado"/>
+    <moqui.basic.LocalizedMessage original="Changed on the server" locale="es" localized="Cambiado en el servidor"/>
+    <moqui.basic.LocalizedMessage original="Chat apps" locale="es" localized="Aplicaciones de conversación"/>
+    <moqui.basic.LocalizedMessage original="Chat Bridges" locale="es" localized="Puentes de conversación"/>
+    <moqui.basic.LocalizedMessage original="Chat bridges" locale="es" localized="Puentes de conversación"/>
+    <moqui.basic.LocalizedMessage original="Chat bridges are for administrators." locale="es" localized="Los puentes de conversación son para administradores."/>
+    <moqui.basic.LocalizedMessage original="Chat from an XMPP app on your phone or computer: your address, the server, and an app password for each app." locale="es" localized="Conversación desde una aplicación XMPP en su teléfono o computadora: su dirección, el servidor y una contraseña de aplicación para cada aplicación."/>
+    <moqui.basic.LocalizedMessage original="Chat settings" locale="es" localized="Configuración de conversación"/>
+    <moqui.basic.LocalizedMessage original="Check the server settings and the password, and test again." locale="es" localized="Revise la configuración del servidor y la contraseña, y pruebe de nuevo."/>
+    <moqui.basic.LocalizedMessage original="Choose a .eml or .mbox file" locale="es" localized="Elegir un archivo .eml o .mbox"/>
+    <moqui.basic.LocalizedMessage original="Choose a default notification level first" locale="es" localized="Elija primero un nivel de notificación predeterminado"/>
+    <moqui.basic.LocalizedMessage original="Choose a mail account to send from" locale="es" localized="Elija una cuenta de correo desde la cual enviar"/>
+    <moqui.basic.LocalizedMessage original="Choose a record" locale="es" localized="Elegir un registro"/>
+    <moqui.basic.LocalizedMessage original="Choose all, mentions or nothing" locale="es" localized="Elija todo, menciones o nada"/>
+    <moqui.basic.LocalizedMessage original="Choose one or more files to attach" locale="es" localized="Elija uno o más archivos para adjuntar"/>
+    <moqui.basic.LocalizedMessage original="Choose the folder" locale="es" localized="Elegir la carpeta"/>
+    <moqui.basic.LocalizedMessage original="Choose who gets the reply" locale="es" localized="Elegir quién recibe la respuesta"/>
+    <moqui.basic.LocalizedMessage original="Choose who to add" locale="es" localized="Elegir a quién agregar"/>
+    <moqui.basic.LocalizedMessage original="Choose who to message" locale="es" localized="Elegir a quién escribir"/>
+    <moqui.basic.LocalizedMessage original="Clears" locale="es" localized="Se quita"/>
+    <moqui.basic.LocalizedMessage original="Closed now" locale="es" localized="Cerrado ahora"/>
+    <moqui.basic.LocalizedMessage original="Comma separated" locale="es" localized="Separados por comas"/>
+    <moqui.basic.LocalizedMessage original="Comms" locale="es" localized="Comunicaciones"/>
+    <moqui.basic.LocalizedMessage original="Comms Schedule ID" locale="es" localized="ID de horario de comunicaciones"/>
+    <moqui.basic.LocalizedMessage original="Communication event" locale="es" localized="Evento de comunicación"/>
+    <moqui.basic.LocalizedMessage original="Commuting" locale="es" localized="En traslado"/>
+    <moqui.basic.LocalizedMessage original="Compose" locale="es" localized="Redactar"/>
+    <moqui.basic.LocalizedMessage original="Configured" locale="es" localized="Configurado"/>
+    <moqui.basic.LocalizedMessage original="Confirm it is you" locale="es" localized="Confirme que es usted"/>
+    <moqui.basic.LocalizedMessage original="Confirm with the provider" locale="es" localized="Confirmar con el proveedor"/>
+    <moqui.basic.LocalizedMessage original="Confirmed: you may remove a device for the next five minutes" locale="es" localized="Confirmado: puede quitar un dispositivo durante los próximos cinco minutos"/>
+    <moqui.basic.LocalizedMessage original="Connect" locale="es" localized="Conectar"/>
+    <moqui.basic.LocalizedMessage original="Connect the account first" locale="es" localized="Conecte primero la cuenta"/>
+    <moqui.basic.LocalizedMessage original="contains" locale="es" localized="contiene"/>
+    <moqui.basic.LocalizedMessage original="Continue Anyway" locale="es" localized="Continuar de todos modos"/>
+    <moqui.basic.LocalizedMessage original="Continue setup" locale="es" localized="Continuar la configuración"/>
+    <moqui.basic.LocalizedMessage original="Copy" locale="es" localized="Copiar"/>
+    <moqui.basic.LocalizedMessage original="Count Text" locale="es" localized="Texto del conteo"/>
+    <moqui.basic.LocalizedMessage original="Country code" locale="es" localized="Código de país"/>
+    <moqui.basic.LocalizedMessage original="Dates" locale="es" localized="Fechas"/>
+    <moqui.basic.LocalizedMessage original="Day (weekly)" locale="es" localized="Día (semanal)"/>
+    <moqui.basic.LocalizedMessage original="Delete ${nameText}" locale="es" localized="Eliminar ${nameText}"/>
+    <moqui.basic.LocalizedMessage original="Delete ${title}" locale="es" localized="Eliminar ${title}"/>
+    <moqui.basic.LocalizedMessage original="Delete for good" locale="es" localized="Eliminar definitivamente"/>
+    <moqui.basic.LocalizedMessage original="Delivered here" locale="es" localized="Entregado aquí"/>
+    <moqui.basic.LocalizedMessage original="Delivered here: ${connect.emailAddress}" locale="es" localized="Entregado aquí: ${connect.emailAddress}"/>
+    <moqui.basic.LocalizedMessage original="Deliveries" locale="es" localized="Entregas"/>
+    <moqui.basic.LocalizedMessage original="Deliveries that did not go" locale="es" localized="Entregas que no salieron"/>
+    <moqui.basic.LocalizedMessage original="Desk and soft phones" locale="es" localized="Teléfonos de escritorio y virtuales"/>
+    <moqui.basic.LocalizedMessage original="Desk and soft phones that register with this server and ring with your calls." locale="es" localized="Teléfonos de escritorio y virtuales que se registran en este servidor y timbran con sus llamadas."/>
+    <moqui.basic.LocalizedMessage original="device" locale="es" localized="dispositivo"/>
+    <moqui.basic.LocalizedMessage original="Device" locale="es" localized="Dispositivo"/>
+    <moqui.basic.LocalizedMessage original="Device removed" locale="es" localized="Dispositivo quitado"/>
+    <moqui.basic.LocalizedMessage original="Device renamed" locale="es" localized="Dispositivo renombrado"/>
+    <moqui.basic.LocalizedMessage original="Dialer" locale="es" localized="Marcador"/>
+    <moqui.basic.LocalizedMessage original="Digest algorithms" locale="es" localized="Algoritmos de resumen"/>
+    <moqui.basic.LocalizedMessage original="Digits" locale="es" localized="Dígitos"/>
+    <moqui.basic.LocalizedMessage original="Do not disturb (calls go to voicemail)" locale="es" localized="No molestar (las llamadas van al buzón de voz)"/>
+    <moqui.basic.LocalizedMessage original="Do not disturb hours" locale="es" localized="Horario de no molestar"/>
+    <moqui.basic.LocalizedMessage original="Download .eml" locale="es" localized="Descargar .eml"/>
+    <moqui.basic.LocalizedMessage original="Draining" locale="es" localized="En drenaje"/>
+    <moqui.basic.LocalizedMessage original="Drop the old copies" locale="es" localized="Descartar las copias antiguas"/>
+    <moqui.basic.LocalizedMessage original="E.164 prefixes, comma separated" locale="es" localized="Prefijos E.164, separados por comas"/>
+    <moqui.basic.LocalizedMessage original="Each room's own level stays as you set it in the room's menu; this sets them all." locale="es" localized="El nivel de cada sala de conversación se queda como lo definió en su menú; esto los define todos."/>
+    <moqui.basic.LocalizedMessage original="each year" locale="es" localized="cada año"/>
+    <moqui.basic.LocalizedMessage original="Each year" locale="es" localized="Cada año"/>
+    <moqui.basic.LocalizedMessage original="Email address" locale="es" localized="Dirección de correo electrónico"/>
+    <moqui.basic.LocalizedMessage original="Email me at" locale="es" localized="Enviarme un correo a"/>
+    <moqui.basic.LocalizedMessage original="Emergency" locale="es" localized="Emergencia"/>
+    <moqui.basic.LocalizedMessage original="Emergency calling readiness" locale="es" localized="Preparación para llamadas de emergencia"/>
+    <moqui.basic.LocalizedMessage original="Emergency calls go only through a trunk that takes them, from a validated location with a callback number and a notification destination. Without these an emergency call is refused with what is missing." locale="es" localized="Las llamadas de emergencia salen solo por una troncal que las acepta, desde una ubicación validada, con número de devolución y destino de aviso. Sin eso, la llamada se rechaza e indica lo que falta."/>
+    <moqui.basic.LocalizedMessage original="Emergency calls ready" locale="es" localized="Llamadas de emergencia listas"/>
+    <moqui.basic.LocalizedMessage original="Emergency location" locale="es" localized="Ubicación de emergencia"/>
+    <moqui.basic.LocalizedMessage original="Emergency Location ID" locale="es" localized="ID de ubicación de emergencia"/>
+    <moqui.basic.LocalizedMessage original="Emergency locations" locale="es" localized="Ubicaciones de emergencia"/>
+    <moqui.basic.LocalizedMessage original="Emergency numbers" locale="es" localized="Números de emergencia"/>
+    <moqui.basic.LocalizedMessage original="Empty keeps the password" locale="es" localized="Vacío conserva la contraseña"/>
+    <moqui.basic.LocalizedMessage original="Empty trash" locale="es" localized="Vaciar la papelera"/>
+    <moqui.basic.LocalizedMessage original="Empty: 5061 for TLS, 5060 otherwise" locale="es" localized="Vacío: 5061 con TLS, 5060 en los demás casos"/>
+    <moqui.basic.LocalizedMessage original="Empty: Automatic reply: and the subject of their mail" locale="es" localized="Vacío: Respuesta automática: y el asunto de su correo"/>
+    <moqui.basic.LocalizedMessage original="Empty: from now" locale="es" localized="Vacío: desde ahora"/>
+    <moqui.basic.LocalizedMessage original="Empty: last" locale="es" localized="Vacío: el último"/>
+    <moqui.basic.LocalizedMessage original="Empty: replies come back to the address above" locale="es" localized="Vacío: las respuestas vuelven a la dirección de arriba"/>
+    <moqui.basic.LocalizedMessage original="Empty: the limit above" locale="es" localized="Vacío: el límite de arriba"/>
+    <moqui.basic.LocalizedMessage original="Empty: the menu plays again" locale="es" localized="Vacío: el menú se reproduce de nuevo"/>
+    <moqui.basic.LocalizedMessage original="Empty: the outgoing server signs in as the user name above" locale="es" localized="Vacío: el servidor de salida inicia sesión con el nombre de usuario de arriba"/>
+    <moqui.basic.LocalizedMessage original="Empty: they get the message above" locale="es" localized="Vacío: reciben el mensaje de arriba"/>
+    <moqui.basic.LocalizedMessage original="Empty: until you turn it off" locale="es" localized="Vacío: hasta que lo desactive"/>
+    <moqui.basic.LocalizedMessage original="Enable" locale="es" localized="Activar"/>
+    <moqui.basic.LocalizedMessage original="Encrypted message" locale="es" localized="Mensaje cifrado"/>
+    <moqui.basic.LocalizedMessage original="Encrypted to the server, which forwards it" locale="es" localized="Cifrado hasta el servidor, que lo reenvía"/>
+    <moqui.basic.LocalizedMessage original="End the call" locale="es" localized="Terminar la llamada"/>
+    <moqui.basic.LocalizedMessage original="End-to-end encrypted" locale="es" localized="Cifrado de extremo a extremo"/>
+    <moqui.basic.LocalizedMessage original="End-to-end encrypted: only the people in the call hear and see it (no recording, captions, phones or guests)" locale="es" localized="Cifrado de extremo a extremo: solo quienes están en la llamada lo oyen y lo ven (sin grabación, subtítulos, teléfonos ni invitados)"/>
+    <moqui.basic.LocalizedMessage original="Enter it in the app now, with your address ${xmppJid}. It is shown only this once; make another if you lose it." locale="es" localized="Introdúzcala ahora en la aplicación, con su dirección ${xmppJid}. Se muestra solo esta vez; cree otra si la pierde."/>
+    <moqui.basic.LocalizedMessage original="Enter key" locale="es" localized="Tecla Intro"/>
+    <moqui.basic.LocalizedMessage original="Enter the address to send as, like name@example.com" locale="es" localized="Escriba la dirección con la que enviar, como name@example.com"/>
+    <moqui.basic.LocalizedMessage original="Enter the authentication code" locale="es" localized="Escriba el código de autenticación"/>
+    <moqui.basic.LocalizedMessage original="Enter the server names under Server settings." locale="es" localized="Escriba los nombres de servidor en Configuración del servidor."/>
+    <moqui.basic.LocalizedMessage original="Enter your whole email address, like name@example.com" locale="es" localized="Escriba toda su dirección de correo electrónico, como name@example.com"/>
+    <moqui.basic.LocalizedMessage original="Every message with a known contact goes on their records" locale="es" localized="Cada mensaje con un contacto conocido va a sus registros"/>
+    <moqui.basic.LocalizedMessage original="Every person who calls out has a location (their own, or their number's)" locale="es" localized="Cada persona que llama tiene una ubicación (la suya, o la de su número)"/>
+    <moqui.basic.LocalizedMessage original="Every trunk failed: see Trunks for the last error." locale="es" localized="Todas las troncales fallaron: vea Troncales para el último error."/>
+    <moqui.basic.LocalizedMessage original="Everything works." locale="es" localized="Todo funciona."/>
+    <moqui.basic.LocalizedMessage original="failed" locale="es" localized="fallido"/>
+    <moqui.basic.LocalizedMessage original="Failed sign-ins before a block" locale="es" localized="Inicios de sesión fallidos antes de un bloqueo"/>
+    <moqui.basic.LocalizedMessage original="Failed SIP sign-ins" locale="es" localized="Inicios de sesión SIP fallidos"/>
+    <moqui.basic.LocalizedMessage original="Fastmail asks for an app password for mail apps: in Settings open Privacy and Security, make a new app password with access to IMAP and SMTP, and paste it below." locale="es" localized="Fastmail pide una contraseña de aplicación para el correo: en Configuración abra Privacidad y seguridad, cree una con acceso a IMAP y SMTP, y péguela abajo."/>
+    <moqui.basic.LocalizedMessage original="Fastmail privacy and security settings" locale="es" localized="Configuración de privacidad y seguridad de Fastmail"/>
+    <moqui.basic.LocalizedMessage original="Filed on" locale="es" localized="Archivado en"/>
+    <moqui.basic.LocalizedMessage original="Files mail with known contacts on their records" locale="es" localized="Archiva el correo de contactos conocidos en sus registros"/>
+    <moqui.basic.LocalizedMessage original="Files on" locale="es" localized="Se archiva en"/>
+    <moqui.basic.LocalizedMessage original="Files only the mail you link" locale="es" localized="Archiva solo el correo que vincule"/>
+    <moqui.basic.LocalizedMessage original="Filing mail on a record is not available here" locale="es" localized="Archivar el correo en un registro no está disponible aquí"/>
+    <moqui.basic.LocalizedMessage original="Fix" locale="es" localized="Corregir"/>
+    <moqui.basic.LocalizedMessage original="Fix the sign-in" locale="es" localized="Corregir el inicio de sesión"/>
+    <moqui.basic.LocalizedMessage original="Floor, suite or room" locale="es" localized="Piso, suite o sala"/>
+    <moqui.basic.LocalizedMessage original="Folders" locale="es" localized="Carpetas"/>
+    <moqui.basic.LocalizedMessage original="For a chat app in a browser" locale="es" localized="Para una aplicación de conversación en un navegador"/>
+    <moqui.basic.LocalizedMessage original="For people inside the organization" locale="es" localized="Para las personas de la organización"/>
+    <moqui.basic.LocalizedMessage original="Forwarded message" locale="es" localized="Mensaje reenviado"/>
+    <moqui.basic.LocalizedMessage original="Forwards" locale="es" localized="Desvíos"/>
+    <moqui.basic.LocalizedMessage original="From (HH:mm)" locale="es" localized="Desde (HH:mm)"/>
+    <moqui.basic.LocalizedMessage original="From domain" locale="es" localized="Dominio de origen"/>
+    <moqui.basic.LocalizedMessage original="From Number" locale="es" localized="Número de origen"/>
+    <moqui.basic.LocalizedMessage original="Gateway Delivery" locale="es" localized="Entrega por pasarela"/>
+    <moqui.basic.LocalizedMessage original="Give both times of the do not disturb hours, or neither" locale="es" localized="Indique ambas horas de no molestar, o ninguna"/>
+    <moqui.basic.LocalizedMessage original="Give it a name" locale="es" localized="Póngale un nombre"/>
+    <moqui.basic.LocalizedMessage original="Give the rule a name" locale="es" localized="Póngale un nombre a la regla"/>
+    <moqui.basic.LocalizedMessage original="Go back to fix what failed, then test again." locale="es" localized="Vuelva a corregir lo que falló y pruebe de nuevo."/>
+    <moqui.basic.LocalizedMessage original="Goes to" locale="es" localized="Va a"/>
+    <moqui.basic.LocalizedMessage original="Google asks for an app password here, not your Google password. Turn on 2-Step Verification for your Google account, then make an app password (Security, App passwords) and paste the 16 letters below; the spaces do not matter." locale="es" localized="Google pide aquí una contraseña de aplicación, no su contraseña de Google. Active la verificación en dos pasos, cree una (Seguridad, Contraseñas de aplicación) y pegue abajo las 16 letras; los espacios no importan."/>
+    <moqui.basic.LocalizedMessage original="Grant" locale="es" localized="Conceder"/>
+    <moqui.basic.LocalizedMessage original="Guests" locale="es" localized="Invitados"/>
+    <moqui.basic.LocalizedMessage original="Guests cannot join an encrypted meeting" locale="es" localized="Los invitados no pueden unirse a una reunión cifrada"/>
+    <moqui.basic.LocalizedMessage original="Has a file" locale="es" localized="Tiene un archivo"/>
+    <moqui.basic.LocalizedMessage original="Has a file attached" locale="es" localized="Tiene un archivo adjunto"/>
+    <moqui.basic.LocalizedMessage original="Heard" locale="es" localized="Escuchado"/>
+    <moqui.basic.LocalizedMessage original="Here" locale="es" localized="Aquí"/>
+    <moqui.basic.LocalizedMessage original="Hide my number" locale="es" localized="Ocultar mi número"/>
+    <moqui.basic.LocalizedMessage original="Hold music and position prompt of ${name}" locale="es" localized="Música en espera y locución de posición de ${name}"/>
+    <moqui.basic.LocalizedMessage original="Home" locale="es" localized="Inicio"/>
+    <moqui.basic.LocalizedMessage original="Hosted here" locale="es" localized="Alojado aquí"/>
+    <moqui.basic.LocalizedMessage original="Hours and holidays" locale="es" localized="Horas y feriados"/>
+    <moqui.basic.LocalizedMessage original="Hours on dates" locale="es" localized="Horas en fechas"/>
+    <moqui.basic.LocalizedMessage original="How long each member rings in order, or all of them at once" locale="es" localized="Cuánto timbra cada miembro en orden, o todos a la vez"/>
+    <moqui.basic.LocalizedMessage original="How mail arrives" locale="es" localized="Cómo llega el correo"/>
+    <moqui.basic.LocalizedMessage original="How the server's folders show here. ${folderCountText}" locale="es" localized="Cómo se ven aquí las carpetas del servidor. ${folderCountText}"/>
+    <moqui.basic.LocalizedMessage original="How this account works here" locale="es" localized="Cómo funciona esta cuenta aquí"/>
+    <moqui.basic.LocalizedMessage original="Identities" locale="es" localized="Identidades"/>
+    <moqui.basic.LocalizedMessage original="Identities and signatures" locale="es" localized="Identidades y firmas"/>
+    <moqui.basic.LocalizedMessage original="Import mail" locale="es" localized="Importar correo"/>
+    <moqui.basic.LocalizedMessage original="In a call" locale="es" localized="En una llamada"/>
+    <moqui.basic.LocalizedMessage original="In a meeting" locale="es" localized="En una reunión"/>
+    <moqui.basic.LocalizedMessage original="In a reply, the signature goes" locale="es" localized="En una respuesta, la firma va"/>
+    <moqui.basic.LocalizedMessage original="In replies" locale="es" localized="En las respuestas"/>
+    <moqui.basic.LocalizedMessage original="In the call" locale="es" localized="En la llamada"/>
+    <moqui.basic.LocalizedMessage original="In these hours you show as do not disturb when you are online: no sounds or pop-ups, and others see it. Your status comes back when they end, unless you changed it. Hours from 22:00 to 07:00 run over midnight." locale="es" localized="En estas horas aparece como no molestar si está en línea: sin sonidos ni ventanas emergentes, y los demás lo ven. El estado vuelve al terminar, salvo que lo cambie. De 22:00 a 07:00 cruza la medianoche."/>
+    <moqui.basic.LocalizedMessage original="In wrap-up" locale="es" localized="En cierre"/>
+    <moqui.basic.LocalizedMessage original="Incoming mail" locale="es" localized="Correo entrante"/>
+    <moqui.basic.LocalizedMessage original="Incoming server" locale="es" localized="Servidor de entrada"/>
+    <moqui.basic.LocalizedMessage original="Internal messages" locale="es" localized="Mensajes internos"/>
+    <moqui.basic.LocalizedMessage original="Internal messages are not available here" locale="es" localized="Los mensajes internos no están disponibles aquí"/>
+    <moqui.basic.LocalizedMessage original="International" locale="es" localized="Internacional"/>
+    <moqui.basic.LocalizedMessage original="International and premium numbers above apply to texts too" locale="es" localized="Los números internacionales y de tarificación especial de arriba también se aplican a los textos"/>
+    <moqui.basic.LocalizedMessage original="International and premium numbers stay off until they are allowed here and for the user. The limits bound the phone calls at once and in a day; a source with too many failed sign-ins is blocked, never the account it tried." locale="es" localized="Los números internacionales y de tarificación especial siguen desactivados hasta permitirlos aquí y para el usuario. Los límites acotan las llamadas a la vez y en un día; un origen con demasiados inicios fallidos se bloquea, nunca la cuenta que intentó."/>
+    <moqui.basic.LocalizedMessage original="Into" locale="es" localized="En"/>
+    <moqui.basic.LocalizedMessage original="is" locale="es" localized="es"/>
+    <moqui.basic.LocalizedMessage original="Is Forward" locale="es" localized="Es reenvío"/>
+    <moqui.basic.LocalizedMessage original="is larger than" locale="es" localized="es mayor que"/>
+    <moqui.basic.LocalizedMessage original="is smaller than" locale="es" localized="es menor que"/>
+    <moqui.basic.LocalizedMessage original="It arrives in the Inbox when the mail gateway delivers it." locale="es" localized="Llega a la bandeja de entrada cuando la pasarela de correo lo entrega."/>
+    <moqui.basic.LocalizedMessage original="It plays in the browser." locale="es" localized="Se reproduce en el navegador."/>
+    <moqui.basic.LocalizedMessage original="it was not tried" locale="es" localized="no se intentó"/>
+    <moqui.basic.LocalizedMessage original="Its credentials do not read; enter them again" locale="es" localized="Sus credenciales no se leen; escríbalas de nuevo"/>
+    <moqui.basic.LocalizedMessage original="its provider" locale="es" localized="su proveedor"/>
+    <moqui.basic.LocalizedMessage original="IVR menu" locale="es" localized="Menú IVR"/>
+    <moqui.basic.LocalizedMessage original="Ivr Menu ID" locale="es" localized="ID de menú IVR"/>
+    <moqui.basic.LocalizedMessage original="IVR menus" locale="es" localized="Menús IVR"/>
+    <moqui.basic.LocalizedMessage original="Join" locale="es" localized="Unirse"/>
+    <moqui.basic.LocalizedMessage original="Joined" locale="es" localized="Unido"/>
+    <moqui.basic.LocalizedMessage original="Just me" locale="es" localized="Solo yo"/>
+    <moqui.basic.LocalizedMessage original="Just mine" locale="es" localized="Solo mía"/>
+    <moqui.basic.LocalizedMessage original="just now" locale="es" localized="ahora mismo"/>
+    <moqui.basic.LocalizedMessage original="Just you" locale="es" localized="Solo usted"/>
+    <moqui.basic.LocalizedMessage original="Kari's Law and RAY BAUM'S Act in the US; others need their own review" locale="es" localized="Kari's Law y RAY BAUM'S Act en EE. UU.; los demás necesitan su propia revisión"/>
+    <moqui.basic.LocalizedMessage original="Kept: its table has fewer rows than the copy; it may be the only one of them" locale="es" localized="Conservada: su tabla tiene menos filas que la copia; puede ser la única"/>
+    <moqui.basic.LocalizedMessage original="Kept: its table was not rebuilt" locale="es" localized="Conservada: su tabla no se reconstruyó"/>
+    <moqui.basic.LocalizedMessage original="Keys" locale="es" localized="Claves"/>
+    <moqui.basic.LocalizedMessage original="keys, then #" locale="es" localized="teclas y luego #"/>
+    <moqui.basic.LocalizedMessage original="Last attempt" locale="es" localized="Último intento"/>
+    <moqui.basic.LocalizedMessage original="Last error" locale="es" localized="Último error"/>
+    <moqui.basic.LocalizedMessage original="Last heard" locale="es" localized="Última señal"/>
+    <moqui.basic.LocalizedMessage original="Last message" locale="es" localized="Último mensaje"/>
+    <moqui.basic.LocalizedMessage original="Last tried as" locale="es" localized="Último intento como"/>
+    <moqui.basic.LocalizedMessage original="Last used" locale="es" localized="Último uso"/>
+    <moqui.basic.LocalizedMessage original="Leave" locale="es" localized="Salir"/>
+    <moqui.basic.LocalizedMessage original="Leave this account" locale="es" localized="Salir de esta cuenta"/>
+    <moqui.basic.LocalizedMessage original="Legacy (MD5)" locale="es" localized="Heredado (MD5)"/>
+    <moqui.basic.LocalizedMessage original="Legacy (MD5), for a phone without SHA-256" locale="es" localized="Heredado (MD5), para un teléfono sin SHA-256"/>
+    <moqui.basic.LocalizedMessage original="Let someone call from a number" locale="es" localized="Permitir que alguien llame desde un número"/>
+    <moqui.basic.LocalizedMessage original="Limits" locale="es" localized="Límites"/>
+    <moqui.basic.LocalizedMessage original="Link previews" locale="es" localized="Vistas previas de enlaces"/>
+    <moqui.basic.LocalizedMessage original="Live checks only through the provider's test procedure" locale="es" localized="Las comprobaciones en vivo solo mediante el procedimiento de prueba del proveedor"/>
+    <moqui.basic.LocalizedMessage original="Lobby" locale="es" localized="Sala de espera"/>
+    <moqui.basic.LocalizedMessage original="Local only" locale="es" localized="Solo local"/>
+    <moqui.basic.LocalizedMessage original="Location updates for people who work remotely or move" locale="es" localized="Actualizaciones de ubicación para quienes trabajan en remoto o se trasladan"/>
+    <moqui.basic.LocalizedMessage original="Locations and callback numbers provisioned with the provider" locale="es" localized="Ubicaciones y números de devolución aprovisionados con el proveedor"/>
+    <moqui.basic.LocalizedMessage original="Locations validated with the provider, each with a callback number and a notification destination" locale="es" localized="Ubicaciones validadas con el proveedor, cada una con número de devolución y destino de aviso"/>
+    <moqui.basic.LocalizedMessage original="Log in" locale="es" localized="Iniciar sesión"/>
+    <moqui.basic.LocalizedMessage original="Log in to all" locale="es" localized="Iniciar sesión en todas"/>
+    <moqui.basic.LocalizedMessage original="Log out" locale="es" localized="Cerrar sesión"/>
+    <moqui.basic.LocalizedMessage original="Log out of all" locale="es" localized="Cerrar sesión en todas"/>
+    <moqui.basic.LocalizedMessage original="Logged out" locale="es" localized="Sesión cerrada"/>
+    <moqui.basic.LocalizedMessage original="longest" locale="es" localized="más larga"/>
+    <moqui.basic.LocalizedMessage original="Longest wait, seconds" locale="es" localized="Espera más larga, en segundos"/>
+    <moqui.basic.LocalizedMessage original="Made" locale="es" localized="Creado"/>
+    <moqui.basic.LocalizedMessage original="Made before XMPP sign-in: most XMPP apps refuse it; make a new one" locale="es" localized="Creada antes del inicio de sesión XMPP: la mayoría de las aplicaciones XMPP la rechazan; cree una nueva"/>
+    <moqui.basic.LocalizedMessage original="made here when first used" locale="es" localized="creada aquí al usarse por primera vez"/>
+    <moqui.basic.LocalizedMessage original="Mail accounts" locale="es" localized="Cuentas de correo"/>
+    <moqui.basic.LocalizedMessage original="Mail delivered here is a hosted or a shared account" locale="es" localized="El correo entregado aquí es una cuenta alojada o compartida"/>
+    <moqui.basic.LocalizedMessage original="Mail from" locale="es" localized="Correo de"/>
+    <moqui.basic.LocalizedMessage original="Mail threads are not closed" locale="es" localized="No se cierran los hilos de correo"/>
+    <moqui.basic.LocalizedMessage original="Mailboxes are not available here" locale="es" localized="Los buzones no están disponibles aquí"/>
+    <moqui.basic.LocalizedMessage original="Mailing list" locale="es" localized="Lista de correo"/>
+    <moqui.basic.LocalizedMessage original="Make a Google app password" locale="es" localized="Crear una contraseña de aplicación de Google"/>
+    <moqui.basic.LocalizedMessage original="Make a link" locale="es" localized="Crear un enlace"/>
+    <moqui.basic.LocalizedMessage original="Make default" locale="es" localized="Hacer predeterminado"/>
+    <moqui.basic.LocalizedMessage original="Make one for each phone, computer or chat app. You see the password once, when it is made." locale="es" localized="Cree una para cada teléfono, computadora o aplicación de conversación. La contraseña se ve una vez, al crearla."/>
+    <moqui.basic.LocalizedMessage original="Make the password" locale="es" localized="Crear la contraseña"/>
+    <moqui.basic.LocalizedMessage original="manage" locale="es" localized="administrar"/>
+    <moqui.basic.LocalizedMessage original="Mark a trunk under Trunks" locale="es" localized="Marque una troncal en Troncales"/>
+    <moqui.basic.LocalizedMessage original="Mark all read" locale="es" localized="Marcar todo como leído"/>
+    <moqui.basic.LocalizedMessage original="Mark heard" locale="es" localized="Marcar como escuchado"/>
+    <moqui.basic.LocalizedMessage original="Mark read" locale="es" localized="Marcar como leído"/>
+    <moqui.basic.LocalizedMessage original="Mark read after 0, 2, 5, 10 or 30 seconds" locale="es" localized="Marcar como leído después de 0, 2, 5, 10 o 30 segundos"/>
+    <moqui.basic.LocalizedMessage original="Mark unheard" locale="es" localized="Marcar como no escuchado"/>
+    <moqui.basic.LocalizedMessage original="matches" locale="es" localized="coincide con"/>
+    <moqui.basic.LocalizedMessage original="Media" locale="es" localized="Medios"/>
+    <moqui.basic.LocalizedMessage original="Media address" locale="es" localized="Dirección de medios"/>
+    <moqui.basic.LocalizedMessage original="Media servers" locale="es" localized="Servidores de medios"/>
+    <moqui.basic.LocalizedMessage original="Meetings" locale="es" localized="Reuniones"/>
+    <moqui.basic.LocalizedMessage original="Member Permission Enum ID" locale="es" localized="ID de enumeración del permiso de miembro"/>
+    <moqui.basic.LocalizedMessage original="Member User IDs" locale="es" localized="IDs de usuario de los miembros"/>
+    <moqui.basic.LocalizedMessage original="Members Text" locale="es" localized="Texto de miembros"/>
+    <moqui.basic.LocalizedMessage original="Members: ${account.memberText}" locale="es" localized="Miembros: ${account.memberText}"/>
+    <moqui.basic.LocalizedMessage original="Mentions" locale="es" localized="Menciones"/>
+    <moqui.basic.LocalizedMessage original="Message not found" locale="es" localized="Mensaje no encontrado"/>
+    <moqui.basic.LocalizedMessage original="Messages here also go to ${names}" locale="es" localized="Los mensajes de aquí también van a ${names}"/>
+    <moqui.basic.LocalizedMessage original="Messages inside the system and your mailboxes; not removable" locale="es" localized="Mensajes dentro del sistema y sus buzones; no se pueden quitar"/>
+    <moqui.basic.LocalizedMessage original="Messages saved as .eml files, or a mailbox as an .mbox file (from Thunderbird, Apple Mail or Google Takeout), into a folder here. They are kept here only; a message already in the folder is not imported again." locale="es" localized="Mensajes guardados como archivos .eml, o un buzón como archivo .mbox (de Thunderbird, Apple Mail o Google Takeout), hacia una carpeta de aquí. Se conservan solo aquí; un mensaje que ya está en la carpeta no se importa otra vez."/>
+    <moqui.basic.LocalizedMessage original="Microsoft account security" locale="es" localized="Seguridad de la cuenta de Microsoft"/>
+    <moqui.basic.LocalizedMessage original="Microsoft no longer takes a password for this account: it needs Microsoft sign-in, which an administrator can set up on this server." locale="es" localized="Microsoft ya no acepta una contraseña para esta cuenta: necesita el inicio de sesión de Microsoft, que un administrador puede configurar en este servidor."/>
+    <moqui.basic.LocalizedMessage original="Missed" locale="es" localized="Perdida"/>
+    <moqui.basic.LocalizedMessage original="Missed calls" locale="es" localized="Llamadas perdidas"/>
+    <moqui.basic.LocalizedMessage original="Mobile number" locale="es" localized="Número de celular"/>
+    <moqui.basic.LocalizedMessage original="Most apps find it from your address" locale="es" localized="La mayoría de las aplicaciones lo encuentran a partir de su dirección"/>
+    <moqui.basic.LocalizedMessage original="Most calls waiting" locale="es" localized="Máximo de llamadas en espera"/>
+    <moqui.basic.LocalizedMessage original="Move to Spam" locale="es" localized="Mover a correo no deseado"/>
+    <moqui.basic.LocalizedMessage original="Move to which folder?" locale="es" localized="¿Mover a qué carpeta?"/>
+    <moqui.basic.LocalizedMessage original="My devices" locale="es" localized="Mis dispositivos"/>
+    <moqui.basic.LocalizedMessage original="My files" locale="es" localized="Mis archivos"/>
+    <moqui.basic.LocalizedMessage original="My numbers: ${numbersText}" locale="es" localized="Mis números: ${numbersText}"/>
+    <moqui.basic.LocalizedMessage original="My queues" locale="es" localized="Mis colas"/>
+    <moqui.basic.LocalizedMessage original="Name in the Inbox" locale="es" localized="Nombre en la bandeja de entrada"/>
+    <moqui.basic.LocalizedMessage original="Name or number" locale="es" localized="Nombre o número"/>
+    <moqui.basic.LocalizedMessage original="Name the file to save" locale="es" localized="Ponga nombre al archivo que se guarda"/>
+    <moqui.basic.LocalizedMessage original="Neither server took the password: go back to enter it again, then test again." locale="es" localized="Ningún servidor aceptó la contraseña: vuelva a escribirla y pruebe de nuevo."/>
+    <moqui.basic.LocalizedMessage original="Network" locale="es" localized="Red"/>
+    <moqui.basic.LocalizedMessage original="Never an unarranged emergency call" locale="es" localized="Nunca una llamada de emergencia no prevista"/>
+    <moqui.basic.LocalizedMessage original="New app password for XMPP" locale="es" localized="Nueva contraseña de aplicación para XMPP"/>
+    <moqui.basic.LocalizedMessage original="New call" locale="es" localized="Nueva llamada"/>
+    <moqui.basic.LocalizedMessage original="New list" locale="es" localized="Nueva lista"/>
+    <moqui.basic.LocalizedMessage original="New name" locale="es" localized="Nombre nuevo"/>
+    <moqui.basic.LocalizedMessage original="New password" locale="es" localized="Contraseña nueva"/>
+    <moqui.basic.LocalizedMessage original="New PIN (${pinMinDigits} to 12 digits)" locale="es" localized="PIN nuevo (${pinMinDigits} a 12 dígitos)"/>
+    <moqui.basic.LocalizedMessage original="New room" locale="es" localized="Nueva sala de conversación"/>
+    <moqui.basic.LocalizedMessage original="New text block" locale="es" localized="Nuevo bloque de texto"/>
+    <moqui.basic.LocalizedMessage original="Next adds the account, paused until the last step. Nothing is signed in to." locale="es" localized="Siguiente agrega la cuenta, en pausa hasta el último paso. No se inicia sesión en nada."/>
+    <moqui.basic.LocalizedMessage original="Next looks up the server settings, or goes on without a mail server when the gateway delivers the mail. Nothing is sent or changed yet." locale="es" localized="Siguiente busca la configuración del servidor, o sigue sin servidor de correo si la pasarela entrega el correo. Aún no se envía ni se cambia nada."/>
+    <moqui.basic.LocalizedMessage original="Next tests the settings before anything syncs." locale="es" localized="Siguiente prueba la configuración antes de que se sincronice nada."/>
+    <moqui.basic.LocalizedMessage original="no adapter in this build" locale="es" localized="sin adaptador en esta compilación"/>
+    <moqui.basic.LocalizedMessage original="No app passwords yet · Make one for your first XMPP app" locale="es" localized="Aún no hay contraseñas de aplicación · Cree una para su primera aplicación XMPP"/>
+    <moqui.basic.LocalizedMessage original="No bridges yet. A network's bridge is set up with its adapter." locale="es" localized="Aún no hay puentes. El puente de una red se configura con su adaptador."/>
+    <moqui.basic.LocalizedMessage original="No call is ringing for you, and you are in no call." locale="es" localized="Ninguna llamada está sonando para usted, y no está en ninguna llamada."/>
+    <moqui.basic.LocalizedMessage original="No calls here yet." locale="es" localized="Aún no hay llamadas aquí."/>
+    <moqui.basic.LocalizedMessage original="No devices yet: a browser gets one the first time it needs encryption." locale="es" localized="Aún no hay dispositivos: un navegador obtiene uno la primera vez que necesita cifrado."/>
+    <moqui.basic.LocalizedMessage original="No do not disturb hours" locale="es" localized="Sin horario de no molestar"/>
+    <moqui.basic.LocalizedMessage original="No draft has this clientRef" locale="es" localized="Ningún borrador tiene este clientRef"/>
+    <moqui.basic.LocalizedMessage original="No emergency locations yet. Add the address each person calls from, as validated with the provider." locale="es" localized="Aún no hay ubicaciones de emergencia. Agregue la dirección desde la que llama cada persona, como la validó el proveedor."/>
+    <moqui.basic.LocalizedMessage original="no encryption device" locale="es" localized="sin dispositivo de cifrado"/>
+    <moqui.basic.LocalizedMessage original="No failed SIP sign-ins." locale="es" localized="No hay inicios de sesión SIP fallidos."/>
+    <moqui.basic.LocalizedMessage original="No file attached" locale="es" localized="Ningún archivo adjunto"/>
+    <moqui.basic.LocalizedMessage original="No file chosen" locale="es" localized="Ningún archivo elegido"/>
+    <moqui.basic.LocalizedMessage original="No key" locale="es" localized="Sin clave"/>
+    <moqui.basic.LocalizedMessage original="No mail account yet" locale="es" localized="Aún no hay cuenta de correo"/>
+    <moqui.basic.LocalizedMessage original="No media server is running. A server starts one when rtc_media_port is set." locale="es" localized="No hay un servidor de medios en ejecución. Un servidor inicia uno cuando rtc_media_port está definido."/>
+    <moqui.basic.LocalizedMessage original="No meetings in the next week." locale="es" localized="No hay reuniones en la próxima semana."/>
+    <moqui.basic.LocalizedMessage original="No members yet" locale="es" localized="Aún no hay miembros"/>
+    <moqui.basic.LocalizedMessage original="No menus yet. Add one and its options, then route a number to it under Numbers." locale="es" localized="Aún no hay menús. Agregue uno y sus opciones, y luego dirija un número hacia él en Números."/>
+    <moqui.basic.LocalizedMessage original="No messages yet" locale="es" localized="Aún no hay mensajes"/>
+    <moqui.basic.LocalizedMessage original="No number rings you yet; an administrator can give you one." locale="es" localized="Aún ningún número le timbra; un administrador puede asignarle uno."/>
+    <moqui.basic.LocalizedMessage original="No number to call from; an administrator can give you one." locale="es" localized="No hay número desde el cual llamar; un administrador puede asignarle uno."/>
+    <moqui.basic.LocalizedMessage original="No numbers yet." locale="es" localized="Aún no hay números."/>
+    <moqui.basic.LocalizedMessage original="No numbers yet. Add the numbers your trunk provider gave you, and the user each one rings." locale="es" localized="Aún no hay números. Agregue los que dio el proveedor de la troncal y el usuario al que timbra cada uno."/>
+    <moqui.basic.LocalizedMessage original="No one is blocked" locale="es" localized="Nadie está bloqueado"/>
+    <moqui.basic.LocalizedMessage original="No options yet" locale="es" localized="Aún no hay opciones"/>
+    <moqui.basic.LocalizedMessage original="No password is needed: the account signs in with its provider." locale="es" localized="No hace falta contraseña: la cuenta inicia sesión con su proveedor."/>
+    <moqui.basic.LocalizedMessage original="No phone calls yet." locale="es" localized="Aún no hay llamadas telefónicas."/>
+    <moqui.basic.LocalizedMessage original="No phones yet." locale="es" localized="Aún no hay teléfonos."/>
+    <moqui.basic.LocalizedMessage original="No queues yet. Add one and its agents, then route a number, an IVR option or a transfer to it." locale="es" localized="Aún no hay colas. Agregue una y sus agentes, y luego dirija hacia ella un número, una opción de IVR o una transferencia."/>
+    <moqui.basic.LocalizedMessage original="No recordings yet." locale="es" localized="Aún no hay grabaciones."/>
+    <moqui.basic.LocalizedMessage original="No ring groups yet. Add one, its members, then route a number to it under Numbers." locale="es" localized="Aún no hay grupos de timbrado. Agregue uno y sus miembros, y luego dirija un número hacia él en Números."/>
+    <moqui.basic.LocalizedMessage original="No rooms yet: start one in a browser" locale="es" localized="Aún no hay salas de conversación: inicie una en un navegador"/>
+    <moqui.basic.LocalizedMessage original="No rules yet" locale="es" localized="Aún no hay reglas"/>
+    <moqui.basic.LocalizedMessage original="No rules yet." locale="es" localized="Aún no hay reglas."/>
+    <moqui.basic.LocalizedMessage original="No schedules yet. Add one with its time zone, then its weekly hours and holidays." locale="es" localized="Aún no hay horarios. Agregue uno con su zona horaria y luego sus horas semanales y feriados."/>
+    <moqui.basic.LocalizedMessage original="no security" locale="es" localized="sin seguridad"/>
+    <moqui.basic.LocalizedMessage original="No server: the mail here is kept only here and does not sync" locale="es" localized="Sin servidor: el correo de aquí se guarda solo aquí y no se sincroniza"/>
+    <moqui.basic.LocalizedMessage original="No signature" locale="es" localized="Sin firma"/>
+    <moqui.basic.LocalizedMessage original="No SIP listener is set: set sip_port or sip_tls_port." locale="es" localized="No hay un receptor SIP: defina sip_port o sip_tls_port."/>
+    <moqui.basic.LocalizedMessage original="No SIP server has started. A server starts one when sip_port or sip_tls_port is set and it has the sip feature." locale="es" localized="Ningún servidor SIP ha iniciado. Uno inicia cuando sip_port o sip_tls_port está definido y hay función sip."/>
+    <moqui.basic.LocalizedMessage original="No SIP server is running in the cluster." locale="es" localized="No hay un servidor SIP en ejecución en el clúster."/>
+    <moqui.basic.LocalizedMessage original="No such preset" locale="es" localized="No existe ese predefinido"/>
+</entity-facade-xml>

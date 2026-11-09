@@ -32,6 +32,16 @@
 - The status-bar element shows the stages of the framework's EntitySync status flow (the status is the syncStatusId parame
 - Total: ${totals.totalChars ?? 0} characters, about ${totals.totalTokens ?? 0} tokens (${totals.charsPerToken ?? ''} char
 - container-split (§8.2): a splitter from 1024 px whose side can be dragged from 200 px to what leaves 480 px to the main
+- Microsoft asks for an app password for mail apps. Turn on two-step verification, then make an app password (Security, 
+- On-disk values come from the merged conf (MoquiDefaultConf, the components' MoquiConf, the runtime conf) and moqui_log
+- Outside phones register to the edge node's registrar, which asks this node to check each password, so they cannot regi
+- Passthrough: the local node ends TLS with its own certificate, and this edge node sees no content; while its link is d
+- Scrape targets are Prometheus-text endpoints read into otel_metrics. Synthetic checks are HTTP requests, each recorded
+- The sync maps the server's folders by their kind (and INBOX); choose here which folder is your Sent, Drafts, Archive, 
+- This node is not an edge node, so no local nodes pair with it. An edge node runs with node_role set to edge (conf/Moqu
+- With a token stored, fetch, pull and push on that root use it in place of the server's own credentials: a user's own t
+- You need your email address and its password. Gmail and Outlook.com sign in with Google or Microsoft where this server
+- Your contacts are the people your address book knows, when this system has one. People inside the organization are the
 
 Mantle and marble texts over 255 characters stay in English. The message key is still used; there is no `es` row for it:
 

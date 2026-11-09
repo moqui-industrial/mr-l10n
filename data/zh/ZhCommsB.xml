@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="zh">
+    <moqui.basic.LocalizedMessage original="No transcript" locale="zh" localized="无转写"/>
+    <moqui.basic.LocalizedMessage original="No trunk is set up: add one under Trunks." locale="zh" localized="尚未设置中继：请在中继中添加一个。"/>
+    <moqui.basic.LocalizedMessage original="No trunks yet. Add one with the provider's host and the credentials it gave you." locale="zh" localized="还没有中继。请用提供商的主机及其给出的凭据添加一个。"/>
+    <moqui.basic.LocalizedMessage original="No user" locale="zh" localized="无用户"/>
+    <moqui.basic.LocalizedMessage original="No voicemail here." locale="zh" localized="这里没有语音信箱。"/>
+    <moqui.basic.LocalizedMessage original="Nobody answers" locale="zh" localized="无人接听"/>
+    <moqui.basic.LocalizedMessage original="Nobody may call out yet." locale="zh" localized="还没有人可以呼出。"/>
+    <moqui.basic.LocalizedMessage original="Nobody may place phone calls yet." locale="zh" localized="还没有人可以拨打电话。"/>
+    <moqui.basic.LocalizedMessage original="Nobody shares it yet." locale="zh" localized="还没有人共享它。"/>
+    <moqui.basic.LocalizedMessage original="Nobody yet" locale="zh" localized="还没有人"/>
+    <moqui.basic.LocalizedMessage original="None (end-to-end encrypted)" locale="zh" localized="无（端到端加密）"/>
+    <moqui.basic.LocalizedMessage original="None set" locale="zh" localized="未设置"/>
+    <moqui.basic.LocalizedMessage original="Not a call handling change" locale="zh" localized="不是通话处理的更改"/>
+    <moqui.basic.LocalizedMessage original="Not an email address" locale="zh" localized="不是电子邮件地址"/>
+    <moqui.basic.LocalizedMessage original="Not blocked" locale="zh" localized="未屏蔽"/>
+    <moqui.basic.LocalizedMessage original="Not checked yet" locale="zh" localized="尚未检查"/>
+    <moqui.basic.LocalizedMessage original="not connected" locale="zh" localized="未连接"/>
+    <moqui.basic.LocalizedMessage original="Not connected: messages stay here and go out once it is back" locale="zh" localized="未连接：消息留在这里，恢复后再发出"/>
+    <moqui.basic.LocalizedMessage original="Not heard from" locale="zh" localized="无响应"/>
+    <moqui.basic.LocalizedMessage original="Not in the call" locale="zh" localized="不在通话中"/>
+    <moqui.basic.LocalizedMessage original="not joined" locale="zh" localized="未加入"/>
+    <moqui.basic.LocalizedMessage original="Not registered" locale="zh" localized="未注册"/>
+    <moqui.basic.LocalizedMessage original="Not saved" locale="zh" localized="未保存"/>
+    <moqui.basic.LocalizedMessage original="Not sent" locale="zh" localized="未发送"/>
+    <moqui.basic.LocalizedMessage original="Not sent yet: it waits in the Outbox" locale="zh" localized="尚未发送：在发件箱中等待"/>
+    <moqui.basic.LocalizedMessage original="Not served here" locale="zh" localized="此处不提供"/>
+    <moqui.basic.LocalizedMessage original="Not set: no phone access to your voicemail." locale="zh" localized="未设置：不能用电话访问您的语音信箱。"/>
+    <moqui.basic.LocalizedMessage original="Not started yet" locale="zh" localized="尚未开始"/>
+    <moqui.basic.LocalizedMessage original="not synced" locale="zh" localized="未同步"/>
+    <moqui.basic.LocalizedMessage original="Not used yet" locale="zh" localized="尚未使用"/>
+    <moqui.basic.LocalizedMessage original="Not validated" locale="zh" localized="未验证"/>
+    <moqui.basic.LocalizedMessage original="not verified live" locale="zh" localized="未经实时验证"/>
+    <moqui.basic.LocalizedMessage original="Nothing answers on that port: check the port and the security. IMAP is usually 993 with SSL, SMTP 465 with SSL or 587 with STARTTLS." locale="zh" localized="该端口没有响应：请检查端口和安全设置。IMAP 通常是 993 加 SSL，SMTP 是 465 加 SSL 或 587 加 STARTTLS。"/>
+    <moqui.basic.LocalizedMessage original="Nothing here files messages on records" locale="zh" localized="此处不会把消息归入记录"/>
+    <moqui.basic.LocalizedMessage original="Nothing here makes records from messages" locale="zh" localized="此处不会从消息创建记录"/>
+    <moqui.basic.LocalizedMessage original="Nothing new in your rooms" locale="zh" localized="您的聊天室没有新内容"/>
+    <moqui.basic.LocalizedMessage original="Nothing selected" locale="zh" localized="未选择"/>
+    <moqui.basic.LocalizedMessage original="Nothing set" locale="zh" localized="未设置"/>
+    <moqui.basic.LocalizedMessage original="Nothing to sign in to. The mail gateway delivers mail for ${gatewayAddress}." locale="zh" localized="无需登录。邮件网关为 ${gatewayAddress} 投递邮件。"/>
+    <moqui.basic.LocalizedMessage original="Nothing to undo" locale="zh" localized="没有可撤销的"/>
+    <moqui.basic.LocalizedMessage original="Notifications and composing" locale="zh" localized="通知和撰写"/>
+    <moqui.basic.LocalizedMessage original="Notifications, sounds, Enter to send, message previews and when you show as away." locale="zh" localized="通知、声音、回车发送、消息预览，以及何时显示为离开。"/>
+    <moqui.basic.LocalizedMessage original="Notify" locale="zh" localized="通知"/>
+    <moqui.basic.LocalizedMessage original="Now" locale="zh" localized="现在"/>
+    <moqui.basic.LocalizedMessage original="Number, or a prefix ending in *" locale="zh" localized="号码，或以 * 结尾的前缀"/>
+    <moqui.basic.LocalizedMessage original="Numbers" locale="zh" localized="号码"/>
+    <moqui.basic.LocalizedMessage original="Numbers dialed without one are in this country" locale="zh" localized="未带国家码拨出的号码属于此国家"/>
+    <moqui.basic.LocalizedMessage original="off" locale="zh" localized="关闭"/>
+    <moqui.basic.LocalizedMessage original="Off" locale="zh" localized="关闭"/>
+    <moqui.basic.LocalizedMessage original="Off (sip_registrar_enabled)" locale="zh" localized="关闭 (sip_registrar_enabled)"/>
+    <moqui.basic.LocalizedMessage original="Offers to" locale="zh" localized="分配给"/>
+    <moqui.basic.LocalizedMessage original="Old copies from the chat actors migration" locale="zh" localized="聊天参与者迁移留下的旧副本"/>
+    <moqui.basic.LocalizedMessage original="Older mail" locale="zh" localized="较早的邮件"/>
+    <moqui.basic.LocalizedMessage original="on" locale="zh" localized="开启"/>
+    <moqui.basic.LocalizedMessage original="On (yyyy-MM-dd)" locale="zh" localized="于 (yyyy-MM-dd)"/>
+    <moqui.basic.LocalizedMessage original="On now" locale="zh" localized="现已开启"/>
+    <moqui.basic.LocalizedMessage original="On now: people who write get your reply until you turn it off." locale="zh" localized="现已开启：来信者会收到您的回复，直到您关闭它。"/>
+    <moqui.basic.LocalizedMessage original="On the server" locale="zh" localized="在服务器上"/>
+    <moqui.basic.LocalizedMessage original="On vacation" locale="zh" localized="休假中"/>
+    <moqui.basic.LocalizedMessage original="One for each app, so that losing one means revoking only its password" locale="zh" localized="每个应用一个，丢失一个只撤销该密码"/>
+    <moqui.basic.LocalizedMessage original="One key" locale="zh" localized="一个按键"/>
+    <moqui.basic.LocalizedMessage original="One of your app passwords was made before XMPP sign-in: most XMPP apps refuse it. Make a new app password for XMPP." locale="zh" localized="您有一个应用密码是在 XMPP 登录之前创建的：大多数 XMPP 应用会拒绝它。请为 XMPP 新建一个应用密码。"/>
+    <moqui.basic.LocalizedMessage original="Only a manager of this account changes its options" locale="zh" localized="只有此账号的管理者能更改其选项"/>
+    <moqui.basic.LocalizedMessage original="Only a shared account has members" locale="zh" localized="只有共享账号才有成员"/>
+    <moqui.basic.LocalizedMessage original="Only an email downloads as an .eml file" locale="zh" localized="只有电子邮件才能下载为 .eml 文件"/>
+    <moqui.basic.LocalizedMessage original="Only for an account with a second factor" locale="zh" localized="仅用于有第二因素的账号"/>
+    <moqui.basic.LocalizedMessage original="only here" locale="zh" localized="仅在此"/>
+    <moqui.basic.LocalizedMessage original="Only the mail you link goes on a record" locale="zh" localized="只有您链接的邮件才会归入记录"/>
+    <moqui.basic.LocalizedMessage original="Only the people in the call can hear and see it: no recording, captions, phones or guests" locale="zh" localized="只有通话中的人能听到和看到：无录音、字幕、电话或访客"/>
+    <moqui.basic.LocalizedMessage original="Only when your provider's outgoing server signs in as another user than the incoming one: its user name and password, tried before they are saved." locale="zh" localized="仅当提供商的发件服务器以不同于收件的另一用户登录时：其用户名和密码会在保存前先试一次。"/>
+    <moqui.basic.LocalizedMessage original="Only when your provider's outgoing server signs in as another user than the incoming one: its user name and password, tried before they are saved. Empty: the same sign-in as above." locale="zh" localized="仅当提供商的发件服务器以不同于收件的另一用户登录时：其用户名和密码会在保存前先试一次。留空：与上面的登录相同。"/>
+    <moqui.basic.LocalizedMessage original="Only while open" locale="zh" localized="仅在开放时"/>
+    <moqui.basic.LocalizedMessage original="Open event" locale="zh" localized="打开事件"/>
+    <moqui.basic.LocalizedMessage original="Open in Inbox" locale="zh" localized="在收件箱中打开"/>
+    <moqui.basic.LocalizedMessage original="Open in the Inbox" locale="zh" localized="在收件箱中打开"/>
+    <moqui.basic.LocalizedMessage original="Open now" locale="zh" localized="当前开放"/>
+    <moqui.basic.LocalizedMessage original="Open the Inbox" locale="zh" localized="打开收件箱"/>
+    <moqui.basic.LocalizedMessage original="or" locale="zh" localized="或"/>
+    <moqui.basic.LocalizedMessage original="Or an outside number" locale="zh" localized="或一个外部号码"/>
+    <moqui.basic.LocalizedMessage original="Or sign in with ${providerLabel} instead of a password: no app password to keep." locale="zh" localized="或使用 ${providerLabel} 登录，而不用密码：无需保存应用密码。"/>
+    <moqui.basic.LocalizedMessage original="Or use a password or an app password instead:" locale="zh" localized="或改用密码或应用密码："/>
+    <moqui.basic.LocalizedMessage original="Other domains inside the organization" locale="zh" localized="组织内的其他域"/>
+    <moqui.basic.LocalizedMessage original="Out of office" locale="zh" localized="外出"/>
+    <moqui.basic.LocalizedMessage original="Out sick" locale="zh" localized="病假"/>
+    <moqui.basic.LocalizedMessage original="Outbound" locale="zh" localized="出站"/>
+    <moqui.basic.LocalizedMessage original="Outgoing password" locale="zh" localized="发件密码"/>
+    <moqui.basic.LocalizedMessage original="Outgoing server (SMTP)" locale="zh" localized="发件服务器 (SMTP)"/>
+    <moqui.basic.LocalizedMessage original="Outgoing user name" locale="zh" localized="发件用户名"/>
+    <moqui.basic.LocalizedMessage original="Outside" locale="zh" localized="外部"/>
+    <moqui.basic.LocalizedMessage original="Outside them calls go past the limits at once" locale="zh" localized="在其之外，通话立即超出限额"/>
+    <moqui.basic.LocalizedMessage original="Outside them calls go to the fallback" locale="zh" localized="在其之外，通话转到后备"/>
+    <moqui.basic.LocalizedMessage original="Own music" locale="zh" localized="自有音乐"/>
+    <moqui.basic.LocalizedMessage original="Past the limits" locale="zh" localized="超出限额"/>
+    <moqui.basic.LocalizedMessage original="Personal: my own address" locale="zh" localized="个人：我自己的地址"/>
+    <moqui.basic.LocalizedMessage original="Phone calls" locale="zh" localized="电话通话"/>
+    <moqui.basic.LocalizedMessage original="Phone calls are not available here." locale="zh" localized="此处不能打电话。"/>
+    <moqui.basic.LocalizedMessage original="Phone calls are not available." locale="zh" localized="不能打电话。"/>
+    <moqui.basic.LocalizedMessage original="Phone calls going" locale="zh" localized="进行中的电话通话"/>
+    <moqui.basic.LocalizedMessage original="Phone permissions of ${userName}" locale="zh" localized="${userName} 的电话权限"/>
+    <moqui.basic.LocalizedMessage original="Phone removed" locale="zh" localized="电话已移除"/>
+    <moqui.basic.LocalizedMessage original="Phone settings" locale="zh" localized="电话设置"/>
+    <moqui.basic.LocalizedMessage original="Phones" locale="zh" localized="电话"/>
+    <moqui.basic.LocalizedMessage original="PIN saved" locale="zh" localized="PIN 已保存"/>
+    <moqui.basic.LocalizedMessage original="plain RTP" locale="zh" localized="明文 RTP"/>
+    <moqui.basic.LocalizedMessage original="Play" locale="zh" localized="播放"/>
+    <moqui.basic.LocalizedMessage original="Play the menu again" locale="zh" localized="再次播放菜单"/>
+    <moqui.basic.LocalizedMessage original="Plays as the call goes on (for example, connecting you to sales). A WAV or Ogg Opus file of at most a minute." locale="zh" localized="通话继续时播放（例如，正在为您接通销售）。WAV 或 Ogg Opus 文件，最长一分钟。"/>
+    <moqui.basic.LocalizedMessage original="policy" locale="zh" localized="策略"/>
+    <moqui.basic.LocalizedMessage original="Port" locale="zh" localized="端口"/>
+    <moqui.basic.LocalizedMessage original="Port (direct TLS)" locale="zh" localized="端口（直接 TLS）"/>
+    <moqui.basic.LocalizedMessage original="Port (STARTTLS)" locale="zh" localized="端口 (STARTTLS)"/>
+    <moqui.basic.LocalizedMessage original="position prompt" locale="zh" localized="位置提示音"/>
+    <moqui.basic.LocalizedMessage original="Postal code" locale="zh" localized="邮政编码"/>
+    <moqui.basic.LocalizedMessage original="Premium" locale="zh" localized="高费率"/>
+    <moqui.basic.LocalizedMessage original="Premium prefixes" locale="zh" localized="高费率前缀"/>
+    <moqui.basic.LocalizedMessage original="Previews" locale="zh" localized="预览"/>
+    <moqui.basic.LocalizedMessage original="Profile" locale="zh" localized="配置文件"/>
+    <moqui.basic.LocalizedMessage original="Prompt" locale="zh" localized="提示音"/>
+    <moqui.basic.LocalizedMessage original="Prompt saved" locale="zh" localized="提示音已保存"/>
+    <moqui.basic.LocalizedMessage original="Proton Mail works with other mail apps only through Proton Mail Bridge, which runs on your own computer and which this server cannot reach. Proton Mail cannot be added here." locale="zh" localized="Proton Mail 只能通过 Proton Mail Bridge 与其他邮件应用配合，该桥接在您自己的电脑上运行，此服务器无法访问。不能在此添加 Proton Mail。"/>
+    <moqui.basic.LocalizedMessage original="Provider addresses" locale="zh" localized="提供商地址"/>
+    <moqui.basic.LocalizedMessage original="Provider profile" locale="zh" localized="提供商配置"/>
+    <moqui.basic.LocalizedMessage original="Provider reference" locale="zh" localized="提供商参考号"/>
+    <moqui.basic.LocalizedMessage original="Put back" locale="zh" localized="还原"/>
+    <moqui.basic.LocalizedMessage original="Put mail on customer and supplier records" locale="zh" localized="将邮件归入客户和供应商记录"/>
+    <moqui.basic.LocalizedMessage original="Put mail on records" locale="zh" localized="将邮件归入记录"/>
+    <moqui.basic.LocalizedMessage original="Put the transcript in it (mail cannot be recalled)" locale="zh" localized="把转写放进去（邮件无法撤回）"/>
+    <moqui.basic.LocalizedMessage original="Queues" locale="zh" localized="队列"/>
+    <moqui.basic.LocalizedMessage original="Quote Html" locale="zh" localized="引用 HTML"/>
+    <moqui.basic.LocalizedMessage original="read" locale="zh" localized="读取"/>
+    <moqui.basic.LocalizedMessage original="read and send" locale="zh" localized="读取并发送"/>
+    <moqui.basic.LocalizedMessage original="Read and send" locale="zh" localized="读取并发送"/>
+    <moqui.basic.LocalizedMessage original="Read and send your email here" locale="zh" localized="在此读取并发送您的电子邮件"/>
+    <moqui.basic.LocalizedMessage original="Read in this order for each call; the first that applies decides. Without one, calls ring you, then go to voicemail." locale="zh" localized="每通来电按此顺序读取；第一条适用的规则生效。没有规则时，来电先振铃您，然后进入语音信箱。"/>
+    <moqui.basic.LocalizedMessage original="Read receipts" locale="zh" localized="已读回执"/>
+    <moqui.basic.LocalizedMessage original="Read your email here" locale="zh" localized="在此阅读您的电子邮件"/>
+    <moqui.basic.LocalizedMessage original="Receiving mail: signing in" locale="zh" localized="接收邮件：登录"/>
+    <moqui.basic.LocalizedMessage original="Receiving mail: the folders" locale="zh" localized="接收邮件：文件夹"/>
+    <moqui.basic.LocalizedMessage original="Recent numbers" locale="zh" localized="最近的号码"/>
+    <moqui.basic.LocalizedMessage original="Record by id or name" locale="zh" localized="按 id 或名称找记录"/>
+    <moqui.basic.LocalizedMessage original="Recorded by" locale="zh" localized="录制者"/>
+    <moqui.basic.LocalizedMessage original="Recording" locale="zh" localized="录音"/>
+    <moqui.basic.LocalizedMessage original="Recording deleted" locale="zh" localized="录音已删除"/>
+    <moqui.basic.LocalizedMessage original="Recordings" locale="zh" localized="录音"/>
+    <moqui.basic.LocalizedMessage original="Register" locale="zh" localized="注册"/>
+    <moqui.basic.LocalizedMessage original="Registered" locale="zh" localized="已注册"/>
+    <moqui.basic.LocalizedMessage original="Remove and delete its mail here" locale="zh" localized="移除并在此删除其邮件"/>
+    <moqui.basic.LocalizedMessage original="Remove the account" locale="zh" localized="移除账号"/>
+    <moqui.basic.LocalizedMessage original="Remove the hold music" locale="zh" localized="移除等待音乐"/>
+    <moqui.basic.LocalizedMessage original="Remove the PIN" locale="zh" localized="移除 PIN"/>
+    <moqui.basic.LocalizedMessage original="Remove the position prompt" locale="zh" localized="移除位置提示音"/>
+    <moqui.basic.LocalizedMessage original="Remove the prompt" locale="zh" localized="移除提示音"/>
+    <moqui.basic.LocalizedMessage original="Remove, keep the mail here" locale="zh" localized="移除，并在此保留邮件"/>
+    <moqui.basic.LocalizedMessage original="Removed accounts" locale="zh" localized="已移除的账号"/>
+    <moqui.basic.LocalizedMessage original="Removing a device that has keys asks you to confirm it is you when you signed in more than five minutes ago." locale="zh" localized="移除持有密钥的设备时，若您登录已超过五分钟，会要求确认是您本人。"/>
+    <moqui.basic.LocalizedMessage original="Removing stops the sync and takes the account out of your Inbox and the lists. Nothing is deleted on the server: your mail stays with your provider. Keep the mail here to keep it on the records it is filed on, or delete it here to free the space." locale="zh" localized="移除会停止同步，并把账号从收件箱和列表中去掉。服务器上不会删除任何内容：邮件仍在提供商处。在此保留，它就留在已归入的记录上；在此删除则可释放空间。"/>
+    <moqui.basic.LocalizedMessage original="Removing takes this account out of your Inbox and the lists. This account's mail is kept here, with no external provider copy. Keep the mail here, or delete it here to free the space; messages filed on records are kept." locale="zh" localized="移除会把此账号从收件箱和列表中去掉。此账号的邮件保存在这里，没有外部提供商副本。可在此保留，或在此删除以释放空间；已归入记录的消息会保留。"/>
+    <moqui.basic.LocalizedMessage original="Rename" locale="zh" localized="重命名"/>
+    <moqui.basic.LocalizedMessage original="Replies go out through the gateway" locale="zh" localized="回复经网关发出"/>
+    <moqui.basic.LocalizedMessage original="Replies go to" locale="zh" localized="回复发往"/>
+    <moqui.basic.LocalizedMessage original="Replies to internal messages are not available here" locale="zh" localized="此处不能回复内部消息"/>
+    <moqui.basic.LocalizedMessage original="Reply to" locale="zh" localized="回复"/>
+    <moqui.basic.LocalizedMessage original="Reply to each sender once every" locale="zh" localized="对每个发件人每隔"/>
+    <moqui.basic.LocalizedMessage original="Reply To Sender Only" locale="zh" localized="仅回复发件人"/>
+    <moqui.basic.LocalizedMessage original="Resend" locale="zh" localized="重新发送"/>
+    <moqui.basic.LocalizedMessage original="Retry the transcript" locale="zh" localized="重试转写"/>
+    <moqui.basic.LocalizedMessage original="Ring group" locale="zh" localized="振铃组"/>
+    <moqui.basic.LocalizedMessage original="Ring Group ID" locale="zh" localized="振铃组 ID"/>
+    <moqui.basic.LocalizedMessage original="Ring groups" locale="zh" localized="振铃组"/>
+    <moqui.basic.LocalizedMessage original="Ring my mobile too" locale="zh" localized="同时振铃我的手机"/>
+    <moqui.basic.LocalizedMessage original="Ringing" locale="zh" localized="振铃中"/>
+    <moqui.basic.LocalizedMessage original="Rings" locale="zh" localized="振铃"/>
+    <moqui.basic.LocalizedMessage original="rings" locale="zh" localized="振铃"/>
+    <moqui.basic.LocalizedMessage original="Rings before voicemail" locale="zh" localized="进入语音信箱前的振铃次数"/>
+    <moqui.basic.LocalizedMessage original="Rooms" locale="zh" localized="聊天室"/>
+    <moqui.basic.LocalizedMessage original="Rooms I make or join notify me of" locale="zh" localized="我创建或加入的聊天室通知我"/>
+    <moqui.basic.LocalizedMessage original="Rooms with unread" locale="zh" localized="有未读的聊天室"/>
+    <moqui.basic.LocalizedMessage original="Routes to" locale="zh" localized="转到"/>
+    <moqui.basic.LocalizedMessage original="Rows" locale="zh" localized="行"/>
+    <moqui.basic.LocalizedMessage original="RTP ports" locale="zh" localized="RTP 端口"/>
+    <moqui.basic.LocalizedMessage original="Rule saved" locale="zh" localized="规则已保存"/>
+    <moqui.basic.LocalizedMessage original="Rules sort new Inbox mail as it arrives, in this order. Write or change a rule's conditions and actions in a browser." locale="zh" localized="规则按此顺序整理新到的收件箱邮件。请在浏览器中编写或更改规则的条件和操作。"/>
+    <moqui.basic.LocalizedMessage original="Save and test" locale="zh" localized="保存并测试"/>
+    <moqui.basic.LocalizedMessage original="Save limits" locale="zh" localized="保存限额"/>
+    <moqui.basic.LocalizedMessage original="Save PIN" locale="zh" localized="保存 PIN"/>
+    <moqui.basic.LocalizedMessage original="Saved from a message" locale="zh" localized="从消息保存"/>
+    <moqui.basic.LocalizedMessage original="Saved. Leave it empty to keep it, or enter a new one." locale="zh" localized="已保存。留空则保留，或输入一个新的。"/>
+    <moqui.basic.LocalizedMessage original="Schedules" locale="zh" localized="时间表"/>
+    <moqui.basic.LocalizedMessage original="Seconds" locale="zh" localized="秒"/>
+    <moqui.basic.LocalizedMessage original="Seconds an offer rings" locale="zh" localized="一次分配振铃的秒数"/>
+    <moqui.basic.LocalizedMessage original="Seconds each" locale="zh" localized="每个的秒数"/>
+    <moqui.basic.LocalizedMessage original="Seconds to wait for a key" locale="zh" localized="等待按键的秒数"/>
+    <moqui.basic.LocalizedMessage original="Send a test message" locale="zh" localized="发送测试消息"/>
+    <moqui.basic.LocalizedMessage original="Send again" locale="zh" localized="再次发送"/>
+    <moqui.basic.LocalizedMessage original="Sender blocked: their mail goes to Spam" locale="zh" localized="发件人已屏蔽：其邮件进入垃圾邮件"/>
+    <moqui.basic.LocalizedMessage original="Sending again" locale="zh" localized="正在再次发送"/>
+    <moqui.basic.LocalizedMessage original="Sending mail (SMTP)" locale="zh" localized="发送邮件 (SMTP)"/>
+    <moqui.basic.LocalizedMessage original="Sending…" locale="zh" localized="正在发送…"/>
+    <moqui.basic.LocalizedMessage original="Sends as" locale="zh" localized="发送身份"/>
+    <moqui.basic.LocalizedMessage original="Sent after your message:" locale="zh" localized="在您的消息之后发送："/>
+    <moqui.basic.LocalizedMessage original="Sent again" locale="zh" localized="已再次发送"/>
+    <moqui.basic.LocalizedMessage original="Sent by email" locale="zh" localized="通过电子邮件发送"/>
+    <moqui.basic.LocalizedMessage original="Separated by commas, such as example.org, example.net: people who write from these domains get the message for people inside" locale="zh" localized="以逗号分隔，例如 example.org、example.net：从这些域来信的人会收到给内部人员的消息"/>
+    <moqui.basic.LocalizedMessage original="Set someone's phone permissions" locale="zh" localized="设置某人的电话权限"/>
+    <moqui.basic.LocalizedMessage original="Set. Call your number and press * during your greeting, then the PIN and #." locale="zh" localized="已设置。呼叫您的号码，在问候语期间按 *，然后输入 PIN 和 #。"/>
+    <moqui.basic.LocalizedMessage original="Settings for the app" locale="zh" localized="应用的设置"/>
+    <moqui.basic.LocalizedMessage original="Setup not finished" locale="zh" localized="设置未完成"/>
+    <moqui.basic.LocalizedMessage original="SHA-256, SHA-512-256, MD5; comma separated" locale="zh" localized="SHA-256、SHA-512-256、MD5；逗号分隔"/>
+    <moqui.basic.LocalizedMessage original="Shared with" locale="zh" localized="共享给"/>
+    <moqui.basic.LocalizedMessage original="Shared: a team address read by several people" locale="zh" localized="共享：多人读取的团队地址"/>
+    <moqui.basic.LocalizedMessage original="Shared: a team address such as sales@ or support@, read by several people" locale="zh" localized="共享：如 sales@ 或 support@ 的团队地址，由多人读取"/>
+    <moqui.basic.LocalizedMessage original="Show me as away after" locale="zh" localized="此后将我显示为离开"/>
+    <moqui.basic.LocalizedMessage original="Sign in again" locale="zh" localized="重新登录"/>
+    <moqui.basic.LocalizedMessage original="Sign in to ${connect.emailAddress}" locale="zh" localized="登录 ${connect.emailAddress}"/>
+    <moqui.basic.LocalizedMessage original="Sign in with ${providerLabel} instead of a password:" locale="zh" localized="使用 ${providerLabel} 登录，而不用密码："/>
+    <moqui.basic.LocalizedMessage original="Sign out" locale="zh" localized="退出登录"/>
+    <moqui.basic.LocalizedMessage original="Sign-in and servers" locale="zh" localized="登录和服务器"/>
+    <moqui.basic.LocalizedMessage original="Sign-in codes and other texts of the system go from this number" locale="zh" localized="登录验证码和系统的其他短信从这个号码发出"/>
+    <moqui.basic.LocalizedMessage original="Sign-in codes and other texts of the system: a budget of their own, which people's texts do not use" locale="zh" localized="登录验证码和系统的其他短信有单独额度，人员的短信不占用"/>
+    <moqui.basic.LocalizedMessage original="Sign-in failed" locale="zh" localized="登录失败"/>
+    <moqui.basic.LocalizedMessage original="Signaling" locale="zh" localized="信令"/>
+    <moqui.basic.LocalizedMessage original="SIP over TLS" locale="zh" localized="基于 TLS 的 SIP"/>
+    <moqui.basic.LocalizedMessage original="SIP servers" locale="zh" localized="SIP 服务器"/>
+    <moqui.basic.LocalizedMessage original="SIP username" locale="zh" localized="SIP 用户名"/>
+    <moqui.basic.LocalizedMessage original="Snooze until when?" locale="zh" localized="稍后提醒到何时？"/>
+    <moqui.basic.LocalizedMessage original="Snoozed" locale="zh" localized="已稍后提醒"/>
+    <moqui.basic.LocalizedMessage original="Some details of your accounts could not be read just now." locale="zh" localized="刚才未能读取您部分账号的详情。"/>
+    <moqui.basic.LocalizedMessage original="Some meetings could not be read." locale="zh" localized="有些会议未能读取。"/>
+    <moqui.basic.LocalizedMessage original="Some parts could not be read just now and are left out." locale="zh" localized="刚才有些部分未能读取，已略去。"/>
+    <moqui.basic.LocalizedMessage original="Sort mail as it arrives: into folders, with labels, flagged, forwarded or out of the Inbox; and the senders you blocked." locale="zh" localized="邮件到达时分类：放入文件夹、加标签、标记、转发或移出收件箱；以及您屏蔽的发件人。"/>
+    <moqui.basic.LocalizedMessage original="Sounds" locale="zh" localized="声音"/>
+    <moqui.basic.LocalizedMessage original="Spam" locale="zh" localized="垃圾邮件"/>
+    <moqui.basic.LocalizedMessage original="Standard (SHA-256)" locale="zh" localized="标准 (SHA-256)"/>
+    <moqui.basic.LocalizedMessage original="Start with your email address." locale="zh" localized="请从您的电子邮件地址开始。"/>
+    <moqui.basic.LocalizedMessage original="starts with" locale="zh" localized="开头为"/>
+    <moqui.basic.LocalizedMessage original="Status presets" locale="zh" localized="状态预设"/>
+    <moqui.basic.LocalizedMessage original="Stop sharing this account: it leaves your Inbox. Its managers can add you again." locale="zh" localized="停止共享此账号：它会离开您的收件箱。其管理者可以再次添加您。"/>
+    <moqui.basic.LocalizedMessage original="Stop: no more rules" locale="zh" localized="停止：不再执行后续规则"/>
+    <moqui.basic.LocalizedMessage original="Straight in" locale="zh" localized="直接进入"/>
+    <moqui.basic.LocalizedMessage original="Such as America/Chicago; empty: the server's" locale="zh" localized="例如 America/Chicago；留空：服务器的"/>
+    <moqui.basic.LocalizedMessage original="Such as Personal, Work or Support" locale="zh" localized="例如个人、工作或支持"/>
+    <moqui.basic.LocalizedMessage original="Supported" locale="zh" localized="受支持"/>
+    <moqui.basic.LocalizedMessage original="Sync" locale="zh" localized="同步"/>
+    <moqui.basic.LocalizedMessage original="Sync failed" locale="zh" localized="同步失败"/>
+    <moqui.basic.LocalizedMessage original="Sync is paused" locale="zh" localized="同步已暂停"/>
+    <moqui.basic.LocalizedMessage original="Sync now" locale="zh" localized="立即同步"/>
+    <moqui.basic.LocalizedMessage original="Sync progress" locale="zh" localized="同步进度"/>
+    <moqui.basic.LocalizedMessage original="synced" locale="zh" localized="已同步"/>
+    <moqui.basic.LocalizedMessage original="Syncing" locale="zh" localized="正在同步"/>
+    <moqui.basic.LocalizedMessage original="System texts from" locale="zh" localized="系统短信发送自"/>
+    <moqui.basic.LocalizedMessage original="System texts in a day" locale="zh" localized="每天的系统短信数"/>
+    <moqui.basic.LocalizedMessage original="Take off" locale="zh" localized="移除"/>
+    <moqui.basic.LocalizedMessage original="Take out" locale="zh" localized="移出"/>
+    <moqui.basic.LocalizedMessage original="Tell the place every (seconds)" locale="zh" localized="每隔（秒）播报位置"/>
+    <moqui.basic.LocalizedMessage original="Test again" locale="zh" localized="重新测试"/>
+    <moqui.basic.LocalizedMessage original="Test Passed" locale="zh" localized="测试通过"/>
+    <moqui.basic.LocalizedMessage original="Test the connection" locale="zh" localized="测试连接"/>
+    <moqui.basic.LocalizedMessage original="Text a number" locale="zh" localized="给号码发短信"/>
+    <moqui.basic.LocalizedMessage original="Text blocks" locale="zh" localized="文本片段"/>
+    <moqui.basic.LocalizedMessage original="Text you write often (a greeting, directions, an answer to a common question), one click or a / and its shortcut away when you write a message. Share one with a group and its members have it too." locale="zh" localized="您常写的文本（问候、说明、常见问题的回答），写消息时一点即可，或输入 / 及其快捷方式。与群组共享后，成员也能使用。"/>
+    <moqui.basic.LocalizedMessage original="Text you write often, one click or a / and a shortcut away in a message; yours or shared with a group." locale="zh" localized="您常写的文本，在消息中一点即可，或用 / 加快捷方式；属于您，或与群组共享。"/>
+    <moqui.basic.LocalizedMessage original="Texts" locale="zh" localized="短信"/>
+    <moqui.basic.LocalizedMessage original="Texts in a day per person" locale="zh" localized="每人每天短信数"/>
+    <moqui.basic.LocalizedMessage original="Texts in a day, everyone" locale="zh" localized="每天短信数，所有人"/>
+    <moqui.basic.LocalizedMessage original="Texts through" locale="zh" localized="短信经由"/>
+    <moqui.basic.LocalizedMessage original="That mail account is not one you send from" locale="zh" localized="该邮件账号不是您用来发送的"/>
+    <moqui.basic.LocalizedMessage original="That server name was not found: check its spelling." locale="zh" localized="未找到该服务器名称：请检查拼写。"/>
+    <moqui.basic.LocalizedMessage original="The account is not on until its setup is finished" locale="zh" localized="设置完成之前，账号不会开启"/>
+    <moqui.basic.LocalizedMessage original="The account is not syncing until its setup is finished" locale="zh" localized="设置完成之前，账号不会同步"/>
+    <moqui.basic.LocalizedMessage original="The account is on. The mail gateway delivers its mail. A tag after a plus sign still arrives here: sales+news@example.com goes to sales@example.com." locale="zh" localized="账号已开启。邮件网关投递其邮件。加号后的标签仍会送到这里：sales+news@example.com 会到达 sales@example.com。"/>
+    <moqui.basic.LocalizedMessage original="The account is paused: the sync brings it to the Inbox when you resume it." locale="zh" localized="账号已暂停：恢复后，同步会把它带回收件箱。"/>
+    <moqui.basic.LocalizedMessage original="The address you want to read and send mail from here. Gmail, Outlook.com, Yahoo, iCloud, Fastmail, your own domain or any provider with IMAP or POP and SMTP. Or an address this business hosts, which the mail gateway delivers." locale="zh" localized="您想在此读取和发送邮件的地址。Gmail、Outlook.com、Yahoo、iCloud、Fastmail、您自己的域，或任何支持 IMAP 或 POP 及 SMTP 的提供商。或本企业托管、由邮件网关投递的地址。"/>
+    <moqui.basic.LocalizedMessage original="The audio was not stored" locale="zh" localized="音频未存储"/>
+    <moqui.basic.LocalizedMessage original="The audio was not stored." locale="zh" localized="音频未存储。"/>
+    <moqui.basic.LocalizedMessage original="The browsers that hold your encryption keys, for encrypted calls. Remove one you no longer use: it gets no new keys, and others stop encrypting to it." locale="zh" localized="保存您加密密钥的浏览器，用于加密通话。请移除不再使用的：它不再获得新密钥，其他浏览器也不再向它加密。"/>
+    <moqui.basic.LocalizedMessage original="The browsers that hold your encryption keys, for encrypted calls; remove one you no longer use." locale="zh" localized="保存您加密密钥的浏览器，用于加密通话；请移除不再使用的。"/>
+    <moqui.basic.LocalizedMessage original="The connection test is off in this session." locale="zh" localized="此会话中关闭了连接测试。"/>
+    <moqui.basic.LocalizedMessage original="The conversation view is threads or messages" locale="zh" localized="会话视图为邮件串或单封消息"/>
+    <moqui.basic.LocalizedMessage original="The default greeting. Record or upload your own in the browser." locale="zh" localized="默认问候语。请在浏览器中录制或上传您自己的。"/>
+    <moqui.basic.LocalizedMessage original="The do not disturb hours end when they start" locale="zh" localized="勿扰时段的结束时间与开始时间相同"/>
+    <moqui.basic.LocalizedMessage original="The first sync brings it to the Inbox once you finish adding the account." locale="zh" localized="添加账号完成后，首次同步会把它带进收件箱。"/>
+    <moqui.basic.LocalizedMessage original="The first sync is under way: your mail shows in the Inbox as it arrives, the newest first. A large mailbox takes a while; you can use the Inbox meanwhile." locale="zh" localized="首次同步进行中：邮件到达后显示在收件箱，最新的优先。大邮箱需要一段时间；其间仍可使用收件箱。"/>
+    <moqui.basic.LocalizedMessage original="the last 3 months" locale="zh" localized="最近 3 个月"/>
+    <moqui.basic.LocalizedMessage original="the last 30 days" locale="zh" localized="最近 30 天"/>
+    <moqui.basic.LocalizedMessage original="The last sync failed" locale="zh" localized="上次同步失败"/>
+    <moqui.basic.LocalizedMessage original="the last sync failed" locale="zh" localized="上次同步失败"/>
+    <moqui.basic.LocalizedMessage original="The last sync said: ${account.lastSyncError}" locale="zh" localized="上次同步的结果：${account.lastSyncError}"/>
+    <moqui.basic.LocalizedMessage original="the last year" locale="zh" localized="最近一年"/>
+    <moqui.basic.LocalizedMessage original="The mail gateway delivers it here" locale="zh" localized="邮件网关在此投递"/>
+    <moqui.basic.LocalizedMessage original="The mail gateway delivers mail for this address. There is no mail server and no password." locale="zh" localized="邮件网关为此地址投递邮件。没有邮件服务器，也没有密码。"/>
+    <moqui.basic.LocalizedMessage original="The mail gateway delivers mail for this address. There is no mail server to sign in to, and no password." locale="zh" localized="邮件网关为此地址投递邮件。没有要登录的邮件服务器，也没有密码。"/>
+    <moqui.basic.LocalizedMessage original="The migration to chat actors kept the old rows of the tables it rebuilt, for a rollback. Once the new build has run a while, drop them; a copy whose table has fewer rows than it stays." locale="zh" localized="迁移到聊天参与者时保留了所重建表的旧行，以便回滚。新构建运行一段时间后可丢弃；行数更少的那份副本会留下。"/>
+    <moqui.basic.LocalizedMessage original="The name and address people see on the mail you send, the address their replies go to, and your signature. Add an address only when your provider lets the account send as it (an alias)." locale="zh" localized="人们在您所发邮件上看到的名称和地址、回复去向，以及您的签名。仅当提供商允许以此地址发送（别名）时才添加。"/>
+    <moqui.basic.LocalizedMessage original="The name and address people see on your mail, where their replies go, and your signatures." locale="zh" localized="人们在您邮件上看到的名称和地址、回复去向，以及您的签名。"/>
+    <moqui.basic.LocalizedMessage original="The next sync brings it to the Inbox in a few minutes, or now with Sync now." locale="zh" localized="下次同步会在几分钟内把它带进收件箱，也可用立即同步马上带来。"/>
+    <moqui.basic.LocalizedMessage original="The only realm the credentials answer; empty answers the trunk's" locale="zh" localized="凭据应答的唯一域；留空则应答中继的域"/>
+    <moqui.basic.LocalizedMessage original="The operator's readiness review for this jurisdiction" locale="zh" localized="运营方对此辖区的就绪审查"/>
+    <moqui.basic.LocalizedMessage original="The outgoing server signs in as its own user, with the password saved for it: leave its password empty to keep it, or empty the user to sign it in as above." locale="zh" localized="发件服务器以自己的用户登录，并用已保存的密码：密码留空则保留，或清空用户以按上面的方式登录。"/>
+    <moqui.basic.LocalizedMessage original="The outgoing server signs in as its own user, with the password saved for it: leave the password empty to keep it." locale="zh" localized="发件服务器以自己的用户登录，并用已保存的密码：密码留空则保留。"/>
+    <moqui.basic.LocalizedMessage original="The outgoing server signs in as its own user: enter its password." locale="zh" localized="发件服务器以自己的用户登录：请输入其密码。"/>
+    <moqui.basic.LocalizedMessage original="The prompt of ${name}" locale="zh" localized="${name} 的提示音"/>
+    <moqui.basic.LocalizedMessage original="the provider" locale="zh" localized="提供商"/>
+    <moqui.basic.LocalizedMessage original="The provider" locale="zh" localized="提供商"/>
+    <moqui.basic.LocalizedMessage original="The provider reference of each location" locale="zh" localized="每个位置的提供商参考号"/>
+    <moqui.basic.LocalizedMessage original="The provider wants an app password (made in its account security settings), not your normal password." locale="zh" localized="提供商要求应用密码（在其账号安全设置中创建），而不是您的普通密码。"/>
+    <moqui.basic.LocalizedMessage original="The provider's id for this validated address" locale="zh" localized="提供商为此已验证地址给出的 id"/>
+    <moqui.basic.LocalizedMessage original="The provider's signaling IPs or CIDRs (no wider than a /8, or a /32 for IPv6), comma separated: their calls need no digest. Only a PBX trunk's username and password sign calls in from elsewhere" locale="zh" localized="提供商的信令 IP 或 CIDR（不得宽于 /8，IPv6 为 /32），逗号分隔：其呼叫不需要摘要。只有 PBX 中继的用户名和密码才能从别处登录呼叫"/>
+    <moqui.basic.LocalizedMessage original="The provider's SIP host name" locale="zh" localized="提供商的 SIP 主机名"/>
+    <moqui.basic.LocalizedMessage original="The reading pane is right, bottom or off" locale="zh" localized="阅读窗格在右侧、底部或关闭"/>
+    <moqui.basic.LocalizedMessage original="The recipients are not JSON" locale="zh" localized="收件人不是 JSON"/>
+    <moqui.basic.LocalizedMessage original="The registrar is off on this server: phones cannot register until an administrator turns it on (sip_registrar_enabled)." locale="zh" localized="此服务器的注册器已关闭：管理员开启前，电话无法注册 (sip_registrar_enabled)。"/>
+    <moqui.basic.LocalizedMessage original="The registrar: ${registrarText}. People add their own phones in Comms settings; the password is shown to them once and never kept." locale="zh" localized="注册器：${registrarText}。人们在通信设置中添加自己的电话；密码只显示一次，且不会保存。"/>
+    <moqui.basic.LocalizedMessage original="The reply-to is an email address" locale="zh" localized="回复地址必须是电子邮件地址"/>
+    <moqui.basic.LocalizedMessage original="The secure connection did not work: the security may not match the port. Use SSL with 993 and 465, and STARTTLS with 143 and 587." locale="zh" localized="安全连接未成功：安全设置可能与端口不符。993 和 465 用 SSL，143 和 587 用 STARTTLS。"/>
+    <moqui.basic.LocalizedMessage original="The server closed the connection: check the port and the security." locale="zh" localized="服务器关闭了连接：请检查端口和安全设置。"/>
+    <moqui.basic.LocalizedMessage original="The server did not answer: check the host and the port. A firewall may block that port." locale="zh" localized="服务器没有应答：请检查主机和端口。防火墙可能阻止了该端口。"/>
+    <moqui.basic.LocalizedMessage original="the server did not take it" locale="zh" localized="服务器未接受"/>
+    <moqui.basic.LocalizedMessage original="The server refused the password; mail is not syncing until it is entered again" locale="zh" localized="服务器拒绝了密码；重新输入之前，邮件不会同步"/>
+    <moqui.basic.LocalizedMessage original="The server refused the user name or password: check them (copy the password again, and use your whole email address as the user name)." locale="zh" localized="服务器拒绝了用户名或密码：请检查（重新复制密码，并用完整电子邮件地址作为用户名）。"/>
+    <moqui.basic.LocalizedMessage original="The server settings could not be looked up just now, so these are guesses: check them against your provider's help page." locale="zh" localized="刚才未能查询服务器设置，因此这些是猜测：请对照提供商的帮助页核对。"/>
+    <moqui.basic.LocalizedMessage original="The server's" locale="zh" localized="服务器的"/>
+    <moqui.basic.LocalizedMessage original="The settings could not be looked up just now, so these are guesses: check them against your provider's help page." locale="zh" localized="刚才未能查询设置，因此这些是猜测：请对照提供商的帮助页核对。"/>
+    <moqui.basic.LocalizedMessage original="The setup of this account was not finished, so it is not on yet." locale="zh" localized="此账号的设置尚未完成，因此还没有开启。"/>
+    <moqui.basic.LocalizedMessage original="The setup of this account was not finished, so it is not syncing yet." locale="zh" localized="此账号的设置尚未完成，因此还没有同步。"/>
+    <moqui.basic.LocalizedMessage original="the sign-in failed" locale="zh" localized="登录失败"/>
+    <moqui.basic.LocalizedMessage original="The signature goes above or below the quote" locale="zh" localized="签名位于引用的上方或下方"/>
+    <moqui.basic.LocalizedMessage original="The SMS bridge its texts go through (System, Chat Bridges); empty for none" locale="zh" localized="其短信所经的 SMS 桥接（系统、聊天桥接）；留空表示没有"/>
+    <moqui.basic.LocalizedMessage original="The statuses the Chat status menu offers, with when each clears." locale="zh" localized="聊天状态菜单提供的状态，以及各自何时清除。"/>
+    <moqui.basic.LocalizedMessage original="The sync interval is a number of minutes" locale="zh" localized="同步间隔是分钟数"/>
+    <moqui.basic.LocalizedMessage original="The sync maps the server's folders here: Inbox, Sent, Drafts, Spam, Trash and Archive by their kind, and the others by name." locale="zh" localized="同步把服务器文件夹对应到这里：收件箱、已发送、草稿箱、垃圾邮件、已删除和归档按其类型，其余按名称。"/>
+    <moqui.basic.LocalizedMessage original="The sync window is a number of days" locale="zh" localized="同步窗口是天数"/>
+    <moqui.basic.LocalizedMessage original="The targets are not JSON" locale="zh" localized="目标不是 JSON"/>
+    <moqui.basic.LocalizedMessage original="The test did not pass: go back to fix the settings, or choose Continue anyway" locale="zh" localized="测试未通过：请返回修正设置，或选择仍然继续"/>
+    <moqui.basic.LocalizedMessage original="The text" locale="zh" localized="正文"/>
+    <moqui.basic.LocalizedMessage original="The transcript could not be made" locale="zh" localized="未能生成转写"/>
+    <moqui.basic.LocalizedMessage original="Their calls may go on to outside numbers: their mobile, their forwarding rules" locale="zh" localized="他们的通话可以转到外部号码：他们的手机和转移规则"/>
+    <moqui.basic.LocalizedMessage original="then stop" locale="zh" localized="然后停止"/>
+    <moqui.basic.LocalizedMessage original="These are guesses from your domain: check them against your provider's help page for mail apps (IMAP and SMTP)." locale="zh" localized="这些是根据您的域作出的猜测：请对照提供商关于邮件应用（IMAP 和 SMTP）的帮助页核对。"/>
+    <moqui.basic.LocalizedMessage original="These are the known settings for your provider." locale="zh" localized="这些是您提供商的已知设置。"/>
+    <moqui.basic.LocalizedMessage original="These are the server settings saved with the account." locale="zh" localized="这些是随账号保存的服务器设置。"/>
+    <moqui.basic.LocalizedMessage original="These folders keep this account's mail here. The mail gateway delivers incoming messages; no external mailbox is synced." locale="zh" localized="这些文件夹在此保存此账号的邮件。邮件网关投递收到的消息；不会同步外部邮箱。"/>
+    <moqui.basic.LocalizedMessage original="These server settings are from the DNS records of your domain." locale="zh" localized="这些服务器设置来自您域的 DNS 记录。"/>
+    <moqui.basic.LocalizedMessage original="These server settings are from the Thunderbird database of mail providers." locale="zh" localized="这些服务器设置来自 Thunderbird 的邮件提供商数据库。"/>
+    <moqui.basic.LocalizedMessage original="These server settings are guesses from your domain: check them against your provider's help page for mail apps (IMAP and SMTP)." locale="zh" localized="这些服务器设置是根据您的域作出的猜测：请对照提供商关于邮件应用（IMAP 和 SMTP）的帮助页核对。"/>
+    <moqui.basic.LocalizedMessage original="These settings are from the DNS records of your domain." locale="zh" localized="这些设置来自您域的 DNS 记录。"/>
+    <moqui.basic.LocalizedMessage original="These settings are from the Thunderbird database of mail providers." locale="zh" localized="这些设置来自 Thunderbird 的邮件提供商数据库。"/>
+    <moqui.basic.LocalizedMessage original="They may" locale="zh" localized="可以"/>
+    <moqui.basic.LocalizedMessage original="This account has no server, so no reply can go out from it." locale="zh" localized="此账号没有服务器，因此不能从它发出回复。"/>
+    <moqui.basic.LocalizedMessage original="This call is end-to-end encrypted: answer it in a browser that can encrypt call media." locale="zh" localized="此通话已端到端加密：请在能够加密通话媒体的浏览器中接听。"/>
+    <moqui.basic.LocalizedMessage original="This caller left no number" locale="zh" localized="此来电者没有留下号码"/>
+    <moqui.basic.LocalizedMessage original="This is not available here" locale="zh" localized="此处不可用"/>
+    <moqui.basic.LocalizedMessage original="This message cannot be sent again" locale="zh" localized="此消息不能再次发送"/>
+    <moqui.basic.LocalizedMessage original="This message cannot be written here" locale="zh" localized="不能在此撰写此消息"/>
+    <moqui.basic.LocalizedMessage original="This message does not exist or is not yours to see." locale="zh" localized="此消息不存在，或不属于您查看。"/>
+    <moqui.basic.LocalizedMessage original="This message has no files" locale="zh" localized="此消息没有文件"/>
+    <moqui.basic.LocalizedMessage original="This provider cannot be added here" locale="zh" localized="不能在此添加此提供商"/>
+    <moqui.basic.LocalizedMessage original="This provider signs mail apps in only with its own sign-in (OAuth), which is not set up on this server: a password will most likely be refused. An administrator can set the sign-in up." locale="zh" localized="此提供商的邮件应用只能用它自己的登录 (OAuth)，而此服务器尚未设置：密码很可能会被拒绝。管理员可以设置该登录。"/>
+    <moqui.basic.LocalizedMessage original="This provider signs mail apps in only with its own sign-in: use the sign-in button, a password will most likely be refused." locale="zh" localized="此提供商的邮件应用只能用它自己的登录：请使用登录按钮，密码很可能会被拒绝。"/>
+    <moqui.basic.LocalizedMessage original="This room is end-to-end encrypted: open it in a browser to read and write its messages" locale="zh" localized="此聊天室已端到端加密：请在浏览器中打开以读写其消息"/>
+    <moqui.basic.LocalizedMessage original="This room is end-to-end encrypted: open it in a browser to write in it" locale="zh" localized="此聊天室已端到端加密：请在浏览器中打开才能写入"/>
+    <moqui.basic.LocalizedMessage original="This room is not found" locale="zh" localized="未找到此聊天室"/>
+    <moqui.basic.LocalizedMessage original="This server is not built with SIP (the sip feature)." locale="zh" localized="此服务器构建时未包含 SIP（sip 功能）。"/>
+    <moqui.basic.LocalizedMessage original="This server may not connect to that host; ask your administrator to allow it (email_allowed_hosts)." locale="zh" localized="此服务器不能连接该主机；请让管理员允许 (email_allowed_hosts)。"/>
+    <moqui.basic.LocalizedMessage original="This server sends mail. Receiving mail is left out of this build." locale="zh" localized="此服务器发送邮件。此构建未包含接收邮件。"/>
+    <moqui.basic.LocalizedMessage original="Through (yyyy-MM-dd)" locale="zh" localized="至 (yyyy-MM-dd)"/>
+    <moqui.basic.LocalizedMessage original="Times it plays again" locale="zh" localized="再次播放的次数"/>
+    <moqui.basic.LocalizedMessage original="To make it personal again, remove the people who share it first, so only one is left." locale="zh" localized="要改回个人账号，请先移除共享的人，直到只剩一人。"/>
+    <moqui.basic.LocalizedMessage original="Tones" locale="zh" localized="信号音"/>
+    <moqui.basic.LocalizedMessage original="Too large to attach, and you may not share it by link" locale="zh" localized="过大无法附加，且您不能通过链接共享"/>
+    <moqui.basic.LocalizedMessage original="Too large to attach: a link to it is in the message" locale="zh" localized="过大无法附加：消息中含有其链接"/>
+    <moqui.basic.LocalizedMessage original="Transcribing" locale="zh" localized="正在转写"/>
+    <moqui.basic.LocalizedMessage original="Transcribing again" locale="zh" localized="正在再次转写"/>
+    <moqui.basic.LocalizedMessage original="Transcript failed" locale="zh" localized="转写失败"/>
+    <moqui.basic.LocalizedMessage original="Transcription is off here" locale="zh" localized="此处关闭了转写"/>
+    <moqui.basic.LocalizedMessage original="Trash (${trashCount})" locale="zh" localized="已删除 (${trashCount})"/>
+    <moqui.basic.LocalizedMessage original="Trunk" locale="zh" localized="中继"/>
+    <moqui.basic.LocalizedMessage original="Trunks" locale="zh" localized="中继"/>
+    <moqui.basic.LocalizedMessage original="Turn off" locale="zh" localized="关闭"/>
+    <moqui.basic.LocalizedMessage original="Turn on" locale="zh" localized="开启"/>
+    <moqui.basic.LocalizedMessage original="Turn on IMAP access in the mail settings of your provider's web mail, then test again." locale="zh" localized="请在提供商网页邮件的设置中开启 IMAP，然后重新测试。"/>
+    <moqui.basic.LocalizedMessage original="Turn on IMAP access in the Zoho Mail settings. With two-factor sign-in on, make an app-specific password in your Zoho account (Security, App passwords) and use it below." locale="zh" localized="在 Zoho Mail 设置中开启 IMAP。若已开启双因素登录，请在 Zoho 账号中创建应用专用密码（安全、应用密码），并在下方使用。"/>
+    <moqui.basic.LocalizedMessage original="Turn on POP3 and IMAP access in the GMX mail settings first; then your GMX password works here." locale="zh" localized="请先在 GMX 邮件设置中开启 POP3 和 IMAP；然后您的 GMX 密码即可在此使用。"/>
+    <moqui.basic.LocalizedMessage original="Turn on third-party access in the Xfinity email security settings first; then your Xfinity password works here." locale="zh" localized="请先在 Xfinity 电子邮件安全设置中开启第三方访问；然后您的 Xfinity 密码即可在此使用。"/>
+    <moqui.basic.LocalizedMessage original="Twelve presets at most" locale="zh" localized="最多十二个预设"/>
+    <moqui.basic.LocalizedMessage original="Type / and the shortcut in a message to put the text in" locale="zh" localized="在消息中输入 / 和快捷方式以插入文本"/>
+    <moqui.basic.LocalizedMessage original="Typing" locale="zh" localized="正在输入"/>
+    <moqui.basic.LocalizedMessage original="Unblock" locale="zh" localized="取消屏蔽"/>
+    <moqui.basic.LocalizedMessage original="Uncertain" locale="zh" localized="不确定"/>
+    <moqui.basic.LocalizedMessage original="uncertain" locale="zh" localized="不确定"/>
+    <moqui.basic.LocalizedMessage original="Under the deployment's fraud limits" locale="zh" localized="在部署的欺诈限额之内"/>
+    <moqui.basic.LocalizedMessage original="Undo send is 0, 5, 10, 20 or 30 seconds" locale="zh" localized="撤销发送为 0、5、10、20 或 30 秒"/>
+    <moqui.basic.LocalizedMessage original="Unheard" locale="zh" localized="未听"/>
+    <moqui.basic.LocalizedMessage original="unknown" locale="zh" localized="未知"/>
+    <moqui.basic.LocalizedMessage original="Unknown action" locale="zh" localized="未知操作"/>
+    <moqui.basic.LocalizedMessage original="Unknown filing choice" locale="zh" localized="未知的归入选项"/>
+    <moqui.basic.LocalizedMessage original="unread" locale="zh" localized="未读"/>
+    <moqui.basic.LocalizedMessage original="Unread" locale="zh" localized="未读"/>
+    <moqui.basic.LocalizedMessage original="until" locale="zh" localized="直到"/>
+    <moqui.basic.LocalizedMessage original="Until" locale="zh" localized="直到"/>
+    <moqui.basic.LocalizedMessage original="Until (HH:mm)" locale="zh" localized="直到 (HH:mm)"/>
+    <moqui.basic.LocalizedMessage original="Up" locale="zh" localized="上"/>
+    <moqui.basic.LocalizedMessage original="Upload hold music you may use (WAV or Ogg Opus, at most a minute, looped), and a prompt played before the caller's place in the queue. Without them callers hear a tone pattern; Moqui ships no music or recorded speech." locale="zh" localized="上传可用的等待音乐（WAV 或 Ogg Opus，最长一分钟，循环），以及播报排队位置的提示音。没有时来电者听到信号音模式；Moqui 不附带音乐或录制语音。"/>
+    <moqui.basic.LocalizedMessage original="Uploaded" locale="zh" localized="已上传"/>
+    <moqui.basic.LocalizedMessage original="Use as" locale="zh" localized="用作"/>
+    <moqui.basic.LocalizedMessage original="Use the default greeting" locale="zh" localized="使用默认问候语"/>
+    <moqui.basic.LocalizedMessage original="Usually your whole email address" locale="zh" localized="通常是您的完整电子邮件地址"/>
+    <moqui.basic.LocalizedMessage original="Validated" locale="zh" localized="已验证"/>
+    <moqui.basic.LocalizedMessage original="Validation" locale="zh" localized="验证"/>
+    <moqui.basic.LocalizedMessage original="Validation failed" locale="zh" localized="验证失败"/>
+    <moqui.basic.LocalizedMessage original="Verifying a device, the key backup and its recovery key are done in a browser, which holds the keys." locale="zh" localized="验证设备、密钥备份及其恢复密钥在浏览器中完成，密钥保存在浏览器里。"/>
+    <moqui.basic.LocalizedMessage original="Video" locale="zh" localized="视频"/>
+    <moqui.basic.LocalizedMessage original="Video call" locale="zh" localized="视频通话"/>
+    <moqui.basic.LocalizedMessage original="Voice" locale="zh" localized="语音"/>
+    <moqui.basic.LocalizedMessage original="Voice Trunk ID" locale="zh" localized="语音中继 ID"/>
+    <moqui.basic.LocalizedMessage original="Voicemail" locale="zh" localized="语音信箱"/>
+    <moqui.basic.LocalizedMessage original="Voicemail access" locale="zh" localized="语音信箱接入"/>
+    <moqui.basic.LocalizedMessage original="Voicemail access number: ${accessText}" locale="zh" localized="语音信箱接入号码：${accessText}"/>
+    <moqui.basic.LocalizedMessage original="Voicemail from ${fromText}" locale="zh" localized="来自 ${fromText} 的语音信箱"/>
+    <moqui.basic.LocalizedMessage original="Voicemail greeting" locale="zh" localized="语音信箱问候语"/>
+    <moqui.basic.LocalizedMessage original="Voicemail not found." locale="zh" localized="未找到语音信箱。"/>
+    <moqui.basic.LocalizedMessage original="Voicemail notices" locale="zh" localized="语音信箱通知"/>
+    <moqui.basic.LocalizedMessage original="Voicemail PIN" locale="zh" localized="语音信箱 PIN"/>
+    <moqui.basic.LocalizedMessage original="Voicemail settings" locale="zh" localized="语音信箱设置"/>
+    <moqui.basic.LocalizedMessage original="Voicemail settings saved" locale="zh" localized="语音信箱设置已保存"/>
+    <moqui.basic.LocalizedMessage original="Waiting" locale="zh" localized="等待中"/>
+    <moqui.basic.LocalizedMessage original="waiting" locale="zh" localized="等待中"/>
+    <moqui.basic.LocalizedMessage original="Waiting for the first sync" locale="zh" localized="等待首次同步"/>
+    <moqui.basic.LocalizedMessage original="waits" locale="zh" localized="等待"/>
+    <moqui.basic.LocalizedMessage original="We know the server settings of your provider." locale="zh" localized="我们知道您提供商的服务器设置。"/>
+    <moqui.basic.LocalizedMessage original="When and what" locale="zh" localized="何时以及做什么"/>
+    <moqui.basic.LocalizedMessage original="When closed" locale="zh" localized="关闭时"/>
+    <moqui.basic.LocalizedMessage original="When the provider gives one apart from the username" locale="zh" localized="当提供商另外给出一个不同于用户名的值"/>
+    <moqui.basic.LocalizedMessage original="Where" locale="zh" localized="何处"/>
+    <moqui.basic.LocalizedMessage original="Where they go" locale="zh" localized="去向"/>
+    <moqui.basic.LocalizedMessage original="Where to make it" locale="zh" localized="在何处创建"/>
+    <moqui.basic.LocalizedMessage original="Which" locale="zh" localized="哪一项"/>
+    <moqui.basic.LocalizedMessage original="Which account?" locale="zh" localized="哪个账号？"/>
+    <moqui.basic.LocalizedMessage original="Which account? The account is required" locale="zh" localized="哪个账号？账号为必填"/>
+    <moqui.basic.LocalizedMessage original="Which provider does the account sign in with?" locale="zh" localized="账号用哪个提供商登录？"/>
+    <moqui.basic.LocalizedMessage original="Which sign-in?" locale="zh" localized="哪种登录？"/>
+    <moqui.basic.LocalizedMessage original="while closed" locale="zh" localized="关闭期间"/>
+    <moqui.basic.LocalizedMessage original="while open" locale="zh" localized="开放期间"/>
+    <moqui.basic.LocalizedMessage original="Who has it" locale="zh" localized="谁拥有"/>
+    <moqui.basic.LocalizedMessage original="Who hears of each emergency call from here, such as the front desk" locale="zh" localized="谁在此得知每通紧急呼叫，例如前台"/>
+    <moqui.basic.LocalizedMessage original="Who to take out?" locale="zh" localized="移出谁？"/>
+    <moqui.basic.LocalizedMessage original="Whose" locale="zh" localized="属于"/>
+    <moqui.basic.LocalizedMessage original="Whose mail is it?" locale="zh" localized="这是谁的邮件？"/>
+    <moqui.basic.LocalizedMessage original="Window Text" locale="zh" localized="窗口文本"/>
+    <moqui.basic.LocalizedMessage original="With" locale="zh" localized="与"/>
+    <moqui.basic.LocalizedMessage original="With its country code, such as +15551234567" locale="zh" localized="带国家码，例如 +15551234567"/>
+    <moqui.basic.LocalizedMessage original="With video" locale="zh" localized="带视频"/>
+    <moqui.basic.LocalizedMessage original="Within (seconds)" locale="zh" localized="在（秒）内"/>
+    <moqui.basic.LocalizedMessage original="Working remotely" locale="zh" localized="远程工作"/>
+    <moqui.basic.LocalizedMessage original="Works for" locale="zh" localized="有效期"/>
+    <moqui.basic.LocalizedMessage original="Works with XMPP apps" locale="zh" localized="适用于 XMPP 应用"/>
+    <moqui.basic.LocalizedMessage original="wrap-up" locale="zh" localized="话后处理"/>
+    <moqui.basic.LocalizedMessage original="Wrap-up seconds" locale="zh" localized="话后处理秒数"/>
+    <moqui.basic.LocalizedMessage original="Write a message first" locale="zh" localized="请先写一条消息"/>
+    <moqui.basic.LocalizedMessage original="Write the reply people get" locale="zh" localized="写下人们收到的回复"/>
+    <moqui.basic.LocalizedMessage original="XMPP apps are not set up on this server. Chat here, in the browser, or ask your administrator." locale="zh" localized="此服务器未设置 XMPP 应用。请在浏览器中的此处聊天，或询问管理员。"/>
+    <moqui.basic.LocalizedMessage original="Yahoo account security" locale="zh" localized="Yahoo 账号安全"/>
+    <moqui.basic.LocalizedMessage original="Yahoo asks for an app password for mail apps: in your Yahoo account open Account security, choose Generate app password, and paste it below." locale="zh" localized="Yahoo 要求邮件应用使用应用密码：在 Yahoo 账号中打开账号安全，选择生成应用密码，并粘贴到下方。"/>
+    <moqui.basic.LocalizedMessage original="You" locale="zh" localized="您"/>
+    <moqui.basic.LocalizedMessage original="You have no number to call from; an administrator can give you one." locale="zh" localized="您没有可用来呼叫的号码；管理员可以为您分配一个。"/>
+    <moqui.basic.LocalizedMessage original="You take calls for no queue. A voice administrator adds agents to queues under System, Voice, Queues." locale="zh" localized="您不为任何队列接听。语音管理员在系统、语音、队列中把座席加入队列。"/>
+    <moqui.basic.LocalizedMessage original="Your account is set up" locale="zh" localized="您的账号已设置好"/>
+    <moqui.basic.LocalizedMessage original="Your chat address, also what the app asks as the account" locale="zh" localized="您的聊天地址，也是应用要求填写的账号"/>
+    <moqui.basic.LocalizedMessage original="Your email accounts: add Gmail, Outlook.com, your own domain or a shared team address; sign-in, servers, sync and members." locale="zh" localized="您的电子邮件账号：添加 Gmail、Outlook.com、您自己的域或共享的团队地址；登录、服务器、同步和成员。"/>
+    <moqui.basic.LocalizedMessage original="Your email address" locale="zh" localized="您的电子邮件地址"/>
+    <moqui.basic.LocalizedMessage original="Your email password; it is kept encrypted and never shown again." locale="zh" localized="您的电子邮件密码；加密保存，且不再显示。"/>
+    <moqui.basic.LocalizedMessage original="Your mail provider publishes these server settings." locale="zh" localized="您的邮件提供商公布了这些服务器设置。"/>
+    <moqui.basic.LocalizedMessage original="Your mail provider publishes these settings." locale="zh" localized="您的邮件提供商公布了这些设置。"/>
+    <moqui.basic.LocalizedMessage original="Your name" locale="zh" localized="您的姓名"/>
+    <moqui.basic.LocalizedMessage original="Your number is hidden on calls you place (Settings, Call handling)." locale="zh" localized="您拨出的通话会隐藏号码（设置、通话处理）。"/>
+    <moqui.basic.LocalizedMessage original="Your numbers and your voicemail: greeting, PIN, email notices and how many rings before it answers." locale="zh" localized="您的号码和语音信箱：问候语、PIN、电子邮件通知，以及应答前的振铃次数。"/>
+    <moqui.basic.LocalizedMessage original="Your own greeting. Record or upload a new one in the browser." locale="zh" localized="您自己的问候语。请在浏览器中录制或上传一个新的。"/>
+    <moqui.basic.LocalizedMessage original="Your provider's outgoing server signs in as another user: check it and enter its password. It is tried before it is saved." locale="zh" localized="您的提供商的发件服务器以另一个用户登录：请核对并输入其密码。保存前会先试一次。"/>
+    <moqui.basic.LocalizedMessage original="yours" locale="zh" localized="您的"/>
+    <moqui.basic.LocalizedMessage original="Zoho app passwords" locale="zh" localized="Zoho 应用密码"/>
+</entity-facade-xml>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="zh">
+    <moqui.basic.LocalizedMessage original="A change needs a restart" locale="zh" localized="更改需要重启"/>
+    <moqui.basic.LocalizedMessage original="A change that waits for a restart (a part of the conf that is not applied live, a component.xml, a component not loaded live) takes effect when the server restarts. Sessions and the sim overlay are lost." locale="zh" localized="等待重启的更改（配置中未实时应用的部分、component.xml、未实时加载的组件）在服务器重启时生效。会话和模拟叠加会丢失。"/>
+    <moqui.basic.LocalizedMessage original="A Rust change needs a rebuild first: ./moq build" locale="zh" localized="Rust 的更改需要先重新构建：./moq build"/>
+    <moqui.basic.LocalizedMessage original="Add a directory" locale="zh" localized="添加目录"/>
+    <moqui.basic.LocalizedMessage original="All artifacts" locale="zh" localized="全部工件"/>
+    <moqui.basic.LocalizedMessage original="Allow editing upstream components" locale="zh" localized="允许编辑上游组件"/>
+    <moqui.basic.LocalizedMessage original="An upgrade of an upstream component removed what ${custom.brokenCount} of them extend." locale="zh" localized="一次上游组件升级移除了其中 ${custom.brokenCount} 个所扩展的对象。"/>
+    <moqui.basic.LocalizedMessage original="Artifact (id or name)" locale="zh" localized="工件（id 或名称）"/>
+    <moqui.basic.LocalizedMessage original="Back to artifact" locale="zh" localized="返回工件"/>
+    <moqui.basic.LocalizedMessage original="Choose an artifact to see what uses it and what it uses. Enter a name such as moqui.security.UserAccount, or find one in Artifact Search." locale="zh" localized="选择一个工件，以查看什么在使用它以及它使用什么。输入名称，例如 moqui.security.UserAccount，或在工件搜索中查找。"/>
+    <moqui.basic.LocalizedMessage original="Comma list of prefixes, such as mantle.order, mantle/order or SimpleScreens/Order; empty: all" locale="zh" localized="用逗号分隔的前缀列表，例如 mantle.order、mantle/order 或 SimpleScreens/Order；空：全部"/>
+    <moqui.basic.LocalizedMessage original="Create component" locale="zh" localized="创建组件"/>
+    <moqui.basic.LocalizedMessage original="Create site component" locale="zh" localized="创建站点组件"/>
+    <moqui.basic.LocalizedMessage original="Create something new" locale="zh" localized="创建新的内容"/>
+    <moqui.basic.LocalizedMessage original="Customizations" locale="zh" localized="定制"/>
+    <moqui.basic.LocalizedMessage original="Data file loaded" locale="zh" localized="数据文件已加载"/>
+    <moqui.basic.LocalizedMessage original="DDL on a dev database" locale="zh" localized="开发数据库上的 DDL"/>
+    <moqui.basic.LocalizedMessage original="Dev only (runtime/dev-component)" locale="zh" localized="仅开发（runtime/dev-component）"/>
+    <moqui.basic.LocalizedMessage original="Directory (full path)" locale="zh" localized="目录（完整路径）"/>
+    <moqui.basic.LocalizedMessage original="Directory in it" locale="zh" localized="其中的目录"/>
+    <moqui.basic.LocalizedMessage original="Docs" locale="zh" localized="文档"/>
+    <moqui.basic.LocalizedMessage original="Docs exported" locale="zh" localized="文档已导出"/>
+    <moqui.basic.LocalizedMessage original="Edit this site's extensions in the workspace. Settings controls which site component receives new extensions." locale="zh" localized="在工作区中编辑此站点的扩展。设置控制哪个站点组件接收新扩展。"/>
+    <moqui.basic.LocalizedMessage original="Editing an upstream component in place is a fork: every upgrade of it has to merge your change. Turn this on to work on the framework or an app itself." locale="zh" localized="就地编辑上游组件即是分叉：它的每次升级都必须合并您的更改。开启此项才能修改框架或应用本身。"/>
+    <moqui.basic.LocalizedMessage original="Export docs" locale="zh" localized="导出文档"/>
+    <moqui.basic.LocalizedMessage original="Extends" locale="zh" localized="扩展"/>
+    <moqui.basic.LocalizedMessage original="Extends (components, comma separated)" locale="zh" localized="扩展（组件，用逗号分隔）"/>
+    <moqui.basic.LocalizedMessage original="Find an artifact" locale="zh" localized="查找工件"/>
+    <moqui.basic.LocalizedMessage original="Find artifacts" locale="zh" localized="查找工件"/>
+    <moqui.basic.LocalizedMessage original="Find entities, services, screens and their references by name. Try UserAccount, UsrAcct or create#UserAccount; narrow the results by kind or component." locale="zh" localized="按名称查找实体、服务、屏幕及其引用。试试 UserAccount、UsrAcct 或 create#UserAccount；按种类或组件缩小结果。"/>
+    <moqui.basic.LocalizedMessage original="For user (empty: the root's deploy token)" locale="zh" localized="用户（空：该根的部署令牌）"/>
+    <moqui.basic.LocalizedMessage original="Git command" locale="zh" localized="Git 命令"/>
+    <moqui.basic.LocalizedMessage original="Git tokens" locale="zh" localized="Git 令牌"/>
+    <moqui.basic.LocalizedMessage original="How" locale="zh" localized="方式"/>
+    <moqui.basic.LocalizedMessage original="Initialize git" locale="zh" localized="初始化 git"/>
+    <moqui.basic.LocalizedMessage original="Keep this site's entity and screen extensions, seed data and rules in a site component so upstream upgrades stay easy." locale="zh" localized="将此站点的实体和屏幕扩展、种子数据及规则放在站点组件中，以便上游升级仍然容易。"/>
+    <moqui.basic.LocalizedMessage original="Move or rename" locale="zh" localized="移动或重命名"/>
+    <moqui.basic.LocalizedMessage original="Network git commands" locale="zh" localized="网络 git 命令"/>
+    <moqui.basic.LocalizedMessage original="New component" locale="zh" localized="新组件"/>
+    <moqui.basic.LocalizedMessage original="No artifact matches '${artifactId}'" locale="zh" localized="没有与 '${artifactId}' 匹配的工件"/>
+    <moqui.basic.LocalizedMessage original="No artifacts match '${text}'" locale="zh" localized="没有与 '${text}' 匹配的工件"/>
+    <moqui.basic.LocalizedMessage original="No incoming references are recorded for this artifact." locale="zh" localized="没有记录此工件的传入引用。"/>
+    <moqui.basic.LocalizedMessage original="No outgoing references are recorded for this artifact." locale="zh" localized="没有记录此工件的传出引用。"/>
+    <moqui.basic.LocalizedMessage original="No reloads yet. Saved or externally changed files appear here after they are reloaded." locale="zh" localized="还没有重新加载。已保存或在外部更改的文件会在重新加载后出现在这里。"/>
+    <moqui.basic.LocalizedMessage original="No site component is set: Home creates one, Settings names one." locale="zh" localized="未设置站点组件：主页会创建一个，设置会指定一个。"/>
+    <moqui.basic.LocalizedMessage original="No site component yet" locale="zh" localized="还没有站点组件"/>
+    <moqui.basic.LocalizedMessage original="None checked: all" locale="zh" localized="未勾选：全部"/>
+    <moqui.basic.LocalizedMessage original="None chosen: all" locale="zh" localized="未选择：全部"/>
+    <moqui.basic.LocalizedMessage original="On a shared dev server fetch, pull and push are off until an admin enables them; the server's git then uses its own credentials." locale="zh" localized="在共享开发服务器上，在管理员启用之前，fetch、pull 和 push 是关闭的；此后服务器的 git 使用自己的凭据。"/>
+    <moqui.basic.LocalizedMessage original="Open a root to browse its files and review changes. Unpublished site changes: ${(overview.unpublished || 0)}." locale="zh" localized="打开一个根以浏览其文件并复查更改。未发布的站点更改：${(overview.unpublished || 0)}。"/>
+    <moqui.basic.LocalizedMessage original="Open in the Browser" locale="zh" localized="在浏览器中打开"/>
+    <moqui.basic.LocalizedMessage original="Open in Workspace" locale="zh" localized="在工作区中打开"/>
+    <moqui.basic.LocalizedMessage original="Open the doc" locale="zh" localized="打开文档"/>
+    <moqui.basic.LocalizedMessage original="Open workspace" locale="zh" localized="打开工作区"/>
+    <moqui.basic.LocalizedMessage original="Publish ${siteChanges}" locale="zh" localized="发布 ${siteChanges}"/>
+    <moqui.basic.LocalizedMessage original="Publish branch" locale="zh" localized="发布分支"/>
+    <moqui.basic.LocalizedMessage original="Relative to the repository or directory" locale="zh" localized="相对于代码库或目录"/>
+    <moqui.basic.LocalizedMessage original="Reload log" locale="zh" localized="重载日志"/>
+    <moqui.basic.LocalizedMessage original="Remote URL (empty: the root's origin)" locale="zh" localized="远程 URL（空：该根的源地址）"/>
+    <moqui.basic.LocalizedMessage original="Repository or directory" locale="zh" localized="代码库或目录"/>
+    <moqui.basic.LocalizedMessage original="Restart" locale="zh" localized="重启"/>
+    <moqui.basic.LocalizedMessage original="Root" locale="zh" localized="根"/>
+    <moqui.basic.LocalizedMessage original="Roots" locale="zh" localized="根目录"/>
+    <moqui.basic.LocalizedMessage original="Save token" locale="zh" localized="保存令牌"/>
+    <moqui.basic.LocalizedMessage original="Service definitions" locale="zh" localized="服务定义"/>
+    <moqui.basic.LocalizedMessage original="Service run for real" locale="zh" localized="服务实际执行"/>
+    <moqui.basic.LocalizedMessage original="Shared dev server" locale="zh" localized="共享开发服务器"/>
+    <moqui.basic.LocalizedMessage original="Show" locale="zh" localized="显示"/>
+    <moqui.basic.LocalizedMessage original="Show doc" locale="zh" localized="显示文档"/>
+    <moqui.basic.LocalizedMessage original="Showing ${artifacts.length} matches${artifacts.length === 100 ? '; narrow the search to see more specific results' : ''}. Open a name for references or a file to edit its source." locale="zh" localized="显示 ${artifacts.length} 个匹配项${artifacts.length === 100 ? '；请缩小搜索以查看更具体的结果' : ''}。打开名称以查看引用，或打开文件以编辑其源代码。"/>
+    <moqui.basic.LocalizedMessage original="Site components" locale="zh" localized="站点组件"/>
+    <moqui.basic.LocalizedMessage original="Site extensions: ${(custom.extensionCount || 0)}, ${(custom.brokenCount || 0)} broken" locale="zh" localized="站点扩展：${(custom.extensionCount || 0)}，${(custom.brokenCount || 0)} 个已失效"/>
+    <moqui.basic.LocalizedMessage original="Site extensions: ${custom.extensionCount || 0}, ${custom.brokenCount || 0} broken" locale="zh" localized="站点扩展：${custom.extensionCount || 0}，${custom.brokenCount || 0} 个已失效"/>
+    <moqui.basic.LocalizedMessage original="Site settings" locale="zh" localized="站点设置"/>
+    <moqui.basic.LocalizedMessage original="Stale docs" locale="zh" localized="过期文档"/>
+    <moqui.basic.LocalizedMessage original="Start an application with entities, services, screens or a REST API, security, demo data and specs." locale="zh" localized="以实体、服务、屏幕或 REST API、安全、演示数据和规格来创建一个应用。"/>
+    <moqui.basic.LocalizedMessage original="The components this site owns, comma separated, the first the default target of an extension. Every other component is upstream: read only, and extended from the site component instead of edited." locale="zh" localized="此站点拥有的组件，用逗号分隔，第一个是扩展的默认目标。其余每个组件都是上游：只读，并通过站点组件扩展，而不是直接编辑。"/>
+    <moqui.basic.LocalizedMessage original="There is no doc of ${docPath || artifactId}. Find an artifact above, or start from all artifacts." locale="zh" localized="没有 ${docPath || artifactId} 的文档。请在上方查找一个工件，或从全部工件开始。"/>
+    <moqui.basic.LocalizedMessage original="Try a shorter name or clear the kind and component filters." locale="zh" localized="请试一个更短的名称，或清除种类和组件筛选。"/>
+    <moqui.basic.LocalizedMessage original="Upstream components" locale="zh" localized="上游组件"/>
+    <moqui.basic.LocalizedMessage original="Used by (${usedBy.length})" locale="zh" localized="使用者（${usedBy.length}）"/>
+    <moqui.basic.LocalizedMessage original="Used by: ${usedBy.length}" locale="zh" localized="使用者：${usedBy.length}"/>
+    <moqui.basic.LocalizedMessage original="User name on the remote" locale="zh" localized="远程上的用户名"/>
+    <moqui.basic.LocalizedMessage original="Uses (${uses.length})" locale="zh" localized="使用（${uses.length}）"/>
+    <moqui.basic.LocalizedMessage original="Uses: ${uses.length}" locale="zh" localized="使用：${uses.length}"/>
+    <moqui.basic.LocalizedMessage original="Workspace" locale="zh" localized="工作区"/>
+    <moqui.basic.LocalizedMessage original="Workspace roots" locale="zh" localized="工作区根目录"/>
+    <moqui.basic.LocalizedMessage original="Write the docs into a directory of a repository. Only the docs that changed are written; the directory's .autodoc.json lists them." locale="zh" localized="将文档写入代码库的一个目录。只写入有变化的文档；该目录的 .autodoc.json 会列出它们。"/>
+</entity-facade-xml>
