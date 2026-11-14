@@ -38,7 +38,7 @@
 - Passthrough: the local node ends TLS with its own certificate, and this edge node sees no content; while its link is d
 - Scrape targets are Prometheus-text endpoints read into otel_metrics. Synthetic checks are HTTP requests, each recorded
 - The sync maps the server's folders by their kind (and INBOX); choose here which folder is your Sent, Drafts, Archive, 
-- This node is not an edge node, so no local nodes pair with it. An edge node runs with node_role set to edge (conf/Moqu
+- This node takes no links, so no local nodes pair with it. An edge node runs with node_role set to front_edge (conf/edge/MoquiEdgeConf.xml), and a full server that also takes local nodes' links with node_role set to all-in-one (conf/all-in-one/MoquiAllInOneConf.xml). To pair this node with an edge node, use Edge Node.
 - With a token stored, fetch, pull and push on that root use it in place of the server's own credentials: a user's own t
 - You need your email address and its password. Gmail and Outlook.com sign in with Google or Microsoft where this server
 - Your contacts are the people your address book knows, when this system has one. People inside the organization are the
