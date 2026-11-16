@@ -17,6 +17,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="${pmtDescOut.paymentDescription} has an invalid expiration date" locale="zh" localized="${pmtDescOut.paymentDescription} 的到期日无效"/>
     <moqui.basic.LocalizedMessage original="${pmtDescOut.paymentDescription} has insufficient funds" locale="zh" localized="${pmtDescOut.paymentDescription} 资金不足"/>
     <moqui.basic.LocalizedMessage original="${pmtDescOut.paymentDescription} was declined" locale="zh" localized="${pmtDescOut.paymentDescription} 已被拒绝"/>
+    <moqui.basic.LocalizedMessage original="ACCOUNT_CODE_IN_USE: Account code ${accountCode} is already in the chart" locale="zh" localized="ACCOUNT_CODE_IN_USE: 账户代码 ${accountCode} 已在会计科目表中"/>
     <moqui.basic.LocalizedMessage original="Account Number is missing on internal Bank Account (ID ${paymentMethodId})" locale="zh" localized="内部银行账户（ID ${paymentMethodId}）缺少账户号码"/>
     <moqui.basic.LocalizedMessage original="Accounting transaction ${acctgTransId} has been saved in Error Journal ${partyAcctgPreference.errorGlJournalId}." locale="zh" localized="会计交易 ${acctgTransId} 已保存到错误日记账 ${partyAcctgPreference.errorGlJournalId}。"/>
     <moqui.basic.LocalizedMessage original="Accounting transaction ${acctgTransId} has issues and may not be posted." locale="zh" localized="会计交易 ${acctgTransId} 存在问题，可能无法过账。"/>
@@ -245,6 +246,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Refund amount ${payment.amount} is greater than refundable amount ${refundRemaining} for original payment ${refundForPaymentId} (original amount ${refundForPayment.amount}, other refunds ${otherRefundTotal})" locale="zh" localized="退款金额 ${payment.amount} 大于可退金额 ${refundRemaining}（原始付款 ${refundForPaymentId}，原始金额 ${refundForPayment.amount}，其他退款 ${otherRefundTotal}）"/>
     <moqui.basic.LocalizedMessage original="Refund amount cannot be zero" locale="zh" localized="退款金额不能为零"/>
     <moqui.basic.LocalizedMessage original="Routing Number is not 9 characters on internal Bank Account (ID ${paymentMethodId})" locale="zh" localized="内部银行账户（ID ${paymentMethodId}）的路由号不是 9 个字符"/>
+    <moqui.basic.LocalizedMessage original="SEQUENCE_UNAVAILABLE: Invoices are numbered on the standard sequence; an enforced sequence is not available" locale="zh" localized="SEQUENCE_UNAVAILABLE: 发票按标准序列编号；强制连续编号不可用"/>
     <moqui.basic.LocalizedMessage original="Shipment from party ${shipment.fromPartyId} does not match invoice from party ${invoice.fromPartyId}" locale="zh" localized="发货单来源参与方 ${shipment.fromPartyId} 与发票来源参与方 ${invoice.fromPartyId} 不一致"/>
     <moqui.basic.LocalizedMessage original="Shipment not found with ID ${shipmentId}" locale="zh" localized="找不到 ID 为 ${shipmentId} 的发货单"/>
     <moqui.basic.LocalizedMessage original="Shipment to party ${shipment.toPartyId} does not match invoice to party ${invoice.toPartyId}" locale="zh" localized="发货单目标参与方 ${shipment.toPartyId} 与发票目标参与方 ${invoice.toPartyId} 不一致"/>

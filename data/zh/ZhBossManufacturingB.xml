@@ -17,6 +17,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="No operation at these work centers in these days." locale="zh" localized="这些天这些工作中心没有工序。"/>
     <moqui.basic.LocalizedMessage original="No output or loss in this period." locale="zh" localized="本期间没有产出或损耗。"/>
     <moqui.basic.LocalizedMessage original="No outside processing has been asked for this operation yet${canRequest ? &apos;. Ask for it with Request outside processing.&apos; : &apos;.&apos;}" locale="zh" localized="尚未为此工序请求外协加工${canRequest ? &apos;。请使用请求外协来申请。&apos; : &apos;.&apos;}"/>
+    <moqui.basic.LocalizedMessage original="No outside-processing agreement is recorded for this operation; it is on purchase order ${firstLine?.orderId}, whose lines are below." locale="zh" localized="此工序没有记录外协加工协议；它在采购订单 ${firstLine?.orderId} 上，其行列在下方。"/>
     <moqui.basic.LocalizedMessage original="No plan has been calculated for this plant yet." locale="zh" localized="还没有为此工厂计算计划。"/>
     <moqui.basic.LocalizedMessage original="No production inspection in this period." locale="zh" localized="本期间没有生产检验。"/>
     <moqui.basic.LocalizedMessage original="No production inspection matches. A released work order&apos;s final gate opens one with each output receipt; an in-process gate&apos;s opens from the work order&apos;s Quality tab." locale="zh" localized="没有匹配的生产检验。已发放工单的最终关卡随每次产出收货打开一个；过程中关卡从工单的质量页签打开。"/>
