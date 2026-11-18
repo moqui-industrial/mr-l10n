@@ -1,8 +1,53 @@
-# mr-l10n
+# mr-l10n - Language Packs for MR Moqui
 
-Language packs for mr-moqui. Spanish and Simplified Chinese cover the framework, tools, webroot, basic-comms, example, dev-aide, mr-mantle, mr-marble, and the Commons, Comms, Projects, Products, Accounting, Warehouse, Manufacturing, Purchasing, and Customer Service apps in mr-boss. The rest of mr-boss is not in this pack. Each language is a two-letter directory under `data/` and the same load type. Spanish is `data/es/` with `type="es"`. Simplified Chinese is `data/zh/` with `type="zh"`.
+> **Not ready for production (before 0.1.0).** Like [MR Moqui](https://github.com/moqui/mr-moqui#readme), whose
+> text these packs carry into other languages, this component is in early development. Screens and messages still
+> change, so a pack can trail the English, and the data model changes without migrations. MR Moqui is for development
+> machines only for now; the full notice is at the top of the [mr-moqui README](https://github.com/moqui/mr-moqui#readme).
 
-`moqui load` and an empty-database startup load `seed`, `seed-initial`, and `install`. They do not load these files. Load Spanish with `moqui load types=es`, and Simplified Chinese with `moqui load types=zh`, or add `es` or `zh` to a longer type list. `types=all` includes them. A database that already has data does not pick a language up until that load runs.
+Language packs for [MR Moqui](https://github.com/moqui/mr-moqui), the Moqui framework in Rust, and its applications:
+the labels, field titles, messages, enumeration and status names, and email and print text, as data that loads into a
+database.
+
+| Language | Load type | Files |
+|---|---|---|
+| Spanish: neutral international Spanish, with a short overlay for Spain (`es_ES`) | `es` | `data/es/` |
+| Simplified Chinese | `zh` | `data/zh/` |
+
+## Coverage
+
+| | Covered | Not yet |
+|---|---|---|
+| mr-moqui | framework, tools, webroot, basic-comms, example, dev-aide | |
+| [mr-mantle](https://github.com/moqui/mr-mantle) | Enumerations and statuses, states and provinces, messages and templates | |
+| [mr-marble](https://github.com/moqui/mr-marble) | Screens, email and print | |
+| [mr-boss](https://github.com/moqui/mr-boss) | Commons, Comms, Projects, Products, Accounting, Warehouse, Manufacturing, Purchasing, Customer Service, and the shared screens they mount | Sales, Marketing, Commerce, Maintenance, People, Insights, Admin |
+| [mr-pass](https://github.com/moqui/mr-pass) | | All of it |
+
+Texts longer than 255 characters stay in English; they are listed in
+[docs/Strings-Left-In-English.md](docs/Strings-Left-In-English.md).
+
+## Loading a language
+
+In an [mr-moqui](https://github.com/moqui/mr-moqui#quick-start) checkout, get the component with
+`./moq component-get mr-l10n`. Each language's files have its code as their data type, so they load when that type
+is loaded:
+
+- **In development**, `./moq load` loads every type, and so does the first start of `./moq run` on an empty
+  database. Both languages are there.
+- **With the production conf or the binary alone**, `moqui load` and an empty-database start load `seed`,
+  `seed-initial` and `install` only. Load Spanish with `moqui load types=es` and Simplified Chinese with
+  `moqui load types=zh`, or add `es` or `zh` to a longer type list; `types=all` includes them.
+
+A database that already has data does not pick a language up until that load runs. A person sees it when
+their account's locale is that language.
+
+## Adding a language
+
+A new language is a directory `data/<code>/` whose files follow the Spanish key set, with the same names under the
+new prefix and `type="<code>"`. The rules under [Writing rows](#writing-rows) apply, and the language gets a section
+in [docs/Voice.md](docs/Voice.md) with its register, glossary and the words it avoids. A regional variant is a short
+overlay file, as `EsRegional.xml` is for `es_ES`, not a second catalog.
 
 ## Files
 
