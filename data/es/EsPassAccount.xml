@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+
+<entity-facade-xml type="es">
+    <moqui.basic.LocalizedMessage original=" · by " locale="es" localized=" · por "/>
+    <moqui.basic.LocalizedMessage original="${entitlement.name} · ${entitlement.sourceType == 'subscription' ? 'subscription' : 'granted by staff'} · ${entitlement.active ? 'active' : 'ended'}  · until ${entitlement.thruDate}" locale="es" localized="${entitlement.name} · ${entitlement.sourceType == 'subscription' ? 'subscription' : 'granted by staff'} · ${entitlement.active ? 'active' : 'ended'}  · hasta ${entitlement.thruDate}"/>
+    <moqui.basic.LocalizedMessage original="${report.reason}  · by" locale="es" localized="${report.reason}  · por"/>
+    <moqui.basic.LocalizedMessage original="${row.kind} · revision ${row.revision} · ${row.reason}" locale="es" localized="${row.kind} · revisión ${row.revision} · ${row.reason}"/>
+    <moqui.basic.LocalizedMessage original="${row.poll.voterCount} ${row.poll.voterCount == 1 ? 'voter' : 'voters'}  · closed" locale="es" localized="${row.poll.voterCount} ${row.poll.voterCount == 1 ? 'voter' : 'voters'}  · cerrado"/>
+    <moqui.basic.LocalizedMessage original="${row.unreadCount} unread" locale="es" localized="${row.unreadCount} no leídos"/>
+    <moqui.basic.LocalizedMessage original="${row.visiblePostCount} ${Number(row.visiblePostCount) == 1 ? 'post' : 'posts'}  · solved" locale="es" localized="${row.visiblePostCount} ${Number(row.visiblePostCount) == 1 ? 'post' : 'posts'}  · resuelto"/>
+    <moqui.basic.LocalizedMessage original="${timer.action} at ${timer.dueAt}" locale="es" localized="${timer.action} a las ${timer.dueAt}"/>
+    <moqui.basic.LocalizedMessage original="Accept answer" locale="es" localized="Aceptar la respuesta"/>
+    <moqui.basic.LocalizedMessage original="Accepted answer" locale="es" localized="Respuesta aceptada"/>
+    <moqui.basic.LocalizedMessage original="Access and subscriptions" locale="es" localized="Acceso y suscripciones"/>
+    <moqui.basic.LocalizedMessage original="Access grants" locale="es" localized="Concesiones de acceso"/>
+    <moqui.basic.LocalizedMessage original="Account path" locale="es" localized="Ruta de la cuenta"/>
+    <moqui.basic.LocalizedMessage original="Account settings" locale="es" localized="Configuración de la cuenta"/>
+    <moqui.basic.LocalizedMessage original="active" locale="es" localized="activo"/>
+    <moqui.basic.LocalizedMessage original="Activity filters" locale="es" localized="Filtros de actividad"/>
+    <moqui.basic.LocalizedMessage original="All forum email from this site" locale="es" localized="Todo el correo del foro de este sitio"/>
+    <moqui.basic.LocalizedMessage original="All topics" locale="es" localized="Todos los temas"/>
+    <moqui.basic.LocalizedMessage original="All unread" locale="es" localized="Todos los no leídos"/>
+    <moqui.basic.LocalizedMessage original="and accept on this page. An invitation to a mailing list then sends you every post of the list." locale="es" localized="y acepte en esta página. Una invitación a una lista de correo le envía después cada publicación de la lista."/>
+    <moqui.basic.LocalizedMessage original="Anyone, including visitors who are not signed in" locale="es" localized="Cualquiera, incluidos los visitantes que no han iniciado sesión"/>
+    <moqui.basic.LocalizedMessage original="Appeal a moderation decision" locale="es" localized="Apelar una decisión de moderación"/>
+    <moqui.basic.LocalizedMessage original="Approved by the operator for revision ${view.importDetail.import.operatorRevision ?? 'none'}, by a site owner for revision ${view.importDetail.import.ownerRevision ?? 'none'}" locale="es" localized="Aprobado por el operador para la revisión ${view.importDetail.import.operatorRevision ?? 'none'}, por un propietario del sitio para la revisión ${view.importDetail.import.ownerRevision ?? 'none'}"/>
+    <moqui.basic.LocalizedMessage original="Attachments: ${view.activity.capacity.attachments} · Outbox waiting: ${view.activity.capacity.outboxPending} · Failed operation runs in the period: ${view.activity.failedRuns}" locale="es" localized="Adjuntos: ${view.activity.capacity.attachments} · Bandeja de salida en espera: ${view.activity.capacity.outboxPending} · Ejecuciones fallidas en el periodo: ${view.activity.failedRuns}"/>
+    <moqui.basic.LocalizedMessage original="Authentication code (when required)" locale="es" localized="Código de autenticación (cuando se requiera)"/>
+    <moqui.basic.LocalizedMessage original="Authentication could not be completed" locale="es" localized="No se pudo completar la autenticación"/>
+    <moqui.basic.LocalizedMessage original="Back to the post" locale="es" localized="Volver a la publicación"/>
+    <moqui.basic.LocalizedMessage original="Bind a subscription resource (operator only)" locale="es" localized="Vincular un recurso de suscripción (solo el operador)"/>
+    <moqui.basic.LocalizedMessage original="Biography" locale="es" localized="Biografía"/>
+    <moqui.basic.LocalizedMessage original="By ${view.activity.period.interval}" locale="es" localized="Por ${view.activity.period.interval}"/>
+    <moqui.basic.LocalizedMessage original="Category (for a category scope)" locale="es" localized="Categoría (para un alcance de categoría)"/>
+    <moqui.basic.LocalizedMessage original="Category members and roles" locale="es" localized="Miembros y roles de la categoría"/>
+    <moqui.basic.LocalizedMessage original="Category settings" locale="es" localized="Configuración de la categoría"/>
+    <moqui.basic.LocalizedMessage original="Category topics" locale="es" localized="Temas de la categoría"/>
+    <moqui.basic.LocalizedMessage original="Changes between revisions" locale="es" localized="Cambios entre revisiones"/>
+    <moqui.basic.LocalizedMessage original="Check the payment again" locale="es" localized="Comprobar el pago de nuevo"/>
+    <moqui.basic.LocalizedMessage original="Choose a password" locale="es" localized="Elegir una contraseña"/>
+    <moqui.basic.LocalizedMessage original="Choose up to ${row.poll.maxChoices}" locale="es" localized="Elija hasta ${row.poll.maxChoices}"/>
+    <moqui.basic.LocalizedMessage original="Community activity" locale="es" localized="Actividad de la comunidad"/>
+    <moqui.basic.LocalizedMessage original="Community guidelines" locale="es" localized="Normas de la comunidad"/>
+    <moqui.basic.LocalizedMessage original="Community import" locale="es" localized="Importación de la comunidad"/>
+    <moqui.basic.LocalizedMessage original="Community profile" locale="es" localized="Perfil en la comunidad"/>
+    <moqui.basic.LocalizedMessage original="Completing sign-in…" locale="es" localized="Completando el inicio de sesión…"/>
+    <moqui.basic.LocalizedMessage original="Confirm it is you: sign in again, then do this again." locale="es" localized="Confirme que es usted: inicie sesión de nuevo y vuelva a hacerlo."/>
+    <moqui.basic.LocalizedMessage original="Confirm new password" locale="es" localized="Confirmar la contraseña nueva"/>
+    <moqui.basic.LocalizedMessage original="Confirm your email address to do this." locale="es" localized="Confirme su dirección de correo electrónico para hacerlo."/>
+    <moqui.basic.LocalizedMessage original="Context shown for this report" locale="es" localized="Contexto mostrado para esta denuncia"/>
+    <moqui.basic.LocalizedMessage original="Create disabled site" locale="es" localized="Crear un sitio desactivado"/>
+    <moqui.basic.LocalizedMessage original="Data requests" locale="es" localized="Solicitudes de datos"/>
+    <moqui.basic.LocalizedMessage original="Delegate a site role" locale="es" localized="Delegar un rol del sitio"/>
+    <moqui.basic.LocalizedMessage original="Digest frequency" locale="es" localized="Frecuencia del compendio"/>
+    <moqui.basic.LocalizedMessage original="Download the reconciliation report" locale="es" localized="Descargar el informe de conciliación"/>
+    <moqui.basic.LocalizedMessage original="Edit or remind" locale="es" localized="Editar o recordar"/>
+    <moqui.basic.LocalizedMessage original="Edit post" locale="es" localized="Editar la publicación"/>
+    <moqui.basic.LocalizedMessage original="Edit rule" locale="es" localized="Editar la regla"/>
+    <moqui.basic.LocalizedMessage original="Email or username" locale="es" localized="Correo electrónico o nombre de usuario"/>
+    <moqui.basic.LocalizedMessage original="End a sanction" locale="es" localized="Finalizar una sanción"/>
+    <moqui.basic.LocalizedMessage original="ended" locale="es" localized="finalizado"/>
+    <moqui.basic.LocalizedMessage original="Export or erase my data" locale="es" localized="Exportar o borrar mis datos"/>
+    <moqui.basic.LocalizedMessage original="Find tags" locale="es" localized="Buscar etiquetas"/>
+    <moqui.basic.LocalizedMessage original="For erasure: I understand my profile is anonymized and my memberships end" locale="es" localized="Para el borrado: entiendo que mi perfil se anonimiza y terminan mis membresías"/>
+    <moqui.basic.LocalizedMessage original="Forum health" locale="es" localized="Salud del foro"/>
+    <moqui.basic.LocalizedMessage original="Forum mail delivery" locale="es" localized="Entrega del correo del foro"/>
+    <moqui.basic.LocalizedMessage original="Forum path" locale="es" localized="Ruta del foro"/>
+    <moqui.basic.LocalizedMessage original="Forum policies" locale="es" localized="Políticas del foro"/>
+    <moqui.basic.LocalizedMessage original="Give the secret again for the mirror’s new address, username or host key" locale="es" localized="Vuelva a indicar el secreto para la dirección, el nombre de usuario o la clave de host nuevos del espejo"/>
+    <moqui.basic.LocalizedMessage original="granted by staff" locale="es" localized="concedido por el personal"/>
+    <moqui.basic.LocalizedMessage original="Handle" locale="es" localized="Alias"/>
+    <moqui.basic.LocalizedMessage original="Held mail" locale="es" localized="Correo retenido"/>
+    <moqui.basic.LocalizedMessage original="Hide or show the earlier versions" locale="es" localized="Ocultar o mostrar las versiones anteriores"/>
+    <moqui.basic.LocalizedMessage original="Host name (operator only)" locale="es" localized="Nombre de host (solo el operador)"/>
+    <moqui.basic.LocalizedMessage original="I authorize payment of ${view.invoice.dueText} to ${view.invoice.fromName}" locale="es" localized="Autorizo el pago de ${view.invoice.dueText} a ${view.invoice.fromName}"/>
+    <moqui.basic.LocalizedMessage original="Import detail" locale="es" localized="Detalle de la importación"/>
+    <moqui.basic.LocalizedMessage original="Inbound messages" locale="es" localized="Mensajes entrantes"/>
+    <moqui.basic.LocalizedMessage original="Inbound routes" locale="es" localized="Rutas entrantes"/>
+    <moqui.basic.LocalizedMessage original="Include my own posts in mailing-list email" locale="es" localized="Incluir mis propias publicaciones en el correo de la lista"/>
+    <moqui.basic.LocalizedMessage original="Invitation code" locale="es" localized="Código de invitación"/>
+    <moqui.basic.LocalizedMessage original="Invitation code (when required)" locale="es" localized="Código de invitación (cuando se requiera)"/>
+    <moqui.basic.LocalizedMessage original="Invoice ${row.invoiceId}" locale="es" localized="Factura ${row.invoiceId}"/>
+    <moqui.basic.LocalizedMessage original="Invoice ${view.invoice.invoiceId}" locale="es" localized="Factura ${view.invoice.invoiceId}"/>
+    <moqui.basic.LocalizedMessage original="JavaScript is required to compose. Public reading works without JavaScript." locale="es" localized="Se requiere JavaScript para redactar. La lectura pública funciona sin JavaScript."/>
+    <moqui.basic.LocalizedMessage original="Join the community" locale="es" localized="Unirse a la comunidad"/>
+    <moqui.basic.LocalizedMessage original="Join this community" locale="es" localized="Unirse a esta comunidad"/>
+    <moqui.basic.LocalizedMessage original="Join this site" locale="es" localized="Unirse a este sitio"/>
+    <moqui.basic.LocalizedMessage original="Latest topics" locale="es" localized="Temas más recientes"/>
+    <moqui.basic.LocalizedMessage original="Leave this site" locale="es" localized="Salir de este sitio"/>
+    <moqui.basic.LocalizedMessage original="Link to this post" locale="es" localized="Enlace a esta publicación"/>
+    <moqui.basic.LocalizedMessage original="Manage categories" locale="es" localized="Gestionar las categorías"/>
+    <moqui.basic.LocalizedMessage original="Manage category members" locale="es" localized="Gestionar los miembros de la categoría"/>
+    <moqui.basic.LocalizedMessage original="Manage your subscription" locale="es" localized="Gestionar su suscripción"/>
+    <moqui.basic.LocalizedMessage original="Manage-subscription page (https address or local path)" locale="es" localized="Página de gestión de la suscripción (dirección https o ruta local)"/>
+    <moqui.basic.LocalizedMessage original="Mark every unread notification read" locale="es" localized="Marcar todas las notificaciones no leídas como leídas"/>
+    <moqui.basic.LocalizedMessage original="member ${report.reporterPartyId}" locale="es" localized="miembro ${report.reporterPartyId}"/>
+    <moqui.basic.LocalizedMessage original="Member moderation" locale="es" localized="Moderación del miembro"/>
+    <moqui.basic.LocalizedMessage original="MemberDetail" locale="es" localized="Detalle del miembro"/>
+    <moqui.basic.LocalizedMessage original="Members and invitations" locale="es" localized="Miembros e invitaciones"/>
+    <moqui.basic.LocalizedMessage original="Members path" locale="es" localized="Ruta de miembros"/>
+    <moqui.basic.LocalizedMessage original="Membership revision" locale="es" localized="Revisión de la membresía"/>
+    <moqui.basic.LocalizedMessage original="Message views" locale="es" localized="Vistas de mensajes"/>
+    <moqui.basic.LocalizedMessage original="Moderation here" locale="es" localized="Moderación aquí"/>
+    <moqui.basic.LocalizedMessage original="Moderation log" locale="es" localized="Registro de moderación"/>
+    <moqui.basic.LocalizedMessage original="Moderation outcomes" locale="es" localized="Resultados de la moderación"/>
+    <moqui.basic.LocalizedMessage original="Mute or block this member" locale="es" localized="Silenciar o bloquear a este miembro"/>
+    <moqui.basic.LocalizedMessage original="My account" locale="es" localized="Mi cuenta"/>
+    <moqui.basic.LocalizedMessage original="New topic" locale="es" localized="Tema nuevo"/>
+    <moqui.basic.LocalizedMessage original="Next page" locale="es" localized="Página siguiente"/>
+    <moqui.basic.LocalizedMessage original="No blockers." locale="es" localized="No hay impedimentos."/>
+    <moqui.basic.LocalizedMessage original="No gRPC endpoint for the authority" locale="es" localized="No hay un extremo gRPC para la autoridad"/>
+    <moqui.basic.LocalizedMessage original="No invoices to show." locale="es" localized="No hay facturas para mostrar."/>
+    <moqui.basic.LocalizedMessage original="No items to display." locale="es" localized="No hay elementos para mostrar."/>
+    <moqui.basic.LocalizedMessage original="Notification views" locale="es" localized="Vistas de notificaciones"/>
+    <moqui.basic.LocalizedMessage original="Oldest waiting (hours)" locale="es" localized="Más antiguo en espera (horas)"/>
+    <moqui.basic.LocalizedMessage original="Online payment is not available for this invoice; pay as the invoice says." locale="es" localized="El pago en línea no está disponible para esta factura; pague como indica la factura."/>
+    <moqui.basic.LocalizedMessage original="Only what this email was about" locale="es" localized="Solo el tema de este correo"/>
+    <moqui.basic.LocalizedMessage original="Open the link in your invoice email  or" locale="es" localized="Abra el enlace del correo de su factura  o"/>
+    <moqui.basic.LocalizedMessage original="Open the link in your invoice email or &lt;a href=&quot;${loginHref}&quot;&gt;sign in&lt;/a&gt; to see the invoice." locale="es" localized="Abra el enlace del correo de su factura o &lt;a href=&quot;${loginHref}&quot;&gt;inicie sesión&lt;/a&gt; para ver la factura."/>
+    <moqui.basic.LocalizedMessage original="Open the link in your invoice email to see the invoice." locale="es" localized="Abra el enlace del correo de su factura para ver la factura."/>
+    <moqui.basic.LocalizedMessage original="Owner party" locale="es" localized="Participante propietario"/>
+    <moqui.basic.LocalizedMessage original="Participants in their own discussions" locale="es" localized="Participantes en sus propias discusiones"/>
+    <moqui.basic.LocalizedMessage original="Participants: ${view.participantsText}" locale="es" localized="Participantes: ${view.participantsText}"/>
+    <moqui.basic.LocalizedMessage original="Pay ${view.invoice.dueText}" locale="es" localized="Pagar ${view.invoice.dueText}"/>
+    <moqui.basic.LocalizedMessage original="Pay link" locale="es" localized="Enlace de pago"/>
+    <moqui.basic.LocalizedMessage original="Pay link created" locale="es" localized="Enlace de pago creado"/>
+    <moqui.basic.LocalizedMessage original="Payment received." locale="es" localized="Pago recibido."/>
+    <moqui.basic.LocalizedMessage original="Plugin data: ${view.importDetail.preflight.features.join(', ')}" locale="es" localized="Datos del complemento: ${view.importDetail.preflight.features.join(', ')}"/>
+    <moqui.basic.LocalizedMessage original="post" locale="es" localized="publicación"/>
+    <moqui.basic.LocalizedMessage original="Post ${item.ordinal}" locale="es" localized="Publicación ${item.ordinal}"/>
+    <moqui.basic.LocalizedMessage original="posts" locale="es" localized="publicaciones"/>
+    <moqui.basic.LocalizedMessage original="Posts here" locale="es" localized="Publicaciones aquí"/>
+    <moqui.basic.LocalizedMessage original="Posts: ${view.activity.privateConversations.posts}" locale="es" localized="Publicaciones: ${view.activity.privateConversations.posts}"/>
+    <moqui.basic.LocalizedMessage original="Private conversations" locale="es" localized="Conversaciones privadas"/>
+    <moqui.basic.LocalizedMessage original="Profile image" locale="es" localized="Imagen del perfil"/>
+    <moqui.basic.LocalizedMessage original="Profile revision" locale="es" localized="Revisión del perfil"/>
+    <moqui.basic.LocalizedMessage original="Profile visibility" locale="es" localized="Visibilidad del perfil"/>
+    <moqui.basic.LocalizedMessage original="Publication revision" locale="es" localized="Revisión de la publicación"/>
+    <moqui.basic.LocalizedMessage original="Publish a site page" locale="es" localized="Publicar una página del sitio"/>
+    <moqui.basic.LocalizedMessage original="Publish the previewed reply" locale="es" localized="Publicar la respuesta previsualizada"/>
+    <moqui.basic.LocalizedMessage original="Published version" locale="es" localized="Versión publicada"/>
+    <moqui.basic.LocalizedMessage original="Publishing wiki space for article drafts" locale="es" localized="Espacio wiki de publicación para borradores de artículos"/>
+    <moqui.basic.LocalizedMessage original="Reconciliation ${view.importDetail.reconciliation.revision}" locale="es" localized="Conciliación ${view.importDetail.reconciliation.revision}"/>
+    <moqui.basic.LocalizedMessage original="Registration is closed" locale="es" localized="El registro está cerrado"/>
+    <moqui.basic.LocalizedMessage original="Release a held message" locale="es" localized="Liberar un mensaje retenido"/>
+    <moqui.basic.LocalizedMessage original="Remote authority is not configured" locale="es" localized="La autoridad remota no está configurada"/>
+    <moqui.basic.LocalizedMessage original="Remote operation is unavailable" locale="es" localized="La operación remota no está disponible"/>
+    <moqui.basic.LocalizedMessage original="Reply from this case" locale="es" localized="Respuesta desde este caso"/>
+    <moqui.basic.LocalizedMessage original="Reported conversation context" locale="es" localized="Contexto de la conversación denunciada"/>
+    <moqui.basic.LocalizedMessage original="Resource not found" locale="es" localized="Recurso no encontrado"/>
+    <moqui.basic.LocalizedMessage original="Results appear after you vote  or when the poll closes" locale="es" localized="Los resultados aparecen después de votar  o cuando se cierra el sondeo"/>
+    <moqui.basic.LocalizedMessage original="Results appear after you vote or when the poll closes." locale="es" localized="Los resultados aparecen después de votar o cuando se cierra el sondeo."/>
+    <moqui.basic.LocalizedMessage original="Results appear after you vote." locale="es" localized="Los resultados aparecen después de votar."/>
+    <moqui.basic.LocalizedMessage original="Review category submissions" locale="es" localized="Revisar los envíos de la categoría"/>
+    <moqui.basic.LocalizedMessage original="Review decision" locale="es" localized="Decisión de la revisión"/>
+    <moqui.basic.LocalizedMessage original="Review items opened" locale="es" localized="Elementos de revisión abiertos"/>
+    <moqui.basic.LocalizedMessage original="Review queue" locale="es" localized="Cola de revisión"/>
+    <moqui.basic.LocalizedMessage original="Save delivery preferences" locale="es" localized="Guardar las preferencias de entrega"/>
+    <moqui.basic.LocalizedMessage original="Save registered hosts and mounts" locale="es" localized="Guardar los hosts y los montajes registrados"/>
+    <moqui.basic.LocalizedMessage original="Save registration policy" locale="es" localized="Guardar la política de registro"/>
+    <moqui.basic.LocalizedMessage original="Save site identity" locale="es" localized="Guardar la identidad del sitio"/>
+    <moqui.basic.LocalizedMessage original="Save your profile before uploading an avatar" locale="es" localized="Guarde su perfil antes de subir un avatar"/>
+    <moqui.basic.LocalizedMessage original="Scheduled:" locale="es" localized="Programado:"/>
+    <moqui.basic.LocalizedMessage original="Scheduled:  ${timer.action} at ${timer.dueAt}" locale="es" localized="Programado:  ${timer.action} a las ${timer.dueAt}"/>
+    <moqui.basic.LocalizedMessage original="Search my private messages instead" locale="es" localized="Buscar mis mensajes privados en su lugar"/>
+    <moqui.basic.LocalizedMessage original="Search the site" locale="es" localized="Buscar en el sitio"/>
+    <moqui.basic.LocalizedMessage original="Search topics" locale="es" localized="Buscar temas"/>
+    <moqui.basic.LocalizedMessage original="SecondFactor" locale="es" localized="Segundo factor"/>
+    <moqui.basic.LocalizedMessage original="Security action" locale="es" localized="Acción de seguridad"/>
+    <moqui.basic.LocalizedMessage original="Send a private message" locale="es" localized="Enviar un mensaje privado"/>
+    <moqui.basic.LocalizedMessage original="Send recovery instructions" locale="es" localized="Enviar las instrucciones de recuperación"/>
+    <moqui.basic.LocalizedMessage original="Send verification" locale="es" localized="Enviar la verificación"/>
+    <moqui.basic.LocalizedMessage original="Share it with the person who pays; it is shown once." locale="es" localized="Compártalo con quien paga; se muestra una sola vez."/>
+    <moqui.basic.LocalizedMessage original="Sign in again to do this: you have been signed in for a while." locale="es" localized="Inicie sesión de nuevo para hacerlo: lleva un tiempo con la sesión iniciada."/>
+    <moqui.basic.LocalizedMessage original="Sign in as a contact invited for your company to accept a quote of this amount." locale="es" localized="Inicie sesión como contacto invitado de su empresa para aceptar una cotización de este importe."/>
+    <moqui.basic.LocalizedMessage original="Sign in to continue." locale="es" localized="Inicie sesión para continuar."/>
+    <moqui.basic.LocalizedMessage original="Sign in to see the invoices of your organization, or open the link in an invoice email." locale="es" localized="Inicie sesión para ver las facturas de su organización, o abra el enlace de un correo de factura."/>
+    <moqui.basic.LocalizedMessage original="Sign in to write" locale="es" localized="Iniciar sesión para escribir"/>
+    <moqui.basic.LocalizedMessage original="Sign in with your provider" locale="es" localized="Iniciar sesión con su proveedor"/>
+    <moqui.basic.LocalizedMessage original="Sign-in handoff could not be completed" locale="es" localized="No se pudo completar el traspaso del inicio de sesión"/>
+    <moqui.basic.LocalizedMessage original="Site name" locale="es" localized="Nombre del sitio"/>
+    <moqui.basic.LocalizedMessage original="Site revision" locale="es" localized="Revisión del sitio"/>
+    <moqui.basic.LocalizedMessage original="Site settings path" locale="es" localized="Ruta de la configuración del sitio"/>
+    <moqui.basic.LocalizedMessage original="SiteDetail" locale="es" localized="Detalle del sitio"/>
+    <moqui.basic.LocalizedMessage original="Skip to content" locale="es" localized="Saltar al contenido"/>
+    <moqui.basic.LocalizedMessage original="Skip to discussion" locale="es" localized="Saltar a la discusión"/>
+    <moqui.basic.LocalizedMessage original="Slow mode: one reply every ${view.topic.slowIntervalSeconds} seconds per member." locale="es" localized="Modo lento: una respuesta cada ${view.topic.slowIntervalSeconds} segundos por miembro."/>
+    <moqui.basic.LocalizedMessage original="Something changed. Review the details and try again." locale="es" localized="Algo cambió. Revise los detalles e inténtelo de nuevo."/>
+    <moqui.basic.LocalizedMessage original="Staff actions" locale="es" localized="Acciones del personal"/>
+    <moqui.basic.LocalizedMessage original="Staff note · ${note.createdAt}" locale="es" localized="Nota del personal · ${note.createdAt}"/>
+    <moqui.basic.LocalizedMessage original="Staged rows" locale="es" localized="Filas preparadas"/>
+    <moqui.basic.LocalizedMessage original="Stop forum email" locale="es" localized="Detener el correo del foro"/>
+    <moqui.basic.LocalizedMessage original="subscription" locale="es" localized="suscripción"/>
+    <moqui.basic.LocalizedMessage original="Subscription resource" locale="es" localized="Recurso de suscripción"/>
+    <moqui.basic.LocalizedMessage original="Subscription resources" locale="es" localized="Recursos de suscripción"/>
+    <moqui.basic.LocalizedMessage original="Support case" locale="es" localized="Caso de soporte"/>
+    <moqui.basic.LocalizedMessage original="Tags:" locale="es" localized="Etiquetas:"/>
+    <moqui.basic.LocalizedMessage original="Tags: ${row.tags.join(', ')}" locale="es" localized="Etiquetas: ${row.tags.join(', ')}"/>
+    <moqui.basic.LocalizedMessage original="The authority could not complete this request" locale="es" localized="La autoridad no pudo completar esta solicitud"/>
+    <moqui.basic.LocalizedMessage original="The authority is local" locale="es" localized="La autoridad es local"/>
+    <moqui.basic.LocalizedMessage original="The payment did not complete." locale="es" localized="El pago no se completó."/>
+    <moqui.basic.LocalizedMessage original="The payment was declined." locale="es" localized="El pago fue rechazado."/>
+    <moqui.basic.LocalizedMessage original="The payment was declined. Choose another way to pay or try again." locale="es" localized="El pago fue rechazado. Elija otra forma de pago o inténtelo de nuevo."/>
+    <moqui.basic.LocalizedMessage original="The period has not ended; its last interval is incomplete." locale="es" localized="El periodo no ha terminado; su último intervalo está incompleto."/>
+    <moqui.basic.LocalizedMessage original="This changed since you opened it. Reload the page and try again." locale="es" localized="Esto cambió desde que lo abrió. Vuelva a cargar la página e inténtelo de nuevo."/>
+    <moqui.basic.LocalizedMessage original="This file changed since you opened it. Reload the page and try again." locale="es" localized="Este archivo cambió desde que lo abrió. Vuelva a cargar la página e inténtelo de nuevo."/>
+    <moqui.basic.LocalizedMessage original="This is not available right now. Try again later." locale="es" localized="Esto no está disponible en este momento. Inténtelo más tarde."/>
+    <moqui.basic.LocalizedMessage original="This is not available yet." locale="es" localized="Esto aún no está disponible."/>
+    <moqui.basic.LocalizedMessage original="This page is not available. The link may have expired or been replaced." locale="es" localized="Esta página no está disponible. El enlace puede haber caducado o haber sido reemplazado."/>
+    <moqui.basic.LocalizedMessage original="This price has expired. Review the new price and try again." locale="es" localized="Este precio ha caducado. Revise el precio nuevo e inténtelo de nuevo."/>
+    <moqui.basic.LocalizedMessage original="This repository is archived and cannot be changed." locale="es" localized="Este repositorio está archivado y no se puede cambiar."/>
+    <moqui.basic.LocalizedMessage original="This repository is hidden." locale="es" localized="Este repositorio está oculto."/>
+    <moqui.basic.LocalizedMessage original="to ${view.invoice.toName}" locale="es" localized="a ${view.invoice.toName}"/>
+    <moqui.basic.LocalizedMessage original="To accept," locale="es" localized="Para aceptar,"/>
+    <moqui.basic.LocalizedMessage original="To accept, &lt;a href=&quot;${loginHref}&quot;&gt;sign in&lt;/a&gt; with the invited address and accept on this page. An invitation to a mailing list then sends you every post of the list." locale="es" localized="Para aceptar, &lt;a href=&quot;${loginHref}&quot;&gt;inicie sesión&lt;/a&gt; con la dirección invitada y acepte en esta página. Una invitación a una lista de correo le envía después cada publicación de la lista."/>
+    <moqui.basic.LocalizedMessage original="To accept, &lt;a href=&quot;${loginHref}&quot;&gt;sign in&lt;/a&gt; with the invited address, or &lt;a href=&quot;${registerHref}&quot;&gt;register&lt;/a&gt; with it first, and accept on this page. An invitation to a mailing list then sends you every post of the list." locale="es" localized="Para aceptar, &lt;a href=&quot;${loginHref}&quot;&gt;inicie sesión&lt;/a&gt; con la dirección invitada, o &lt;a href=&quot;${registerHref}&quot;&gt;regístrese&lt;/a&gt; con ella primero, y acepte en esta página. Una invitación a una lista de correo le envía después cada publicación de la lista."/>
+    <moqui.basic.LocalizedMessage original="to see the invoice." locale="es" localized="para ver la factura."/>
+    <moqui.basic.LocalizedMessage original="Too many attempts. Wait a few minutes and try again." locale="es" localized="Demasiados intentos. Espere unos minutos e inténtelo de nuevo."/>
+    <moqui.basic.LocalizedMessage original="Top period" locale="es" localized="Periodo de lo más destacado"/>
+    <moqui.basic.LocalizedMessage original="Topic views" locale="es" localized="Vistas de temas"/>
+    <moqui.basic.LocalizedMessage original="Topics started" locale="es" localized="Temas iniciados"/>
+    <moqui.basic.LocalizedMessage original="Total ${row.totalText} ·" locale="es" localized="Suma total ${row.totalText} ·"/>
+    <moqui.basic.LocalizedMessage original="Unknown form action" locale="es" localized="Acción de formulario desconocida"/>
+    <moqui.basic.LocalizedMessage original="Unknown PASS screen" locale="es" localized="Pantalla PASS desconocida"/>
+    <moqui.basic.LocalizedMessage original="Unsupported operation or input" locale="es" localized="Operación o entrada no admitida"/>
+    <moqui.basic.LocalizedMessage original="Upload could not be completed" locale="es" localized="No se pudo completar la subida"/>
+    <moqui.basic.LocalizedMessage original="Upload exceeds the size limit" locale="es" localized="La subida supera el límite de tamaño"/>
+    <moqui.basic.LocalizedMessage original="Verification code" locale="es" localized="Código de verificación"/>
+    <moqui.basic.LocalizedMessage original="Verify address" locale="es" localized="Verificar la dirección"/>
+    <moqui.basic.LocalizedMessage original="Verify sign-in" locale="es" localized="Verificar el inicio de sesión"/>
+    <moqui.basic.LocalizedMessage original="voter" locale="es" localized="votante"/>
+    <moqui.basic.LocalizedMessage original="voters" locale="es" localized="votantes"/>
+    <moqui.basic.LocalizedMessage original="Waiting now" locale="es" localized="En espera ahora"/>
+    <moqui.basic.LocalizedMessage original="Waits until" locale="es" localized="Espera hasta"/>
+    <moqui.basic.LocalizedMessage original="Why it should be reconsidered" locale="es" localized="Por qué debe reconsiderarse"/>
+    <moqui.basic.LocalizedMessage original="Wiki post: eligible members may improve it" locale="es" localized="Publicación wiki: los miembros habilitados pueden mejorarla"/>
+    <moqui.basic.LocalizedMessage original="with it first," locale="es" localized="con ella primero,"/>
+    <moqui.basic.LocalizedMessage original="with the invited address , or" locale="es" localized="con la dirección invitada , o"/>
+    <moqui.basic.LocalizedMessage original="Write a topic or reply" locale="es" localized="Escribir un tema o una respuesta"/>
+    <moqui.basic.LocalizedMessage original="You can try again with another card." locale="es" localized="Puede intentarlo de nuevo con otra tarjeta."/>
+    <moqui.basic.LocalizedMessage original="You can try again." locale="es" localized="Puede intentarlo de nuevo."/>
+    <moqui.basic.LocalizedMessage original="You do not have access to this." locale="es" localized="No tiene acceso a esto."/>
+    <moqui.basic.LocalizedMessage original="Your change was saved." locale="es" localized="Su cambio se guardó."/>
+    <moqui.basic.LocalizedMessage original="Your drafts" locale="es" localized="Sus borradores"/>
+    <moqui.basic.LocalizedMessage original="Your payment is not confirmed yet." locale="es" localized="Su pago aún no está confirmado."/>
+    <moqui.basic.LocalizedMessage original="Your payment of ${attempt.amountText} is not confirmed yet." locale="es" localized="Su pago de ${attempt.amountText} aún no está confirmado."/>
+    <moqui.basic.LocalizedMessage original="Your purchases" locale="es" localized="Sus compras"/>
+    <moqui.basic.LocalizedMessage original="Your sites" locale="es" localized="Sus sitios"/>
+    <moqui.basic.LocalizedMessage original="· ${file.kind} · until ${file.expiresAt} · SHA-256 ${file.checksum}" locale="es" localized="· ${file.kind} · hasta ${file.expiresAt} · SHA-256 ${file.checksum}"/>
+    <moqui.basic.LocalizedMessage original="· by a member" locale="es" localized="· por un miembro"/>
+    <moqui.basic.LocalizedMessage original="· closed" locale="es" localized="· cerrado"/>
+    <moqui.basic.LocalizedMessage original="· not public" locale="es" localized="· no público"/>
+    <moqui.basic.LocalizedMessage original="· solved" locale="es" localized="· resuelto"/>
+    <moqui.basic.LocalizedMessage original="· until ${thruDate}" locale="es" localized="· hasta ${thruDate}"/>
+</entity-facade-xml>

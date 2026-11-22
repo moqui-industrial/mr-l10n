@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+
+<entity-facade-xml type="zh">
+    <moqui.basic.LocalizedMessage original="${count} approvers" locale="zh" localized="${count} 名审批人"/>
+    <moqui.basic.LocalizedMessage original="${count} categories" locale="zh" localized="${count} 个类别"/>
+    <moqui.basic.LocalizedMessage original="${count} published" locale="zh" localized="${count} 个已发布"/>
+    <moqui.basic.LocalizedMessage original="${count} purposes" locale="zh" localized="${count} 个用途"/>
+    <moqui.basic.LocalizedMessage original="${count} response rules in effect" locale="zh" localized="${count} 条响应规则生效中"/>
+    <moqui.basic.LocalizedMessage original="${count} steps in effect" locale="zh" localized="${count} 个步骤生效中"/>
+    <moqui.basic.LocalizedMessage original="${days} day" locale="zh" localized="${days} 天"/>
+    <moqui.basic.LocalizedMessage original="${days} days" locale="zh" localized="${days} 天"/>
+    <moqui.basic.LocalizedMessage original="Accounting's defaults (no policy set)" locale="zh" localized="会计的默认值（未设置策略）"/>
+    <moqui.basic.LocalizedMessage original="Acknowledged revision" locale="zh" localized="已确认的修订"/>
+    <moqui.basic.LocalizedMessage original="Acknowledgements are not available" locale="zh" localized="确认不可用"/>
+    <moqui.basic.LocalizedMessage original="Agreements are not available" locale="zh" localized="协议不可用"/>
+    <moqui.basic.LocalizedMessage original="All methods" locale="zh" localized="全部方法"/>
+    <moqui.basic.LocalizedMessage original="All sent" locale="zh" localized="全部已发送"/>
+    <moqui.basic.LocalizedMessage original="Another approver than the earlier steps'" locale="zh" localized="不同于先前步骤的另一名审批人"/>
+    <moqui.basic.LocalizedMessage original="Any purchase approver" locale="zh" localized="任意采购审批人"/>
+    <moqui.basic.LocalizedMessage original="Approval step ended" locale="zh" localized="审批步骤已结束"/>
+    <moqui.basic.LocalizedMessage original="Approval step saved" locale="zh" localized="审批步骤已保存"/>
+    <moqui.basic.LocalizedMessage original="Approved, not paid" locale="zh" localized="已批准，未付款"/>
+    <moqui.basic.LocalizedMessage original="At purchase order" locale="zh" localized="在采购订单"/>
+    <moqui.basic.LocalizedMessage original="Awaiting credit or replacement" locale="zh" localized="等待贷项或更换"/>
+    <moqui.basic.LocalizedMessage original="Awaiting the supplier" locale="zh" localized="等待供应商"/>
+    <moqui.basic.LocalizedMessage original="Bill ${imported.invoiceId} taken in for review" locale="zh" localized="账单 ${imported.invoiceId} 已接收待审"/>
+    <moqui.basic.LocalizedMessage original="Bill ${row.invoiceId}: ${row.resultText}" locale="zh" localized="账单 ${row.invoiceId}：${row.resultText}"/>
+    <moqui.basic.LocalizedMessage original="Bill amounts are withheld." locale="zh" localized="账单金额已隐藏。"/>
+    <moqui.basic.LocalizedMessage original="Bill matching" locale="zh" localized="账单匹配"/>
+    <moqui.basic.LocalizedMessage original="Billed unit price" locale="zh" localized="账单单价"/>
+    <moqui.basic.LocalizedMessage original="Billed, not received" locale="zh" localized="已开账单，未收货"/>
+    <moqui.basic.LocalizedMessage original="Bills not yet received for review (Incoming) are left out." locale="zh" localized="尚未进入审核的账单（Incoming）不包括在内。"/>
+    <moqui.basic.LocalizedMessage original="Budget control" locale="zh" localized="预算控制"/>
+    <moqui.basic.LocalizedMessage original="Built-in defaults" locale="zh" localized="内置默认值"/>
+    <moqui.basic.LocalizedMessage original="Buyer: correct the source or the bill" locale="zh" localized="采购员：更正来源或账单"/>
+    <moqui.basic.LocalizedMessage original="Buyer: record the acceptance" locale="zh" localized="采购员：记录验收"/>
+    <moqui.basic.LocalizedMessage original="Buying defaults and purchase controls, among them the approval gate" locale="zh" localized="采购默认值和采购控制，其中包括审批关口"/>
+    <moqui.basic.LocalizedMessage original="Buying policy saved" locale="zh" localized="采购策略已保存"/>
+    <moqui.basic.LocalizedMessage original="Changed promise" locale="zh" localized="承诺已变更"/>
+    <moqui.basic.LocalizedMessage original="Changed since sent" locale="zh" localized="发送后已变更"/>
+    <moqui.basic.LocalizedMessage original="Chase the acknowledgement" locale="zh" localized="跟进确认"/>
+    <moqui.basic.LocalizedMessage original="Chase the quotes" locale="zh" localized="跟进报价"/>
+    <moqui.basic.LocalizedMessage original="Choose a supplier" locale="zh" localized="选择供应商"/>
+    <moqui.basic.LocalizedMessage original="Choose an existing responsible party" locale="zh" localized="请选择一个现有的负责参与方"/>
+    <moqui.basic.LocalizedMessage original="Choose another purpose as the parent" locale="zh" localized="请另选一个用途作为上级"/>
+    <moqui.basic.LocalizedMessage original="Choose another supplier category as the parent" locale="zh" localized="请另选一个供应商类别作为上级"/>
+    <moqui.basic.LocalizedMessage original="Choose approve or close" locale="zh" localized="请选择批准或关闭"/>
+    <moqui.basic.LocalizedMessage original="Choose at least one supplier" locale="zh" localized="请至少选择一个供应商"/>
+    <moqui.basic.LocalizedMessage original="Commitment amounts are withheld: they need financial read." locale="zh" localized="承诺金额已隐藏：需要财务读取权限。"/>
+    <moqui.basic.LocalizedMessage original="Created agreement ${agreementId} from the template" locale="zh" localized="已根据模板创建协议 ${agreementId}"/>
+    <moqui.basic.LocalizedMessage original="Created agreement ${agreementId}: add its items, then send it for approval" locale="zh" localized="已创建协议 ${agreementId}：添加其项目并送审"/>
+    <moqui.basic.LocalizedMessage original="Created supplier return ${returnId}: add what else goes back, then authorize it" locale="zh" localized="已创建供应商退货 ${returnId}：添加其余退回的部分，然后授权"/>
+    <moqui.basic.LocalizedMessage original="Declined by the supplier" locale="zh" localized="已被供应商拒绝"/>
+    <moqui.basic.LocalizedMessage original="Draft and awaiting approval" locale="zh" localized="草稿并等待审批"/>
+    <moqui.basic.LocalizedMessage original="Drop-ship, delivery pending" locale="zh" localized="直运，交付待定"/>
+    <moqui.basic.LocalizedMessage original="Enter a quantity of zero or more" locale="zh" localized="请输入零或更大的数量"/>
+    <moqui.basic.LocalizedMessage original="Evaluated ${evaluated.evaluatedCount} suppliers" locale="zh" localized="已评估 ${evaluated.evaluatedCount} 个供应商"/>
+    <moqui.basic.LocalizedMessage original="Exhausted" locale="zh" localized="已耗尽"/>
+    <moqui.basic.LocalizedMessage original="Expired, closed and cancelled" locale="zh" localized="已过期、已关闭和已取消"/>
+    <moqui.basic.LocalizedMessage original="Expiring in 30 days" locale="zh" localized="30 天内到期"/>
+    <moqui.basic.LocalizedMessage original="Finance releases the hold" locale="zh" localized="财务发放暂挂"/>
+    <moqui.basic.LocalizedMessage original="Give a reason for closing the remainders" locale="zh" localized="请说明关闭剩余部分的原因"/>
+    <moqui.basic.LocalizedMessage original="Give the category a name" locale="zh" localized="请为类别命名"/>
+    <moqui.basic.LocalizedMessage original="Give the purpose a name" locale="zh" localized="请为用途命名"/>
+    <moqui.basic.LocalizedMessage original="Good for ${days} days" locale="zh" localized="有效期 ${days} 天"/>
+    <moqui.basic.LocalizedMessage original="How suppliers are evaluated: the period, minimum sample, measures and the response to a low score or a risk" locale="zh" localized="如何评估供应商：期间、最小样本、指标，以及对低分或风险的响应"/>
+    <moqui.basic.LocalizedMessage original="INVOICE_MATCH is required" locale="zh" localized="需要 INVOICE_MATCH"/>
+    <moqui.basic.LocalizedMessage original="Landed costs are not in these amounts until Accounting allocates them." locale="zh" localized="在会计分摊之前，这些金额不含到岸成本。"/>
+    <moqui.basic.LocalizedMessage original="Later than required" locale="zh" localized="晚于要求"/>
+    <moqui.basic.LocalizedMessage original="Levels of ${result.productId} applied" locale="zh" localized="已应用 ${result.productId} 的库存水平"/>
+    <moqui.basic.LocalizedMessage original="Line ${seq} ${what}" locale="zh" localized="行 ${seq} ${what}"/>
+    <moqui.basic.LocalizedMessage original="Match exceptions are not available" locale="zh" localized="匹配例外不可用"/>
+    <moqui.basic.LocalizedMessage original="Match policy" locale="zh" localized="匹配策略"/>
+    <moqui.basic.LocalizedMessage original="Match variances" locale="zh" localized="匹配差异"/>
+    <moqui.basic.LocalizedMessage original="Measure saved" locale="zh" localized="指标已保存"/>
+    <moqui.basic.LocalizedMessage original="Needs purchasing settings access, which an administrator can grant." locale="zh" localized="需要采购设置权限，管理员可以授予。"/>
+    <moqui.basic.LocalizedMessage original="Needs supplier profile editing access, which an administrator can grant." locale="zh" localized="需要供应商档案编辑权限，管理员可以授予。"/>
+    <moqui.basic.LocalizedMessage original="Needs supplier scorecard editing access, which an administrator can grant." locale="zh" localized="需要供应商评分卡编辑权限，管理员可以授予。"/>
+    <moqui.basic.LocalizedMessage original="No expected receipt" locale="zh" localized="没有预期收货"/>
+    <moqui.basic.LocalizedMessage original="No part of this quote is awarded." locale="zh" localized="此报价没有任何部分已授标。"/>
+    <moqui.basic.LocalizedMessage original="No self-approval" locale="zh" localized="不允许自行审批"/>
+    <moqui.basic.LocalizedMessage original="No shipment" locale="zh" localized="无发货单"/>
+    <moqui.basic.LocalizedMessage original="No value cap" locale="zh" localized="无金额上限"/>
+    <moqui.basic.LocalizedMessage original="Not a product line" locale="zh" localized="不是产品行"/>
+    <moqui.basic.LocalizedMessage original="Not acknowledged yet" locale="zh" localized="尚未确认"/>
+    <moqui.basic.LocalizedMessage original="Not authorized yet" locale="zh" localized="尚未授权"/>
+    <moqui.basic.LocalizedMessage original="Not awarded" locale="zh" localized="未中标"/>
+    <moqui.basic.LocalizedMessage original="Not awarded yet" locale="zh" localized="尚未授标"/>
+    <moqui.basic.LocalizedMessage original="Not controlled" locale="zh" localized="未控制"/>
+    <moqui.basic.LocalizedMessage original="Not evaluated: ${failedText}" locale="zh" localized="未评估：${failedText}"/>
+    <moqui.basic.LocalizedMessage original="Not matched" locale="zh" localized="未匹配"/>
+    <moqui.basic.LocalizedMessage original="Not ordered yet" locale="zh" localized="尚未订购"/>
+    <moqui.basic.LocalizedMessage original="Not quoted" locale="zh" localized="未报价"/>
+    <moqui.basic.LocalizedMessage original="Not recalculated: ${evaluated.resultRows[0].errorText}" locale="zh" localized="未重新计算：${evaluated.resultRows[0].errorText}"/>
+    <moqui.basic.LocalizedMessage original="Not received" locale="zh" localized="未收货"/>
+    <moqui.basic.LocalizedMessage original="Nothing credited yet" locale="zh" localized="尚未贷记"/>
+    <moqui.basic.LocalizedMessage original="Nothing received" locale="zh" localized="没有收货"/>
+    <moqui.basic.LocalizedMessage original="Nothing unpaid" locale="zh" localized="没有未付款"/>
+    <moqui.basic.LocalizedMessage original="On-time delivery" locale="zh" localized="准时交付"/>
+    <moqui.basic.LocalizedMessage original="Only 1000 quotes of the period are read." locale="zh" localized="本期只读取 1000 条报价。"/>
+    <moqui.basic.LocalizedMessage original="Only 200 requests and 200 orders of the period are traced." locale="zh" localized="本期只跟踪 200 个请求和 200 张订单。"/>
+    <moqui.basic.LocalizedMessage original="Only the newest ${count} quotes were read; narrow the filters" locale="zh" localized="只读取了最新的 ${count} 条报价；请缩小筛选范围"/>
+    <moqui.basic.LocalizedMessage original="Only the newest ${count} RFQs were read; narrow the filters" locale="zh" localized="只读取了最新的 ${count} 个 RFQ；请缩小筛选范围"/>
+    <moqui.basic.LocalizedMessage original="Ordered quantity" locale="zh" localized="订购数量"/>
+    <moqui.basic.LocalizedMessage original="Ordered unit price" locale="zh" localized="订单单价"/>
+    <moqui.basic.LocalizedMessage original="Organization is not available" locale="zh" localized="组织不可用"/>
+    <moqui.basic.LocalizedMessage original="Partly paid" locale="zh" localized="部分付款"/>
+    <moqui.basic.LocalizedMessage original="Partly received" locale="zh" localized="部分收货"/>
+    <moqui.basic.LocalizedMessage original="Payments are not by product: paid is left out." locale="zh" localized="付款不按产品：已付部分不包括在内。"/>
+    <moqui.basic.LocalizedMessage original="Payments are withheld: they need finance read." locale="zh" localized="付款已隐藏：需要财务读取权限。"/>
+    <moqui.basic.LocalizedMessage original="Prices are withheld: they are supplier prices." locale="zh" localized="价格已隐藏：它们是供应商价格。"/>
+    <moqui.basic.LocalizedMessage original="Purchase commitments" locale="zh" localized="采购承诺"/>
+    <moqui.basic.LocalizedMessage original="Purchase orders are not available" locale="zh" localized="采购订单不可用"/>
+    <moqui.basic.LocalizedMessage original="Purchase spend" locale="zh" localized="采购支出"/>
+    <moqui.basic.LocalizedMessage original="PURCHASE_POLICY_EDIT is required" locale="zh" localized="需要 PURCHASE_POLICY_EDIT"/>
+    <moqui.basic.LocalizedMessage original="Purchasing context is not available" locale="zh" localized="采购上下文不可用"/>
+    <moqui.basic.LocalizedMessage original="Purchasing is not available" locale="zh" localized="采购不可用"/>
+    <moqui.basic.LocalizedMessage original="Purchasing reports are not available" locale="zh" localized="采购报表不可用"/>
+    <moqui.basic.LocalizedMessage original="Purchasing settings are not available" locale="zh" localized="采购设置不可用"/>
+    <moqui.basic.LocalizedMessage original="Quality acceptance" locale="zh" localized="质量验收"/>
+    <moqui.basic.LocalizedMessage original="Quantity ${quantity}%, price ${price}%" locale="zh" localized="数量 ${quantity}%，单价 ${price}%"/>
+    <moqui.basic.LocalizedMessage original="Quoted unit price" locale="zh" localized="报价单价"/>
+    <moqui.basic.LocalizedMessage original="Reading needed" locale="zh" localized="需要读数"/>
+    <moqui.basic.LocalizedMessage original="Recalculated as a new evaluation; the earlier one stays" locale="zh" localized="已作为新评估重新计算；先前的评估保留"/>
+    <moqui.basic.LocalizedMessage original="Received, not billed" locale="zh" localized="已收货，未开账单"/>
+    <moqui.basic.LocalizedMessage original="Receiving is not available" locale="zh" localized="收货不可用"/>
+    <moqui.basic.LocalizedMessage original="RECORD_UNAVAILABLE: The organization is not available" locale="zh" localized="RECORD_UNAVAILABLE：组织不可用"/>
+    <moqui.basic.LocalizedMessage original="Release of the hold on bill ${hold.invoiceId} asked for; finance decides it" locale="zh" localized="已请求发放账单 ${hold.invoiceId} 的暂挂；由财务决定"/>
+    <moqui.basic.LocalizedMessage original="Replenishment is not available" locale="zh" localized="补充不可用"/>
+    <moqui.basic.LocalizedMessage original="Request purpose saved" locale="zh" localized="请求用途已保存"/>
+    <moqui.basic.LocalizedMessage original="Response rule saved" locale="zh" localized="响应规则已保存"/>
+    <moqui.basic.LocalizedMessage original="Responses due" locale="zh" localized="答复到期"/>
+    <moqui.basic.LocalizedMessage original="Revision ${acknowledged} was acknowledged; revision ${revision} is not yet" locale="zh" localized="修订 ${acknowledged} 已确认；修订 ${revision} 尚未确认"/>
+    <moqui.basic.LocalizedMessage original="Revision ${applied.orderRevision} applied; it waits for its approval" locale="zh" localized="修订 ${applied.orderRevision} 已应用；等待审批"/>
+    <moqui.basic.LocalizedMessage original="Revision ${revision} acknowledged: ${outcome}" locale="zh" localized="修订 ${revision} 已确认：${outcome}"/>
+    <moqui.basic.LocalizedMessage original="RFQs and quotes are not available" locale="zh" localized="RFQ 和报价不可用"/>
+    <moqui.basic.LocalizedMessage original="Saved quote ${orderId}" locale="zh" localized="已保存报价 ${orderId}"/>
+    <moqui.basic.LocalizedMessage original="Saved RFQ ${requestId}" locale="zh" localized="已保存 RFQ ${requestId}"/>
+    <moqui.basic.LocalizedMessage original="Saved the freight estimate of quote ${orderId}" locale="zh" localized="已保存报价 ${orderId} 的运费估算"/>
+    <moqui.basic.LocalizedMessage original="Saved the items of RFQ ${requestId}" locale="zh" localized="已保存 RFQ ${requestId} 的项目"/>
+    <moqui.basic.LocalizedMessage original="Saved the line of quote ${orderId}" locale="zh" localized="已保存报价 ${orderId} 的行"/>
+    <moqui.basic.LocalizedMessage original="Scorecard policy saved" locale="zh" localized="评分卡策略已保存"/>
+    <moqui.basic.LocalizedMessage original="Select between one and 100 bills" locale="zh" localized="请选择 1 到 100 张账单"/>
+    <moqui.basic.LocalizedMessage original="Select between one and 100 purchase orders" locale="zh" localized="请选择 1 到 100 张采购订单"/>
+    <moqui.basic.LocalizedMessage original="Self-approval allowed" locale="zh" localized="允许自行审批"/>
+    <moqui.basic.LocalizedMessage original="Self-billing default" locale="zh" localized="自开票默认值"/>
+    <moqui.basic.LocalizedMessage original="Sent for approval (${submitted.pendingStepText})" locale="zh" localized="已送审（${submitted.pendingStepText}）"/>
+    <moqui.basic.LocalizedMessage original="Shared with every organization" locale="zh" localized="与所有组织共享"/>
+    <moqui.basic.LocalizedMessage original="Since ${date}" locale="zh" localized="自 ${date}"/>
+    <moqui.basic.LocalizedMessage original="Source the request" locale="zh" localized="寻源该请求"/>
+    <moqui.basic.LocalizedMessage original="Substitute accepted" locale="zh" localized="已接受替代"/>
+    <moqui.basic.LocalizedMessage original="Supplier bill" locale="zh" localized="账单"/>
+    <moqui.basic.LocalizedMessage original="Supplier bills are not available" locale="zh" localized="供应商账单不可用"/>
+    <moqui.basic.LocalizedMessage original="Supplier category saved" locale="zh" localized="供应商类别已保存"/>
+    <moqui.basic.LocalizedMessage original="Supplier created" locale="zh" localized="供应商已创建"/>
+    <moqui.basic.LocalizedMessage original="Supplier is not available" locale="zh" localized="供应商不可用"/>
+    <moqui.basic.LocalizedMessage original="Supplier quote" locale="zh" localized="供应商报价"/>
+    <moqui.basic.LocalizedMessage original="Supplier returns are not available" locale="zh" localized="供应商退货不可用"/>
+    <moqui.basic.LocalizedMessage original="Supplier risk saved" locale="zh" localized="供应商风险已保存"/>
+    <moqui.basic.LocalizedMessage original="Supplier: send the bill" locale="zh" localized="供应商：发送账单"/>
+    <moqui.basic.LocalizedMessage original="SUPPLIER_PROFILE_EDIT is required" locale="zh" localized="需要 SUPPLIER_PROFILE_EDIT"/>
+    <moqui.basic.LocalizedMessage original="Term saved" locale="zh" localized="条款已保存"/>
+    <moqui.basic.LocalizedMessage original="The categories buyers group suppliers by" locale="zh" localized="采购员用来对供应商分组的类别"/>
+    <moqui.basic.LocalizedMessage original="The change is let go; the order is no longer held for it" locale="zh" localized="已放弃该变更；订单不再因此暂挂"/>
+    <moqui.basic.LocalizedMessage original="The checks a purchase receipt is inspected against before its stock is released" locale="zh" localized="采购收货在发放库存之前要对照检验的项目"/>
+    <moqui.basic.LocalizedMessage original="The organization is not available" locale="zh" localized="组织不可用"/>
+    <moqui.basic.LocalizedMessage original="The purposes a purchase request is filed under, with who handles them" locale="zh" localized="采购请求归属的用途，以及由谁处理"/>
+    <moqui.basic.LocalizedMessage original="The supplier list is not available" locale="zh" localized="供应商列表不可用"/>
+    <moqui.basic.LocalizedMessage original="The supplier statement needs finance read" locale="zh" localized="供应商对账单需要财务读取权限"/>
+    <moqui.basic.LocalizedMessage original="To authorize" locale="zh" localized="待授权"/>
+    <moqui.basic.LocalizedMessage original="To dispatch" locale="zh" localized="待发运"/>
+    <moqui.basic.LocalizedMessage original="Unacknowledged" locale="zh" localized="未确认"/>
+    <moqui.basic.LocalizedMessage original="Warehouse's default" locale="zh" localized="仓库的默认值"/>
+    <moqui.basic.LocalizedMessage original="Warehouse: receive or correct the receipt" locale="zh" localized="仓库：收货或更正收货"/>
+    <moqui.basic.LocalizedMessage original="Who approves purchase orders and suppliers, in which steps, by amount" locale="zh" localized="谁按金额、分步骤审批采购订单和供应商"/>
+</entity-facade-xml>

@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+
+<entity-facade-xml type="es">
+    <moqui.basic.LocalizedMessage original="${count} administrator has no second sign-in factor" locale="es" localized="${count} administrador no tiene un segundo factor de inicio de sesión"/>
+    <moqui.basic.LocalizedMessage original="${count} administrators have no second sign-in factor" locale="es" localized="${count} administradores no tienen un segundo factor de inicio de sesión"/>
+    <moqui.basic.LocalizedMessage original="${count} Constitution source was passed over" locale="es" localized="Se omitió ${count} origen de la Constitución"/>
+    <moqui.basic.LocalizedMessage original="${count} Constitution sources were passed over" locale="es" localized="Se omitieron ${count} orígenes de la Constitución"/>
+    <moqui.basic.LocalizedMessage original="${count} days" locale="es" localized="${count} días"/>
+    <moqui.basic.LocalizedMessage original="${count} hours" locale="es" localized="${count} horas"/>
+    <moqui.basic.LocalizedMessage original="${count} job run failed in the last day: ${jobs}" locale="es" localized="${count} ejecución de trabajo falló en el último día: ${jobs}"/>
+    <moqui.basic.LocalizedMessage original="${count} job runs failed in the last day: ${jobs}" locale="es" localized="${count} ejecuciones de trabajos fallaron en el último día: ${jobs}"/>
+    <moqui.basic.LocalizedMessage original="${count} job runs failed in the last day: ${jobs} and ${more} more" locale="es" localized="${count} ejecuciones de trabajos fallaron en el último día: ${jobs} y ${more} más"/>
+    <moqui.basic.LocalizedMessage original="${count} minute" locale="es" localized="${count} minuto"/>
+    <moqui.basic.LocalizedMessage original="${count} minutes" locale="es" localized="${count} minutos"/>
+    <moqui.basic.LocalizedMessage original="${count} protocol is running" locale="es" localized="${count} protocolo está en ejecución"/>
+    <moqui.basic.LocalizedMessage original="${count} protocols are running" locale="es" localized="${count} protocolos están en ejecución"/>
+    <moqui.basic.LocalizedMessage original="${place} did not take the test page" locale="es" localized="${place} no aceptó la página de prueba"/>
+    <moqui.basic.LocalizedMessage original="${place} has no printer of that name" locale="es" localized="${place} no tiene una impresora con ese nombre"/>
+    <moqui.basic.LocalizedMessage original="${place} took the test page" locale="es" localized="${place} aceptó la página de prueba"/>
+    <moqui.basic.LocalizedMessage original="${place} took the test page (job ${jobId})" locale="es" localized="${place} aceptó la página de prueba (trabajo ${jobId})"/>
+    <moqui.basic.LocalizedMessage original="${silent} of ${members} cluster members have not been heard from for three minutes" locale="es" localized="${silent} de ${members} miembros del clúster no han dado señales durante tres minutos"/>
+    <moqui.basic.LocalizedMessage original="${title} could not be checked" locale="es" localized="No se pudo comprobar ${title}"/>
+    <moqui.basic.LocalizedMessage original="A backup is running: a second one is not started beside it" locale="es" localized="Hay una copia de seguridad en curso: no se inicia otra a su lado"/>
+    <moqui.basic.LocalizedMessage original="A backup run is started outside a transaction" locale="es" localized="Una ejecución de copia de seguridad se inicia fuera de una transacción"/>
+    <moqui.basic.LocalizedMessage original="A backup was started. Its outcome shows here when it ends." locale="es" localized="Se inició una copia de seguridad. Su resultado se muestra aquí cuando termina."/>
+    <moqui.basic.LocalizedMessage original="A binding is account or instance" locale="es" localized="Una vinculación es account o instance"/>
+    <moqui.basic.LocalizedMessage original="A choice is Y, N or default" locale="es" localized="Una opción es Y, N o default"/>
+    <moqui.basic.LocalizedMessage original="A connection of this kind is not started here" locale="es" localized="Una conexión de este tipo no se inicia aquí"/>
+    <moqui.basic.LocalizedMessage original="A database or a search server this process does not run itself is backed up by its own provider, not here." locale="es" localized="Una base de datos o un servidor de búsqueda que este proceso no ejecuta se respalda en su propio proveedor, no aquí."/>
+    <moqui.basic.LocalizedMessage original="A date is not a date" locale="es" localized="Una fecha no es una fecha"/>
+    <moqui.basic.LocalizedMessage original="A default is for a field of this import" locale="es" localized="Un valor predeterminado es para un campo de esta importación"/>
+    <moqui.basic.LocalizedMessage original="A link, a path or a link type is not translated here" locale="es" localized="Un enlace, una ruta o un tipo de enlace no se traduce aquí"/>
+    <moqui.basic.LocalizedMessage original="A locale is like es or pt_BR" locale="es" localized="Una configuración regional es como es o pt_BR"/>
+    <moqui.basic.LocalizedMessage original="A mapped group is not available" locale="es" localized="Un grupo mapeado no está disponible"/>
+    <moqui.basic.LocalizedMessage original="A membership ends now or later" locale="es" localized="Una membresía termina ahora o más tarde"/>
+    <moqui.basic.LocalizedMessage original="A message type has a name" locale="es" localized="Un tipo de mensaje tiene un nombre"/>
+    <moqui.basic.LocalizedMessage original="A new membership starts now or later" locale="es" localized="Una membresía nueva empieza ahora o más tarde"/>
+    <moqui.basic.LocalizedMessage original="A preference value is at most 4000 characters" locale="es" localized="Un valor de preferencia tiene como máximo 4000 caracteres"/>
+    <moqui.basic.LocalizedMessage original="A printer's id is up to 40 letters, digits or underscores" locale="es" localized="El id de una impresora tiene hasta 40 letras, dígitos o guiones bajos"/>
+    <moqui.basic.LocalizedMessage original="A proposal's memberships start now or later" locale="es" localized="Las membresías de una propuesta empiezan ahora o más tarde"/>
+    <moqui.basic.LocalizedMessage original="A provider id is 3 to 40 letters, digits or underscores, starting with a letter" locale="es" localized="El id de un proveedor tiene de 3 a 40 letras, dígitos o guiones bajos, y empieza por una letra"/>
+    <moqui.basic.LocalizedMessage original="A quoted cell is not closed" locale="es" localized="Una celda entre comillas no está cerrada"/>
+    <moqui.basic.LocalizedMessage original="A recipient is added, muted or removed" locale="es" localized="Un destinatario se agrega, se silencia o se quita"/>
+    <moqui.basic.LocalizedMessage original="A relay that signs in needs TLS: choose TLS from the start or STARTTLS" locale="es" localized="Una retransmisión que inicia sesión necesita TLS: elija TLS desde el inicio o STARTTLS"/>
+    <moqui.basic.LocalizedMessage original="A relay's id is 3 to 40 letters, digits or underscores, starting with a letter" locale="es" localized="El id de una retransmisión tiene de 3 a 40 letras, dígitos o guiones bajos, y empieza por una letra"/>
+    <moqui.basic.LocalizedMessage original="A remote's id is 3 to 40 letters, digits or underscores, starting with a letter" locale="es" localized="El id de un remoto tiene de 3 a 40 letras, dígitos o guiones bajos, y empieza por una letra"/>
+    <moqui.basic.LocalizedMessage original="A resolution is delivered, notDelivered or abandon" locale="es" localized="Una resolución es delivered, notDelivered o abandon"/>
+    <moqui.basic.LocalizedMessage original="A retry of this message began and its result was not recorded" locale="es" localized="Empezó un reintento de este mensaje y su resultado no quedó registrado"/>
+    <moqui.basic.LocalizedMessage original="A role mapping names a remote role and a group" locale="es" localized="Una asignación de rol nombra un rol remoto y un grupo"/>
+    <moqui.basic.LocalizedMessage original="A row rule names the artifact group it is bound to" locale="es" localized="Una regla de fila nombra el grupo de artefactos al que está ligada"/>
+    <moqui.basic.LocalizedMessage original="A run is required" locale="es" localized="Se requiere una ejecución"/>
+    <moqui.basic.LocalizedMessage original="A run was asked for already: the scheduler starts it at its next pass" locale="es" localized="Ya se pidió una ejecución: el programador la inicia en su siguiente paso"/>
+    <moqui.basic.LocalizedMessage original="A run was asked for: starts at the scheduler's next pass" locale="es" localized="Se pidió una ejecución: empieza en el siguiente paso del programador"/>
+    <moqui.basic.LocalizedMessage original="A schedule is not cleared: pause the job instead" locale="es" localized="No se borra una programación: póngalo en pausa en su lugar"/>
+    <moqui.basic.LocalizedMessage original="A send is under way." locale="es" localized="Hay un envío en curso."/>
+    <moqui.basic.LocalizedMessage original="A send of this message is under way" locale="es" localized="Hay un envío de este mensaje en curso"/>
+    <moqui.basic.LocalizedMessage original="A stored secret was cleared when the endpoint changed: enter it again, then test. Nothing was sent" locale="es" localized="Se borró un secreto guardado al cambiar el punto de conexión: introdúzcalo de nuevo y luego pruebe. No se envió nada"/>
+    <moqui.basic.LocalizedMessage original="A test message was sent to your own address" locale="es" localized="Se envió un mensaje de prueba a su propia dirección"/>
+    <moqui.basic.LocalizedMessage original="A value mapping is for a field of this import" locale="es" localized="Una asignación de valor es para un campo de esta importación"/>
+    <moqui.basic.LocalizedMessage original="Access and grants" locale="es" localized="Acceso y concesiones"/>
+    <moqui.basic.LocalizedMessage original="All outgoing" locale="es" localized="Todo lo saliente"/>
+    <moqui.basic.LocalizedMessage original="Allowed addresses are comma separated IPv4 patterns (numbers, * or ranges) or IPv6 addresses" locale="es" localized="Las direcciones permitidas son patrones IPv4 separados por comas (números, * o rangos) o direcciones IPv6"/>
+    <moqui.basic.LocalizedMessage original="Allowed IPs are comma separated IPv4 addresses (each part a number, * or a range like 0-31) or IPv6 addresses" locale="es" localized="Las IP permitidas son direcciones IPv4 separadas por comas (cada parte un número, * o un rango como 0-31) o direcciones IPv6"/>
+    <moqui.basic.LocalizedMessage original="Allowed recipient domains" locale="es" localized="Dominios de destinatario permitidos"/>
+    <moqui.basic.LocalizedMessage original="Already applied: it is not applied again" locale="es" localized="Ya aplicado: no se aplica de nuevo"/>
+    <moqui.basic.LocalizedMessage original="Already translated so" locale="es" localized="Ya está traducido así"/>
+    <moqui.basic.LocalizedMessage original="An embedded database and an external one" locale="es" localized="Una base de datos integrada y una externa"/>
+    <moqui.basic.LocalizedMessage original="An icon is a name of letters, digits, _ : and -" locale="es" localized="Un icono es un nombre de letras, dígitos, _ : y -"/>
+    <moqui.basic.LocalizedMessage original="An inbound flow is a remote system's, not a sign-in" locale="es" localized="Un flujo entrante es de un sistema remoto, no un inicio de sesión"/>
+    <moqui.basic.LocalizedMessage original="An inbound flow is a remote system's, not a sign-in: it is changed in Tools" locale="es" localized="Un flujo entrante es de un sistema remoto, no un inicio de sesión: se cambia en Herramientas"/>
+    <moqui.basic.LocalizedMessage original="An off-site mirror is set, and the last archive written was copied to it" locale="es" localized="Hay una réplica externa, y la última copia escrita se copió a ella"/>
+    <moqui.basic.LocalizedMessage original="An off-site mirror is set, and the last archive written was not copied to it" locale="es" localized="Hay una réplica externa, y la última copia escrita no se copió a ella"/>
+    <moqui.basic.LocalizedMessage original="An operation key is 1 to 64 letters, digits, dots, underscores, colons or hyphens" locale="es" localized="Una clave de operación tiene de 1 a 64 letras, dígitos, puntos, guiones bajos, dos puntos o guiones"/>
+    <moqui.basic.LocalizedMessage original="An owner of mail could not be asked whether this message is its own. Try again later." locale="es" localized="No se pudo preguntar a un propietario del correo si este mensaje es suyo. Inténtelo más tarde."/>
+    <moqui.basic.LocalizedMessage original="Archive written, with a failure after it" locale="es" localized="Copia escrita, con un fallo después"/>
+    <moqui.basic.LocalizedMessage original="As entered here" locale="es" localized="Como se indicó aquí"/>
+    <moqui.basic.LocalizedMessage original="At most 200 rows at a time" locale="es" localized="Como máximo 200 filas a la vez"/>
+    <moqui.basic.LocalizedMessage original="Backups are mirrored off the server" locale="es" localized="Las copias de seguridad se replican fuera del servidor"/>
+    <moqui.basic.LocalizedMessage original="Backups are not mirrored off the server" locale="es" localized="Las copias de seguridad no se replican fuera del servidor"/>
+    <moqui.basic.LocalizedMessage original="Being consumed" locale="es" localized="Consumiéndose"/>
+    <moqui.basic.LocalizedMessage original="Being sent" locale="es" localized="Enviándose"/>
+    <moqui.basic.LocalizedMessage original="CalDAV, CardDAV and WebDAV for desktop and phone apps, on the web address" locale="es" localized="CalDAV, CardDAV y WebDAV para aplicaciones de escritorio y de teléfono, en la dirección web"/>
+    <moqui.basic.LocalizedMessage original="Call media" locale="es" localized="Medios de la llamada"/>
+    <moqui.basic.LocalizedMessage original="Call relay" locale="es" localized="Retransmisión de la llamada"/>
+    <moqui.basic.LocalizedMessage original="calls/captions@enabled is not true" locale="es" localized="calls/captions@enabled no es true"/>
+    <moqui.basic.LocalizedMessage original="calls/recording@enabled is not true" locale="es" localized="calls/recording@enabled no es true"/>
+    <moqui.basic.LocalizedMessage original="Cancelled or rejected" locale="es" localized="Cancelado o rechazado"/>
+    <moqui.basic.LocalizedMessage original="Captions without a speech provider" locale="es" localized="Subtítulos sin un proveedor de voz"/>
+    <moqui.basic.LocalizedMessage original="Choose comma, semicolon or tab" locale="es" localized="Elija coma, punto y coma o tabulador"/>
+    <moqui.basic.LocalizedMessage original="Choose rows by their numbers" locale="es" localized="Elija las filas por sus números"/>
+    <moqui.basic.LocalizedMessage original="Choose the group's purpose" locale="es" localized="Elija el propósito del grupo"/>
+    <moqui.basic.LocalizedMessage original="Choose what to recover" locale="es" localized="Elija qué recuperar"/>
+    <moqui.basic.LocalizedMessage original="Client in use" locale="es" localized="Cliente en uso"/>
+    <moqui.basic.LocalizedMessage original="Confirm it is you: this change decides who signs in through the provider" locale="es" localized="Confirme que es usted: este cambio decide quién inicia sesión por el proveedor"/>
+    <moqui.basic.LocalizedMessage original="Confirm it is you: this change repoints the connection or replaces its credentials" locale="es" localized="Confirme que es usted: este cambio redirige la conexión o sustituye sus credenciales"/>
+    <moqui.basic.LocalizedMessage original="Confirm it is you: this connection carries the sign-in mail" locale="es" localized="Confirme que es usted: esta conexión lleva el correo de inicio de sesión"/>
+    <moqui.basic.LocalizedMessage original="Connection test" locale="es" localized="Prueba de conexión"/>
+    <moqui.basic.LocalizedMessage original="Deployed configuration or Tools" locale="es" localized="Configuración desplegada o Herramientas"/>
+    <moqui.basic.LocalizedMessage original="Deployment configuration" locale="es" localized="Configuración del despliegue"/>
+    <moqui.basic.LocalizedMessage original="Did not start: ${detail}" locale="es" localized="No arrancó: ${detail}"/>
+    <moqui.basic.LocalizedMessage original="Did not start: see the server's log" locale="es" localized="No arrancó: consulte el registro del servidor"/>
+    <moqui.basic.LocalizedMessage original="Disabled until a test passes" locale="es" localized="Desactivado hasta que una prueba sea correcta"/>
+    <moqui.basic.LocalizedMessage original="Documents sent to this printer" locale="es" localized="Documentos enviados a esta impresora"/>
+    <moqui.basic.LocalizedMessage original="Due: starts at the scheduler's next pass" locale="es" localized="Pendiente: empieza en el siguiente paso del programador"/>
+    <moqui.basic.LocalizedMessage original="Dump (one file)" locale="es" localized="Volcado (un archivo)"/>
+    <moqui.basic.LocalizedMessage original="Each field takes one column" locale="es" localized="Cada campo ocupa una columna"/>
+    <moqui.basic.LocalizedMessage original="Each grant names a permission, an artifact group or a bundle" locale="es" localized="Cada concesión nombra un permiso, un grupo de artefactos o un paquete"/>
+    <moqui.basic.LocalizedMessage original="Editing documents in an office suite over WOPI" locale="es" localized="Edición de documentos en una suite de oficina mediante WOPI"/>
+    <moqui.basic.LocalizedMessage original="Email templates" locale="es" localized="Plantillas de correo electrónico"/>
+    <moqui.basic.LocalizedMessage original="Embedded database backup" locale="es" localized="Copia de seguridad de la base de datos integrada"/>
+    <moqui.basic.LocalizedMessage original="Embedded database, run by this server" locale="es" localized="Base de datos integrada, ejecutada por este servidor"/>
+    <moqui.basic.LocalizedMessage original="Empty for the server's default printer" locale="es" localized="Vacío para la impresora predeterminada del servidor"/>
+    <moqui.basic.LocalizedMessage original="Enabled, not tested as it is configured now" locale="es" localized="Habilitado, no probado tal como está configurado ahora"/>
+    <moqui.basic.LocalizedMessage original="Enabled, not tested since its configuration changed" locale="es" localized="Habilitado, no probado desde que cambió su configuración"/>
+    <moqui.basic.LocalizedMessage original="Encrypted fields in an archive cannot be read without the key they were encrypted under, and the key is not in the archive." locale="es" localized="Los campos cifrados de una copia no se pueden leer sin la clave con la que se cifraron, y la clave no está en la copia."/>
+    <moqui.basic.LocalizedMessage original="End proposed" locale="es" localized="Terminación propuesta"/>
+    <moqui.basic.LocalizedMessage original="Ended without an error" locale="es" localized="Terminó sin error"/>
+    <moqui.basic.LocalizedMessage original="Ended without naming an archive" locale="es" localized="Terminó sin nombrar una copia"/>
+    <moqui.basic.LocalizedMessage original="Every ${every}" locale="es" localized="Cada ${every}"/>
+    <moqui.basic.LocalizedMessage original="Every administrator has a second sign-in factor" locale="es" localized="Cada administrador tiene un segundo factor de inicio de sesión"/>
+    <moqui.basic.LocalizedMessage original="Every cluster member is heard from" locale="es" localized="Cada miembro del clúster responde"/>
+    <moqui.basic.LocalizedMessage original="Every mail relay with an SMTP host is disabled, so the instance sends no mail" locale="es" localized="Cada retransmisión de correo con un host SMTP está desactivada, así que la instancia no envía correo"/>
+    <moqui.basic.LocalizedMessage original="Every mapped group may be given by a sign-in" locale="es" localized="Cada grupo mapeado puede otorgarse con un inicio de sesión"/>
+    <moqui.basic.LocalizedMessage original="Every member has a confirmed factor" locale="es" localized="Cada miembro tiene un factor confirmado"/>
+    <moqui.basic.LocalizedMessage original="External database, not run by this server" locale="es" localized="Base de datos externa, no ejecutada por este servidor"/>
+    <moqui.basic.LocalizedMessage original="External databases and search servers" locale="es" localized="Bases de datos externas y servidores de búsqueda"/>
+    <moqui.basic.LocalizedMessage original="Failed, will be tried again" locale="es" localized="Falló; se intentará de nuevo"/>
+    <moqui.basic.LocalizedMessage original="Failing" locale="es" localized="Con fallos"/>
+    <moqui.basic.LocalizedMessage original="Failing or late" locale="es" localized="Con fallos o con retraso"/>
+    <moqui.basic.LocalizedMessage original="Files kept outside the database (the runtime directory's resources and components, an object store) are not in an archive." locale="es" localized="Los archivos guardados fuera de la base de datos (recursos y componentes del directorio de ejecución, un almacén de objetos) no están en una copia."/>
+    <moqui.basic.LocalizedMessage original="Git hosting" locale="es" localized="Alojamiento Git"/>
+    <moqui.basic.LocalizedMessage original="Give a group ID of 3 to 60 capital letters, digits or underscores, starting with a letter" locale="es" localized="Indique un ID de grupo de 3 a 60 letras mayúsculas, dígitos o guiones bajos, que empiece por una letra"/>
+    <moqui.basic.LocalizedMessage original="Give a locale such as es or pt_BR" locale="es" localized="Indique una configuración regional como es o pt_BR"/>
+    <moqui.basic.LocalizedMessage original="Give a reason" locale="es" localized="Indique un motivo"/>
+    <moqui.basic.LocalizedMessage original="Give a reason of at most 255 characters" locale="es" localized="Indique un motivo de como máximo 255 caracteres"/>
+    <moqui.basic.LocalizedMessage original="Give each column a distinct header of 1 to 100 characters" locale="es" localized="Dé a cada columna un encabezado distinto de 1 a 100 caracteres"/>
+    <moqui.basic.LocalizedMessage original="Give the client ID and the client secret registered at the provider" locale="es" localized="Indique el ID de cliente y el secreto de cliente registrados en el proveedor"/>
+    <moqui.basic.LocalizedMessage original="Give the client ID the provider issued" locale="es" localized="Indique el ID de cliente que emitió el proveedor"/>
+    <moqui.basic.LocalizedMessage original="Give the group a description of 1–255 characters" locale="es" localized="Dé al grupo una descripción de 1 a 255 caracteres"/>
+    <moqui.basic.LocalizedMessage original="Give the original message, at most 255 characters" locale="es" localized="Indique el mensaje original, como máximo 255 caracteres"/>
+    <moqui.basic.LocalizedMessage original="Give the password of the user the relay signs in" locale="es" localized="Indique la contraseña del usuario con el que inicia sesión la retransmisión"/>
+    <moqui.basic.LocalizedMessage original="Give the password or token the remote signs in with" locale="es" localized="Indique la contraseña o el token con el que inicia sesión el remoto"/>
+    <moqui.basic.LocalizedMessage original="Give the print server" locale="es" localized="Indique el servidor de impresión"/>
+    <moqui.basic.LocalizedMessage original="Give the printer a name" locale="es" localized="Dé un nombre a la impresora"/>
+    <moqui.basic.LocalizedMessage original="Give the provider a name" locale="es" localized="Dé un nombre al proveedor"/>
+    <moqui.basic.LocalizedMessage original="Give the provider's metadata URL" locale="es" localized="Indique la URL de metadatos del proveedor"/>
+    <moqui.basic.LocalizedMessage original="Give the remote a name" locale="es" localized="Dé un nombre al remoto"/>
+    <moqui.basic.LocalizedMessage original="Give the review a date and time" locale="es" localized="Indique una fecha y hora para la revisión"/>
+    <moqui.basic.LocalizedMessage original="Give the signature header and the shared secret messages are signed with" locale="es" localized="Indique el encabezado de firma y el secreto compartido con el que se firman los mensajes"/>
+    <moqui.basic.LocalizedMessage original="Give the SMTP host" locale="es" localized="Indique el host SMTP"/>
+    <moqui.basic.LocalizedMessage original="Give the translation: an import does not remove one" locale="es" localized="Indique la traducción: una importación no quita una"/>
+    <moqui.basic.LocalizedMessage original="Give the user the remote signs in" locale="es" localized="Indique el usuario con el que inicia sesión el remoto"/>
+    <moqui.basic.LocalizedMessage original="Grant proposed" locale="es" localized="Concesión propuesta"/>
+    <moqui.basic.LocalizedMessage original="How the instance takes what a remote posts is not chosen here" locale="es" localized="Cómo la instancia recibe lo que publica un remoto no se elige aquí"/>
+    <moqui.basic.LocalizedMessage original="Imported translation" locale="es" localized="Traducción importada"/>
+    <moqui.basic.LocalizedMessage original="Imports and exports" locale="es" localized="Importaciones y exportaciones"/>
+    <moqui.basic.LocalizedMessage original="Inbound flow, read only" locale="es" localized="Flujo entrante, solo lectura"/>
+    <moqui.basic.LocalizedMessage original="Include a header line and at least one row" locale="es" localized="Incluya una línea de encabezado y al menos una fila"/>
+    <moqui.basic.LocalizedMessage original="It could not be recovered" locale="es" localized="No se pudo recuperar"/>
+    <moqui.basic.LocalizedMessage original="It has no schedule the scheduler starts it by: its owner starts it" locale="es" localized="No tiene una programación con la que lo inicie el programador: lo inicia su propietario"/>
+    <moqui.basic.LocalizedMessage original="It has no schedule: its owner starts it" locale="es" localized="No tiene programación: lo inicia su propietario"/>
+    <moqui.basic.LocalizedMessage original="It has not run yet and is due at the scheduler's next pass" locale="es" localized="Aún no se ha ejecutado y está pendiente en el siguiente paso del programador"/>
+    <moqui.basic.LocalizedMessage original="It is due already: the scheduler starts it at its next pass" locale="es" localized="Ya está pendiente: el programador lo inicia en su siguiente paso"/>
+    <moqui.basic.LocalizedMessage original="It is outside the dates it runs in" locale="es" localized="Está fuera de las fechas en las que se ejecuta"/>
+    <moqui.basic.LocalizedMessage original="It is paused: resume it first" locale="es" localized="Está en pausa: reanúdelo primero"/>
+    <moqui.basic.LocalizedMessage original="It takes mail from the internet and checks it itself: no gateway's verdict is trusted" locale="es" localized="Toma el correo de internet y lo comprueba él mismo: no se confía en el veredicto de una puerta de enlace"/>
+    <moqui.basic.LocalizedMessage original="It waits in its sender's Outbox, who sends it again or takes it back." locale="es" localized="Espera en la bandeja de salida de quien lo envió, que lo envía de nuevo o lo retira."/>
+    <moqui.basic.LocalizedMessage original="It was returned after it was sent. It can be sent again." locale="es" localized="Se devolvió después de enviarse. Se puede enviar de nuevo."/>
+    <moqui.basic.LocalizedMessage original="Its last check did not pass: ${check}" locale="es" localized="Su última comprobación no fue correcta: ${check}"/>
+    <moqui.basic.LocalizedMessage original="Its owner did not take the row" locale="es" localized="Su propietario no aceptó la fila"/>
+    <moqui.basic.LocalizedMessage original="Its owner does not let it be paused or resumed here" locale="es" localized="Su propietario no permite pausarlo ni reanudarlo aquí"/>
+    <moqui.basic.LocalizedMessage original="Its owner gave it no email template, so nothing is sent by email" locale="es" localized="Su propietario no le dio una plantilla de correo, así que no se envía nada por correo electrónico"/>
+    <moqui.basic.LocalizedMessage original="Its owner keeps its attempts: nothing is sent from here." locale="es" localized="Su propietario conserva sus intentos: desde aquí no se envía nada."/>
+    <moqui.basic.LocalizedMessage original="Its owner reconciles it." locale="es" localized="Su propietario lo concilia."/>
+    <moqui.basic.LocalizedMessage original="Its owner refused the export" locale="es" localized="Su propietario rechazó la exportación"/>
+    <moqui.basic.LocalizedMessage original="Its owner registered no audience an administrator subscribes here: each user sets their own in their notification settings" locale="es" localized="Su propietario no registró un público al que un administrador se suscriba aquí: cada usuario lo define en su configuración de notificaciones"/>
+    <moqui.basic.LocalizedMessage original="Its owner registered no delivery setting as changed here" locale="es" localized="Su propietario no registró un parámetro de entrega que se cambie aquí"/>
+    <moqui.basic.LocalizedMessage original="Its owner registered no detail of what each run did" locale="es" localized="Su propietario no registró el detalle de lo que hizo cada ejecución"/>
+    <moqui.basic.LocalizedMessage original="Its owner registered no handler for delegated administration: it is changed by its owner's deployment, or by an instance administrator" locale="es" localized="Su propietario no registró un manejador para la administración delegada: lo cambia el despliegue de su propietario, o un administrador de la instancia"/>
+    <moqui.basic.LocalizedMessage original="Its owner registered nobody as its recipients here" locale="es" localized="Su propietario no registró a nadie como destinatario aquí"/>
+    <moqui.basic.LocalizedMessage original="Its owner registered nothing an administrator changes here" locale="es" localized="Su propietario no registró nada que un administrador cambie aquí"/>
+    <moqui.basic.LocalizedMessage original="Its owner registered nothing an administrator changes here: it is its owner's deployment, or an instance administrator's in Tools" locale="es" localized="Su propietario no registró nada que un administrador cambie aquí: es el despliegue de su propietario, o el de un administrador de la instancia en Herramientas"/>
+    <moqui.basic.LocalizedMessage original="Its owner says the outcome of its last run is unknown: that is settled in the owner's own place first" locale="es" localized="Su propietario dice que el resultado de su última ejecución es desconocido: eso se resuelve primero en el lugar de su propietario"/>
+    <moqui.basic.LocalizedMessage original="Its owner tries it again on its own." locale="es" localized="Su propietario lo intenta de nuevo por su cuenta."/>
+    <moqui.basic.LocalizedMessage original="Its owner's detail of the run is not available" locale="es" localized="El detalle de la ejecución de su propietario no está disponible"/>
+    <moqui.basic.LocalizedMessage original="Its registration ended" locale="es" localized="Su registro terminó"/>
+    <moqui.basic.LocalizedMessage original="Its schedule cannot be read" locale="es" localized="No se puede leer su programación"/>
+    <moqui.basic.LocalizedMessage original="Its schedule cannot be read, so the scheduler does not start it" locale="es" localized="No se puede leer su programación, así que el programador no lo inicia"/>
+    <moqui.basic.LocalizedMessage original="Its schedule is its owner's and is not changed here" locale="es" localized="Su programación es de su propietario y no se cambia aquí"/>
+    <moqui.basic.LocalizedMessage original="Its scopes could not be read" locale="es" localized="No se pudieron leer sus alcances"/>
+    <moqui.basic.LocalizedMessage original="Its server stopped" locale="es" localized="Su servidor se detuvo"/>
+    <moqui.basic.LocalizedMessage original="Last ${when}, ${lag} ago" locale="es" localized="Última vez ${when}, hace ${lag}"/>
+    <moqui.basic.LocalizedMessage original="Last ${when}, ${lag} ago; every ${every}" locale="es" localized="Última vez ${when}, hace ${lag}; cada ${every}"/>
+    <moqui.basic.LocalizedMessage original="Last ${when}; every ${every}" locale="es" localized="Última vez ${when}; cada ${every}"/>
+    <moqui.basic.LocalizedMessage original="Last refreshed ${lag} ago" locale="es" localized="Actualizado por última vez hace ${lag}"/>
+    <moqui.basic.LocalizedMessage original="Link base URL" locale="es" localized="URL base de los enlaces"/>
+    <moqui.basic.LocalizedMessage original="Local speech to text" locale="es" localized="Voz a texto local"/>
+    <moqui.basic.LocalizedMessage original="Mail reception" locale="es" localized="Recepción de correo"/>
+    <moqui.basic.LocalizedMessage original="Mail service" locale="es" localized="Servicio de correo"/>
+    <moqui.basic.LocalizedMessage original="Map a column to a field of this import" locale="es" localized="Asigne una columna a un campo de esta importación"/>
+    <moqui.basic.LocalizedMessage original="Map the columns of this file" locale="es" localized="Asigne las columnas de este archivo"/>
+    <moqui.basic.LocalizedMessage original="May have been applied" locale="es" localized="Puede haberse aplicado"/>
+    <moqui.basic.LocalizedMessage original="May have been sent" locale="es" localized="Puede haberse enviado"/>
+    <moqui.basic.LocalizedMessage original="media-server/turn-server@port, media-server/turn-server@tls-port and media-server/turn-server@external-urls are not set" locale="es" localized="media-server/turn-server@port, media-server/turn-server@tls-port y media-server/turn-server@external-urls no están definidos"/>
+    <moqui.basic.LocalizedMessage original="media-server@port is not set" locale="es" localized="media-server@port no está definido"/>
+    <moqui.basic.LocalizedMessage original="Members sign in with no factor or address requirement of this group" locale="es" localized="Los miembros inician sesión sin un requisito de factor o de dirección de este grupo"/>
+    <moqui.basic.LocalizedMessage original="Messages to and from this remote" locale="es" localized="Mensajes hacia y desde este remoto"/>
+    <moqui.basic.LocalizedMessage original="Microsoft: the directory, or common" locale="es" localized="Microsoft: el directorio, o common"/>
+    <moqui.basic.LocalizedMessage original="Mirrored off the server" locale="es" localized="Replicado fuera del servidor"/>
+    <moqui.basic.LocalizedMessage original="MR Moqui app" locale="es" localized="Aplicación MR Moqui"/>
+    <moqui.basic.LocalizedMessage original="Name the bundles to propose" locale="es" localized="Nombre los paquetes que se proponen"/>
+    <moqui.basic.LocalizedMessage original="Name the device" locale="es" localized="Nombre el dispositivo"/>
+    <moqui.basic.LocalizedMessage original="Name the groups or the app to review" locale="es" localized="Nombre los grupos o la aplicación que se revisan"/>
+    <moqui.basic.LocalizedMessage original="Name the sessions to end" locale="es" localized="Nombre las sesiones que se terminan"/>
+    <moqui.basic.LocalizedMessage original="Name the user" locale="es" localized="Nombre el usuario"/>
+    <moqui.basic.LocalizedMessage original="Neither the SYSTEM mail server nor a mail relay has an SMTP host, so the instance sends no mail" locale="es" localized="Ni el servidor de correo SYSTEM ni una retransmisión de correo tienen un host SMTP, así que la instancia no envía correo"/>
+    <moqui.basic.LocalizedMessage original="Nightly backup" locale="es" localized="Copia de seguridad nocturna"/>
+    <moqui.basic.LocalizedMessage original="No (by its inbox)" locale="es" localized="No (por su bandeja de entrada)"/>
+    <moqui.basic.LocalizedMessage original="No (not set)" locale="es" localized="No (sin definir)"/>
+    <moqui.basic.LocalizedMessage original="No archive has been verified by a restore here: test a restore on another machine" locale="es" localized="Ninguna copia se ha verificado con una restauración aquí: pruebe una restauración en otra máquina"/>
+    <moqui.basic.LocalizedMessage original="No backup has finished yet" locale="es" localized="Aún no ha terminado ninguna copia de seguridad"/>
+    <moqui.basic.LocalizedMessage original="No backup has run yet" locale="es" localized="Aún no se ha ejecutado ninguna copia de seguridad"/>
+    <moqui.basic.LocalizedMessage original="No backup job" locale="es" localized="Sin trabajo de copia de seguridad"/>
+    <moqui.basic.LocalizedMessage original="No build has it yet" locale="es" localized="Ninguna compilación lo tiene todavía"/>
+    <moqui.basic.LocalizedMessage original="No email template" locale="es" localized="Sin plantilla de correo electrónico"/>
+    <moqui.basic.LocalizedMessage original="No failed row to retry" locale="es" localized="No hay una fila fallida que reintentar"/>
+    <moqui.basic.LocalizedMessage original="No handler is registered for this: it stays as its owner deployed it" locale="es" localized="No hay un manejador registrado para esto: queda como lo desplegó su propietario"/>
+    <moqui.basic.LocalizedMessage original="No job run failed in the last day" locale="es" localized="Ninguna ejecución de trabajo falló en el último día"/>
+    <moqui.basic.LocalizedMessage original="No off-site mirror" locale="es" localized="Sin réplica externa"/>
+    <moqui.basic.LocalizedMessage original="No off-site mirror: the archives are kept on this server only" locale="es" localized="Sin réplica externa: las copias se conservan solo en este servidor"/>
+    <moqui.basic.LocalizedMessage original="No role is mapped" locale="es" localized="No hay ningún rol mapeado"/>
+    <moqui.basic.LocalizedMessage original="No schedule: it runs only when asked for" locale="es" localized="Sin programación: se ejecuta solo cuando se pide"/>
+    <moqui.basic.LocalizedMessage original="No schedule: started by its owner" locale="es" localized="Sin programación: lo inicia su propietario"/>
+    <moqui.basic.LocalizedMessage original="No sending address: nothing is sent to this remote" locale="es" localized="Sin dirección de envío: no se envía nada a este remoto"/>
+    <moqui.basic.LocalizedMessage original="No such row" locale="es" localized="No existe esa fila"/>
+    <moqui.basic.LocalizedMessage original="None of the chosen fields may be read" locale="es" localized="No se puede leer ninguno de los campos elegidos"/>
+    <moqui.basic.LocalizedMessage original="None of the rows could be applied" locale="es" localized="No se pudo aplicar ninguna de las filas"/>
+    <moqui.basic.LocalizedMessage original="None of them could be recovered" locale="es" localized="No se pudo recuperar ninguno"/>
+    <moqui.basic.LocalizedMessage original="Not a registered app gate" locale="es" localized="No es un acceso a las aplicaciones registrado"/>
+    <moqui.basic.LocalizedMessage original="Not a run of the backup job" locale="es" localized="No es una ejecución del trabajo de copia de seguridad"/>
+    <moqui.basic.LocalizedMessage original="Not applied" locale="es" localized="No aplicado"/>
+    <moqui.basic.LocalizedMessage original="Not available in this build" locale="es" localized="No disponible en esta compilación"/>
+    <moqui.basic.LocalizedMessage original="Not backed up: this instance has no backup job" locale="es" localized="Sin copia de seguridad: esta instancia no tiene un trabajo de copia de seguridad"/>
+    <moqui.basic.LocalizedMessage original="Not configured" locale="es" localized="Sin configurar"/>
+    <moqui.basic.LocalizedMessage original="Not ended: its server stopped, or it was started by hand and never finished" locale="es" localized="No terminó: su servidor se detuvo, o se inició a mano y nunca acabó"/>
+    <moqui.basic.LocalizedMessage original="Not ended: its server stopped, or the run was lost" locale="es" localized="No terminó: su servidor se detuvo, o se perdió la ejecución"/>
+    <moqui.basic.LocalizedMessage original="Not granted" locale="es" localized="No concedido"/>
+    <moqui.basic.LocalizedMessage original="Not in a registered bundle" locale="es" localized="No está en un paquete registrado"/>
+    <moqui.basic.LocalizedMessage original="Not in this build" locale="es" localized="No está en esta compilación"/>
+    <moqui.basic.LocalizedMessage original="Not included: you may not read it" locale="es" localized="No incluido: no puede leerlo"/>
+    <moqui.basic.LocalizedMessage original="Not mapped: gives nothing" locale="es" localized="Sin mapear: no otorga nada"/>
+    <moqui.basic.LocalizedMessage original="Not routed" locale="es" localized="Sin enrutar"/>
+    <moqui.basic.LocalizedMessage original="Not seen for longer than its idle timeout" locale="es" localized="Sin verse durante más de su tiempo de inactividad"/>
+    <moqui.basic.LocalizedMessage original="Not started: ${detail}" locale="es" localized="No se inició: ${detail}"/>
+    <moqui.basic.LocalizedMessage original="Not started: its port was busy" locale="es" localized="No se inició: su puerto estaba ocupado"/>
+    <moqui.basic.LocalizedMessage original="Not turned on" locale="es" localized="No activado"/>
+    <moqui.basic.LocalizedMessage original="Nothing changes" locale="es" localized="Nada cambia"/>
+    <moqui.basic.LocalizedMessage original="Nothing to revoke" locale="es" localized="Nada que revocar"/>
+    <moqui.basic.LocalizedMessage original="Nothing was sent. It can be sent again." locale="es" localized="No se envió nada. Se puede enviar de nuevo."/>
+    <moqui.basic.LocalizedMessage original="Off-site mirror" locale="es" localized="Réplica externa"/>
+    <moqui.basic.LocalizedMessage original="Office documents" locale="es" localized="Documentos de oficina"/>
+    <moqui.basic.LocalizedMessage original="On the server only" locale="es" localized="Solo en el servidor"/>
+    <moqui.basic.LocalizedMessage original="One server" locale="es" localized="Un servidor"/>
+    <moqui.basic.LocalizedMessage original="Only a custom group's purpose changes, to another registered purpose" locale="es" localized="Solo cambia el propósito de un grupo personalizado, a otro propósito registrado"/>
+    <moqui.basic.LocalizedMessage original="Only a failed row is retried" locale="es" localized="Solo se reintenta una fila fallida"/>
+    <moqui.basic.LocalizedMessage original="Only a validated row is applied" locale="es" localized="Solo se aplica una fila validada"/>
+    <moqui.basic.LocalizedMessage original="Only the gateway's addresses may deliver, and only its Authentication-Results are kept" locale="es" localized="Solo pueden entregar las direcciones de la puerta de enlace, y solo se conservan sus Authentication-Results"/>
+    <moqui.basic.LocalizedMessage original="Only when it differs from the one received messages are verified by" locale="es" localized="Solo cuando difiere del que verifica los mensajes recibidos"/>
+    <moqui.basic.LocalizedMessage original="Only with a separate SMTP user" locale="es" localized="Solo con un usuario SMTP aparte"/>
+    <moqui.basic.LocalizedMessage original="Outcome unknown" locale="es" localized="Resultado desconocido"/>
+    <moqui.basic.LocalizedMessage original="Outcome unknown at its owner" locale="es" localized="Resultado desconocido en su propietario"/>
+    <moqui.basic.LocalizedMessage original="Outside its dates" locale="es" localized="Fuera de sus fechas"/>
+    <moqui.basic.LocalizedMessage original="Partly delivered" locale="es" localized="Entregado en parte"/>
+    <moqui.basic.LocalizedMessage original="Paused: no backup is made on a schedule until an instance administrator resumes the job" locale="es" localized="En pausa: no se hace una copia de seguridad programada hasta que un administrador de la instancia reanude el trabajo"/>
+    <moqui.basic.LocalizedMessage original="Personal and shared mailboxes read over IMAP and POP3, with a provider's OAuth sign-in" locale="es" localized="Buzones personales y compartidos leídos por IMAP y POP3, con el inicio de sesión OAuth de un proveedor"/>
+    <moqui.basic.LocalizedMessage original="Physical backup (a directory)" locale="es" localized="Copia física (un directorio)"/>
+    <moqui.basic.LocalizedMessage original="Print server" locale="es" localized="Servidor de impresión"/>
+    <moqui.basic.LocalizedMessage original="Printer on the server" locale="es" localized="Impresora en el servidor"/>
+    <moqui.basic.LocalizedMessage original="Production or test, as the remote's standard codes it (P or T)" locale="es" localized="Producción o prueba, como lo codifica el estándar del remoto (P o T)"/>
+    <moqui.basic.LocalizedMessage original="Public address" locale="es" localized="Dirección pública"/>
+    <moqui.basic.LocalizedMessage original="Read only here" locale="es" localized="Solo lectura aquí"/>
+    <moqui.basic.LocalizedMessage original="Registered for this app gate, not bound" locale="es" localized="Registrado para este acceso a las aplicaciones, sin vincular"/>
+    <moqui.basic.LocalizedMessage original="Registered with another type" locale="es" localized="Registrado con otro tipo"/>
+    <moqui.basic.LocalizedMessage original="Registered, no action" locale="es" localized="Registrado, sin acción"/>
+    <moqui.basic.LocalizedMessage original="Replaces the translation there" locale="es" localized="Sustituye la traducción que hay"/>
+    <moqui.basic.LocalizedMessage original="Report alerts are not sent to anyone" locale="es" localized="Las alertas de informes no se envían a nadie"/>
+    <moqui.basic.LocalizedMessage original="Report alerts are sent to their recipients" locale="es" localized="Las alertas de informes se envían a sus destinatarios"/>
+    <moqui.basic.LocalizedMessage original="Report emails have a mail server" locale="es" localized="Los correos de informes tienen un servidor de correo"/>
+    <moqui.basic.LocalizedMessage original="Report emails have no mail server to send through" locale="es" localized="Los correos de informes no tienen un servidor de correo por el que enviarse"/>
+    <moqui.basic.LocalizedMessage original="Reported delivered" locale="es" localized="Informado como entregado"/>
+    <moqui.basic.LocalizedMessage original="Repositories over HTTPS on the web address (and over SSH, above)" locale="es" localized="Repositorios por HTTPS en la dirección web (y por SSH, arriba)"/>
+    <moqui.basic.LocalizedMessage original="Resource files" locale="es" localized="Archivos de recursos"/>
+    <moqui.basic.LocalizedMessage original="Running or not ended" locale="es" localized="En ejecución o sin terminar"/>
+    <moqui.basic.LocalizedMessage original="Running, not trusted" locale="es" localized="En ejecución, sin confianza"/>
+    <moqui.basic.LocalizedMessage original="SAML sign-in is not available in this build" locale="es" localized="El inicio de sesión SAML no está disponible en esta compilación"/>
+    <moqui.basic.LocalizedMessage original="Sealed grants" locale="es" localized="Concesiones precintadas"/>
+    <moqui.basic.LocalizedMessage original="Sealed permission" locale="es" localized="Permiso precintado"/>
+    <moqui.basic.LocalizedMessage original="Send through this relay without owning it" locale="es" localized="Enviar por esta retransmisión sin ser su propietario"/>
+    <moqui.basic.LocalizedMessage original="Sensitive values" locale="es" localized="Valores sensibles"/>
+    <moqui.basic.LocalizedMessage original="Sent and received" locale="es" localized="Enviados y recibidos"/>
+    <moqui.basic.LocalizedMessage original="Sent or consumed" locale="es" localized="Enviado o consumido"/>
+    <moqui.basic.LocalizedMessage original="Sent through this relay" locale="es" localized="Enviado por esta retransmisión"/>
+    <moqui.basic.LocalizedMessage original="Separate SMTP password" locale="es" localized="Contraseña SMTP aparte"/>
+    <moqui.basic.LocalizedMessage original="Separate SMTP user" locale="es" localized="Usuario SMTP aparte"/>
+    <moqui.basic.LocalizedMessage original="Set for this job" locale="es" localized="Definido para este trabajo"/>
+    <moqui.basic.LocalizedMessage original="Settled by a person" locale="es" localized="Resuelto por una persona"/>
+    <moqui.basic.LocalizedMessage original="Settled with its owner, which keeps its attempts: nothing is sent from here." locale="es" localized="Resuelto con su propietario, que conserva sus intentos: desde aquí no se envía nada."/>
+    <moqui.basic.LocalizedMessage original="Sign in to administer access" locale="es" localized="Iniciar sesión para administrar el acceso"/>
+    <moqui.basic.LocalizedMessage original="Sign in to administer devices" locale="es" localized="Iniciar sesión para administrar los dispositivos"/>
+    <moqui.basic.LocalizedMessage original="Sign in to administer the configuration" locale="es" localized="Iniciar sesión para administrar la configuración"/>
+    <moqui.basic.LocalizedMessage original="Sign in to check the administration path" locale="es" localized="Iniciar sesión para comprobar la ruta de administración"/>
+    <moqui.basic.LocalizedMessage original="Sign in to read the audit log" locale="es" localized="Iniciar sesión para leer el registro de auditoría"/>
+    <moqui.basic.LocalizedMessage original="Sign in to see sessions" locale="es" localized="Iniciar sesión para ver las sesiones"/>
+    <moqui.basic.LocalizedMessage original="Sign in with this provider" locale="es" localized="Iniciar sesión con este proveedor"/>
+    <moqui.basic.LocalizedMessage original="Signed out everywhere by the account itself" locale="es" localized="Sesión cerrada en todas partes por la propia cuenta"/>
+    <moqui.basic.LocalizedMessage original="Signs in through this remote first" locale="es" localized="Inicia sesión primero por este remoto"/>
+    <moqui.basic.LocalizedMessage original="Signs messages sent, when no other secret for sending is given" locale="es" localized="Firma los mensajes enviados, cuando no se da otro secreto para el envío"/>
+    <moqui.basic.LocalizedMessage original="sip-server@port and sip-server@tls-port are not set" locale="es" localized="sip-server@port y sip-server@tls-port no están definidos"/>
+    <moqui.basic.LocalizedMessage original="Skipped: this server runs no embedded database, so nothing was backed up" locale="es" localized="Omitido: este servidor no ejecuta una base de datos integrada, así que no se respaldó nada"/>
+    <moqui.basic.LocalizedMessage original="smtp-server@listen-port is not set" locale="es" localized="smtp-server@listen-port no está definido"/>
+    <moqui.basic.LocalizedMessage original="Someone reported that it arrived. Nothing more is done here." locale="es" localized="Alguien informó que llegó. Aquí no se hace nada más."/>
+    <moqui.basic.LocalizedMessage original="Someone reported that it did not arrive. It can be sent again." locale="es" localized="Alguien informó que no llegó. Se puede enviar de nuevo."/>
+    <moqui.basic.LocalizedMessage original="Speech to text during a call, by the speech provider" locale="es" localized="Voz a texto durante una llamada, por el proveedor de voz"/>
+    <moqui.basic.LocalizedMessage original="SSH and SFTP" locale="es" localized="SSH y SFTP"/>
+    <moqui.basic.LocalizedMessage original="ssh-server@port is not set, or ssh-server@enabled is false" locale="es" localized="ssh-server@port no está definido, o ssh-server@enabled es false"/>
+    <moqui.basic.LocalizedMessage original="Staged, not committed" locale="es" localized="Preparado, sin confirmar"/>
+    <moqui.basic.LocalizedMessage original="Stopped: a copy of its cookie was used" locale="es" localized="Detenido: se usó una copia de su cookie"/>
+    <moqui.basic.LocalizedMessage original="Stopped: its registration ended" locale="es" localized="Detenido: su registro terminó"/>
+    <moqui.basic.LocalizedMessage original="Stopped: not seen for longer than its idle timeout" locale="es" localized="Detenido: sin verse durante más de su tiempo de inactividad"/>
+    <moqui.basic.LocalizedMessage original="Telemetry is being lost, so health is unknown" locale="es" localized="Se está perdiendo la telemetría, así que el estado es desconocido"/>
+    <moqui.basic.LocalizedMessage original="Telemetry is off or not searchable, so health is unknown" locale="es" localized="La telemetría está apagada o no se puede buscar, así que el estado es desconocido"/>
+    <moqui.basic.LocalizedMessage original="Telemetry is received" locale="es" localized="Se recibe la telemetría"/>
+    <moqui.basic.LocalizedMessage original="Test page
+
+This page was printed from Admin to test the printer ${networkPrinterId}.
+" locale="es" localized="Página de prueba
+
+Esta página se imprimió desde Admin para probar la impresora ${networkPrinterId}.
+"/>
+    <moqui.basic.LocalizedMessage original="Test the connection as it is configured now: a passing test enables it" locale="es" localized="Pruebe la conexión tal como está configurada ahora: una prueba correcta la habilita"/>
+    <moqui.basic.LocalizedMessage original="Test the provider as it is configured now, then enable it" locale="es" localized="Pruebe el proveedor tal como está configurado ahora y luego habilítelo"/>
+    <moqui.basic.LocalizedMessage original="Tested, not enabled" locale="es" localized="Probado, no habilitado"/>
+    <moqui.basic.LocalizedMessage original="That code is not valid, was already used or has expired" locale="es" localized="Ese código no es válido, ya se usó o ha caducado"/>
+    <moqui.basic.LocalizedMessage original="That operation key was used for another export or import" locale="es" localized="Esa clave de operación se usó para otra exportación o importación"/>
+    <moqui.basic.LocalizedMessage original="That schedule never comes due again" locale="es" localized="Esa programación no vuelve a vencer"/>
+    <moqui.basic.LocalizedMessage original="That user has no setting for this topic" locale="es" localized="Ese usuario no tiene una configuración para este tema"/>
+    <moqui.basic.LocalizedMessage original="That user is not one of its recipients" locale="es" localized="Ese usuario no es uno de sus destinatarios"/>
+    <moqui.basic.LocalizedMessage original="That user is one of its recipients already" locale="es" localized="Ese usuario ya es uno de sus destinatarios"/>
+    <moqui.basic.LocalizedMessage original="The .env file" locale="es" localized="El archivo .env"/>
+    <moqui.basic.LocalizedMessage original="The address the server binds accepts a connection from this server" locale="es" localized="La dirección a la que se vincula el servidor acepta una conexión desde este servidor"/>
+    <moqui.basic.LocalizedMessage original="The backup could not be started" locale="es" localized="No se pudo iniciar la copia de seguridad"/>
+    <moqui.basic.LocalizedMessage original="The backup directory could not be read" locale="es" localized="No se pudo leer el directorio de copias de seguridad"/>
+    <moqui.basic.LocalizedMessage original="The backup directory is not a directory" locale="es" localized="El directorio de copias de seguridad no es un directorio"/>
+    <moqui.basic.LocalizedMessage original="The built-in SSH server: SFTP, the terminal client and git over SSH" locale="es" localized="El servidor SSH integrado: SFTP, el cliente de terminal y git por SSH"/>
+    <moqui.basic.LocalizedMessage original="The check could not be run on this server" locale="es" localized="No se pudo ejecutar la comprobación en este servidor"/>
+    <moqui.basic.LocalizedMessage original="The code is shown only once: revoke the device and register it again for a new code" locale="es" localized="El código se muestra una sola vez: revoque el dispositivo y regístrelo de nuevo para obtener otro"/>
+    <moqui.basic.LocalizedMessage original="The code is shown to the administrator who registered the device" locale="es" localized="El código se muestra al administrador que registró el dispositivo"/>
+    <moqui.basic.LocalizedMessage original="The configuration changed: test the connection as it is now, and the test enables it" locale="es" localized="La configuración cambió: pruebe la conexión tal como está ahora, y la prueba la habilita"/>
+    <moqui.basic.LocalizedMessage original="The configuration changed: test the provider as it is now, then enable it" locale="es" localized="La configuración cambió: pruebe el proveedor tal como está ahora y luego habilítelo"/>
+    <moqui.basic.LocalizedMessage original="The configuration is complete" locale="es" localized="La configuración está completa"/>
+    <moqui.basic.LocalizedMessage original="The connection is not available" locale="es" localized="La conexión no está disponible"/>
+    <moqui.basic.LocalizedMessage original="The Constitution could not be read" locale="es" localized="No se pudo leer la Constitución"/>
+    <moqui.basic.LocalizedMessage original="The content type is not a media type" locale="es" localized="El tipo de contenido no es un tipo de medio"/>
+    <moqui.basic.LocalizedMessage original="The database could not be read" locale="es" localized="No se pudo leer la base de datos"/>
+    <moqui.basic.LocalizedMessage original="The database could not be read, so no backup is started" locale="es" localized="No se pudo leer la base de datos, así que no se inicia ninguna copia de seguridad"/>
+    <moqui.basic.LocalizedMessage original="The database's own provider" locale="es" localized="El propio proveedor de la base de datos"/>
+    <moqui.basic.LocalizedMessage original="The dates must end after they start" locale="es" localized="Las fechas deben terminar después de empezar"/>
+    <moqui.basic.LocalizedMessage original="The deployment's configuration (it wins over what is entered here)" locale="es" localized="La configuración del despliegue (prevalece sobre lo que se indica aquí)"/>
+    <moqui.basic.LocalizedMessage original="The endpoint changed: the connection is disabled until a test of it passes" locale="es" localized="El punto de conexión cambió: la conexión queda desactivada hasta que una prueba sea correcta"/>
+    <moqui.basic.LocalizedMessage original="The endpoint changed: the connection stays disabled: test it as it is now, then enable it" locale="es" localized="El punto de conexión cambió: la conexión sigue desactivada: pruébela tal como está ahora y luego habilítela"/>
+    <moqui.basic.LocalizedMessage original="The endpoint changed: the provider is disabled until a test of it passes and it is enabled again" locale="es" localized="El punto de conexión cambió: el proveedor queda desactivado hasta que una prueba sea correcta y se vuelva a habilitar"/>
+    <moqui.basic.LocalizedMessage original="The endpoint changed: the stored secret was cleared, and the connection is disabled until a test of it passes" locale="es" localized="El punto de conexión cambió: se borró el secreto guardado, y la conexión queda desactivada hasta que una prueba sea correcta"/>
+    <moqui.basic.LocalizedMessage original="The endpoint changed: the stored secret was cleared, and the connection stays disabled: test it as it is now, then enable it" locale="es" localized="El punto de conexión cambió: se borró el secreto guardado, y la conexión sigue desactivada: pruébela tal como está ahora y luego habilítela"/>
+    <moqui.basic.LocalizedMessage original="The endpoint changed: the stored secret was cleared, and the provider is disabled until a test of it passes and it is enabled again" locale="es" localized="El punto de conexión cambió: se borró el secreto guardado, y el proveedor queda desactivado hasta que una prueba sea correcta y se vuelva a habilitar"/>
+    <moqui.basic.LocalizedMessage original="The field-encryption key" locale="es" localized="La clave de cifrado de campos"/>
+    <moqui.basic.LocalizedMessage original="The file is empty" locale="es" localized="El archivo está vacío"/>
+    <moqui.basic.LocalizedMessage original="The file is not text: save it as UTF-8 CSV" locale="es" localized="El archivo no es texto: guárdelo como CSV UTF-8"/>
+    <moqui.basic.LocalizedMessage original="The file is not UTF-8 text: save it as CSV (UTF-8)" locale="es" localized="El archivo no es texto UTF-8: guárdelo como CSV (UTF-8)"/>
+    <moqui.basic.LocalizedMessage original="The file pattern is not a regular expression" locale="es" localized="El patrón de archivo no es una expresión regular"/>
+    <moqui.basic.LocalizedMessage original="The file would be larger than ${kib} KiB: narrow the selection. Nothing was exported." locale="es" localized="El archivo superaría los ${kib} KiB: reduzca la selección. No se exportó nada."/>
+    <moqui.basic.LocalizedMessage original="The first backup is running: nothing has been backed up yet" locale="es" localized="La primera copia de seguridad está en curso: aún no se ha respaldado nada"/>
+    <moqui.basic.LocalizedMessage original="The group is not available" locale="es" localized="El grupo no está disponible"/>
+    <moqui.basic.LocalizedMessage original="The import changed since this preview: validate and review it again" locale="es" localized="La importación cambió desde esta vista previa: valídela y revísela de nuevo"/>
+    <moqui.basic.LocalizedMessage original="The instance's own Constitution applies" locale="es" localized="Se aplica la Constitución propia de la instancia"/>
+    <moqui.basic.LocalizedMessage original="The instance's settings and secrets (.env) are not in an archive." locale="es" localized="La configuración y los secretos de la instancia (.env) no están en una copia."/>
+    <moqui.basic.LocalizedMessage original="The job queue was full" locale="es" localized="La cola de trabajos estaba llena"/>
+    <moqui.basic.LocalizedMessage original="The job's code failed unexpectedly" locale="es" localized="El código del trabajo falló de forma inesperada"/>
+    <moqui.basic.LocalizedMessage original="The listener is bound to this machine only (smtp-server@listen-host) and no allowed address is on it: the gateway cannot connect" locale="es" localized="La escucha está vinculada solo a esta máquina (smtp-server@listen-host) y no hay una dirección permitida en ella: la puerta de enlace no puede conectar"/>
+    <moqui.basic.LocalizedMessage original="The listener is not running, so nothing is received" locale="es" localized="La escucha no está en ejecución, así que no se recibe nada"/>
+    <moqui.basic.LocalizedMessage original="The mail the instance sends through its relays (SMTP)" locale="es" localized="El correo que la instancia envía por sus retransmisiones (SMTP)"/>
+    <moqui.basic.LocalizedMessage original="The media of audio and video calls (WebRTC)" locale="es" localized="Los medios de las llamadas de audio y video (WebRTC)"/>
+    <moqui.basic.LocalizedMessage original="The membership has already ended" locale="es" localized="La membresía ya terminó"/>
+    <moqui.basic.LocalizedMessage original="The membership is not available" locale="es" localized="La membresía no está disponible"/>
+    <moqui.basic.LocalizedMessage original="The membership must end after it starts" locale="es" localized="La membresía debe terminar después de empezar"/>
+    <moqui.basic.LocalizedMessage original="The message was cancelled" locale="es" localized="El mensaje se canceló"/>
+    <moqui.basic.LocalizedMessage original="The message was sent" locale="es" localized="El mensaje se envió"/>
+    <moqui.basic.LocalizedMessage original="The message was settled as reported delivered: it is not sent again" locale="es" localized="El mensaje se resolvió como informado de entregado: no se envía de nuevo."/>
+    <moqui.basic.LocalizedMessage original="The name clients are given has an address, and its port accepts a connection from this server" locale="es" localized="El nombre que se da a los clientes tiene una dirección, y su puerto acepta una conexión desde este servidor"/>
+    <moqui.basic.LocalizedMessage original="The nightly backup job is not set up" locale="es" localized="El trabajo de copia de seguridad nocturna no está preparado"/>
+    <moqui.basic.LocalizedMessage original="The nightly database backup is paused" locale="es" localized="La copia de seguridad nocturna de la base de datos está en pausa"/>
+    <moqui.basic.LocalizedMessage original="The nightly database backup runs" locale="es" localized="La copia de seguridad nocturna de la base de datos se ejecuta"/>
+    <moqui.basic.LocalizedMessage original="The OAuth client registered at the provider for this deployment" locale="es" localized="El cliente OAuth registrado en el proveedor para este despliegue"/>
+    <moqui.basic.LocalizedMessage original="The operation key was used for another import or other content" locale="es" localized="La clave de operación se usó para otra importación u otro contenido"/>
+    <moqui.basic.LocalizedMessage original="The order is a whole number" locale="es" localized="El orden es un número entero"/>
+    <moqui.basic.LocalizedMessage original="The priority is a whole number" locale="es" localized="La prioridad es un número entero"/>
+    <moqui.basic.LocalizedMessage original="The protocol is built, turned on and started, and what it trusts holds" locale="es" localized="El protocolo está construido, activado e iniciado, y se cumple lo que confía"/>
+    <moqui.basic.LocalizedMessage original="The provider could not be reached" locale="es" localized="No se pudo alcanzar al proveedor"/>
+    <moqui.basic.LocalizedMessage original="The provider has no configuration yet" locale="es" localized="El proveedor aún no tiene configuración"/>
+    <moqui.basic.LocalizedMessage original="The provider has no supported type" locale="es" localized="El proveedor no tiene un tipo admitido"/>
+    <moqui.basic.LocalizedMessage original="The provider is not available" locale="es" localized="El proveedor no está disponible"/>
+    <moqui.basic.LocalizedMessage original="The provider's API address: an https URL" locale="es" localized="La dirección de API del proveedor: una URL https"/>
+    <moqui.basic.LocalizedMessage original="The relay is disabled: a test message is sent once the connection test has enabled it" locale="es" localized="La retransmisión está desactivada: se envía un mensaje de prueba cuando la prueba de conexión la haya habilitado"/>
+    <moqui.basic.LocalizedMessage original="The report alert topic is not installed" locale="es" localized="El tema de alertas de informes no está instalado"/>
+    <moqui.basic.LocalizedMessage original="The report email template is not installed" locale="es" localized="La plantilla de correo de informes no está instalada"/>
+    <moqui.basic.LocalizedMessage original="The row could not be validated" locale="es" localized="No se pudo validar la fila"/>
+    <moqui.basic.LocalizedMessage original="The row is no longer valid" locale="es" localized="La fila ya no es válida"/>
+    <moqui.basic.LocalizedMessage original="The row is not valid" locale="es" localized="La fila no es válida"/>
+    <moqui.basic.LocalizedMessage original="The row was not applied" locale="es" localized="La fila no se aplicó"/>
+    <moqui.basic.LocalizedMessage original="The run's items could not be read" locale="es" localized="No se pudieron leer los elementos de la ejecución"/>
+    <moqui.basic.LocalizedMessage original="The schedule is not a cron expression" locale="es" localized="La programación no es una expresión cron"/>
+    <moqui.basic.LocalizedMessage original="The schedule is not a cron expression the scheduler reads" locale="es" localized="La programación no es una expresión cron que lea el programador"/>
+    <moqui.basic.LocalizedMessage original="The scheduler" locale="es" localized="El programador"/>
+    <moqui.basic.LocalizedMessage original="The scopes of this export could not be read. Try again later." locale="es" localized="No se pudieron leer los alcances de esta exportación. Inténtelo más tarde."/>
+    <moqui.basic.LocalizedMessage original="The scopes of this import could not be read. Try again later." locale="es" localized="No se pudieron leer los alcances de esta importación. Inténtelo más tarde."/>
+    <moqui.basic.LocalizedMessage original="The secret is too long or holds control characters" locale="es" localized="El secreto es demasiado largo o contiene caracteres de control"/>
+    <moqui.basic.LocalizedMessage original="The server refused it. It can be sent again once what it refused is put right." locale="es" localized="El servidor lo rechazó. Se puede enviar de nuevo cuando se corrija lo que rechazó."/>
+    <moqui.basic.LocalizedMessage original="The service's default" locale="es" localized="El valor predeterminado del servicio"/>
+    <moqui.basic.LocalizedMessage original="The session was lost part way. Look in the mail server's own log before anything is sent again." locale="es" localized="La sesión de transporte se perdió a mitad de camino. Mire el propio registro del servidor de correo antes de enviar nada de nuevo."/>
+    <moqui.basic.LocalizedMessage original="The settings are not available to you." locale="es" localized="La configuración no está disponible para usted."/>
+    <moqui.basic.LocalizedMessage original="The shipped Constitution applies" locale="es" localized="Se aplica la Constitución incluida"/>
+    <moqui.basic.LocalizedMessage original="The sign-in mail goes through this relay: an access administrator starts it" locale="es" localized="El correo de inicio de sesión pasa por esta retransmisión: lo inicia un administrador de acceso"/>
+    <moqui.basic.LocalizedMessage original="The SMTP listener that takes mail for hosted and shared accounts from the edge gateway" locale="es" localized="La escucha SMTP que recibe el correo de las cuentas alojadas y compartidas desde la puerta de enlace de borde"/>
+    <moqui.basic.LocalizedMessage original="The staged rows of this import were removed: stage the file again" locale="es" localized="Se quitaron las filas preparadas de esta importación: prepare el archivo de nuevo"/>
+    <moqui.basic.LocalizedMessage original="The SYSTEM mail server has an SMTP host" locale="es" localized="El servidor de correo SYSTEM tiene un host SMTP"/>
+    <moqui.basic.LocalizedMessage original="The SYSTEM mail server has no SMTP host, so the instance sends no mail" locale="es" localized="El servidor de correo SYSTEM no tiene un host SMTP, así que la instancia no envía correo"/>
+    <moqui.basic.LocalizedMessage original="The translation has a control character" locale="es" localized="La traducción tiene un carácter de control"/>
+    <moqui.basic.LocalizedMessage original="The translation may not be a link or a path" locale="es" localized="La traducción no puede ser un enlace ni una ruta"/>
+    <moqui.basic.LocalizedMessage original="The user it runs as cannot sign in" locale="es" localized="El usuario con el que se ejecuta no puede iniciar sesión"/>
+    <moqui.basic.LocalizedMessage original="There is no proposed change to apply" locale="es" localized="No hay un cambio propuesto que aplicar"/>
+    <moqui.basic.LocalizedMessage original="This build leaves it out" locale="es" localized="Esta compilación lo deja fuera"/>
+    <moqui.basic.LocalizedMessage original="This build leaves it out (the ${feature} feature)" locale="es" localized="Esta compilación lo deja fuera (la función ${feature})"/>
+    <moqui.basic.LocalizedMessage original="This check looks up the public name and connects to it from this server. Confirm it to run it." locale="es" localized="Esta comprobación busca el nombre público y se conecta a él desde este servidor. Confírmela para ejecutarla."/>
+    <moqui.basic.LocalizedMessage original="This export is not available" locale="es" localized="Esta exportación no está disponible"/>
+    <moqui.basic.LocalizedMessage original="This export takes no scope" locale="es" localized="Esta exportación no admite un alcance"/>
+    <moqui.basic.LocalizedMessage original="This import is not available" locale="es" localized="Esta importación no está disponible"/>
+    <moqui.basic.LocalizedMessage original="This import takes no scope" locale="es" localized="Esta importación no admite un alcance"/>
+    <moqui.basic.LocalizedMessage original="This instance's database is not run by this server: it is backed up by its provider's own means" locale="es" localized="La base de datos de esta instancia no la ejecuta este servidor: la respalda su proveedor por sus propios medios"/>
+    <moqui.basic.LocalizedMessage original="This is not available to you." locale="es" localized="Esto no está disponible para usted."/>
+    <moqui.basic.LocalizedMessage original="This mail server belongs to a mail account: it is changed in the account's own settings, not here" locale="es" localized="Este servidor de correo pertenece a una cuenta de correo: se cambia en la configuración propia de la cuenta, no aquí"/>
+    <moqui.basic.LocalizedMessage original="This message is in a mail account's Outbox: its sender sends it again or takes it back" locale="es" localized="Este mensaje está en la bandeja de salida de una cuenta de correo: quien lo envió lo envía de nuevo o lo retira"/>
+    <moqui.basic.LocalizedMessage original="This message type is not changed here: its owner registered no handler for delegated administration" locale="es" localized="Este tipo de mensaje no se cambia aquí: su propietario no registró un manejador para la administración delegada"/>
+    <moqui.basic.LocalizedMessage original="This printer's server names a scheme or a port of its own: an instance administrator changes it in Tools" locale="es" localized="El servidor de esta impresora nombra un esquema o un puerto propio: un administrador de la instancia lo cambia en Herramientas"/>
+    <moqui.basic.LocalizedMessage original="This provider's identity mappings carry an expression or a mapping service: an instance administrator changes them in Tools" locale="es" localized="Las asignaciones de identidad de este proveedor llevan una expresión o un servicio de asignación: un administrador de la instancia las cambia en Herramientas"/>
+    <moqui.basic.LocalizedMessage original="This remote does not post over https (SFTP or a transport of its own): an instance administrator changes it in Tools" locale="es" localized="Este remoto no publica por https (SFTP o un transporte propio): un administrador de la instancia lo cambia en Herramientas"/>
+    <moqui.basic.LocalizedMessage original="This remote receives over SFTP: an instance administrator changes it in Tools" locale="es" localized="Este remoto recibe por SFTP: un administrador de la instancia lo cambia en Herramientas"/>
+    <moqui.basic.LocalizedMessage original="This row has more cells than the header" locale="es" localized="Esta fila tiene más celdas que el encabezado"/>
+    <moqui.basic.LocalizedMessage original="This topic asks for a decision: its notifications are always kept" locale="es" localized="Este tema pide una decisión: sus notificaciones se conservan siempre"/>
+    <moqui.basic.LocalizedMessage original="TURN, for browsers that cannot reach the call media directly" locale="es" localized="TURN, para los navegadores que no pueden alcanzar los medios de la llamada directamente"/>
+    <moqui.basic.LocalizedMessage original="Turned on, and the server did not report it at startup" locale="es" localized="Activado, y el servidor no lo informó al iniciar"/>
+    <moqui.basic.LocalizedMessage original="Unknown device" locale="es" localized="Dispositivo desconocido"/>
+    <moqui.basic.LocalizedMessage original="Unknown: the backup job keeps only its failed runs, so a run that succeeded left no record" locale="es" localized="Desconocido: el trabajo de copia de seguridad solo conserva sus ejecuciones fallidas, así que una ejecución correcta no dejó registro"/>
+    <moqui.basic.LocalizedMessage original="Unknown: the database could not be read" locale="es" localized="Desconocido: no se pudo leer la base de datos"/>
+    <moqui.basic.LocalizedMessage original="Unknown: this instance's database is not run by this server. Its backups are its provider's, and nothing here knows whether they are made." locale="es" localized="Desconocido: la base de datos de esta instancia no la ejecuta este servidor. Sus copias de seguridad son de su proveedor, y aquí no se sabe si se hacen."/>
+    <moqui.basic.LocalizedMessage original="Users and memberships" locale="es" localized="Usuarios y membresías"/>
+    <moqui.basic.LocalizedMessage original="Verifies what the provider sends here" locale="es" localized="Verifica lo que el proveedor envía aquí"/>
+    <moqui.basic.LocalizedMessage original="Waiting for a worker" locale="es" localized="En espera de un trabajador"/>
+    <moqui.basic.LocalizedMessage original="Waiting for its code to be entered on the device" locale="es" localized="En espera de que se introduzca su código en el dispositivo"/>
+    <moqui.basic.LocalizedMessage original="Waiting for its code to be shown" locale="es" localized="En espera de que se muestre su código"/>
+    <moqui.basic.LocalizedMessage original="Waiting or in progress" locale="es" localized="En espera o en curso"/>
+    <moqui.basic.LocalizedMessage original="Waiting to be consumed" locale="es" localized="En espera de consumo"/>
+    <moqui.basic.LocalizedMessage original="Waiting to be sent" locale="es" localized="En espera de envío"/>
+    <moqui.basic.LocalizedMessage original="Webhook signature key" locale="es" localized="Clave de firma del webhook"/>
+    <moqui.basic.LocalizedMessage original="What a sign-in is verified by changed: the provider is disabled until a test of it passes and it is enabled again" locale="es" localized="Cambió aquello con lo que se verifica un inicio de sesión: el proveedor queda desactivado hasta que una prueba sea correcta y se vuelva a habilitar"/>
+    <moqui.basic.LocalizedMessage original="What a sign-in is verified by changed: the stored secret was cleared, and the provider is disabled until a test of it passes and it is enabled again" locale="es" localized="Cambió aquello con lo que se verifica un inicio de sesión: se borró el secreto guardado, y el proveedor queda desactivado hasta que una prueba sea correcta y se vuelva a habilitar"/>
+    <moqui.basic.LocalizedMessage original="What the connection is tested by changed: the connection is disabled until a test of it passes" locale="es" localized="Cambió aquello con lo que se prueba la conexión: la conexión queda desactivada hasta que una prueba sea correcta"/>
+    <moqui.basic.LocalizedMessage original="What the connection is tested by changed: the connection stays disabled: test it as it is now, then enable it" locale="es" localized="Cambió aquello con lo que se prueba la conexión: la conexión sigue desactivada: pruébela tal como está ahora y luego habilítela"/>
+    <moqui.basic.LocalizedMessage original="What the connection is tested by changed: the stored secret was cleared, and the connection is disabled until a test of it passes" locale="es" localized="Cambió aquello con lo que se prueba la conexión: se borró el secreto guardado, y la conexión queda desactivada hasta que una prueba sea correcta"/>
+    <moqui.basic.LocalizedMessage original="What the connection is tested by changed: the stored secret was cleared, and the connection stays disabled: test it as it is now, then enable it" locale="es" localized="Cambió aquello con lo que se prueba la conexión: se borró el secreto guardado, y la conexión sigue desactivada: pruébela tal como está ahora y luego habilítela"/>
+    <moqui.basic.LocalizedMessage original="Where messages are posted: an https URL" locale="es" localized="Donde se publican los mensajes: una URL https"/>
+    <moqui.basic.LocalizedMessage original="Where this remote is used could not be read, so it is not changed here" locale="es" localized="No se pudo leer dónde se usa este remoto, así que no se cambia aquí"/>
+    <moqui.basic.LocalizedMessage original="XMPP for the users' own chat apps" locale="es" localized="XMPP para las aplicaciones de conversación propias de los usuarios"/>
+    <moqui.basic.LocalizedMessage original="xmpp-server@domain is not set" locale="es" localized="xmpp-server@domain no está definido"/>
+    <moqui.basic.LocalizedMessage original="Yes (by its inbox)" locale="es" localized="Sí (por su bandeja de entrada)"/>
+    <moqui.basic.LocalizedMessage original="Yes (not set)" locale="es" localized="Sí (sin definir)"/>
+    <moqui.basic.LocalizedMessage original="Your account has no email address to send the test message to" locale="es" localized="Su cuenta no tiene una dirección de correo a la que enviar el mensaje de prueba"/>
+    <moqui.basic.LocalizedMessage original="Your own sign-ins and credentials are ended in your account settings" locale="es" localized="Sus propios inicios de sesión y credenciales se terminan en la configuración de su cuenta"/>
+</entity-facade-xml>

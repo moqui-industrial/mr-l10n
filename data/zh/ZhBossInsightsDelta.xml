@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+
+<entity-facade-xml type="zh">
+    <moqui.basic.LocalizedMessage original="${count} day" locale="zh" localized="${count} 天"/>
+    <moqui.basic.LocalizedMessage original="${count} hour" locale="zh" localized="${count} 小时"/>
+    <moqui.basic.LocalizedMessage original="${digest?.periodText} · ${digest?.dashboardCount} ${digest?.dashboardCount == 1 ? 'dashboard' : 'dashboards'} · ${digest?.sharedText}${digest?.isDefault ? ' · on your Home' : ''}" locale="zh" localized="${digest?.periodText} · ${digest?.dashboardCount} ${digest?.dashboardCount == 1 ? '个仪表板' : '个仪表板'} · ${digest?.sharedText}${digest?.isDefault ? ' · 在您的首页' : ''}"/>
+    <moqui.basic.LocalizedMessage original="${digestPreview.missingCount} ${digestPreview.missingCount == 1 ? 'section is' : 'sections are'} not shown: you may not read ${digestPreview.missingCount == 1 ? 'it' : 'them'}." locale="zh" localized="${digestPreview.missingCount} ${digestPreview.missingCount == 1 ? '个部分' : '个部分'}未显示：您可能无法查看${digestPreview.missingCount == 1 ? '它' : '它们'}。"/>
+    <moqui.basic.LocalizedMessage original="${factsText}. ${flow.countsText} A count is its own list's and counts are not added together; an arrow is the usual next step, not a promise that every case takes it." locale="zh" localized="${factsText}。${flow.countsText} 计数属于其自身的列表，计数不加总；箭头是通常的下一步，并不保证每个案例都会经过它。"/>
+    <moqui.basic.LocalizedMessage original="${flow.problemCount} ${flow.problemCount == 1 ? 'reference of this map is' : 'references of this map are'} not registered, so ${flow.problemCount == 1 ? 'its step reads' : 'their steps read'} as information. The editor names each." locale="zh" localized="${flow.problemCount} ${flow.problemCount == 1 ? '个此图引用' : '个此图引用'}未登记，因此${flow.problemCount == 1 ? '其步骤显示' : '其步骤显示'}为说明。编辑器会逐一指出。"/>
+    <moqui.basic.LocalizedMessage original="${flowDoc.template ? 'A suite template is not changed.' : 'Only its owner changes a map.'} Copy it for your organization from Maps to make your own." locale="zh" localized="${flowDoc.template ? '套件模板不会被更改。' : '只有其所有者可以更改图。'} 请从地图为您的组织复制一份，做成自己的。"/>
+    <moqui.basic.LocalizedMessage original="${found.missingCount} ${found.missingCount == 1 ? 'section is' : 'sections are'} not shown: you may not read ${found.missingCount == 1 ? 'it' : 'them'}." locale="zh" localized="${found.missingCount} ${found.missingCount == 1 ? '个部分' : '个部分'}未显示：您可能无法查看${found.missingCount == 1 ? '它' : '它们'}。"/>
+    <moqui.basic.LocalizedMessage original="${found?.freshnessText}. Checked ${found?.checkedText}" locale="zh" localized="${found?.freshnessText}。已检查 ${found?.checkedText}"/>
+    <moqui.basic.LocalizedMessage original="${own ? 'Yours' : 'Shared with you'} · ${sharedText}" locale="zh" localized="${own ? '您的' : '共享给您'} · ${sharedText}"/>
+    <moqui.basic.LocalizedMessage original="${sel.countTitle}: ${sel.countText}. ${sel.countMeaning} ${sel.countScope ? 'Scope: ' + sel.countScope + '.' : ''} ${sel.countMessage}" locale="zh" localized="${sel.countTitle}: ${sel.countText}. ${sel.countMeaning} ${sel.countScope ? '范围: ' + sel.countScope + '.' : ''} ${sel.countMessage}"/>
+    <moqui.basic.LocalizedMessage original="${version}${current ? ' (current)' : ''}" locale="zh" localized="${version}${current ? ' (当前)' : ''}"/>
+    <moqui.basic.LocalizedMessage original="A bill that does not match its order or receipt is held until the difference is settled." locale="zh" localized="与其订单或收货不符的账单会暂挂，直到差额结清。"/>
+    <moqui.basic.LocalizedMessage original="A drill needs Insights read" locale="zh" localized="下钻需要 Insights 读取权限"/>
+    <moqui.basic.LocalizedMessage original="A flow map explains a business flow step by step and links each step to its work. The suite's maps are templates${found?.canCopy ? '; copy one for your organization to make it yours' : ''}." locale="zh" localized="流程图逐步说明业务流程，并把每个步骤连到其工作。套件中的图是模板${found?.canCopy ? '；为您的组织复制一份，使其成为您自己的' : ''}。"/>
+    <moqui.basic.LocalizedMessage original="A flow map is copied in Business flows" locale="zh" localized="流程图在业务流程中复制"/>
+    <moqui.basic.LocalizedMessage original="A Knowledge page you read. The map links it; who may read the page stays Knowledge's." locale="zh" localized="您阅读的一个知识页面。图只链接它；谁可以阅读该页面仍由知识决定。"/>
+    <moqui.basic.LocalizedMessage original="A lane's description" locale="zh" localized="泳道的描述"/>
+    <moqui.basic.LocalizedMessage original="A lane's name" locale="zh" localized="泳道的名称"/>
+    <moqui.basic.LocalizedMessage original="A map stays with its organization; copy it for another." locale="zh" localized="图留在其组织中；要用于另一组织请复制。"/>
+    <moqui.basic.LocalizedMessage original="A measure is not its own target" locale="zh" localized="指标不能作为自身的目标"/>
+    <moqui.basic.LocalizedMessage original="A measure its owning app registers; empty, the panel is an analysis" locale="zh" localized="由其所属应用登记的指标；留空则该面板为分析"/>
+    <moqui.basic.LocalizedMessage original="A measure target takes a measure, not a value" locale="zh" localized="指标目标使用指标，而不是值"/>
+    <moqui.basic.LocalizedMessage original="A money target names its currency" locale="zh" localized="金额目标必须指明其货币"/>
+    <moqui.basic.LocalizedMessage original="A money target names the one currency the panel is filtered to" locale="zh" localized="金额目标指明面板所筛选到的那一种货币"/>
+    <moqui.basic.LocalizedMessage original="A need becomes a purchase request, from a person or from a reorder rule." locale="zh" localized="需求成为采购申请，来自人员或再订货规则。"/>
+    <moqui.basic.LocalizedMessage original="A panel's measure and target need Insights authoring" locale="zh" localized="面板的指标和目标需要 Insights 编写权限"/>
+    <moqui.basic.LocalizedMessage original="A placed order waits for approval before the warehouse sees it." locale="zh" localized="已下达的订单在仓库看到之前等待审批。"/>
+    <moqui.basic.LocalizedMessage original="A purchase order is drafted and submitted for approval." locale="zh" localized="起草采购订单并提交审批。"/>
+    <moqui.basic.LocalizedMessage original="A quarter" locale="zh" localized="一个季度"/>
+    <moqui.basic.LocalizedMessage original="A question or a problem becomes a case, worked in its queue under its service level." locale="zh" localized="疑问或问题成为案例，在其队列中按服务级别处理。"/>
+    <moqui.basic.LocalizedMessage original="A rate is recomputed from its numerator and denominator, never averaged or summed." locale="zh" localized="比率由其分子和分母重新计算，从不取平均或加总。"/>
+    <moqui.basic.LocalizedMessage original="A record behind a report needs Insights read" locale="zh" localized="报表背后的记录需要 Insights 读取权限"/>
+    <moqui.basic.LocalizedMessage original="A registered count: its owner's own count of the list it opens." locale="zh" localized="已登记的计数：由其所有者对所打开列表做的计数。"/>
+    <moqui.basic.LocalizedMessage original="A return is authorized under the store's return policy and the customer sends the goods back." locale="zh" localized="按商店的退货策略授权退货，客户把货物寄回。"/>
+    <moqui.basic.LocalizedMessage original="A salesperson qualifies the opportunity and sends a quote; the customer accepts it and it becomes a sales order. Quotes waiting to be sent or expiring are in Sales." locale="zh" localized="销售人员认定商机并发送报价；客户接受后成为销售订单。待发送或即将到期的报价在销售中。"/>
+    <moqui.basic.LocalizedMessage original="A small suite dashboard over the admitted business datasets: orders and order value by currency, the open case backlog and store checkouts. Each viewer sees their own organizations' rows." locale="zh" localized="套件的小型仪表板，基于已准入的业务数据集：按货币的订单和订单金额、未结案例待办和商店结账。每位查看者只看到自己组织的行。"/>
+    <moqui.basic.LocalizedMessage original="A snapshot is never summed across dates." locale="zh" localized="快照从不跨日期加总。"/>
+    <moqui.basic.LocalizedMessage original="A source is stale ${age} after its last rebuild" locale="zh" localized="来源在上次重建 ${age} 后即为过时"/>
+    <moqui.basic.LocalizedMessage original="A source is stale after" locale="zh" localized="来源在此后过时"/>
+    <moqui.basic.LocalizedMessage original="A step's description" locale="zh" localized="步骤的描述"/>
+    <moqui.basic.LocalizedMessage original="A step's name" locale="zh" localized="步骤的名称"/>
+    <moqui.basic.LocalizedMessage original="A target is a measure or a value" locale="zh" localized="目标是一个指标或一个值"/>
+    <moqui.basic.LocalizedMessage original="A target measure shares the panel measure's unit and basis" locale="zh" localized="目标指标与面板指标的单位和基准相同"/>
+    <moqui.basic.LocalizedMessage original="A value" locale="zh" localized="一个值"/>
+    <moqui.basic.LocalizedMessage original="A value target takes a value, not a measure" locale="zh" localized="值目标使用值，而不是指标"/>
+    <moqui.basic.LocalizedMessage original="A year" locale="zh" localized="一年"/>
+    <moqui.basic.LocalizedMessage original="Accounting's fiscal periods of ${name}" locale="zh" localized="会计中 ${name} 的会计期间"/>
+    <moqui.basic.LocalizedMessage original="Add a lane first, then its steps." locale="zh" localized="请先添加泳道，再添加其步骤。"/>
+    <moqui.basic.LocalizedMessage original="Add panel" locale="zh" localized="添加面板"/>
+    <moqui.basic.LocalizedMessage original="Add to my dashboard" locale="zh" localized="添加到我的仪表板"/>
+    <moqui.basic.LocalizedMessage original="Added to your dashboard" locale="zh" localized="已添加到您的仪表板"/>
+    <moqui.basic.LocalizedMessage original="All maps" locale="zh" localized="全部地图"/>
+    <moqui.basic.LocalizedMessage original="An accepted return is refunded or credited against the customer's account." locale="zh" localized="已接受的退货会退款，或贷记到客户账户。"/>
+    <moqui.basic.LocalizedMessage original="An analysis needs Insights authoring" locale="zh" localized="分析需要 Insights 编写权限"/>
+    <moqui.basic.LocalizedMessage original="An approved order is sent to the supplier." locale="zh" localized="已批准的订单发送给供应商。"/>
+    <moqui.basic.LocalizedMessage original="An order whose payment was not authorized is held until the customer pays or the hold is released." locale="zh" localized="付款未获授权的订单会暂挂，直到客户付款或解除暂挂。"/>
+    <moqui.basic.LocalizedMessage original="Analytics defaults" locale="zh" localized="分析默认值"/>
+    <moqui.basic.LocalizedMessage original="Another measure" locale="zh" localized="另一指标"/>
+    <moqui.basic.LocalizedMessage original="Applied to the time grains of Analysis and Assist. Saved dashboards group by each viewer's own zone." locale="zh" localized="应用于分析和助手的时间粒度。已保存的仪表板按每位查看者自己的时区分组。"/>
+    <moqui.basic.LocalizedMessage original="Approved bills are paid in payment runs." locale="zh" localized="已批准的账单在付款运行中支付。"/>
+    <moqui.basic.LocalizedMessage original="Approved orders are released to picklists, picked from their locations and packed." locale="zh" localized="已批准的订单下达到拣货单，从其货位拣货并装箱。"/>
+    <moqui.basic.LocalizedMessage original="Ask for quotes" locale="zh" localized="询价"/>
+    <moqui.basic.LocalizedMessage original="Asks the owner's refresh for ${source}: ${refreshTitle}. The source shows its new state once it is done." locale="zh" localized="请求所有者刷新 ${source}：${refreshTitle}。完成后，来源会显示其新状态。"/>
+    <moqui.basic.LocalizedMessage original="At most ${cap} for a schedule or an alert rule" locale="zh" localized="一个排程或一条告警规则最多 ${cap} 个"/>
+    <moqui.basic.LocalizedMessage original="At most 10,000 rows for a dataset export; every export is audited" locale="zh" localized="数据集导出最多 10,000 行；每次导出都会审计"/>
+    <moqui.basic.LocalizedMessage original="Back to ${storyMap ? storyMap.title : 'the flow map'}${storyStep ? ' › ' + storyStep.title : ''}" locale="zh" localized="返回${storyMap ? storyMap.title : '流程图'}${storyStep ? ' › ' + storyStep.title : ''}"/>
+    <moqui.basic.LocalizedMessage original="Better is" locale="zh" localized="较好为"/>
+    <moqui.basic.LocalizedMessage original="Better is higher or lower" locale="zh" localized="较好为更高或更低"/>
+    <moqui.basic.LocalizedMessage original="Bill arrives" locale="zh" localized="账单到达"/>
+    <moqui.basic.LocalizedMessage original="Bills and payments." locale="zh" localized="账单和付款。"/>
+    <moqui.basic.LocalizedMessage original="Browse dashboards" locale="zh" localized="浏览仪表板"/>
+    <moqui.basic.LocalizedMessage original="Business flows" locale="zh" localized="业务流程"/>
+    <moqui.basic.LocalizedMessage original="Business flows are shown to Insights readers." locale="zh" localized="业务流程显示给 Insights 的读取者。"/>
+    <moqui.basic.LocalizedMessage original="Business flows need Insights read" locale="zh" localized="业务流程需要 Insights 读取权限"/>
+    <moqui.basic.LocalizedMessage original="Business flows now opens on that map for you" locale="zh" localized="业务流程现在为您打开该图"/>
+    <moqui.basic.LocalizedMessage original="Business flows now opens on this map for you" locale="zh" localized="业务流程现在为您打开此图"/>
+    <moqui.basic.LocalizedMessage original="Business measure" locale="zh" localized="业务指标"/>
+    <moqui.basic.LocalizedMessage original="Campaigns, the website and referrals bring a customer in. Marketing's campaigns, their visits and the orders attributed to them." locale="zh" localized="营销活动、网站和推荐带来客户。营销的活动、其访问以及归属于它们的订单。"/>
+    <moqui.basic.LocalizedMessage original="Cases whose resolution clock is running or paused now, opened in the last five years." locale="zh" localized="处理时限正在计时或已暂停、且在最近五年内打开的案例。"/>
+    <moqui.basic.LocalizedMessage original="Cases, returns and warranty." locale="zh" localized="案例、退货和保修。"/>
+    <moqui.basic.LocalizedMessage original="Catch up late work" locale="zh" localized="补上延误的工作"/>
+    <moqui.basic.LocalizedMessage original="Changed in Insights" locale="zh" localized="在 Insights 中更改"/>
+    <moqui.basic.LocalizedMessage original="Changing Insights settings needs INSIGHTS_SETTINGS_EDIT" locale="zh" localized="更改 Insights 设置需要 INSIGHTS_SETTINGS_EDIT"/>
+    <moqui.basic.LocalizedMessage original="Checked by the instance's administrators" locale="zh" localized="由实例的管理员检查"/>
+    <moqui.basic.LocalizedMessage original="Checkout places the order; an order taken by a salesperson joins here. Orders are counted when placed, by the selling organization." locale="zh" localized="结账下达订单；销售人员承接的订单也汇入这里。订单在下达时按销售组织计数。"/>
+    <moqui.basic.LocalizedMessage original="Choose a library panel" locale="zh" localized="请选择一个库面板"/>
+    <moqui.basic.LocalizedMessage original="Choose a measure or a panel" locale="zh" localized="请选择一个指标或一个面板"/>
+    <moqui.basic.LocalizedMessage original="Choose a period" locale="zh" localized="请选择一个期间"/>
+    <moqui.basic.LocalizedMessage original="Choose a report" locale="zh" localized="请选择一个报表"/>
+    <moqui.basic.LocalizedMessage original="Choose a step to read what it means, where its work waits and its procedure." locale="zh" localized="选择一个步骤，以阅读其含义、工作在何处等待及其程序。"/>
+    <moqui.basic.LocalizedMessage original="Choose an admitted dataset you may read" locale="zh" localized="请选择一个您可以读取的已准入数据集"/>
+    <moqui.basic.LocalizedMessage original="Choose an organization for its fiscal periods" locale="zh" localized="请选择一个组织以使用其会计期间"/>
+    <moqui.basic.LocalizedMessage original="Choose an organization to see its settings." locale="zh" localized="请选择一个组织以查看其设置。"/>
+    <moqui.basic.LocalizedMessage original="Choose dashboards you may read" locale="zh" localized="请选择您可以读取的仪表板"/>
+    <moqui.basic.LocalizedMessage original="Choose one to six dashboards" locale="zh" localized="请选择一到六个仪表板"/>
+    <moqui.basic.LocalizedMessage original="Choose the organization Home opens in, the dashboard whose panels it shows and up to six of them. This changes what Home shows you, not what anyone may read." locale="zh" localized="选择首页打开时所在的组织、所显示面板所属的仪表板，以及其中最多六个面板。这只改变首页向您显示的内容，不改变任何人的读取权限。"/>
+    <moqui.basic.LocalizedMessage original="Choose the organization these settings are for" locale="zh" localized="请选择这些设置所属的组织"/>
+    <moqui.basic.LocalizedMessage original="Choose the panel's measure before its target" locale="zh" localized="请先选择面板的指标，再设置其目标"/>
+    <moqui.basic.LocalizedMessage original="Choose the target measure" locale="zh" localized="请选择目标指标"/>
+    <moqui.basic.LocalizedMessage original="Choosing another dashboard shows all of its panels; arrange again to choose among them." locale="zh" localized="选择另一个仪表板会显示其全部面板；请再次排列以从中选择。"/>
+    <moqui.basic.LocalizedMessage original="Close the period" locale="zh" localized="关闭期间"/>
+    <moqui.basic.LocalizedMessage original="Commentary" locale="zh" localized="评注"/>
+    <moqui.basic.LocalizedMessage original="Compare this with the period before, keeping currencies apart" locale="zh" localized="将此与上一期间比较，并分开各货币"/>
+    <moqui.basic.LocalizedMessage original="Comparing" locale="zh" localized="比较"/>
+    <moqui.basic.LocalizedMessage original="Completeness" locale="zh" localized="完整性"/>
+    <moqui.basic.LocalizedMessage original="Composed in Insights" locale="zh" localized="在 Insights 中编制"/>
+    <moqui.basic.LocalizedMessage original="Composing a digest needs authoring or the distribute permission" locale="zh" localized="编制摘要需要编写权限或分发权限"/>
+    <moqui.basic.LocalizedMessage original="Consent and subscriptions" locale="zh" localized="同意与订阅"/>
+    <moqui.basic.LocalizedMessage original="Copied: rename its steps and link your procedures" locale="zh" localized="已复制：请重命名其步骤并链接您的程序"/>
+    <moqui.basic.LocalizedMessage original="Copy ${title} for an organization" locale="zh" localized="为组织复制 ${title}"/>
+    <moqui.basic.LocalizedMessage original="Copy map" locale="zh" localized="复制图"/>
+    <moqui.basic.LocalizedMessage original="Copying and changing flow maps needs the flow editor's permission" locale="zh" localized="复制和更改流程图需要流程编辑权限"/>
+    <moqui.basic.LocalizedMessage original="Counts ${meaning.grain}. Basis: ${meaning.basis}." locale="zh" localized="按 ${meaning.grain} 计数。基准：${meaning.basis}。"/>
+    <moqui.basic.LocalizedMessage original="Counts ${panelMeasure?.grain}. Basis: ${panelMeasure?.basis}." locale="zh" localized="按 ${panelMeasure?.grain} 计数。基准：${panelMeasure?.basis}。"/>
+    <moqui.basic.LocalizedMessage original="Counts compare the floor with the records; variances are reviewed before they adjust stock." locale="zh" localized="盘点把现场与记录比较；差异在调整库存之前经过复核。"/>
+    <moqui.basic.LocalizedMessage original="Counts for" locale="zh" localized="计数对象"/>
+    <moqui.basic.LocalizedMessage original="Currencies are shown apart, each in its own." locale="zh" localized="货币分开显示，各自独立。"/>
+    <moqui.basic.LocalizedMessage original="Customer flow" locale="zh" localized="客户流程"/>
+    <moqui.basic.LocalizedMessage original="Customer service" locale="zh" localized="客户服务"/>
+    <moqui.basic.LocalizedMessage original="Customer service settings" locale="zh" localized="客户服务设置"/>
+    <moqui.basic.LocalizedMessage original="Dashboard editor" locale="zh" localized="仪表板编辑器"/>
+    <moqui.basic.LocalizedMessage original="Dashboards and reports are shown to Insights readers." locale="zh" localized="仪表板和报表显示给 Insights 的读取者。"/>
+    <moqui.basic.LocalizedMessage original="Dashboards you star or open show here." locale="zh" localized="您加星或打开过的仪表板显示在这里。"/>
+    <moqui.basic.LocalizedMessage original="Data readiness" locale="zh" localized="数据就绪"/>
+    <moqui.basic.LocalizedMessage original="Data readiness is not available just now." locale="zh" localized="数据就绪此刻不可用。"/>
+    <moqui.basic.LocalizedMessage original="Data readiness is shown to Insights readers." locale="zh" localized="数据就绪显示给 Insights 的读取者。"/>
+    <moqui.basic.LocalizedMessage original="Data readiness needs Insights read" locale="zh" localized="数据就绪需要 Insights 读取权限"/>
+    <moqui.basic.LocalizedMessage original="Data readiness shows each source's lag." locale="zh" localized="数据就绪显示每个来源的滞后。"/>
+    <moqui.basic.LocalizedMessage original="Define products" locale="zh" localized="定义产品"/>
+    <moqui.basic.LocalizedMessage original="Deliveries are received at the dock against their order and inspected." locale="zh" localized="到货在码头按订单接收并检验。"/>
+    <moqui.basic.LocalizedMessage original="Delivery outcomes are kept as the instance's retention sets." locale="zh" localized="投递结果作为实例的保留集保存。"/>
+    <moqui.basic.LocalizedMessage original="Demand and stock decide what to make and when; the schedule loads the work centers." locale="zh" localized="需求和库存决定生产什么以及何时生产；排程装载工作中心。"/>
+    <moqui.basic.LocalizedMessage original="Devices showing it" locale="zh" localized="正在显示它的设备"/>
+    <moqui.basic.LocalizedMessage original="Digest saved" locale="zh" localized="摘要已保存"/>
+    <moqui.basic.LocalizedMessage original="Digests" locale="zh" localized="摘要"/>
+    <moqui.basic.LocalizedMessage original="Digests are shown to Insights readers." locale="zh" localized="摘要显示给 Insights 的读取者。"/>
+    <moqui.basic.LocalizedMessage original="Display time zone" locale="zh" localized="显示时区"/>
+    <moqui.basic.LocalizedMessage original="Display time zone and week" locale="zh" localized="显示时区与周"/>
+    <moqui.basic.LocalizedMessage original="Do the work" locale="zh" localized="执行工作"/>
+    <moqui.basic.LocalizedMessage original="Download as PDF" locale="zh" localized="下载为 PDF"/>
+    <moqui.basic.LocalizedMessage original="Each of these reads as information on the map until it names something registered." locale="zh" localized="在指名已登记的对象之前，这些在图上都只作为说明。"/>
+    <moqui.basic.LocalizedMessage original="Each period is reconciled, locked and closed." locale="zh" localized="每个期间都经过对账、锁定和关闭。"/>
+    <moqui.basic.LocalizedMessage original="Each recipient gets a message of their own; one whose access differs is skipped. Scheduling for oneself: ${self}. Delivering to others: ${others}." locale="zh" localized="每位收件人收到自己的消息；访问权限不同的人会被跳过。为自己排程：${self}。投递给其他人：${others}。"/>
+    <moqui.basic.LocalizedMessage original="Each report opens in the app that owns it, with that app's own access." locale="zh" localized="每个报表在其所属应用中打开，并使用该应用自己的访问权限。"/>
+    <moqui.basic.LocalizedMessage original="Each viewer's own time zone" locale="zh" localized="每位查看者自己的时区"/>
+    <moqui.basic.LocalizedMessage original="Edit lane ${title}" locale="zh" localized="编辑泳道 ${title}"/>
+    <moqui.basic.LocalizedMessage original="Edit map" locale="zh" localized="编辑图"/>
+    <moqui.basic.LocalizedMessage original="Edit step ${editStep?.title}" locale="zh" localized="编辑步骤 ${editStep?.title}"/>
+    <moqui.basic.LocalizedMessage original="Employees and their time." locale="zh" localized="员工及其工时。"/>
+    <moqui.basic.LocalizedMessage original="Employees hired, organized and scheduled: the directory of each employer, its headcount and turnover, and the employees still waiting for a manager." locale="zh" localized="员工的聘用、组织和排班：每个雇主的名录、人数和流动，以及仍在等待经理的员工。"/>
+    <moqui.basic.LocalizedMessage original="Empty clears the target" locale="zh" localized="留空则清除目标"/>
+    <moqui.basic.LocalizedMessage original="Empty: the instance's week start." locale="zh" localized="留空：使用实例的周起始日。"/>
+    <moqui.basic.LocalizedMessage original="Empty: the next step of its lane." locale="zh" localized="留空：其泳道的下一步。"/>
+    <moqui.basic.LocalizedMessage original="Enter the target value" locale="zh" localized="请输入目标值"/>
+    <moqui.basic.LocalizedMessage original="Enter the target value as a number" locale="zh" localized="请以数字输入目标值"/>
+    <moqui.basic.LocalizedMessage original="Equipment and its upkeep." locale="zh" localized="设备及其保养。"/>
+    <moqui.basic.LocalizedMessage original="Excludes" locale="zh" localized="排除"/>
+    <moqui.basic.LocalizedMessage original="Excludes: ${meaning.exclusions}" locale="zh" localized="排除：${meaning.exclusions}"/>
+    <moqui.basic.LocalizedMessage original="Excludes: ${panelMeasure?.exclusions}" locale="zh" localized="排除：${panelMeasure?.exclusions}"/>
+    <moqui.basic.LocalizedMessage original="Explain this number: what it measures, its basis and scope, and what it leaves out" locale="zh" localized="解释这个数字：它衡量什么、其基准和范围，以及它排除什么"/>
+    <moqui.basic.LocalizedMessage original="Find a report" locale="zh" localized="查找报表"/>
+    <moqui.basic.LocalizedMessage original="Finds us" locale="zh" localized="找到我们"/>
+    <moqui.basic.LocalizedMessage original="Fiscal calendar" locale="zh" localized="会计日历"/>
+    <moqui.basic.LocalizedMessage original="Fiscal ranges follow the organization's calendar in Accounting; it is not set here." locale="zh" localized="会计期间范围跟随该组织在会计中的日历；不在此处设置。"/>
+    <moqui.basic.LocalizedMessage original="Flow map" locale="zh" localized="流程图"/>
+    <moqui.basic.LocalizedMessage original="Flow maps" locale="zh" localized="流程图"/>
+    <moqui.basic.LocalizedMessage original="Flow maps are shown to Insights readers." locale="zh" localized="流程图显示给 Insights 的读取者。"/>
+    <moqui.basic.LocalizedMessage original="For one scheduled report or alert rule. The instance allows up to ${found.recipientCeiling}, which is set in Admin." locale="zh" localized="用于一个已排程的报表或一条告警规则。实例允许的上限是 ${found.recipientCeiling}，在 Admin 中设置。"/>
+    <moqui.basic.LocalizedMessage original="From a customer finding us to a paid order and the service after it: who does each step, where its work waits and where to read more. Copy it for your organization to rename steps and link your own procedures." locale="zh" localized="从客户找到我们，到已付款的订单及其后的服务：谁做每一步、工作在何处等待、何处阅读更多。为您的组织复制一份，重命名步骤并链接自己的程序。"/>
+    <moqui.basic.LocalizedMessage original="From a need to buy to a paid supplier bill: who does each step, where its work waits and where to read more. Copy it for your organization to rename steps and link your own procedures." locale="zh" localized="从采购需求到已付款的供应商账单：谁做每一步、工作在何处等待、何处阅读更多。为您的组织复制一份，重命名步骤并链接自己的程序。"/>
+    <moqui.basic.LocalizedMessage original="Goods sent back are received and inspected against their return authorization." locale="zh" localized="退回的货物按退货授权接收并检验。"/>
+    <moqui.basic.LocalizedMessage original="Group recipients" locale="zh" localized="组收件人"/>
+    <moqui.basic.LocalizedMessage original="Group recipients, at most" locale="zh" localized="组收件人，至多"/>
+    <moqui.basic.LocalizedMessage original="Help and questions" locale="zh" localized="帮助与问题"/>
+    <moqui.basic.LocalizedMessage original="Higher" locale="zh" localized="更高"/>
+    <moqui.basic.LocalizedMessage original="Hire and schedule people" locale="zh" localized="聘用并排班"/>
+    <moqui.basic.LocalizedMessage original="Home could not be read just now. ${homeFailure}" locale="zh" localized="此刻无法读取首页。${homeFailure}"/>
+    <moqui.basic.LocalizedMessage original="Home dashboard" locale="zh" localized="首页仪表板"/>
+    <moqui.basic.LocalizedMessage original="Home now previews this digest" locale="zh" localized="首页现在预览此摘要"/>
+    <moqui.basic.LocalizedMessage original="Home previews no digest" locale="zh" localized="首页不预览任何摘要"/>
+    <moqui.basic.LocalizedMessage original="Home shows the suite overview below and the work waiting in the apps you use. Star dashboards in Dashboards and pin reports in Reports to keep them here." locale="zh" localized="首页在下方显示套件概览，以及您所使用应用中等待的工作。在仪表板中为仪表板加星，在报表中置顶报表，即可把它们留在这里。"/>
+    <moqui.basic.LocalizedMessage original="How long after its last rebuild Data readiness shows a source as stale." locale="zh" localized="距上次重建多久之后，数据就绪将来源显示为过时。"/>
+    <moqui.basic.LocalizedMessage original="Insights context is not available" locale="zh" localized="Insights 上下文不可用"/>
+    <moqui.basic.LocalizedMessage original="Insights is not available" locale="zh" localized="Insights 不可用"/>
+    <moqui.basic.LocalizedMessage original="Insights read is required" locale="zh" localized="需要 Insights 读取权限"/>
+    <moqui.basic.LocalizedMessage original="Insights settings are shown to Insights readers." locale="zh" localized="Insights 设置显示给 Insights 的读取者。"/>
+    <moqui.basic.LocalizedMessage original="Insights settings need Insights read" locale="zh" localized="Insights 设置需要 Insights 读取权限"/>
+    <moqui.basic.LocalizedMessage original="Internal flow" locale="zh" localized="内部流程"/>
+    <moqui.basic.LocalizedMessage original="Invoices, payments and refunds." locale="zh" localized="发票、付款和退款。"/>
+    <moqui.basic.LocalizedMessage original="Keep equipment running" locale="zh" localized="保持设备运行"/>
+    <moqui.basic.LocalizedMessage original="Keep stock" locale="zh" localized="保持库存"/>
+    <moqui.basic.LocalizedMessage original="Keep the books" locale="zh" localized="记账"/>
+    <moqui.basic.LocalizedMessage original="Keep the commentary to 2000 characters" locale="zh" localized="评注请限制在 2000 个字符以内"/>
+    <moqui.basic.LocalizedMessage original="Lag" locale="zh" localized="滞后"/>
+    <moqui.basic.LocalizedMessage original="Lane" locale="zh" localized="泳道"/>
+    <moqui.basic.LocalizedMessage original="Lanes" locale="zh" localized="泳道"/>
+    <moqui.basic.LocalizedMessage original="Lanes saved" locale="zh" localized="泳道已保存"/>
+    <moqui.basic.LocalizedMessage original="Last rebuilt" locale="zh" localized="上次重建"/>
+    <moqui.basic.LocalizedMessage original="Last rebuilt ${lag} ago; ${allowed} is allowed" locale="zh" localized="上次重建于 ${lag} 前；允许 ${allowed}"/>
+    <moqui.basic.LocalizedMessage original="Leads to" locale="zh" localized="通向"/>
+    <moqui.basic.LocalizedMessage original="Leave it empty to keep the copy private. Each person still sees only the data they may read." locale="zh" localized="留空则副本保持私有。每个人仍然只看到自己可以读取的数据。"/>
+    <moqui.basic.LocalizedMessage original="Leave it empty to keep the digest private. A group reads the digest; each person still sees only the data they may read." locale="zh" localized="留空则摘要保持私有。组可以阅读摘要；每个人仍然只看到自己可以读取的数据。"/>
+    <moqui.basic.LocalizedMessage original="Library panel" locale="zh" localized="库面板"/>
+    <moqui.basic.LocalizedMessage original="Lower" locale="zh" localized="更低"/>
+    <moqui.basic.LocalizedMessage original="Management digest" locale="zh" localized="管理摘要"/>
+    <moqui.basic.LocalizedMessage original="Map removed" locale="zh" localized="图已移除"/>
+    <moqui.basic.LocalizedMessage original="Map saved" locale="zh" localized="图已保存"/>
+    <moqui.basic.LocalizedMessage original="Maps" locale="zh" localized="地图"/>
+    <moqui.basic.LocalizedMessage original="Match to order and receipt" locale="zh" localized="与订单和收货核对"/>
+    <moqui.basic.LocalizedMessage original="Measure cleared" locale="zh" localized="已清除指标"/>
+    <moqui.basic.LocalizedMessage original="Measure: ${sel.measureText}" locale="zh" localized="指标：${sel.measureText}"/>
+    <moqui.basic.LocalizedMessage original="Monitor's business operations are not available to you" locale="zh" localized="监控的业务运营对您不可用"/>
+    <moqui.basic.LocalizedMessage original="Monitor's Business operations dashboard has no rollbacks panel" locale="zh" localized="监控的业务运营仪表板没有回滚面板"/>
+    <moqui.basic.LocalizedMessage original="Name and sharing" locale="zh" localized="名称和共享"/>
+    <moqui.basic.LocalizedMessage original="Name the copy" locale="zh" localized="请为副本命名"/>
+    <moqui.basic.LocalizedMessage original="Name the digest in at most 120 characters" locale="zh" localized="摘要名称最多 120 个字符"/>
+    <moqui.basic.LocalizedMessage original="Native currencies are kept apart; amounts in different currencies are never added together." locale="zh" localized="货币分开保留；不同货币的金额从不加总。"/>
+    <moqui.basic.LocalizedMessage original="Needs analysis authoring access, which an administrator can grant." locale="zh" localized="需要分析编写权限，管理员可以授予。"/>
+    <moqui.basic.LocalizedMessage original="Needs digest composing access, which an administrator can grant." locale="zh" localized="需要摘要编制权限，管理员可以授予。"/>
+    <moqui.basic.LocalizedMessage original="New dashboard" locale="zh" localized="新建仪表板"/>
+    <moqui.basic.LocalizedMessage original="New fields go only to documents Insights alone reads; a document another app also reads gets new fields from that app's administrator." locale="zh" localized="新字段只加到仅由 Insights 读取的文档；另一应用也读取的文档由其管理员添加新字段。"/>
+    <moqui.basic.LocalizedMessage original="No app's reports are open to you. Each app's managers decide who reads its reports." locale="zh" localized="没有任何应用的报表对您开放。各应用的管理者决定谁可以读取其报表。"/>
+    <moqui.basic.LocalizedMessage original="No flow map matches." locale="zh" localized="没有匹配的流程图。"/>
+    <moqui.basic.LocalizedMessage original="no group" locale="zh" localized="无组"/>
+    <moqui.basic.LocalizedMessage original="No report matches." locale="zh" localized="没有匹配的报表。"/>
+    <moqui.basic.LocalizedMessage original="No source is open to you yet. A source shows here once its dataset is admitted for you to read." locale="zh" localized="还没有对您开放的来源。数据集获准您读取后，来源会显示在这里。"/>
+    <moqui.basic.LocalizedMessage original="No source matches." locale="zh" localized="没有匹配的来源。"/>
+    <moqui.basic.LocalizedMessage original="No target is set" locale="zh" localized="未设置目标"/>
+    <moqui.basic.LocalizedMessage original="No value to compare" locale="zh" localized="没有可比较的值"/>
+    <moqui.basic.LocalizedMessage original="No wall display playlists are shared with you yet." locale="zh" localized="还没有与您共享的墙面展示播放列表。"/>
+    <moqui.basic.LocalizedMessage original="None: a delivered report is rendered when it is sent and when its recipient opens it" locale="zh" localized="无：已投递的报表在发送时以及收件人打开时生成"/>
+    <moqui.basic.LocalizedMessage original="Not classified" locale="zh" localized="未分类"/>
+    <moqui.basic.LocalizedMessage original="Not opened in Insights" locale="zh" localized="不在 Insights 中打开"/>
+    <moqui.basic.LocalizedMessage original="Nothing in the map's content changed in this version." locale="zh" localized="此版本中图的内容没有变化。"/>
+    <moqui.basic.LocalizedMessage original="Nothing is saved yet. Save a dashboard, a search or a list's find, or pin a report, and it is listed here." locale="zh" localized="还没有保存任何内容。保存仪表板、搜索或列表查找，或置顶一个报表，就会列在这里。"/>
+    <moqui.basic.LocalizedMessage original="Nothing is waiting in the apps you use." locale="zh" localized="您所使用的应用中没有等待的工作。"/>
+    <moqui.basic.LocalizedMessage original="Nothing matches." locale="zh" localized="没有匹配项。"/>
+    <moqui.basic.LocalizedMessage original="One of your groups; its members who see the organization read the map. Empty keeps it private." locale="zh" localized="您的一个组；能看到该组织的成员可阅读此图。留空则保持私有。"/>
+    <moqui.basic.LocalizedMessage original="One of your own dashboards. Empty: the panel is kept in your library panels." locale="zh" localized="您自己的一个仪表板。留空：面板保存在您的库面板中。"/>
+    <moqui.basic.LocalizedMessage original="One to six dashboards you may read, in the order chosen" locale="zh" localized="一到六个您可以读取的仪表板，按所选顺序"/>
+    <moqui.basic.LocalizedMessage original="Only dashboards, panels, searches and reports are copied here" locale="zh" localized="此处只复制仪表板、面板、搜索和报表"/>
+    <moqui.basic.LocalizedMessage original="Open ${sel?.targetTitle}" locale="zh" localized="打开 ${sel?.targetTitle}"/>
+    <moqui.basic.LocalizedMessage original="Open a dashboard" locale="zh" localized="打开仪表板"/>
+    <moqui.basic.LocalizedMessage original="Open by default" locale="zh" localized="默认打开"/>
+    <moqui.basic.LocalizedMessage original="Open cases by organization" locale="zh" localized="按组织的未结案例"/>
+    <moqui.basic.LocalizedMessage original="Open digest" locale="zh" localized="打开摘要"/>
+    <moqui.basic.LocalizedMessage original="Open here by default" locale="zh" localized="在此默认打开"/>
+    <moqui.basic.LocalizedMessage original="Open it on a dashboard" locale="zh" localized="请在仪表板上打开它"/>
+    <moqui.basic.LocalizedMessage original="Open the list that is counted" locale="zh" localized="打开被计数的列表"/>
+    <moqui.basic.LocalizedMessage original="Opened with" locale="zh" localized="打开时使用"/>
+    <moqui.basic.LocalizedMessage original="Opened with one of" locale="zh" localized="打开时使用其中之一"/>
+    <moqui.basic.LocalizedMessage original="Opens and counts" locale="zh" localized="打开并计数"/>
+    <moqui.basic.LocalizedMessage original="Opens from a record" locale="zh" localized="从一条记录打开"/>
+    <moqui.basic.LocalizedMessage original="Order approved" locale="zh" localized="订单已批准"/>
+    <moqui.basic.LocalizedMessage original="Order items" locale="zh" localized="订单明细"/>
+    <moqui.basic.LocalizedMessage original="Order parts" locale="zh" localized="订单部分"/>
+    <moqui.basic.LocalizedMessage original="Order parts shipping from here" locale="zh" localized="从此处发货的订单部分"/>
+    <moqui.basic.LocalizedMessage original="Order value by currency" locale="zh" localized="按货币的订单金额"/>
+    <moqui.basic.LocalizedMessage original="Orders by currency" locale="zh" localized="按货币的订单"/>
+    <moqui.basic.LocalizedMessage original="Organization field" locale="zh" localized="组织字段"/>
+    <moqui.basic.LocalizedMessage original="Organization map" locale="zh" localized="组织流程图"/>
+    <moqui.basic.LocalizedMessage original="Organization maps" locale="zh" localized="组织流程图"/>
+    <moqui.basic.LocalizedMessage original="Outgoing mail and the report template are the instance's, set up in Admin." locale="zh" localized="外发邮件和报表模板属于实例，在 Admin 中设置。"/>
+    <moqui.basic.LocalizedMessage original="Packed shipments are labelled and handed to the carrier; shipping an order issues its stock." locale="zh" localized="已装箱的发货单贴标后交给承运人；发运订单会发出其库存。"/>
+    <moqui.basic.LocalizedMessage original="Panel name" locale="zh" localized="面板名称"/>
+    <moqui.basic.LocalizedMessage original="Panels" locale="zh" localized="面板"/>
+    <moqui.basic.LocalizedMessage original="Part status" locale="zh" localized="部分状态"/>
+    <moqui.basic.LocalizedMessage original="Part total" locale="zh" localized="部分合计"/>
+    <moqui.basic.LocalizedMessage original="Payment checked" locale="zh" localized="付款已核对"/>
+    <moqui.basic.LocalizedMessage original="Payment received" locale="zh" localized="已收到付款"/>
+    <moqui.basic.LocalizedMessage original="Payments are applied to their invoices; what stays open ages in the receivables aging." locale="zh" localized="付款核销到对应发票；未结部分在应收账龄中累积。"/>
+    <moqui.basic.LocalizedMessage original="Picking, packing, shipping and returned goods." locale="zh" localized="拣货、装箱、发货和退货。"/>
+    <moqui.basic.LocalizedMessage original="Pin reports in Reports to keep them here." locale="zh" localized="在报表中置顶报表，即可把它们留在这里。"/>
+    <moqui.basic.LocalizedMessage original="Pinned only" locale="zh" localized="仅已置顶"/>
+    <moqui.basic.LocalizedMessage original="Pinned report" locale="zh" localized="已置顶的报表"/>
+    <moqui.basic.LocalizedMessage original="Pinned reports" locale="zh" localized="已置顶的报表"/>
+    <moqui.basic.LocalizedMessage original="Placed sales orders in the range, each currency apart; recurring base orders are left out." locale="zh" localized="范围内已下达的销售订单，每种货币分开；不含循环基础订单。"/>
+    <moqui.basic.LocalizedMessage original="Places an order" locale="zh" localized="下达订单"/>
+    <moqui.basic.LocalizedMessage original="Plan production" locale="zh" localized="计划生产"/>
+    <moqui.basic.LocalizedMessage original="Planning and making." locale="zh" localized="计划与制造。"/>
+    <moqui.basic.LocalizedMessage original="Playlists and reports" locale="zh" localized="播放列表和报表"/>
+    <moqui.basic.LocalizedMessage original="Preventive and corrective work on equipment and facilities: work orders planned, assigned, done and closed, and the backlog waiting for a technician." locale="zh" localized="设备和设施上的预防与纠正工作：已计划、已分派、已完成和已关闭的工单，以及等待技术员的待办。"/>
+    <moqui.basic.LocalizedMessage original="Price lists are drafted, reviewed and published by effective date." locale="zh" localized="价格表按生效日期起草、复核和发布。"/>
+    <moqui.basic.LocalizedMessage original="Process story" locale="zh" localized="流程故事"/>
+    <moqui.basic.LocalizedMessage original="PROCESS_STORY_UNAVAILABLE: Procedures are read in Knowledge, which is not available to you" locale="zh" localized="PROCESS_STORY_UNAVAILABLE: 程序在知识中阅读，而知识对您不可用"/>
+    <moqui.basic.LocalizedMessage original="Products are described once, with their variants, units and identifiers, for every app that sells, buys, makes or stores them." locale="zh" localized="产品只描述一次，包括变体、单位和标识，供销售、采购、制造或存储它们的每个应用使用。"/>
+    <moqui.basic.LocalizedMessage original="Projects are planned, staffed and followed by their health and milestones." locale="zh" localized="项目经过计划、配备人员，并按其健康度和里程碑跟踪。"/>
+    <moqui.basic.LocalizedMessage original="Projects, work and time." locale="zh" localized="项目、工作和工时。"/>
+    <moqui.basic.LocalizedMessage original="Purchasing settings" locale="zh" localized="采购设置"/>
+    <moqui.basic.LocalizedMessage original="Put away" locale="zh" localized="上架"/>
+    <moqui.basic.LocalizedMessage original="Quote and negotiate" locale="zh" localized="报价与谈判"/>
+    <moqui.basic.LocalizedMessage original="Quoting, the stores and their orders." locale="zh" localized="报价、商店及其订单。"/>
+    <moqui.basic.LocalizedMessage original="Raise the order" locale="zh" localized="提出订单"/>
+    <moqui.basic.LocalizedMessage original="Rate: ${meaning.numerator} over ${meaning.denominator}." locale="zh" localized="比率：${meaning.numerator} 比 ${meaning.denominator}。"/>
+    <moqui.basic.LocalizedMessage original="Rate: ${panelMeasure?.numerator} over ${panelMeasure?.denominator}." locale="zh" localized="比率：${panelMeasure?.numerator} 比 ${panelMeasure?.denominator}。"/>
+    <moqui.basic.LocalizedMessage original="Read procedure: ${sel.articleTitle}" locale="zh" localized="阅读程序：${sel.articleTitle}"/>
+    <moqui.basic.LocalizedMessage original="Reading Insights is required" locale="zh" localized="需要读取 Insights"/>
+    <moqui.basic.LocalizedMessage original="Received stock is put away to its locations." locale="zh" localized="收到的库存上架到其货位。"/>
+    <moqui.basic.LocalizedMessage original="Receiving, putaway and returns." locale="zh" localized="收货、上架和退货。"/>
+    <moqui.basic.LocalizedMessage original="Record and approve time" locale="zh" localized="记录并审批工时"/>
+    <moqui.basic.LocalizedMessage original="RECORD_PANEL_UNAVAILABLE: Notes and files are kept in Commons, which is not available to you" locale="zh" localized="RECORD_PANEL_UNAVAILABLE: 备注和文件保存在共享中，而共享对您不可用"/>
+    <moqui.basic.LocalizedMessage original="Recurring base orders are templates and are excluded; their renewals count when placed." locale="zh" localized="循环基础订单是模板，不包括在内；其续订在下达时计数。"/>
+    <moqui.basic.LocalizedMessage original="Refund or credit" locale="zh" localized="退款或贷记"/>
+    <moqui.basic.LocalizedMessage original="Register as display" locale="zh" localized="注册为显示"/>
+    <moqui.basic.LocalizedMessage original="Rejected or surplus goods go back to the supplier under a return authorization." locale="zh" localized="拒收或多余的货物凭退货授权退回供应商。"/>
+    <moqui.basic.LocalizedMessage original="Remove from Home" locale="zh" localized="从首页移除"/>
+    <moqui.basic.LocalizedMessage original="Remove map" locale="zh" localized="移除图"/>
+    <moqui.basic.LocalizedMessage original="Report builder" locale="zh" localized="报表构建器"/>
+    <moqui.basic.LocalizedMessage original="Report: ${sel.reportTitle}" locale="zh" localized="报表：${sel.reportTitle}"/>
+    <moqui.basic.LocalizedMessage original="Reports and measures need Insights read" locale="zh" localized="报表和指标需要 Insights 读取权限"/>
+    <moqui.basic.LocalizedMessage original="Reports kept" locale="zh" localized="保留的报表"/>
+    <moqui.basic.LocalizedMessage original="Request to buy" locale="zh" localized="申请采购"/>
+    <moqui.basic.LocalizedMessage original="Requests, sourcing and orders." locale="zh" localized="申请、寻源和订单。"/>
+    <moqui.basic.LocalizedMessage original="Return or exchange" locale="zh" localized="退货或换货"/>
+    <moqui.basic.LocalizedMessage original="Returned goods received" locale="zh" localized="已收到退货"/>
+    <moqui.basic.LocalizedMessage original="Run projects" locale="zh" localized="执行项目"/>
+    <moqui.basic.LocalizedMessage original="Sales and stores" locale="zh" localized="销售与商店"/>
+    <moqui.basic.LocalizedMessage original="Save copy" locale="zh" localized="保存副本"/>
+    <moqui.basic.LocalizedMessage original="Save digest" locale="zh" localized="保存摘要"/>
+    <moqui.basic.LocalizedMessage original="Save Home" locale="zh" localized="保存首页"/>
+    <moqui.basic.LocalizedMessage original="Save lane" locale="zh" localized="保存泳道"/>
+    <moqui.basic.LocalizedMessage original="Save name and sharing" locale="zh" localized="保存名称和共享"/>
+    <moqui.basic.LocalizedMessage original="Save settings" locale="zh" localized="保存设置"/>
+    <moqui.basic.LocalizedMessage original="Saved find" locale="zh" localized="已保存的查找"/>
+    <moqui.basic.LocalizedMessage original="Saved reports" locale="zh" localized="已保存的报表"/>
+    <moqui.basic.LocalizedMessage original="Saved searches" locale="zh" localized="已保存的搜索"/>
+    <moqui.basic.LocalizedMessage original="Saved to your library panels" locale="zh" localized="已保存到您的库面板"/>
+    <moqui.basic.LocalizedMessage original="Saves the query this answer ends with as a library panel of your own. It shows each viewer their own organizations' numbers." locale="zh" localized="把此回答结尾的查询保存为您自己的库面板。每位查看者看到的是自己组织的数字。"/>
+    <moqui.basic.LocalizedMessage original="Saving a copy needs Insights authoring" locale="zh" localized="保存副本需要 Insights 编写权限"/>
+    <moqui.basic.LocalizedMessage original="Saving a panel needs Insights authoring. Ask an author to save this answer, or open the numbers in Explore." locale="zh" localized="保存面板需要 Insights 编写权限。请让有编写权限的人保存此回答，或在探索中打开这些数字。"/>
+    <moqui.basic.LocalizedMessage original="Say why the refresh is needed" locale="zh" localized="说明为何需要刷新"/>
+    <moqui.basic.LocalizedMessage original="Scope and delivery" locale="zh" localized="作用域与投递"/>
+    <moqui.basic.LocalizedMessage original="Set prices" locale="zh" localized="设定价格"/>
+    <moqui.basic.LocalizedMessage original="Setup and health readiness" locale="zh" localized="设置与健康度就绪"/>
+    <moqui.basic.LocalizedMessage original="Share with wall displays" locale="zh" localized="与墙面展示共享"/>
+    <moqui.basic.LocalizedMessage original="Shared with ${otherGroupName}" locale="zh" localized="与 ${otherGroupName} 共享"/>
+    <moqui.basic.LocalizedMessage original="Shipping an order invoices it. Invoiced revenue is the posted invoices of the period, each currency apart." locale="zh" localized="发运订单即对其开票。开票收入是该期间已过账的发票，每种货币分开。"/>
+    <moqui.basic.LocalizedMessage original="Shops in a store" locale="zh" localized="在商店购物"/>
+    <moqui.basic.LocalizedMessage original="Show on Home" locale="zh" localized="在首页显示"/>
+    <moqui.basic.LocalizedMessage original="Source owners" locale="zh" localized="来源所有者"/>
+    <moqui.basic.LocalizedMessage original="Starred and recent dashboards" locale="zh" localized="已加星和最近的仪表板"/>
+    <moqui.basic.LocalizedMessage original="Steps in order" locale="zh" localized="按顺序的步骤"/>
+    <moqui.basic.LocalizedMessage original="Steps saved" locale="zh" localized="步骤已保存"/>
+    <moqui.basic.LocalizedMessage original="Steward" locale="zh" localized="负责人"/>
+    <moqui.basic.LocalizedMessage original="Stock on hand by product, lot and location. On hand is a snapshot and is never added across dates." locale="zh" localized="按产品、批次和货位的现有库存。现有量是快照，从不跨日期加总。"/>
+    <moqui.basic.LocalizedMessage original="Stock, moves and counts." locale="zh" localized="库存、移动和盘点。"/>
+    <moqui.basic.LocalizedMessage original="Store checkouts by state" locale="zh" localized="按状态的商店结账"/>
+    <moqui.basic.LocalizedMessage original="Store checkouts started in the range, by their state." locale="zh" localized="范围内开始的商店结账，按其状态。"/>
+    <moqui.basic.LocalizedMessage original="Suite overview" locale="zh" localized="套件概览"/>
+    <moqui.basic.LocalizedMessage original="Suite template" locale="zh" localized="套件模板"/>
+    <moqui.basic.LocalizedMessage original="Suite templates" locale="zh" localized="套件模板"/>
+    <moqui.basic.LocalizedMessage original="Supplier acknowledges" locale="zh" localized="供应商确认"/>
+    <moqui.basic.LocalizedMessage original="Supplier flow" locale="zh" localized="供应商流程"/>
+    <moqui.basic.LocalizedMessage original="Supplier ships" locale="zh" localized="供应商发货"/>
+    <moqui.basic.LocalizedMessage original="Suppliers are asked to quote; quotes are compared and awarded before they expire." locale="zh" localized="向供应商询价；报价在到期前比较并授标。"/>
+    <moqui.basic.LocalizedMessage original="Target cleared" locale="zh" localized="已清除目标"/>
+    <moqui.basic.LocalizedMessage original="Target measure" locale="zh" localized="目标指标"/>
+    <moqui.basic.LocalizedMessage original="That refresh is not one of Insights' sources" locale="zh" localized="该刷新不是 Insights 的来源之一"/>
+    <moqui.basic.LocalizedMessage original="The answer as Assist gave it; its last Panel line is the query that is saved" locale="zh" localized="助手给出的回答；其最后一行 Panel 是所保存的查询"/>
+    <moqui.basic.LocalizedMessage original="The answer's Panel line could not be read" locale="zh" localized="无法读取回答的 Panel 行"/>
+    <moqui.basic.LocalizedMessage original="The attention board could not be read just now. ${attentionFailure}" locale="zh" localized="此刻无法读取关注看板。${attentionFailure}"/>
+    <moqui.basic.LocalizedMessage original="The catalog and its prices." locale="zh" localized="目录及其价格。"/>
+    <moqui.basic.LocalizedMessage original="The customer fills a cart in one of the stores. Open carts are those not checked out yet." locale="zh" localized="客户在一家商店中填写购物车。未结购物车是尚未结账的那些。"/>
+    <moqui.basic.LocalizedMessage original="The dashboard Home shows until someone arranges their own. Empty: the suite overview." locale="zh" localized="在有人安排自己的仪表板之前，首页所显示的仪表板。留空：套件概览。"/>
+    <moqui.basic.LocalizedMessage original="The digest as you read it now, for ${digest?.periodText.toLowerCase()}. Each person it is delivered to is checked to read the same." locale="zh" localized="您现在所读的摘要，期间为 ${digest?.periodText.toLowerCase()}。会检查每位接收人能否读取相同内容。"/>
+    <moqui.basic.LocalizedMessage original="The digest could not be saved" locale="zh" localized="无法保存该摘要"/>
+    <moqui.basic.LocalizedMessage original="The digest Home previews until someone chooses their own." locale="zh" localized="在有人选择自己的摘要之前，首页所预览的摘要。"/>
+    <moqui.basic.LocalizedMessage original="The field that carries each row's organization" locale="zh" localized="承载每行所属组织的字段"/>
+    <moqui.basic.LocalizedMessage original="The Home digest could not be set" locale="zh" localized="无法设置首页摘要"/>
+    <moqui.basic.LocalizedMessage original="The instance allows up to ${ceiling}. The cap in effect when a schedule or rule is saved is kept with it until it is saved again." locale="zh" localized="实例允许的上限是 ${ceiling}。保存排程或规则时生效的上限会一直保留，直到再次保存。"/>
+    <moqui.basic.LocalizedMessage original="the instance's week start" locale="zh" localized="实例的周起始日"/>
+    <moqui.basic.LocalizedMessage original="The last 90 days" locale="zh" localized="最近 90 天"/>
+    <moqui.basic.LocalizedMessage original="The ledger and its periods." locale="zh" localized="分类账及其期间。"/>
+    <moqui.basic.LocalizedMessage original="The legacy mapping is an instance administrator's upgrade step" locale="zh" localized="旧映射是实例管理员的升级步骤"/>
+    <moqui.basic.LocalizedMessage original="The limit is the instance's, not an organization's choice." locale="zh" localized="该限制属于实例，不是组织的选择。"/>
+    <moqui.basic.LocalizedMessage original="The map Business flows opens until someone chooses their own." locale="zh" localized="在有人选择自己的图之前，业务流程所打开的图。"/>
+    <moqui.basic.LocalizedMessage original="The organization's own fiscal periods; empty, the report's default" locale="zh" localized="组织自己的会计期间；留空则用报表的默认值"/>
+    <moqui.basic.LocalizedMessage original="The panel could not be saved" locale="zh" localized="无法保存该面板"/>
+    <moqui.basic.LocalizedMessage original="The panel is not available to you" locale="zh" localized="该面板对您不可用"/>
+    <moqui.basic.LocalizedMessage original="The panel's range" locale="zh" localized="面板的范围"/>
+    <moqui.basic.LocalizedMessage original="The preview could not be rendered" locale="zh" localized="无法生成预览"/>
+    <moqui.basic.LocalizedMessage original="The recipient cap is a whole number of 1 or more" locale="zh" localized="收件人上限是 1 或更大的整数"/>
+    <moqui.basic.LocalizedMessage original="The registered list this step's work waits in. Without one the step is information." locale="zh" localized="此步骤的工作所等待的已登记列表。没有列表时，该步骤只是说明。"/>
+    <moqui.basic.LocalizedMessage original="The settings could not be saved" locale="zh" localized="无法保存设置"/>
+    <moqui.basic.LocalizedMessage original="The statements are read from posted entries only." locale="zh" localized="报表只从已过账的分录读取。"/>
+    <moqui.basic.LocalizedMessage original="The suite dashboard is not available to you" locale="zh" localized="套件仪表板对您不可用"/>
+    <moqui.basic.LocalizedMessage original="The suite overview for the last seven days, as a digest to schedule for oneself or for recipients who read the same data." locale="zh" localized="最近七天的套件概览，作为摘要排程给本人，或给读取相同数据的收件人。"/>
+    <moqui.basic.LocalizedMessage original="The supplier confirms quantities and dates; an order not acknowledged is followed up." locale="zh" localized="供应商确认数量和日期；未确认的订单会跟进。"/>
+    <moqui.basic.LocalizedMessage original="The supplier ships against the order. This is the supplier's own work, so this step is information only." locale="zh" localized="供应商按订单发货。这是供应商自己的工作，因此此步骤只是说明。"/>
+    <moqui.basic.LocalizedMessage original="The supplier's bill is entered and waits for approval." locale="zh" localized="录入供应商账单并等待审批。"/>
+    <moqui.basic.LocalizedMessage original="The target has no value for this period" locale="zh" localized="该目标在此期间没有值"/>
+    <moqui.basic.LocalizedMessage original="The target is zero, so there is no comparison" locale="zh" localized="目标为零，因此无法比较"/>
+    <moqui.basic.LocalizedMessage original="The target's period is the panel's range, a month, a quarter or a year" locale="zh" localized="目标的期间是面板的范围、一个月、一个季度或一年"/>
+    <moqui.basic.LocalizedMessage original="The value of placed sales orders in each order's own currency, never added across currencies." locale="zh" localized="已下达销售订单的金额，使用每张订单自己的货币，从不跨货币加总。"/>
+    <moqui.basic.LocalizedMessage original="The worklist's own parameters, as name=value joined with &amp;; those each worklist takes are listed under Worklist parameters." locale="zh" localized="工作列表自己的参数，格式为用 &amp; 连接的 name=value；每个工作列表接受的参数列在工作列表参数下。"/>
+    <moqui.basic.LocalizedMessage original="The zone Analysis and Assist group days, weeks and months by. Empty: each viewer's own." locale="zh" localized="分析和助手用来分组日、周和月的时区。留空：每位查看者自己的时区。"/>
+    <moqui.basic.LocalizedMessage original="Then: ${laneStep.nextText}" locale="zh" localized="然后：${laneStep.nextText}"/>
+    <moqui.basic.LocalizedMessage original="Then: ${sel.nextText}" locale="zh" localized="然后：${sel.nextText}"/>
+    <moqui.basic.LocalizedMessage original="These settings are not available for that organization." locale="zh" localized="这些设置对该组织不可用。"/>
+    <moqui.basic.LocalizedMessage original="This answer names no query to save. Ask Assist for a number first." locale="zh" localized="此回答没有可保存的查询。请先向助手询问一个数字。"/>
+    <moqui.basic.LocalizedMessage original="This could not be read now" locale="zh" localized="现在无法读取此项"/>
+    <moqui.basic.LocalizedMessage original="This dataset holds costs and margins, which are not read over MCP" locale="zh" localized="此数据集包含成本和毛利，不能通过 MCP 读取"/>
+    <moqui.basic.LocalizedMessage original="This dataset holds costs and margins; reading it needs PRODUCT_COST_VIEW" locale="zh" localized="此数据集包含成本和毛利；读取它需要 PRODUCT_COST_VIEW"/>
+    <moqui.basic.LocalizedMessage original="This digest is not available" locale="zh" localized="此摘要不可用"/>
+    <moqui.basic.LocalizedMessage original="This flow map is not available" locale="zh" localized="此流程图不可用"/>
+    <moqui.basic.LocalizedMessage original="This flow map is not available to edit. Changing flow maps needs the flow editor's permission." locale="zh" localized="此流程图不可编辑。更改流程图需要流程编辑权限。"/>
+    <moqui.basic.LocalizedMessage original="This flow map is not available." locale="zh" localized="此流程图不可用。"/>
+    <moqui.basic.LocalizedMessage original="This is not a flow map" locale="zh" localized="这不是流程图"/>
+    <moqui.basic.LocalizedMessage original="This panel has no registered measure" locale="zh" localized="此面板没有已登记的指标"/>
+    <moqui.basic.LocalizedMessage original="This panel is not available to you" locale="zh" localized="此面板对您不可用"/>
+    <moqui.basic.LocalizedMessage original="This panel's query cannot be read here" locale="zh" localized="无法在此读取此面板的查询"/>
+    <moqui.basic.LocalizedMessage original="This record is not available" locale="zh" localized="此记录不可用"/>
+    <moqui.basic.LocalizedMessage original="This step has nothing to open for you here; it explains the flow." locale="zh" localized="此步骤在这里没有可打开的内容；它说明流程。"/>
+    <moqui.basic.LocalizedMessage original="Time is recorded against work and approved before it is billed or costed." locale="zh" localized="工时记在工作上，并在开票或计入成本之前审批。"/>
+    <moqui.basic.LocalizedMessage original="To fix" locale="zh" localized="待修复"/>
+    <moqui.basic.LocalizedMessage original="To oneself, or to people and groups who may see exactly what the owner sees" locale="zh" localized="给本人，或给能看到与所有者完全相同内容的人员和组"/>
+    <moqui.basic.LocalizedMessage original="Transfers move stock between facilities and locations." locale="zh" localized="转移在设施和货位之间移动库存。"/>
+    <moqui.basic.LocalizedMessage original="Version restored as the current one" locale="zh" localized="已将该版本还原为当前版本"/>
+    <moqui.basic.LocalizedMessage original="View map" locale="zh" localized="查看图"/>
+    <moqui.basic.LocalizedMessage original="Wall displays" locale="zh" localized="墙面展示"/>
+    <moqui.basic.LocalizedMessage original="Warehouse settings" locale="zh" localized="仓库设置"/>
+    <moqui.basic.LocalizedMessage original="Weekly management digest" locale="zh" localized="每周管理摘要"/>
+    <moqui.basic.LocalizedMessage original="weeks start on ${day}" locale="zh" localized="一周开始于${day}"/>
+    <moqui.basic.LocalizedMessage original="What ${found.organizationName} starts from. Each person's own choices on Home, Business flows and Management digest come first, and a default is shown only to someone who may read it." locale="zh" localized="${found.organizationName} 的起点。每个人在首页、业务流程和管理摘要上的选择优先，默认值只显示给可以读取它的人。"/>
+    <moqui.basic.LocalizedMessage original="What happens" locale="zh" localized="发生什么"/>
+    <moqui.basic.LocalizedMessage original="What the apps do posts to the ledger; entries drafted by hand wait to be posted." locale="zh" localized="各应用所做的事过账到分类账；手工起草的分录等待过账。"/>
+    <moqui.basic.LocalizedMessage original="What the customer does." locale="zh" localized="客户所做的事。"/>
+    <moqui.basic.LocalizedMessage original="What the measures mean" locale="zh" localized="指标的含义"/>
+    <moqui.basic.LocalizedMessage original="What the organization does for itself: the catalog, production, stock, projects, the books and its people. Copy it for your organization to rename steps and link your own procedures." locale="zh" localized="组织为自己所做的事：目录、生产、库存、项目、账簿和人员。为您的组织复制一份，重命名步骤并链接自己的程序。"/>
+    <moqui.basic.LocalizedMessage original="What the supplier does." locale="zh" localized="供应商所做的事。"/>
+    <moqui.basic.LocalizedMessage original="What version ${editor.diffVersion} changed" locale="zh" localized="版本 ${editor.diffVersion} 改变了什么"/>
+    <moqui.basic.LocalizedMessage original="Where it is set" locale="zh" localized="在何处设置"/>
+    <moqui.basic.LocalizedMessage original="Which source is stale, how far behind is it, and who can refresh it?" locale="zh" localized="哪个来源已过时，落后多少，谁可以刷新它？"/>
+    <moqui.basic.LocalizedMessage original="Who does these steps: a party, a team or an app." locale="zh" localized="谁做这些步骤：一个参与方、一个团队或一个应用。"/>
+    <moqui.basic.LocalizedMessage original="Whose freshness policy decides what is stale" locale="zh" localized="由谁的新鲜度策略决定何为过时"/>
+    <moqui.basic.LocalizedMessage original="Work items move through their workflow; requests come in through intake." locale="zh" localized="工作项沿其工作流推进；请求经接收进入。"/>
+    <moqui.basic.LocalizedMessage original="Work orders are released, run on the floor and completed into stock." locale="zh" localized="工单被下达，在车间执行，并完工入库。"/>
+    <moqui.basic.LocalizedMessage original="Work orders past their estimated completion need a new date or more capacity." locale="zh" localized="超过预计完工时间的工单需要新的日期或更多产能。"/>
+    <moqui.basic.LocalizedMessage original="Work waiting in the apps you use${attention?.asOfText ? ', as of ' + attention.asOfText : ''}. Counts are not added together: the same work can be in more than one list." locale="zh" localized="您所使用应用中等待处理的工作${attention?.asOfText ? '，截至 ' + attention.asOfText : ''}。计数不加总：同一工作可以出现在多个列表中。"/>
+    <moqui.basic.LocalizedMessage original="Worklist" locale="zh" localized="工作列表"/>
+    <moqui.basic.LocalizedMessage original="Worklist parameters" locale="zh" localized="工作列表参数"/>
+    <moqui.basic.LocalizedMessage original="You may not read this" locale="zh" localized="您不能读取此项"/>
+    <moqui.basic.LocalizedMessage original="You may read these settings. Changing them needs the Insights administrator." locale="zh" localized="您可以读取这些设置。更改它们需要 Insights 管理员。"/>
+    <moqui.basic.LocalizedMessage original="Your chosen dashboard is not available to you; choose another with Arrange" locale="zh" localized="您所选的仪表板对您不可用；请用 Arrange 另选一个"/>
+    <moqui.basic.LocalizedMessage original="Your copy is yours to change. It records what it was copied from; a later change of this map leaves your copy as it is." locale="zh" localized="您的副本由您更改。它记录复制来源；此后此图的更改不会改动您的副本。"/>
+    <moqui.basic.LocalizedMessage original="Your copy is yours to change: rename its steps, choose their worklists and link your procedures. It records what it was copied from; a later change of this map leaves your copy as it is." locale="zh" localized="您的副本由您更改：重命名步骤、选择其工作列表并链接您的程序。它记录复制来源；此后此图的更改不会改动您的副本。"/>
+    <moqui.basic.LocalizedMessage original="Your dashboards, panels, searches, saved finds and pinned reports, and those shared with your groups." locale="zh" localized="您的仪表板、面板、搜索、已保存的查找和已置顶的报表，以及与您的组共享的那些。"/>
+    <moqui.basic.LocalizedMessage original="Your default" locale="zh" localized="您的默认"/>
+    <moqui.basic.LocalizedMessage original="Your management digest · ${homeDigest.periodText}. Your own result, as of now." locale="zh" localized="您的管理摘要 · ${homeDigest.periodText}。您自己的结果，截至现在。"/>
+    <moqui.basic.LocalizedMessage original="Your own words: an explanation, not a number" locale="zh" localized="您自己的话：是说明，不是数字"/>
+</entity-facade-xml>

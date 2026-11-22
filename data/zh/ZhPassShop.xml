@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+
+<entity-facade-xml type="zh">
+    <moqui.basic.LocalizedMessage original="${average} of 5" locale="zh" localized="${average}（满分 5）"/>
+    <moqui.basic.LocalizedMessage original="${brand} ending ${last4}" locale="zh" localized="${brand} 尾号 ${last4}"/>
+    <moqui.basic.LocalizedMessage original="${count} orders" locale="zh" localized="${count} 笔订单"/>
+    <moqui.basic.LocalizedMessage original="${count} orders · ${downloads} downloads" locale="zh" localized="${count} 笔订单 · ${downloads} 个下载"/>
+    <moqui.basic.LocalizedMessage original="${count} orders, ${pending} in progress" locale="zh" localized="${count} 笔订单，其中 ${pending} 笔进行中"/>
+    <moqui.basic.LocalizedMessage original="${count} orders, ${pending} in progress · ${downloads} downloads" locale="zh" localized="${count} 笔订单，其中 ${pending} 笔进行中 · ${downloads} 个下载"/>
+    <moqui.basic.LocalizedMessage original="${count} review" locale="zh" localized="${count} 条评价"/>
+    <moqui.basic.LocalizedMessage original="${count} reviews" locale="zh" localized="${count} 条评价"/>
+    <moqui.basic.LocalizedMessage original="${label} (not available)" locale="zh" localized="${label}（暂无）"/>
+    <moqui.basic.LocalizedMessage original="${name} is not available right now" locale="zh" localized="${name} 暂时不可用"/>
+    <moqui.basic.LocalizedMessage original="${name}: ${price} every ${term}" locale="zh" localized="${name}：${price} 每 ${term}"/>
+    <moqui.basic.LocalizedMessage original="${n} star" locale="zh" localized="${n} 星"/>
+    <moqui.basic.LocalizedMessage original="${n} stars" locale="zh" localized="${n} 星"/>
+    <moqui.basic.LocalizedMessage original="${price} each" locale="zh" localized="每件 ${price}"/>
+    <moqui.basic.LocalizedMessage original="${price} every ${term}" locale="zh" localized="${price} 每 ${term}"/>
+    <moqui.basic.LocalizedMessage original="${price} every ${term}, prepaid" locale="zh" localized="${price} 每 ${term}，预付"/>
+    <moqui.basic.LocalizedMessage original="${price} every ${term}, renews until you cancel" locale="zh" localized="${price} 每 ${term}，在您取消前持续续订"/>
+    <moqui.basic.LocalizedMessage original="${price} for ${term}, starting when the current term ends." locale="zh" localized="${price}，期限为 ${term}，从当前期限结束时开始。"/>
+    <moqui.basic.LocalizedMessage original="${r.dateText} · Verified purchase" locale="zh" localized="${r.dateText} · 已验证购买"/>
+    <moqui.basic.LocalizedMessage original="${r.rating} of 5" locale="zh" localized="${r.rating}（满分 5）"/>
+    <moqui.basic.LocalizedMessage original="${rating} of 5 stars" locale="zh" localized="${rating} 星（满分 5 星）"/>
+    <moqui.basic.LocalizedMessage original="${rv.summary.average} of 5" locale="zh" localized="${rv.summary.average}（满分 5）"/>
+    <moqui.basic.LocalizedMessage original="${rv.summary.count} review" locale="zh" localized="${rv.summary.count} 条评价"/>
+    <moqui.basic.LocalizedMessage original="${rv.summary.count} reviews" locale="zh" localized="${rv.summary.count} 条评价"/>
+    <moqui.basic.LocalizedMessage original="${stars} stars: ${count}" locale="zh" localized="${stars} 星：${count}"/>
+    <moqui.basic.LocalizedMessage original="(on ${provider}'s page)" locale="zh" localized="（在 ${provider} 的页面）"/>
+    <moqui.basic.LocalizedMessage original=", next try ${date}" locale="zh" localized="，下次尝试 ${date}"/>
+    <moqui.basic.LocalizedMessage original="&lt;a href=&quot;${href}&quot;&gt;Create an account with ${email}&lt;/a&gt; to see this order later." locale="zh" localized="&lt;a href=&quot;${href}&quot;&gt;用 ${email} 创建账号&lt;/a&gt;，以便以后查看此订单。"/>
+    <moqui.basic.LocalizedMessage original="&lt;a href=&quot;${href}&quot;&gt;Sign in&lt;/a&gt; to open the cart you saved." locale="zh" localized="&lt;a href=&quot;${href}&quot;&gt;登录&lt;/a&gt;以打开您保存的购物车。"/>
+    <moqui.basic.LocalizedMessage original="&lt;a href=&quot;${href}&quot;&gt;Sign in&lt;/a&gt; to review a product you bought." locale="zh" localized="&lt;a href=&quot;${href}&quot;&gt;登录&lt;/a&gt;以评价您购买的产品。"/>
+    <moqui.basic.LocalizedMessage original="&lt;a href=&quot;${href}&quot;&gt;Sign in&lt;/a&gt; to see your purchases." locale="zh" localized="&lt;a href=&quot;${href}&quot;&gt;登录&lt;/a&gt;以查看您的购买记录。"/>
+    <moqui.basic.LocalizedMessage original="A change does not alter an order already placed." locale="zh" localized="更改不会影响已经下的订单。"/>
+    <moqui.basic.LocalizedMessage original="Access lasts until ${date}; no further charges are made." locale="zh" localized="使用权限持续到 ${date}；之后不再扣款。"/>
+    <moqui.basic.LocalizedMessage original="Add a card" locale="zh" localized="添加银行卡"/>
+    <moqui.basic.LocalizedMessage original="Add address" locale="zh" localized="添加地址"/>
+    <moqui.basic.LocalizedMessage original="Add to cart" locale="zh" localized="加入购物车"/>
+    <moqui.basic.LocalizedMessage original="Added ${name} to your cart. Your cart has ${count} items." locale="zh" localized="已将 ${name} 加入购物车。您的购物车中有 ${count} 件商品。"/>
+    <moqui.basic.LocalizedMessage original="Added the item to your cart. Your cart has ${count} items." locale="zh" localized="已将商品加入购物车。您的购物车中有 ${count} 件商品。"/>
+    <moqui.basic.LocalizedMessage original="Added to your cart at today's prices." locale="zh" localized="已按今天的价格加入购物车。"/>
+    <moqui.basic.LocalizedMessage original="Added to your cart at today's prices. Not available now: ${names}." locale="zh" localized="已按今天的价格加入购物车。现在无法购买：${names}。"/>
+    <moqui.basic.LocalizedMessage original="All reviews" locale="zh" localized="全部评价"/>
+    <moqui.basic.LocalizedMessage original="Already on for your account." locale="zh" localized="您的账号已开启此项。"/>
+    <moqui.basic.LocalizedMessage original="Amount due now" locale="zh" localized="现在应付"/>
+    <moqui.basic.LocalizedMessage original="Apartment, suite" locale="zh" localized="公寓、套房"/>
+    <moqui.basic.LocalizedMessage original="Applied the code to your cart." locale="zh" localized="已将该代码用于您的购物车。"/>
+    <moqui.basic.LocalizedMessage original="Ask a question" locale="zh" localized="提出问题"/>
+    <moqui.basic.LocalizedMessage original="at today's prices" locale="zh" localized="按今天的价格"/>
+    <moqui.basic.LocalizedMessage original="Back to checkout" locale="zh" localized="返回结账"/>
+    <moqui.basic.LocalizedMessage original="Back to the product" locale="zh" localized="返回产品"/>
+    <moqui.basic.LocalizedMessage original="Back to your payment" locale="zh" localized="返回您的付款"/>
+    <moqui.basic.LocalizedMessage original="Billing address (when different)" locale="zh" localized="账单地址（不同时）"/>
+    <moqui.basic.LocalizedMessage original="Billing address is the same" locale="zh" localized="账单地址相同"/>
+    <moqui.basic.LocalizedMessage original="Buy another term" locale="zh" localized="再买一个期限"/>
+    <moqui.basic.LocalizedMessage original="Buy these again" locale="zh" localized="再次购买这些"/>
+    <moqui.basic.LocalizedMessage original="Calculated at checkout" locale="zh" localized="结账时计算"/>
+    <moqui.basic.LocalizedMessage original="Cancel renewal" locale="zh" localized="取消续订"/>
+    <moqui.basic.LocalizedMessage original="Card" locale="zh" localized="银行卡"/>
+    <moqui.basic.LocalizedMessage original="Card ending ${last4}" locale="zh" localized="尾号 ${last4} 的银行卡"/>
+    <moqui.basic.LocalizedMessage original="Card for renewals" locale="zh" localized="续订所用的银行卡"/>
+    <moqui.basic.LocalizedMessage original="Change address" locale="zh" localized="更改地址"/>
+    <moqui.basic.LocalizedMessage original="Change your review" locale="zh" localized="修改您的评价"/>
+    <moqui.basic.LocalizedMessage original="Check out" locale="zh" localized="结账"/>
+    <moqui.basic.LocalizedMessage original="Checkout" locale="zh" localized="结账"/>
+    <moqui.basic.LocalizedMessage original="Choose a product to buy from its page." locale="zh" localized="请到产品页面选择要购买的产品。"/>
+    <moqui.basic.LocalizedMessage original="Choose an option" locale="zh" localized="请选择一个选项"/>
+    <moqui.basic.LocalizedMessage original="Choose an option to see its price" locale="zh" localized="选择一个选项以查看其价格"/>
+    <moqui.basic.LocalizedMessage original="Choose delivery" locale="zh" localized="选择配送"/>
+    <moqui.basic.LocalizedMessage original="Choose how to pay" locale="zh" localized="选择付款方式"/>
+    <moqui.basic.LocalizedMessage original="Choose payment" locale="zh" localized="选择付款"/>
+    <moqui.basic.LocalizedMessage original="Choose your purchase" locale="zh" localized="选择要购买的商品"/>
+    <moqui.basic.LocalizedMessage original="Chose how to pay." locale="zh" localized="已选择付款方式。"/>
+    <moqui.basic.LocalizedMessage original="Chose the delivery." locale="zh" localized="已选择配送方式。"/>
+    <moqui.basic.LocalizedMessage original="Coming soon" locale="zh" localized="即将推出"/>
+    <moqui.basic.LocalizedMessage original="Complete ${steps} to place your order." locale="zh" localized="请先完成${steps}，然后再下单。"/>
+    <moqui.basic.LocalizedMessage original="Confirm that you want to stop renewing" locale="zh" localized="请确认您要停止续订"/>
+    <moqui.basic.LocalizedMessage original="Continue shopping" locale="zh" localized="继续购物"/>
+    <moqui.basic.LocalizedMessage original="Delivery address" locale="zh" localized="配送地址"/>
+    <moqui.basic.LocalizedMessage original="Delivery charge" locale="zh" localized="配送费"/>
+    <moqui.basic.LocalizedMessage original="Delivery method" locale="zh" localized="配送方式"/>
+    <moqui.basic.LocalizedMessage original="Delivery to" locale="zh" localized="配送至"/>
+    <moqui.basic.LocalizedMessage original="Download your files" locale="zh" localized="下载您的文件"/>
+    <moqui.basic.LocalizedMessage original="Downloads" locale="zh" localized="下载"/>
+    <moqui.basic.LocalizedMessage original="Ending once its open payments complete" locale="zh" localized="未结付款完成后停用"/>
+    <moqui.basic.LocalizedMessage original="Ending this card stops it paying: ${names}." locale="zh" localized="停用此卡后，它不再支付：${names}。"/>
+    <moqui.basic.LocalizedMessage original="Ends ${date}" locale="zh" localized="于 ${date} 结束"/>
+    <moqui.basic.LocalizedMessage original="Enter the delivery address to see delivery options." locale="zh" localized="请填写配送地址以查看配送选项。"/>
+    <moqui.basic.LocalizedMessage original="Enter up to 100 characters to search." locale="zh" localized="搜索请输入不超过 100 个字符。"/>
+    <moqui.basic.LocalizedMessage original="Estimated total" locale="zh" localized="预估合计"/>
+    <moqui.basic.LocalizedMessage original="Featured products" locale="zh" localized="精选产品"/>
+    <moqui.basic.LocalizedMessage original="I accept the ${title}" locale="zh" localized="我接受${title}"/>
+    <moqui.basic.LocalizedMessage original="I accept the &lt;a href=&quot;${href}&quot;&gt;${title}&lt;/a&gt;" locale="zh" localized="我接受&lt;a href=&quot;${href}&quot;&gt;${title}&lt;/a&gt;"/>
+    <moqui.basic.LocalizedMessage original="I agree to renewal charges of ${price} to this card every ${term} until I cancel" locale="zh" localized="我同意向此卡收取 ${price} 的续订费用，每 ${term} 一次，直到我取消"/>
+    <moqui.basic.LocalizedMessage original="If you created an account with the email address of this order, sign in to see it." locale="zh" localized="如果您用此订单的电子邮件创建了账号，请登录后查看。"/>
+    <moqui.basic.LocalizedMessage original="In Billing" locale="zh" localized="在开票中"/>
+    <moqui.basic.LocalizedMessage original="Keep this card for my next order" locale="zh" localized="保存此卡，用于我的下一笔订单"/>
+    <moqui.basic.LocalizedMessage original="More products" locale="zh" localized="更多产品"/>
+    <moqui.basic.LocalizedMessage original="More results" locale="zh" localized="更多结果"/>
+    <moqui.basic.LocalizedMessage original="More reviews" locale="zh" localized="更多评价"/>
+    <moqui.basic.LocalizedMessage original="My first name and initial" locale="zh" localized="我的名和姓的首字母"/>
+    <moqui.basic.LocalizedMessage original="Next charge ${amount} on ${date}" locale="zh" localized="下次扣款 ${amount}，于 ${date}"/>
+    <moqui.basic.LocalizedMessage original="Next steps" locale="zh" localized="后续步骤"/>
+    <moqui.basic.LocalizedMessage original="No delivery is offered to this address." locale="zh" localized="不向此地址提供配送。"/>
+    <moqui.basic.LocalizedMessage original="No new card was saved." locale="zh" localized="没有保存新的卡。"/>
+    <moqui.basic.LocalizedMessage original="No orders yet." locale="zh" localized="还没有订单。"/>
+    <moqui.basic.LocalizedMessage original="No orders yet. &lt;a href=&quot;${href}&quot;&gt;Start shopping&lt;/a&gt;" locale="zh" localized="还没有订单。&lt;a href=&quot;${href}&quot;&gt;开始购物&lt;/a&gt;"/>
+    <moqui.basic.LocalizedMessage original="No products here yet." locale="zh" localized="这里还没有产品。"/>
+    <moqui.basic.LocalizedMessage original="No products match your search." locale="zh" localized="没有与您的搜索匹配的产品。"/>
+    <moqui.basic.LocalizedMessage original="No reviews yet." locale="zh" localized="还没有评价。"/>
+    <moqui.basic.LocalizedMessage original="No saved addresses." locale="zh" localized="没有已保存的地址。"/>
+    <moqui.basic.LocalizedMessage original="No saved cards." locale="zh" localized="没有已保存的卡。"/>
+    <moqui.basic.LocalizedMessage original="not available in a preview" locale="zh" localized="在预览中不可用"/>
+    <moqui.basic.LocalizedMessage original="Not needed for your order: your receipt and order updates come either way." locale="zh" localized="下单并不需要：收据和订单更新无论如何都会发送。"/>
+    <moqui.basic.LocalizedMessage original="Nothing to download yet." locale="zh" localized="还没有可下载的内容。"/>
+    <moqui.basic.LocalizedMessage original="on the payment provider's page; this site never sees your card" locale="zh" localized="在支付服务商的页面；本站看不到您的卡"/>
+    <moqui.basic.LocalizedMessage original="Once you verify that address, this order moves to your account, and the links we email open it after you sign in." locale="zh" localized="验证该地址后，此订单会归入您的账号，我们发送的链接在您登录后即可打开。"/>
+    <moqui.basic.LocalizedMessage original="Open my cart" locale="zh" localized="打开我的购物车"/>
+    <moqui.basic.LocalizedMessage original="Open the cart you left. Its prices are checked again, and anything that cannot be bought now is named." locale="zh" localized="打开您留下的购物车。将重新核对价格，并列出现在不能购买的商品。"/>
+    <moqui.basic.LocalizedMessage original="Open the order from that email, or sign in, to see it." locale="zh" localized="请从该邮件打开订单，或登录后查看。"/>
+    <moqui.basic.LocalizedMessage original="Open your cart" locale="zh" localized="打开您的购物车"/>
+    <moqui.basic.LocalizedMessage original="Option" locale="zh" localized="选项"/>
+    <moqui.basic.LocalizedMessage original="Optional emails" locale="zh" localized="可选电子邮件"/>
+    <moqui.basic.LocalizedMessage original="Order &lt;strong&gt;${orderId}&lt;/strong&gt;" locale="zh" localized="订单 &lt;strong&gt;${orderId}&lt;/strong&gt;"/>
+    <moqui.basic.LocalizedMessage original="Order confirmation" locale="zh" localized="订单确认"/>
+    <moqui.basic.LocalizedMessage original="Order shipments" locale="zh" localized="订单发货"/>
+    <moqui.basic.LocalizedMessage original="Pays: ${names}" locale="zh" localized="支付对象：${names}"/>
+    <moqui.basic.LocalizedMessage original="Phone (optional)" locale="zh" localized="电话（可选）"/>
+    <moqui.basic.LocalizedMessage original="Photo ${n}" locale="zh" localized="照片 ${n}"/>
+    <moqui.basic.LocalizedMessage original="Photos are PNG or JPEG, up to 10 MB each, and are shown once the review is approved." locale="zh" localized="照片为 PNG 或 JPEG，每张不超过 10 MB，评价批准后才会显示。"/>
+    <moqui.basic.LocalizedMessage original="Place order and pay ${amount}" locale="zh" localized="下单并支付 ${amount}"/>
+    <moqui.basic.LocalizedMessage original="Please try again in a few minutes." locale="zh" localized="请过几分钟再试。"/>
+    <moqui.basic.LocalizedMessage original="Product reviews" locale="zh" localized="评价"/>
+    <moqui.basic.LocalizedMessage original="Promotion codes" locale="zh" localized="促销代码"/>
+    <moqui.basic.LocalizedMessage original="Rating" locale="zh" localized="评分"/>
+    <moqui.basic.LocalizedMessage original="Remove ${name}" locale="zh" localized="移除 ${name}"/>
+    <moqui.basic.LocalizedMessage original="Remove code ${code}" locale="zh" localized="移除代码 ${code}"/>
+    <moqui.basic.LocalizedMessage original="Remove this card" locale="zh" localized="移除此卡"/>
+    <moqui.basic.LocalizedMessage original="Removed the code." locale="zh" localized="已移除该代码。"/>
+    <moqui.basic.LocalizedMessage original="Removed the item." locale="zh" localized="已移除该商品。"/>
+    <moqui.basic.LocalizedMessage original="Removed the item. Add it again from its page to put it back." locale="zh" localized="已移除该商品。要从其页面再次添加才能放回购物车。"/>
+    <moqui.basic.LocalizedMessage original="Renewal cancelled. Your access lasts to the end of the paid term." locale="zh" localized="续订已取消。您的使用权限持续到已付期限结束。"/>
+    <moqui.basic.LocalizedMessage original="Renewal state" locale="zh" localized="状态"/>
+    <moqui.basic.LocalizedMessage original="Renewals now use this card." locale="zh" localized="续订现在使用此卡。"/>
+    <moqui.basic.LocalizedMessage original="Renews with ${brand} ending ${last4}" locale="zh" localized="续订使用 ${brand}，尾号 ${last4}"/>
+    <moqui.basic.LocalizedMessage original="Renews with card ending ${last4}" locale="zh" localized="续订使用尾号 ${last4} 的银行卡"/>
+    <moqui.basic.LocalizedMessage original="Reply from ${name}" locale="zh" localized="来自 ${name} 的回复"/>
+    <moqui.basic.LocalizedMessage original="Reply from ${shopContext.store.name}" locale="zh" localized="来自 ${shopContext.store.name} 的回复"/>
+    <moqui.basic.LocalizedMessage original="Reply from the store" locale="zh" localized="来自商店的回复"/>
+    <moqui.basic.LocalizedMessage original="Return to the store" locale="zh" localized="返回商店"/>
+    <moqui.basic.LocalizedMessage original="Review your order" locale="zh" localized="核对您的订单"/>
+    <moqui.basic.LocalizedMessage original="Reviews of ${name}" locale="zh" localized="${name} 的评价"/>
+    <moqui.basic.LocalizedMessage original="Save address" locale="zh" localized="保存地址"/>
+    <moqui.basic.LocalizedMessage original="Save contact" locale="zh" localized="保存联系人"/>
+    <moqui.basic.LocalizedMessage original="Save my review" locale="zh" localized="保存我的评价"/>
+    <moqui.basic.LocalizedMessage original="Saved the address." locale="zh" localized="地址已保存。"/>
+    <moqui.basic.LocalizedMessage original="Saved your contact details." locale="zh" localized="您的联系方式已保存。"/>
+    <moqui.basic.LocalizedMessage original="Saved. The carrier suggests: ${suggestion}" locale="zh" localized="已保存。承运人建议：${suggestion}"/>
+    <moqui.basic.LocalizedMessage original="Scan to open this order after you sign in" locale="zh" localized="登录后扫描即可打开此订单"/>
+    <moqui.basic.LocalizedMessage original="Search is not available right now. Please try again soon." locale="zh" localized="搜索暂时不可用。请稍后再试。"/>
+    <moqui.basic.LocalizedMessage original="Search the store" locale="zh" localized="搜索商店"/>
+    <moqui.basic.LocalizedMessage original="Send my review" locale="zh" localized="提交我的评价"/>
+    <moqui.basic.LocalizedMessage original="Shipping cost" locale="zh" localized="运费"/>
+    <moqui.basic.LocalizedMessage original="Shop" locale="zh" localized="商店"/>
+    <moqui.basic.LocalizedMessage original="Show my name as" locale="zh" localized="我的名称显示为"/>
+    <moqui.basic.LocalizedMessage original="Show price" locale="zh" localized="显示价格"/>
+    <moqui.basic.LocalizedMessage original="Stop renewing ${name}" locale="zh" localized="停止续订 ${name}"/>
+    <moqui.basic.LocalizedMessage original="Stop using this address" locale="zh" localized="停用此地址"/>
+    <moqui.basic.LocalizedMessage original="Street address" locale="zh" localized="街道地址"/>
+    <moqui.basic.LocalizedMessage original="Taking you to the payment page." locale="zh" localized="正在前往付款页面。"/>
+    <moqui.basic.LocalizedMessage original="Taking you to the payment provider's page." locale="zh" localized="正在前往支付服务商的页面。"/>
+    <moqui.basic.LocalizedMessage original="Terms version ${version}" locale="zh" localized="条款版本 ${version}"/>
+    <moqui.basic.LocalizedMessage original="Thank you for your order" locale="zh" localized="感谢您的订单"/>
+    <moqui.basic.LocalizedMessage original="Thank you. Your review waits for approval before it is shown." locale="zh" localized="谢谢。您的评价经批准后才会显示。"/>
+    <moqui.basic.LocalizedMessage original="Thank you. Your review waits for approval; a photo was not added: ${reason}" locale="zh" localized="谢谢。您的评价正在等待批准；有一张照片未添加：${reason}"/>
+    <moqui.basic.LocalizedMessage original="The address is no longer used." locale="zh" localized="此地址已不再使用。"/>
+    <moqui.basic.LocalizedMessage original="The card is removed." locale="zh" localized="此卡已移除。"/>
+    <moqui.basic.LocalizedMessage original="The carrier suggests: ${suggestion}" locale="zh" localized="承运人建议：${suggestion}"/>
+    <moqui.basic.LocalizedMessage original="The item was not added. Try again." locale="zh" localized="商品未加入。请重试。"/>
+    <moqui.basic.LocalizedMessage original="The renewal payment did not go through." locale="zh" localized="续订付款未成功。"/>
+    <moqui.basic.LocalizedMessage original="The renewal was tried again." locale="zh" localized="已再次尝试续订。"/>
+    <moqui.basic.LocalizedMessage original="The store removed your review of this product, so another cannot be written." locale="zh" localized="商店已移除您对此产品的评价，因此不能再写。"/>
+    <moqui.basic.LocalizedMessage original="This cart link is no longer available. It may have been used already, or it expired." locale="zh" localized="此购物车链接已不可用。它可能已被使用，或已过期。"/>
+    <moqui.basic.LocalizedMessage original="This checkout is no longer open." locale="zh" localized="此次结账已关闭。"/>
+    <moqui.basic.LocalizedMessage original="This feed cannot be read just now." locale="zh" localized="此刻无法读取此源。"/>
+    <moqui.basic.LocalizedMessage original="This feed is not available." locale="zh" localized="此源不可用。"/>
+    <moqui.basic.LocalizedMessage original="This file is not available." locale="zh" localized="此文件不可用。"/>
+    <moqui.basic.LocalizedMessage original="This item cannot be bought now. Remove it to check out." locale="zh" localized="此商品现在不能购买。请移除后再结账。"/>
+    <moqui.basic.LocalizedMessage original="This page is not available." locale="zh" localized="此页面不可用。"/>
+    <moqui.basic.LocalizedMessage original="This store" locale="zh" localized="此商店"/>
+    <moqui.basic.LocalizedMessage original="This store cannot take payments now." locale="zh" localized="此商店现在无法收款。"/>
+    <moqui.basic.LocalizedMessage original="This store is getting ready. Check back soon to browse its products." locale="zh" localized="此商店正在准备。请稍后再来浏览其产品。"/>
+    <moqui.basic.LocalizedMessage original="Total ${amount}" locale="zh" localized="合计 ${amount}"/>
+    <moqui.basic.LocalizedMessage original="Tracking ${codes}" locale="zh" localized="跟踪号 ${codes}"/>
+    <moqui.basic.LocalizedMessage original="Try the payment again" locale="zh" localized="再次尝试付款"/>
+    <moqui.basic.LocalizedMessage original="Updated your cart." locale="zh" localized="已更新您的购物车。"/>
+    <moqui.basic.LocalizedMessage original="Use the suggested address" locale="zh" localized="使用建议的地址"/>
+    <moqui.basic.LocalizedMessage original="Use this card" locale="zh" localized="使用此卡"/>
+    <moqui.basic.LocalizedMessage original="Verified purchase" locale="zh" localized="已验证购买"/>
+    <moqui.basic.LocalizedMessage original="Verify your email address to see your purchases in ${store}." locale="zh" localized="请验证您的电子邮件，以便在 ${store} 查看您的购买记录。"/>
+    <moqui.basic.LocalizedMessage original="View cart" locale="zh" localized="查看购物车"/>
+    <moqui.basic.LocalizedMessage original="View cart (${count})" locale="zh" localized="查看购物车（${count}）"/>
+    <moqui.basic.LocalizedMessage original="We added the items from this browser to your cart." locale="zh" localized="已将此浏览器中的商品加入您的购物车。"/>
+    <moqui.basic.LocalizedMessage original="We added the items from this browser to your cart. Not available now: ${names}." locale="zh" localized="已将此浏览器中的商品加入您的购物车。现在无法购买：${names}。"/>
+    <moqui.basic.LocalizedMessage original="We are confirming your payment." locale="zh" localized="我们正在确认您的付款。"/>
+    <moqui.basic.LocalizedMessage original="We are finishing your order; this page shows it when it is ready." locale="zh" localized="我们正在完成您的订单；准备好后此页会显示。"/>
+    <moqui.basic.LocalizedMessage original="We emailed the details." locale="zh" localized="我们已用电子邮件发送了详情。"/>
+    <moqui.basic.LocalizedMessage original="We sent the details to ${email}." locale="zh" localized="我们已将详情发送至 ${email}。"/>
+    <moqui.basic.LocalizedMessage original="We will email you as your order moves on." locale="zh" localized="订单有进展时我们会给您发电子邮件。"/>
+    <moqui.basic.LocalizedMessage original="Write a review" locale="zh" localized="写评价"/>
+    <moqui.basic.LocalizedMessage original="You can review this product once your order of it has arrived and your email address is verified." locale="zh" localized="当您订购的此产品已送达且电子邮件已验证后，就可以评价它。"/>
+    <moqui.basic.LocalizedMessage original="You have no subscriptions yet." locale="zh" localized="您还没有订阅。"/>
+    <moqui.basic.LocalizedMessage original="You pay on the payment provider's page; this site never sees your card." locale="zh" localized="您在支付服务商的页面付款；本站看不到您的卡。"/>
+    <moqui.basic.LocalizedMessage original="Your account" locale="zh" localized="您的账号"/>
+    <moqui.basic.LocalizedMessage original="Your addresses" locale="zh" localized="您的地址"/>
+    <moqui.basic.LocalizedMessage original="Your card is saved." locale="zh" localized="您的卡已保存。"/>
+    <moqui.basic.LocalizedMessage original="Your cart" locale="zh" localized="您的购物车"/>
+    <moqui.basic.LocalizedMessage original="Your cart could not be read. Reload the page." locale="zh" localized="无法读取您的购物车。请重新加载页面。"/>
+    <moqui.basic.LocalizedMessage original="Your cart is back, at today’s prices." locale="zh" localized="您的购物车已恢复，按今天的价格。"/>
+    <moqui.basic.LocalizedMessage original="Your cart is back, at today’s prices. Not available now: ${names}." locale="zh" localized="您的购物车已恢复，按今天的价格。现在无法购买：${names}。"/>
+    <moqui.basic.LocalizedMessage original="Your cart is empty." locale="zh" localized="您的购物车是空的。"/>
+    <moqui.basic.LocalizedMessage original="Your cart was not changed. Try again." locale="zh" localized="您的购物车没有更改。请重试。"/>
+    <moqui.basic.LocalizedMessage original="Your checkout is in progress" locale="zh" localized="您的结账正在进行"/>
+    <moqui.basic.LocalizedMessage original="Your checkout is open again." locale="zh" localized="您的结账已重新打开。"/>
+    <moqui.basic.LocalizedMessage original="Your downloads" locale="zh" localized="您的下载"/>
+    <moqui.basic.LocalizedMessage original="Your payment did not complete." locale="zh" localized="您的付款未完成。"/>
+    <moqui.basic.LocalizedMessage original="Your payment is approved." locale="zh" localized="您的付款已批准。"/>
+    <moqui.basic.LocalizedMessage original="Your payment is still processing. We will email you when your order is confirmed; you can also check again later." locale="zh" localized="您的付款仍在处理。订单确认后我们会给您发电子邮件；您也可以稍后再查看。"/>
+    <moqui.basic.LocalizedMessage original="Your photos" locale="zh" localized="您的照片"/>
+    <moqui.basic.LocalizedMessage original="Your product review" locale="zh" localized="您的评价"/>
+    <moqui.basic.LocalizedMessage original="Your renewal" locale="zh" localized="您的续订"/>
+    <moqui.basic.LocalizedMessage original="Your renewal needs attention." locale="zh" localized="您的续订需要处理。"/>
+    <moqui.basic.LocalizedMessage original="Your review: ${rv.own.statusText}" locale="zh" localized="您的评价：${rv.own.statusText}"/>
+    <moqui.basic.LocalizedMessage original="Your review: ${status}. A change waits for approval again." locale="zh" localized="您的评价：${status}。修改后需要再次批准。"/>
+    <moqui.basic.LocalizedMessage original="Your saved cart" locale="zh" localized="您保存的购物车"/>
+    <moqui.basic.LocalizedMessage original="Your subscription" locale="zh" localized="您的订阅"/>
+    <moqui.basic.LocalizedMessage original="Your subscriptions" locale="zh" localized="您的订阅"/>
+</entity-facade-xml>

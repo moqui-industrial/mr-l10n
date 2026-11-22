@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+
+<entity-facade-xml type="es">
+    <moqui.basic.LocalizedMessage original="A call being transferred is not merged" locale="es" localized="Una llamada que se está transfiriendo no se fusiona"/>
+    <moqui.basic.LocalizedMessage original="A call goes to a queue by a blind transfer" locale="es" localized="Una llamada va a una cola mediante una transferencia ciega"/>
+    <moqui.basic.LocalizedMessage original="A call that is not end-to-end encrypted is going on in this room" locale="es" localized="En esta sala de conversación hay una llamada en curso sin cifrado de extremo a extremo"/>
+    <moqui.basic.LocalizedMessage original="A call that is still ringing cannot be transferred, added to or merged" locale="es" localized="Una llamada que todavía está timbrando no se puede transferir, ni agregar personas, ni fusionar"/>
+    <moqui.basic.LocalizedMessage original="A conversation is between two numbers" locale="es" localized="Una conversación es entre dos números"/>
+    <moqui.basic.LocalizedMessage original="A direct room has no settings: start an encrypted call instead" locale="es" localized="Una sala de conversación directa no tiene configuración: inicie una llamada cifrada en su lugar"/>
+    <moqui.basic.LocalizedMessage original="A greeting is a WAV or Ogg Opus file of at most 10 MB" locale="es" localized="Un saludo es un archivo WAV u Ogg Opus de 10 MB como máximo"/>
+    <moqui.basic.LocalizedMessage original="A menu waits 1 to 60 seconds, plays again 0 to 5 times, and takes 1 to 10 keys" locale="es" localized="Un menú espera de 1 a 60 segundos, se reproduce de nuevo de 0 a 5 veces y acepta de 1 a 10 teclas"/>
+    <moqui.basic.LocalizedMessage original="A number above 0" locale="es" localized="Un número mayor que 0"/>
+    <moqui.basic.LocalizedMessage original="A number rings a user, a ring group, an IVR menu or a queue, or is the voicemail access number" locale="es" localized="Un número hace timbrar a un usuario, un grupo de timbrado, un menú IVR o una cola, o es el número de acceso al buzón de voz"/>
+    <moqui.basic.LocalizedMessage original="A number with its country code, in E.164" locale="es" localized="Un número con su código de país, en E.164"/>
+    <moqui.basic.LocalizedMessage original="A number, a menu or another queue sends calls to this queue: change that first" locale="es" localized="Un número, un menú u otra cola envía llamadas a esta cola: cambie eso primero"/>
+    <moqui.basic.LocalizedMessage original="A number, another menu or a queue sends calls to this menu: change that first" locale="es" localized="Un número, otro menú o una cola envía llamadas a este menú: cambie eso primero"/>
+    <moqui.basic.LocalizedMessage original="A phone cannot start an end-to-end encrypted call" locale="es" localized="Un teléfono no puede iniciar una llamada con cifrado de extremo a extremo"/>
+    <moqui.basic.LocalizedMessage original="A promotional text needs the person's consent, and none is recorded" locale="es" localized="Un mensaje de texto promocional necesita el consentimiento de la persona, y no hay ninguno registrado"/>
+    <moqui.basic.LocalizedMessage original="A prompt is a WAV or Ogg Opus file of at most 10 MB" locale="es" localized="Una locución es un archivo WAV u Ogg Opus de 10 MB como máximo"/>
+    <moqui.basic.LocalizedMessage original="A queue cannot fall back to itself" locale="es" localized="Una cola no puede usar como respaldo a sí misma"/>
+    <moqui.basic.LocalizedMessage original="A queue has no menu to repeat" locale="es" localized="Una cola no tiene un menú que repetir"/>
+    <moqui.basic.LocalizedMessage original="A queue is not added to a call: transfer the caller to it" locale="es" localized="Una cola no se agrega a una llamada: transfiera a quien llama hacia ella"/>
+    <moqui.basic.LocalizedMessage original="A room every user may read has no text members" locale="es" localized="Una sala de conversación que cualquier usuario puede leer no tiene miembros por mensaje de texto"/>
+    <moqui.basic.LocalizedMessage original="A room with disappearing messages has no text members: a text cannot be deleted" locale="es" localized="Una sala de conversación con mensajes que desaparecen no tiene miembros por mensaje de texto: un mensaje de texto no se puede eliminar"/>
+    <moqui.basic.LocalizedMessage original="A segment needs its spooled file or its received copy" locale="es" localized="Un segmento necesita su archivo en spool o su copia recibida"/>
+    <moqui.basic.LocalizedMessage original="A trunk needs a host name or address" locale="es" localized="Una troncal necesita un nombre de host o una dirección"/>
+    <moqui.basic.LocalizedMessage original="A voicemail needs its spooled file or its received copy" locale="es" localized="Un mensaje de voz necesita su archivo en spool o su copia recibida"/>
+    <moqui.basic.LocalizedMessage original="Agent not found" locale="es" localized="Agente no encontrado"/>
+    <moqui.basic.LocalizedMessage original="An emergency number cannot be a text member" locale="es" localized="Un número de emergencia no puede ser un miembro por mensaje de texto"/>
+    <moqui.basic.LocalizedMessage original="An emergency number is called directly, not transferred to or added" locale="es" localized="A un número de emergencia se llama directamente; no se le transfiere ni se lo agrega"/>
+    <moqui.basic.LocalizedMessage original="An end-to-end encrypted call cannot add a phone number" locale="es" localized="Una llamada con cifrado de extremo a extremo no puede agregar un número de teléfono"/>
+    <moqui.basic.LocalizedMessage original="An end-to-end encrypted call cannot be recorded" locale="es" localized="Una llamada con cifrado de extremo a extremo no se puede grabar"/>
+    <moqui.basic.LocalizedMessage original="An end-to-end encrypted call is not merged" locale="es" localized="Una llamada con cifrado de extremo a extremo no se fusiona"/>
+    <moqui.basic.LocalizedMessage original="An end-to-end encrypted room has no text members: a text is not encrypted" locale="es" localized="Una sala de conversación con cifrado de extremo a extremo no tiene miembros por mensaje de texto: un mensaje de texto no va cifrado"/>
+    <moqui.basic.LocalizedMessage original="An RCS bridge has one number, its home number, and this bridge has one already" locale="es" localized="Un puente RCS tiene un solo número, su número propio, y este puente ya tiene uno"/>
+    <moqui.basic.LocalizedMessage original="An RCS bridge's number is its home number: set the bridge's fallbackFrom (Twilio) or smsSender (Sinch) to this number first" locale="es" localized="El número de un puente RCS es su número propio: defina primero el fallbackFrom (Twilio) o el smsSender (Sinch) del puente con este número"/>
+    <moqui.basic.LocalizedMessage original="Another user's calls are read only internally" locale="es" localized="Las llamadas de otro usuario solo se leen internamente"/>
+    <moqui.basic.LocalizedMessage original="Call link not found" locale="es" localized="Enlace de llamada no encontrado"/>
+    <moqui.basic.LocalizedMessage original="Calls are not available: no media server is running" locale="es" localized="Las llamadas no están disponibles: no hay un servidor de medios en ejecución"/>
+    <moqui.basic.LocalizedMessage original="Calls are waiting in this queue" locale="es" localized="Hay llamadas en espera en esta cola"/>
+    <moqui.basic.LocalizedMessage original="Calls to international numbers are not enabled" locale="es" localized="Las llamadas a números internacionales no están habilitadas"/>
+    <moqui.basic.LocalizedMessage original="Calls to premium numbers are not enabled" locale="es" localized="Las llamadas a números de tarifa especial no están habilitadas"/>
+    <moqui.basic.LocalizedMessage original="Calls to premium numbers are not enabled for you" locale="es" localized="Las llamadas a números de tarifa especial no están habilitadas para usted"/>
+    <moqui.basic.LocalizedMessage original="Captions are turned off on this server" locale="es" localized="Los subtítulos están desactivados en este servidor"/>
+    <moqui.basic.LocalizedMessage original="Choose a day of the week" locale="es" localized="Elija un día de la semana"/>
+    <moqui.basic.LocalizedMessage original="Choose a list of callers" locale="es" localized="Elija una lista de llamantes"/>
+    <moqui.basic.LocalizedMessage original="Choose a person or a number" locale="es" localized="Elija una persona o un número"/>
+    <moqui.basic.LocalizedMessage original="Choose a PIN that is not one digit repeated or a run like 123456" locale="es" localized="Elija un PIN que no sea un dígito repetido ni una secuencia como 123456"/>
+    <moqui.basic.LocalizedMessage original="Choose a transport and a media encryption" locale="es" localized="Elija un transporte y un cifrado de medios"/>
+    <moqui.basic.LocalizedMessage original="Choose a validation state" locale="es" localized="Elija un estado de validación"/>
+    <moqui.basic.LocalizedMessage original="Choose another call to merge" locale="es" localized="Elija otra llamada para fusionar"/>
+    <moqui.basic.LocalizedMessage original="Choose another ring group" locale="es" localized="Elija otro grupo de timbrado"/>
+    <moqui.basic.LocalizedMessage original="Choose how the group rings" locale="es" localized="Elija cómo timbra el grupo"/>
+    <moqui.basic.LocalizedMessage original="Choose one of your numbers for room texts" locale="es" localized="Elija uno de sus números para los mensajes de texto de la sala de conversación"/>
+    <moqui.basic.LocalizedMessage original="Choose one of your numbers to call from" locale="es" localized="Elija uno de sus números para llamar"/>
+    <moqui.basic.LocalizedMessage original="Choose one of your numbers to text from" locale="es" localized="Elija uno de sus números para enviar el mensaje de texto"/>
+    <moqui.basic.LocalizedMessage original="Choose someone else" locale="es" localized="Elija a otra persona"/>
+    <moqui.basic.LocalizedMessage original="Choose someone else to forward to" locale="es" localized="Elija a otra persona a quien desviar"/>
+    <moqui.basic.LocalizedMessage original="Choose someone to call" locale="es" localized="Elija a alguien para llamar"/>
+    <moqui.basic.LocalizedMessage original="Choose spam, not spam or clear" locale="es" localized="Elija correo no deseado, no es spam o limpiar"/>
+    <moqui.basic.LocalizedMessage original="Choose weekly hours, hours on dates or a holiday" locale="es" localized="Elija horas semanales, horas en fechas o un día festivo"/>
+    <moqui.basic.LocalizedMessage original="Choose what happens when nobody answers" locale="es" localized="Elija qué ocurre cuando nadie contesta"/>
+    <moqui.basic.LocalizedMessage original="Choose what the rule does" locale="es" localized="Elija qué hace la regla"/>
+    <moqui.basic.LocalizedMessage original="Choose what the rule looks for" locale="es" localized="Elija qué busca la regla"/>
+    <moqui.basic.LocalizedMessage original="Choose where the call goes" locale="es" localized="Elija a dónde va la llamada"/>
+    <moqui.basic.LocalizedMessage original="Choose where the calls go" locale="es" localized="Elija a dónde van las llamadas"/>
+    <moqui.basic.LocalizedMessage original="Choose where the option goes" locale="es" localized="Elija a dónde va la opción"/>
+    <moqui.basic.LocalizedMessage original="Confirm that this person agreed to get the room's texts" locale="es" localized="Confirme que esta persona aceptó recibir los mensajes de texto de la sala de conversación"/>
+    <moqui.basic.LocalizedMessage original="Dates are yyyy-MM-dd" locale="es" localized="Las fechas son yyyy-MM-dd"/>
+    <moqui.basic.LocalizedMessage original="Digest algorithms are SHA-256, SHA-512-256 and MD5" locale="es" localized="Los algoritmos de resumen son SHA-256, SHA-512-256 y MD5"/>
+    <moqui.basic.LocalizedMessage original="Emergency location not found" locale="es" localized="Ubicación de emergencia no encontrada"/>
+    <moqui.basic.LocalizedMessage original="Every call in an encrypted room is end-to-end encrypted" locale="es" localized="Toda llamada en una sala de conversación cifrada tiene cifrado de extremo a extremo"/>
+    <moqui.basic.LocalizedMessage original="Forward to a phone number with its country code" locale="es" localized="Desvíe a un número de teléfono con su código de país"/>
+    <moqui.basic.LocalizedMessage original="Give the group a name" locale="es" localized="Dé un nombre al grupo"/>
+    <moqui.basic.LocalizedMessage original="Give the link a name" locale="es" localized="Dé un nombre al enlace"/>
+    <moqui.basic.LocalizedMessage original="Give the list a name" locale="es" localized="Dé un nombre a la lista"/>
+    <moqui.basic.LocalizedMessage original="Give the schedule a name" locale="es" localized="Dé un nombre al horario"/>
+    <moqui.basic.LocalizedMessage original="Give your name" locale="es" localized="Escriba su nombre"/>
+    <moqui.basic.LocalizedMessage original="International calls are not enabled for you" locale="es" localized="Las llamadas internacionales no están habilitadas para usted"/>
+    <moqui.basic.LocalizedMessage original="IVR menu not found" locale="es" localized="Menú IVR no encontrado"/>
+    <moqui.basic.LocalizedMessage original="Join the call to let people in" locale="es" localized="Únase a la llamada para dejar entrar a las personas"/>
+    <moqui.basic.LocalizedMessage original="Limits are whole numbers" locale="es" localized="Los límites son números enteros"/>
+    <moqui.basic.LocalizedMessage original="Limits are whole numbers of 1 or more" locale="es" localized="Los límites son números enteros de 1 o más"/>
+    <moqui.basic.LocalizedMessage original="List not found" locale="es" localized="Lista no encontrada"/>
+    <moqui.basic.LocalizedMessage original="Location: a place" locale="es" localized="Ubicación: un lugar"/>
+    <moqui.basic.LocalizedMessage original="Log in, log out, pause or resume" locale="es" localized="Iniciar sesión, cerrar sesión, pausar o reanudar"/>
+    <moqui.basic.LocalizedMessage original="Many people are joining by this link: try again in a minute" locale="es" localized="Muchas personas se están uniendo por este enlace: inténtelo de nuevo en un minuto"/>
+    <moqui.basic.LocalizedMessage original="Member not found" locale="es" localized="Miembro no encontrado"/>
+    <moqui.basic.LocalizedMessage original="Menu not found" locale="es" localized="Menú no encontrado"/>
+    <moqui.basic.LocalizedMessage original="Name a user or a ring group" locale="es" localized="Indique un usuario o un grupo de timbrado"/>
+    <moqui.basic.LocalizedMessage original="Name the menu" locale="es" localized="Ponga nombre al menú"/>
+    <moqui.basic.LocalizedMessage original="Name the queue" locale="es" localized="Ponga nombre a la cola"/>
+    <moqui.basic.LocalizedMessage original="Nobody takes this call" locale="es" localized="Nadie atiende esta llamada"/>
+    <moqui.basic.LocalizedMessage original="Not a binding of the edge node" locale="es" localized="No es una vinculación del nodo de borde"/>
+    <moqui.basic.LocalizedMessage original="Not a queue strategy" locale="es" localized="No es una estrategia de cola"/>
+    <moqui.basic.LocalizedMessage original="Nothing was dialed" locale="es" localized="No se marcó nada"/>
+    <moqui.basic.LocalizedMessage original="Number not found" locale="es" localized="Número no encontrado"/>
+    <moqui.basic.LocalizedMessage original="Only a moderator or owner may add a text member" locale="es" localized="Solo un moderador o el propietario puede agregar un miembro por mensaje de texto"/>
+    <moqui.basic.LocalizedMessage original="Only a moderator or owner may rename a text member" locale="es" localized="Solo un moderador o el propietario puede cambiar el nombre de un miembro por mensaje de texto"/>
+    <moqui.basic.LocalizedMessage original="Only a phone call's outside party is transferred: add the person to the call instead" locale="es" localized="Solo se transfiere al participante externo de una llamada telefónica: agregue a la persona a la llamada"/>
+    <moqui.basic.LocalizedMessage original="Only a private room has text members" locale="es" localized="Solo una sala de conversación privada tiene miembros por mensaje de texto"/>
+    <moqui.basic.LocalizedMessage original="Only a voice administrator may do this" locale="es" localized="Solo un administrador de voz puede hacer esto"/>
+    <moqui.basic.LocalizedMessage original="Only the edge link queue stores a message the edge node recorded" locale="es" localized="Solo la cola del enlace de borde guarda un mensaje que grabó el nodo de borde"/>
+    <moqui.basic.LocalizedMessage original="Only the edge link queue stores an edge recording" locale="es" localized="Solo la cola del enlace de borde guarda una grabación del borde"/>
+    <moqui.basic.LocalizedMessage original="Only the host ends the call for everyone" locale="es" localized="Solo el anfitrión termina la llamada para todos"/>
+    <moqui.basic.LocalizedMessage original="Only the host records the call" locale="es" localized="Solo el anfitrión graba la llamada"/>
+    <moqui.basic.LocalizedMessage original="Only the host removes people" locale="es" localized="Solo el anfitrión quita a las personas"/>
+    <moqui.basic.LocalizedMessage original="Only the one who recorded it deletes a recording" locale="es" localized="Solo quien la grabó elimina una grabación"/>
+    <moqui.basic.LocalizedMessage original="Option not found" locale="es" localized="Opción no encontrada"/>
+    <moqui.basic.LocalizedMessage original="Phone calls are not available on this call's media server" locale="es" localized="Las llamadas telefónicas no están disponibles en el servidor de medios de esta llamada"/>
+    <moqui.basic.LocalizedMessage original="Phone calls are not available: no SIP server is running" locale="es" localized="Las llamadas telefónicas no están disponibles: no hay un servidor SIP en ejecución"/>
+    <moqui.basic.LocalizedMessage original="Phone calls are not available: no SIP server is running. Call emergency services from another phone." locale="es" localized="Las llamadas telefónicas no están disponibles: no hay un servidor SIP en ejecución. Llame a los servicios de emergencia desde otro teléfono."/>
+    <moqui.basic.LocalizedMessage original="Phone not found" locale="es" localized="Teléfono no encontrado"/>
+    <moqui.basic.LocalizedMessage original="Phones do not go through the edge node" locale="es" localized="Los teléfonos no pasan por el nodo de borde"/>
+    <moqui.basic.LocalizedMessage original="Queue not found" locale="es" localized="Cola no encontrada"/>
+    <moqui.basic.LocalizedMessage original="Recording calls is off on this server" locale="es" localized="La grabación de llamadas está desactivada en este servidor"/>
+    <moqui.basic.LocalizedMessage original="Recording not found" locale="es" localized="Grabación no encontrada"/>
+    <moqui.basic.LocalizedMessage original="Remove a phone before adding another" locale="es" localized="Quite un teléfono antes de agregar otro"/>
+    <moqui.basic.LocalizedMessage original="Ring each member 5 to 300 seconds" locale="es" localized="Haga timbrar a cada miembro de 5 a 300 segundos"/>
+    <moqui.basic.LocalizedMessage original="Ring group not found" locale="es" localized="Grupo de timbrado no encontrado"/>
+    <moqui.basic.LocalizedMessage original="Rule not found" locale="es" localized="Regla no encontrada"/>
+    <moqui.basic.LocalizedMessage original="Schedule not found" locale="es" localized="Horario no encontrado"/>
+    <moqui.basic.LocalizedMessage original="Sign in first" locale="es" localized="Inicie sesión primero"/>
+    <moqui.basic.LocalizedMessage original="Sign in to add a phone" locale="es" localized="Inicie sesión para agregar un teléfono"/>
+    <moqui.basic.LocalizedMessage original="Sign in to add a text member" locale="es" localized="Inicie sesión para agregar un miembro por mensaje de texto"/>
+    <moqui.basic.LocalizedMessage original="Sign in to change your call settings" locale="es" localized="Inicie sesión para cambiar su configuración de llamadas"/>
+    <moqui.basic.LocalizedMessage original="Sign in to make a call" locale="es" localized="Inicie sesión para hacer una llamada"/>
+    <moqui.basic.LocalizedMessage original="Sign in to make a call link" locale="es" localized="Inicie sesión para crear un enlace de llamada"/>
+    <moqui.basic.LocalizedMessage original="Sign in to see your call settings" locale="es" localized="Inicie sesión para ver su configuración de llamadas"/>
+    <moqui.basic.LocalizedMessage original="Sign in to see your phones" locale="es" localized="Inicie sesión para ver sus teléfonos"/>
+    <moqui.basic.LocalizedMessage original="Sign in to send a text" locale="es" localized="Inicie sesión para enviar un mensaje de texto"/>
+    <moqui.basic.LocalizedMessage original="Sign in to use calls" locale="es" localized="Inicie sesión para usar las llamadas"/>
+    <moqui.basic.LocalizedMessage original="Sign in to use captions" locale="es" localized="Inicie sesión para usar los subtítulos"/>
+    <moqui.basic.LocalizedMessage original="SMS or RCS bridge not found" locale="es" localized="Puente SMS o RCS no encontrado"/>
+    <moqui.basic.LocalizedMessage original="Start a call from a chat room you are in" locale="es" localized="Inicie una llamada desde una sala de conversación en la que esté"/>
+    <moqui.basic.LocalizedMessage original="Stop the recording before deleting it" locale="es" localized="Detenga la grabación antes de eliminarla"/>
+    <moqui.basic.LocalizedMessage original="Text member not found" locale="es" localized="Miembro por mensaje de texto no encontrado"/>
+    <moqui.basic.LocalizedMessage original="Texts to international numbers are not enabled" locale="es" localized="Los mensajes de texto a números internacionales no están habilitados"/>
+    <moqui.basic.LocalizedMessage original="Texts to premium numbers are not enabled" locale="es" localized="Los mensajes de texto a números de tarifa especial no están habilitados"/>
+    <moqui.basic.LocalizedMessage original="That is not a phone number" locale="es" localized="Eso no es un número de teléfono"/>
+    <moqui.basic.LocalizedMessage original="That is not an email address" locale="es" localized="Eso no es una dirección de correo electrónico"/>
+    <moqui.basic.LocalizedMessage original="That is one of our numbers" locale="es" localized="Ese es uno de nuestros números"/>
+    <moqui.basic.LocalizedMessage original="That is one of our numbers: choose the person or queue it rings" locale="es" localized="Ese es uno de nuestros números: elija la persona o la cola a la que timbra"/>
+    <moqui.basic.LocalizedMessage original="That number has no messaging" locale="es" localized="Ese número no tiene mensajería"/>
+    <moqui.basic.LocalizedMessage original="That source has no failures" locale="es" localized="Esa fuente no tiene fallos"/>
+    <moqui.basic.LocalizedMessage original="The Blocked list keeps its name" locale="es" localized="La lista de bloqueados conserva su nombre"/>
+    <moqui.basic.LocalizedMessage original="The call changed since you saw it: look again and try again" locale="es" localized="La llamada cambió desde que la vio: vuelva a mirarla e inténtelo de nuevo"/>
+    <moqui.basic.LocalizedMessage original="The call has moved on from that step" locale="es" localized="La llamada ya avanzó de ese paso"/>
+    <moqui.basic.LocalizedMessage original="The call has no media server" locale="es" localized="La llamada no tiene servidor de medios"/>
+    <moqui.basic.LocalizedMessage original="The call has not started" locale="es" localized="La llamada no ha empezado"/>
+    <moqui.basic.LocalizedMessage original="The call is full" locale="es" localized="La llamada está llena"/>
+    <moqui.basic.LocalizedMessage original="The call is not being recorded" locale="es" localized="La llamada no se está grabando"/>
+    <moqui.basic.LocalizedMessage original="The callback number is not a phone number" locale="es" localized="El número de devolución de llamada no es un número de teléfono"/>
+    <moqui.basic.LocalizedMessage original="The country code is 1 to 3 digits" locale="es" localized="El código de país tiene de 1 a 3 dígitos"/>
+    <moqui.basic.LocalizedMessage original="The edge node had no digest answer of this phone checked" locale="es" localized="El nodo de borde no comprobó una respuesta de resumen de este teléfono"/>
+    <moqui.basic.LocalizedMessage original="The edge node keeps the bindings of its own SIP node only" locale="es" localized="El nodo de borde conserva solo las vinculaciones de su propio nodo SIP"/>
+    <moqui.basic.LocalizedMessage original="The edge node notes media events only of calls whose media is on it" locale="es" localized="El nodo de borde anota eventos de medios solo de llamadas cuyo medio está en él"/>
+    <moqui.basic.LocalizedMessage original="The edge node notes only the legs of calls whose media is on it" locale="es" localized="El nodo de borde anota solo los tramos de llamadas cuyo medio está en él"/>
+    <moqui.basic.LocalizedMessage original="The edge node sends to voicemail only calls whose media is on it" locale="es" localized="El nodo de borde envía al buzón de voz solo las llamadas cuyo medio está en él"/>
+    <moqui.basic.LocalizedMessage original="The edge node stores only recordings of calls whose media is on it" locale="es" localized="El nodo de borde guarda solo grabaciones de llamadas cuyo medio está en él"/>
+    <moqui.basic.LocalizedMessage original="The edge node takes calls only on its own SIP engine" locale="es" localized="El nodo de borde toma llamadas solo en su propio motor SIP"/>
+    <moqui.basic.LocalizedMessage original="The edge recording item is not JSON" locale="es" localized="El elemento de grabación del borde no es JSON"/>
+    <moqui.basic.LocalizedMessage original="The edge recording segment came without its file" locale="es" localized="El segmento de grabación del borde llegó sin su archivo"/>
+    <moqui.basic.LocalizedMessage original="The edge voicemail item came without its audio" locale="es" localized="El elemento de mensaje de voz del borde llegó sin su audio"/>
+    <moqui.basic.LocalizedMessage original="The edge voicemail item is not JSON" locale="es" localized="El elemento de mensaje de voz del borde no es JSON"/>
+    <moqui.basic.LocalizedMessage original="The fallback is a phone number with its country code" locale="es" localized="El respaldo es un número de teléfono con su código de país"/>
+    <moqui.basic.LocalizedMessage original="The limit of phone calls for a day is reached" locale="es" localized="Se alcanzó el límite de llamadas telefónicas de un día"/>
+    <moqui.basic.LocalizedMessage original="The limit of texts for a day is reached" locale="es" localized="Se alcanzó el límite de mensajes de texto de un día"/>
+    <moqui.basic.LocalizedMessage original="The list is full" locale="es" localized="La lista está llena"/>
+    <moqui.basic.LocalizedMessage original="The mobile number is not a phone number" locale="es" localized="El número de celular no es un número de teléfono"/>
+    <moqui.basic.LocalizedMessage original="The notification destination is an email address" locale="es" localized="El destino de la notificación es una dirección de correo electrónico"/>
+    <moqui.basic.LocalizedMessage original="The person who added this text member can no longer send texts: a moderator adds them again" locale="es" localized="La persona que agregó a este miembro por mensaje de texto ya no puede enviar mensajes de texto: un moderador lo agrega de nuevo"/>
+    <moqui.basic.LocalizedMessage original="The person who added this text member may no longer text from this number: a moderator adds them again" locale="es" localized="La persona que agregó a este miembro por mensaje de texto ya no puede enviar mensajes de texto desde este número: un moderador lo agrega de nuevo"/>
+    <moqui.basic.LocalizedMessage original="The person you are transferring to has not answered yet" locale="es" localized="La persona a la que está transfiriendo todavía no ha contestado"/>
+    <moqui.basic.LocalizedMessage original="The registrar is off" locale="es" localized="El registrador está apagado"/>
+    <moqui.basic.LocalizedMessage original="The system texts from one of our numbers that has messaging" locale="es" localized="El sistema envía mensajes de texto desde uno de nuestros números que tiene mensajería"/>
+    <moqui.basic.LocalizedMessage original="These calls are on different media servers, so they cannot be merged (turn on media-server@cascade-enabled)" locale="es" localized="Estas llamadas están en servidores de medios distintos, así que no se pueden fusionar (active media-server@cascade-enabled)"/>
+    <moqui.basic.LocalizedMessage original="They are in the call or it rings for them already" locale="es" localized="Ya están en la llamada o ya les está timbrando"/>
+    <moqui.basic.LocalizedMessage original="This call cannot go to voicemail now" locale="es" localized="Esta llamada no puede ir al buzón de voz ahora"/>
+    <moqui.basic.LocalizedMessage original="This call goes through the media server" locale="es" localized="Esta llamada pasa por el servidor de medios"/>
+    <moqui.basic.LocalizedMessage original="This call has no phone in it" locale="es" localized="Esta llamada no tiene ningún teléfono"/>
+    <moqui.basic.LocalizedMessage original="This call has no voicemail box" locale="es" localized="Esta llamada no tiene buzón de voz"/>
+    <moqui.basic.LocalizedMessage original="This call is being transferred already" locale="es" localized="Esta llamada ya se está transfiriendo"/>
+    <moqui.basic.LocalizedMessage original="This call is end-to-end encrypted, and this browser cannot encrypt call media (it has no RTCRtpScriptTransform)" locale="es" localized="Esta llamada tiene cifrado de extremo a extremo, y este navegador no puede cifrar el medio de la llamada (no tiene RTCRtpScriptTransform)"/>
+    <moqui.basic.LocalizedMessage original="This call is end-to-end encrypted, and this browser has no encryption device for you" locale="es" localized="Esta llamada tiene cifrado de extremo a extremo, y este navegador no tiene un dispositivo de cifrado para usted"/>
+    <moqui.basic.LocalizedMessage original="This call is end-to-end encrypted, and this browser has not named its encryption device" locale="es" localized="Esta llamada tiene cifrado de extremo a extremo, y este navegador no ha nombrado su dispositivo de cifrado"/>
+    <moqui.basic.LocalizedMessage original="This call is end-to-end encrypted, so it cannot have captions" locale="es" localized="Esta llamada tiene cifrado de extremo a extremo, así que no puede tener subtítulos"/>
+    <moqui.basic.LocalizedMessage original="This call is not end-to-end encrypted" locale="es" localized="Esta llamada no tiene cifrado de extremo a extremo"/>
+    <moqui.basic.LocalizedMessage original="This call is not ringing for you" locale="es" localized="Esta llamada no está timbrando para usted"/>
+    <moqui.basic.LocalizedMessage original="This meeting is end-to-end encrypted: guests cannot join it" locale="es" localized="Esta reunión tiene cifrado de extremo a extremo: los invitados no pueden unirse"/>
+    <moqui.basic.LocalizedMessage original="This number is a text member of the room already" locale="es" localized="Este número ya es un miembro por mensaje de texto de la sala de conversación"/>
+    <moqui.basic.LocalizedMessage original="This number is not a text member of the room" locale="es" localized="Este número no es un miembro por mensaje de texto de la sala de conversación"/>
+    <moqui.basic.LocalizedMessage original="This number no longer carries rooms' texts" locale="es" localized="Este número ya no lleva los mensajes de texto de las salas de conversación"/>
+    <moqui.basic.LocalizedMessage original="This number's texting provider does not carry group texts" locale="es" localized="El proveedor de mensajes de texto de este número no admite mensajes de texto grupales"/>
+    <moqui.basic.LocalizedMessage original="This phone cannot place calls now" locale="es" localized="Este teléfono no puede hacer llamadas ahora"/>
+    <moqui.basic.LocalizedMessage original="This phone cannot transfer now" locale="es" localized="Este teléfono no puede transferir ahora"/>
+    <moqui.basic.LocalizedMessage original="This phone was removed" locale="es" localized="Este teléfono fue quitado"/>
+    <moqui.basic.LocalizedMessage original="This rule needs a pattern" locale="es" localized="Esta regla necesita un patrón"/>
+    <moqui.basic.LocalizedMessage original="This transfer is not waiting for you" locale="es" localized="Esta transferencia no lo está esperando"/>
+    <moqui.basic.LocalizedMessage original="This voicemail has no audio to transcribe" locale="es" localized="Este mensaje de voz no tiene audio para transcribir"/>
+    <moqui.basic.LocalizedMessage original="This voicemail is transcribed or being transcribed" locale="es" localized="Este mensaje de voz ya está transcrito o se está transcribiendo"/>
+    <moqui.basic.LocalizedMessage original="Times are HH:mm, such as 08:30" locale="es" localized="Las horas son HH:mm, como 08:30"/>
+    <moqui.basic.LocalizedMessage original="Transfer not found" locale="es" localized="Transferencia no encontrada"/>
+    <moqui.basic.LocalizedMessage original="Transfer to a person, a number or a queue" locale="es" localized="Transfiera a una persona, un número o una cola"/>
+    <moqui.basic.LocalizedMessage original="Trunk not found" locale="es" localized="Troncal no encontrada"/>
+    <moqui.basic.LocalizedMessage original="User not found" locale="es" localized="Usuario no encontrado"/>
+    <moqui.basic.LocalizedMessage original="Voicemail box not found" locale="es" localized="Buzón de voz no encontrado"/>
+    <moqui.basic.LocalizedMessage original="Voicemail not found" locale="es" localized="Mensaje de voz no encontrado"/>
+    <moqui.basic.LocalizedMessage original="Weekly hours need a start and an end" locale="es" localized="Las horas semanales necesitan un inicio y un fin"/>
+    <moqui.basic.LocalizedMessage original="You are not in this call" locale="es" localized="No está en esta llamada"/>
+    <moqui.basic.LocalizedMessage original="You are not in this call yet" locale="es" localized="Todavía no está en esta llamada"/>
+    <moqui.basic.LocalizedMessage original="You are not in this call: join it instead" locale="es" localized="No está en esta llamada: únase a ella"/>
+    <moqui.basic.LocalizedMessage original="You blocked this number" locale="es" localized="Bloqueó este número"/>
+    <moqui.basic.LocalizedMessage original="You have too many lists" locale="es" localized="Tiene demasiadas listas"/>
+    <moqui.basic.LocalizedMessage original="You have too many rules" locale="es" localized="Tiene demasiadas reglas"/>
+    <moqui.basic.LocalizedMessage original="You may add phones only for yourself" locale="es" localized="Solo puede agregar teléfonos para usted"/>
+    <moqui.basic.LocalizedMessage original="You may not call outside numbers" locale="es" localized="No puede llamar a números externos"/>
+    <moqui.basic.LocalizedMessage original="You may not call that number" locale="es" localized="No puede llamar a ese número"/>
+    <moqui.basic.LocalizedMessage original="You may not text from that number" locale="es" localized="No puede enviar mensajes de texto desde ese número"/>
+    <moqui.basic.LocalizedMessage original="You may not transfer this call or add to it" locale="es" localized="No puede transferir esta llamada ni agregar a alguien"/>
+    <moqui.basic.LocalizedMessage original="You take no calls for that queue" locale="es" localized="No atiende llamadas de esa cola"/>
+    <moqui.basic.LocalizedMessage original="You were removed from this call" locale="es" localized="Fue quitado de esta llamada"/>
+    <moqui.basic.LocalizedMessage original="Your number has no trunk to call out through" locale="es" localized="Su número no tiene una troncal para llamar hacia afuera"/>
+</entity-facade-xml>

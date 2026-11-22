@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+
+<entity-facade-xml type="es">
+    <moqui.basic.LocalizedMessage original="${heldBeyond}: its password is not yours to set" locale="es" localized="${heldBeyond}: no le corresponde establecer su contraseña"/>
+    <moqui.basic.LocalizedMessage original="A code was sent a moment ago: wait half a minute before asking for another" locale="es" localized="Se envió un código hace un momento: esperar medio minuto antes de pedir otro"/>
+    <moqui.basic.LocalizedMessage original="A conversion cannot move to different units" locale="es" localized="Una conversión no puede cambiar de unidades"/>
+    <moqui.basic.LocalizedMessage original="A dependency names a source field and a target field" locale="es" localized="Una dependencia indica un campo de origen y un campo de destino"/>
+    <moqui.basic.LocalizedMessage original="A dependency value is a value, not an expression" locale="es" localized="El valor de una dependencia es un valor, no una expresión"/>
+    <moqui.basic.LocalizedMessage original="A file name may not have # in it" locale="es" localized="Un nombre de archivo no puede contener #"/>
+    <moqui.basic.LocalizedMessage original="A folder name may not have # in it" locale="es" localized="Un nombre de carpeta no puede contener #"/>
+    <moqui.basic.LocalizedMessage original="A mailbox quota is a whole number of bytes, or empty for the default" locale="es" localized="Una cuota de buzón es un número entero de bytes, o se deja vacía para el predeterminado"/>
+    <moqui.basic.LocalizedMessage original="A page is named without its file's extension" locale="es" localized="Una página se nombra sin la extensión de su archivo"/>
+    <moqui.basic.LocalizedMessage original="A page type is md, html or txt" locale="es" localized="Un tipo de página es md, html o txt"/>
+    <moqui.basic.LocalizedMessage original="A page's attachments are not a page" locale="es" localized="Los adjuntos de una página no son una página"/>
+    <moqui.basic.LocalizedMessage original="A score is from 0 to 1" locale="es" localized="Una puntuación va de 0 a 1"/>
+    <moqui.basic.LocalizedMessage original="A scorer of a service other than the evals' own needs the AgentAudit permission" locale="es" localized="Un evaluador de un servicio que no es de las propias evaluaciones necesita el permiso AgentAudit"/>
+    <moqui.basic.LocalizedMessage original="A screen schedule is changed by a signed-in user" locale="es" localized="Una programación de pantalla la cambia un usuario con sesión iniciada"/>
+    <moqui.basic.LocalizedMessage original="A server signs in with OAuth only through its account sign-in" locale="es" localized="Un servidor inicia sesión con OAuth solo mediante el inicio de sesión de su cuenta"/>
+    <moqui.basic.LocalizedMessage original="A system message is claimed for sending or consuming only" locale="es" localized="Un mensaje del sistema solo se reclama para enviarlo o consumirlo"/>
+    <moqui.basic.LocalizedMessage original="A valid email address is required" locale="es" localized="Se requiere una dirección de correo electrónico válida"/>
+    <moqui.basic.LocalizedMessage original="Account is unavailable" locale="es" localized="La cuenta no está disponible"/>
+    <moqui.basic.LocalizedMessage original="Add a recipient" locale="es" localized="Agregar un destinatario"/>
+    <moqui.basic.LocalizedMessage original="An account does not become the Internal account" locale="es" localized="Una cuenta de correo no pasa a ser la cuenta de correo interna"/>
+    <moqui.basic.LocalizedMessage original="An experiment runs at most 200 items × trials" locale="es" localized="Un experimento ejecuta como máximo 200 elementos × ensayos"/>
+    <moqui.basic.LocalizedMessage original="An export location is a relative path under runtime/drive-export, of letters, digits, '.', '_' and '-' segments" locale="es" localized="Una ubicación de exportación es una ruta relativa bajo runtime/drive-export, con segmentos de letras, dígitos, '.', '_' y '-'"/>
+    <moqui.basic.LocalizedMessage original="Attach a scorer to an agent or to a dataset" locale="es" localized="Asociar un evaluador a un agente o a un conjunto de datos"/>
+    <moqui.basic.LocalizedMessage original="Choose a non-currency unit type" locale="es" localized="Elegir un tipo de unidad que no sea moneda"/>
+    <moqui.basic.LocalizedMessage original="Choose an agent or a service to run" locale="es" localized="Elegir un agente o un servicio para ejecutar"/>
+    <moqui.basic.LocalizedMessage original="Choose at most 200 excluded resource locations" locale="es" localized="Elegir como máximo 200 ubicaciones de recurso excluidas"/>
+    <moqui.basic.LocalizedMessage original="Choose compatible units" locale="es" localized="Elegir unidades compatibles"/>
+    <moqui.basic.LocalizedMessage original="Choose distinct units of the same type" locale="es" localized="Elegir unidades distintas del mismo tipo"/>
+    <moqui.basic.LocalizedMessage original="Complete account authentication first" locale="es" localized="Completar primero la autenticación de la cuenta"/>
+    <moqui.basic.LocalizedMessage original="Complete authentication first" locale="es" localized="Completar primero la autenticación"/>
+    <moqui.basic.LocalizedMessage original="Confirm it is you: this relay carries the sign-in mail" locale="es" localized="Confirmar que es usted: esta retransmisión lleva el correo electrónico de inicio de sesión"/>
+    <moqui.basic.LocalizedMessage original="Conversion changes must start now or later and not precede the source interval" locale="es" localized="Los cambios de una conversión empiezan ahora o después, y no antes del intervalo de origen"/>
+    <moqui.basic.LocalizedMessage original="Conversion end must follow its start" locale="es" localized="El fin de la conversión debe ser posterior a su inicio"/>
+    <moqui.basic.LocalizedMessage original="Conversion factor must be positive and finite" locale="es" localized="El factor de conversión debe ser positivo y finito"/>
+    <moqui.basic.LocalizedMessage original="Conversion factor supports at most 15 significant digits" locale="es" localized="El factor de conversión admite como máximo 15 dígitos significativos"/>
+    <moqui.basic.LocalizedMessage original="Conversion is not available" locale="es" localized="La conversión no está disponible"/>
+    <moqui.basic.LocalizedMessage original="Creating the initial admin account is off: set moqui_conf__user_facade__login__initial_admin_enabled=true (in .env) and restart" locale="es" localized="La creación de la cuenta de administrador inicial está desactivada: establecer moqui_conf__user_facade__login__initial_admin_enabled=true (en .env) y reiniciar"/>
+    <moqui.basic.LocalizedMessage original="Differs from the expected output" locale="es" localized="Difiere de la salida esperada"/>
+    <moqui.basic.LocalizedMessage original="End date must be now or later and follow the start" locale="es" localized="La fecha de fin es ahora o posterior, y posterior al inicio"/>
+    <moqui.basic.LocalizedMessage original="Ending a conversion may only shorten its interval" locale="es" localized="Terminar una conversión solo puede acortar su intervalo"/>
+    <moqui.basic.LocalizedMessage original="Experiment is not running" locale="es" localized="El experimento no está en ejecución"/>
+    <moqui.basic.LocalizedMessage original="Fraction digits must be between zero and 12" locale="es" localized="Los dígitos decimales deben estar entre cero y 12"/>
+    <moqui.basic.LocalizedMessage original="Give a change reason of 1–255 characters" locale="es" localized="Indicar un motivo del cambio de 1–255 caracteres"/>
+    <moqui.basic.LocalizedMessage original="Give a stable unit ID of at most 40 letters, digits, dots, dashes or underscores" locale="es" localized="Indicar un ID de unidad estable de 40 caracteres como máximo: letras, dígitos, puntos, guiones o guiones bajos"/>
+    <moqui.basic.LocalizedMessage original="Give the input" locale="es" localized="Indicar la entrada"/>
+    <moqui.basic.LocalizedMessage original="Give the unit a description" locale="es" localized="Indicar una descripción de la unidad"/>
+    <moqui.basic.LocalizedMessage original="Global unit changes require framework ADMIN" locale="es" localized="Los cambios globales de unidades exigen ADMIN del marco de trabajo"/>
+    <moqui.basic.LocalizedMessage original="Historical conversions are retained" locale="es" localized="Las conversiones históricas se conservan"/>
+    <moqui.basic.LocalizedMessage original="If eligible, recovery instructions will be sent." locale="es" localized="Si corresponde, se enviarán las instrucciones de recuperación."/>
+    <moqui.basic.LocalizedMessage original="If eligible, verification instructions will be sent to the address." locale="es" localized="Si corresponde, se enviarán las instrucciones de verificación a la dirección."/>
+    <moqui.basic.LocalizedMessage original="Invalid sign-in challenge" locale="es" localized="El desafío de inicio de sesión no es válido"/>
+    <moqui.basic.LocalizedMessage original="It is a draft: mark it ready" locale="es" localized="Es un borrador: marcarlo como listo"/>
+    <moqui.basic.LocalizedMessage original="It is not open" locale="es" localized="La solicitud no está abierta"/>
+    <moqui.basic.LocalizedMessage original="Item is not current" locale="es" localized="El elemento no está vigente"/>
+    <moqui.basic.LocalizedMessage original="Live scoring reads every user's runs of the agent: attaching a scorer to an agent needs the AgentAudit permission" locale="es" localized="La puntuación en vivo lee las ejecuciones del agente de cada usuario: asociar un evaluador a un agente exige el permiso AgentAudit"/>
+    <moqui.basic.LocalizedMessage original="Mail goes out through the edge node only by its setup" locale="es" localized="El correo electrónico sale por el nodo de borde solo según su configuración"/>
+    <moqui.basic.LocalizedMessage original="Mail goes out through the edge node: its setup changes this relay" locale="es" localized="El correo electrónico sale por el nodo de borde: su configuración cambia esta retransmisión"/>
+    <moqui.basic.LocalizedMessage original="Matches the expected output" locale="es" localized="Coincide con la salida esperada"/>
+    <moqui.basic.LocalizedMessage original="New password is the reset password that was sent; choose one of your own" locale="es" localized="La contraseña nueva es la de restablecimiento que se envió; elegir una propia"/>
+    <moqui.basic.LocalizedMessage original="No effective conversion is available" locale="es" localized="No hay una conversión vigente"/>
+    <moqui.basic.LocalizedMessage original="No embedding model is configured (search-facade semantic)" locale="es" localized="No hay un modelo de incrustación configurado (search-facade semantic)"/>
+    <moqui.basic.LocalizedMessage original="No expected output" locale="es" localized="No hay salida esperada"/>
+    <moqui.basic.LocalizedMessage original="No phrases to look for" locale="es" localized="No hay frases que buscar"/>
+    <moqui.basic.LocalizedMessage original="No run to check" locale="es" localized="No hay una ejecución que comprobar"/>
+    <moqui.basic.LocalizedMessage original="Only a holder of MONITOR_PRIVATE_NETWORK changes the URL of a row that may reach the private network" locale="es" localized="Solo un titular de MONITOR_PRIVATE_NETWORK cambia la URL de una fila que puede alcanzar la red privada"/>
+    <moqui.basic.LocalizedMessage original="Only a manager of the drive makes a link" locale="es" localized="Solo un gestor de la unidad crea un enlace"/>
+    <moqui.basic.LocalizedMessage original="Only a manager of the drive shares with a group of external users" locale="es" localized="Solo un gestor de la unidad comparte con un grupo de usuarios externos"/>
+    <moqui.basic.LocalizedMessage original="Only a manager of the drive shares with every user" locale="es" localized="Solo un gestor de la unidad comparte con todos los usuarios"/>
+    <moqui.basic.LocalizedMessage original="Only an administrator changes a mail server here" locale="es" localized="Solo un administrador cambia aquí un servidor de correo"/>
+    <moqui.basic.LocalizedMessage original="Only an administrator changes the URL of a mirror" locale="es" localized="Solo un administrador cambia la URL de un espejo"/>
+    <moqui.basic.LocalizedMessage original="Only temperature conversions may have an offset" locale="es" localized="Solo las conversiones de temperatura pueden tener un desplazamiento"/>
+    <moqui.basic.LocalizedMessage original="Password does not satisfy account policy" locale="es" localized="La contraseña no cumple la política de la cuenta"/>
+    <moqui.basic.LocalizedMessage original="Push health is for administrators" locale="es" localized="El estado de las notificaciones push es para administradores"/>
+    <moqui.basic.LocalizedMessage original="Reaching the private network needs the MONITOR_PRIVATE_NETWORK permission" locale="es" localized="Alcanzar la red privada exige el permiso MONITOR_PRIVATE_NETWORK"/>
+    <moqui.basic.LocalizedMessage original="Registration is temporarily unavailable" locale="es" localized="El registro no está disponible por ahora"/>
+    <moqui.basic.LocalizedMessage original="Replaced by a newer request" locale="es" localized="Reemplazada por una solicitud más reciente"/>
+    <moqui.basic.LocalizedMessage original="Result is not available" locale="es" localized="El resultado no está disponible"/>
+    <moqui.basic.LocalizedMessage original="Root Page" locale="es" localized="Página raíz"/>
+    <moqui.basic.LocalizedMessage original="Sampling rate is more than 0 and at most 1" locale="es" localized="La tasa de muestreo es mayor que 0 y como máximo 1"/>
+    <moqui.basic.LocalizedMessage original="Session expired" locale="es" localized="La sesión ha caducado"/>
+    <moqui.basic.LocalizedMessage original="Sign in to read units" locale="es" localized="Iniciar sesión para consultar las unidades"/>
+    <moqui.basic.LocalizedMessage original="Sign out before registering another address" locale="es" localized="Cerrar sesión antes de registrar otra dirección"/>
+    <moqui.basic.LocalizedMessage original="Sign-in handoff expired" locale="es" localized="El traspaso de inicio de sesión ha caducado"/>
+    <moqui.basic.LocalizedMessage original="SSO callback is not registered" locale="es" localized="La URL de retorno de SSO no está registrada"/>
+    <moqui.basic.LocalizedMessage original="System message ${systemMessageId} not sent: its remote ${systemMessage.get('systemMessageRemoteId')} is disabled until a test of it passes" locale="es" localized="Mensaje del sistema ${systemMessageId} no enviado: su remoto ${systemMessage.get('systemMessageRemoteId')} está desactivado hasta que pase una prueba"/>
+    <moqui.basic.LocalizedMessage original="System message ${systemMessageId} was taken by another send, not sending." locale="es" localized="El mensaje del sistema ${systemMessageId} lo tomó otro envío; no se envía."/>
+    <moqui.basic.LocalizedMessage original="System message [${systemMessageId}] was taken by another consume, not consuming." locale="es" localized="El mensaje del sistema [${systemMessageId}] lo tomó otro consumo; no se consume."/>
+    <moqui.basic.LocalizedMessage original="That account is not yours" locale="es" localized="Esa cuenta no es suya"/>
+    <moqui.basic.LocalizedMessage original="The dataset has no items" locale="es" localized="El conjunto de datos no tiene elementos"/>
+    <moqui.basic.LocalizedMessage original="The file of this page has no type (extension), so it is not moved" locale="es" localized="El archivo de esta página no tiene tipo (extensión), así que no se mueve"/>
+    <moqui.basic.LocalizedMessage original="The Internal account is made by ensure#InternalAccount" locale="es" localized="La cuenta de correo interna la crea ensure#InternalAccount"/>
+    <moqui.basic.LocalizedMessage original="The one-click address is not on a public host" locale="es" localized="La dirección de un clic no está en un host público"/>
+    <moqui.basic.LocalizedMessage original="The report reads need a signed-in user" locale="es" localized="Las lecturas del informe necesitan un usuario con sesión iniciada"/>
+    <moqui.basic.LocalizedMessage original="The scorer gave no score" locale="es" localized="El evaluador no dio una puntuación"/>
+    <moqui.basic.LocalizedMessage original="The server changed: enter its password again" locale="es" localized="El servidor cambió: introducir su contraseña de nuevo"/>
+    <moqui.basic.LocalizedMessage original="The server changed: enter the password again, or sign in with the provider again" locale="es" localized="El servidor cambió: introducir la contraseña de nuevo, o iniciar sesión otra vez con el proveedor"/>
+    <moqui.basic.LocalizedMessage original="The server changed: test it as it is now in Admin Connections, and the test enables it" locale="es" localized="El servidor cambió: probarlo como está ahora en Conexiones de administración; la prueba lo activa"/>
+    <moqui.basic.LocalizedMessage original="The server waits for a test: test it as it is now in Admin Connections, and the test enables it" locale="es" localized="El servidor espera una prueba: probarlo como está ahora en Conexiones de administración; la prueba lo activa"/>
+    <moqui.basic.LocalizedMessage original="The setup secret is not valid: it is in the server's startup log" locale="es" localized="El secreto de configuración inicial no es válido: está en el registro de arranque del servidor"/>
+    <moqui.basic.LocalizedMessage original="The snapshot name must be one file name, with no path" locale="es" localized="El nombre de la instantánea debe ser un solo nombre de archivo, sin ruta"/>
+    <moqui.basic.LocalizedMessage original="The source of the merge request names no commit" locale="es" localized="El origen de la solicitud de fusión no nombra ninguna confirmación"/>
+    <moqui.basic.LocalizedMessage original="This link has taken all the files it may" locale="es" localized="Este enlace ya ha tomado todos los archivos permitidos"/>
+    <moqui.basic.LocalizedMessage original="This message offers no way to unsubscribe that works here" locale="es" localized="Este mensaje no ofrece aquí una forma de darse de baja que funcione"/>
+    <moqui.basic.LocalizedMessage original="This page has no file to move" locale="es" localized="Esta página no tiene un archivo que mover"/>
+    <moqui.basic.LocalizedMessage original="This relay sends the sign-in mail (password resets, sign-in codes): an access administrator changes it" locale="es" localized="Esta retransmisión envía el correo electrónico de inicio de sesión (restablecimientos de contraseña y códigos de inicio de sesión): lo cambia un administrador de acceso"/>
+    <moqui.basic.LocalizedMessage original="This server signs in with OAuth: it is set up where its account signs in" locale="es" localized="Este servidor inicia sesión con OAuth: se configura donde inicia sesión su cuenta"/>
+    <moqui.basic.LocalizedMessage original="Too much for one upload through a link (${files} files, ${mb} MB)" locale="es" localized="Demasiado para una sola carga a través de un enlace (${files} archivos, ${mb} MB)"/>
+    <moqui.basic.LocalizedMessage original="Unregistered deployment or site" locale="es" localized="Despliegue o sitio no registrado"/>
+    <moqui.basic.LocalizedMessage original="Unsupported account security action" locale="es" localized="Acción de seguridad de la cuenta no admitida"/>
+    <moqui.basic.LocalizedMessage original="Uploaded through a link" locale="es" localized="Cargado a través de un enlace"/>
+    <moqui.basic.LocalizedMessage original="Verification link expired or not found" locale="es" localized="El enlace de verificación ha caducado o no se encontró"/>
+    <moqui.basic.LocalizedMessage original="Verification mail is not configured" locale="es" localized="El correo electrónico de verificación no está configurado"/>
+    <moqui.basic.LocalizedMessage original="Wait before requesting more account instructions" locale="es" localized="Hay que esperar antes de pedir más instrucciones de la cuenta"/>
+    <moqui.basic.LocalizedMessage original="Wait before signing in again" locale="es" localized="Hay que esperar antes de iniciar sesión de nuevo"/>
+    <moqui.basic.LocalizedMessage original="You may not add pages to that space" locale="es" localized="No se pueden agregar páginas a ese espacio"/>
+    <moqui.basic.LocalizedMessage original="You may not change that repository" locale="es" localized="No se puede cambiar ese repositorio"/>
+    <moqui.basic.LocalizedMessage original="You may not move this page" locale="es" localized="No se puede mover esta página"/>
+    <moqui.basic.LocalizedMessage original="You may not push to the target" locale="es" localized="No se puede enviar al destino"/>
+</entity-facade-xml>

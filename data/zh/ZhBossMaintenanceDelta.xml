@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+
+<entity-facade-xml type="zh">
+    <moqui.basic.LocalizedMessage original="${amount} (parts ${parts}, labor ${labor} for ${hours} h)" locale="zh" localized="${amount}（零件 ${parts}，人工 ${labor}，${hours} h）"/>
+    <moqui.basic.LocalizedMessage original="${amount} (parts ${parts}, labor ${labor})" locale="zh" localized="${amount}（零件 ${parts}，人工 ${labor}）"/>
+    <moqui.basic.LocalizedMessage original="${costs.workOrderCount} work orders as of ${costs.asOfText}${costs.capped ? '; only the first 2000 are counted: narrow the options' : ''}" locale="zh" localized="${costs.workOrderCount} 张工单，截至 ${costs.asOfText}${costs.capped ? '；只计前 2000 条：请缩小选项' : ''}"/>
+    <moqui.basic.LocalizedMessage original="${count} open" locale="zh" localized="${count} 项未完成"/>
+    <moqui.basic.LocalizedMessage original="${count} open; ${who} moves them in Maintenance" locale="zh" localized="${count} 项未完成；由 ${who} 在维护中移交"/>
+    <moqui.basic.LocalizedMessage original="${count} part movements with no cost" locale="zh" localized="${count} 笔无成本的零件移动"/>
+    <moqui.basic.LocalizedMessage original="${decided.resourceName}: ${decision == 'approve' ? 'booking approved' : 'booking denied'}" locale="zh" localized="${decided.resourceName}: ${decision == 'approve' ? '预订已批准' : '预订已拒绝'}"/>
+    <moqui.basic.LocalizedMessage original="${description} stays on the records that hold it (${useCount}) and is offered for no new choice." locale="zh" localized="${description} 仍留在持有它的记录上（${useCount}），不再供新的选择使用。"/>
+    <moqui.basic.LocalizedMessage original="${due.meterName} reading" locale="zh" localized="${due.meterName} 读数"/>
+    <moqui.basic.LocalizedMessage original="${hours} h approved with no costing rate" locale="zh" localized="${hours} h 已批准，无成本费率"/>
+    <moqui.basic.LocalizedMessage original="${hours} h not approved yet" locale="zh" localized="${hours} h 尚未批准"/>
+    <moqui.basic.LocalizedMessage original="${leftOut} of the equipment asked for is not available to you." locale="zh" localized="所要的设备中有 ${leftOut} 对您不可用。"/>
+    <moqui.basic.LocalizedMessage original="${missedCount} due date(s) passed without a completion. Coalesce them into one catch-up (late for each), or skip the next due date ${nextText}; either keeps its reason." locale="zh" localized="${missedCount} 个到期日已过且未完成。将它们合并为一次补做（每一项都算逾期），或跳过下一个到期日 ${nextText}；两者都保留原因。"/>
+    <moqui.basic.LocalizedMessage original="${missedList.length} due date(s) missed" locale="zh" localized="已错过 ${missedList.length} 个到期日"/>
+    <moqui.basic.LocalizedMessage original="${name} (${count}), moved in Maintenance by ${who}" locale="zh" localized="${name}（${count}），由 ${who} 在维护中移交"/>
+    <moqui.basic.LocalizedMessage original="${pendingCount} request(s) waiting" locale="zh" localized="${pendingCount} 个请求等待中"/>
+    <moqui.basic.LocalizedMessage original="${repair.blockerText}: Start and parts wait until Customer Service records it." locale="zh" localized="${repair.blockerText}：开始和零件需等到客户服务登记之后。"/>
+    <moqui.basic.LocalizedMessage original="${team.teamName}: members" locale="zh" localized="${team.teamName}：成员"/>
+    <moqui.basic.LocalizedMessage original="${waiver.stepName} waived by ${waiver.byName}, ${waiver.waivedText}: ${waiver.reason}${waiver.active ? '' : ' (invalidated)'}" locale="zh" localized="${waiver.stepName} 由 ${waiver.byName} 于 ${waiver.waivedText} 豁免：${waiver.reason}${waiver.active ? '' : '（已失效）'}"/>
+    <moqui.basic.LocalizedMessage original="${whenText}${recurring ? ' (repeats)' : ''}" locale="zh" localized="${whenText}${recurring ? '（重复）' : ''}"/>
+    <moqui.basic.LocalizedMessage original="${workOrder.repair?.blockerText}: the repair waits for Customer Service" locale="zh" localized="${workOrder.repair?.blockerText}：维修等待客户服务"/>
+    <moqui.basic.LocalizedMessage original="1 is the most urgent" locale="zh" localized="1 为最紧急"/>
+    <moqui.basic.LocalizedMessage original="A calendar due after it is left out; a meter's is listed" locale="zh" localized="之后的日历到期不列出；仪表的会列出"/>
+    <moqui.basic.LocalizedMessage original="A change applies to new and changed bookings; those already made are kept, and the ones it no longer allows are counted for review. Approval by its approvers with none named refuses every booking." locale="zh" localized="更改适用于新的和已更改的预订；已经完成的予以保留，不再允许的计入复核。由其批准人审批时，若未指定批准人，则拒绝每一笔预订。"/>
+    <moqui.basic.LocalizedMessage original="A change to an open checklist is previewed first: a completed step whose requirement changes is reopened, a group a step is added to reopens, and only a step not yet started is removed." locale="zh" localized="对未关闭检查清单的更改先预览：要求发生变化的已完成步骤会重新打开，有步骤加入的分组会重新打开，只有尚未开始的步骤才会移除。"/>
+    <moqui.basic.LocalizedMessage original="A current member, proposed first when the team is assigned" locale="zh" localized="当前成员，分派团队时优先建议"/>
+    <moqui.basic.LocalizedMessage original="A due date on a weekend or holiday is planned on the next business day; the due date stays" locale="zh" localized="周末或节假日的到期日改到下一个工作日计划；到期日本身不变"/>
+    <moqui.basic.LocalizedMessage original="A facility and those under it; empty: the whole organization" locale="zh" localized="一个设施及其下级；空：整个组织"/>
+    <moqui.basic.LocalizedMessage original="A facility or room" locale="zh" localized="一个设施或房间"/>
+    <moqui.basic.LocalizedMessage original="A group takes none: its steps do" locale="zh" localized="分组本身不占用：由其步骤占用"/>
+    <moqui.basic.LocalizedMessage original="a Maintenance planner or supervisor" locale="zh" localized="维护计划员或主管"/>
+    <moqui.basic.LocalizedMessage original="a Maintenance resource administrator" locale="zh" localized="维护资源管理员"/>
+    <moqui.basic.LocalizedMessage original="A message is filed on a work order, equipment or a facility" locale="zh" localized="消息归档在工单、设备或设施上"/>
+    <moqui.basic.LocalizedMessage original="A meter" locale="zh" localized="一个仪表"/>
+    <moqui.basic.LocalizedMessage original="A new draft with new ids; no approval is copied" locale="zh" localized="带新 ID 的新草稿；不复制审批"/>
+    <moqui.basic.LocalizedMessage original="A number of the unit, or of the meter's unit" locale="zh" localized="该单位的数值，或仪表单位的数值"/>
+    <moqui.basic.LocalizedMessage original="A part" locale="zh" localized="一个零件"/>
+    <moqui.basic.LocalizedMessage original="A plan starts as a draft; activate it on the plan once its time zone is set. With no procedure, its work is made from its name and estimate." locale="zh" localized="计划以草稿开始；设定时区后在计划上激活。没有规程时，其工作按其名称和估算创建。"/>
+    <moqui.basic.LocalizedMessage original="A procedure's last author may approve it" locale="zh" localized="规程的最后一位作者可以批准它"/>
+    <moqui.basic.LocalizedMessage original="A resource administrator records the reading; ask one for it." locale="zh" localized="资源管理员登记读数；请向其索取。"/>
+    <moqui.basic.LocalizedMessage original="A site, building or floor, with what is inside it" locale="zh" localized="一个场地、建筑或楼层，及其内部内容"/>
+    <moqui.basic.LocalizedMessage original="A skill" locale="zh" localized="一项技能"/>
+    <moqui.basic.LocalizedMessage original="A supervisor may waive it" locale="zh" localized="主管可以豁免它"/>
+    <moqui.basic.LocalizedMessage original="A team is People's: it is made, and its members join and leave, in People's organization structure. Being a member grants nothing in Maintenance." locale="zh" localized="团队属于 People：在 People 的组织结构中创建，成员也在那里加入和离开。成为成员不授予维护中的任何权限。"/>
+    <moqui.basic.LocalizedMessage original="A technician missing a required qualification" locale="zh" localized="缺少必需资质的技术员"/>
+    <moqui.basic.LocalizedMessage original="Accept outside service on ${workEffortId}" locale="zh" localized="接受 ${workEffortId} 的外部服务"/>
+    <moqui.basic.LocalizedMessage original="Add a requirement" locale="zh" localized="添加一项要求"/>
+    <moqui.basic.LocalizedMessage original="Add a step" locale="zh" localized="添加步骤"/>
+    <moqui.basic.LocalizedMessage original="Add an approver of ${policyRead.resourceName}" locale="zh" localized="添加 ${policyRead.resourceName} 的批准人"/>
+    <moqui.basic.LocalizedMessage original="Add approver" locale="zh" localized="添加批准人"/>
+    <moqui.basic.LocalizedMessage original="Add equipment" locale="zh" localized="添加设备"/>
+    <moqui.basic.LocalizedMessage original="Add next due to calendar (.ics)" locale="zh" localized="将下次到期加入日历（.ics）"/>
+    <moqui.basic.LocalizedMessage original="Add suggested parts (${suggestedList.length})" locale="zh" localized="添加建议的零件（${suggestedList.length}）"/>
+    <moqui.basic.LocalizedMessage original="Add the next due to a calendar" locale="zh" localized="将下次到期加入日历"/>
+    <moqui.basic.LocalizedMessage original="Add to calendar (.ics)" locale="zh" localized="加入日历（.ics）"/>
+    <moqui.basic.LocalizedMessage original="After approval, a supervisor's to change" locale="zh" localized="批准之后，由主管更改"/>
+    <moqui.basic.LocalizedMessage original="All downtime" locale="zh" localized="全部停机时间"/>
+    <moqui.basic.LocalizedMessage original="All outcomes" locale="zh" localized="全部结果"/>
+    <moqui.basic.LocalizedMessage original="All plans" locale="zh" localized="全部计划"/>
+    <moqui.basic.LocalizedMessage original="All procedures" locale="zh" localized="全部规程"/>
+    <moqui.basic.LocalizedMessage original="All work orders" locale="zh" localized="全部工单"/>
+    <moqui.basic.LocalizedMessage original="All, ended and withdrawn too" locale="zh" localized="全部，包括已结束和已撤回的"/>
+    <moqui.basic.LocalizedMessage original="Also how far a repeating booking may run" locale="zh" localized="也是重复预订可以延续多久"/>
+    <moqui.basic.LocalizedMessage original="Amend" locale="zh" localized="修订"/>
+    <moqui.basic.LocalizedMessage original="Amend the checklist of ${workEffortId}" locale="zh" localized="修订 ${workEffortId} 的检查清单"/>
+    <moqui.basic.LocalizedMessage original="Amended ${amendment.amendedText}: ${amendment.reason}${amendment.summary ? ' · ' + amendment.summary : ''}" locale="zh" localized="已修订 ${amendment.amendedText}：${amendment.reason}${amendment.summary ? ' · ' + amendment.summary : ''}"/>
+    <moqui.basic.LocalizedMessage original="Amendment preview" locale="zh" localized="修订预览"/>
+    <moqui.basic.LocalizedMessage original="An approved procedure for the equipment or facility" locale="zh" localized="适用于该设备或设施的已批准规程"/>
+    <moqui.basic.LocalizedMessage original="An approved procedure for the equipment or facility; its steps become the work's" locale="zh" localized="适用于该设备或设施的已批准规程；其步骤成为该工作的步骤"/>
+    <moqui.basic.LocalizedMessage original="An approved procedure goes back to Draft when it is changed; work made earlier keeps its own." locale="zh" localized="已批准的规程在更改后回到草稿；此前创建的工作保留自己的定义。"/>
+    <moqui.basic.LocalizedMessage original="An event in your calendar with a call link; the person you choose and the work order's technicians are invited. Someone without an account gets the invitation by email and joins from its link." locale="zh" localized="您日历中的一个事件，带通话链接；您选择的人以及工单的技术员会收到邀请。没有账号的人通过电子邮件收到邀请，并从链接加入。"/>
+    <moqui.basic.LocalizedMessage original="An older reading leaves the due unknown; 30 when empty" locale="zh" localized="更早的读数使到期未知；空则为 30"/>
+    <moqui.basic.LocalizedMessage original="Apart: ${apartText}" locale="zh" localized="另计：${apartText}"/>
+    <moqui.basic.LocalizedMessage original="Applies to: ${appliesText}. With no class or model it applies to all equipment." locale="zh" localized="适用于：${appliesText}。没有类别或型号时适用于全部设备。"/>
+    <moqui.basic.LocalizedMessage original="Approve ${procedure.workEffortName}" locale="zh" localized="批准 ${procedure.workEffortName}"/>
+    <moqui.basic.LocalizedMessage original="Approve planned work estimated up to" locale="zh" localized="批准估算不超过…的计划工作"/>
+    <moqui.basic.LocalizedMessage original="Approve planned work up to (hours)" locale="zh" localized="批准不超过（小时）的计划工作"/>
+    <moqui.basic.LocalizedMessage original="Approve up to" locale="zh" localized="批准上限"/>
+    <moqui.basic.LocalizedMessage original="Approved definition (PDF)" locale="zh" localized="已批准的定义（PDF）"/>
+    <moqui.basic.LocalizedMessage original="Approvers: ${approverNames}" locale="zh" localized="批准人：${approverNames}"/>
+    <moqui.basic.LocalizedMessage original="As of ${asOf} · ${options}" locale="zh" localized="截至 ${asOf} · ${options}"/>
+    <moqui.basic.LocalizedMessage original="Asset tag" locale="zh" localized="资产标签"/>
+    <moqui.basic.LocalizedMessage original="Asset tags" locale="zh" localized="资产标签"/>
+    <moqui.basic.LocalizedMessage original="Assign and schedule work order ${workEffortId}" locale="zh" localized="分派并排程工单 ${workEffortId}"/>
+    <moqui.basic.LocalizedMessage original="Assign the selected work orders" locale="zh" localized="分派所选工单"/>
+    <moqui.basic.LocalizedMessage original="Assigning or starting work with a technician whose required qualification is missing or expired: warn, or refuse it" locale="zh" localized="分派或开始工作时，若技术员缺少必需资质或资质已过期：警告，或拒绝"/>
+    <moqui.basic.LocalizedMessage original="Back to the plans" locale="zh" localized="返回计划"/>
+    <moqui.basic.LocalizedMessage original="Back to the procedures" locale="zh" localized="返回规程"/>
+    <moqui.basic.LocalizedMessage original="Back to the work order" locale="zh" localized="返回工单"/>
+    <moqui.basic.LocalizedMessage original="Baseline reading" locale="zh" localized="基准读数"/>
+    <moqui.basic.LocalizedMessage original="Before it can be activated" locale="zh" localized="激活之前"/>
+    <moqui.basic.LocalizedMessage original="Blackouts are not available to you." locale="zh" localized="不可预约时段对您不可用。"/>
+    <moqui.basic.LocalizedMessage original="Bookable only" locale="zh" localized="仅可预订"/>
+    <moqui.basic.LocalizedMessage original="Booked up to (days ahead)" locale="zh" localized="可预订至（提前天数）"/>
+    <moqui.basic.LocalizedMessage original="Booking a room or equipment is in the browser and in Commons." locale="zh" localized="房间或设备的预订在浏览器和 Commons 中。"/>
+    <moqui.basic.LocalizedMessage original="Booking of ${resourceName}" locale="zh" localized="${resourceName} 的预订"/>
+    <moqui.basic.LocalizedMessage original="Booking requests" locale="zh" localized="预订请求"/>
+    <moqui.basic.LocalizedMessage original="Booking requests are not available to you." locale="zh" localized="预订请求对您不可用。"/>
+    <moqui.basic.LocalizedMessage original="Booking rule" locale="zh" localized="预订规则"/>
+    <moqui.basic.LocalizedMessage original="Bookings its rules no longer allow" locale="zh" localized="其规则不再允许的预订"/>
+    <moqui.basic.LocalizedMessage original="Bookings of managed rooms and equipment waiting for a decision. An approval checks the time again: a meeting that moved is shown again, and one that clashes with a booked meeting is refused. The same requests are in the Commons approvals inbox." locale="zh" localized="等待决定的已托管房间和设备的预订。批准时会再次核对时间：已改期的会议会再次显示，与已预订会议冲突的会被拒绝。同样的请求在 Commons 的审批收件箱中。"/>
+    <moqui.basic.LocalizedMessage original="Catch-up of" locale="zh" localized="补做于"/>
+    <moqui.basic.LocalizedMessage original="Change a step" locale="zh" localized="更改一个步骤"/>
+    <moqui.basic.LocalizedMessage original="Change in People" locale="zh" localized="在 People 中更改"/>
+    <moqui.basic.LocalizedMessage original="Charged to" locale="zh" localized="计入"/>
+    <moqui.basic.LocalizedMessage original="Charged to project" locale="zh" localized="计入项目"/>
+    <moqui.basic.LocalizedMessage original="Charges the repair's parts and labor to a project" locale="zh" localized="将维修的零件和人工计入一个项目"/>
+    <moqui.basic.LocalizedMessage original="Check off" locale="zh" localized="勾选完成"/>
+    <moqui.basic.LocalizedMessage original="Choose a planned part" locale="zh" localized="请选择一个计划零件"/>
+    <moqui.basic.LocalizedMessage original="Choose equipment on the Equipment list, or add it here." locale="zh" localized="在设备列表中选择设备，或在此添加。"/>
+    <moqui.basic.LocalizedMessage original="Choose the organization first" locale="zh" localized="请先选择组织"/>
+    <moqui.basic.LocalizedMessage original="Clashes with" locale="zh" localized="与…冲突"/>
+    <moqui.basic.LocalizedMessage original="Closing completed work" locale="zh" localized="关闭已完成的工作"/>
+    <moqui.basic.LocalizedMessage original="Coalesce into one catch-up" locale="zh" localized="合并为一次补做"/>
+    <moqui.basic.LocalizedMessage original="Coalesce the missed due dates into one catch-up" locale="zh" localized="将已错过的到期日合并为一次补做"/>
+    <moqui.basic.LocalizedMessage original="Coalesce them into one catch-up (its completion counts for each, late) or skip the next one. Either keeps its reason." locale="zh" localized="将它们合并为一次补做（其完成计入每一项，且算逾期），或跳过下一项。两者都保留原因。"/>
+    <moqui.basic.LocalizedMessage original="Comment required" locale="zh" localized="评论必填"/>
+    <moqui.basic.LocalizedMessage original="Completed by ____________________ Date ____________ Equipment state after the work ____________________" locale="zh" localized="完成人 ____________________ 日期 ____________ 工作后设备状态 ____________________"/>
+    <moqui.basic.LocalizedMessage original="Completing the work does not restore it: a supervisor or resource administrator restores it." locale="zh" localized="完成工作不会恢复它：由主管或资源管理员恢复。"/>
+    <moqui.basic.LocalizedMessage original="Configured here" locale="zh" localized="在此配置"/>
+    <moqui.basic.LocalizedMessage original="Copy as a new draft" locale="zh" localized="复制为新草稿"/>
+    <moqui.basic.LocalizedMessage original="Copy the steps of" locale="zh" localized="复制…的步骤"/>
+    <moqui.basic.LocalizedMessage original="Correct ${step.name}" locale="zh" localized="更正 ${step.name}"/>
+    <moqui.basic.LocalizedMessage original="Correct the completion of ${dueText}" locale="zh" localized="更正 ${dueText} 的完成情况"/>
+    <moqui.basic.LocalizedMessage original="Correction history of outage ${resourceUnavailabilityId}" locale="zh" localized="停运 ${resourceUnavailabilityId} 的更正历史"/>
+    <moqui.basic.LocalizedMessage original="Cost by currency" locale="zh" localized="按货币的成本"/>
+    <moqui.basic.LocalizedMessage original="Cost report" locale="zh" localized="成本报表"/>
+    <moqui.basic.LocalizedMessage original="Cost threshold currency" locale="zh" localized="成本阈值的货币"/>
+    <moqui.basic.LocalizedMessage original="Costing rate" locale="zh" localized="成本费率"/>
+    <moqui.basic.LocalizedMessage original="Counted as" locale="zh" localized="计为"/>
+    <moqui.basic.LocalizedMessage original="Counters" locale="zh" localized="计数"/>
+    <moqui.basic.LocalizedMessage original="Customer acknowledgment" locale="zh" localized="客户确认"/>
+    <moqui.basic.LocalizedMessage original="Customer repair" locale="zh" localized="客户维修"/>
+    <moqui.basic.LocalizedMessage original="Customer repair for ${workOrder.repair?.customerName} · claim ${workOrder.repair?.requestId}" locale="zh" localized="客户维修 ${workOrder.repair?.customerName} · 索赔 ${workOrder.repair?.requestId}"/>
+    <moqui.basic.LocalizedMessage original="Dates follow" locale="zh" localized="日期依据"/>
+    <moqui.basic.LocalizedMessage original="Days open" locale="zh" localized="未完成天数"/>
+    <moqui.basic.LocalizedMessage original="Deciding a booking needs the booking approval permission" locale="zh" localized="决定预订需要预订审批权限"/>
+    <moqui.basic.LocalizedMessage original="Default technician" locale="zh" localized="默认技术员"/>
+    <moqui.basic.LocalizedMessage original="Default work type" locale="zh" localized="默认工作类型"/>
+    <moqui.basic.LocalizedMessage original="Deny the booking of ${resourceName}" locale="zh" localized="拒绝 ${resourceName} 的预订"/>
+    <moqui.basic.LocalizedMessage original="Details for the buyer" locale="zh" localized="给采购员的详情"/>
+    <moqui.basic.LocalizedMessage original="Dispatch defaults" locale="zh" localized="派工默认值"/>
+    <moqui.basic.LocalizedMessage original="Done or cancelled" locale="zh" localized="已完成或已取消"/>
+    <moqui.basic.LocalizedMessage original="Due by" locale="zh" localized="到期于"/>
+    <moqui.basic.LocalizedMessage original="Due history" locale="zh" localized="到期历史"/>
+    <moqui.basic.LocalizedMessage original="Due maintenance" locale="zh" localized="到期维护"/>
+    <moqui.basic.LocalizedMessage original="Due, overdue or unknown" locale="zh" localized="到期、已逾期或未知"/>
+    <moqui.basic.LocalizedMessage original="Each action shows its input, or why it cannot be done now." locale="zh" localized="每个操作显示其输入，或现在为何不能执行。"/>
+    <moqui.basic.LocalizedMessage original="Each count opens its list. Preventive plans and meters are counted once they are set up; until then they are not configured, never zero." locale="zh" localized="每个计数打开其列表。预防性计划和仪表在设置之后才计数；在此之前是未配置，从不是零。"/>
+    <moqui.basic.LocalizedMessage original="Each currency is totalled apart; none is converted." locale="zh" localized="每种货币单独合计；不做换算。"/>
+    <moqui.basic.LocalizedMessage original="Each plan is taken on its own: one work order for its next obligation, none while its work is open. What each would do now:" locale="zh" localized="每个计划单独处理：为其下一项义务创建一张工单，其工作未关闭时不创建。每个计划现在会做什么："/>
+    <moqui.basic.LocalizedMessage original="Each report's own default when empty" locale="zh" localized="空则为每个报表自己的默认值"/>
+    <moqui.basic.LocalizedMessage original="Earlier terms" locale="zh" localized="先前条款"/>
+    <moqui.basic.LocalizedMessage original="Edit ${productName}" locale="zh" localized="编辑 ${productName}"/>
+    <moqui.basic.LocalizedMessage original="Edit procedure ${workEffortId}" locale="zh" localized="编辑规程 ${workEffortId}"/>
+    <moqui.basic.LocalizedMessage original="Edit step ${step.workEffortName}" locale="zh" localized="编辑步骤 ${step.workEffortName}"/>
+    <moqui.basic.LocalizedMessage original="Edit the terms of ${plan.scheduleName}" locale="zh" localized="编辑 ${plan.scheduleName} 的条款"/>
+    <moqui.basic.LocalizedMessage original="Edit work order ${workEffortId}" locale="zh" localized="编辑工单 ${workEffortId}"/>
+    <moqui.basic.LocalizedMessage original="Empty leaves what it waits for as it is" locale="zh" localized="空则保持其所等待的内容不变"/>
+    <moqui.basic.LocalizedMessage original="Empty: any" locale="zh" localized="空：任意"/>
+    <moqui.basic.LocalizedMessage original="Empty: any equipment or facility" locale="zh" localized="空：任何设备或设施"/>
+    <moqui.basic.LocalizedMessage original="Empty: at the top; a step with steps under it is a group" locale="zh" localized="空：在顶层；下面有步骤的步骤是分组"/>
+    <moqui.basic.LocalizedMessage original="Empty: each keeps its team" locale="zh" localized="空：各自保留其团队"/>
+    <moqui.basic.LocalizedMessage original="Empty: now. The policy in effect ends when this one starts" locale="zh" localized="空：现在。现行策略在此策略开始时结束"/>
+    <moqui.basic.LocalizedMessage original="Empty: the organization's own currency" locale="zh" localized="空：组织自己的货币"/>
+    <moqui.basic.LocalizedMessage original="Empty: the whole procedure" locale="zh" localized="空：整个规程"/>
+    <moqui.basic.LocalizedMessage original="End ${partyName} as an approver" locale="zh" localized="结束 ${partyName} 的批准人身份"/>
+    <moqui.basic.LocalizedMessage original="End ${plan.scheduleName}" locale="zh" localized="结束 ${plan.scheduleName}"/>
+    <moqui.basic.LocalizedMessage original="End approver" locale="zh" localized="结束批准人"/>
+    <moqui.basic.LocalizedMessage original="End plan" locale="zh" localized="结束计划"/>
+    <moqui.basic.LocalizedMessage original="Ended: ${plan.endReason}" locale="zh" localized="已结束：${plan.endReason}"/>
+    <moqui.basic.LocalizedMessage original="Ends within 30 days" locale="zh" localized="30 天内结束"/>
+    <moqui.basic.LocalizedMessage original="Equipment and facilities out of service, from a production stop, a work order or a report. Completing work does not restore a resource; Restore does." locale="zh" localized="停运中的设备和设施，来自生产停机、工单或报表。完成工作不会恢复资源；还原才会。"/>
+    <moqui.basic.LocalizedMessage original="Equipment and facility outages" locale="zh" localized="设备与设施停运"/>
+    <moqui.basic.LocalizedMessage original="Equipment and facility outages index" locale="zh" localized="设备与设施停运索引"/>
+    <moqui.basic.LocalizedMessage original="Equipment and skills" locale="zh" localized="设备与技能"/>
+    <moqui.basic.LocalizedMessage original="Equipment held" locale="zh" localized="持有的设备"/>
+    <moqui.basic.LocalizedMessage original="Equipment import" locale="zh" localized="设备导入"/>
+    <moqui.basic.LocalizedMessage original="Equipment model" locale="zh" localized="设备型号"/>
+    <moqui.basic.LocalizedMessage original="Equipment record" locale="zh" localized="设备记录"/>
+    <moqui.basic.LocalizedMessage original="Every component when empty" locale="zh" localized="空则为每个组件"/>
+    <moqui.basic.LocalizedMessage original="Every work order counted" locale="zh" localized="计入的每张工单"/>
+    <moqui.basic.LocalizedMessage original="Every work order you read" locale="zh" localized="您可查看的全部工单"/>
+    <moqui.basic.LocalizedMessage original="Facility or room" locale="zh" localized="设施或房间"/>
+    <moqui.basic.LocalizedMessage original="Facility record" locale="zh" localized="设施记录"/>
+    <moqui.basic.LocalizedMessage original="Fact" locale="zh" localized="事项"/>
+    <moqui.basic.LocalizedMessage original="Failures: ${step.failureCount}" locale="zh" localized="失败：${step.failureCount}"/>
+    <moqui.basic.LocalizedMessage original="Fields left empty take the model default's value." locale="zh" localized="留空的字段采用型号默认值。"/>
+    <moqui.basic.LocalizedMessage original="Findings or note" locale="zh" localized="发现或备注"/>
+    <moqui.basic.LocalizedMessage original="First due" locale="zh" localized="首次到期"/>
+    <moqui.basic.LocalizedMessage original="Fixed dates from the first due date" locale="zh" localized="自首次到期日起的固定日期"/>
+    <moqui.basic.LocalizedMessage original="Follow-up tasks" locale="zh" localized="跟进任务"/>
+    <moqui.basic.LocalizedMessage original="Follows the model's default" locale="zh" localized="沿用型号的默认值"/>
+    <moqui.basic.LocalizedMessage original="For a plan that names no lead days; empty: on the planned day" locale="zh" localized="用于未填写提前天数的计划；空：在计划当日"/>
+    <moqui.basic.LocalizedMessage original="For a step that is added" locale="zh" localized="用于新增的步骤"/>
+    <moqui.basic.LocalizedMessage original="For equipment class" locale="zh" localized="用于设备类别"/>
+    <moqui.basic.LocalizedMessage original="For equipment model" locale="zh" localized="用于设备型号"/>
+    <moqui.basic.LocalizedMessage original="For facility type" locale="zh" localized="用于设施类型"/>
+    <moqui.basic.LocalizedMessage original="For the due date" locale="zh" localized="用于到期日"/>
+    <moqui.basic.LocalizedMessage original="For work on a facility with no equipment" locale="zh" localized="用于没有设备的设施上的工作"/>
+    <moqui.basic.LocalizedMessage original="Generate the due work of this page" locale="zh" localized="生成本页的到期工作"/>
+    <moqui.basic.LocalizedMessage original="Generate work" locale="zh" localized="生成工作"/>
+    <moqui.basic.LocalizedMessage original="Generated work" locale="zh" localized="已生成的工作"/>
+    <moqui.basic.LocalizedMessage original="Hand over to" locale="zh" localized="移交给"/>
+    <moqui.basic.LocalizedMessage original="Held for" locale="zh" localized="暂挂原因"/>
+    <moqui.basic.LocalizedMessage original="Held: ${workOrder.holdReasonText}" locale="zh" localized="暂挂：${workOrder.holdReasonText}"/>
+    <moqui.basic.LocalizedMessage original="Holds at least" locale="zh" localized="至少容纳"/>
+    <moqui.basic.LocalizedMessage original="Home summarizes the maintenance work, equipment and facilities of your organizations. Nothing of it is open to you." locale="zh" localized="首页汇总您组织的维护工作、设备和设施。其中没有对您开放的内容。"/>
+    <moqui.basic.LocalizedMessage original="Hours needed" locale="zh" localized="所需小时"/>
+    <moqui.basic.LocalizedMessage original="Hours not approved" locale="zh" localized="未批准的小时"/>
+    <moqui.basic.LocalizedMessage original="Hours with no costing rate" locale="zh" localized="无成本费率的小时"/>
+    <moqui.basic.LocalizedMessage original="Id, name, serial or registration" locale="zh" localized="ID、名称、序列号或注册号"/>
+    <moqui.basic.LocalizedMessage original="In force since ${policy?.fromText}, set by ${policy?.createdByName}${policy?.changeReason ? ': ' + policy.changeReason : ''}" locale="zh" localized="自 ${policy?.fromText} 起生效，由 ${policy?.createdByName} 设置${policy?.changeReason ? '：' + policy.changeReason : ''}"/>
+    <moqui.basic.LocalizedMessage original="Instruction: ${node.name}" locale="zh" localized="说明：${node.name}"/>
+    <moqui.basic.LocalizedMessage original="Intake address tag" locale="zh" localized="接收地址标签"/>
+    <moqui.basic.LocalizedMessage original="Intervention report" locale="zh" localized="维修报告"/>
+    <moqui.basic.LocalizedMessage original="Issue from" locale="zh" localized="发料自"/>
+    <moqui.basic.LocalizedMessage original="Issue part" locale="zh" localized="发料"/>
+    <moqui.basic.LocalizedMessage original="Issued ${quantity}" locale="zh" localized="已发料 ${quantity}"/>
+    <moqui.basic.LocalizedMessage original="Issues and returns" locale="zh" localized="发料与退料"/>
+    <moqui.basic.LocalizedMessage original="Issuing and returning parts needs the stock issue permission" locale="zh" localized="发料和退料需要库存发料权限"/>
+    <moqui.basic.LocalizedMessage original="Its interval, meter and procedure apply where the plan names none" locale="zh" localized="计划未填写时，采用其间隔、仪表和规程"/>
+    <moqui.basic.LocalizedMessage original="Kept by their owners" locale="zh" localized="由其所有者保管"/>
+    <moqui.basic.LocalizedMessage original="Label size" locale="zh" localized="标签尺寸"/>
+    <moqui.basic.LocalizedMessage original="Large (90 mm)" locale="zh" localized="大号（90 mm）"/>
+    <moqui.basic.LocalizedMessage original="Last reading" locale="zh" localized="最近读数"/>
+    <moqui.basic.LocalizedMessage original="Link a purchase order line to ${workEffortId}" locale="zh" localized="将采购订单行关联到 ${workEffortId}"/>
+    <moqui.basic.LocalizedMessage original="Longest (min)" locale="zh" localized="最长（分钟）"/>
+    <moqui.basic.LocalizedMessage original="Longest booking (minutes)" locale="zh" localized="最长预订（分钟）"/>
+    <moqui.basic.LocalizedMessage original="Lookup" locale="zh" localized="查找项"/>
+    <moqui.basic.LocalizedMessage original="Made ahead (days)" locale="zh" localized="提前天数"/>
+    <moqui.basic.LocalizedMessage original="Maintenance backlog" locale="zh" localized="维护待办"/>
+    <moqui.basic.LocalizedMessage original="Maintenance context is not available" locale="zh" localized="维护上下文不可用"/>
+    <moqui.basic.LocalizedMessage original="Maintenance costs" locale="zh" localized="维护成本"/>
+    <moqui.basic.LocalizedMessage original="Maintenance is not available" locale="zh" localized="维护不可用"/>
+    <moqui.basic.LocalizedMessage original="Maintenance operations" locale="zh" localized="维护运维"/>
+    <moqui.basic.LocalizedMessage original="Maintenance records with no work order" locale="zh" localized="没有工单的维护记录"/>
+    <moqui.basic.LocalizedMessage original="Maintenance reports" locale="zh" localized="维护报表"/>
+    <moqui.basic.LocalizedMessage original="Maintenance requests" locale="zh" localized="维护请求"/>
+    <moqui.basic.LocalizedMessage original="Maintenance settings" locale="zh" localized="维护设置"/>
+    <moqui.basic.LocalizedMessage original="Maintenance setup" locale="zh" localized="维护初始化"/>
+    <moqui.basic.LocalizedMessage original="Maintenance view is required" locale="zh" localized="需要维护查看权限"/>
+    <moqui.basic.LocalizedMessage original="Maintenance work and equipment" locale="zh" localized="维护工作与设备"/>
+    <moqui.basic.LocalizedMessage original="Maintenance work is not available" locale="zh" localized="维护工作不可用"/>
+    <moqui.basic.LocalizedMessage original="Maintenance work orders" locale="zh" localized="维护工单"/>
+    <moqui.basic.LocalizedMessage original="Maintenance work orders (execution roots only: no procedure or process step) with their status, organization, target, kind, source, priority and dates, by their last change. Each viewer reads their own organizations' work orders. No cost, rate or amount." locale="zh" localized="维护工单（仅执行根：不含规程或过程步骤），含状态、组织、维护对象、种类、来源、优先级和日期，按最近更改。每位查看者只看自己组织的工单。无成本、费率或金额。"/>
+    <moqui.basic.LocalizedMessage original="Maintenance work orders index" locale="zh" localized="维护工单索引"/>
+    <moqui.basic.LocalizedMessage original="Maintenance's settings are the Maintenance administrator's." locale="zh" localized="维护的设置属于维护管理员。"/>
+    <moqui.basic.LocalizedMessage original="Maintenance's teams are read by planners and supervisors and set by the Maintenance administrator." locale="zh" localized="维护团队由计划员和主管查看，由维护管理员设置。"/>
+    <moqui.basic.LocalizedMessage original="Make ${readyRows.length} work order(s)" locale="zh" localized="创建 ${readyRows.length} 张工单"/>
+    <moqui.basic.LocalizedMessage original="Make a work order" locale="zh" localized="创建一张工单"/>
+    <moqui.basic.LocalizedMessage original="Make preventive work ahead (days)" locale="zh" localized="提前创建预防性工作（天）"/>
+    <moqui.basic.LocalizedMessage original="Managed" locale="zh" localized="已托管"/>
+    <moqui.basic.LocalizedMessage original="Missed due dates" locale="zh" localized="已错过的到期日"/>
+    <moqui.basic.LocalizedMessage original="Model default" locale="zh" localized="型号默认值"/>
+    <moqui.basic.LocalizedMessage original="Needed to deny" locale="zh" localized="拒绝时必填"/>
+    <moqui.basic.LocalizedMessage original="Needs downtime recording access, which an administrator can grant." locale="zh" localized="需要停机记录权限，管理员可以授予。"/>
+    <moqui.basic.LocalizedMessage original="Needs maintenance planning access, which an administrator can grant." locale="zh" localized="需要维护计划权限，管理员可以授予。"/>
+    <moqui.basic.LocalizedMessage original="Needs procedure editing access, which an administrator can grant." locale="zh" localized="需要规程编辑权限，管理员可以授予。"/>
+    <moqui.basic.LocalizedMessage original="Net book value" locale="zh" localized="账面净值"/>
+    <moqui.basic.LocalizedMessage original="New preventive plan" locale="zh" localized="新建预防性计划"/>
+    <moqui.basic.LocalizedMessage original="New procedure" locale="zh" localized="新建规程"/>
+    <moqui.basic.LocalizedMessage original="New step's name" locale="zh" localized="新步骤的名称"/>
+    <moqui.basic.LocalizedMessage original="New work is made of the definition as approved from its effective time; work made earlier keeps its own." locale="zh" localized="新工作自生效时间起按已批准的定义创建；此前创建的工作保留自己的定义。"/>
+    <moqui.basic.LocalizedMessage original="Next: ${nextStep.name}" locale="zh" localized="下一步：${nextStep.name}"/>
+    <moqui.basic.LocalizedMessage original="No action is open while the work order is ${workOrder.statusText}." locale="zh" localized="工单处于 ${workOrder.statusText} 时没有可执行的操作。"/>
+    <moqui.basic.LocalizedMessage original="No approval has been requested." locale="zh" localized="尚未请求审批。"/>
+    <moqui.basic.LocalizedMessage original="No approved definition is stored" locale="zh" localized="没有已保存的批准定义"/>
+    <moqui.basic.LocalizedMessage original="No approver: bookings are approved at once unless its policy requires approval, which then refuses them." locale="zh" localized="无批准人：预订立即批准，除非其策略要求审批，那时会拒绝它们。"/>
+    <moqui.basic.LocalizedMessage original="No blackout matches." locale="zh" localized="没有匹配的不可预约时段。"/>
+    <moqui.basic.LocalizedMessage original="No bookable resource matches. A room or piece of equipment is bookable from its own record." locale="zh" localized="没有匹配的可预订资源。房间或设备可从其自身记录设为可预订。"/>
+    <moqui.basic.LocalizedMessage original="No bookable rooms or equipment in your scope." locale="zh" localized="您的范围内没有可预订的房间或设备。"/>
+    <moqui.basic.LocalizedMessage original="No change is recorded yet." locale="zh" localized="尚未记录任何更改。"/>
+    <moqui.basic.LocalizedMessage original="No check is recorded yet." locale="zh" localized="尚未记录任何检查。"/>
+    <moqui.basic.LocalizedMessage original="No cost in these options." locale="zh" localized="这些选项下没有成本。"/>
+    <moqui.basic.LocalizedMessage original="No cost is recorded for this work yet." locale="zh" localized="此工作尚未记录成本。"/>
+    <moqui.basic.LocalizedMessage original="No due date is projected after the end; the plan and its history stay." locale="zh" localized="结束后不再投影到期日；计划和其历史保留。"/>
+    <moqui.basic.LocalizedMessage original="No due date of this plan has been acted on yet: its work is made from Due maintenance or by the job." locale="zh" localized="尚未处理此计划的任何到期日：其工作由到期维护或该作业创建。"/>
+    <moqui.basic.LocalizedMessage original="No equipment matches. Search by another name, or register equipment." locale="zh" localized="没有匹配的设备。请用其他名称搜索，或登记设备。"/>
+    <moqui.basic.LocalizedMessage original="No free stock in your facilities" locale="zh" localized="您的设施中没有可用库存"/>
+    <moqui.basic.LocalizedMessage original="No longer managed (booked as before)" locale="zh" localized="不再托管（仍按以前预订）"/>
+    <moqui.basic.LocalizedMessage original="No maintenance team: make one in People's organization structure." locale="zh" localized="没有维护团队：请在 People 的组织结构中创建一个。"/>
+    <moqui.basic.LocalizedMessage original="No member now." locale="zh" localized="目前没有成员。"/>
+    <moqui.basic.LocalizedMessage original="No obligation in this period." locale="zh" localized="本期间没有义务。"/>
+    <moqui.basic.LocalizedMessage original="No open work order is assigned to you." locale="zh" localized="没有分派给您的未完成工单。"/>
+    <moqui.basic.LocalizedMessage original="No organization of yours uses Maintenance yet: choose one to check it." locale="zh" localized="您的组织还没有使用维护：请选择一个进行检查。"/>
+    <moqui.basic.LocalizedMessage original="No outage matches. Record one when equipment or a facility is out of service." locale="zh" localized="没有匹配的停运。当设备或设施停运时请登记。"/>
+    <moqui.basic.LocalizedMessage original="No parts are planned for this work order; plan them on its Parts tab." locale="zh" localized="此工单没有计划零件；请在其零件选项卡上计划它们。"/>
+    <moqui.basic.LocalizedMessage original="No parts are planned yet." locale="zh" localized="尚未计划零件。"/>
+    <moqui.basic.LocalizedMessage original="No plan on this page is ready for work." locale="zh" localized="本页没有计划已可生成工作。"/>
+    <moqui.basic.LocalizedMessage original="No procedure: the work is as described above." locale="zh" localized="无规程：工作即上文所述。"/>
+    <moqui.basic.LocalizedMessage original="No purchase is requested for this work." locale="zh" localized="此工作没有采购请求。"/>
+    <moqui.basic.LocalizedMessage original="No purchase order line fulfils this work yet." locale="zh" localized="尚无采购订单行履行此工作。"/>
+    <moqui.basic.LocalizedMessage original="No requirement is planned." locale="zh" localized="没有计划中的要求。"/>
+    <moqui.basic.LocalizedMessage original="No source in these options." locale="zh" localized="这些选项下没有来源。"/>
+    <moqui.basic.LocalizedMessage original="No team has open work." locale="zh" localized="没有团队有未完成的工作。"/>
+    <moqui.basic.LocalizedMessage original="No team or technician is assigned yet." locale="zh" localized="尚未分派团队或技术员。"/>
+    <moqui.basic.LocalizedMessage original="No time is recorded yet." locale="zh" localized="尚未记录工时。"/>
+    <moqui.basic.LocalizedMessage original="No work has been made for this plan yet." locale="zh" localized="尚未为此计划创建工作。"/>
+    <moqui.basic.LocalizedMessage original="No work has been made of this procedure." locale="zh" localized="尚未由此规程创建任何工作。"/>
+    <moqui.basic.LocalizedMessage original="No work order in these options." locale="zh" localized="这些选项下没有工单。"/>
+    <moqui.basic.LocalizedMessage original="No: a policy that starts before the planned one is refused. Yes: the planned one is withdrawn and this one stays in effect" locale="zh" localized="否：开始早于计划策略的策略会被拒绝。是：撤回计划中的策略，此策略保持生效"/>
+    <moqui.basic.LocalizedMessage original="Not counted" locale="zh" localized="未计入"/>
+    <moqui.basic.LocalizedMessage original="Not counted: ${uncountedWorkEffortId}" locale="zh" localized="未计入：${uncountedWorkEffortId}"/>
+    <moqui.basic.LocalizedMessage original="Not due yet" locale="zh" localized="尚未到期"/>
+    <moqui.basic.LocalizedMessage original="Not managed" locale="zh" localized="未托管"/>
+    <moqui.basic.LocalizedMessage original="Not managed: it is booked at once, or by its approvers when it has any. Save a policy to manage it." locale="zh" localized="未托管：立即预订，或在有批准人时由批准人预订。保存一条策略以对其进行托管。"/>
+    <moqui.basic.LocalizedMessage original="Not priced: ${unknown}" locale="zh" localized="未计价：${unknown}"/>
+    <moqui.basic.LocalizedMessage original="Not restored" locale="zh" localized="未恢复"/>
+    <moqui.basic.LocalizedMessage original="Not triaged" locale="zh" localized="未分流"/>
+    <moqui.basic.LocalizedMessage original="Note to the approver" locale="zh" localized="给批准人的备注"/>
+    <moqui.basic.LocalizedMessage original="Nothing booked or blocked on this day." locale="zh" localized="这一天没有预订或封锁。"/>
+    <moqui.basic.LocalizedMessage original="Nothing is issued to this work order yet." locale="zh" localized="尚未向此工单发料。"/>
+    <moqui.basic.LocalizedMessage original="Nothing is recorded yet." locale="zh" localized="尚未记录任何内容。"/>
+    <moqui.basic.LocalizedMessage original="Now when empty: the end of the period, when the backlog is counted" locale="zh" localized="空则为现在：期间结束、统计待办之时"/>
+    <moqui.basic.LocalizedMessage original="Obligations due ${summary.fromText} to ${summary.thruText}: ${percentText}" locale="zh" localized="到期义务 ${summary.fromText} 至 ${summary.thruText}：${percentText}"/>
+    <moqui.basic.LocalizedMessage original="Off: another approver approves each change" locale="zh" localized="关闭：每次更改由另一名批准人审批"/>
+    <moqui.basic.LocalizedMessage original="On ${dayText}" locale="zh" localized="于 ${dayText}"/>
+    <moqui.basic.LocalizedMessage original="On time is satisfied by its due date, over every obligation due; a skipped or coalesced one is not compliant. ${summary.excludedText}." locale="zh" localized="准时以其到期日判定，针对每一项到期义务；已跳过或已合并的不算符合。${summary.excludedText}。"/>
+    <moqui.basic.LocalizedMessage original="On-time preventive maintenance" locale="zh" localized="准时的预防性维护"/>
+    <moqui.basic.LocalizedMessage original="Only the first 500 active plans are read; narrow the list by organization or facility." locale="zh" localized="只读取前 500 个有效计划；请按组织或设施缩小列表。"/>
+    <moqui.basic.LocalizedMessage original="Open ${openWorkEffortId}" locale="zh" localized="打开 ${openWorkEffortId}"/>
+    <moqui.basic.LocalizedMessage original="Open ${plan.targetName}" locale="zh" localized="打开 ${plan.targetName}"/>
+    <moqui.basic.LocalizedMessage original="Open a work order, equipment or a facility to log a note on it" locale="zh" localized="请打开工单、设备或设施以登记备注"/>
+    <moqui.basic.LocalizedMessage original="Open a work order, equipment or a facility to log a note on it." locale="zh" localized="请打开工单、设备或设施以登记备注。"/>
+    <moqui.basic.LocalizedMessage original="Open or generated, not done" locale="zh" localized="已开立或已生成、未完成"/>
+    <moqui.basic.LocalizedMessage original="Open the tags" locale="zh" localized="打开标签"/>
+    <moqui.basic.LocalizedMessage original="or end" locale="zh" localized="或结束"/>
+    <moqui.basic.LocalizedMessage original="or model" locale="zh" localized="或型号"/>
+    <moqui.basic.LocalizedMessage original="Or the hours" locale="zh" localized="或小时数"/>
+    <moqui.basic.LocalizedMessage original="Or why the requests are left" locale="zh" localized="或为何留下这些请求"/>
+    <moqui.basic.LocalizedMessage original="Ordered, not accepted" locale="zh" localized="已订购、未接受"/>
+    <moqui.basic.LocalizedMessage original="Organization structure" locale="zh" localized="组织结构"/>
+    <moqui.basic.LocalizedMessage original="Out of service now" locale="zh" localized="当前停运"/>
+    <moqui.basic.LocalizedMessage original="Outage" locale="zh" localized="停运"/>
+    <moqui.basic.LocalizedMessage original="Outages in Downtime" locale="zh" localized="停机时间中的停运"/>
+    <moqui.basic.LocalizedMessage original="Outages in force by reason" locale="zh" localized="按原因划分的现行停运"/>
+    <moqui.basic.LocalizedMessage original="Outside service" locale="zh" localized="外部服务"/>
+    <moqui.basic.LocalizedMessage original="Over another booking" locale="zh" localized="与另一预订重叠"/>
+    <moqui.basic.LocalizedMessage original="Overdue preventive maintenance" locale="zh" localized="已逾期的预防性维护"/>
+    <moqui.basic.LocalizedMessage original="Part or equipment" locale="zh" localized="零件或设备"/>
+    <moqui.basic.LocalizedMessage original="Parts" locale="zh" localized="零件"/>
+    <moqui.basic.LocalizedMessage original="Parts are issued by the technician assigned to the work or a supervisor, to approved or started work" locale="zh" localized="零件由分派到该工作的技术员或主管发给已批准或已开始的工作"/>
+    <moqui.basic.LocalizedMessage original="Parts of work order ${workEffortId}" locale="zh" localized="工单 ${workEffortId} 的零件"/>
+    <moqui.basic.LocalizedMessage original="Parts of work order ${workEffortId} saved" locale="zh" localized="工单 ${workEffortId} 的零件已保存"/>
+    <moqui.basic.LocalizedMessage original="Parts used · ${usedList.length}" locale="zh" localized="已用零件 · ${usedList.length}"/>
+    <moqui.basic.LocalizedMessage original="Parts, labor and outside service of the work orders you read, each source once, by currency." locale="zh" localized="您可查看的工单的零件、人工和外部服务，每个来源一次，按货币。"/>
+    <moqui.basic.LocalizedMessage original="Parts, labor and outside service of the work orders, each source once, by currency; unpriced hours apart." locale="zh" localized="工单的零件、人工和外部服务，每个来源一次，按货币；无费率的小时另计。"/>
+    <moqui.basic.LocalizedMessage original="PERMISSION_DENIED: Maintenance costs are the cost reader's" locale="zh" localized="PERMISSION_DENIED: 维护成本属于成本查看者"/>
+    <moqui.basic.LocalizedMessage original="PERMISSION_DENIED: Maintenance requests are triaged by planners and supervisors" locale="zh" localized="PERMISSION_DENIED: 维护请求由计划员和主管分流"/>
+    <moqui.basic.LocalizedMessage original="PERMISSION_DENIED: Maintenance settings are the Maintenance administrator's" locale="zh" localized="PERMISSION_DENIED: 维护设置属于维护管理员"/>
+    <moqui.basic.LocalizedMessage original="PERMISSION_DENIED: Maintenance teams are read by planners and supervisors" locale="zh" localized="PERMISSION_DENIED: 维护团队由计划员和主管查看"/>
+    <moqui.basic.LocalizedMessage original="Plan ${failure.maintenanceScheduleId}: its due could not be read" locale="zh" localized="计划 ${failure.maintenanceScheduleId}：无法读取其到期"/>
+    <moqui.basic.LocalizedMessage original="Plan ${maintenanceScheduleId} is not available: it does not exist or it is not one of your organizations'." locale="zh" localized="计划 ${maintenanceScheduleId} 不可用：它不存在或不属于您的组织。"/>
+    <moqui.basic.LocalizedMessage original="Plan a blackout" locale="zh" localized="计划一个不可预约时段"/>
+    <moqui.basic.LocalizedMessage original="Plan a part for work order ${workEffortId}" locale="zh" localized="为工单 ${workEffortId} 计划一个零件"/>
+    <moqui.basic.LocalizedMessage original="Plan on business days" locale="zh" localized="按工作日计划"/>
+    <moqui.basic.LocalizedMessage original="Planned and earlier policies" locale="zh" localized="计划中的和更早的策略"/>
+    <moqui.basic.LocalizedMessage original="Planned parts · ${plannedList.length}" locale="zh" localized="计划零件 · ${plannedList.length}"/>
+    <moqui.basic.LocalizedMessage original="Planned start" locale="zh" localized="计划开始"/>
+    <moqui.basic.LocalizedMessage original="Planned times a room, building or piece of equipment cannot be booked or used. Bookings over a blackout are kept and flagged; nothing is cancelled. Outages are recorded in Downtime." locale="zh" localized="计划中房间、建筑或设备不能预订或使用的时间。落在不可预约时段上的预订予以保留并标出；不会取消任何预订。停运记录在停机时间中。"/>
+    <moqui.basic.LocalizedMessage original="Planned work estimated above this, or with no estimate, waits for a supervisor; zero sends all of it" locale="zh" localized="估算高于此值或没有估算的计划工作等待主管；零则全部送出"/>
+    <moqui.basic.LocalizedMessage original="PM compliance" locale="zh" localized="预防性维护符合性"/>
+    <moqui.basic.LocalizedMessage original="Preventive" locale="zh" localized="预防性"/>
+    <moqui.basic.LocalizedMessage original="Preventive generation failures" locale="zh" localized="预防性生成失败"/>
+    <moqui.basic.LocalizedMessage original="Preventive generation job" locale="zh" localized="预防性生成作业"/>
+    <moqui.basic.LocalizedMessage original="Preventive maintenance compliance" locale="zh" localized="预防性维护的符合情况"/>
+    <moqui.basic.LocalizedMessage original="Preventive obligations" locale="zh" localized="预防性义务"/>
+    <moqui.basic.LocalizedMessage original="Preventive obligations by state" locale="zh" localized="按状态划分的预防性义务"/>
+    <moqui.basic.LocalizedMessage original="Preventive obligations due in a period, each on time, late, outstanding, skipped or unknown." locale="zh" localized="一个期间内到期的预防性义务，各自为准时、逾期、未结、已跳过或未知。"/>
+    <moqui.basic.LocalizedMessage original="Preventive obligations index" locale="zh" localized="预防性义务索引"/>
+    <moqui.basic.LocalizedMessage original="Print checklist" locale="zh" localized="打印检查清单"/>
+    <moqui.basic.LocalizedMessage original="Print tags" locale="zh" localized="打印标签"/>
+    <moqui.basic.LocalizedMessage original="Print the chosen equipment's tags" locale="zh" localized="打印所选设备的标签"/>
+    <moqui.basic.LocalizedMessage original="Print work order" locale="zh" localized="打印工单"/>
+    <moqui.basic.LocalizedMessage original="Procedure ${workEffortId} is not available: it does not exist, it is not one of your organizations', or no work of yours was made of it." locale="zh" localized="规程 ${workEffortId} 不可用：它不存在、不属于您的组织，或没有从它创建属于您的工作。"/>
+    <moqui.basic.LocalizedMessage original="Procedures" locale="zh" localized="规程"/>
+    <moqui.basic.LocalizedMessage original="Product or service" locale="zh" localized="产品或服务"/>
+    <moqui.basic.LocalizedMessage original="Production maintenance requests become work orders" locale="zh" localized="生产维护请求成为工单"/>
+    <moqui.basic.LocalizedMessage original="Production stops" locale="zh" localized="生产停机"/>
+    <moqui.basic.LocalizedMessage original="Purchase order lines · ${orderLines.length}" locale="zh" localized="采购订单行 · ${orderLines.length}"/>
+    <moqui.basic.LocalizedMessage original="Purchase requests · ${requestList.length}" locale="zh" localized="采购请求 · ${requestList.length}"/>
+    <moqui.basic.LocalizedMessage original="Purchasing approves, sources and places it; the work order shows its purchase order lines." locale="zh" localized="采购负责批准、寻源和下单；工单显示其采购订单行。"/>
+    <moqui.basic.LocalizedMessage original="Purchasing sources a line that names one" locale="zh" localized="采购为指定了来源的行寻源"/>
+    <moqui.basic.LocalizedMessage original="Quantity or hours" locale="zh" localized="数量或小时"/>
+    <moqui.basic.LocalizedMessage original="Quantity or people" locale="zh" localized="数量或人数"/>
+    <moqui.basic.LocalizedMessage original="Ranked for the window and team: free hours (schedules, holidays, leave), the work's skills and qualifications, the team" locale="zh" localized="按时段和团队排序：空闲小时（排班、节假日、休假）、工作所需的技能和资质、团队"/>
+    <moqui.basic.LocalizedMessage original="Read only: the procedure of work assigned to you" locale="zh" localized="只读：分派给您的工作的规程"/>
+    <moqui.basic.LocalizedMessage original="Reading kept for (days)" locale="zh" localized="读数保留（天）"/>
+    <moqui.basic.LocalizedMessage original="Reading of" locale="zh" localized="读数于"/>
+    <moqui.basic.LocalizedMessage original="Reason the organizer is told" locale="zh" localized="告知组织者的原因"/>
+    <moqui.basic.LocalizedMessage original="Rebuild the outages index" locale="zh" localized="重建停运索引"/>
+    <moqui.basic.LocalizedMessage original="Rebuild the preventive obligations index" locale="zh" localized="重建预防性义务索引"/>
+    <moqui.basic.LocalizedMessage original="Rebuild the work orders index" locale="zh" localized="重建工单索引"/>
+    <moqui.basic.LocalizedMessage original="Record an outage" locale="zh" localized="登记停运"/>
+    <moqui.basic.LocalizedMessage original="Record an outage of ${workOrder.targetName}" locale="zh" localized="登记 ${workOrder.targetName} 的停运"/>
+    <moqui.basic.LocalizedMessage original="Record your time on ${workEffortId}" locale="zh" localized="登记您在 ${workEffortId} 上的工时"/>
+    <moqui.basic.LocalizedMessage original="Refuse ${procedure.workEffortName}" locale="zh" localized="拒绝 ${procedure.workEffortName}"/>
+    <moqui.basic.LocalizedMessage original="Register equipment" locale="zh" localized="登记设备"/>
+    <moqui.basic.LocalizedMessage original="Rejected or cancelled" locale="zh" localized="已拒绝或已取消"/>
+    <moqui.basic.LocalizedMessage original="Remaining or missed" locale="zh" localized="剩余或已错过"/>
+    <moqui.basic.LocalizedMessage original="Remove a step not started" locale="zh" localized="移除尚未开始的步骤"/>
+    <moqui.basic.LocalizedMessage original="Reopened: ${invalid.name}, ${invalid.why}" locale="zh" localized="已重新打开：${invalid.name}，${invalid.why}"/>
+    <moqui.basic.LocalizedMessage original="Report a problem:" locale="zh" localized="报告问题："/>
+    <moqui.basic.LocalizedMessage original="Request approval of ${procedure.workEffortName}" locale="zh" localized="请求审批 ${procedure.workEffortName}"/>
+    <moqui.basic.LocalizedMessage original="Request parts or outside service for ${workEffortId}" locale="zh" localized="为 ${workEffortId} 请求零件或外部服务"/>
+    <moqui.basic.LocalizedMessage original="Requests waiting for approval need another approver, or the reason they are left." locale="zh" localized="等待审批的请求需要另一名批准人，或留下它们的原因。"/>
+    <moqui.basic.LocalizedMessage original="Resolve ${scheduleName}" locale="zh" localized="处理 ${scheduleName}"/>
+    <moqui.basic.LocalizedMessage original="Resource down too long" locale="zh" localized="资源停运过久"/>
+    <moqui.basic.LocalizedMessage original="Resources and materials" locale="zh" localized="资源与物料"/>
+    <moqui.basic.LocalizedMessage original="Resources approved" locale="zh" localized="已批准的资源"/>
+    <moqui.basic.LocalizedMessage original="Resources are not available to you." locale="zh" localized="资源对您不可用。"/>
+    <moqui.basic.LocalizedMessage original="Resources down" locale="zh" localized="停运的资源"/>
+    <moqui.basic.LocalizedMessage original="Restored" locale="zh" localized="已恢复"/>
+    <moqui.basic.LocalizedMessage original="Returned ${quantity} unused" locale="zh" localized="已退回未使用的 ${quantity}"/>
+    <moqui.basic.LocalizedMessage original="Room feature" locale="zh" localized="房间特性"/>
+    <moqui.basic.LocalizedMessage original="Rooms and equipment people book in Commons, with the rules each is booked by. A resource with no policy is booked as before: at once, or by its approvers." locale="zh" localized="人员在 Commons 中预订的房间和设备，以及各自的预订规则。没有策略的资源仍按以前预订：立即预订，或由其批准人预订。"/>
+    <moqui.basic.LocalizedMessage original="Rooms and facilities" locale="zh" localized="房间与设施"/>
+    <moqui.basic.LocalizedMessage original="Satisfied" locale="zh" localized="已满足"/>
+    <moqui.basic.LocalizedMessage original="Scan a tag, or type an equipment id or serial number" locale="zh" localized="扫描标签，或输入设备 ID 或序列号"/>
+    <moqui.basic.LocalizedMessage original="Schedule the selected work orders" locale="zh" localized="排程所选工单"/>
+    <moqui.basic.LocalizedMessage original="Send to Purchasing" locale="zh" localized="发送到采购"/>
+    <moqui.basic.LocalizedMessage original="Service line" locale="zh" localized="服务行"/>
+    <moqui.basic.LocalizedMessage original="Set up Maintenance for your organizations: the work policy, teams and lookups." locale="zh" localized="为您的组织设置维护：工作策略、团队和查找项。"/>
+    <moqui.basic.LocalizedMessage original="Sign in to read maintenance reports" locale="zh" localized="请登录以查看维护报表"/>
+    <moqui.basic.LocalizedMessage original="Skills: a qualification the technician must hold, verified and valid" locale="zh" localized="技能：技术员必须持有、已核验且有效的资质"/>
+    <moqui.basic.LocalizedMessage original="Skills: the least level a technician is evaluated at" locale="zh" localized="技能：对技术员评估的最低级别"/>
+    <moqui.basic.LocalizedMessage original="Skip ${step.name}" locale="zh" localized="跳过 ${step.name}"/>
+    <moqui.basic.LocalizedMessage original="Skip the next due date" locale="zh" localized="跳过下一个到期日"/>
+    <moqui.basic.LocalizedMessage original="Small (60 mm)" locale="zh" localized="小号（60 mm）"/>
+    <moqui.basic.LocalizedMessage original="Source id" locale="zh" localized="来源 ID"/>
+    <moqui.basic.LocalizedMessage original="Sources · ${sourceRows.length}" locale="zh" localized="来源 · ${sourceRows.length}"/>
+    <moqui.basic.LocalizedMessage original="Sources · ${sourceRows.length}${costs.sourcesCapped ? ' (the first 5000)' : ''}" locale="zh" localized="来源 · ${sourceRows.length}${costs.sourcesCapped ? '（前 5000 条）' : ''}"/>
+    <moqui.basic.LocalizedMessage original="Start this step" locale="zh" localized="开始此步骤"/>
+    <moqui.basic.LocalizedMessage original="State at the end" locale="zh" localized="期末状态"/>
+    <moqui.basic.LocalizedMessage original="Steps ${step.workEffortName} waits for" locale="zh" localized="${step.workEffortName} 所等待的步骤"/>
+    <moqui.basic.LocalizedMessage original="Steps are worked while the work order is in progress." locale="zh" localized="步骤在工单进行中时执行。"/>
+    <moqui.basic.LocalizedMessage original="Steps of this procedure; a loop is refused" locale="zh" localized="此规程的步骤；循环会被拒绝"/>
+    <moqui.basic.LocalizedMessage original="Store the intervention report of work order ${workEffortId}" locale="zh" localized="保存工单 ${workEffortId} 的维修报告"/>
+    <moqui.basic.LocalizedMessage original="Stored ${report.stored.storedText}: Customer Service sends it from the claim." locale="zh" localized="已保存 ${report.stored.storedText}：客户服务从索赔发送它。"/>
+    <moqui.basic.LocalizedMessage original="Stored report" locale="zh" localized="已保存的报告"/>
+    <moqui.basic.LocalizedMessage original="Suggested from the equipment model: ${suggestedText}" locale="zh" localized="来自设备型号的建议：${suggestedText}"/>
+    <moqui.basic.LocalizedMessage original="Summarize this equipment's maintenance history" locale="zh" localized="汇总此设备的维护历史"/>
+    <moqui.basic.LocalizedMessage original="Takes the work of" locale="zh" localized="承接…的工作"/>
+    <moqui.basic.LocalizedMessage original="Team and technicians" locale="zh" localized="团队与技术员"/>
+    <moqui.basic.LocalizedMessage original="Team defaults saved" locale="zh" localized="团队默认值已保存"/>
+    <moqui.basic.LocalizedMessage original="Team work" locale="zh" localized="团队工作"/>
+    <moqui.basic.LocalizedMessage original="Technicians" locale="zh" localized="技术员"/>
+    <moqui.basic.LocalizedMessage original="The calendar" locale="zh" localized="日历"/>
+    <moqui.basic.LocalizedMessage original="The call is in your calendar: ${eventLink}" locale="zh" localized="通话在您的日历中：${eventLink}"/>
+    <moqui.basic.LocalizedMessage original="The costs are not available to you." locale="zh" localized="您无法查看这些成本。"/>
+    <moqui.basic.LocalizedMessage original="The date and time in the facility's time zone, as yyyy-MM-dd HH:mm" locale="zh" localized="设施时区中的日期和时间，格式为 yyyy-MM-dd HH:mm"/>
+    <moqui.basic.LocalizedMessage original="The day itself is not included" locale="zh" localized="当天本身不包括"/>
+    <moqui.basic.LocalizedMessage original="The definition is checked first; the organization's approvers are told." locale="zh" localized="先检查定义；并通知组织的批准人。"/>
+    <moqui.basic.LocalizedMessage original="The due date is open again and its work order is kept, no longer counted for the plan; work made since is named for review." locale="zh" localized="到期日重新开放，其工单予以保留且不再计入该计划；此后创建的工作标出供复核。"/>
+    <moqui.basic.LocalizedMessage original="The equipment it is a part of" locale="zh" localized="它所属的设备"/>
+    <moqui.basic.LocalizedMessage original="The intervention report of work order ${workEffortId} is stored for the customer" locale="zh" localized="工单 ${workEffortId} 的维修报告已为客户保存"/>
+    <moqui.basic.LocalizedMessage original="The job makes the due work of every active plan. An operations manager who holds the Maintenance settings permission resumes, schedules or pauses it in Admin's Jobs; a planner makes work from Due maintenance meanwhile." locale="zh" localized="该作业为每个有效计划创建到期工作。持有维护设置权限的运营经理在 Admin 的作业中恢复、排程或暂停它；与此同时，计划员从到期维护创建工作。"/>
+    <moqui.basic.LocalizedMessage original="The last completion" locale="zh" localized="上次完成"/>
+    <moqui.basic.LocalizedMessage original="The model default's or the target's when empty" locale="zh" localized="空则用型号默认值或维护对象的值"/>
+    <moqui.basic.LocalizedMessage original="The organization's default team when empty" locale="zh" localized="空则为组织的默认团队"/>
+    <moqui.basic.LocalizedMessage original="The parts' quantities and the hours are in it; no price, cost or total is." locale="zh" localized="其中有零件数量和小时；没有价格、成本或合计。"/>
+    <moqui.basic.LocalizedMessage original="The plan is for" locale="zh" localized="计划用于"/>
+    <moqui.basic.LocalizedMessage original="The planned parts at their approved standard cost and the estimated hours at the costing rate; above this, or when it cannot be priced, a supervisor approves. Empty: the cost is not compared. A planner is told only that the work needs a supervisor" locale="zh" localized="计划零件按其已批准的标准成本，预计小时按成本费率；超过此值或无法计价时由主管批准。空：不比较成本。计划员只被告知该工作需要主管"/>
+    <moqui.basic.LocalizedMessage original="The plus-tag of the maintenance mailbox that files a request for this team: letters, digits and hyphens" locale="zh" localized="为此团队归档请求的维护邮箱的加号标签：字母、数字和连字符"/>
+    <moqui.basic.LocalizedMessage original="The procedure's name when empty" locale="zh" localized="空则为规程名称"/>
+    <moqui.basic.LocalizedMessage original="The project the team's repairs are charged to by default" locale="zh" localized="该团队的维修默认计入的项目"/>
+    <moqui.basic.LocalizedMessage original="The row in force" locale="zh" localized="当前生效的行"/>
+    <moqui.basic.LocalizedMessage original="The signed sheet or a photo of it; optional" locale="zh" localized="签字单或其照片；可选"/>
+    <moqui.basic.LocalizedMessage original="The step changed or removed" locale="zh" localized="已更改或移除的步骤"/>
+    <moqui.basic.LocalizedMessage original="The step is complete without an accepted check; ${step.current ? 'its failed check stays on the record' : 'nothing was recorded on it'}." locale="zh" localized="该步骤在没有已接受的检查时即完成；${step.current ? '未通过的检查仍留在记录上' : '其上没有记录'}。"/>
+    <moqui.basic.LocalizedMessage original="The terms in effect end at the effective time and stay in the history, with the work done under them." locale="zh" localized="现行条款在生效时间结束并留在历史中，连同在其下完成的工作。"/>
+    <moqui.basic.LocalizedMessage original="The values maintenance work chooses from. A value in use is ended, never deleted: the records that hold it keep it." locale="zh" localized="维护工作从中选择的值。使用中的值被结束，从不删除：持有它的记录仍保留它。"/>
+    <moqui.basic.LocalizedMessage original="The vendor's expert or another person; someone without an account needs an email address" locale="zh" localized="供应商的专家或其他人；没有账号的人需要一个电子邮件地址"/>
+    <moqui.basic.LocalizedMessage original="The work is for" locale="zh" localized="工作用于"/>
+    <moqui.basic.LocalizedMessage original="The work orders opened, completed and cancelled in the period, and the backlog at its end: what was open, overdue and unassigned then." locale="zh" localized="期间内开立、完成和取消的工单，以及期末待办：当时未完成、已逾期和未分派的有哪些。"/>
+    <moqui.basic.LocalizedMessage original="The work's costs are not available to you." locale="zh" localized="您无法查看此工作的成本。"/>
+    <moqui.basic.LocalizedMessage original="The work's due date when empty" locale="zh" localized="空则为工作的到期日"/>
+    <moqui.basic.LocalizedMessage original="The work's estimate when the plan names no procedure" locale="zh" localized="计划未指定规程时的工作估算"/>
+    <moqui.basic.LocalizedMessage original="These lookups are not available just now." locale="zh" localized="这些查找项目前不可用。"/>
+    <moqui.basic.LocalizedMessage original="They replace each work order's technicians; empty: each keeps its own" locale="zh" localized="替换每张工单的技术员；空：各自保留自己的"/>
+    <moqui.basic.LocalizedMessage original="This action is not available for maintenance work" locale="zh" localized="此操作不可用于维护工作"/>
+    <moqui.basic.LocalizedMessage original="This resource is not available." locale="zh" localized="此资源不可用。"/>
+    <moqui.basic.LocalizedMessage original="This work order was not made from a procedure: it has no checklist." locale="zh" localized="此工单不是由规程创建的：它没有检查清单。"/>
+    <moqui.basic.LocalizedMessage original="Time is recorded by the technicians assigned to the work while it is in progress." locale="zh" localized="工时由分派到该工作的技术员在进行中时登记。"/>
+    <moqui.basic.LocalizedMessage original="To resolve before approval" locale="zh" localized="批准前需处理"/>
+    <moqui.basic.LocalizedMessage original="Transcribe technicians' voice notes" locale="zh" localized="转录技术员的语音备注"/>
+    <moqui.basic.LocalizedMessage original="Unassigned work orders" locale="zh" localized="未分派的工单"/>
+    <moqui.basic.LocalizedMessage original="Unplanned" locale="zh" localized="计划外"/>
+    <moqui.basic.LocalizedMessage original="Unscheduled" locale="zh" localized="未排程"/>
+    <moqui.basic.LocalizedMessage original="Untriaged" locale="zh" localized="未分流"/>
+    <moqui.basic.LocalizedMessage original="Use procedure" locale="zh" localized="使用规程"/>
+    <moqui.basic.LocalizedMessage original="Used, net of returns" locale="zh" localized="已用，扣除退料"/>
+    <moqui.basic.LocalizedMessage original="Useful life ends" locale="zh" localized="使用年限结束"/>
+    <moqui.basic.LocalizedMessage original="Video call about work order ${workEffortId}" locale="zh" localized="关于工单 ${workEffortId} 的视频通话"/>
+    <moqui.basic.LocalizedMessage original="Video call added and the invitations sent" locale="zh" localized="已添加视频通话并已发送邀请"/>
+    <moqui.basic.LocalizedMessage original="Video call added; ${skippedCount} could not be invited" locale="zh" localized="已添加视频通话；未能邀请 ${skippedCount} 人"/>
+    <moqui.basic.LocalizedMessage original="Waiting ${waitedText}" locale="zh" localized="已等待 ${waitedText}"/>
+    <moqui.basic.LocalizedMessage original="Waiting for approval. ${canApprove ? '' : whyNot}" locale="zh" localized="等待审批。${canApprove ? '' : whyNot}"/>
+    <moqui.basic.LocalizedMessage original="Waive" locale="zh" localized="豁免"/>
+    <moqui.basic.LocalizedMessage original="Waive ${step.name}" locale="zh" localized="豁免 ${step.name}"/>
+    <moqui.basic.LocalizedMessage original="Waived by ${step.waiver.byName}, ${step.waiver.waivedText}: ${step.waiver.reason}" locale="zh" localized="由 ${step.waiver.byName} 于 ${step.waiver.waivedText} 豁免：${step.waiver.reason}"/>
+    <moqui.basic.LocalizedMessage original="Waivers and amendments" locale="zh" localized="豁免与修订"/>
+    <moqui.basic.LocalizedMessage original="Warranty repairs become work orders" locale="zh" localized="质保维修成为工单"/>
+    <moqui.basic.LocalizedMessage original="What blocks completion of this work order?" locale="zh" localized="什么阻碍完成此工单？"/>
+    <moqui.basic.LocalizedMessage original="What is needed" locale="zh" localized="需要什么"/>
+    <moqui.basic.LocalizedMessage original="What needs doing" locale="zh" localized="需要做什么"/>
+    <moqui.basic.LocalizedMessage original="When the work starts" locale="zh" localized="工作何时开始"/>
+    <moqui.basic.LocalizedMessage original="Where ${description} applies" locale="zh" localized="${description} 的适用范围"/>
+    <moqui.basic.LocalizedMessage original="Why it does not count" locale="zh" localized="为何不计入"/>
+    <moqui.basic.LocalizedMessage original="Why it is skipped" locale="zh" localized="跳过原因"/>
+    <moqui.basic.LocalizedMessage original="Why it is waived" locale="zh" localized="豁免原因"/>
+    <moqui.basic.LocalizedMessage original="Why the plan ends" locale="zh" localized="计划结束原因"/>
+    <moqui.basic.LocalizedMessage original="Why the terms change" locale="zh" localized="条款为何更改"/>
+    <moqui.basic.LocalizedMessage original="Why they are cancelled" locale="zh" localized="取消原因"/>
+    <moqui.basic.LocalizedMessage original="With steps, the steps' estimates add up instead" locale="zh" localized="有步骤时，改为把各步骤的估算相加"/>
+    <moqui.basic.LocalizedMessage original="With the facilities inside it" locale="zh" localized="包括其中的设施"/>
+    <moqui.basic.LocalizedMessage original="With the facilities inside it and the equipment there" locale="zh" localized="包括其中的设施和那里的设备"/>
+    <moqui.basic.LocalizedMessage original="With the override permission and a reason" locale="zh" localized="具有例外权限并填写原因"/>
+    <moqui.basic.LocalizedMessage original="Withdraw the policy planned from ${plannedText}" locale="zh" localized="撤回自 ${plannedText} 起计划的策略"/>
+    <moqui.basic.LocalizedMessage original="Work made" locale="zh" localized="已创建的工作"/>
+    <moqui.basic.LocalizedMessage original="Work made of this procedure" locale="zh" localized="由此规程创建的工作"/>
+    <moqui.basic.LocalizedMessage original="Work order ${workEffortId} is not available: it does not exist, it is not one of your organizations', or it is not assigned to you." locale="zh" localized="工单 ${workEffortId} 不可用：它不存在、不属于您的组织，或未分派给您。"/>
+    <moqui.basic.LocalizedMessage original="Work orders are created by maintenance planners and supervisors. Report a problem to them instead." locale="zh" localized="工单由维护计划员和主管创建。请改为向他们报告问题。"/>
+    <moqui.basic.LocalizedMessage original="Work orders by status" locale="zh" localized="按状态划分的工单"/>
+    <moqui.basic.LocalizedMessage original="Work orders by status, preventive obligations by state and the outages in force, among the organizations each viewer reads. Counts only: no cost, rate or amount." locale="zh" localized="按状态的工单、按状态的预防性义务和现行停运，限于每位查看者可读的组织。仅计数：无成本、费率或金额。"/>
+    <moqui.basic.LocalizedMessage original="Work orders opened, completed and cancelled in a period, and the backlog, overdue and unassigned at its end." locale="zh" localized="一个期间内开立、完成和取消的工单，以及期末的待办、已逾期和未分派。"/>
+    <moqui.basic.LocalizedMessage original="Work policy" locale="zh" localized="工作策略"/>
+    <moqui.basic.LocalizedMessage original="Work policy saved" locale="zh" localized="工作策略已保存"/>
+    <moqui.basic.LocalizedMessage original="Work status" locale="zh" localized="工作状态"/>
+    <moqui.basic.LocalizedMessage original="Yes sends a voice note on a checklist step to the speech model and keeps its text on the check; the recording is kept either way" locale="zh" localized="是：将检查清单步骤上的语音备注发送到语音模型，并把文本保存在检查上；录音无论如何都保留"/>
+    <moqui.basic.LocalizedMessage original="You do not read equipment in Maintenance." locale="zh" localized="您在维护中不能查看设备。"/>
+    <moqui.basic.LocalizedMessage original="You do not read facilities in Maintenance." locale="zh" localized="您在维护中不能查看设施。"/>
+    <moqui.basic.LocalizedMessage original="Your timer is running since ${timer.fromDateText}." locale="zh" localized="您的计时器自 ${timer.fromDateText} 起运行。"/>
+</entity-facade-xml>

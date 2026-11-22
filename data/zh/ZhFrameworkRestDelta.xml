@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+
+<entity-facade-xml type="zh">
+    <moqui.basic.LocalizedMessage original="${heldBeyond}: its password is not yours to set" locale="zh" localized="${heldBeyond}：其密码不由您设置"/>
+    <moqui.basic.LocalizedMessage original="A code was sent a moment ago: wait half a minute before asking for another" locale="zh" localized="刚刚已发送验证码：请等待半分钟后再申请另一个"/>
+    <moqui.basic.LocalizedMessage original="A conversion cannot move to different units" locale="zh" localized="换算不能改到别的单位"/>
+    <moqui.basic.LocalizedMessage original="A dependency names a source field and a target field" locale="zh" localized="依赖须指定源字段和目标字段"/>
+    <moqui.basic.LocalizedMessage original="A dependency value is a value, not an expression" locale="zh" localized="依赖的值是值，不是表达式"/>
+    <moqui.basic.LocalizedMessage original="A file name may not have # in it" locale="zh" localized="文件名不能包含 #"/>
+    <moqui.basic.LocalizedMessage original="A folder name may not have # in it" locale="zh" localized="文件夹名不能包含 #"/>
+    <moqui.basic.LocalizedMessage original="A mailbox quota is a whole number of bytes, or empty for the default" locale="zh" localized="邮箱配额须为整数个字节，留空则用默认值"/>
+    <moqui.basic.LocalizedMessage original="A page is named without its file's extension" locale="zh" localized="页面的名称不含其文件扩展名"/>
+    <moqui.basic.LocalizedMessage original="A page type is md, html or txt" locale="zh" localized="页面类型为 md、html 或 txt"/>
+    <moqui.basic.LocalizedMessage original="A page's attachments are not a page" locale="zh" localized="页面的附件不是页面"/>
+    <moqui.basic.LocalizedMessage original="A score is from 0 to 1" locale="zh" localized="分数须在 0 到 1 之间"/>
+    <moqui.basic.LocalizedMessage original="A scorer of a service other than the evals' own needs the AgentAudit permission" locale="zh" localized="评分器若使用评估自有服务以外的服务，则需要 AgentAudit 权限"/>
+    <moqui.basic.LocalizedMessage original="A screen schedule is changed by a signed-in user" locale="zh" localized="屏幕排程须由已登录的用户更改"/>
+    <moqui.basic.LocalizedMessage original="A server signs in with OAuth only through its account sign-in" locale="zh" localized="服务器只能通过其账号的登录方式使用 OAuth 登录"/>
+    <moqui.basic.LocalizedMessage original="A system message is claimed for sending or consuming only" locale="zh" localized="系统消息只能在发送或消费时认领"/>
+    <moqui.basic.LocalizedMessage original="A valid email address is required" locale="zh" localized="需要有效的电子邮件地址"/>
+    <moqui.basic.LocalizedMessage original="Account is unavailable" locale="zh" localized="账号不可用"/>
+    <moqui.basic.LocalizedMessage original="Add a recipient" locale="zh" localized="添加收件人"/>
+    <moqui.basic.LocalizedMessage original="An account does not become the Internal account" locale="zh" localized="邮件账号不能改为内部邮件账号"/>
+    <moqui.basic.LocalizedMessage original="An experiment runs at most 200 items × trials" locale="zh" localized="一次实验最多运行 200 个条目×试验"/>
+    <moqui.basic.LocalizedMessage original="An export location is a relative path under runtime/drive-export, of letters, digits, '.', '_' and '-' segments" locale="zh" localized="导出位置是 runtime/drive-export 下的相对路径，段仅含字母、数字、'.'、'_' 和 '-'"/>
+    <moqui.basic.LocalizedMessage original="Attach a scorer to an agent or to a dataset" locale="zh" localized="将评分器关联到智能体或数据集"/>
+    <moqui.basic.LocalizedMessage original="Choose a non-currency unit type" locale="zh" localized="请选择非货币单位类型"/>
+    <moqui.basic.LocalizedMessage original="Choose an agent or a service to run" locale="zh" localized="请选择要运行的智能体或服务"/>
+    <moqui.basic.LocalizedMessage original="Choose at most 200 excluded resource locations" locale="zh" localized="排除的资源位置最多选择 200 个"/>
+    <moqui.basic.LocalizedMessage original="Choose compatible units" locale="zh" localized="请选择兼容的单位"/>
+    <moqui.basic.LocalizedMessage original="Choose distinct units of the same type" locale="zh" localized="请选择同一类型中不同的单位"/>
+    <moqui.basic.LocalizedMessage original="Complete account authentication first" locale="zh" localized="请先完成账号身份验证"/>
+    <moqui.basic.LocalizedMessage original="Complete authentication first" locale="zh" localized="请先完成身份验证"/>
+    <moqui.basic.LocalizedMessage original="Confirm it is you: this relay carries the sign-in mail" locale="zh" localized="请确认是您本人：此中继承载登录邮件"/>
+    <moqui.basic.LocalizedMessage original="Conversion changes must start now or later and not precede the source interval" locale="zh" localized="换算变更须从现在或更晚开始，且不得早于源区间"/>
+    <moqui.basic.LocalizedMessage original="Conversion end must follow its start" locale="zh" localized="换算结束时间必须晚于开始时间"/>
+    <moqui.basic.LocalizedMessage original="Conversion factor must be positive and finite" locale="zh" localized="换算系数必须为正的有限数"/>
+    <moqui.basic.LocalizedMessage original="Conversion factor supports at most 15 significant digits" locale="zh" localized="换算系数最多 15 位有效数字"/>
+    <moqui.basic.LocalizedMessage original="Conversion is not available" locale="zh" localized="换算不可用"/>
+    <moqui.basic.LocalizedMessage original="Creating the initial admin account is off: set moqui_conf__user_facade__login__initial_admin_enabled=true (in .env) and restart" locale="zh" localized="已关闭创建初始管理员账号：在 .env 中设置 moqui_conf__user_facade__login__initial_admin_enabled=true 并重启"/>
+    <moqui.basic.LocalizedMessage original="Differs from the expected output" locale="zh" localized="与预期输出不同"/>
+    <moqui.basic.LocalizedMessage original="End date must be now or later and follow the start" locale="zh" localized="结束日期须为现在或更晚，且晚于开始"/>
+    <moqui.basic.LocalizedMessage original="Ending a conversion may only shorten its interval" locale="zh" localized="结束换算只能缩短其时间区间"/>
+    <moqui.basic.LocalizedMessage original="Experiment is not running" locale="zh" localized="实验未在运行"/>
+    <moqui.basic.LocalizedMessage original="Fraction digits must be between zero and 12" locale="zh" localized="小数位数须在 0 到 12 之间"/>
+    <moqui.basic.LocalizedMessage original="Give a change reason of 1–255 characters" locale="zh" localized="请填写 1–255 个字符的变更原因"/>
+    <moqui.basic.LocalizedMessage original="Give a stable unit ID of at most 40 letters, digits, dots, dashes or underscores" locale="zh" localized="请给出稳定的单位 ID，最多 40 个字母、数字、点、连字符或下划线"/>
+    <moqui.basic.LocalizedMessage original="Give the input" locale="zh" localized="请提供输入"/>
+    <moqui.basic.LocalizedMessage original="Give the unit a description" locale="zh" localized="请为该单位填写说明"/>
+    <moqui.basic.LocalizedMessage original="Global unit changes require framework ADMIN" locale="zh" localized="全局单位变更需要框架 ADMIN"/>
+    <moqui.basic.LocalizedMessage original="Historical conversions are retained" locale="zh" localized="历史换算会保留"/>
+    <moqui.basic.LocalizedMessage original="If eligible, recovery instructions will be sent." locale="zh" localized="如符合条件，将发送恢复说明。"/>
+    <moqui.basic.LocalizedMessage original="If eligible, verification instructions will be sent to the address." locale="zh" localized="如符合条件，将向该地址发送验证说明。"/>
+    <moqui.basic.LocalizedMessage original="Invalid sign-in challenge" locale="zh" localized="登录质询无效"/>
+    <moqui.basic.LocalizedMessage original="It is a draft: mark it ready" locale="zh" localized="这是草稿：请标为就绪"/>
+    <moqui.basic.LocalizedMessage original="It is not open" locale="zh" localized="请求未打开"/>
+    <moqui.basic.LocalizedMessage original="Item is not current" locale="zh" localized="条目不是当前的"/>
+    <moqui.basic.LocalizedMessage original="Live scoring reads every user's runs of the agent: attaching a scorer to an agent needs the AgentAudit permission" locale="zh" localized="实时评分会读取每位用户对该智能体的运行：将评分器关联到智能体需要 AgentAudit 权限"/>
+    <moqui.basic.LocalizedMessage original="Mail goes out through the edge node only by its setup" locale="zh" localized="邮件只能按其配置经边缘节点发出"/>
+    <moqui.basic.LocalizedMessage original="Mail goes out through the edge node: its setup changes this relay" locale="zh" localized="邮件经边缘节点发出：其配置会更改此中继"/>
+    <moqui.basic.LocalizedMessage original="Matches the expected output" locale="zh" localized="与预期输出一致"/>
+    <moqui.basic.LocalizedMessage original="New password is the reset password that was sent; choose one of your own" locale="zh" localized="新密码是已发送的重置密码；请另设一个您自己的"/>
+    <moqui.basic.LocalizedMessage original="No effective conversion is available" locale="zh" localized="没有可用的有效换算"/>
+    <moqui.basic.LocalizedMessage original="No embedding model is configured (search-facade semantic)" locale="zh" localized="未配置嵌入模型（search-facade semantic）"/>
+    <moqui.basic.LocalizedMessage original="No expected output" locale="zh" localized="没有预期输出"/>
+    <moqui.basic.LocalizedMessage original="No phrases to look for" locale="zh" localized="没有要查找的短语"/>
+    <moqui.basic.LocalizedMessage original="No run to check" locale="zh" localized="没有可检查的运行"/>
+    <moqui.basic.LocalizedMessage original="Only a holder of MONITOR_PRIVATE_NETWORK changes the URL of a row that may reach the private network" locale="zh" localized="只有 MONITOR_PRIVATE_NETWORK 的持有者才能更改可能访问专用网络的行的 URL"/>
+    <moqui.basic.LocalizedMessage original="Only a manager of the drive makes a link" locale="zh" localized="只有网盘管理者才能创建链接"/>
+    <moqui.basic.LocalizedMessage original="Only a manager of the drive shares with a group of external users" locale="zh" localized="只有网盘管理者才能与外部用户组共享"/>
+    <moqui.basic.LocalizedMessage original="Only a manager of the drive shares with every user" locale="zh" localized="只有网盘管理者才能与所有用户共享"/>
+    <moqui.basic.LocalizedMessage original="Only an administrator changes a mail server here" locale="zh" localized="只有管理员才能在这里更改邮件服务器"/>
+    <moqui.basic.LocalizedMessage original="Only an administrator changes the URL of a mirror" locale="zh" localized="只有管理员才能更改镜像的 URL"/>
+    <moqui.basic.LocalizedMessage original="Only temperature conversions may have an offset" locale="zh" localized="只有温度换算可以有偏移量"/>
+    <moqui.basic.LocalizedMessage original="Password does not satisfy account policy" locale="zh" localized="密码不符合账号策略"/>
+    <moqui.basic.LocalizedMessage original="Push health is for administrators" locale="zh" localized="推送健康状况仅供管理员查看"/>
+    <moqui.basic.LocalizedMessage original="Reaching the private network needs the MONITOR_PRIVATE_NETWORK permission" locale="zh" localized="访问专用网络需要 MONITOR_PRIVATE_NETWORK 权限"/>
+    <moqui.basic.LocalizedMessage original="Registration is temporarily unavailable" locale="zh" localized="注册暂时不可用"/>
+    <moqui.basic.LocalizedMessage original="Replaced by a newer request" locale="zh" localized="已由较新的请求替换"/>
+    <moqui.basic.LocalizedMessage original="Result is not available" locale="zh" localized="结果不可用"/>
+    <moqui.basic.LocalizedMessage original="Root Page" locale="zh" localized="根页面"/>
+    <moqui.basic.LocalizedMessage original="Sampling rate is more than 0 and at most 1" locale="zh" localized="采样率须大于 0 且不超过 1"/>
+    <moqui.basic.LocalizedMessage original="Session expired" locale="zh" localized="会话已过期"/>
+    <moqui.basic.LocalizedMessage original="Sign in to read units" locale="zh" localized="请登录后再查看单位"/>
+    <moqui.basic.LocalizedMessage original="Sign out before registering another address" locale="zh" localized="请先退出，再注册另一个地址"/>
+    <moqui.basic.LocalizedMessage original="Sign-in handoff expired" locale="zh" localized="登录交接已过期"/>
+    <moqui.basic.LocalizedMessage original="SSO callback is not registered" locale="zh" localized="SSO 回调未注册"/>
+    <moqui.basic.LocalizedMessage original="System message ${systemMessageId} not sent: its remote ${systemMessage.get('systemMessageRemoteId')} is disabled until a test of it passes" locale="zh" localized="系统消息 ${systemMessageId} 未发送：其远程端 ${systemMessage.get('systemMessageRemoteId')} 已禁用，直到一次测试通过"/>
+    <moqui.basic.LocalizedMessage original="System message ${systemMessageId} was taken by another send, not sending." locale="zh" localized="系统消息 ${systemMessageId} 已被另一次发送占用，未发送。"/>
+    <moqui.basic.LocalizedMessage original="System message [${systemMessageId}] was taken by another consume, not consuming." locale="zh" localized="系统消息 [${systemMessageId}] 已被另一次消费占用，未消费。"/>
+    <moqui.basic.LocalizedMessage original="That account is not yours" locale="zh" localized="该账号不属于您"/>
+    <moqui.basic.LocalizedMessage original="The dataset has no items" locale="zh" localized="数据集没有条目"/>
+    <moqui.basic.LocalizedMessage original="The file of this page has no type (extension), so it is not moved" locale="zh" localized="此页面的文件没有类型（扩展名），因此不移动"/>
+    <moqui.basic.LocalizedMessage original="The Internal account is made by ensure#InternalAccount" locale="zh" localized="内部邮件账号由 ensure#InternalAccount 创建"/>
+    <moqui.basic.LocalizedMessage original="The one-click address is not on a public host" locale="zh" localized="一键地址不在公共主机上"/>
+    <moqui.basic.LocalizedMessage original="The report reads need a signed-in user" locale="zh" localized="读取报告需要已登录的用户"/>
+    <moqui.basic.LocalizedMessage original="The scorer gave no score" locale="zh" localized="评分器未给出分数"/>
+    <moqui.basic.LocalizedMessage original="The server changed: enter its password again" locale="zh" localized="服务器已更改：请再次输入其密码"/>
+    <moqui.basic.LocalizedMessage original="The server changed: enter the password again, or sign in with the provider again" locale="zh" localized="服务器已更改：请再次输入密码，或再次向提供方登录"/>
+    <moqui.basic.LocalizedMessage original="The server changed: test it as it is now in Admin Connections, and the test enables it" locale="zh" localized="服务器已更改：请在管理连接中按当前状态测试，测试通过后才会启用它"/>
+    <moqui.basic.LocalizedMessage original="The server waits for a test: test it as it is now in Admin Connections, and the test enables it" locale="zh" localized="服务器在等待测试：请在管理连接中按当前状态测试，测试通过后才会启用它"/>
+    <moqui.basic.LocalizedMessage original="The setup secret is not valid: it is in the server's startup log" locale="zh" localized="初始配置密钥无效：它写在服务器的启动日志中"/>
+    <moqui.basic.LocalizedMessage original="The snapshot name must be one file name, with no path" locale="zh" localized="快照名必须是单个文件名，不能带路径"/>
+    <moqui.basic.LocalizedMessage original="The source of the merge request names no commit" locale="zh" localized="合并请求的来源未指定任何提交记录"/>
+    <moqui.basic.LocalizedMessage original="This link has taken all the files it may" locale="zh" localized="此链接已用完允许的文件数"/>
+    <moqui.basic.LocalizedMessage original="This message offers no way to unsubscribe that works here" locale="zh" localized="此邮件没有在此处可用的退订方式"/>
+    <moqui.basic.LocalizedMessage original="This page has no file to move" locale="zh" localized="此页面没有可移动的文件"/>
+    <moqui.basic.LocalizedMessage original="This relay sends the sign-in mail (password resets, sign-in codes): an access administrator changes it" locale="zh" localized="此中继发送登录邮件（密码重置、登录验证码）：由访问管理员更改"/>
+    <moqui.basic.LocalizedMessage original="This server signs in with OAuth: it is set up where its account signs in" locale="zh" localized="此服务器使用 OAuth 登录：在其账号的登录处配置"/>
+    <moqui.basic.LocalizedMessage original="Too much for one upload through a link (${files} files, ${mb} MB)" locale="zh" localized="一次通过链接上传的内容过多（${files} 个文件，${mb} MB）"/>
+    <moqui.basic.LocalizedMessage original="Unregistered deployment or site" locale="zh" localized="部署或站点未注册"/>
+    <moqui.basic.LocalizedMessage original="Unsupported account security action" locale="zh" localized="不支持该账号安全操作"/>
+    <moqui.basic.LocalizedMessage original="Uploaded through a link" locale="zh" localized="通过链接上传"/>
+    <moqui.basic.LocalizedMessage original="Verification link expired or not found" locale="zh" localized="验证链接已过期或未找到"/>
+    <moqui.basic.LocalizedMessage original="Verification mail is not configured" locale="zh" localized="未配置验证邮件"/>
+    <moqui.basic.LocalizedMessage original="Wait before requesting more account instructions" locale="zh" localized="请稍后再请求更多账号说明"/>
+    <moqui.basic.LocalizedMessage original="Wait before signing in again" locale="zh" localized="请稍后再登录"/>
+    <moqui.basic.LocalizedMessage original="You may not add pages to that space" locale="zh" localized="不能向该空间添加页面"/>
+    <moqui.basic.LocalizedMessage original="You may not change that repository" locale="zh" localized="不能更改该仓库"/>
+    <moqui.basic.LocalizedMessage original="You may not move this page" locale="zh" localized="不能移动此页面"/>
+    <moqui.basic.LocalizedMessage original="You may not push to the target" locale="zh" localized="不能向目标推送"/>
+</entity-facade-xml>

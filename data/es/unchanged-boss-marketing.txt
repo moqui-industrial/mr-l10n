@@ -1,0 +1,11 @@
+# Messages the same in this language. A missing catalog row returns the original.
+${can.canResume ? 'Resume' : 'Activate'} ${automation.automationName}
+${content.stateText}${content.publishedVersionName ? ' · published version ' + content.publishedVersionName.substring(0, 10) : ''}${content.reviewText ? ' · review ' + content.reviewText.toLowerCase() : ''}
+${item.label}: ${item.valueText}
+${offer.occurrenceText} (${offer.timeZone})
+${preview?.sampleText}: ${preview?.handedOff ? 'a lead in ' + preview?.queueText + '\'s queue' : 'not handed off'}
+${recipient.addressText}${recipient.tracked ? '' : ' · untracked'}
+${send.scheduledText}${send.scheduleTimeZone ? ' (' + send.scheduleTimeZone + ')' : ''}
+Latin-1
+UTF-8
+Windows (1252)

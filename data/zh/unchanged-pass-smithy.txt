@@ -1,0 +1,6 @@
+# Messages the same in this language. A missing catalog row returns the original.
+git add .
+git push -u origin --all
+git push origin --tags
+git remote add origin ${clone.url}
+git commit -m "First commit"

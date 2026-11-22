@@ -1,0 +1,908 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+
+<entity-facade-xml type="es">
+    <moqui.basic.LocalizedMessage original="${content.publicText}. Only the owner's published version is ever public; a campaign's planned date publishes nothing." locale="es" localized="${content.publicText}. Solo la versión publicada del propietario llega a ser pública; la fecha planificada de una campaña no publica nada."/>
+    <moqui.basic.LocalizedMessage original="${decision.reasonText}${decision.leaderText ? ': ' + decision.leaderText : ''}. Nothing is chosen for you: give your reason." locale="es" localized="${decision.reasonText}${decision.leaderText ? ': ' + decision.leaderText : ''}. No se elige nada por usted: indique su motivo."/>
+    <moqui.basic.LocalizedMessage original="${decision.reasonText}${decision.leaderText ? ': ' + decision.leaderText : ''}. Open rates are not a measure; a person chooses the winner." locale="es" localized="${decision.reasonText}${decision.leaderText ? ': ' + decision.leaderText : ''}. Las tasas de apertura no son una medida; una persona elige al ganador."/>
+    <moqui.basic.LocalizedMessage original="${delivery.waitingCount} recipients wait to be handed off." locale="es" localized="${delivery.waitingCount} destinatarios esperan a que se los entregue."/>
+    <moqui.basic.LocalizedMessage original="${event.confirmedCount} confirmed · ${event.heldCount} held · ${event.waitlistedCount} waitlisted${event.online ? ' · online' : ''}" locale="es" localized="${event.confirmedCount} confirmados · ${event.heldCount} retenidos · ${event.waitlistedCount} en lista de espera${event.online ? ' · online' : ''}"/>
+    <moqui.basic.LocalizedMessage original="${exp.winnerText}, chosen ${exp.winnerChosenDateText} by ${exp.winnerChosenByName}: ${exp.winnerReason}" locale="es" localized="${exp.winnerText}, elegido ${exp.winnerChosenDateText} por ${exp.winnerChosenByName}: ${exp.winnerReason}"/>
+    <moqui.basic.LocalizedMessage original="${leadHandoffs?.captured} answers captured · ${leadHandoffs?.handedOff} handed to Sales" locale="es" localized="${leadHandoffs?.captured} respuestas capturadas · ${leadHandoffs?.handedOff} traspasadas a Ventas"/>
+    <moqui.basic.LocalizedMessage original="${marketingContact.label}: engagement" locale="es" localized="${marketingContact.label}: participación"/>
+    <moqui.basic.LocalizedMessage original="${preview.carriedCount} members will be filed on ${preview.targetName}: ${totals.accepted} accepted with their evidence, ${totals.pending} pending confirmation. A withdrawal since this preview still wins." locale="es" localized="${preview.carriedCount} miembros se registrarán en ${preview.targetName}: ${totals.accepted} aceptados con su evidencia, ${totals.pending} pendientes de confirmación. Una retirada posterior a esta vista previa sigue prevaleciendo."/>
+    <moqui.basic.LocalizedMessage original="${preview.conflictCount} members are not carried: they withdrew from a source or from the target." locale="es" localized="${preview.conflictCount} miembros no se trasladan: se retiraron de un origen o del destino."/>
+    <moqui.basic.LocalizedMessage original="${preview?.sampleText}: a recipient's own first and last name take their place" locale="es" localized="${preview?.sampleText}: el nombre y el apellido propios del destinatario ocupan su lugar"/>
+    <moqui.basic.LocalizedMessage original="${report.fromText} – ${report.thruText}, as of ${report.asOfText}. ${report.basis}" locale="es" localized="${report.fromText} – ${report.thruText}, a fecha de ${report.asOfText}. ${report.basis}"/>
+    <moqui.basic.LocalizedMessage original="${report.hiddenCount} orders you may not open in Sales or Commerce are counted above and not listed." locale="es" localized="${report.hiddenCount} órdenes que no puede abrir en Ventas o Comercio se cuentan arriba y no se listan."/>
+    <moqui.basic.LocalizedMessage original="${send.eligibleCount} eligible recipients at revision ${send.sendRevision}." locale="es" localized="${send.eligibleCount} destinatarios elegibles en la revisión ${send.sendRevision}."/>
+    <moqui.basic.LocalizedMessage original="${send.eligibleCount} eligible recipients, prepared ${send.preparedDateText}; ${smsEstimateText}" locale="es" localized="${send.eligibleCount} destinatarios elegibles, preparados ${send.preparedDateText}; ${smsEstimateText}"/>
+    <moqui.basic.LocalizedMessage original="${send.eligibleCount} eligible recipients, prepared ${send.preparedDateText}; subject: ${send.subject}" locale="es" localized="${send.eligibleCount} destinatarios elegibles, preparados ${send.preparedDateText}; asunto: ${send.subject}"/>
+    <moqui.basic.LocalizedMessage original="${send.statusText} · revision ${send.sendRevision} · topic ${send.topicName}" locale="es" localized="${send.statusText} · revisión ${send.sendRevision} · tema ${send.topicName}"/>
+    <moqui.basic.LocalizedMessage original="${stepList.length} steps at revision ${automation.automationRevision}: the approval covers its content, sender, topic and enrollment rule." locale="es" localized="${stepList.length} pasos en la revisión ${automation.automationRevision}: la aprobación cubre su contenido, remitente, tema y regla de inscripción."/>
+    <moqui.basic.LocalizedMessage original="${stepList.length} steps; its sends go to the topic ${automation.topicName} from ${automation.profileName}, each person checked again before each step." locale="es" localized="${stepList.length} pasos; sus envíos van al tema ${automation.topicName} desde ${automation.profileName}, y cada persona se comprueba de nuevo antes de cada paso."/>
+    <moqui.basic.LocalizedMessage original="0 puts it first" locale="es" localized="0 lo pone primero"/>
+    <moqui.basic.LocalizedMessage original="1. File and evidence" locale="es" localized="1. Archivo y evidencia"/>
+    <moqui.basic.LocalizedMessage original="1. Lists" locale="es" localized="1. Listas"/>
+    <moqui.basic.LocalizedMessage original="2. Columns and evidence" locale="es" localized="2. Columnas y evidencia"/>
+    <moqui.basic.LocalizedMessage original="2. Preview: ${preview.sourceNames.join(', ')} into ${preview.targetName}" locale="es" localized="2. Vista previa: ${preview.sourceNames.join(', ')} en ${preview.targetName}"/>
+    <moqui.basic.LocalizedMessage original="A change of the setup ends an approval." locale="es" localized="Un cambio de la configuración termina una aprobación."/>
+    <moqui.basic.LocalizedMessage original="A change of the topic or sender ends an approval." locale="es" localized="Un cambio del tema o del remitente termina una aprobación."/>
+    <moqui.basic.LocalizedMessage original="A change of the topic, sender, trigger, goal, re-entry or zone ends an approval." locale="es" localized="Un cambio del tema, el remitente, el disparador, el objetivo, el reingreso o la zona termina una aprobación."/>
+    <moqui.basic.LocalizedMessage original="A file of this send (its Files on the send) or of its campaign goes with the message as an attachment." locale="es" localized="Un archivo de este envío (sus Archivos en el envío) o de su campaña acompaña al mensaje como adjunto."/>
+    <moqui.basic.LocalizedMessage original="A list a respondent may choose to subscribe to beside the answers, confirmed by its own message; empty: none" locale="es" localized="Una lista a la que quien responde puede elegir suscribirse junto a las respuestas, confirmada por su propio mensaje; vacío: ninguna"/>
+    <moqui.basic.LocalizedMessage original="A list or segment is not available: each must be one of the topic's organization." locale="es" localized="Una lista o un segmento no está disponible: cada uno debe ser de la organización del tema."/>
+    <moqui.basic.LocalizedMessage original="A manual cost needs one" locale="es" localized="Un costo manual necesita uno"/>
+    <moqui.basic.LocalizedMessage original="A member is found by the segment; it is not subscribed to any list." locale="es" localized="El segmento encuentra al miembro; no está suscrito a ninguna lista."/>
+    <moqui.basic.LocalizedMessage original="A message is filed on a campaign or a send" locale="es" localized="Un mensaje se registra en una campaña o en un envío"/>
+    <moqui.basic.LocalizedMessage original="A name, an address or a registration" locale="es" localized="Un nombre, una dirección o un registro"/>
+    <moqui.basic.LocalizedMessage original="A new campaign's; the accounting currency when empty" locale="es" localized="La de una campaña nueva; la moneda contable si está vacío"/>
+    <moqui.basic.LocalizedMessage original="A new person replaces the attendee; the earlier entry code stops working and a confirmed place's new code goes to the new attendee. Check-ins stay as they were." locale="es" localized="Una persona nueva sustituye al asistente; el código de entrada anterior deja de funcionar y el código nuevo de una plaza confirmada llega al nuevo asistente. Los registros de asistencia quedan como estaban."/>
+    <moqui.basic.LocalizedMessage original="A part left as the send's stays the send's. A change ends an approval." locale="es" localized="Una parte dejada como la del envío sigue siendo la del envío. Un cambio termina una aprobación."/>
+    <moqui.basic.LocalizedMessage original="A PASS site whose Marketing mount serves this list's organization" locale="es" localized="Un sitio PASS cuyo montaje de Marketing atiende a la organización de esta lista"/>
+    <moqui.basic.LocalizedMessage original="A person on the topic; empty shows sample values" locale="es" localized="Una persona del tema; vacío muestra valores de ejemplo"/>
+    <moqui.basic.LocalizedMessage original="A plan, not a release" locale="es" localized="Un plan, no una publicación"/>
+    <moqui.basic.LocalizedMessage original="A preview subscribes no one. Each person still needs the topic's accepted membership, an evidenced consent and an address that is not suppressed." locale="es" localized="Una vista previa no suscribe a nadie. Cada persona sigue necesitando la membresía aceptada del tema, un consentimiento con evidencia y una dirección que no esté suprimida."/>
+    <moqui.basic.LocalizedMessage original="A promotional notice goes only to those who consented to promotional mail" locale="es" localized="Un aviso promocional solo llega a quienes consintieron el correo promocional"/>
+    <moqui.basic.LocalizedMessage original="A public blog shows it from this date" locale="es" localized="Un blog público lo muestra desde esta fecha"/>
+    <moqui.basic.LocalizedMessage original="A public blog shows it from this date, once its page has a published version" locale="es" localized="Un blog público lo muestra desde esta fecha, una vez que su página tiene una versión publicada"/>
+    <moqui.basic.LocalizedMessage original="A published site whose Marketing pages serve the organization" locale="es" localized="Un sitio publicado cuyas páginas de Marketing atienden a la organización"/>
+    <moqui.basic.LocalizedMessage original="A refusal needs its reason" locale="es" localized="Un rechazo necesita su motivo"/>
+    <moqui.basic.LocalizedMessage original="A sales manager chooses the team; otherwise the rule keeps its team or takes Sales' default team" locale="es" localized="Un gerente de ventas elige el equipo; si no, la regla conserva su equipo o toma el equipo predeterminado de Ventas"/>
+    <moqui.basic.LocalizedMessage original="A segment reads a source you cannot read in this organization, so no count is shown." locale="es" localized="Un segmento lee un origen que usted no puede leer en esta organización, así que no se muestra ningún conteo."/>
+    <moqui.basic.LocalizedMessage original="A send copies its template's published content now. Any change of the steps ends an approval." locale="es" localized="Un envío copia ahora el contenido publicado de su plantilla. Cualquier cambio de los pasos termina una aprobación."/>
+    <moqui.basic.LocalizedMessage original="A send's test message goes only to these, one a line, at most ten" locale="es" localized="El mensaje de prueba de un envío solo va a estas direcciones, una por línea, como máximo diez"/>
+    <moqui.basic.LocalizedMessage original="A space the wiki lets you write" locale="es" localized="Un espacio en el que la wiki le permite escribir"/>
+    <moqui.basic.LocalizedMessage original="A store promotion of the campaign's organization; its rule, limits and codes stay Commerce's." locale="es" localized="Una promoción de tienda de la organización de la campaña; su regla, límites y códigos siguen siendo de Comercio."/>
+    <moqui.basic.LocalizedMessage original="A test goes only to an address of the organization's test list, marked TEST, with sample values; no recipient gets it and it counts nowhere." locale="es" localized="Una prueba solo va a una dirección de la lista de prueba de la organización, marcada TEST, con valores de ejemplo; ningún destinatario la recibe y no cuenta en ningún sitio."/>
+    <moqui.basic.LocalizedMessage original="A test goes to the organization's test list, marked TEST; it is no recipient and enters no result." locale="es" localized="Una prueba va a la lista de prueba de la organización, marcada TEST; no es un destinatario y no entra en ningún resultado."/>
+    <moqui.basic.LocalizedMessage original="A/B test" locale="es" localized="Prueba A/B"/>
+    <moqui.basic.LocalizedMessage original="A/B test of ${send.sendName}" locale="es" localized="Prueba A/B de ${send.sendName}"/>
+    <moqui.basic.LocalizedMessage original="Accept now" locale="es" localized="Aceptar ahora"/>
+    <moqui.basic.LocalizedMessage original="Accept with this evidence instead of asking for confirmation" locale="es" localized="Aceptar con esta evidencia en lugar de pedir confirmación"/>
+    <moqui.basic.LocalizedMessage original="Accepted recipients who allowed tracking: the denominator of the rates" locale="es" localized="Destinatarios aceptados que permitieron el seguimiento: el denominador de las tasas"/>
+    <moqui.basic.LocalizedMessage original="Accepted sends" locale="es" localized="Envíos aceptados"/>
+    <moqui.basic.LocalizedMessage original="Accepted sends ${campaignResults.acceptedCount} · Reach ${campaignResults.reachCount} · Visits ${campaignResults.visitCount} · Leads ${campaignResults.leadCount} (${campaignResults.qualifiedLeadCount} qualified) · Orders ${campaignResults.orderCount}" locale="es" localized="Aceptados ${campaignResults.acceptedCount} · Alcance ${campaignResults.reachCount} · Visitas ${campaignResults.visitCount} · Prospectos ${campaignResults.leadCount} (${campaignResults.qualifiedLeadCount} aptos) · Órdenes ${campaignResults.orderCount}"/>
+    <moqui.basic.LocalizedMessage original="Accepting needs MARKETING_CONSENT_EDIT: every member is filed pending confirmation." locale="es" localized="Aceptar requiere MARKETING_CONSENT_EDIT: cada miembro se registra pendiente de confirmación."/>
+    <moqui.basic.LocalizedMessage original="Accounting.InvoicedRevenue less returns, by currency" locale="es" localized="Accounting.InvoicedRevenue menos devoluciones, por moneda"/>
+    <moqui.basic.LocalizedMessage original="Add ${marketingContact.label} to a list" locale="es" localized="Añadir ${marketingContact.label} a una lista"/>
+    <moqui.basic.LocalizedMessage original="Add a classification" locale="es" localized="Añadir una clasificación"/>
+    <moqui.basic.LocalizedMessage original="Add a condition to ${segment.segmentName}" locale="es" localized="Añadir una condición a ${segment.segmentName}"/>
+    <moqui.basic.LocalizedMessage original="Add a geography" locale="es" localized="Añadir una geografía"/>
+    <moqui.basic.LocalizedMessage original="Add a member to ${segment.segmentName}" locale="es" localized="Añadir un miembro a ${segment.segmentName}"/>
+    <moqui.basic.LocalizedMessage original="Add a step to ${automation.automationName}" locale="es" localized="Añadir un paso a ${automation.automationName}"/>
+    <moqui.basic.LocalizedMessage original="Add a video call to ${event.eventName}" locale="es" localized="Añadir una videollamada a ${event.eventName}"/>
+    <moqui.basic.LocalizedMessage original="Add members to ${list.contactListName}" locale="es" localized="Añadir miembros a ${list.contactListName}"/>
+    <moqui.basic.LocalizedMessage original="Add notice" locale="es" localized="Añadir aviso"/>
+    <moqui.basic.LocalizedMessage original="Add offer" locale="es" localized="Añadir oferta"/>
+    <moqui.basic.LocalizedMessage original="Add the step" locale="es" localized="Añadir el paso"/>
+    <moqui.basic.LocalizedMessage original="Add ticket type" locale="es" localized="Añadir tipo de entrada"/>
+    <moqui.basic.LocalizedMessage original="Add to ${campaign.campaignName}" locale="es" localized="Añadir a ${campaign.campaignName}"/>
+    <moqui.basic.LocalizedMessage original="Admitted ${enrollment.admittedDateText} by ${enrollment.triggerText}" locale="es" localized="Admitido ${enrollment.admittedDateText} por ${enrollment.triggerText}"/>
+    <moqui.basic.LocalizedMessage original="Adoption" locale="es" localized="Adopción"/>
+    <moqui.basic.LocalizedMessage original="Adoption of existing records" locale="es" localized="Adopción de registros existentes"/>
+    <moqui.basic.LocalizedMessage original="After an answer" locale="es" localized="Tras una respuesta"/>
+    <moqui.basic.LocalizedMessage original="After step" locale="es" localized="Tras el paso"/>
+    <moqui.basic.LocalizedMessage original="After that" locale="es" localized="Después de eso"/>
+    <moqui.basic.LocalizedMessage original="Afterwards" locale="es" localized="Después"/>
+    <moqui.basic.LocalizedMessage original="All its sends" locale="es" localized="Todos sus envíos"/>
+    <moqui.basic.LocalizedMessage original="All publications of the survey" locale="es" localized="Todas las publicaciones de la encuesta"/>
+    <moqui.basic.LocalizedMessage original="All registrations of the event" locale="es" localized="Todos los registros del evento"/>
+    <moqui.basic.LocalizedMessage original="An archived segment cannot be used." locale="es" localized="Un segmento archivado no se puede usar."/>
+    <moqui.basic.LocalizedMessage original="An author may approve their own campaign, and their own send to fewer than 500 recipients, recorded as a self-approval" locale="es" localized="Un autor puede aprobar su propia campaña, y su propio envío a menos de 500 destinatarios, registrado como autoaprobación"/>
+    <moqui.basic.LocalizedMessage original="And in segments" locale="es" localized="Y en segmentos"/>
+    <moqui.basic.LocalizedMessage original="Another approver decides" locale="es" localized="Decide otro aprobador"/>
+    <moqui.basic.LocalizedMessage original="Answers to the lead" locale="es" localized="Respuestas del prospecto"/>
+    <moqui.basic.LocalizedMessage original="Apply import ${audienceImportId}" locale="es" localized="Aplicar la importación ${audienceImportId}"/>
+    <moqui.basic.LocalizedMessage original="Archive ${list.contactListName}" locale="es" localized="Archivar ${list.contactListName}"/>
+    <moqui.basic.LocalizedMessage original="Archive ${segment.segmentName}" locale="es" localized="Archivar ${segment.segmentName}"/>
+    <moqui.basic.LocalizedMessage original="Archive list" locale="es" localized="Archivar lista"/>
+    <moqui.basic.LocalizedMessage original="Archive segment" locale="es" localized="Archivar segmento"/>
+    <moqui.basic.LocalizedMessage original="Archive the merged lists (their history stays)" locale="es" localized="Archivar las listas fusionadas (su historial permanece)"/>
+    <moqui.basic.LocalizedMessage original="As ${preview?.sampleText}" locale="es" localized="Como ${preview?.sampleText}"/>
+    <moqui.basic.LocalizedMessage original="As prepared" locale="es" localized="Tal como se preparó"/>
+    <moqui.basic.LocalizedMessage original="Asked of" locale="es" localized="Se pregunta a"/>
+    <moqui.basic.LocalizedMessage original="At most 160 characters" locale="es" localized="Como máximo 160 caracteres"/>
+    <moqui.basic.LocalizedMessage original="At most 1600 characters; Reply STOP to opt out is added when the text has no STOP" locale="es" localized="Como máximo 1600 caracteres; se añade Reply STOP to opt out cuando el texto no tiene STOP"/>
+    <moqui.basic.LocalizedMessage original="At the door" locale="es" localized="En la puerta"/>
+    <moqui.basic.LocalizedMessage original="Attach a file to ${send.sendName}" locale="es" localized="Adjuntar un archivo a ${send.sendName}"/>
+    <moqui.basic.LocalizedMessage original="Attendance and history" locale="es" localized="Asistencia e historial"/>
+    <moqui.basic.LocalizedMessage original="Attendee" locale="es" localized="Asistente"/>
+    <moqui.basic.LocalizedMessage original="Attendee's email" locale="es" localized="Correo del asistente"/>
+    <moqui.basic.LocalizedMessage original="Attendees and their places: held places end when their hold does, a paid place waits for the organizer where Sales approves orders." locale="es" localized="Asistentes y sus plazas: las plazas retenidas terminan cuando termina su retención, y una plaza de pago espera al organizador donde Ventas aprueba las órdenes."/>
+    <moqui.basic.LocalizedMessage original="Attention could not be read just now." locale="es" localized="No se pudo leer la atención en este momento."/>
+    <moqui.basic.LocalizedMessage original="Attributed orders" locale="es" localized="Órdenes atribuidas"/>
+    <moqui.basic.LocalizedMessage original="Attribution" locale="es" localized="Atribución"/>
+    <moqui.basic.LocalizedMessage original="Audience growth" locale="es" localized="Crecimiento de la audiencia"/>
+    <moqui.basic.LocalizedMessage original="Audience import" locale="es" localized="Importación de audiencia"/>
+    <moqui.basic.LocalizedMessage original="Audience limit" locale="es" localized="Límite de audiencia"/>
+    <moqui.basic.LocalizedMessage original="Audience preview" locale="es" localized="Vista previa de la audiencia"/>
+    <moqui.basic.LocalizedMessage original="Audiences" locale="es" localized="Audiencias"/>
+    <moqui.basic.LocalizedMessage original="Authors may self-approve" locale="es" localized="Los autores pueden autoaprobar"/>
+    <moqui.basic.LocalizedMessage original="Automated fetches" locale="es" localized="Obtenciones automáticas"/>
+    <moqui.basic.LocalizedMessage original="Automation" locale="es" localized="Automatización"/>
+    <moqui.basic.LocalizedMessage original="Automation ${marketingAutomationId} is not available: it does not exist, or it is not one of your organizations'." locale="es" localized="La automatización ${marketingAutomationId} no está disponible: no existe, o no es de una de sus organizaciones."/>
+    <moqui.basic.LocalizedMessage original="Automations" locale="es" localized="Automatizaciones"/>
+    <moqui.basic.LocalizedMessage original="Automations I started" locale="es" localized="Automatizaciones que inicié"/>
+    <moqui.basic.LocalizedMessage original="Back to automations" locale="es" localized="Volver a las automatizaciones"/>
+    <moqui.basic.LocalizedMessage original="Back to blog posts" locale="es" localized="Volver a las entradas de blog"/>
+    <moqui.basic.LocalizedMessage original="Back to campaign content" locale="es" localized="Volver al contenido de la campaña"/>
+    <moqui.basic.LocalizedMessage original="Back to campaigns" locale="es" localized="Volver a las campañas"/>
+    <moqui.basic.LocalizedMessage original="Back to events" locale="es" localized="Volver a los eventos"/>
+    <moqui.basic.LocalizedMessage original="Back to imports" locale="es" localized="Volver a las importaciones"/>
+    <moqui.basic.LocalizedMessage original="Back to lead rules" locale="es" localized="Volver a las reglas de prospectos"/>
+    <moqui.basic.LocalizedMessage original="Back to registrations" locale="es" localized="Volver a los registros"/>
+    <moqui.basic.LocalizedMessage original="Back to segments" locale="es" localized="Volver a los segmentos"/>
+    <moqui.basic.LocalizedMessage original="Back to the send" locale="es" localized="Volver al envío"/>
+    <moqui.basic.LocalizedMessage original="Back to tracking links" locale="es" localized="Volver a los enlaces de seguimiento"/>
+    <moqui.basic.LocalizedMessage original="Before approval: ${problemsText}" locale="es" localized="Antes de la aprobación: ${problemsText}"/>
+    <moqui.basic.LocalizedMessage original="Bind a template to ${list.contactListName}" locale="es" localized="Vincular una plantilla a ${list.contactListName}"/>
+    <moqui.basic.LocalizedMessage original="Blog post ${wikiBlogId} is not available: it does not exist or its page is not one you may read." locale="es" localized="La entrada de blog ${wikiBlogId} no está disponible: no existe o su página no es una que pueda leer."/>
+    <moqui.basic.LocalizedMessage original="Blog posts" locale="es" localized="Entradas de blog"/>
+    <moqui.basic.LocalizedMessage original="Both variants together, split equally (1 to 90)" locale="es" localized="Ambas variantes juntas, repartidas por igual (1 a 90)"/>
+    <moqui.basic.LocalizedMessage original="bought by ${name}" locale="es" localized="comprado por ${name}"/>
+    <moqui.basic.LocalizedMessage original="Bounds, inclusive" locale="es" localized="Límites, inclusivos"/>
+    <moqui.basic.LocalizedMessage original="Budget and costs" locale="es" localized="Presupuesto y costos"/>
+    <moqui.basic.LocalizedMessage original="Budget of ${campaign.campaignName}" locale="es" localized="Presupuesto de ${campaign.campaignName}"/>
+    <moqui.basic.LocalizedMessage original="Buyer's email" locale="es" localized="Correo del comprador"/>
+    <moqui.basic.LocalizedMessage original="by ${name}" locale="es" localized="por ${name}"/>
+    <moqui.basic.LocalizedMessage original="By campaign" locale="es" localized="Por campaña"/>
+    <moqui.basic.LocalizedMessage original="Campaign ${marketingCampaignId} is not available." locale="es" localized="La campaña ${marketingCampaignId} no está disponible."/>
+    <moqui.basic.LocalizedMessage original="Campaign ${marketingCampaignId} is not available: it does not exist, or it is not one of your organizations'." locale="es" localized="La campaña ${marketingCampaignId} no está disponible: no existe, o no es de una de sus organizaciones."/>
+    <moqui.basic.LocalizedMessage original="Campaign calendar" locale="es" localized="Calendario de campañas"/>
+    <moqui.basic.LocalizedMessage original="Campaign calendar: ${firstDay} to ${lastDay}" locale="es" localized="Calendario de campañas: ${firstDay} a ${lastDay}"/>
+    <moqui.basic.LocalizedMessage original="Campaign complaints or failures spike" locale="es" localized="Pico de quejas o fallos de la campaña"/>
+    <moqui.basic.LocalizedMessage original="Campaign content" locale="es" localized="Contenido de la campaña"/>
+    <moqui.basic.LocalizedMessage original="Campaign defaults" locale="es" localized="Valores predeterminados de la campaña"/>
+    <moqui.basic.LocalizedMessage original="Campaign defaults saved from now" locale="es" localized="Valores predeterminados de la campaña guardados desde ahora"/>
+    <moqui.basic.LocalizedMessage original="Campaign events and their registration: seats, tickets, questions and notices, published to your sites." locale="es" localized="Eventos de campaña y su registro: plazas, entradas, preguntas y avisos, publicados en sus sitios."/>
+    <moqui.basic.LocalizedMessage original="Campaign hard bounces over a threshold" locale="es" localized="Rebotes definitivos de la campaña por encima de un umbral"/>
+    <moqui.basic.LocalizedMessage original="Campaign links and QR codes: each goes to its registered destination and counts the visits it brings." locale="es" localized="Enlaces y códigos QR de la campaña: cada uno va a su destino registrado y cuenta las visitas que aporta."/>
+    <moqui.basic.LocalizedMessage original="Campaign performance" locale="es" localized="Rendimiento de la campaña"/>
+    <moqui.basic.LocalizedMessage original="Campaign plan" locale="es" localized="Plan de la campaña"/>
+    <moqui.basic.LocalizedMessage original="Campaign plan: ${campaign.campaignName} (${marketingCampaignId})" locale="es" localized="Plan de la campaña: ${campaign.campaignName} (${marketingCampaignId})"/>
+    <moqui.basic.LocalizedMessage original="Campaign sends" locale="es" localized="Envíos de la campaña"/>
+    <moqui.basic.LocalizedMessage original="Campaign summaries last computed ${report.aggregation.lastRunText}." locale="es" localized="Los resúmenes de campaña se calcularon por última vez ${report.aggregation.lastRunText}."/>
+    <moqui.basic.LocalizedMessage original="Campaign use" locale="es" localized="Uso en campañas"/>
+    <moqui.basic.LocalizedMessage original="Campaign uses" locale="es" localized="Usos en campañas"/>
+    <moqui.basic.LocalizedMessage original="Campaign: ${preview?.campaignText}" locale="es" localized="Campaña: ${preview?.campaignText}"/>
+    <moqui.basic.LocalizedMessage original="Campaign: ${send.campaignName} · topic: ${send.topicName} (${send.purposeText}) · channel: ${send.channelText}" locale="es" localized="Campaña: ${send.campaignName} · tema: ${send.topicName} (${send.purposeText}) · canal: ${send.channelText}"/>
+    <moqui.basic.LocalizedMessage original="Campaigns I manage or contribute to" locale="es" localized="Campañas que gestiono o en las que colaboro"/>
+    <moqui.basic.LocalizedMessage original="Campaigns, lists and segments made before Marketing's organizations belong to none: no one edits or sends them through Marketing until each is given an organization. Adoption gives the organization and nothing else; consent nobody recorded stays unknown." locale="es" localized="Campañas, listas y segmentos previos a las organizaciones de Marketing no pertenecen a ninguna: nadie los edita ni envía por Marketing hasta asignarles una. La adopción solo da la organización; un consentimiento no registrado sigue desconocido."/>
+    <moqui.basic.LocalizedMessage original="Cancel ${campaign.campaignName}" locale="es" localized="Cancelar ${campaign.campaignName}"/>
+    <moqui.basic.LocalizedMessage original="Cancel ${send.sendName}" locale="es" localized="Cancelar ${send.sendName}"/>
+    <moqui.basic.LocalizedMessage original="Cancel campaign" locale="es" localized="Cancelar campaña"/>
+    <moqui.basic.LocalizedMessage original="Cancel online until (hours before)" locale="es" localized="Cancelar en línea hasta (horas antes)"/>
+    <moqui.basic.LocalizedMessage original="Cancel registration" locale="es" localized="Cancelar registro"/>
+    <moqui.basic.LocalizedMessage original="Cancel send" locale="es" localized="Cancelar envío"/>
+    <moqui.basic.LocalizedMessage original="Cancel the registration of ${reg.attendeeName}" locale="es" localized="Cancelar el registro de ${reg.attendeeName}"/>
+    <moqui.basic.LocalizedMessage original="Cancellation terms" locale="es" localized="Condiciones de cancelación"/>
+    <moqui.basic.LocalizedMessage original="Cancellation: ${offer.cancelRuleText}" locale="es" localized="Cancelación: ${offer.cancelRuleText}"/>
+    <moqui.basic.LocalizedMessage original="Cancellation: ${reg.cancellationTerms}" locale="es" localized="Cancelación: ${reg.cancellationTerms}"/>
+    <moqui.basic.LocalizedMessage original="Cancelled ${delivery.cancelledDateText}: ${delivery.cancelReason}" locale="es" localized="Cancelado ${delivery.cancelledDateText}: ${delivery.cancelReason}"/>
+    <moqui.basic.LocalizedMessage original="Carried in by a list merge: a movement, not new people" locale="es" localized="Incorporados por una fusión de listas: un movimiento, no personas nuevas"/>
+    <moqui.basic.LocalizedMessage original="Change organization" locale="es" localized="Cambiar de organización"/>
+    <moqui.basic.LocalizedMessage original="Changes by list" locale="es" localized="Cambios por lista"/>
+    <moqui.basic.LocalizedMessage original="Check in" locale="es" localized="Registrar asistencia"/>
+    <moqui.basic.LocalizedMessage original="Check in ${attendeeText}" locale="es" localized="Registrar la asistencia de ${attendeeText}"/>
+    <moqui.basic.LocalizedMessage original="Check-in is for events managers, and for an event's door tablet registered in Admin › Security › Devices." locale="es" localized="El registro de asistencia es para los responsables de eventos y para la tableta de puerta de un evento registrada en Admin › Seguridad › Dispositivos."/>
+    <moqui.basic.LocalizedMessage original="Check-in is not available now." locale="es" localized="El registro de asistencia no está disponible ahora."/>
+    <moqui.basic.LocalizedMessage original="Checked in" locale="es" localized="Asistencia registrada"/>
+    <moqui.basic.LocalizedMessage original="Choose at most twenty lists and segments." locale="es" localized="Elija como máximo veinte listas y segmentos."/>
+    <moqui.basic.LocalizedMessage original="Choose the occurrence whose door you keep." locale="es" localized="Elija la sesión cuya puerta atiende."/>
+    <moqui.basic.LocalizedMessage original="Choose the topic list a send would be for, then Preview." locale="es" localized="Elija la lista de tema para la que sería un envío y luego Vista previa."/>
+    <moqui.basic.LocalizedMessage original="Choose the winner again" locale="es" localized="Elegir el ganador de nuevo"/>
+    <moqui.basic.LocalizedMessage original="Choose the winner of ${send.sendName}" locale="es" localized="Elegir el ganador de ${send.sendName}"/>
+    <moqui.basic.LocalizedMessage original="Classification (any of them)" locale="es" localized="Clasificación (cualquiera de ellas)"/>
+    <moqui.basic.LocalizedMessage original="Click rate" locale="es" localized="Tasa de clics"/>
+    <moqui.basic.LocalizedMessage original="Close registration" locale="es" localized="Cerrar el registro"/>
+    <moqui.basic.LocalizedMessage original="Close the registration for ${offer.occurrenceText}" locale="es" localized="Cerrar el registro de ${offer.occurrenceText}"/>
+    <moqui.basic.LocalizedMessage original="Closed: it takes no more answers; the answers are kept" locale="es" localized="Cerrada: no admite más respuestas; las respuestas se conservan"/>
+    <moqui.basic.LocalizedMessage original="Complaints" locale="es" localized="Quejas"/>
+    <moqui.basic.LocalizedMessage original="Complete ${campaign.campaignName}" locale="es" localized="Completar ${campaign.campaignName}"/>
+    <moqui.basic.LocalizedMessage original="Completed ${delivery.completedDateText}" locale="es" localized="Completado ${delivery.completedDateText}"/>
+    <moqui.basic.LocalizedMessage original="Completed with failures" locale="es" localized="Completado con fallos"/>
+    <moqui.basic.LocalizedMessage original="Compose ${send.sendName}" locale="es" localized="Redactar ${send.sendName}"/>
+    <moqui.basic.LocalizedMessage original="Confirm ${member.partyName} on ${list.contactListName}" locale="es" localized="Confirmar a ${member.partyName} en ${list.contactListName}"/>
+    <moqui.basic.LocalizedMessage original="Confirm the registration of ${reg.attendeeName}" locale="es" localized="Confirmar el registro de ${reg.attendeeName}"/>
+    <moqui.basic.LocalizedMessage original="Confirmation message" locale="es" localized="Mensaje de confirmación"/>
+    <moqui.basic.LocalizedMessage original="Confirmed delivered" locale="es" localized="Entrega confirmada"/>
+    <moqui.basic.LocalizedMessage original="Consent a registrant accepts" locale="es" localized="Consentimiento que acepta quien se registra"/>
+    <moqui.basic.LocalizedMessage original="Consent at the hand-off: ${recipient.consentText}" locale="es" localized="Consentimiento en la entrega: ${recipient.consentText}"/>
+    <moqui.basic.LocalizedMessage original="Consent: ${offer.consentText}" locale="es" localized="Consentimiento: ${offer.consentText}"/>
+    <moqui.basic.LocalizedMessage original="Content from ${send.templateName}, copied when the send was started: a later change of the template does not reach it." locale="es" localized="Contenido de ${send.templateName}, copiado al iniciar el envío: un cambio posterior de la plantilla no lo alcanza."/>
+    <moqui.basic.LocalizedMessage original="Content link ${campaignContentId} is not available: it does not exist or is not one of your organization's campaigns." locale="es" localized="El vínculo de contenido ${campaignContentId} no está disponible: no existe o no es de una campaña de su organización."/>
+    <moqui.basic.LocalizedMessage original="Contributor" locale="es" localized="Colaborador"/>
+    <moqui.basic.LocalizedMessage original="Conversions" locale="es" localized="Conversiones"/>
+    <moqui.basic.LocalizedMessage original="Cooldown (days)" locale="es" localized="Espera (días)"/>
+    <moqui.basic.LocalizedMessage original="Copy of its name when empty" locale="es" localized="Copia de su nombre si está vacío"/>
+    <moqui.basic.LocalizedMessage original="Copy of this one when empty" locale="es" localized="Copia de este si está vacío"/>
+    <moqui.basic.LocalizedMessage original="Correct or substitute the attendee" locale="es" localized="Corregir o sustituir al asistente"/>
+    <moqui.basic.LocalizedMessage original="Correct the attribution of order ${orderId}" locale="es" localized="Corregir la atribución de la orden ${orderId}"/>
+    <moqui.basic.LocalizedMessage original="Could not be read just now: ${failedText}. The rest is shown." locale="es" localized="No se pudo leer en este momento: ${failedText}. Se muestra el resto."/>
+    <moqui.basic.LocalizedMessage original="Count unique visitors" locale="es" localized="Contar visitantes únicos"/>
+    <moqui.basic.LocalizedMessage original="Count visits only" locale="es" localized="Contar solo visitas"/>
+    <moqui.basic.LocalizedMessage original="Counted at the send's preparation and from the delivery service; a test message counts nowhere." locale="es" localized="Contado en la preparación del envío y desde el servicio de entrega; un mensaje de prueba no cuenta en ningún sitio."/>
+    <moqui.basic.LocalizedMessage original="Counted when it is prepared: the topic's members, each in one bucket." locale="es" localized="Contado al prepararlo: los miembros del tema, cada uno en un grupo."/>
+    <moqui.basic.LocalizedMessage original="Country, state or region" locale="es" localized="País, estado o región"/>
+    <moqui.basic.LocalizedMessage original="Create a draft send from ${content.title}" locale="es" localized="Crear un envío en borrador a partir de ${content.title}"/>
+    <moqui.basic.LocalizedMessage original="Create lead rule" locale="es" localized="Crear regla de prospectos"/>
+    <moqui.basic.LocalizedMessage original="CSV with a header row, or vCard; at most 1 MiB and 1,000 rows. Names, email and phone columns are found by their headers and can be changed after the preview. A contact is matched by the list's address alone, or made; nothing is filed until you apply." locale="es" localized="CSV con encabezado, o vCard; máximo 1 MiB y 1000 filas. Nombre, correo y teléfono se hallan por el encabezado y se cambian tras la vista previa. Un contacto se empareja por la dirección de la lista, o se crea; nada se guarda hasta aplicar."/>
+    <moqui.basic.LocalizedMessage original="Day and business-day waits keep their local time in it" locale="es" localized="Las esperas de día y de día hábil conservan en ella su hora local"/>
+    <moqui.basic.LocalizedMessage original="Decide on ${automation.automationName}, revision ${automation.automationRevision}" locale="es" localized="Decidir sobre ${automation.automationName}, revisión ${automation.automationRevision}"/>
+    <moqui.basic.LocalizedMessage original="Decide on ${campaign.campaignName}, revision ${campaign.campaignRevision}" locale="es" localized="Decidir sobre ${campaign.campaignName}, revisión ${campaign.campaignRevision}"/>
+    <moqui.basic.LocalizedMessage original="Decide on ${send.sendName}, revision ${send.sendRevision}" locale="es" localized="Decidir sobre ${send.sendName}, revisión ${send.sendRevision}"/>
+    <moqui.basic.LocalizedMessage original="Delivered over accepted; not available without receipts" locale="es" localized="Entregados sobre aceptados; no disponible sin acuses"/>
+    <moqui.basic.LocalizedMessage original="Deliveries by organization" locale="es" localized="Entregas por organización"/>
+    <moqui.basic.LocalizedMessage original="Deliveries by state" locale="es" localized="Entregas por estado"/>
+    <moqui.basic.LocalizedMessage original="Delivery ${recipient.deliveryId}: ${recipient.deliveryStateText} · ${recipient.attempts} attempts${recipient.providerMessageId ? ' · message ' + recipient.providerMessageId : ''}" locale="es" localized="Entrega ${recipient.deliveryId}: ${recipient.deliveryStateText} · ${recipient.attempts} intentos${recipient.providerMessageId ? ' · message ' + recipient.providerMessageId : ''}"/>
+    <moqui.basic.LocalizedMessage original="Delivery analysis" locale="es" localized="Análisis de entrega"/>
+    <moqui.basic.LocalizedMessage original="Delivery and recipients" locale="es" localized="Entrega y destinatarios"/>
+    <moqui.basic.LocalizedMessage original="Delivery by send" locale="es" localized="Entrega por envío"/>
+    <moqui.basic.LocalizedMessage original="Delivery rate" locale="es" localized="Tasa de entrega"/>
+    <moqui.basic.LocalizedMessage original="Destination: ${link.destinationText}${link.pageText ? ' (' + link.pageText + ')' : ''}" locale="es" localized="Destino: ${link.destinationText}${link.pageText ? ' (' + link.pageText + ')' : ''}"/>
+    <moqui.basic.LocalizedMessage original="Dimension (all of them)" locale="es" localized="Dimensión (todas ellas)"/>
+    <moqui.basic.LocalizedMessage original="Distribution" locale="es" localized="Distribución"/>
+    <moqui.basic.LocalizedMessage original="Download error rows" locale="es" localized="Descargar filas con error"/>
+    <moqui.basic.LocalizedMessage original="Download QR code" locale="es" localized="Descargar código QR"/>
+    <moqui.basic.LocalizedMessage original="Duplicate ${campaign.campaignName}" locale="es" localized="Duplicar ${campaign.campaignName}"/>
+    <moqui.basic.LocalizedMessage original="Duplicate ${segment.segmentName}" locale="es" localized="Duplicar ${segment.segmentName}"/>
+    <moqui.basic.LocalizedMessage original="Duplicate ${send.sendName}" locale="es" localized="Duplicar ${send.sendName}"/>
+    <moqui.basic.LocalizedMessage original="Duplicate address" locale="es" localized="Dirección duplicada"/>
+    <moqui.basic.LocalizedMessage original="Duplicate as a draft" locale="es" localized="Duplicar como borrador"/>
+    <moqui.basic.LocalizedMessage original="Duplicate as a planned campaign" locale="es" localized="Duplicar como campaña planificada"/>
+    <moqui.basic.LocalizedMessage original="Each attendee" locale="es" localized="Cada asistente"/>
+    <moqui.basic.LocalizedMessage original="Each campaign with its child campaigns, each counted once" locale="es" localized="Cada campaña con sus campañas hijas, cada una contada una vez"/>
+    <moqui.basic.LocalizedMessage original="Each lead goes to this team's queue" locale="es" localized="Cada prospecto va a la cola de este equipo"/>
+    <moqui.basic.LocalizedMessage original="Each person is asked to confirm before anything is sent, unless you accept with evidence. A withdrawal or a suppression is never cleared here." locale="es" localized="Se pide a cada persona que confirme antes de enviar nada, salvo que acepte con evidencia. Una retirada o una supresión nunca se borra aquí."/>
+    <moqui.basic.LocalizedMessage original="Earlier notes" locale="es" localized="Notas anteriores"/>
+    <moqui.basic.LocalizedMessage original="Edit ${campaign.campaignName}" locale="es" localized="Editar ${campaign.campaignName}"/>
+    <moqui.basic.LocalizedMessage original="Edit ${labelText}" locale="es" localized="Editar ${labelText}"/>
+    <moqui.basic.LocalizedMessage original="Edit ${list.contactListName}" locale="es" localized="Editar ${list.contactListName}"/>
+    <moqui.basic.LocalizedMessage original="Edit ${segment.segmentName}" locale="es" localized="Editar ${segment.segmentName}"/>
+    <moqui.basic.LocalizedMessage original="Edit ${send.sendName}" locale="es" localized="Editar ${send.sendName}"/>
+    <moqui.basic.LocalizedMessage original="Edit ${ticketName}" locale="es" localized="Editar ${ticketName}"/>
+    <moqui.basic.LocalizedMessage original="Edit the registration offer" locale="es" localized="Editar la oferta de registro"/>
+    <moqui.basic.LocalizedMessage original="Edit tracking link ${link.label}" locale="es" localized="Editar el enlace de seguimiento ${link.label}"/>
+    <moqui.basic.LocalizedMessage original="Email from" locale="es" localized="Correo electrónico de"/>
+    <moqui.basic.LocalizedMessage original="Empty: 30 days ago" locale="es" localized="Vacío: hace 30 días"/>
+    <moqui.basic.LocalizedMessage original="Empty: a storeless order of the organization" locale="es" localized="Vacío: una orden sin tienda de la organización"/>
+    <moqui.basic.LocalizedMessage original="Empty: now. It takes answers from then until it closes" locale="es" localized="Vacío: ahora. Toma respuestas desde entonces hasta que cierre"/>
+    <moqui.basic.LocalizedMessage original="Empty: open until closed" locale="es" localized="Vacío: abierto hasta que se cierre"/>
+    <moqui.basic.LocalizedMessage original="Empty: open while this policy is in effect" locale="es" localized="Vacío: abierto mientras esta política esté vigente"/>
+    <moqui.basic.LocalizedMessage original="Empty: the buyer attends" locale="es" localized="Vacío: asiste el comprador"/>
+    <moqui.basic.LocalizedMessage original="Empty: the offer's seats" locale="es" localized="Vacío: las plazas de la oferta"/>
+    <moqui.basic.LocalizedMessage original="Empty: the organization's ready profile for transactional mail" locale="es" localized="Vacío: el perfil listo de la organización para el correo transaccional"/>
+    <moqui.basic.LocalizedMessage original="Empty: unattributed" locale="es" localized="Vacío: sin atribuir"/>
+    <moqui.basic.LocalizedMessage original="Encoding" locale="es" localized="Codificación"/>
+    <moqui.basic.LocalizedMessage original="End ${automation.automationName}" locale="es" localized="Terminar ${automation.automationName}"/>
+    <moqui.basic.LocalizedMessage original="End ${emailTypeText}" locale="es" localized="Terminar ${emailTypeText}"/>
+    <moqui.basic.LocalizedMessage original="End ${label}" locale="es" localized="Terminar ${label}"/>
+    <moqui.basic.LocalizedMessage original="End ${partyName}" locale="es" localized="Terminar ${partyName}"/>
+    <moqui.basic.LocalizedMessage original="End ${partyName} as ${roleText}" locale="es" localized="Terminar ${partyName} como ${roleText}"/>
+    <moqui.basic.LocalizedMessage original="End ${ticketName}" locale="es" localized="Terminar ${ticketName}"/>
+    <moqui.basic.LocalizedMessage original="End lead rule ${rule?.leadRuleId}" locale="es" localized="Terminar la regla de prospectos ${rule?.leadRuleId}"/>
+    <moqui.basic.LocalizedMessage original="End notice ${triggerText}" locale="es" localized="Terminar el aviso ${triggerText}"/>
+    <moqui.basic.LocalizedMessage original="End the enrollment" locale="es" localized="Terminar la inscripción"/>
+    <moqui.basic.LocalizedMessage original="End the link to ${label}" locale="es" localized="Terminar el vínculo con ${label}"/>
+    <moqui.basic.LocalizedMessage original="Ended ${content.thruDateText}" locale="es" localized="Terminado ${content.thruDateText}"/>
+    <moqui.basic.LocalizedMessage original="Ended ${enrollment.endedDateText}: ${enrollment.endReason}" locale="es" localized="Terminado ${enrollment.endedDateText}: ${enrollment.endReason}"/>
+    <moqui.basic.LocalizedMessage original="Ended rules too" locale="es" localized="También las reglas terminadas"/>
+    <moqui.basic.LocalizedMessage original="Ended: later answers of the lead form are not handed to Sales" locale="es" localized="Terminada: las respuestas posteriores del formulario de prospectos no se traspasan a Ventas"/>
+    <moqui.basic.LocalizedMessage original="Engagement" locale="es" localized="Participación"/>
+    <moqui.basic.LocalizedMessage original="Enroll a person in ${automation.automationName}" locale="es" localized="Inscribir a una persona en ${automation.automationName}"/>
+    <moqui.basic.LocalizedMessage original="Enrollment" locale="es" localized="Inscripción"/>
+    <moqui.basic.LocalizedMessage original="Enrollment ${automationEnrollmentId} is not available: it does not exist, or it is not one of your organizations'." locale="es" localized="La inscripción ${automationEnrollmentId} no está disponible: no existe, o no es de una de sus organizaciones."/>
+    <moqui.basic.LocalizedMessage original="Enrollment rule" locale="es" localized="Regla de inscripción"/>
+    <moqui.basic.LocalizedMessage original="Enrollments" locale="es" localized="Inscripciones"/>
+    <moqui.basic.LocalizedMessage original="Enrolls a subscriber of ${automation.topicName} who asked for it: their consent is checked now and before every step." locale="es" localized="Inscribe a un suscriptor de ${automation.topicName} que lo pidió: su consentimiento se comprueba ahora y antes de cada paso."/>
+    <moqui.basic.LocalizedMessage original="Entry code" locale="es" localized="Código de entrada"/>
+    <moqui.basic.LocalizedMessage original="Event ${workEffortId} is not available: it is not an event of your organizations, or its registration setup is for events managers." locale="es" localized="El evento ${workEffortId} no está disponible: no es un evento de sus organizaciones, o su configuración de registro es para los responsables de eventos."/>
+    <moqui.basic.LocalizedMessage original="Event: ${offer?.offerText} · ${offer?.whenText} · when they ${offer?.triggerEnumId == 'MltAttended' ? 'attend' : 'register'}" locale="es" localized="Evento: ${offer?.offerText} · ${offer?.whenText} · cuando ${offer?.triggerEnumId == 'MltAttended' ? 'attend' : 'register'}"/>
+    <moqui.basic.LocalizedMessage original="Every campaign, list and segment belongs to an organization." locale="es" localized="Cada campaña, lista y segmento pertenece a una organización."/>
+    <moqui.basic.LocalizedMessage original="Every row" locale="es" localized="Cada fila"/>
+    <moqui.basic.LocalizedMessage original="Evidence column" locale="es" localized="Columna de evidencia"/>
+    <moqui.basic.LocalizedMessage original="Evidence date" locale="es" localized="Fecha de la evidencia"/>
+    <moqui.basic.LocalizedMessage original="Evidence date column" locale="es" localized="Columna de fecha de la evidencia"/>
+    <moqui.basic.LocalizedMessage original="Evidence of" locale="es" localized="Evidencia de"/>
+    <moqui.basic.LocalizedMessage original="Evidence time" locale="es" localized="Hora de la evidencia"/>
+    <moqui.basic.LocalizedMessage original="Evidence: ${enrollment.evidenceText}" locale="es" localized="Evidencia: ${enrollment.evidenceText}"/>
+    <moqui.basic.LocalizedMessage original="Evidence: ${evidenceSummary}${imported.evidenceText ? ' · ' + imported.evidenceText : ''}" locale="es" localized="Evidencia: ${evidenceSummary}${imported.evidenceText ? ' · ' + imported.evidenceText : ''}"/>
+    <moqui.basic.LocalizedMessage original="Exclude, whatever the rules say" locale="es" localized="Excluir, digan lo que digan las reglas"/>
+    <moqui.basic.LocalizedMessage original="Expected response ${campaign.expectedResponsePercent}%" locale="es" localized="Respuesta esperada ${campaign.expectedResponsePercent}%"/>
+    <moqui.basic.LocalizedMessage original="Expected response %" locale="es" localized="Respuesta esperada %"/>
+    <moqui.basic.LocalizedMessage original="Expected revenue" locale="es" localized="Ingresos esperados"/>
+    <moqui.basic.LocalizedMessage original="Expected revenue ${campaign.expectedRevenueText}" locale="es" localized="Ingresos esperados ${campaign.expectedRevenueText}"/>
+    <moqui.basic.LocalizedMessage original="Expected spend" locale="es" localized="Gasto esperado"/>
+    <moqui.basic.LocalizedMessage original="Expected spend ${campaign.estimatedText}" locale="es" localized="Gasto esperado ${campaign.estimatedText}"/>
+    <moqui.basic.LocalizedMessage original="Experiment variants" locale="es" localized="Variantes del experimento"/>
+    <moqui.basic.LocalizedMessage original="Expired requests" locale="es" localized="Solicitudes vencidas"/>
+    <moqui.basic.LocalizedMessage original="Explain this segment: who it finds and by which rule, who it leaves out and why, and what a send to it would still need" locale="es" localized="Explique este segmento: a quién encuentra y con qué regla, a quién deja fuera y por qué, y qué le faltaría aún a un envío dirigido a él"/>
+    <moqui.basic.LocalizedMessage original="Explicit members" locale="es" localized="Miembros explícitos"/>
+    <moqui.basic.LocalizedMessage original="Explicit members · ${memberList.length}" locale="es" localized="Miembros explícitos · ${memberList.length}"/>
+    <moqui.basic.LocalizedMessage original="Export members" locale="es" localized="Exportar miembros"/>
+    <moqui.basic.LocalizedMessage original="Failed campaign deliveries" locale="es" localized="Entregas de campaña fallidas"/>
+    <moqui.basic.LocalizedMessage original="Failed or refused" locale="es" localized="Fallido o rechazado"/>
+    <moqui.basic.LocalizedMessage original="File and list" locale="es" localized="Archivo y lista"/>
+    <moqui.basic.LocalizedMessage original="File requests" locale="es" localized="Registrar solicitudes"/>
+    <moqui.basic.LocalizedMessage original="Filter history" locale="es" localized="Historial del filtro"/>
+    <moqui.basic.LocalizedMessage original="Find an attendee" locale="es" localized="Buscar un asistente"/>
+    <moqui.basic.LocalizedMessage original="Find people on lists" locale="es" localized="Buscar personas en listas"/>
+    <moqui.basic.LocalizedMessage original="Finds: ${sourcesText} · leaves out: ${exclusionsText}" locale="es" localized="Encuentra: ${sourcesText} · deja fuera: ${exclusionsText}"/>
+    <moqui.basic.LocalizedMessage original="For a condition" locale="es" localized="Para una condición"/>
+    <moqui.basic.LocalizedMessage original="For a list or tracking code type" locale="es" localized="Para un tipo de lista o de código de seguimiento"/>
+    <moqui.basic.LocalizedMessage original="For a registration or attendance trigger" locale="es" localized="Para un disparador de registro o de asistencia"/>
+    <moqui.basic.LocalizedMessage original="For a segment trigger" locale="es" localized="Para un disparador de segmento"/>
+    <moqui.basic.LocalizedMessage original="For a send" locale="es" localized="Para un envío"/>
+    <moqui.basic.LocalizedMessage original="For a UTM value, as it appears in a link" locale="es" localized="Para un valor UTM, tal como aparece en un enlace"/>
+    <moqui.basic.LocalizedMessage original="For a wait" locale="es" localized="Para una espera"/>
+    <moqui.basic.LocalizedMessage original="For an order or cart trigger" locale="es" localized="Para un disparador de orden o de carrito"/>
+    <moqui.basic.LocalizedMessage original="For before the start or after the end" locale="es" localized="Para antes del inicio o después del fin"/>
+    <moqui.basic.LocalizedMessage original="Found on" locale="es" localized="Encontrado en"/>
+    <moqui.basic.LocalizedMessage original="From ${link.fromDateText}${link.thruDateText ? ' until ' + link.thruDateText : ''}" locale="es" localized="Desde ${link.fromDateText}${link.thruDateText ? ' until ' + link.thruDateText : ''}"/>
+    <moqui.basic.LocalizedMessage original="From ${resultsFound.fromText} to ${resultsFound.thruText}, its child campaigns counted once; amounts by currency." locale="es" localized="De ${resultsFound.fromText} a ${resultsFound.thruText}, sus campañas hijas contadas una vez; importes por moneda."/>
+    <moqui.basic.LocalizedMessage original="From merges" locale="es" localized="Desde fusiones"/>
+    <moqui.basic.LocalizedMessage original="From now on it admits by its trigger and runs each due step, checking each person's consent, suppression and the goal again before every step. Overdue steps run a page at a time, within the caps." locale="es" localized="Desde ahora admite por su disparador y ejecuta cada paso vencido, comprobando de nuevo el consentimiento, la supresión y el objetivo de cada persona antes de cada paso. Los pasos atrasados se ejecutan de a una página, dentro de los topes."/>
+    <moqui.basic.LocalizedMessage original="From the sample's sending until a winner may be chosen" locale="es" localized="Desde el envío de la muestra hasta que se pueda elegir un ganador"/>
+    <moqui.basic.LocalizedMessage original="Geography (any of them)" locale="es" localized="Geografía (cualquiera de ellas)"/>
+    <moqui.basic.LocalizedMessage original="Goal: ${enrollment.goalSegmentName}" locale="es" localized="Objetivo: ${enrollment.goalSegmentName}"/>
+    <moqui.basic.LocalizedMessage original="Hand an answer off only when this question has the answer below" locale="es" localized="Traspasar una respuesta solo cuando esta pregunta tenga la respuesta de abajo"/>
+    <moqui.basic.LocalizedMessage original="Handed off ${processed.handedOff}, failed again ${processed.failed}, left as they were ${processed.unchanged}" locale="es" localized="Traspasados ${processed.handedOff}, fallidos de nuevo ${processed.failed}, dejados como estaban ${processed.unchanged}"/>
+    <moqui.basic.LocalizedMessage original="Handoff" locale="es" localized="Traspaso"/>
+    <moqui.basic.LocalizedMessage original="Handoffs" locale="es" localized="Traspasos"/>
+    <moqui.basic.LocalizedMessage original="Hard bounces" locale="es" localized="Rebotes definitivos"/>
+    <moqui.basic.LocalizedMessage original="Held until" locale="es" localized="Retenido hasta"/>
+    <moqui.basic.LocalizedMessage original="Hold (minutes)" locale="es" localized="Retención (minutos)"/>
+    <moqui.basic.LocalizedMessage original="Hold ended" locale="es" localized="Retención terminada"/>
+    <moqui.basic.LocalizedMessage original="Home could not be read just now." locale="es" localized="No se pudo leer el inicio en este momento."/>
+    <moqui.basic.LocalizedMessage original="Home summarizes the campaigns, sends, audiences and events of your organizations. Nothing of it is open to you." locale="es" localized="El inicio resume las campañas, los envíos, las audiencias y los eventos de sus organizaciones. Nada de ello está abierto para usted."/>
+    <moqui.basic.LocalizedMessage original="Hours before the start when online cancellation closes (a day is 24); empty: until the start" locale="es" localized="Horas antes del inicio en que cierra la cancelación en línea (un día son 24); vacío: hasta el inicio"/>
+    <moqui.basic.LocalizedMessage original="How each lead form's answers become leads in a sales team's queue." locale="es" localized="Cómo las respuestas de cada formulario de prospectos se convierten en prospectos en la cola de un equipo de ventas."/>
+    <moqui.basic.LocalizedMessage original="How long a place is held before it is completed" locale="es" localized="Cuánto se retiene una plaza antes de completarla"/>
+    <moqui.basic.LocalizedMessage original="How often" locale="es" localized="Con qué frecuencia"/>
+    <moqui.basic.LocalizedMessage original="Import ${audienceImportId} is not available: it does not exist or it is not one of your organizations'." locale="es" localized="La importación ${audienceImportId} no está disponible: no existe o no es de una de sus organizaciones."/>
+    <moqui.basic.LocalizedMessage original="Import members" locale="es" localized="Importar miembros"/>
+    <moqui.basic.LocalizedMessage original="In no category. A newsletter takes the approved posts of a category." locale="es" localized="En ninguna categoría. Un boletín toma las entradas aprobadas de una categoría."/>
+    <moqui.basic.LocalizedMessage original="Include child campaigns" locale="es" localized="Incluir campañas hijas"/>
+    <moqui.basic.LocalizedMessage original="Included" locale="es" localized="Incluido"/>
+    <moqui.basic.LocalizedMessage original="Intended" locale="es" localized="Previsto"/>
+    <moqui.basic.LocalizedMessage original="Into list" locale="es" localized="A la lista"/>
+    <moqui.basic.LocalizedMessage original="Introduction" locale="es" localized="Introducción"/>
+    <moqui.basic.LocalizedMessage original="Invite a list to answer" locale="es" localized="Invitar a una lista a responder"/>
+    <moqui.basic.LocalizedMessage original="Invoiced net" locale="es" localized="Neto facturado"/>
+    <moqui.basic.LocalizedMessage original="is (yes or no)" locale="es" localized="es (sí o no)"/>
+    <moqui.basic.LocalizedMessage original="is after" locale="es" localized="es posterior a"/>
+    <moqui.basic.LocalizedMessage original="is at least" locale="es" localized="es al menos"/>
+    <moqui.basic.LocalizedMessage original="is at most" locale="es" localized="es como máximo"/>
+    <moqui.basic.LocalizedMessage original="is before" locale="es" localized="es anterior a"/>
+    <moqui.basic.LocalizedMessage original="is none of" locale="es" localized="no es ninguno de"/>
+    <moqui.basic.LocalizedMessage original="is one of" locale="es" localized="es uno de"/>
+    <moqui.basic.LocalizedMessage original="is within the last days" locale="es" localized="está dentro de los últimos días"/>
+    <moqui.basic.LocalizedMessage original="Issue a new code" locale="es" localized="Emitir un código nuevo"/>
+    <moqui.basic.LocalizedMessage original="Issue a new entry code" locale="es" localized="Emitir un código de entrada nuevo"/>
+    <moqui.basic.LocalizedMessage original="It failed" locale="es" localized="Falló"/>
+    <moqui.basic.LocalizedMessage original="It failed after its retryable tries; it is tried again only if the recipient is still eligible." locale="es" localized="Falló tras sus intentos reintentables; solo se intenta de nuevo si el destinatario sigue siendo elegible."/>
+    <moqui.basic.LocalizedMessage original="It never went: try again" locale="es" localized="Nunca salió: intentar de nuevo"/>
+    <moqui.basic.LocalizedMessage original="It runs as the system for its organization: its segments read party, contact and engagement facts only, and no one's personal contact is enrolled." locale="es" localized="Se ejecuta como el sistema de su organización: sus segmentos solo leen datos de participante, contacto e interacción, y no se inscribe el contacto personal de nadie."/>
+    <moqui.basic.LocalizedMessage original="It went out" locale="es" localized="Salió"/>
+    <moqui.basic.LocalizedMessage original="Its ${automation.activeCount} active enrollments stop and their pending steps never run." locale="es" localized="Sus ${automation.activeCount} inscripciones activas se detienen y sus pasos pendientes no se ejecutan nunca."/>
+    <moqui.basic.LocalizedMessage original="Its ${enrollment.pendingStepCount} pending steps never run, and it is not made active again." locale="es" localized="Sus ${enrollment.pendingStepCount} pasos pendientes no se ejecutan nunca, y no se vuelve a activar."/>
+    <moqui.basic.LocalizedMessage original="Its accepted, consenting members are invited, as every send's" locale="es" localized="Se invita a sus miembros aceptados y con consentimiento, como en todo envío"/>
+    <moqui.basic.LocalizedMessage original="Its answers go to ${leadRule.teamName}'s queue in Sales: ${leadRule.mappingText}" locale="es" localized="Sus respuestas van a la cola de ${leadRule.teamName} en Ventas: ${leadRule.mappingText}"/>
+    <moqui.basic.LocalizedMessage original="Its handoff: ${preview?.captureText}" locale="es" localized="Su traspaso: ${preview?.captureText}"/>
+    <moqui.basic.LocalizedMessage original="Its own parts" locale="es" localized="Sus propias partes"/>
+    <moqui.basic.LocalizedMessage original="Its place is released once and its entry code stops working; a paid place's refund is handed to Accounting and shows pending until the provider's answer." locale="es" localized="Su plaza se libera una sola vez y su código de entrada deja de funcionar; el reembolso de una plaza de pago se entrega a Contabilidad y aparece pendiente hasta la respuesta del proveedor."/>
+    <moqui.basic.LocalizedMessage original="Keep recipients (days)" locale="es" localized="Conservar destinatarios (días)"/>
+    <moqui.basic.LocalizedMessage original="Keep statistics (days)" locale="es" localized="Conservar estadísticas (días)"/>
+    <moqui.basic.LocalizedMessage original="Landing pages" locale="es" localized="Páginas de destino"/>
+    <moqui.basic.LocalizedMessage original="Last admission ${automation.lastAdmissionText}" locale="es" localized="Última admisión ${automation.lastAdmissionText}"/>
+    <moqui.basic.LocalizedMessage original="Later answers of the lead form are not handed to Sales; the handoffs made stay." locale="es" localized="Las respuestas posteriores del formulario de prospectos no se traspasan a Ventas; los traspasos hechos permanecen."/>
+    <moqui.basic.LocalizedMessage original="Lead form" locale="es" localized="Formulario de prospectos"/>
+    <moqui.basic.LocalizedMessage original="Lead form or event" locale="es" localized="Formulario de prospectos o evento"/>
+    <moqui.basic.LocalizedMessage original="Lead form: ${publication.formName} · ${publication.state}" locale="es" localized="Formulario de prospectos: ${publication.formName} · ${publication.state}"/>
+    <moqui.basic.LocalizedMessage original="Lead handoff" locale="es" localized="Traspaso del prospecto"/>
+    <moqui.basic.LocalizedMessage original="Lead rule" locale="es" localized="Regla de prospectos"/>
+    <moqui.basic.LocalizedMessage original="Lead rules" locale="es" localized="Reglas de prospectos"/>
+    <moqui.basic.LocalizedMessage original="Lead rules are the content authors'." locale="es" localized="Las reglas de prospectos son de los autores de contenido."/>
+    <moqui.basic.LocalizedMessage original="Leads from its forms: ${leadHandoffs?.summaryText}" locale="es" localized="Prospectos de sus formularios: ${leadHandoffs?.summaryText}"/>
+    <moqui.basic.LocalizedMessage original="Leave out lists" locale="es" localized="Dejar fuera listas"/>
+    <moqui.basic.LocalizedMessage original="Leave out segments" locale="es" localized="Dejar fuera segmentos"/>
+    <moqui.basic.LocalizedMessage original="Ledger entry" locale="es" localized="Asiento contable"/>
+    <moqui.basic.LocalizedMessage original="Letters, digits and . , ' - _ : ( ) ! ? only" locale="es" localized="Solo letras, dígitos y . , ' - _ : ( ) ! ?"/>
+    <moqui.basic.LocalizedMessage original="Link ${campaign.campaignName}" locale="es" localized="Vincular ${campaign.campaignName}"/>
+    <moqui.basic.LocalizedMessage original="Link ${post.title} to a campaign" locale="es" localized="Vincular ${post.title} a una campaña"/>
+    <moqui.basic.LocalizedMessage original="Link a promotion to ${campaign.campaignName}" locale="es" localized="Vincular una promoción a ${campaign.campaignName}"/>
+    <moqui.basic.LocalizedMessage original="Link an event to ${campaign.campaignName}" locale="es" localized="Vincular un evento a ${campaign.campaignName}"/>
+    <moqui.basic.LocalizedMessage original="Link content to ${campaign.campaignName}" locale="es" localized="Vincular contenido a ${campaign.campaignName}"/>
+    <moqui.basic.LocalizedMessage original="Link content to a campaign" locale="es" localized="Vincular contenido a una campaña"/>
+    <moqui.basic.LocalizedMessage original="Link scanners and prefetches, set apart: never engagement" locale="es" localized="Rastreadores de enlaces y precargas, aparte: nunca participación"/>
+    <moqui.basic.LocalizedMessage original="Links end" locale="es" localized="Los enlaces terminan"/>
+    <moqui.basic.LocalizedMessage original="List ${contactListId} is not available: it does not exist, it is a mailbox, or it is not one of your organizations'." locale="es" localized="La lista ${contactListId} no está disponible: no existe, es un buzón, o no es de una de sus organizaciones."/>
+    <moqui.basic.LocalizedMessage original="List memberships by state" locale="es" localized="Membresías de lista por estado"/>
+    <moqui.basic.LocalizedMessage original="List type" locale="es" localized="Tipo de lista"/>
+    <moqui.basic.LocalizedMessage original="Lists to merge" locale="es" localized="Listas a fusionar"/>
+    <moqui.basic.LocalizedMessage original="Made the invitation send: compose, prepare and ask for its approval as every send" locale="es" localized="Se creó el envío de invitación: redáctelo, prepárelo y pida su aprobación como todo envío"/>
+    <moqui.basic.LocalizedMessage original="Make publication" locale="es" localized="Crear publicación"/>
+    <moqui.basic.LocalizedMessage original="Make the post" locale="es" localized="Crear la entrada"/>
+    <moqui.basic.LocalizedMessage original="Make the send" locale="es" localized="Crear el envío"/>
+    <moqui.basic.LocalizedMessage original="Marketing at a glance" locale="es" localized="Marketing de un vistazo"/>
+    <moqui.basic.LocalizedMessage original="Marketing audience counts" locale="es" localized="Conteos de audiencia de Marketing"/>
+    <moqui.basic.LocalizedMessage original="Marketing campaign performance" locale="es" localized="Rendimiento de campañas de Marketing"/>
+    <moqui.basic.LocalizedMessage original="Marketing campaigns" locale="es" localized="Campañas de Marketing"/>
+    <moqui.basic.LocalizedMessage original="Marketing context is not available" locale="es" localized="El contexto de Marketing no está disponible"/>
+    <moqui.basic.LocalizedMessage original="Marketing deliveries" locale="es" localized="Entregas de Marketing"/>
+    <moqui.basic.LocalizedMessage original="Marketing deliveries index" locale="es" localized="Índice de entregas de Marketing"/>
+    <moqui.basic.LocalizedMessage original="Marketing is not available" locale="es" localized="Marketing no está disponible"/>
+    <moqui.basic.LocalizedMessage original="Marketing list memberships" locale="es" localized="Membresías de lista de Marketing"/>
+    <moqui.basic.LocalizedMessage original="Marketing memberships index" locale="es" localized="Índice de membresías de Marketing"/>
+    <moqui.basic.LocalizedMessage original="Marketing reports" locale="es" localized="Informes de Marketing"/>
+    <moqui.basic.LocalizedMessage original="Marketing settings" locale="es" localized="Configuración de Marketing"/>
+    <moqui.basic.LocalizedMessage original="Marketing setup" locale="es" localized="Preparación de Marketing"/>
+    <moqui.basic.LocalizedMessage original="Match ${filter?.match == 'any' ? 'all' : 'any'} instead" locale="es" localized="Coincidir con ${filter?.match == 'any' ? 'all' : 'any'} en su lugar"/>
+    <moqui.basic.LocalizedMessage original="Matches segment" locale="es" localized="Coincide con el segmento"/>
+    <moqui.basic.LocalizedMessage original="Members now" locale="es" localized="Miembros ahora"/>
+    <moqui.basic.LocalizedMessage original="Merge into ${preview.targetName}" locale="es" localized="Fusionar en ${preview.targetName}"/>
+    <moqui.basic.LocalizedMessage original="Merge lists" locale="es" localized="Fusionar listas"/>
+    <moqui.basic.LocalizedMessage original="Merge lists into this one" locale="es" localized="Fusionar listas en esta"/>
+    <moqui.basic.LocalizedMessage original="Merging lists needs MARKETING_AUDIENCE_EDIT." locale="es" localized="Fusionar listas requiere MARKETING_AUDIENCE_EDIT."/>
+    <moqui.basic.LocalizedMessage original="Messages at most" locale="es" localized="Mensajes como máximo"/>
+    <moqui.basic.LocalizedMessage original="Meta description" locale="es" localized="Meta descripción"/>
+    <moqui.basic.LocalizedMessage original="Meta keywords" locale="es" localized="Meta palabras clave"/>
+    <moqui.basic.LocalizedMessage original="Minutes before or after" locale="es" localized="Minutos antes o después"/>
+    <moqui.basic.LocalizedMessage original="Move ${campaign.campaignName} to another organization" locale="es" localized="Mover ${campaign.campaignName} a otra organización"/>
+    <moqui.basic.LocalizedMessage original="Move or remove step ${position}" locale="es" localized="Mover o quitar el paso ${position}"/>
+    <moqui.basic.LocalizedMessage original="Name from" locale="es" localized="Nombre de"/>
+    <moqui.basic.LocalizedMessage original="Name, subject or id" locale="es" localized="Nombre, asunto o id"/>
+    <moqui.basic.LocalizedMessage original="Needed for invitation sends" locale="es" localized="Necesario para los envíos de invitación"/>
+    <moqui.basic.LocalizedMessage original="Needs audience editing access, which an administrator can grant." locale="es" localized="Hace falta el acceso de edición de audiencias, que un administrador puede conceder."/>
+    <moqui.basic.LocalizedMessage original="Needs audience import access, which an administrator can grant." locale="es" localized="Hace falta el acceso de importación de audiencias, que un administrador puede conceder."/>
+    <moqui.basic.LocalizedMessage original="Needs automation editing access, which an administrator can grant." locale="es" localized="Hace falta el acceso de edición de automatizaciones, que un administrador puede conceder."/>
+    <moqui.basic.LocalizedMessage original="Needs campaign editing access, which an administrator can grant." locale="es" localized="Hace falta el acceso de edición de campañas, que un administrador puede conceder."/>
+    <moqui.basic.LocalizedMessage original="Needs content editing access, which an administrator can grant." locale="es" localized="Hace falta el acceso de edición de contenido, que un administrador puede conceder."/>
+    <moqui.basic.LocalizedMessage original="Needs event editing access, which an administrator can grant." locale="es" localized="Hace falta el acceso de edición de eventos, que un administrador puede conceder."/>
+    <moqui.basic.LocalizedMessage original="Needs event registration access, which an administrator can grant." locale="es" localized="Hace falta el acceso de registro de eventos, que un administrador puede conceder."/>
+    <moqui.basic.LocalizedMessage original="Needs send editing access, which an administrator can grant." locale="es" localized="Hace falta el acceso de edición de envíos, que un administrador puede conceder."/>
+    <moqui.basic.LocalizedMessage original="New automation" locale="es" localized="Nueva automatización"/>
+    <moqui.basic.LocalizedMessage original="New automation of ${campaign.campaignName}" locale="es" localized="Nueva automatización de ${campaign.campaignName}"/>
+    <moqui.basic.LocalizedMessage original="New blog post" locale="es" localized="Nueva entrada de blog"/>
+    <moqui.basic.LocalizedMessage original="New blog post from a page" locale="es" localized="Nueva entrada de blog a partir de una página"/>
+    <moqui.basic.LocalizedMessage original="New campaign" locale="es" localized="Nueva campaña"/>
+    <moqui.basic.LocalizedMessage original="New event for ${campaign.campaignName}" locale="es" localized="Nuevo evento para ${campaign.campaignName}"/>
+    <moqui.basic.LocalizedMessage original="New lead rule" locale="es" localized="Nueva regla de prospectos"/>
+    <moqui.basic.LocalizedMessage original="New notice" locale="es" localized="Nuevo aviso"/>
+    <moqui.basic.LocalizedMessage original="New registration" locale="es" localized="Nuevo registro"/>
+    <moqui.basic.LocalizedMessage original="New registration offer for ${event.eventName}" locale="es" localized="Nueva oferta de registro para ${event.eventName}"/>
+    <moqui.basic.LocalizedMessage original="New segment" locale="es" localized="Nuevo segmento"/>
+    <moqui.basic.LocalizedMessage original="New send" locale="es" localized="Nuevo envío"/>
+    <moqui.basic.LocalizedMessage original="New send of ${campaign.campaignName}" locale="es" localized="Nuevo envío de ${campaign.campaignName}"/>
+    <moqui.basic.LocalizedMessage original="New ticket type" locale="es" localized="Nuevo tipo de entrada"/>
+    <moqui.basic.LocalizedMessage original="New tracking link" locale="es" localized="Nuevo enlace de seguimiento"/>
+    <moqui.basic.LocalizedMessage original="New tracking link for ${campaign.campaignName}" locale="es" localized="Nuevo enlace de seguimiento para ${campaign.campaignName}"/>
+    <moqui.basic.LocalizedMessage original="Next try" locale="es" localized="Siguiente intento"/>
+    <moqui.basic.LocalizedMessage original="Next: step ${enrollment.nextSequenceNum}, due ${enrollment.nextDueText}${enrollment.dueNote ? ' · waiting for: ' + enrollment.dueNote : ''}" locale="es" localized="Siguiente: paso ${enrollment.nextSequenceNum}, vence ${enrollment.nextDueText}${enrollment.dueNote ? ' · waiting for: ' + enrollment.dueNote : ''}"/>
+    <moqui.basic.LocalizedMessage original="No A/B test" locale="es" localized="Sin prueba A/B"/>
+    <moqui.basic.LocalizedMessage original="No answer has been handed off yet." locale="es" localized="Aún no se ha traspasado ninguna respuesta."/>
+    <moqui.basic.LocalizedMessage original="No approval asked by then." locale="es" localized="Ninguna aprobación pedida para entonces."/>
+    <moqui.basic.LocalizedMessage original="No approval asked yet." locale="es" localized="Aún no se ha pedido ninguna aprobación."/>
+    <moqui.basic.LocalizedMessage original="No attachment." locale="es" localized="Sin adjunto."/>
+    <moqui.basic.LocalizedMessage original="No attempt yet." locale="es" localized="Aún sin intento."/>
+    <moqui.basic.LocalizedMessage original="No attendee of this occurrence matches." locale="es" localized="Ningún asistente de esta sesión coincide."/>
+    <moqui.basic.LocalizedMessage original="No automations yet." locale="es" localized="Aún sin automatizaciones."/>
+    <moqui.basic.LocalizedMessage original="No campaign of this organization runs in the period." locale="es" localized="Ninguna campaña de esta organización se ejecuta en el periodo."/>
+    <moqui.basic.LocalizedMessage original="No campaign uses this post." locale="es" localized="Ninguna campaña usa esta entrada."/>
+    <moqui.basic.LocalizedMessage original="No consent recorded for this list yet." locale="es" localized="Aún no hay consentimiento registrado para esta lista."/>
+    <moqui.basic.LocalizedMessage original="No content planned yet." locale="es" localized="Aún no hay contenido planificado."/>
+    <moqui.basic.LocalizedMessage original="No costs recorded by then." locale="es" localized="Ningún costo registrado para entonces."/>
+    <moqui.basic.LocalizedMessage original="No costs recorded yet." locale="es" localized="Aún no hay costos registrados."/>
+    <moqui.basic.LocalizedMessage original="No event yet." locale="es" localized="Aún sin evento."/>
+    <moqui.basic.LocalizedMessage original="No explicit members${segment.segmentKindEnumId == 'MskExplicit' ? ': this segment matches no one until you add some.' : '.'}" locale="es" localized="Sin miembros explícitos${segment.segmentKindEnumId == 'MskExplicit' ? ': this segment matches no one until you add some.' : '.'}"/>
+    <moqui.basic.LocalizedMessage original="No filter: the rules and the included members decide." locale="es" localized="Sin filtro: deciden las reglas y los miembros incluidos."/>
+    <moqui.basic.LocalizedMessage original="No imports yet." locale="es" localized="Aún sin importaciones."/>
+    <moqui.basic.LocalizedMessage original="No lead rule yet: its answers are not handed to Sales." locale="es" localized="Aún sin regla de prospectos: sus respuestas no se traspasan a Ventas."/>
+    <moqui.basic.LocalizedMessage original="No lists or segments linked yet." locale="es" localized="Aún no hay listas ni segmentos vinculados."/>
+    <moqui.basic.LocalizedMessage original="No members here${can.canRequest ? ' · Add them with their evidence: Add members.' : '.'}" locale="es" localized="No hay miembros aquí${can.canRequest ? ' · Add them with their evidence: Add members.' : '.'}"/>
+    <moqui.basic.LocalizedMessage original="No more recipients are handed off until it is resumed; messages already with the delivery service may still go out." locale="es" localized="No se entregan más destinatarios hasta que se reanude; los mensajes que ya están en el servicio de entrega aún pueden salir."/>
+    <moqui.basic.LocalizedMessage original="No notice yet: a confirmation notice tells each registrant their place." locale="es" localized="Aún sin aviso: un aviso de confirmación indica a cada persona registrada su plaza."/>
+    <moqui.basic.LocalizedMessage original="No offer" locale="es" localized="Sin oferta"/>
+    <moqui.basic.LocalizedMessage original="No one enrolled yet." locale="es" localized="Aún no hay nadie inscrito."/>
+    <moqui.basic.LocalizedMessage original="No one here." locale="es" localized="Nadie aquí."/>
+    <moqui.basic.LocalizedMessage original="No one here. A segment finds people; it never subscribes them." locale="es" localized="Nadie aquí. Un segmento encuentra personas; nunca las suscribe."/>
+    <moqui.basic.LocalizedMessage original="No order was placed in this period." locale="es" localized="No se cursó ninguna orden en este periodo."/>
+    <moqui.basic.LocalizedMessage original="No promotion linked yet." locale="es" localized="Aún sin promoción vinculada."/>
+    <moqui.basic.LocalizedMessage original="No registration offer yet.${canAddOffer ? ' Add one with New offer: its seats, then its tickets, questions and notices.' : ''}" locale="es" localized="Aún sin oferta de registro.${canAddOffer ? ' Add one with New offer: its seats, then its tickets, questions and notices.' : ''}"/>
+    <moqui.basic.LocalizedMessage original="No rows to show." locale="es" localized="No hay filas que mostrar."/>
+    <moqui.basic.LocalizedMessage original="No rules: the segment matches its filter and its included members." locale="es" localized="Sin reglas: el segmento coincide con su filtro y sus miembros incluidos."/>
+    <moqui.basic.LocalizedMessage original="No send carries it yet." locale="es" localized="Aún ningún envío lo lleva."/>
+    <moqui.basic.LocalizedMessage original="No send was released in this period." locale="es" localized="Ningún envío se lanzó en este periodo."/>
+    <moqui.basic.LocalizedMessage original="No sends yet." locale="es" localized="Aún sin envíos."/>
+    <moqui.basic.LocalizedMessage original="No step has run yet." locale="es" localized="Aún no se ha ejecutado ningún paso."/>
+    <moqui.basic.LocalizedMessage original="No step runs and no one is admitted until it is resumed; messages already with the delivery service may still go out." locale="es" localized="No se ejecuta ningún paso y no se admite a nadie hasta que se reanude; los mensajes que ya están en el servicio de entrega aún pueden salir."/>
+    <moqui.basic.LocalizedMessage original="No steps yet: add a send, a wait or a condition (at most ${automation.maxSteps})." locale="es" localized="Aún sin pasos: añada un envío, una espera o una condición (como máximo ${automation.maxSteps})."/>
+    <moqui.basic.LocalizedMessage original="No subscription request: this membership came before Marketing's requests." locale="es" localized="Sin solicitud de suscripción: esta membresía es anterior a las solicitudes de Marketing."/>
+    <moqui.basic.LocalizedMessage original="No templates bound: the list's notices use the defaults." locale="es" localized="Sin plantillas vinculadas: los avisos de la lista usan los predeterminados."/>
+    <moqui.basic.LocalizedMessage original="No ticket type yet: add a free one, or one priced by a ticket product." locale="es" localized="Aún sin tipo de entrada: añada uno gratuito, o uno con precio de un producto de entrada."/>
+    <moqui.basic.LocalizedMessage original="No tracking link yet." locale="es" localized="Aún sin enlace de seguimiento."/>
+    <moqui.basic.LocalizedMessage original="No valid address" locale="es" localized="Sin dirección válida"/>
+    <moqui.basic.LocalizedMessage original="None: the send goes to its whole audience with one content." locale="es" localized="Ninguno: el envío va a toda su audiencia con un solo contenido."/>
+    <moqui.basic.LocalizedMessage original="Not checked in. Try again." locale="es" localized="No se registró la asistencia. Inténtelo de nuevo."/>
+    <moqui.basic.LocalizedMessage original="Not evaluated: ${reason}" locale="es" localized="No evaluado: ${reason}"/>
+    <moqui.basic.LocalizedMessage original="Not evaluated: its filter reads a source you cannot read in this organization, so no count is shown." locale="es" localized="No evaluado: su filtro lee un origen que usted no puede leer en esta organización, así que no se muestra ningún conteo."/>
+    <moqui.basic.LocalizedMessage original="Not evaluated: the organization's audience is too large to evaluate here." locale="es" localized="No evaluado: la audiencia de la organización es demasiado grande para evaluarla aquí."/>
+    <moqui.basic.LocalizedMessage original="Not handed off: no delivery was made for this recipient." locale="es" localized="No entregado: no se hizo ninguna entrega para este destinatario."/>
+    <moqui.basic.LocalizedMessage original="Not published yet. Make a publication: a public page on a site, signed-in accounts, or invitations to a campaign's list." locale="es" localized="Aún no publicada. Cree una publicación: una página pública en un sitio, cuentas con sesión iniciada, o invitaciones a la lista de una campaña."/>
+    <moqui.basic.LocalizedMessage original="Notes from" locale="es" localized="Notas de"/>
+    <moqui.basic.LocalizedMessage original="Nothing else changes." locale="es" localized="Nada más cambia."/>
+    <moqui.basic.LocalizedMessage original="Nothing is planned in these four weeks." locale="es" localized="Nada está planificado en estas cuatro semanas."/>
+    <moqui.basic.LocalizedMessage original="Nothing offered yet. Offer a UTM source, medium or content value, or a list or tracking code type." locale="es" localized="Aún no se ofrece nada. Ofrezca un valor UTM de origen, medio o contenido, o un tipo de lista o de código de seguimiento."/>
+    <moqui.basic.LocalizedMessage original="Nothing planned yet." locale="es" localized="Aún nada planificado."/>
+    <moqui.basic.LocalizedMessage original="Notice on the page" locale="es" localized="Aviso en la página"/>
+    <moqui.basic.LocalizedMessage original="Notice: ${rule?.noticeText}" locale="es" localized="Aviso: ${rule?.noticeText}"/>
+    <moqui.basic.LocalizedMessage original="Notices" locale="es" localized="Avisos"/>
+    <moqui.basic.LocalizedMessage original="Notices sent from" locale="es" localized="Avisos enviados desde"/>
+    <moqui.basic.LocalizedMessage original="Observation, hours" locale="es" localized="Observación, horas"/>
+    <moqui.basic.LocalizedMessage original="Observations, last ${observations.periodDays} days" locale="es" localized="Observaciones, últimos ${observations.periodDays} días"/>
+    <moqui.basic.LocalizedMessage original="Occurrence" locale="es" localized="Sesión"/>
+    <moqui.basic.LocalizedMessage original="Of a confirmed place's price and tax when cancelled before then; empty: 100" locale="es" localized="Del precio y el impuesto de una plaza confirmada cuando se cancela antes de entonces; vacío: 100"/>
+    <moqui.basic.LocalizedMessage original="Of a paid place's price and tax; the terms' percentage unless you change it" locale="es" localized="Del precio y el impuesto de una plaza de pago; el porcentaje de las condiciones, salvo que lo cambie"/>
+    <moqui.basic.LocalizedMessage original="Of the accepted with tracking" locale="es" localized="De los aceptados con seguimiento"/>
+    <moqui.basic.LocalizedMessage original="Of the accepted, with a delivery report" locale="es" localized="De los aceptados, con un informe de entrega"/>
+    <moqui.basic.LocalizedMessage original="Of the assigned, taken by the mail service" locale="es" localized="De los asignados, tomados por el servicio de correo"/>
+    <moqui.basic.LocalizedMessage original="Offer a value" locale="es" localized="Ofrecer un valor"/>
+    <moqui.basic.LocalizedMessage original="Offer a waitlist when full" locale="es" localized="Ofrecer una lista de espera cuando esté lleno"/>
+    <moqui.basic.LocalizedMessage original="Offer closes" locale="es" localized="La oferta cierra"/>
+    <moqui.basic.LocalizedMessage original="Offer it on a published page" locale="es" localized="Ofrecerla en una página publicada"/>
+    <moqui.basic.LocalizedMessage original="Offer opens" locale="es" localized="La oferta abre"/>
+    <moqui.basic.LocalizedMessage original="Offer: ${policy?.evidenceText}" locale="es" localized="Oferta: ${policy?.evidenceText}"/>
+    <moqui.basic.LocalizedMessage original="Offered for subscription on the site's PASS Subscribe page, only while the offer is open; the list's public flag alone offers nothing" locale="es" localized="Se ofrece para suscripción en la página PASS Subscribe del sitio, solo mientras la oferta está abierta; la marca pública de la lista por sí sola no ofrece nada"/>
+    <moqui.basic.LocalizedMessage original="On sale" locale="es" localized="En venta"/>
+    <moqui.basic.LocalizedMessage original="On sale from" locale="es" localized="En venta desde"/>
+    <moqui.basic.LocalizedMessage original="On sale until" locale="es" localized="En venta hasta"/>
+    <moqui.basic.LocalizedMessage original="On the merged lists" locale="es" localized="En las listas fusionadas"/>
+    <moqui.basic.LocalizedMessage original="On the target" locale="es" localized="En el destino"/>
+    <moqui.basic.LocalizedMessage original="Once" locale="es" localized="Una vez"/>
+    <moqui.basic.LocalizedMessage original="Once per new event, after a cooldown" locale="es" localized="Una vez por evento nuevo, tras una espera"/>
+    <moqui.basic.LocalizedMessage original="Once per person" locale="es" localized="Una vez por persona"/>
+    <moqui.basic.LocalizedMessage original="One-person team" locale="es" localized="Equipo de una persona"/>
+    <moqui.basic.LocalizedMessage original="Only ${releasePreview.checkedCount} of the ${releasePreview.heldCount} were checked here; the release checks every one." locale="es" localized="Aquí solo se revisaron ${releasePreview.checkedCount} de ${releasePreview.heldCount}; el lanzamiento revisa todos."/>
+    <moqui.basic.LocalizedMessage original="Only the sources you may read are offered. A person whose value is unknown never matches, whatever the condition." locale="es" localized="Solo se ofrecen los orígenes que puede leer. Una persona cuyo valor se desconoce nunca coincide, sea cual sea la condición."/>
+    <moqui.basic.LocalizedMessage original="Only these answers go in the lead's notes; no other answer reaches Sales" locale="es" localized="Solo estas respuestas van en las notas del prospecto; ninguna otra respuesta llega a Ventas"/>
+    <moqui.basic.LocalizedMessage original="Only when" locale="es" localized="Solo cuando"/>
+    <moqui.basic.LocalizedMessage original="Only when ${rule?.conditionText}" locale="es" localized="Solo cuando ${rule?.conditionText}"/>
+    <moqui.basic.LocalizedMessage original="Open a campaign or a send to log a note on it" locale="es" localized="Abra una campaña o un envío para registrar una nota en él"/>
+    <moqui.basic.LocalizedMessage original="Open a campaign or a send to log a note on it." locale="es" localized="Abra una campaña o un envío para registrar una nota en él."/>
+    <moqui.basic.LocalizedMessage original="Open a report for your organization; each states what its figures rest on and exports the same rows." locale="es" localized="Abra un informe de su organización; cada uno indica en qué se apoyan sus cifras y exporta las mismas filas."/>
+    <moqui.basic.LocalizedMessage original="Open in the calendar" locale="es" localized="Abrir en el calendario"/>
+    <moqui.basic.LocalizedMessage original="Open rate" locale="es" localized="Tasa de apertura"/>
+    <moqui.basic.LocalizedMessage original="Open the answers" locale="es" localized="Abrir las respuestas"/>
+    <moqui.basic.LocalizedMessage original="Open the automation" locale="es" localized="Abrir la automatización"/>
+    <moqui.basic.LocalizedMessage original="Open the campaign" locale="es" localized="Abrir la campaña"/>
+    <moqui.basic.LocalizedMessage original="Open the landing page" locale="es" localized="Abrir la página de destino"/>
+    <moqui.basic.LocalizedMessage original="Open the lead form" locale="es" localized="Abrir el formulario de prospectos"/>
+    <moqui.basic.LocalizedMessage original="Open the test" locale="es" localized="Abrir la prueba"/>
+    <moqui.basic.LocalizedMessage original="Or route an event's attendees" locale="es" localized="O encaminar a los asistentes de un evento"/>
+    <moqui.basic.LocalizedMessage original="Order value ${campaignResults.orderValueText} · Invoiced net ${campaignResults.netText} · ROI ${campaignResults.roiText}" locale="es" localized="Valor de órdenes ${campaignResults.orderValueText} · Neto facturado ${campaignResults.netText} · ROI ${campaignResults.roiText}"/>
+    <moqui.basic.LocalizedMessage original="Orders ${report.orderCount} · Unattributed ${report.unattributedCount}" locale="es" localized="Órdenes ${report.orderCount} · Sin atribuir ${report.unattributedCount}"/>
+    <moqui.basic.LocalizedMessage original="Organization from" locale="es" localized="Organización de"/>
+    <moqui.basic.LocalizedMessage original="Other sites a tracking link may lead to, beside the organization's own sites: one host name a line (its subdomains included), at most twenty" locale="es" localized="Otros sitios a los que puede llevar un enlace de seguimiento, además de los sitios propios de la organización: un nombre de host por línea (incluidos sus subdominios), como máximo veinte"/>
+    <moqui.basic.LocalizedMessage original="Outgoing email" locale="es" localized="Correo electrónico saliente"/>
+    <moqui.basic.LocalizedMessage original="Over budget" locale="es" localized="Por encima del presupuesto"/>
+    <moqui.basic.LocalizedMessage original="Page heading" locale="es" localized="Encabezado de página"/>
+    <moqui.basic.LocalizedMessage original="Page visits" locale="es" localized="Visitas de página"/>
+    <moqui.basic.LocalizedMessage original="Paid after the hold ended" locale="es" localized="Pagado después de terminar la retención"/>
+    <moqui.basic.LocalizedMessage original="Participant" locale="es" localized="Participante"/>
+    <moqui.basic.LocalizedMessage original="Pause ${automation.automationName}" locale="es" localized="Pausar ${automation.automationName}"/>
+    <moqui.basic.LocalizedMessage original="Pause ${send.sendName}" locale="es" localized="Pausar ${send.sendName}"/>
+    <moqui.basic.LocalizedMessage original="Paused: ${automation.pauseNote}" locale="es" localized="Pausado: ${automation.pauseNote}"/>
+    <moqui.basic.LocalizedMessage original="Payment received, awaiting confirmation" locale="es" localized="Pago recibido, en espera de confirmación"/>
+    <moqui.basic.LocalizedMessage original="People match ${filter?.matchText} of these conditions." locale="es" localized="Las personas coinciden con ${filter?.matchText} de estas condiciones."/>
+    <moqui.basic.LocalizedMessage original="per days" locale="es" localized="por días"/>
+    <moqui.basic.LocalizedMessage original="Per order" locale="es" localized="Por orden"/>
+    <moqui.basic.LocalizedMessage original="PERMISSION_DENIED: Automations are for the Marketing authors, approvers, dispatchers and audience managers" locale="es" localized="PERMISSION_DENIED: Las automatizaciones son para los autores, aprobadores, despachadores y responsables de audiencia de Marketing"/>
+    <moqui.basic.LocalizedMessage original="PERMISSION_DENIED: Contacts are for Marketing audience readers" locale="es" localized="PERMISSION_DENIED: Los contactos son para los lectores de audiencia de Marketing"/>
+    <moqui.basic.LocalizedMessage original="PERMISSION_DENIED: Content is for Marketing readers" locale="es" localized="PERMISSION_DENIED: El contenido es para los lectores de Marketing"/>
+    <moqui.basic.LocalizedMessage original="PERMISSION_DENIED: Customers are for Marketing audience readers" locale="es" localized="PERMISSION_DENIED: Los clientes son para los lectores de audiencia de Marketing"/>
+    <moqui.basic.LocalizedMessage original="PERMISSION_DENIED: Events are for Marketing readers" locale="es" localized="PERMISSION_DENIED: Los eventos son para los lectores de Marketing"/>
+    <moqui.basic.LocalizedMessage original="PERMISSION_DENIED: Marketing approvals are the approvers'" locale="es" localized="PERMISSION_DENIED: Las aprobaciones de Marketing son de los aprobadores"/>
+    <moqui.basic.LocalizedMessage original="PERMISSION_DENIED: Marketing reports are for the report readers" locale="es" localized="PERMISSION_DENIED: Los informes de Marketing son para los lectores de informes"/>
+    <moqui.basic.LocalizedMessage original="PERMISSION_DENIED: Marketing settings are the Marketing administrator's" locale="es" localized="PERMISSION_DENIED: La configuración de Marketing es del administrador de Marketing"/>
+    <moqui.basic.LocalizedMessage original="PERMISSION_DENIED: Promotions need Commerce's promotion read" locale="es" localized="PERMISSION_DENIED: Las promociones necesitan la lectura de promociones de Comercio"/>
+    <moqui.basic.LocalizedMessage original="PERMISSION_DENIED: Sends are for the Marketing authors, approvers and dispatchers" locale="es" localized="PERMISSION_DENIED: Los envíos son para los autores, aprobadores y despachadores de Marketing"/>
+    <moqui.basic.LocalizedMessage original="PERMISSION_DENIED: Surveys are for the Marketing authors, audience managers and analysts" locale="es" localized="PERMISSION_DENIED: Las encuestas son para los autores, responsables de audiencia y analistas de Marketing"/>
+    <moqui.basic.LocalizedMessage original="Phone from" locale="es" localized="Teléfono de"/>
+    <moqui.basic.LocalizedMessage original="Places an order may take" locale="es" localized="Plazas que puede tomar una orden"/>
+    <moqui.basic.LocalizedMessage original="Posts of the wiki spaces you may read. A post's body is its wiki page: write and review it in Knowledge; a public blog shows its published version from its publish date." locale="es" localized="Entradas de los espacios wiki que puede leer. El cuerpo de una entrada es su página wiki: escríbala y revísela en Conocimiento; un blog público muestra su versión publicada desde su fecha de publicación."/>
+    <moqui.basic.LocalizedMessage original="Predicted action" locale="es" localized="Acción prevista"/>
+    <moqui.basic.LocalizedMessage original="Prepare ${send.sendName}" locale="es" localized="Preparar ${send.sendName}"/>
+    <moqui.basic.LocalizedMessage original="Prepare ${send.sendName} again" locale="es" localized="Preparar ${send.sendName} de nuevo"/>
+    <moqui.basic.LocalizedMessage original="Prepare again" locale="es" localized="Preparar de nuevo"/>
+    <moqui.basic.LocalizedMessage original="Preparing selects the eligible recipients now and keeps the content as it is: approval is asked of what is prepared." locale="es" localized="Preparar selecciona ahora a los destinatarios elegibles y conserva el contenido tal como está: se pide la aprobación de lo preparado."/>
+    <moqui.basic.LocalizedMessage original="Preview again" locale="es" localized="Vista previa de nuevo"/>
+    <moqui.basic.LocalizedMessage original="Preview an audience" locale="es" localized="Previsualizar una audiencia"/>
+    <moqui.basic.LocalizedMessage original="Preview audience" locale="es" localized="Previsualizar audiencia"/>
+    <moqui.basic.LocalizedMessage original="Preview the audience" locale="es" localized="Previsualizar la audiencia"/>
+    <moqui.basic.LocalizedMessage original="Priced by the product's own prices in the organization's currency" locale="es" localized="Con precio según los precios propios del producto en la moneda de la organización"/>
+    <moqui.basic.LocalizedMessage original="Primary campaign" locale="es" localized="Campaña principal"/>
+    <moqui.basic.LocalizedMessage original="Print the plan" locale="es" localized="Imprimir el plan"/>
+    <moqui.basic.LocalizedMessage original="Promotional messages the transport accepted in the period" locale="es" localized="Mensajes promocionales que el transporte aceptó en el periodo"/>
+    <moqui.basic.LocalizedMessage original="Public description" locale="es" localized="Descripción pública"/>
+    <moqui.basic.LocalizedMessage original="Public offer" locale="es" localized="Oferta pública"/>
+    <moqui.basic.LocalizedMessage original="Public title" locale="es" localized="Título público"/>
+    <moqui.basic.LocalizedMessage original="Publication of ${formView.formName}" locale="es" localized="Publicación de ${formView.formName}"/>
+    <moqui.basic.LocalizedMessage original="Publication readiness" locale="es" localized="Preparación de la publicación"/>
+    <moqui.basic.LocalizedMessage original="Publications" locale="es" localized="Publicaciones"/>
+    <moqui.basic.LocalizedMessage original="Publish ${formView.formName}" locale="es" localized="Publicar ${formView.formName}"/>
+    <moqui.basic.LocalizedMessage original="Publish a lead form from Surveys first; each lead form takes one rule." locale="es" localized="Publique primero un formulario de prospectos desde Encuestas; cada formulario de prospectos tiene una sola regla."/>
+    <moqui.basic.LocalizedMessage original="Publish date" locale="es" localized="Fecha de publicación"/>
+    <moqui.basic.LocalizedMessage original="Publish the registration for ${event.eventName}" locale="es" localized="Publicar el registro de ${event.eventName}"/>
+    <moqui.basic.LocalizedMessage original="Published: it takes answers from the opening date" locale="es" localized="Publicada: toma respuestas desde la fecha de apertura"/>
+    <moqui.basic.LocalizedMessage original="Purchase invoice item" locale="es" localized="Partida de factura de compra"/>
+    <moqui.basic.LocalizedMessage original="Put ${post.title} in a category" locale="es" localized="Poner ${post.title} en una categoría"/>
+    <moqui.basic.LocalizedMessage original="Re-entry" locale="es" localized="Reingreso"/>
+    <moqui.basic.LocalizedMessage original="Reach at the end ${report.reachCount} people across these lists · Suppressions in force ${report.suppressedCount}" locale="es" localized="Alcance al final ${report.reachCount} personas en estas listas · Supresiones en vigor ${report.suppressedCount}"/>
+    <moqui.basic.LocalizedMessage original="Rebuild the marketing deliveries index" locale="es" localized="Reconstruir el índice de entregas de marketing"/>
+    <moqui.basic.LocalizedMessage original="Rebuild the marketing memberships index" locale="es" localized="Reconstruir el índice de membresías de marketing"/>
+    <moqui.basic.LocalizedMessage original="Recent imports" locale="es" localized="Importaciones recientes"/>
+    <moqui.basic.LocalizedMessage original="Recipient ${campaignRecipientId} is not available: it does not exist, or its send is not one of your organizations'." locale="es" localized="El destinatario ${campaignRecipientId} no está disponible: no existe, o su envío no es de una de sus organizaciones."/>
+    <moqui.basic.LocalizedMessage original="Recipient: ${recipient.statusText}${recipient.reasonText ? ' · ' + recipient.reasonText : ''}" locale="es" localized="Destinatario: ${recipient.statusText}${recipient.reasonText ? ' · ' + recipient.reasonText : ''}"/>
+    <moqui.basic.LocalizedMessage original="Recipients who clicked" locale="es" localized="Destinatarios que hicieron clic"/>
+    <moqui.basic.LocalizedMessage original="Reconcile the delivery to ${recipient.addressText}" locale="es" localized="Conciliar la entrega a ${recipient.addressText}"/>
+    <moqui.basic.LocalizedMessage original="Record a cost of ${campaign.campaignName}" locale="es" localized="Registrar un costo de ${campaign.campaignName}"/>
+    <moqui.basic.LocalizedMessage original="Record cost" locale="es" localized="Registrar costo"/>
+    <moqui.basic.LocalizedMessage original="RECORD_PANEL_UNAVAILABLE: This record is not available" locale="es" localized="RECORD_PANEL_UNAVAILABLE: Este registro no está disponible"/>
+    <moqui.basic.LocalizedMessage original="Refund (%)" locale="es" localized="Reembolso (%)"/>
+    <moqui.basic.LocalizedMessage original="Registration ${registrationId} is not available: it is not a registration of your organizations, or registrations are for events managers." locale="es" localized="El registro ${registrationId} no está disponible: no es un registro de sus organizaciones, o los registros son para los responsables de eventos."/>
+    <moqui.basic.LocalizedMessage original="Registration questions" locale="es" localized="Preguntas del registro"/>
+    <moqui.basic.LocalizedMessage original="Registration questions built in Surveys, their questions published; empty for none" locale="es" localized="Preguntas de registro creadas en Encuestas, con sus preguntas publicadas; vacío para ninguna"/>
+    <moqui.basic.LocalizedMessage original="Registration setup" locale="es" localized="Configuración del registro"/>
+    <moqui.basic.LocalizedMessage original="Registrations are for the events managers of the event's organization." locale="es" localized="Los registros son para los responsables de eventos de la organización del evento."/>
+    <moqui.basic.LocalizedMessage original="Registrations waiting" locale="es" localized="Registros en espera"/>
+    <moqui.basic.LocalizedMessage original="Registrations: ${name}" locale="es" localized="Registros: ${name}"/>
+    <moqui.basic.LocalizedMessage original="Related campaigns" locale="es" localized="Campañas relacionadas"/>
+    <moqui.basic.LocalizedMessage original="Release ${exp.winnerText} to the remainder" locale="es" localized="Lanzar ${exp.winnerText} al resto"/>
+    <moqui.basic.LocalizedMessage original="Release ${send.sendName}" locale="es" localized="Lanzar ${send.sendName}"/>
+    <moqui.basic.LocalizedMessage original="Release the winner" locale="es" localized="Lanzar al ganador"/>
+    <moqui.basic.LocalizedMessage original="Released ${delivery.releasedDateText} by ${delivery.releasedByName}${delivery.selfDispatch ? ' (one-person team)' : ''} to ${delivery.releasedCount} recipients." locale="es" localized="Lanzado ${delivery.releasedDateText} por ${delivery.releasedByName}${delivery.selfDispatch ? ' (one-person team)' : ''} a ${delivery.releasedCount} destinatarios."/>
+    <moqui.basic.LocalizedMessage original="Released ${exp.winnerReleasedDateText} by ${exp.winnerReleasedByName}${exp.winnerSelfDispatch ? ' (one-person team)' : ''} to ${exp.winnerReleaseCount} recipients; ${exp.winnerDroppedCount} left out (no longer in the audience, or sent already)." locale="es" localized="Lanzado ${exp.winnerReleasedDateText} por ${exp.winnerReleasedByName}${exp.winnerSelfDispatch ? ' (one-person team)' : ''} a ${exp.winnerReleaseCount} destinatarios; ${exp.winnerDroppedCount} fuera (ya no en la audiencia, o ya enviados)."/>
+    <moqui.basic.LocalizedMessage original="Remove ${assetLabel} from the message" locale="es" localized="Quitar ${assetLabel} del mensaje"/>
+    <moqui.basic.LocalizedMessage original="Remove ${label}" locale="es" localized="Quitar ${label}"/>
+    <moqui.basic.LocalizedMessage original="Remove a condition" locale="es" localized="Quitar una condición"/>
+    <moqui.basic.LocalizedMessage original="Remove the A/B test" locale="es" localized="Quitar la prueba A/B"/>
+    <moqui.basic.LocalizedMessage original="Remove the test" locale="es" localized="Quitar la prueba"/>
+    <moqui.basic.LocalizedMessage original="Reports after the hand-off" locale="es" localized="Informes tras la entrega"/>
+    <moqui.basic.LocalizedMessage original="Request approval of ${automation.automationName}" locale="es" localized="Pedir la aprobación de ${automation.automationName}"/>
+    <moqui.basic.LocalizedMessage original="Request approval of ${campaign.campaignName}" locale="es" localized="Pedir la aprobación de ${campaign.campaignName}"/>
+    <moqui.basic.LocalizedMessage original="Request approval of ${send.sendName}" locale="es" localized="Pedir la aprobación de ${send.sendName}"/>
+    <moqui.basic.LocalizedMessage original="Requests not confirmed: not subscribers" locale="es" localized="Solicitudes no confirmadas: no son suscriptores"/>
+    <moqui.basic.LocalizedMessage original="Required for approval" locale="es" localized="Requerido para la aprobación"/>
+    <moqui.basic.LocalizedMessage original="Resume ${send.sendName}" locale="es" localized="Reanudar ${send.sendName}"/>
+    <moqui.basic.LocalizedMessage original="Retry ${counts.failed} failed rows" locale="es" localized="Reintentar ${counts.failed} filas fallidas"/>
+    <moqui.basic.LocalizedMessage original="Retry the delivery to ${recipient.addressText}" locale="es" localized="Reintentar la entrega a ${recipient.addressText}"/>
+    <moqui.basic.LocalizedMessage original="Reverse cost ${campaignCostId}" locale="es" localized="Revertir el costo ${campaignCostId}"/>
+    <moqui.basic.LocalizedMessage original="Revision ${revision}" locale="es" localized="Revisión ${revision}"/>
+    <moqui.basic.LocalizedMessage original="Route its answers" locale="es" localized="Encaminar sus respuestas"/>
+    <moqui.basic.LocalizedMessage original="Route its attendees" locale="es" localized="Encaminar a sus asistentes"/>
+    <moqui.basic.LocalizedMessage original="Running from" locale="es" localized="En ejecución desde"/>
+    <moqui.basic.LocalizedMessage original="Running through" locale="es" localized="En ejecución hasta"/>
+    <moqui.basic.LocalizedMessage original="Runs as ${automation.ownerName}, who activated it" locale="es" localized="Se ejecuta como ${automation.ownerName}, quien la activó"/>
+    <moqui.basic.LocalizedMessage original="Sales team" locale="es" localized="Equipo de ventas"/>
+    <moqui.basic.LocalizedMessage original="Sales.Orders, by their primary campaign" locale="es" localized="Sales.Orders, por su campaña principal"/>
+    <moqui.basic.LocalizedMessage original="Sales.OrderValue, by currency" locale="es" localized="Sales.OrderValue, por moneda"/>
+    <moqui.basic.LocalizedMessage original="Sample sent" locale="es" localized="Muestra enviada"/>
+    <moqui.basic.LocalizedMessage original="Save bounds" locale="es" localized="Guardar límites"/>
+    <moqui.basic.LocalizedMessage original="Save budget" locale="es" localized="Guardar presupuesto"/>
+    <moqui.basic.LocalizedMessage original="Save questions" locale="es" localized="Guardar preguntas"/>
+    <moqui.basic.LocalizedMessage original="Save the audience" locale="es" localized="Guardar la audiencia"/>
+    <moqui.basic.LocalizedMessage original="Save the correction" locale="es" localized="Guardar la corrección"/>
+    <moqui.basic.LocalizedMessage original="Save the rule" locale="es" localized="Guardar la regla"/>
+    <moqui.basic.LocalizedMessage original="Save the rule to see what an answer hands to Sales." locale="es" localized="Guarde la regla para ver qué traspasa una respuesta a Ventas."/>
+    <moqui.basic.LocalizedMessage original="Save the schedule" locale="es" localized="Guardar la programación"/>
+    <moqui.basic.LocalizedMessage original="Save the variant" locale="es" localized="Guardar la variante"/>
+    <moqui.basic.LocalizedMessage original="Scan a ticket" locale="es" localized="Escanear una entrada"/>
+    <moqui.basic.LocalizedMessage original="Scan the attendee's ticket, or type the code on it" locale="es" localized="Escanee la entrada del asistente, o escriba el código que figura en ella"/>
+    <moqui.basic.LocalizedMessage original="Schedule ${send.sendName}" locale="es" localized="Programar ${send.sendName}"/>
+    <moqui.basic.LocalizedMessage original="Scheduled before" locale="es" localized="Programado antes de"/>
+    <moqui.basic.LocalizedMessage original="Scheduled from" locale="es" localized="Programado desde"/>
+    <moqui.basic.LocalizedMessage original="Segment ${marketSegmentId} is not available: it does not exist, or it is not one of your organizations'." locale="es" localized="El segmento ${marketSegmentId} no está disponible: no existe, o no es de una de sus organizaciones."/>
+    <moqui.basic.LocalizedMessage original="Segments" locale="es" localized="Segmentos"/>
+    <moqui.basic.LocalizedMessage original="Send ${campaignSendId} is not available: it does not exist, or it is not one of your organizations'." locale="es" localized="El envío ${campaignSendId} no está disponible: no existe, o no es de una de sus organizaciones."/>
+    <moqui.basic.LocalizedMessage original="Send a test of ${labelText}" locale="es" localized="Enviar una prueba de ${labelText}"/>
+    <moqui.basic.LocalizedMessage original="Send a test of ${send.sendName}" locale="es" localized="Enviar una prueba de ${send.sendName}"/>
+    <moqui.basic.LocalizedMessage original="Send email" locale="es" localized="Enviar correo electrónico"/>
+    <moqui.basic.LocalizedMessage original="Send SMS" locale="es" localized="Enviar SMS"/>
+    <moqui.basic.LocalizedMessage original="Send SMS sends the template's text alternative as the text, with Reply STOP to opt out." locale="es" localized="Enviar SMS envía el texto alternativo de la plantilla como texto, con Reply STOP to opt out."/>
+    <moqui.basic.LocalizedMessage original="Send the test" locale="es" localized="Enviar la prueba"/>
+    <moqui.basic.LocalizedMessage original="Send the ticket or status again" locale="es" localized="Enviar de nuevo la entrada o el estado"/>
+    <moqui.basic.LocalizedMessage original="Sends awaiting approval" locale="es" localized="Envíos en espera de aprobación"/>
+    <moqui.basic.LocalizedMessage original="Sends I started" locale="es" localized="Envíos que inicié"/>
+    <moqui.basic.LocalizedMessage original="Sent (legacy)" locale="es" localized="Enviado (heredado)"/>
+    <moqui.basic.LocalizedMessage original="Sent (summary)" locale="es" localized="Enviado (resumen)"/>
+    <moqui.basic.LocalizedMessage original="Set dimension bounds" locale="es" localized="Fijar los límites de la dimensión"/>
+    <moqui.basic.LocalizedMessage original="Set up an A/B test of ${send.sendName}" locale="es" localized="Configurar una prueba A/B de ${send.sendName}"/>
+    <moqui.basic.LocalizedMessage original="Set up the test" locale="es" localized="Configurar la prueba"/>
+    <moqui.basic.LocalizedMessage original="Several times" locale="es" localized="Varias veces"/>
+    <moqui.basic.LocalizedMessage original="Show ended values" locale="es" localized="Mostrar valores terminados"/>
+    <moqui.basic.LocalizedMessage original="Show everyone" locale="es" localized="Mostrar a todos"/>
+    <moqui.basic.LocalizedMessage original="Shown on the event's page, as text" locale="es" localized="Se muestra en la página del evento, como texto"/>
+    <moqui.basic.LocalizedMessage original="Shown on the test's TEST line" locale="es" localized="Se muestra en la línea TEST de la prueba"/>
+    <moqui.basic.LocalizedMessage original="Shown to compare the variants; a person chooses the winner" locale="es" localized="Se muestra para comparar las variantes; una persona elige al ganador"/>
+    <moqui.basic.LocalizedMessage original="Simulation" locale="es" localized="Simulación"/>
+    <moqui.basic.LocalizedMessage original="Skip the next send step" locale="es" localized="Omitir el siguiente paso de envío"/>
+    <moqui.basic.LocalizedMessage original="Some conditions read a source you cannot read: the segment is not evaluated for you." locale="es" localized="Algunas condiciones leen un origen que usted no puede leer: el segmento no se evalúa para usted."/>
+    <moqui.basic.LocalizedMessage original="Source / medium" locale="es" localized="Origen / medio"/>
+    <moqui.basic.LocalizedMessage original="Source / medium / content" locale="es" localized="Origen / medio / contenido"/>
+    <moqui.basic.LocalizedMessage original="Source: ${preview?.sourceText}" locale="es" localized="Origen: ${preview?.sourceText}"/>
+    <moqui.basic.LocalizedMessage original="Staff enrollment" locale="es" localized="Inscripción por el personal"/>
+    <moqui.basic.LocalizedMessage original="Staff may accept with evidence" locale="es" localized="El personal puede aceptar con evidencia"/>
+    <moqui.basic.LocalizedMessage original="Start ${campaign.campaignName}" locale="es" localized="Iniciar ${campaign.campaignName}"/>
+    <moqui.basic.LocalizedMessage original="Start the post" locale="es" localized="Iniciar la entrada"/>
+    <moqui.basic.LocalizedMessage original="Started ${campaign.startDateText}" locale="es" localized="Iniciada ${campaign.startDateText}"/>
+    <moqui.basic.LocalizedMessage original="State name" locale="es" localized="Nombre del estado"/>
+    <moqui.basic.LocalizedMessage original="Status name" locale="es" localized="Nombre del estado"/>
+    <moqui.basic.LocalizedMessage original="Status or type" locale="es" localized="Estado o tipo"/>
+    <moqui.basic.LocalizedMessage original="Step history" locale="es" localized="Historial de pasos"/>
+    <moqui.basic.LocalizedMessage original="Steps skipped" locale="es" localized="Pasos omitidos"/>
+    <moqui.basic.LocalizedMessage original="Still allow online cancellation, with no refund" locale="es" localized="Seguir permitiendo la cancelación en línea, sin reembolso"/>
+    <moqui.basic.LocalizedMessage original="Still needed" locale="es" localized="Aún necesario"/>
+    <moqui.basic.LocalizedMessage original="Stop enrollment ${automationEnrollmentId}" locale="es" localized="Detener la inscripción ${automationEnrollmentId}"/>
+    <moqui.basic.LocalizedMessage original="Subject: ${content.subject}" locale="es" localized="Asunto: ${content.subject}"/>
+    <moqui.basic.LocalizedMessage original="Subscribe notification" locale="es" localized="Aviso de suscripción"/>
+    <moqui.basic.LocalizedMessage original="Subscription choice" locale="es" localized="Opción de suscripción"/>
+    <moqui.basic.LocalizedMessage original="Subscription policy" locale="es" localized="Política de suscripción"/>
+    <moqui.basic.LocalizedMessage original="Subscription policy of ${list.contactListName}" locale="es" localized="Política de suscripción de ${list.contactListName}"/>
+    <moqui.basic.LocalizedMessage original="Summarize this campaign's results: its plan, budget and actual cost, approvals and what is next" locale="es" localized="Resuma los resultados de esta campaña: su plan, presupuesto y costo real, las aprobaciones y qué sigue"/>
+    <moqui.basic.LocalizedMessage original="Suppressed" locale="es" localized="Suprimido"/>
+    <moqui.basic.LocalizedMessage original="Terms accepted" locale="es" localized="Condiciones aceptadas"/>
+    <moqui.basic.LocalizedMessage original="Test addresses" locale="es" localized="Direcciones de prueba"/>
+    <moqui.basic.LocalizedMessage original="Text message: ${smsEstimateText}. A reply of STOP withdraws the person's consent and suppresses the number." locale="es" localized="Mensaje de texto: ${smsEstimateText}. Una respuesta STOP retira el consentimiento de la persona y suprime el número."/>
+    <moqui.basic.LocalizedMessage original="Text: ${content.bodyText}" locale="es" localized="Texto: ${content.bodyText}"/>
+    <moqui.basic.LocalizedMessage original="Text: ${preview?.renderedText}" locale="es" localized="Texto: ${preview?.renderedText}"/>
+    <moqui.basic.LocalizedMessage original="The A/B test of ${send.sendName}" locale="es" localized="La prueba A/B de ${send.sendName}"/>
+    <moqui.basic.LocalizedMessage original="The address is suppressed (${member.suppressionText}): nothing is sent to it until a reviewer ends the suppression." locale="es" localized="La dirección está suprimida (${member.suppressionText}): no se envía nada a ella hasta que un revisor termine la supresión."/>
+    <moqui.basic.LocalizedMessage original="The answer, as its option's value" locale="es" localized="La respuesta, como el valor de su opción"/>
+    <moqui.basic.LocalizedMessage original="The attendee's answers to the registration questions, as the form stood when answered." locale="es" localized="Las respuestas del asistente a las preguntas del registro, tal como estaba el formulario al responder."/>
+    <moqui.basic.LocalizedMessage original="The attendee's entry code is replaced: the earlier code no longer admits, and the new one is sent in a ticket." locale="es" localized="El código de entrada del asistente se sustituye: el código anterior ya no admite, y el nuevo se envía en una entrada."/>
+    <moqui.basic.LocalizedMessage original="The audience is too large to preview here; narrow it with fewer lists or segments." locale="es" localized="La audiencia es demasiado grande para previsualizarla aquí; redúzcala con menos listas o segmentos."/>
+    <moqui.basic.LocalizedMessage original="The audience of ${send.sendName}" locale="es" localized="La audiencia de ${send.sendName}"/>
+    <moqui.basic.LocalizedMessage original="The baseline's mark; a campaign send's recipients are its record" locale="es" localized="La marca de la línea de base; el registro de un envío de campaña son sus destinatarios"/>
+    <moqui.basic.LocalizedMessage original="The body is the wiki page ${post.pagePath}: write it, ask for its review and publish a version in Knowledge. A public blog shows the published version from the publish date." locale="es" localized="El cuerpo es la página wiki ${post.pagePath}: escríbala, pida su revisión y publique una versión en Conocimiento. Un blog público muestra la versión publicada desde la fecha de publicación."/>
+    <moqui.basic.LocalizedMessage original="The buyer" locale="es" localized="El comprador"/>
+    <moqui.basic.LocalizedMessage original="The buyer accepted the offer's terms" locale="es" localized="El comprador aceptó las condiciones de la oferta"/>
+    <moqui.basic.LocalizedMessage original="The buyer, once" locale="es" localized="El comprador, una vez"/>
+    <moqui.basic.LocalizedMessage original="The cards open their lists as campaigns, sends, audiences and events are set up; until then each is not available, and none is shown as zero." locale="es" localized="Las tarjetas abren sus listas a medida que se configuran campañas, envíos, audiencias y eventos; hasta entonces cada una no está disponible, y ninguna se muestra como cero."/>
+    <moqui.basic.LocalizedMessage original="The delivery service's acceptance of this message is unknown. Record what the provider's records or an investigation show; it is never sent again unless they show it did not go out." locale="es" localized="Se desconoce la aceptación de este mensaje por el servicio de entrega. Registre lo que muestren los registros del proveedor o una investigación; no se vuelve a enviar salvo que muestren que no salió."/>
+    <moqui.basic.LocalizedMessage original="The dimension's own unit when empty" locale="es" localized="La unidad propia de la dimensión si está vacío"/>
+    <moqui.basic.LocalizedMessage original="The enrollment rule of ${automation.automationName}" locale="es" localized="La regla de inscripción de ${automation.automationName}"/>
+    <moqui.basic.LocalizedMessage original="The event gets a call link: registrants receive it with their confirmation, and its page says the event is online." locale="es" localized="El evento obtiene un enlace de llamada: quienes se registran lo reciben con su confirmación, y su página dice que el evento es en línea."/>
+    <moqui.basic.LocalizedMessage original="The file's column with each row's own evidence date, if any" locale="es" localized="La columna del archivo con la fecha de evidencia propia de cada fila, si la hay"/>
+    <moqui.basic.LocalizedMessage original="The file's column with each row's own evidence, if any" locale="es" localized="La columna del archivo con la evidencia propia de cada fila, si la hay"/>
+    <moqui.basic.LocalizedMessage original="The lead's source unless the organization's UTM map names another" locale="es" localized="El origen del prospecto, salvo que el mapa UTM de la organización nombre otro"/>
+    <moqui.basic.LocalizedMessage original="The most recipients one send may have" locale="es" localized="El máximo de destinatarios que puede tener un envío"/>
+    <moqui.basic.LocalizedMessage original="The organization has no test addresses yet: an administrator adds them in Campaign defaults." locale="es" localized="La organización aún no tiene direcciones de prueba: un administrador las añade en Valores predeterminados de la campaña."/>
+    <moqui.basic.LocalizedMessage original="The people of those messages, each once" locale="es" localized="Las personas de esos mensajes, cada una una vez"/>
+    <moqui.basic.LocalizedMessage original="The person confirms each request" locale="es" localized="La persona confirma cada solicitud"/>
+    <moqui.basic.LocalizedMessage original="The person is on the list once they confirm; a withdrawal or suppression is never cleared here." locale="es" localized="La persona queda en la lista una vez que confirma; una retirada o una supresión nunca se borra aquí."/>
+    <moqui.basic.LocalizedMessage original="The provider's record or what the investigation found" locale="es" localized="El registro del proveedor o lo que encontró la investigación"/>
+    <moqui.basic.LocalizedMessage original="The public page" locale="es" localized="La página pública"/>
+    <moqui.basic.LocalizedMessage original="The recipients are the topic's subscribers whom these find, less those these leave out. A change ends an approval." locale="es" localized="Los destinatarios son los suscriptores del tema que estos encuentran, menos los que estos dejan fuera. Un cambio termina una aprobación."/>
+    <moqui.basic.LocalizedMessage original="The recipients not yet handed off are not sent. ${delivery.released ? delivery.inFlightCount + ' messages already with the delivery service may still go out.' : ''}" locale="es" localized="Los destinatarios aún no entregados no se envían. ${delivery.released ? delivery.inFlightCount + ' messages already with the delivery service may still go out.' : ''}"/>
+    <moqui.basic.LocalizedMessage original="The records awaiting adoption cannot be listed just now." locale="es" localized="Los registros en espera de adopción no se pueden listar en este momento."/>
+    <moqui.basic.LocalizedMessage original="The remainder: ${remainderText}" locale="es" localized="El resto: ${remainderText}"/>
+    <moqui.basic.LocalizedMessage original="The rest is the send's content" locale="es" localized="El resto es el contenido del envío"/>
+    <moqui.basic.LocalizedMessage original="The same holds as a visitor's: a free place is confirmed, a paid one is held until the buyer pays, and with no place left it joins the waitlist." locale="es" localized="Lo mismo que para un visitante: una plaza gratuita se confirma, una de pago se retiene hasta que el comprador paga, y si no queda plaza se une a la lista de espera."/>
+    <moqui.basic.LocalizedMessage original="The send is ${send.statusText.toLowerCase()} at revision ${send.sendRevision}: a change of the sample or a variant ends its approval." locale="es" localized="El envío está ${send.statusText.toLowerCase()} en la revisión ${send.sendRevision}: un cambio de la muestra o de una variante termina su aprobación."/>
+    <moqui.basic.LocalizedMessage original="The send then goes to its whole audience with its own content. Removing it ends an approval." locale="es" localized="El envío va entonces a toda su audiencia con su propio contenido. Quitarlo termina una aprobación."/>
+    <moqui.basic.LocalizedMessage original="The send's delivery" locale="es" localized="La entrega del envío"/>
+    <moqui.basic.LocalizedMessage original="The settings cannot be listed just now." locale="es" localized="La configuración no se puede listar en este momento."/>
+    <moqui.basic.LocalizedMessage original="The subscription a send is for: everyone must be an accepted member of it" locale="es" localized="La suscripción para la que es un envío: todos deben ser un miembro aceptado de ella"/>
+    <moqui.basic.LocalizedMessage original="The survey's questions" locale="es" localized="Las preguntas de la encuesta"/>
+    <moqui.basic.LocalizedMessage original="The terms accepted" locale="es" localized="Las condiciones aceptadas"/>
+    <moqui.basic.LocalizedMessage original="The terms it accepted give a refund of ${termsRefundText} now. Another percentage is recorded with the reason." locale="es" localized="Las condiciones que aceptó dan un reembolso de ${termsRefundText} ahora. Otro porcentaje se registra con el motivo."/>
+    <moqui.basic.LocalizedMessage original="The ticket product's price" locale="es" localized="El precio del producto de entrada"/>
+    <moqui.basic.LocalizedMessage original="The topic list is archived: it takes no send." locale="es" localized="La lista de tema está archivada: no admite ningún envío."/>
+    <moqui.basic.LocalizedMessage original="The topic list itself when no list or segment is chosen" locale="es" localized="La propia lista de tema cuando no se elige ninguna lista ni segmento"/>
+    <moqui.basic.LocalizedMessage original="They attend" locale="es" localized="Asisten"/>
+    <moqui.basic.LocalizedMessage original="They register" locale="es" localized="Se registran"/>
+    <moqui.basic.LocalizedMessage original="This check-in is not available." locale="es" localized="Este registro de asistencia no está disponible."/>
+    <moqui.basic.LocalizedMessage original="This event hands no attendee to Sales yet: choose the sales team. Each lead takes the attendee's own name and address and the event in its notes." locale="es" localized="Este evento aún no traspasa ningún asistente a Ventas: elija el equipo de ventas. Cada prospecto toma el nombre y la dirección propios del asistente y el evento en sus notas."/>
+    <moqui.basic.LocalizedMessage original="This event has no published registration to check in. Open an event's Check in from its Registration setup." locale="es" localized="Este evento no tiene un registro publicado para registrar asistencia. Abra Registrar asistencia de un evento desde su Configuración del registro."/>
+    <moqui.basic.LocalizedMessage original="This lead form hands no answer to Sales yet: choose the sales team and map its questions." locale="es" localized="Este formulario de prospectos aún no traspasa ninguna respuesta a Ventas: elija el equipo de ventas y asigne sus preguntas."/>
+    <moqui.basic.LocalizedMessage original="This lead rule is not available: it does not exist, or it is not one of your organizations'." locale="es" localized="Esta regla de prospectos no está disponible: no existe, o no es de una de sus organizaciones."/>
+    <moqui.basic.LocalizedMessage original="This link has no address yet: its site needs a canonical host." locale="es" localized="Este enlace aún no tiene dirección: su sitio necesita un host canónico."/>
+    <moqui.basic.LocalizedMessage original="This membership is not available: the list is not one of your organizations', or the contact is not on it." locale="es" localized="Esta membresía no está disponible: la lista no es de una de sus organizaciones, o el contacto no está en ella."/>
+    <moqui.basic.LocalizedMessage original="This organization has no Marketing list." locale="es" localized="Esta organización no tiene ninguna lista de Marketing."/>
+    <moqui.basic.LocalizedMessage original="This send goes to its whole audience with one content. Set up a test to compare two subjects or contents on samples first; the winner then goes to the rest." locale="es" localized="Este envío va a toda su audiencia con un solo contenido. Configure una prueba para comparar primero dos asuntos o contenidos en muestras; el ganador va después al resto."/>
+    <moqui.basic.LocalizedMessage original="This send is ${send.statusText}: its content no longer changes. Duplicate it to start again." locale="es" localized="Este envío está ${send.statusText}: su contenido ya no cambia. Duplíquelo para empezar de nuevo."/>
+    <moqui.basic.LocalizedMessage original="This survey or publication is not available: it does not exist or is not one of your organization's Marketing forms." locale="es" localized="Esta encuesta o publicación no está disponible: no existe o no es uno de los formularios de Marketing de su organización."/>
+    <moqui.basic.LocalizedMessage original="Ticket" locale="es" localized="Entrada"/>
+    <moqui.basic.LocalizedMessage original="Ticket product" locale="es" localized="Producto de entrada"/>
+    <moqui.basic.LocalizedMessage original="Ticket types" locale="es" localized="Tipos de entrada"/>
+    <moqui.basic.LocalizedMessage original="To know" locale="es" localized="Para saber"/>
+    <moqui.basic.LocalizedMessage original="Topic list" locale="es" localized="Lista de tema"/>
+    <moqui.basic.LocalizedMessage original="Total sample %" locale="es" localized="% de muestra total"/>
+    <moqui.basic.LocalizedMessage original="Tracked accepted" locale="es" localized="Aceptados con seguimiento"/>
+    <moqui.basic.LocalizedMessage original="Tracking code type" locale="es" localized="Tipo de código de seguimiento"/>
+    <moqui.basic.LocalizedMessage original="Tracking link ${trackingCodeId} is not available: it does not exist or is not one of your organization's campaigns." locale="es" localized="El enlace de seguimiento ${trackingCodeId} no está disponible: no existe o no es de una campaña de su organización."/>
+    <moqui.basic.LocalizedMessage original="Tracking link hosts" locale="es" localized="Hosts de enlaces de seguimiento"/>
+    <moqui.basic.LocalizedMessage original="Tracking links" locale="es" localized="Enlaces de seguimiento"/>
+    <moqui.basic.LocalizedMessage original="Tracking-enabled" locale="es" localized="Con seguimiento habilitado"/>
+    <moqui.basic.LocalizedMessage original="Trigger segment" locale="es" localized="Segmento disparador"/>
+    <moqui.basic.LocalizedMessage original="Trigger: ${automation.triggerText}${automation.triggerSegmentName ? ' · segment ' + automation.triggerSegmentName : ''}${automation.storeName ? ' · store ' + automation.storeName : ''}${automation.offerName ? ' · event ' + automation.offerName : ''}" locale="es" localized="Disparador: ${automation.triggerText}${automation.triggerSegmentName ? ' · segment ' + automation.triggerSegmentName : ''}${automation.storeName ? ' · store ' + automation.storeName : ''}${automation.offerName ? ' · event ' + automation.offerName : ''}"/>
+    <moqui.basic.LocalizedMessage original="Try the chosen handoffs again" locale="es" localized="Intentar de nuevo los traspasos elegidos"/>
+    <moqui.basic.LocalizedMessage original="Two variants of the content go to equal samples; the rest of the prepared audience waits for the winner. Setting it up ends an approval." locale="es" localized="Dos variantes del contenido van a muestras iguales; el resto de la audiencia preparada espera al ganador. Configurarla termina una aprobación."/>
+    <moqui.basic.LocalizedMessage original="Two variants of the content go to equal samples; the rest of the prepared audience waits until you choose the winner and a dispatcher releases it. Setting it up ends an approval." locale="es" localized="Dos variantes del contenido van a muestras iguales; el resto de la audiencia preparada espera hasta que usted elija al ganador y un despachador lo lance. Configurarla termina una aprobación."/>
+    <moqui.basic.LocalizedMessage original="Uncertain campaign deliveries" locale="es" localized="Entregas de campaña inciertas"/>
+    <moqui.basic.LocalizedMessage original="Uncertain campaign deliveries waiting" locale="es" localized="Entregas de campaña inciertas en espera"/>
+    <moqui.basic.LocalizedMessage original="Unique clicks" locale="es" localized="Clics únicos"/>
+    <moqui.basic.LocalizedMessage original="Unique opens" locale="es" localized="Aperturas únicas"/>
+    <moqui.basic.LocalizedMessage original="Unsubscribe notification" locale="es" localized="Aviso de cancelación de suscripción"/>
+    <moqui.basic.LocalizedMessage original="Unsubscribe verify" locale="es" localized="Verificación de cancelación de suscripción"/>
+    <moqui.basic.LocalizedMessage original="Upcoming could not be read just now." locale="es" localized="No se pudo leer lo próximo en este momento."/>
+    <moqui.basic.LocalizedMessage original="Used as" locale="es" localized="Usado como"/>
+    <moqui.basic.LocalizedMessage original="UTM content" locale="es" localized="Contenido UTM"/>
+    <moqui.basic.LocalizedMessage original="Variables are written as ${'$'}{name} and declared below: firstName, lastName and fullName are each recipient's own; any other takes its fallback. A link to a staff page or a stored file is refused: attach the file instead." locale="es" localized="Las variables se escriben como ${'$'}{name} y se declaran abajo: firstName, lastName y fullName son de cada destinatario; cualquier otra toma su reserva. Se rechaza un enlace a una página de personal o a un archivo guardado: adjunte el archivo."/>
+    <moqui.basic.LocalizedMessage original="View it public" locale="es" localized="Verlo público"/>
+    <moqui.basic.LocalizedMessage original="View page" locale="es" localized="Ver página"/>
+    <moqui.basic.LocalizedMessage original="View the public post" locale="es" localized="Ver la entrada pública"/>
+    <moqui.basic.LocalizedMessage original="Visitor keys" locale="es" localized="Claves de visitante"/>
+    <moqui.basic.LocalizedMessage original="Visitors" locale="es" localized="Visitantes"/>
+    <moqui.basic.LocalizedMessage original="Vocabularies" locale="es" localized="Vocabularios"/>
+    <moqui.basic.LocalizedMessage original="Wait" locale="es" localized="Esperar"/>
+    <moqui.basic.LocalizedMessage original="Wait ends" locale="es" localized="La espera termina"/>
+    <moqui.basic.LocalizedMessage original="Waitlist" locale="es" localized="Lista de espera"/>
+    <moqui.basic.LocalizedMessage original="Waitlist places" locale="es" localized="Plazas de lista de espera"/>
+    <moqui.basic.LocalizedMessage original="Waitlisted" locale="es" localized="En lista de espera"/>
+    <moqui.basic.LocalizedMessage original="Weekly campaign digest" locale="es" localized="Resumen semanal de campañas"/>
+    <moqui.basic.LocalizedMessage original="Welcome notice" locale="es" localized="Aviso de bienvenida"/>
+    <moqui.basic.LocalizedMessage original="What a change would do" locale="es" localized="Qué haría un cambio"/>
+    <moqui.basic.LocalizedMessage original="What a respondent sees" locale="es" localized="Qué ve quien responde"/>
+    <moqui.basic.LocalizedMessage original="What each campaign plans to use: blog posts, landing pages and files. Their writing, review and publication stay with their owner." locale="es" localized="Lo que cada campaña planea usar: entradas de blog, páginas de destino y archivos. Su redacción, revisión y publicación siguen con su propietario."/>
+    <moqui.basic.LocalizedMessage original="What the people did or said, and where" locale="es" localized="Qué hicieron o dijeron las personas, y dónde"/>
+    <moqui.basic.LocalizedMessage original="What the person asked for, and where" locale="es" localized="Qué pidió la persona, y dónde"/>
+    <moqui.basic.LocalizedMessage original="What the person did or said, and where" locale="es" localized="Qué hizo o dijo la persona, y dónde"/>
+    <moqui.basic.LocalizedMessage original="What the visitor reads about the follow-up" locale="es" localized="Qué lee el visitante sobre el seguimiento"/>
+    <moqui.basic.LocalizedMessage original="What they asked for, and when" locale="es" localized="Qué pidieron, y cuándo"/>
+    <moqui.basic.LocalizedMessage original="What this would change" locale="es" localized="Qué cambiaría esto"/>
+    <moqui.basic.LocalizedMessage original="When it may go out once released; empty sends it at its release. A change ends an approval." locale="es" localized="Cuándo puede salir una vez lanzado; vacío lo envía en su lanzamiento. Un cambio termina una aprobación."/>
+    <moqui.basic.LocalizedMessage original="When not met" locale="es" localized="Cuando no se cumple"/>
+    <moqui.basic.LocalizedMessage original="When the people asked (or name the column with each row's date); never today by default" locale="es" localized="Cuándo lo pidieron las personas (o nombre la columna con la fecha de cada fila); nunca hoy de forma predeterminada"/>
+    <moqui.basic.LocalizedMessage original="When the person asked; now when empty" locale="es" localized="Cuándo lo pidió la persona; ahora si está vacío"/>
+    <moqui.basic.LocalizedMessage original="Whether a tracking link or page sets a first-party key to count unique visitors; never for a browser that asks not to be tracked" locale="es" localized="Si un enlace de seguimiento o una página fija una clave de primera parte para contar visitantes únicos; nunca para un navegador que pide no ser rastreado"/>
+    <moqui.basic.LocalizedMessage original="Who answers" locale="es" localized="Quién responde"/>
+    <moqui.basic.LocalizedMessage original="Whoever matches this segment has met the goal: their enrollment ends" locale="es" localized="Quien coincida con este segmento ha cumplido el objetivo: su inscripción termina"/>
+    <moqui.basic.LocalizedMessage original="Why now" locale="es" localized="Por qué ahora"/>
+    <moqui.basic.LocalizedMessage original="Why people are left out" locale="es" localized="Por qué se deja fuera a las personas"/>
+    <moqui.basic.LocalizedMessage original="Why people leave" locale="es" localized="Por qué se van las personas"/>
+    <moqui.basic.LocalizedMessage original="Why were recipients of this send excluded? Explain its audience's buckets and what the send still needs before approval" locale="es" localized="¿Por qué se excluyó a destinatarios de este envío? Explique los grupos de su audiencia y qué le falta aún al envío antes de la aprobación"/>
+    <moqui.basic.LocalizedMessage original="Winner" locale="es" localized="Ganador"/>
+    <moqui.basic.LocalizedMessage original="Withdraw ${member.partyName} from ${list.contactListName}" locale="es" localized="Retirar a ${member.partyName} de ${list.contactListName}"/>
+    <moqui.basic.LocalizedMessage original="Withdrawals" locale="es" localized="Retiradas"/>
+    <moqui.basic.LocalizedMessage original="Withdrawn or not subscribed" locale="es" localized="Retirado o no suscrito"/>
+    <moqui.basic.LocalizedMessage original="Withdrawn or skipped" locale="es" localized="Retirado u omitido"/>
+    <moqui.basic.LocalizedMessage original="Wording of the offer" locale="es" localized="Redacción de la oferta"/>
+    <moqui.basic.LocalizedMessage original="Write in Knowledge" locale="es" localized="Escribir en Conocimiento"/>
+    <moqui.basic.LocalizedMessage original="yes or no; a number; a date; days; or ids, comma separated" locale="es" localized="sí o no; un número; una fecha; días; o ids, separados por comas"/>
+    <moqui.basic.LocalizedMessage original="You do not create campaigns in Marketing." locale="es" localized="No puede crear campañas en Marketing."/>
+    <moqui.basic.LocalizedMessage original="You do not create events in Marketing." locale="es" localized="No puede crear eventos en Marketing."/>
+    <moqui.basic.LocalizedMessage original="You do not create lists in Marketing." locale="es" localized="No puede crear listas en Marketing."/>
+    <moqui.basic.LocalizedMessage original="You do not preview audiences in Marketing." locale="es" localized="No puede previsualizar audiencias en Marketing."/>
+    <moqui.basic.LocalizedMessage original="You do not read audiences in Marketing." locale="es" localized="No puede leer audiencias en Marketing."/>
+    <moqui.basic.LocalizedMessage original="You do not read automations in Marketing." locale="es" localized="No puede leer automatizaciones en Marketing."/>
+    <moqui.basic.LocalizedMessage original="You do not read campaigns in Marketing." locale="es" localized="No puede leer campañas en Marketing."/>
+    <moqui.basic.LocalizedMessage original="You do not read sends in Marketing." locale="es" localized="No puede leer envíos en Marketing."/>
+    <moqui.basic.LocalizedMessage original="You do not write sends in Marketing." locale="es" localized="No puede escribir envíos en Marketing."/>
+    <moqui.basic.LocalizedMessage original="You read nothing of Marketing's schedule." locale="es" localized="No lee nada de la programación de Marketing."/>
+    <moqui.basic.LocalizedMessage original="You wrote, asked for or approved this automation: another dispatcher activates it." locale="es" localized="Usted escribió, pidió o aprobó esta automatización: otro despachador la activa."/>
+    <moqui.basic.LocalizedMessage original="You wrote, asked for or approved this send: the one-person team's policy lets you release it, and it is recorded so." locale="es" localized="Usted escribió, pidió o aprobó este envío: la política del equipo de una persona le permite lanzarlo, y así queda registrado."/>
+</entity-facade-xml>

@@ -1,0 +1,11 @@
+# Messages the same in this language. A missing catalog row returns the original.
+${basis}${opensFrom ? ' · ' + opensFrom : ''}
+${description}${opensFrom ? ' (' + opensFrom + ')' : ''}
+${digest?.periodText} · ${digest?.dashboardCount} ${digest?.dashboardCount == 1 ? 'dashboard' : 'dashboards'} · ${digest?.sharedText}${digest?.isDefault ? ' · on your Home' : ''}
+${laneStep.countTitle}: ${laneStep.countText}
+${own ? 'Yours' : 'Shared with you'} · ${sharedText}
+${ownerText} · ${sharing}
+${sel.countTitle}: ${sel.countText}. ${sel.countMeaning} ${sel.countScope ? 'Scope: ' + sel.countScope + '.' : ''} ${sel.countMessage}
+${sel.targetTitle}: ${sel.targetMeaning}
+${source}${freshness ? ' (' + freshness + ')' : ''}
+${version}${current ? ' (current)' : ''}

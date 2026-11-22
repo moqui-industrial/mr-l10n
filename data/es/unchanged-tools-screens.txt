@@ -1,0 +1,38 @@
+# Messages the same in this language: the catalog has no row for them (a missing row returns the original), and they are
+# still message keys for the other catalogs.
+${alert.audienceKind == 'group' ? 'Tells ' + alert.audienceText + ', each in a notification of their own' : 'Tells its owner alone'}${alert.emailChannel == 'Y' ? ', in the app and by email.' : ', in the app.'}
+${alert.sourceText}${creating ? '' : ' · fires when ' + alert.conditionText + ' · tells ' + alert.audienceText}${alert.ownerName ? ' · owner ' + alert.ownerName : ''}
+${attemptText}${attemptCount > 1 ? ' (' + attemptCount + ' attempts)' : ''}
+${countsText}${reasonText ? ' · ' + reasonText : ''}
+${cronText} · ${formatText}
+${exceptionType}: ${exceptionMessage}
+${exceptionType}: ${exceptionMessage} ${exceptionStack}
+${indexName}${dataFeedId ? ' · ' + dataFeedId : ''}
+${kindText}${view == 'all' ? ' · ' + ownerText : ''}
+${name} (${type})
+${occurrence.countsText}${occurrence.reasonText ? ' · ' + occurrence.reasonText : ''}
+${occurrence.modeText} · ${occurrence.versionText}${occurrence.rendersText ? ' · ' + occurrence.rendersText : ''}
+${ownDelivery.stateText}${ownDelivery.attemptText ? ' on ' + ownDelivery.attemptText : ''}${ownDelivery.reasonText ? ': ' + ownDelivery.reasonText : ''}
+${share}%
+${threadName} ${threadId}
+${toldText} · ${channelText}
+ReportAlert
+Series
+${(message_index+1).toString().padStart(3,'0')}: ${message}
+${artifactInfo.artifact} (${artifactInfo.count})
+${blockingRow.indent}${blockingRow.pid}  ${blockingRow.text}
+${dataDocumentId} - ${documentName}
+${documentName} [${dataDocumentId}]
+${ec.l10n.localize('Edit')} ${dbViewEntityName}
+${ec.l10n.localize('Find')} ${aenDef.getPrettyName(null, null)}
+${ec.l10n.localize('Find')} ${ec.entity.getEntityDefinition(aen).getPrettyName(null, null)}
+${entityName} - ${context.package}
+${entityName}${title ? ' (' + title + ')' : ''}
+${feedName} [${dataFeedId}]
+${smKey}: ${sourceMap[smKey]} (${typeof sourceMap[smKey]})
+${statusFlowId}: ${description}
+${statusTypeId}: ${description}
++ ${StringUtilities.camelCaseToPretty(nodeList_entry)}
+MySQL or MariaDB
+p95 (ms)
+REST API

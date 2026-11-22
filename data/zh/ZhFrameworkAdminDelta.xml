@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+
+<entity-facade-xml type="zh">
+    <moqui.basic.LocalizedMessage original="${count} administrator has no second sign-in factor" locale="zh" localized="${count} 位管理员没有第二种登录因素"/>
+    <moqui.basic.LocalizedMessage original="${count} administrators have no second sign-in factor" locale="zh" localized="${count} 位管理员没有第二种登录因素"/>
+    <moqui.basic.LocalizedMessage original="${count} Constitution source was passed over" locale="zh" localized="已跳过 ${count} 个宪章来源"/>
+    <moqui.basic.LocalizedMessage original="${count} Constitution sources were passed over" locale="zh" localized="已跳过 ${count} 个宪章来源"/>
+    <moqui.basic.LocalizedMessage original="${count} days" locale="zh" localized="${count} 天"/>
+    <moqui.basic.LocalizedMessage original="${count} hours" locale="zh" localized="${count} 小时"/>
+    <moqui.basic.LocalizedMessage original="${count} job run failed in the last day: ${jobs}" locale="zh" localized="过去一天有 ${count} 次作业运行失败：${jobs}"/>
+    <moqui.basic.LocalizedMessage original="${count} job runs failed in the last day: ${jobs}" locale="zh" localized="过去一天有 ${count} 次作业运行失败：${jobs}"/>
+    <moqui.basic.LocalizedMessage original="${count} job runs failed in the last day: ${jobs} and ${more} more" locale="zh" localized="过去一天有 ${count} 次作业运行失败：${jobs}，另有 ${more} 个"/>
+    <moqui.basic.LocalizedMessage original="${count} minute" locale="zh" localized="${count} 分钟"/>
+    <moqui.basic.LocalizedMessage original="${count} minutes" locale="zh" localized="${count} 分钟"/>
+    <moqui.basic.LocalizedMessage original="${count} protocol is running" locale="zh" localized="${count} 个协议正在运行"/>
+    <moqui.basic.LocalizedMessage original="${count} protocols are running" locale="zh" localized="${count} 个协议正在运行"/>
+    <moqui.basic.LocalizedMessage original="${place} did not take the test page" locale="zh" localized="${place} 未接受测试页"/>
+    <moqui.basic.LocalizedMessage original="${place} has no printer of that name" locale="zh" localized="${place} 没有该名称的打印机"/>
+    <moqui.basic.LocalizedMessage original="${place} took the test page" locale="zh" localized="${place} 已接受测试页"/>
+    <moqui.basic.LocalizedMessage original="${place} took the test page (job ${jobId})" locale="zh" localized="${place} 已接受测试页（作业 ${jobId}）"/>
+    <moqui.basic.LocalizedMessage original="${silent} of ${members} cluster members have not been heard from for three minutes" locale="zh" localized="${silent} 个集群成员已有三分钟没有消息，共 ${members} 个"/>
+    <moqui.basic.LocalizedMessage original="${title} could not be checked" locale="zh" localized="无法检查${title}"/>
+    <moqui.basic.LocalizedMessage original="A backup is running: a second one is not started beside it" locale="zh" localized="正在进行备份：不会同时再开始一次"/>
+    <moqui.basic.LocalizedMessage original="A backup run is started outside a transaction" locale="zh" localized="备份运行在事务之外启动"/>
+    <moqui.basic.LocalizedMessage original="A backup was started. Its outcome shows here when it ends." locale="zh" localized="已开始备份。结束后，其结果会显示在这里。"/>
+    <moqui.basic.LocalizedMessage original="A binding is account or instance" locale="zh" localized="绑定为 account 或 instance"/>
+    <moqui.basic.LocalizedMessage original="A choice is Y, N or default" locale="zh" localized="选项为 Y、N 或 default"/>
+    <moqui.basic.LocalizedMessage original="A connection of this kind is not started here" locale="zh" localized="此类连接不在此处创建"/>
+    <moqui.basic.LocalizedMessage original="A database or a search server this process does not run itself is backed up by its own provider, not here." locale="zh" localized="本进程不自行运行的数据库或搜索服务器由其自身提供商备份，不在此处。"/>
+    <moqui.basic.LocalizedMessage original="A date is not a date" locale="zh" localized="日期不是日期"/>
+    <moqui.basic.LocalizedMessage original="A default is for a field of this import" locale="zh" localized="默认值属于此导入的某个字段"/>
+    <moqui.basic.LocalizedMessage original="A link, a path or a link type is not translated here" locale="zh" localized="链接、路径或链接类型不在此处翻译"/>
+    <moqui.basic.LocalizedMessage original="A locale is like es or pt_BR" locale="zh" localized="区域设置形如 es 或 pt_BR"/>
+    <moqui.basic.LocalizedMessage original="A mapped group is not available" locale="zh" localized="已映射的组不可用"/>
+    <moqui.basic.LocalizedMessage original="A membership ends now or later" locale="zh" localized="成员资格在现在或之后结束"/>
+    <moqui.basic.LocalizedMessage original="A message type has a name" locale="zh" localized="消息类型要有名称"/>
+    <moqui.basic.LocalizedMessage original="A new membership starts now or later" locale="zh" localized="新的成员资格从现在或之后开始"/>
+    <moqui.basic.LocalizedMessage original="A preference value is at most 4000 characters" locale="zh" localized="偏好值最多 4000 个字符"/>
+    <moqui.basic.LocalizedMessage original="A printer's id is up to 40 letters, digits or underscores" locale="zh" localized="打印机 id 最多 40 个字母、数字或下划线"/>
+    <moqui.basic.LocalizedMessage original="A proposal's memberships start now or later" locale="zh" localized="提案的成员资格从现在或之后开始"/>
+    <moqui.basic.LocalizedMessage original="A provider id is 3 to 40 letters, digits or underscores, starting with a letter" locale="zh" localized="提供商 id 为 3 到 40 个字母、数字或下划线，并以字母开头"/>
+    <moqui.basic.LocalizedMessage original="A quoted cell is not closed" locale="zh" localized="引号中的单元格未闭合"/>
+    <moqui.basic.LocalizedMessage original="A recipient is added, muted or removed" locale="zh" localized="收件人的操作是添加、静音或移除"/>
+    <moqui.basic.LocalizedMessage original="A relay that signs in needs TLS: choose TLS from the start or STARTTLS" locale="zh" localized="需要登录的中继必须使用 TLS：请选择从一开始使用 TLS 或 STARTTLS"/>
+    <moqui.basic.LocalizedMessage original="A relay's id is 3 to 40 letters, digits or underscores, starting with a letter" locale="zh" localized="中继 id 为 3 到 40 个字母、数字或下划线，并以字母开头"/>
+    <moqui.basic.LocalizedMessage original="A remote's id is 3 to 40 letters, digits or underscores, starting with a letter" locale="zh" localized="远程端 id 为 3 到 40 个字母、数字或下划线，并以字母开头"/>
+    <moqui.basic.LocalizedMessage original="A resolution is delivered, notDelivered or abandon" locale="zh" localized="处理结果为 delivered、notDelivered 或 abandon"/>
+    <moqui.basic.LocalizedMessage original="A retry of this message began and its result was not recorded" locale="zh" localized="已开始重试此消息，但其结果未记录"/>
+    <moqui.basic.LocalizedMessage original="A role mapping names a remote role and a group" locale="zh" localized="角色映射要指定一个远程角色和一个组"/>
+    <moqui.basic.LocalizedMessage original="A row rule names the artifact group it is bound to" locale="zh" localized="行规则要指定它所绑定的工件组"/>
+    <moqui.basic.LocalizedMessage original="A run is required" locale="zh" localized="必须指定一次运行"/>
+    <moqui.basic.LocalizedMessage original="A run was asked for already: the scheduler starts it at its next pass" locale="zh" localized="已经请求过一次运行：调度器会在下一轮启动它"/>
+    <moqui.basic.LocalizedMessage original="A run was asked for: starts at the scheduler's next pass" locale="zh" localized="已请求一次运行：在调度器的下一轮开始"/>
+    <moqui.basic.LocalizedMessage original="A schedule is not cleared: pause the job instead" locale="zh" localized="不能清除排程：请改为暂停作业"/>
+    <moqui.basic.LocalizedMessage original="A send is under way." locale="zh" localized="正在发送。"/>
+    <moqui.basic.LocalizedMessage original="A send of this message is under way" locale="zh" localized="正在发送此消息"/>
+    <moqui.basic.LocalizedMessage original="A stored secret was cleared when the endpoint changed: enter it again, then test. Nothing was sent" locale="zh" localized="端点变更时已清除所存密钥：请重新输入后再测试。尚未发送任何内容"/>
+    <moqui.basic.LocalizedMessage original="A test message was sent to your own address" locale="zh" localized="已向您自己的地址发送测试消息"/>
+    <moqui.basic.LocalizedMessage original="A value mapping is for a field of this import" locale="zh" localized="值映射属于此导入的某个字段"/>
+    <moqui.basic.LocalizedMessage original="Access and grants" locale="zh" localized="访问与授权"/>
+    <moqui.basic.LocalizedMessage original="All outgoing" locale="zh" localized="全部发出"/>
+    <moqui.basic.LocalizedMessage original="Allowed addresses are comma separated IPv4 patterns (numbers, * or ranges) or IPv6 addresses" locale="zh" localized="允许的地址为逗号分隔的 IPv4 模式（数字、* 或范围）或 IPv6 地址"/>
+    <moqui.basic.LocalizedMessage original="Allowed IPs are comma separated IPv4 addresses (each part a number, * or a range like 0-31) or IPv6 addresses" locale="zh" localized="允许的 IP 为逗号分隔的 IPv4 地址（每段为数字、* 或如 0-31 的范围）或 IPv6 地址"/>
+    <moqui.basic.LocalizedMessage original="Allowed recipient domains" locale="zh" localized="允许的收件人域"/>
+    <moqui.basic.LocalizedMessage original="Already applied: it is not applied again" locale="zh" localized="已经应用：不会再次应用"/>
+    <moqui.basic.LocalizedMessage original="Already translated so" locale="zh" localized="已经是这样的译文"/>
+    <moqui.basic.LocalizedMessage original="An embedded database and an external one" locale="zh" localized="一个内嵌数据库和一个外部数据库"/>
+    <moqui.basic.LocalizedMessage original="An icon is a name of letters, digits, _ : and -" locale="zh" localized="图标名称由字母、数字、_、: 和 - 组成"/>
+    <moqui.basic.LocalizedMessage original="An inbound flow is a remote system's, not a sign-in" locale="zh" localized="入站流属于远程系统，不是登录"/>
+    <moqui.basic.LocalizedMessage original="An inbound flow is a remote system's, not a sign-in: it is changed in Tools" locale="zh" localized="入站流属于远程系统，不是登录：请在工具中更改"/>
+    <moqui.basic.LocalizedMessage original="An off-site mirror is set, and the last archive written was copied to it" locale="zh" localized="已设置异地镜像，并且最后写入的备份文件已复制到该镜像"/>
+    <moqui.basic.LocalizedMessage original="An off-site mirror is set, and the last archive written was not copied to it" locale="zh" localized="已设置异地镜像，但最后写入的备份文件未复制到该镜像"/>
+    <moqui.basic.LocalizedMessage original="An operation key is 1 to 64 letters, digits, dots, underscores, colons or hyphens" locale="zh" localized="操作键为 1 到 64 个字母、数字、点、下划线、冒号或连字符"/>
+    <moqui.basic.LocalizedMessage original="An owner of mail could not be asked whether this message is its own. Try again later." locale="zh" localized="无法向邮件所有者确认此消息是否属于它。请稍后再试。"/>
+    <moqui.basic.LocalizedMessage original="Archive written, with a failure after it" locale="zh" localized="已写入备份文件，但之后发生失败"/>
+    <moqui.basic.LocalizedMessage original="As entered here" locale="zh" localized="如此处所填"/>
+    <moqui.basic.LocalizedMessage original="At most 200 rows at a time" locale="zh" localized="一次最多 200 行"/>
+    <moqui.basic.LocalizedMessage original="Backups are mirrored off the server" locale="zh" localized="备份已镜像到服务器之外"/>
+    <moqui.basic.LocalizedMessage original="Backups are not mirrored off the server" locale="zh" localized="备份未镜像到服务器之外"/>
+    <moqui.basic.LocalizedMessage original="Being consumed" locale="zh" localized="正在消费"/>
+    <moqui.basic.LocalizedMessage original="Being sent" locale="zh" localized="正在发送"/>
+    <moqui.basic.LocalizedMessage original="CalDAV, CardDAV and WebDAV for desktop and phone apps, on the web address" locale="zh" localized="供桌面和手机应用使用的 CalDAV、CardDAV 和 WebDAV，位于 Web 地址"/>
+    <moqui.basic.LocalizedMessage original="Call media" locale="zh" localized="通话媒体"/>
+    <moqui.basic.LocalizedMessage original="Call relay" locale="zh" localized="通话中继"/>
+    <moqui.basic.LocalizedMessage original="calls/captions@enabled is not true" locale="zh" localized="calls/captions@enabled 不为 true"/>
+    <moqui.basic.LocalizedMessage original="calls/recording@enabled is not true" locale="zh" localized="calls/recording@enabled 不为 true"/>
+    <moqui.basic.LocalizedMessage original="Cancelled or rejected" locale="zh" localized="已取消或已拒绝"/>
+    <moqui.basic.LocalizedMessage original="Captions without a speech provider" locale="zh" localized="没有语音提供商的字幕"/>
+    <moqui.basic.LocalizedMessage original="Choose comma, semicolon or tab" locale="zh" localized="请选择逗号、分号或制表符"/>
+    <moqui.basic.LocalizedMessage original="Choose rows by their numbers" locale="zh" localized="请按编号选择行"/>
+    <moqui.basic.LocalizedMessage original="Choose the group's purpose" locale="zh" localized="请选择组的用途"/>
+    <moqui.basic.LocalizedMessage original="Choose what to recover" locale="zh" localized="请选择要恢复的内容"/>
+    <moqui.basic.LocalizedMessage original="Client in use" locale="zh" localized="使用中的客户端"/>
+    <moqui.basic.LocalizedMessage original="Confirm it is you: this change decides who signs in through the provider" locale="zh" localized="请确认是您本人：此更改决定谁通过该提供商登录"/>
+    <moqui.basic.LocalizedMessage original="Confirm it is you: this change repoints the connection or replaces its credentials" locale="zh" localized="请确认是您本人：此更改会改指向连接或更换其凭据"/>
+    <moqui.basic.LocalizedMessage original="Confirm it is you: this connection carries the sign-in mail" locale="zh" localized="请确认是您本人：此连接承载登录邮件"/>
+    <moqui.basic.LocalizedMessage original="Connection test" locale="zh" localized="连接测试"/>
+    <moqui.basic.LocalizedMessage original="Deployed configuration or Tools" locale="zh" localized="已部署的配置或工具"/>
+    <moqui.basic.LocalizedMessage original="Deployment configuration" locale="zh" localized="部署配置"/>
+    <moqui.basic.LocalizedMessage original="Did not start: ${detail}" locale="zh" localized="未能启动：${detail}"/>
+    <moqui.basic.LocalizedMessage original="Did not start: see the server's log" locale="zh" localized="未能启动：请查看服务器日志"/>
+    <moqui.basic.LocalizedMessage original="Disabled until a test passes" locale="zh" localized="已禁用，直至测试通过"/>
+    <moqui.basic.LocalizedMessage original="Documents sent to this printer" locale="zh" localized="发送到此打印机的文档"/>
+    <moqui.basic.LocalizedMessage original="Due: starts at the scheduler's next pass" locale="zh" localized="已到期：在调度器的下一轮开始"/>
+    <moqui.basic.LocalizedMessage original="Dump (one file)" locale="zh" localized="转储（单个文件）"/>
+    <moqui.basic.LocalizedMessage original="Each field takes one column" locale="zh" localized="每个字段占一列"/>
+    <moqui.basic.LocalizedMessage original="Each grant names a permission, an artifact group or a bundle" locale="zh" localized="每项授权要指定一个权限、一个工件组或一个功能包"/>
+    <moqui.basic.LocalizedMessage original="Editing documents in an office suite over WOPI" locale="zh" localized="通过 WOPI 在办公套件中编辑文档"/>
+    <moqui.basic.LocalizedMessage original="Email templates" locale="zh" localized="电子邮件模板"/>
+    <moqui.basic.LocalizedMessage original="Embedded database backup" locale="zh" localized="内嵌数据库备份"/>
+    <moqui.basic.LocalizedMessage original="Embedded database, run by this server" locale="zh" localized="内嵌数据库，由此服务器运行"/>
+    <moqui.basic.LocalizedMessage original="Empty for the server's default printer" locale="zh" localized="留空则使用服务器的默认打印机"/>
+    <moqui.basic.LocalizedMessage original="Enabled, not tested as it is configured now" locale="zh" localized="已启用，尚未按当前配置测试"/>
+    <moqui.basic.LocalizedMessage original="Enabled, not tested since its configuration changed" locale="zh" localized="已启用，配置变更后尚未测试"/>
+    <moqui.basic.LocalizedMessage original="Encrypted fields in an archive cannot be read without the key they were encrypted under, and the key is not in the archive." locale="zh" localized="备份文件中的加密字段必须有当初的密钥才能读取，而密钥不在备份文件中。"/>
+    <moqui.basic.LocalizedMessage original="End proposed" locale="zh" localized="提议的结束"/>
+    <moqui.basic.LocalizedMessage original="Ended without an error" locale="zh" localized="已结束且无错误"/>
+    <moqui.basic.LocalizedMessage original="Ended without naming an archive" locale="zh" localized="已结束，但未给出备份文件"/>
+    <moqui.basic.LocalizedMessage original="Every ${every}" locale="zh" localized="每 ${every}"/>
+    <moqui.basic.LocalizedMessage original="Every administrator has a second sign-in factor" locale="zh" localized="每位管理员都有第二登录因素"/>
+    <moqui.basic.LocalizedMessage original="Every cluster member is heard from" locale="zh" localized="集群的每个成员都有回应"/>
+    <moqui.basic.LocalizedMessage original="Every mail relay with an SMTP host is disabled, so the instance sends no mail" locale="zh" localized="每个带 SMTP 主机的邮件中继都已禁用，因此实例不发送邮件"/>
+    <moqui.basic.LocalizedMessage original="Every mapped group may be given by a sign-in" locale="zh" localized="每个已映射的组都可以通过登录授予"/>
+    <moqui.basic.LocalizedMessage original="Every member has a confirmed factor" locale="zh" localized="每位成员都有已确认的因素"/>
+    <moqui.basic.LocalizedMessage original="External database, not run by this server" locale="zh" localized="外部数据库，不由此服务器运行"/>
+    <moqui.basic.LocalizedMessage original="External databases and search servers" locale="zh" localized="外部数据库和搜索服务器"/>
+    <moqui.basic.LocalizedMessage original="Failed, will be tried again" locale="zh" localized="失败，将再次尝试"/>
+    <moqui.basic.LocalizedMessage original="Failing" locale="zh" localized="发生故障"/>
+    <moqui.basic.LocalizedMessage original="Failing or late" locale="zh" localized="失败或延迟"/>
+    <moqui.basic.LocalizedMessage original="Files kept outside the database (the runtime directory's resources and components, an object store) are not in an archive." locale="zh" localized="保存在数据库之外的文件（运行目录的资源和组件、对象存储）不在备份文件中。"/>
+    <moqui.basic.LocalizedMessage original="Git hosting" locale="zh" localized="Git 托管"/>
+    <moqui.basic.LocalizedMessage original="Give a group ID of 3 to 60 capital letters, digits or underscores, starting with a letter" locale="zh" localized="请给出 3 到 60 个大写字母、数字或下划线的组 ID，并以字母开头"/>
+    <moqui.basic.LocalizedMessage original="Give a locale such as es or pt_BR" locale="zh" localized="请给出区域设置，例如 es 或 pt_BR"/>
+    <moqui.basic.LocalizedMessage original="Give a reason" locale="zh" localized="请填写原因"/>
+    <moqui.basic.LocalizedMessage original="Give a reason of at most 255 characters" locale="zh" localized="请填写不超过 255 个字符的原因"/>
+    <moqui.basic.LocalizedMessage original="Give each column a distinct header of 1 to 100 characters" locale="zh" localized="请为每一列给出互不相同的、1 到 100 个字符的表头"/>
+    <moqui.basic.LocalizedMessage original="Give the client ID and the client secret registered at the provider" locale="zh" localized="请填写在提供商处注册的客户端 ID 和客户端密钥"/>
+    <moqui.basic.LocalizedMessage original="Give the client ID the provider issued" locale="zh" localized="请填写提供商签发的客户端 ID"/>
+    <moqui.basic.LocalizedMessage original="Give the group a description of 1–255 characters" locale="zh" localized="请为组填写 1 到 255 个字符的描述"/>
+    <moqui.basic.LocalizedMessage original="Give the original message, at most 255 characters" locale="zh" localized="请填写原始消息，最多 255 个字符"/>
+    <moqui.basic.LocalizedMessage original="Give the password of the user the relay signs in" locale="zh" localized="请填写中继用于登录的用户密码"/>
+    <moqui.basic.LocalizedMessage original="Give the password or token the remote signs in with" locale="zh" localized="请填写远程端用于登录的密码或令牌"/>
+    <moqui.basic.LocalizedMessage original="Give the print server" locale="zh" localized="请填写打印服务器"/>
+    <moqui.basic.LocalizedMessage original="Give the printer a name" locale="zh" localized="请为打印机填写名称"/>
+    <moqui.basic.LocalizedMessage original="Give the provider a name" locale="zh" localized="请为提供商填写名称"/>
+    <moqui.basic.LocalizedMessage original="Give the provider's metadata URL" locale="zh" localized="请填写提供商的元数据 URL"/>
+    <moqui.basic.LocalizedMessage original="Give the remote a name" locale="zh" localized="请为远程端填写名称"/>
+    <moqui.basic.LocalizedMessage original="Give the review a date and time" locale="zh" localized="请为复查填写日期和时间"/>
+    <moqui.basic.LocalizedMessage original="Give the signature header and the shared secret messages are signed with" locale="zh" localized="请填写签名头以及用于为消息签名的共享密钥"/>
+    <moqui.basic.LocalizedMessage original="Give the SMTP host" locale="zh" localized="请填写 SMTP 主机"/>
+    <moqui.basic.LocalizedMessage original="Give the translation: an import does not remove one" locale="zh" localized="请填写译文：导入不会删除已有译文"/>
+    <moqui.basic.LocalizedMessage original="Give the user the remote signs in" locale="zh" localized="请填写远程端用于登录的用户"/>
+    <moqui.basic.LocalizedMessage original="Grant proposed" locale="zh" localized="提议的授权"/>
+    <moqui.basic.LocalizedMessage original="How the instance takes what a remote posts is not chosen here" locale="zh" localized="实例如何接收远程端提交的内容不在此处选择"/>
+    <moqui.basic.LocalizedMessage original="Imported translation" locale="zh" localized="已导入的译文"/>
+    <moqui.basic.LocalizedMessage original="Imports and exports" locale="zh" localized="导入与导出"/>
+    <moqui.basic.LocalizedMessage original="Inbound flow, read only" locale="zh" localized="入站流，只读"/>
+    <moqui.basic.LocalizedMessage original="Include a header line and at least one row" locale="zh" localized="请包含一行表头和至少一行数据"/>
+    <moqui.basic.LocalizedMessage original="It could not be recovered" locale="zh" localized="无法恢复"/>
+    <moqui.basic.LocalizedMessage original="It has no schedule the scheduler starts it by: its owner starts it" locale="zh" localized="没有供调度器启动它的排程：由其所有者启动"/>
+    <moqui.basic.LocalizedMessage original="It has no schedule: its owner starts it" locale="zh" localized="没有排程：由其所有者启动"/>
+    <moqui.basic.LocalizedMessage original="It has not run yet and is due at the scheduler's next pass" locale="zh" localized="尚未运行，将在调度器的下一轮到期"/>
+    <moqui.basic.LocalizedMessage original="It is due already: the scheduler starts it at its next pass" locale="zh" localized="已经到期：调度器会在下一轮启动它"/>
+    <moqui.basic.LocalizedMessage original="It is outside the dates it runs in" locale="zh" localized="不在其运行的日期范围内"/>
+    <moqui.basic.LocalizedMessage original="It is paused: resume it first" locale="zh" localized="已暂停：请先继续"/>
+    <moqui.basic.LocalizedMessage original="It takes mail from the internet and checks it itself: no gateway's verdict is trusted" locale="zh" localized="它从互联网接收邮件并自行检查：不信任网关的判定"/>
+    <moqui.basic.LocalizedMessage original="It waits in its sender's Outbox, who sends it again or takes it back." locale="zh" localized="它留在发件人的发件箱中，由发件人再次发送或收回。"/>
+    <moqui.basic.LocalizedMessage original="It was returned after it was sent. It can be sent again." locale="zh" localized="发送之后被退回。可以再次发送。"/>
+    <moqui.basic.LocalizedMessage original="Its last check did not pass: ${check}" locale="zh" localized="最近一次检查未通过：${check}"/>
+    <moqui.basic.LocalizedMessage original="Its owner did not take the row" locale="zh" localized="其所有者未接受该行"/>
+    <moqui.basic.LocalizedMessage original="Its owner does not let it be paused or resumed here" locale="zh" localized="其所有者不允许在此处暂停或继续"/>
+    <moqui.basic.LocalizedMessage original="Its owner gave it no email template, so nothing is sent by email" locale="zh" localized="其所有者未提供电子邮件模板，因此不会通过电子邮件发送"/>
+    <moqui.basic.LocalizedMessage original="Its owner keeps its attempts: nothing is sent from here." locale="zh" localized="其所有者保留尝试记录：此处不发送任何内容。"/>
+    <moqui.basic.LocalizedMessage original="Its owner reconciles it." locale="zh" localized="由其所有者核对。"/>
+    <moqui.basic.LocalizedMessage original="Its owner refused the export" locale="zh" localized="其所有者拒绝了导出"/>
+    <moqui.basic.LocalizedMessage original="Its owner registered no audience an administrator subscribes here: each user sets their own in their notification settings" locale="zh" localized="其所有者未登记管理员可在此订阅的受众：每位用户在自己的通知设置中设定"/>
+    <moqui.basic.LocalizedMessage original="Its owner registered no delivery setting as changed here" locale="zh" localized="其所有者未登记可在此更改的投递设置"/>
+    <moqui.basic.LocalizedMessage original="Its owner registered no detail of what each run did" locale="zh" localized="其所有者未登记每次运行做了什么"/>
+    <moqui.basic.LocalizedMessage original="Its owner registered no handler for delegated administration: it is changed by its owner's deployment, or by an instance administrator" locale="zh" localized="其所有者未登记委托管理的处理程序：由其所有者的部署或实例管理员更改"/>
+    <moqui.basic.LocalizedMessage original="Its owner registered nobody as its recipients here" locale="zh" localized="其所有者未在此登记任何收件人"/>
+    <moqui.basic.LocalizedMessage original="Its owner registered nothing an administrator changes here" locale="zh" localized="其所有者未登记管理员可在此更改的内容"/>
+    <moqui.basic.LocalizedMessage original="Its owner registered nothing an administrator changes here: it is its owner's deployment, or an instance administrator's in Tools" locale="zh" localized="其所有者未登记管理员可在此更改的内容：那是其所有者的部署，或实例管理员在工具中的设置"/>
+    <moqui.basic.LocalizedMessage original="Its owner says the outcome of its last run is unknown: that is settled in the owner's own place first" locale="zh" localized="其所有者称上次运行的结果未知：须先在所有者自己的地方处理"/>
+    <moqui.basic.LocalizedMessage original="Its owner tries it again on its own." locale="zh" localized="其所有者会自行再次尝试。"/>
+    <moqui.basic.LocalizedMessage original="Its owner's detail of the run is not available" locale="zh" localized="其所有者的运行详情不可用"/>
+    <moqui.basic.LocalizedMessage original="Its registration ended" locale="zh" localized="其注册已结束"/>
+    <moqui.basic.LocalizedMessage original="Its schedule cannot be read" locale="zh" localized="无法读取其排程"/>
+    <moqui.basic.LocalizedMessage original="Its schedule cannot be read, so the scheduler does not start it" locale="zh" localized="无法读取其排程，因此调度器不启动它"/>
+    <moqui.basic.LocalizedMessage original="Its schedule is its owner's and is not changed here" locale="zh" localized="其排程属于所有者，不在此处更改"/>
+    <moqui.basic.LocalizedMessage original="Its scopes could not be read" locale="zh" localized="无法读取其范围"/>
+    <moqui.basic.LocalizedMessage original="Its server stopped" locale="zh" localized="其服务器已停止"/>
+    <moqui.basic.LocalizedMessage original="Last ${when}, ${lag} ago" locale="zh" localized="上次 ${when}，${lag}前"/>
+    <moqui.basic.LocalizedMessage original="Last ${when}, ${lag} ago; every ${every}" locale="zh" localized="上次 ${when}，${lag}前；每 ${every}"/>
+    <moqui.basic.LocalizedMessage original="Last ${when}; every ${every}" locale="zh" localized="上次 ${when}；每 ${every}"/>
+    <moqui.basic.LocalizedMessage original="Last refreshed ${lag} ago" locale="zh" localized="上次刷新是 ${lag}前"/>
+    <moqui.basic.LocalizedMessage original="Link base URL" locale="zh" localized="链接基址 URL"/>
+    <moqui.basic.LocalizedMessage original="Local speech to text" locale="zh" localized="本地语音转文字"/>
+    <moqui.basic.LocalizedMessage original="Mail reception" locale="zh" localized="邮件接收"/>
+    <moqui.basic.LocalizedMessage original="Mail service" locale="zh" localized="邮件服务"/>
+    <moqui.basic.LocalizedMessage original="Map a column to a field of this import" locale="zh" localized="请把一列映射到此导入的一个字段"/>
+    <moqui.basic.LocalizedMessage original="Map the columns of this file" locale="zh" localized="请映射此文件的列"/>
+    <moqui.basic.LocalizedMessage original="May have been applied" locale="zh" localized="可能已应用"/>
+    <moqui.basic.LocalizedMessage original="May have been sent" locale="zh" localized="可能已发送"/>
+    <moqui.basic.LocalizedMessage original="media-server/turn-server@port, media-server/turn-server@tls-port and media-server/turn-server@external-urls are not set" locale="zh" localized="未设置 media-server/turn-server@port、media-server/turn-server@tls-port 和 media-server/turn-server@external-urls"/>
+    <moqui.basic.LocalizedMessage original="media-server@port is not set" locale="zh" localized="未设置 media-server@port"/>
+    <moqui.basic.LocalizedMessage original="Members sign in with no factor or address requirement of this group" locale="zh" localized="成员登录时不受此组的因素或地址要求约束"/>
+    <moqui.basic.LocalizedMessage original="Messages to and from this remote" locale="zh" localized="与此远程端往来的消息"/>
+    <moqui.basic.LocalizedMessage original="Microsoft: the directory, or common" locale="zh" localized="Microsoft：目录，或 common"/>
+    <moqui.basic.LocalizedMessage original="Mirrored off the server" locale="zh" localized="已镜像到服务器外"/>
+    <moqui.basic.LocalizedMessage original="MR Moqui app" locale="zh" localized="MR Moqui 应用"/>
+    <moqui.basic.LocalizedMessage original="Name the bundles to propose" locale="zh" localized="请指出要提议的功能包"/>
+    <moqui.basic.LocalizedMessage original="Name the device" locale="zh" localized="请指出设备"/>
+    <moqui.basic.LocalizedMessage original="Name the groups or the app to review" locale="zh" localized="请指出要复查的组或应用"/>
+    <moqui.basic.LocalizedMessage original="Name the sessions to end" locale="zh" localized="请指出要结束的会话"/>
+    <moqui.basic.LocalizedMessage original="Name the user" locale="zh" localized="请指出用户"/>
+    <moqui.basic.LocalizedMessage original="Neither the SYSTEM mail server nor a mail relay has an SMTP host, so the instance sends no mail" locale="zh" localized="SYSTEM 邮件服务器和邮件中继都没有 SMTP 主机，因此实例不发送邮件"/>
+    <moqui.basic.LocalizedMessage original="Nightly backup" locale="zh" localized="夜间备份"/>
+    <moqui.basic.LocalizedMessage original="No (by its inbox)" locale="zh" localized="否（随收件箱）"/>
+    <moqui.basic.LocalizedMessage original="No (not set)" locale="zh" localized="否（未设置）"/>
+    <moqui.basic.LocalizedMessage original="No archive has been verified by a restore here: test a restore on another machine" locale="zh" localized="此处尚未通过恢复验证任何备份文件：请在另一台机器上测试恢复"/>
+    <moqui.basic.LocalizedMessage original="No backup has finished yet" locale="zh" localized="还没有备份完成"/>
+    <moqui.basic.LocalizedMessage original="No backup has run yet" locale="zh" localized="还没有运行过备份"/>
+    <moqui.basic.LocalizedMessage original="No backup job" locale="zh" localized="无备份作业"/>
+    <moqui.basic.LocalizedMessage original="No build has it yet" locale="zh" localized="尚无构建包含它"/>
+    <moqui.basic.LocalizedMessage original="No email template" locale="zh" localized="无电子邮件模板"/>
+    <moqui.basic.LocalizedMessage original="No failed row to retry" locale="zh" localized="没有失败的行可重试"/>
+    <moqui.basic.LocalizedMessage original="No handler is registered for this: it stays as its owner deployed it" locale="zh" localized="没有为此登记处理程序：保持其所有者部署时的样子"/>
+    <moqui.basic.LocalizedMessage original="No job run failed in the last day" locale="zh" localized="最近一天没有作业运行失败"/>
+    <moqui.basic.LocalizedMessage original="No off-site mirror" locale="zh" localized="无异地镜像"/>
+    <moqui.basic.LocalizedMessage original="No off-site mirror: the archives are kept on this server only" locale="zh" localized="无异地镜像：备份文件只保存在此服务器上"/>
+    <moqui.basic.LocalizedMessage original="No role is mapped" locale="zh" localized="没有映射角色"/>
+    <moqui.basic.LocalizedMessage original="No schedule: it runs only when asked for" locale="zh" localized="无排程：仅在请求时运行"/>
+    <moqui.basic.LocalizedMessage original="No schedule: started by its owner" locale="zh" localized="无排程：由其所有者启动"/>
+    <moqui.basic.LocalizedMessage original="No sending address: nothing is sent to this remote" locale="zh" localized="无发送地址：不会向此远程端发送任何内容"/>
+    <moqui.basic.LocalizedMessage original="No such row" locale="zh" localized="没有该行"/>
+    <moqui.basic.LocalizedMessage original="None of the chosen fields may be read" locale="zh" localized="所选字段均不可读"/>
+    <moqui.basic.LocalizedMessage original="None of the rows could be applied" locale="zh" localized="没有一行能够应用"/>
+    <moqui.basic.LocalizedMessage original="None of them could be recovered" locale="zh" localized="没有一项能够恢复"/>
+    <moqui.basic.LocalizedMessage original="Not a registered app gate" locale="zh" localized="不是已登记的应用访问权限"/>
+    <moqui.basic.LocalizedMessage original="Not a run of the backup job" locale="zh" localized="不是备份作业的一次运行"/>
+    <moqui.basic.LocalizedMessage original="Not applied" locale="zh" localized="未应用"/>
+    <moqui.basic.LocalizedMessage original="Not available in this build" locale="zh" localized="此构建中不可用"/>
+    <moqui.basic.LocalizedMessage original="Not backed up: this instance has no backup job" locale="zh" localized="未备份：此实例没有备份作业"/>
+    <moqui.basic.LocalizedMessage original="Not configured" locale="zh" localized="未配置"/>
+    <moqui.basic.LocalizedMessage original="Not ended: its server stopped, or it was started by hand and never finished" locale="zh" localized="未结束：其服务器已停止，或为手动启动且从未完成"/>
+    <moqui.basic.LocalizedMessage original="Not ended: its server stopped, or the run was lost" locale="zh" localized="未结束：其服务器已停止，或该次运行已丢失"/>
+    <moqui.basic.LocalizedMessage original="Not granted" locale="zh" localized="未授予"/>
+    <moqui.basic.LocalizedMessage original="Not in a registered bundle" locale="zh" localized="不在已登记的功能包中"/>
+    <moqui.basic.LocalizedMessage original="Not in this build" locale="zh" localized="此构建中没有"/>
+    <moqui.basic.LocalizedMessage original="Not included: you may not read it" locale="zh" localized="未包含：您不能读取它"/>
+    <moqui.basic.LocalizedMessage original="Not mapped: gives nothing" locale="zh" localized="未映射：不授予任何内容"/>
+    <moqui.basic.LocalizedMessage original="Not routed" locale="zh" localized="未路由"/>
+    <moqui.basic.LocalizedMessage original="Not seen for longer than its idle timeout" locale="zh" localized="超过其空闲时限仍未出现"/>
+    <moqui.basic.LocalizedMessage original="Not started: ${detail}" locale="zh" localized="未启动：${detail}"/>
+    <moqui.basic.LocalizedMessage original="Not started: its port was busy" locale="zh" localized="未启动：其端口正忙"/>
+    <moqui.basic.LocalizedMessage original="Not turned on" locale="zh" localized="未开启"/>
+    <moqui.basic.LocalizedMessage original="Nothing changes" locale="zh" localized="没有任何更改"/>
+    <moqui.basic.LocalizedMessage original="Nothing to revoke" locale="zh" localized="没有可撤销的内容"/>
+    <moqui.basic.LocalizedMessage original="Nothing was sent. It can be sent again." locale="zh" localized="没有发送任何内容。可以再次发送。"/>
+    <moqui.basic.LocalizedMessage original="Off-site mirror" locale="zh" localized="异地镜像"/>
+    <moqui.basic.LocalizedMessage original="Office documents" locale="zh" localized="办公文档"/>
+    <moqui.basic.LocalizedMessage original="On the server only" locale="zh" localized="仅在服务器上"/>
+    <moqui.basic.LocalizedMessage original="One server" locale="zh" localized="一台服务器"/>
+    <moqui.basic.LocalizedMessage original="Only a custom group's purpose changes, to another registered purpose" locale="zh" localized="只有自定义组的用途可以改成另一个已登记的用途"/>
+    <moqui.basic.LocalizedMessage original="Only a failed row is retried" locale="zh" localized="只重试失败的行"/>
+    <moqui.basic.LocalizedMessage original="Only a validated row is applied" locale="zh" localized="只应用已验证的行"/>
+    <moqui.basic.LocalizedMessage original="Only the gateway's addresses may deliver, and only its Authentication-Results are kept" locale="zh" localized="只有网关的地址可以投递，并且只保留其 Authentication-Results"/>
+    <moqui.basic.LocalizedMessage original="Only when it differs from the one received messages are verified by" locale="zh" localized="仅当它不同于用于验证所收消息的那个时"/>
+    <moqui.basic.LocalizedMessage original="Only with a separate SMTP user" locale="zh" localized="仅当另有 SMTP 用户时"/>
+    <moqui.basic.LocalizedMessage original="Outcome unknown" locale="zh" localized="结果未知"/>
+    <moqui.basic.LocalizedMessage original="Outcome unknown at its owner" locale="zh" localized="在其所有者处结果未知"/>
+    <moqui.basic.LocalizedMessage original="Outside its dates" locale="zh" localized="不在其日期内"/>
+    <moqui.basic.LocalizedMessage original="Partly delivered" locale="zh" localized="部分送达"/>
+    <moqui.basic.LocalizedMessage original="Paused: no backup is made on a schedule until an instance administrator resumes the job" locale="zh" localized="已暂停：在实例管理员继续该作业之前，不会按排程做备份"/>
+    <moqui.basic.LocalizedMessage original="Personal and shared mailboxes read over IMAP and POP3, with a provider's OAuth sign-in" locale="zh" localized="通过 IMAP 和 POP3 读取的个人和共享邮箱，使用提供商的 OAuth 登录"/>
+    <moqui.basic.LocalizedMessage original="Physical backup (a directory)" locale="zh" localized="物理备份（一个目录）"/>
+    <moqui.basic.LocalizedMessage original="Print server" locale="zh" localized="打印服务器"/>
+    <moqui.basic.LocalizedMessage original="Printer on the server" locale="zh" localized="服务器上的打印机"/>
+    <moqui.basic.LocalizedMessage original="Production or test, as the remote's standard codes it (P or T)" locale="zh" localized="生产或测试，按远程端标准的编码（P 或 T）"/>
+    <moqui.basic.LocalizedMessage original="Public address" locale="zh" localized="公共地址"/>
+    <moqui.basic.LocalizedMessage original="Read only here" locale="zh" localized="此处只读"/>
+    <moqui.basic.LocalizedMessage original="Registered for this app gate, not bound" locale="zh" localized="已为此应用访问权限登记，尚未绑定"/>
+    <moqui.basic.LocalizedMessage original="Registered with another type" locale="zh" localized="已用另一种类型登记"/>
+    <moqui.basic.LocalizedMessage original="Registered, no action" locale="zh" localized="已登记，无动作"/>
+    <moqui.basic.LocalizedMessage original="Replaces the translation there" locale="zh" localized="替换已有译文"/>
+    <moqui.basic.LocalizedMessage original="Report alerts are not sent to anyone" locale="zh" localized="报表警报不发送给任何人"/>
+    <moqui.basic.LocalizedMessage original="Report alerts are sent to their recipients" locale="zh" localized="报表警报会发送给其收件人"/>
+    <moqui.basic.LocalizedMessage original="Report emails have a mail server" locale="zh" localized="报表邮件有邮件服务器"/>
+    <moqui.basic.LocalizedMessage original="Report emails have no mail server to send through" locale="zh" localized="报表邮件没有可用于发送的邮件服务器"/>
+    <moqui.basic.LocalizedMessage original="Reported delivered" locale="zh" localized="已报告送达"/>
+    <moqui.basic.LocalizedMessage original="Repositories over HTTPS on the web address (and over SSH, above)" locale="zh" localized="位于 Web 地址上的 HTTPS 代码库（以及上面的 SSH）"/>
+    <moqui.basic.LocalizedMessage original="Resource files" locale="zh" localized="资源文件"/>
+    <moqui.basic.LocalizedMessage original="Running or not ended" locale="zh" localized="运行中或未结束"/>
+    <moqui.basic.LocalizedMessage original="Running, not trusted" locale="zh" localized="运行中，未受信任"/>
+    <moqui.basic.LocalizedMessage original="SAML sign-in is not available in this build" locale="zh" localized="此构建不提供 SAML 登录"/>
+    <moqui.basic.LocalizedMessage original="Sealed grants" locale="zh" localized="已封存的授权"/>
+    <moqui.basic.LocalizedMessage original="Sealed permission" locale="zh" localized="已封存的权限"/>
+    <moqui.basic.LocalizedMessage original="Send through this relay without owning it" locale="zh" localized="通过此中继发送，但不拥有它"/>
+    <moqui.basic.LocalizedMessage original="Sensitive values" locale="zh" localized="敏感值"/>
+    <moqui.basic.LocalizedMessage original="Sent and received" locale="zh" localized="已发送和已接收"/>
+    <moqui.basic.LocalizedMessage original="Sent or consumed" locale="zh" localized="已发送或已消费"/>
+    <moqui.basic.LocalizedMessage original="Sent through this relay" locale="zh" localized="经此中继发送"/>
+    <moqui.basic.LocalizedMessage original="Separate SMTP password" locale="zh" localized="单独的 SMTP 密码"/>
+    <moqui.basic.LocalizedMessage original="Separate SMTP user" locale="zh" localized="单独的 SMTP 用户"/>
+    <moqui.basic.LocalizedMessage original="Set for this job" locale="zh" localized="为此作业设置"/>
+    <moqui.basic.LocalizedMessage original="Settled by a person" locale="zh" localized="已由人处理"/>
+    <moqui.basic.LocalizedMessage original="Settled with its owner, which keeps its attempts: nothing is sent from here." locale="zh" localized="已与其所有者处理完毕，由其保留尝试记录：此处不发送任何内容。"/>
+    <moqui.basic.LocalizedMessage original="Sign in to administer access" locale="zh" localized="登录以管理访问"/>
+    <moqui.basic.LocalizedMessage original="Sign in to administer devices" locale="zh" localized="登录以管理设备"/>
+    <moqui.basic.LocalizedMessage original="Sign in to administer the configuration" locale="zh" localized="登录以管理配置"/>
+    <moqui.basic.LocalizedMessage original="Sign in to check the administration path" locale="zh" localized="登录以检查管理路径"/>
+    <moqui.basic.LocalizedMessage original="Sign in to read the audit log" locale="zh" localized="登录以阅读审计日志"/>
+    <moqui.basic.LocalizedMessage original="Sign in to see sessions" locale="zh" localized="登录以查看会话"/>
+    <moqui.basic.LocalizedMessage original="Sign in with this provider" locale="zh" localized="使用此提供商登录"/>
+    <moqui.basic.LocalizedMessage original="Signed out everywhere by the account itself" locale="zh" localized="由账号自己在各处退出登录"/>
+    <moqui.basic.LocalizedMessage original="Signs in through this remote first" locale="zh" localized="先通过此远程端登录"/>
+    <moqui.basic.LocalizedMessage original="Signs messages sent, when no other secret for sending is given" locale="zh" localized="在未另行提供发送密钥时，为发出的消息签名"/>
+    <moqui.basic.LocalizedMessage original="sip-server@port and sip-server@tls-port are not set" locale="zh" localized="未设置 sip-server@port 和 sip-server@tls-port"/>
+    <moqui.basic.LocalizedMessage original="Skipped: this server runs no embedded database, so nothing was backed up" locale="zh" localized="已跳过：此服务器不运行内嵌数据库，因此没有备份任何内容"/>
+    <moqui.basic.LocalizedMessage original="smtp-server@listen-port is not set" locale="zh" localized="未设置 smtp-server@listen-port"/>
+    <moqui.basic.LocalizedMessage original="Someone reported that it arrived. Nothing more is done here." locale="zh" localized="有人报告它已到达。此处不再做其他处理。"/>
+    <moqui.basic.LocalizedMessage original="Someone reported that it did not arrive. It can be sent again." locale="zh" localized="有人报告它未到达。可以再次发送。"/>
+    <moqui.basic.LocalizedMessage original="Speech to text during a call, by the speech provider" locale="zh" localized="通话期间由语音提供商做语音转文字"/>
+    <moqui.basic.LocalizedMessage original="SSH and SFTP" locale="zh" localized="SSH 和 SFTP"/>
+    <moqui.basic.LocalizedMessage original="ssh-server@port is not set, or ssh-server@enabled is false" locale="zh" localized="未设置 ssh-server@port，或 ssh-server@enabled 为 false"/>
+    <moqui.basic.LocalizedMessage original="Staged, not committed" locale="zh" localized="已暂存，未提交"/>
+    <moqui.basic.LocalizedMessage original="Stopped: a copy of its cookie was used" locale="zh" localized="已停止：使用了其 cookie 的副本"/>
+    <moqui.basic.LocalizedMessage original="Stopped: its registration ended" locale="zh" localized="已停止：其注册已结束"/>
+    <moqui.basic.LocalizedMessage original="Stopped: not seen for longer than its idle timeout" locale="zh" localized="已停止：超过其空闲时限仍未出现"/>
+    <moqui.basic.LocalizedMessage original="Telemetry is being lost, so health is unknown" locale="zh" localized="遥测正在丢失，因此健康状况未知"/>
+    <moqui.basic.LocalizedMessage original="Telemetry is off or not searchable, so health is unknown" locale="zh" localized="遥测已关闭或不可搜索，因此健康状况未知"/>
+    <moqui.basic.LocalizedMessage original="Telemetry is received" locale="zh" localized="正在接收遥测"/>
+    <moqui.basic.LocalizedMessage original="Test page
+
+This page was printed from Admin to test the printer ${networkPrinterId}.
+" locale="zh" localized="测试页
+
+此页由 Admin 打印，用于测试打印机 ${networkPrinterId}。
+"/>
+    <moqui.basic.LocalizedMessage original="Test the connection as it is configured now: a passing test enables it" locale="zh" localized="按当前配置测试连接：测试通过后即启用"/>
+    <moqui.basic.LocalizedMessage original="Test the provider as it is configured now, then enable it" locale="zh" localized="按当前配置测试提供商，然后启用它"/>
+    <moqui.basic.LocalizedMessage original="Tested, not enabled" locale="zh" localized="已测试，未启用"/>
+    <moqui.basic.LocalizedMessage original="That code is not valid, was already used or has expired" locale="zh" localized="该代码无效、已被使用或已过期"/>
+    <moqui.basic.LocalizedMessage original="That operation key was used for another export or import" locale="zh" localized="该操作键已用于另一次导出或导入"/>
+    <moqui.basic.LocalizedMessage original="That schedule never comes due again" locale="zh" localized="该排程不会再到期"/>
+    <moqui.basic.LocalizedMessage original="That user has no setting for this topic" locale="zh" localized="该用户没有此主题的设置"/>
+    <moqui.basic.LocalizedMessage original="That user is not one of its recipients" locale="zh" localized="该用户不是其收件人"/>
+    <moqui.basic.LocalizedMessage original="That user is one of its recipients already" locale="zh" localized="该用户已经是其收件人"/>
+    <moqui.basic.LocalizedMessage original="The .env file" locale="zh" localized=".env 文件"/>
+    <moqui.basic.LocalizedMessage original="The address the server binds accepts a connection from this server" locale="zh" localized="服务器绑定的地址接受来自此服务器的连接"/>
+    <moqui.basic.LocalizedMessage original="The backup could not be started" locale="zh" localized="无法开始备份"/>
+    <moqui.basic.LocalizedMessage original="The backup directory could not be read" locale="zh" localized="无法读取备份目录"/>
+    <moqui.basic.LocalizedMessage original="The backup directory is not a directory" locale="zh" localized="备份目录不是目录"/>
+    <moqui.basic.LocalizedMessage original="The built-in SSH server: SFTP, the terminal client and git over SSH" locale="zh" localized="内置 SSH 服务器：SFTP、终端客户端以及通过 SSH 的 git"/>
+    <moqui.basic.LocalizedMessage original="The check could not be run on this server" locale="zh" localized="无法在此服务器上运行该检查"/>
+    <moqui.basic.LocalizedMessage original="The code is shown only once: revoke the device and register it again for a new code" locale="zh" localized="代码只显示一次：请撤销设备并重新登记以获得新代码"/>
+    <moqui.basic.LocalizedMessage original="The code is shown to the administrator who registered the device" locale="zh" localized="代码显示给登记该设备的管理员"/>
+    <moqui.basic.LocalizedMessage original="The configuration changed: test the connection as it is now, and the test enables it" locale="zh" localized="配置已更改：按现在的样子测试连接，测试通过后即启用"/>
+    <moqui.basic.LocalizedMessage original="The configuration changed: test the provider as it is now, then enable it" locale="zh" localized="配置已更改：按现在的样子测试提供商，然后启用它"/>
+    <moqui.basic.LocalizedMessage original="The configuration is complete" locale="zh" localized="配置已完整"/>
+    <moqui.basic.LocalizedMessage original="The connection is not available" locale="zh" localized="连接不可用"/>
+    <moqui.basic.LocalizedMessage original="The Constitution could not be read" locale="zh" localized="无法读取宪章"/>
+    <moqui.basic.LocalizedMessage original="The content type is not a media type" locale="zh" localized="内容类型不是媒体类型"/>
+    <moqui.basic.LocalizedMessage original="The database could not be read" locale="zh" localized="无法读取数据库"/>
+    <moqui.basic.LocalizedMessage original="The database could not be read, so no backup is started" locale="zh" localized="无法读取数据库，因此不开始备份"/>
+    <moqui.basic.LocalizedMessage original="The database's own provider" locale="zh" localized="数据库自己的提供商"/>
+    <moqui.basic.LocalizedMessage original="The dates must end after they start" locale="zh" localized="结束日期必须晚于开始日期"/>
+    <moqui.basic.LocalizedMessage original="The deployment's configuration (it wins over what is entered here)" locale="zh" localized="部署的配置（优先于此处填写的内容）"/>
+    <moqui.basic.LocalizedMessage original="The endpoint changed: the connection is disabled until a test of it passes" locale="zh" localized="端点已更改：连接已禁用，直至测试通过"/>
+    <moqui.basic.LocalizedMessage original="The endpoint changed: the connection stays disabled: test it as it is now, then enable it" locale="zh" localized="端点已更改：连接保持禁用：请按现在的样子测试，然后启用"/>
+    <moqui.basic.LocalizedMessage original="The endpoint changed: the provider is disabled until a test of it passes and it is enabled again" locale="zh" localized="端点已更改：提供商已禁用，直至测试通过并再次启用"/>
+    <moqui.basic.LocalizedMessage original="The endpoint changed: the stored secret was cleared, and the connection is disabled until a test of it passes" locale="zh" localized="端点已更改：已清除所存密钥，连接已禁用，直至测试通过"/>
+    <moqui.basic.LocalizedMessage original="The endpoint changed: the stored secret was cleared, and the connection stays disabled: test it as it is now, then enable it" locale="zh" localized="端点已更改：已清除所存密钥，连接保持禁用：请按现在的样子测试，然后启用"/>
+    <moqui.basic.LocalizedMessage original="The endpoint changed: the stored secret was cleared, and the provider is disabled until a test of it passes and it is enabled again" locale="zh" localized="端点已更改：已清除所存密钥，提供商已禁用，直至测试通过并再次启用"/>
+    <moqui.basic.LocalizedMessage original="The field-encryption key" locale="zh" localized="字段加密密钥"/>
+    <moqui.basic.LocalizedMessage original="The file is empty" locale="zh" localized="文件是空的"/>
+    <moqui.basic.LocalizedMessage original="The file is not text: save it as UTF-8 CSV" locale="zh" localized="文件不是文本：请另存为 UTF-8 CSV"/>
+    <moqui.basic.LocalizedMessage original="The file is not UTF-8 text: save it as CSV (UTF-8)" locale="zh" localized="文件不是 UTF-8 文本：请另存为 CSV（UTF-8）"/>
+    <moqui.basic.LocalizedMessage original="The file pattern is not a regular expression" locale="zh" localized="文件模式不是正则表达式"/>
+    <moqui.basic.LocalizedMessage original="The file would be larger than ${kib} KiB: narrow the selection. Nothing was exported." locale="zh" localized="文件将大于 ${kib} KiB：请缩小所选范围。未导出任何内容。"/>
+    <moqui.basic.LocalizedMessage original="The first backup is running: nothing has been backed up yet" locale="zh" localized="第一次备份正在进行：尚未备份任何内容"/>
+    <moqui.basic.LocalizedMessage original="The group is not available" locale="zh" localized="组不可用"/>
+    <moqui.basic.LocalizedMessage original="The import changed since this preview: validate and review it again" locale="zh" localized="自此次预览以来导入已更改：请重新验证并复查"/>
+    <moqui.basic.LocalizedMessage original="The instance's own Constitution applies" locale="zh" localized="适用实例自己的宪章"/>
+    <moqui.basic.LocalizedMessage original="The instance's settings and secrets (.env) are not in an archive." locale="zh" localized="实例的设置和密钥（.env）不在备份文件中。"/>
+    <moqui.basic.LocalizedMessage original="The job queue was full" locale="zh" localized="作业队列已满"/>
+    <moqui.basic.LocalizedMessage original="The job's code failed unexpectedly" locale="zh" localized="作业的代码意外失败"/>
+    <moqui.basic.LocalizedMessage original="The listener is bound to this machine only (smtp-server@listen-host) and no allowed address is on it: the gateway cannot connect" locale="zh" localized="监听器只绑定在本机（smtp-server@listen-host），其上没有允许的地址：网关无法连接"/>
+    <moqui.basic.LocalizedMessage original="The listener is not running, so nothing is received" locale="zh" localized="监听器未在运行，因此不会收到任何内容"/>
+    <moqui.basic.LocalizedMessage original="The mail the instance sends through its relays (SMTP)" locale="zh" localized="实例通过其中继发送的邮件（SMTP）"/>
+    <moqui.basic.LocalizedMessage original="The media of audio and video calls (WebRTC)" locale="zh" localized="音频和视频通话的媒体（WebRTC）"/>
+    <moqui.basic.LocalizedMessage original="The membership has already ended" locale="zh" localized="成员资格已经结束"/>
+    <moqui.basic.LocalizedMessage original="The membership is not available" locale="zh" localized="成员资格不可用"/>
+    <moqui.basic.LocalizedMessage original="The membership must end after it starts" locale="zh" localized="成员资格的结束必须晚于开始"/>
+    <moqui.basic.LocalizedMessage original="The message was cancelled" locale="zh" localized="消息已取消"/>
+    <moqui.basic.LocalizedMessage original="The message was sent" locale="zh" localized="消息已发送"/>
+    <moqui.basic.LocalizedMessage original="The message was settled as reported delivered: it is not sent again" locale="zh" localized="消息已按已报告送达了结：不会再次发送"/>
+    <moqui.basic.LocalizedMessage original="The name clients are given has an address, and its port accepts a connection from this server" locale="zh" localized="发给客户端的名称有地址，且其端口接受来自此服务器的连接"/>
+    <moqui.basic.LocalizedMessage original="The nightly backup job is not set up" locale="zh" localized="夜间备份作业尚未设置"/>
+    <moqui.basic.LocalizedMessage original="The nightly database backup is paused" locale="zh" localized="夜间数据库备份已暂停"/>
+    <moqui.basic.LocalizedMessage original="The nightly database backup runs" locale="zh" localized="夜间数据库备份会运行"/>
+    <moqui.basic.LocalizedMessage original="The OAuth client registered at the provider for this deployment" locale="zh" localized="为此部署在提供商处注册的 OAuth 客户端"/>
+    <moqui.basic.LocalizedMessage original="The operation key was used for another import or other content" locale="zh" localized="该操作键已用于另一次导入或其他内容"/>
+    <moqui.basic.LocalizedMessage original="The order is a whole number" locale="zh" localized="顺序是一个整数"/>
+    <moqui.basic.LocalizedMessage original="The priority is a whole number" locale="zh" localized="优先级是一个整数"/>
+    <moqui.basic.LocalizedMessage original="The protocol is built, turned on and started, and what it trusts holds" locale="zh" localized="协议已构建、已开启并已启动，且其所信任的内容成立"/>
+    <moqui.basic.LocalizedMessage original="The provider could not be reached" locale="zh" localized="无法连接提供商"/>
+    <moqui.basic.LocalizedMessage original="The provider has no configuration yet" locale="zh" localized="提供商还没有配置"/>
+    <moqui.basic.LocalizedMessage original="The provider has no supported type" locale="zh" localized="提供商没有受支持的类型"/>
+    <moqui.basic.LocalizedMessage original="The provider is not available" locale="zh" localized="提供商不可用"/>
+    <moqui.basic.LocalizedMessage original="The provider's API address: an https URL" locale="zh" localized="提供商的 API 地址：一个 https URL"/>
+    <moqui.basic.LocalizedMessage original="The relay is disabled: a test message is sent once the connection test has enabled it" locale="zh" localized="中继已禁用：连接测试启用它之后才会发送测试消息"/>
+    <moqui.basic.LocalizedMessage original="The report alert topic is not installed" locale="zh" localized="报表警报主题未安装"/>
+    <moqui.basic.LocalizedMessage original="The report email template is not installed" locale="zh" localized="报表电子邮件模板未安装"/>
+    <moqui.basic.LocalizedMessage original="The row could not be validated" locale="zh" localized="无法验证该行"/>
+    <moqui.basic.LocalizedMessage original="The row is no longer valid" locale="zh" localized="该行已不再有效"/>
+    <moqui.basic.LocalizedMessage original="The row is not valid" locale="zh" localized="该行无效"/>
+    <moqui.basic.LocalizedMessage original="The row was not applied" locale="zh" localized="该行未应用"/>
+    <moqui.basic.LocalizedMessage original="The run's items could not be read" locale="zh" localized="无法读取该次运行的条目"/>
+    <moqui.basic.LocalizedMessage original="The schedule is not a cron expression" locale="zh" localized="排程不是 cron 表达式"/>
+    <moqui.basic.LocalizedMessage original="The schedule is not a cron expression the scheduler reads" locale="zh" localized="排程不是调度器能读取的 cron 表达式"/>
+    <moqui.basic.LocalizedMessage original="The scheduler" locale="zh" localized="调度器"/>
+    <moqui.basic.LocalizedMessage original="The scopes of this export could not be read. Try again later." locale="zh" localized="无法读取此导出的范围。请稍后再试。"/>
+    <moqui.basic.LocalizedMessage original="The scopes of this import could not be read. Try again later." locale="zh" localized="无法读取此导入的范围。请稍后再试。"/>
+    <moqui.basic.LocalizedMessage original="The secret is too long or holds control characters" locale="zh" localized="密钥过长或含有控制字符"/>
+    <moqui.basic.LocalizedMessage original="The server refused it. It can be sent again once what it refused is put right." locale="zh" localized="服务器拒绝了它。把被拒绝的问题改正后可以再次发送。"/>
+    <moqui.basic.LocalizedMessage original="The service's default" locale="zh" localized="服务的默认值"/>
+    <moqui.basic.LocalizedMessage original="The session was lost part way. Look in the mail server's own log before anything is sent again." locale="zh" localized="传输会话中途丢失。再次发送之前，请查看邮件服务器自己的日志。"/>
+    <moqui.basic.LocalizedMessage original="The settings are not available to you." locale="zh" localized="这些设置对您不可用。"/>
+    <moqui.basic.LocalizedMessage original="The shipped Constitution applies" locale="zh" localized="适用随附的宪章"/>
+    <moqui.basic.LocalizedMessage original="The sign-in mail goes through this relay: an access administrator starts it" locale="zh" localized="登录邮件经过此中继：由访问管理员启动它"/>
+    <moqui.basic.LocalizedMessage original="The SMTP listener that takes mail for hosted and shared accounts from the edge gateway" locale="zh" localized="从边缘网关接收托管账号和共享账号邮件的 SMTP 监听器"/>
+    <moqui.basic.LocalizedMessage original="The staged rows of this import were removed: stage the file again" locale="zh" localized="此导入已暂存的行已被移除：请重新暂存文件"/>
+    <moqui.basic.LocalizedMessage original="The SYSTEM mail server has an SMTP host" locale="zh" localized="SYSTEM 邮件服务器有 SMTP 主机"/>
+    <moqui.basic.LocalizedMessage original="The SYSTEM mail server has no SMTP host, so the instance sends no mail" locale="zh" localized="SYSTEM 邮件服务器没有 SMTP 主机，因此实例不发送邮件"/>
+    <moqui.basic.LocalizedMessage original="The translation has a control character" locale="zh" localized="译文含有控制字符"/>
+    <moqui.basic.LocalizedMessage original="The translation may not be a link or a path" locale="zh" localized="译文不能是链接或路径"/>
+    <moqui.basic.LocalizedMessage original="The user it runs as cannot sign in" locale="zh" localized="它用来运行的用户无法登录"/>
+    <moqui.basic.LocalizedMessage original="There is no proposed change to apply" locale="zh" localized="没有可应用的提议更改"/>
+    <moqui.basic.LocalizedMessage original="This build leaves it out" locale="zh" localized="此构建未包含它"/>
+    <moqui.basic.LocalizedMessage original="This build leaves it out (the ${feature} feature)" locale="zh" localized="此构建未包含它（${feature} 功能）"/>
+    <moqui.basic.LocalizedMessage original="This check looks up the public name and connects to it from this server. Confirm it to run it." locale="zh" localized="此检查会查询公共名称并从本服务器连接它。请确认后再运行。"/>
+    <moqui.basic.LocalizedMessage original="This export is not available" locale="zh" localized="此导出不可用"/>
+    <moqui.basic.LocalizedMessage original="This export takes no scope" locale="zh" localized="此导出不接受范围"/>
+    <moqui.basic.LocalizedMessage original="This import is not available" locale="zh" localized="此导入不可用"/>
+    <moqui.basic.LocalizedMessage original="This import takes no scope" locale="zh" localized="此导入不接受范围"/>
+    <moqui.basic.LocalizedMessage original="This instance's database is not run by this server: it is backed up by its provider's own means" locale="zh" localized="此实例的数据库不由此服务器运行：由其提供商自行备份"/>
+    <moqui.basic.LocalizedMessage original="This is not available to you." locale="zh" localized="这对您不可用。"/>
+    <moqui.basic.LocalizedMessage original="This mail server belongs to a mail account: it is changed in the account's own settings, not here" locale="zh" localized="此邮件服务器属于一个邮件账号：在该账号自己的设置中更改，不在此处"/>
+    <moqui.basic.LocalizedMessage original="This message is in a mail account's Outbox: its sender sends it again or takes it back" locale="zh" localized="此消息在某个邮件账号的发件箱中：由其发件人再次发送或收回"/>
+    <moqui.basic.LocalizedMessage original="This message type is not changed here: its owner registered no handler for delegated administration" locale="zh" localized="此消息类型不在此处更改：其所有者未登记委托管理的处理程序"/>
+    <moqui.basic.LocalizedMessage original="This printer's server names a scheme or a port of its own: an instance administrator changes it in Tools" locale="zh" localized="此打印机的服务器自带方案或端口：由实例管理员在工具中更改"/>
+    <moqui.basic.LocalizedMessage original="This provider's identity mappings carry an expression or a mapping service: an instance administrator changes them in Tools" locale="zh" localized="此提供商的身份映射含有表达式或映射服务：由实例管理员在工具中更改"/>
+    <moqui.basic.LocalizedMessage original="This remote does not post over https (SFTP or a transport of its own): an instance administrator changes it in Tools" locale="zh" localized="此远程端不通过 https 提交（SFTP 或它自己的传输）：由实例管理员在工具中更改"/>
+    <moqui.basic.LocalizedMessage original="This remote receives over SFTP: an instance administrator changes it in Tools" locale="zh" localized="此远程端通过 SFTP 接收：由实例管理员在工具中更改"/>
+    <moqui.basic.LocalizedMessage original="This row has more cells than the header" locale="zh" localized="此行的单元格比表头多"/>
+    <moqui.basic.LocalizedMessage original="This topic asks for a decision: its notifications are always kept" locale="zh" localized="此主题需要一项决定：其通知始终保留"/>
+    <moqui.basic.LocalizedMessage original="TURN, for browsers that cannot reach the call media directly" locale="zh" localized="TURN，供无法直接到达通话媒体的浏览器使用"/>
+    <moqui.basic.LocalizedMessage original="Turned on, and the server did not report it at startup" locale="zh" localized="已开启，但服务器在启动时未报告它"/>
+    <moqui.basic.LocalizedMessage original="Unknown device" locale="zh" localized="未知设备"/>
+    <moqui.basic.LocalizedMessage original="Unknown: the backup job keeps only its failed runs, so a run that succeeded left no record" locale="zh" localized="未知：备份作业只保留失败的运行，因此成功的运行没有留下记录"/>
+    <moqui.basic.LocalizedMessage original="Unknown: the database could not be read" locale="zh" localized="未知：无法读取数据库"/>
+    <moqui.basic.LocalizedMessage original="Unknown: this instance's database is not run by this server. Its backups are its provider's, and nothing here knows whether they are made." locale="zh" localized="未知：此实例的数据库不由此服务器运行。其备份由提供商负责，此处不知道是否已做。"/>
+    <moqui.basic.LocalizedMessage original="Users and memberships" locale="zh" localized="用户与成员资格"/>
+    <moqui.basic.LocalizedMessage original="Verifies what the provider sends here" locale="zh" localized="验证提供商发到此处的内容"/>
+    <moqui.basic.LocalizedMessage original="Waiting for a worker" locale="zh" localized="等待工作进程"/>
+    <moqui.basic.LocalizedMessage original="Waiting for its code to be entered on the device" locale="zh" localized="等待在设备上输入其代码"/>
+    <moqui.basic.LocalizedMessage original="Waiting for its code to be shown" locale="zh" localized="等待显示其代码"/>
+    <moqui.basic.LocalizedMessage original="Waiting or in progress" locale="zh" localized="等待中或进行中"/>
+    <moqui.basic.LocalizedMessage original="Waiting to be consumed" locale="zh" localized="等待消费"/>
+    <moqui.basic.LocalizedMessage original="Waiting to be sent" locale="zh" localized="等待发送"/>
+    <moqui.basic.LocalizedMessage original="Webhook signature key" locale="zh" localized="webhook 签名密钥"/>
+    <moqui.basic.LocalizedMessage original="What a sign-in is verified by changed: the provider is disabled until a test of it passes and it is enabled again" locale="zh" localized="登录的验证依据已更改：提供商已禁用，直至测试通过并再次启用"/>
+    <moqui.basic.LocalizedMessage original="What a sign-in is verified by changed: the stored secret was cleared, and the provider is disabled until a test of it passes and it is enabled again" locale="zh" localized="登录的验证依据已更改：已清除所存密钥，提供商已禁用，直至测试通过并再次启用"/>
+    <moqui.basic.LocalizedMessage original="What the connection is tested by changed: the connection is disabled until a test of it passes" locale="zh" localized="连接的测试依据已更改：连接已禁用，直至测试通过"/>
+    <moqui.basic.LocalizedMessage original="What the connection is tested by changed: the connection stays disabled: test it as it is now, then enable it" locale="zh" localized="连接的测试依据已更改：连接保持禁用：请按现在的样子测试，然后启用"/>
+    <moqui.basic.LocalizedMessage original="What the connection is tested by changed: the stored secret was cleared, and the connection is disabled until a test of it passes" locale="zh" localized="连接的测试依据已更改：已清除所存密钥，连接已禁用，直至测试通过"/>
+    <moqui.basic.LocalizedMessage original="What the connection is tested by changed: the stored secret was cleared, and the connection stays disabled: test it as it is now, then enable it" locale="zh" localized="连接的测试依据已更改：已清除所存密钥，连接保持禁用：请按现在的样子测试，然后启用"/>
+    <moqui.basic.LocalizedMessage original="Where messages are posted: an https URL" locale="zh" localized="消息提交的位置：一个 https URL"/>
+    <moqui.basic.LocalizedMessage original="Where this remote is used could not be read, so it is not changed here" locale="zh" localized="无法读取此远程端的使用位置，因此不在此处更改"/>
+    <moqui.basic.LocalizedMessage original="XMPP for the users' own chat apps" locale="zh" localized="供用户自己的聊天应用使用的 XMPP"/>
+    <moqui.basic.LocalizedMessage original="xmpp-server@domain is not set" locale="zh" localized="未设置 xmpp-server@domain"/>
+    <moqui.basic.LocalizedMessage original="Yes (by its inbox)" locale="zh" localized="是（随收件箱）"/>
+    <moqui.basic.LocalizedMessage original="Yes (not set)" locale="zh" localized="是（未设置）"/>
+    <moqui.basic.LocalizedMessage original="Your account has no email address to send the test message to" locale="zh" localized="您的账号没有可用来发送测试消息的电子邮件地址"/>
+    <moqui.basic.LocalizedMessage original="Your own sign-ins and credentials are ended in your account settings" locale="zh" localized="您自己的登录和凭据在账号设置中结束"/>
+</entity-facade-xml>

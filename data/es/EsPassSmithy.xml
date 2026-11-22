@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+
+<entity-facade-xml type="es">
+    <moqui.basic.LocalizedMessage original="${ahead} ahead, ${behind} behind" locale="es" localized="${ahead} por delante, ${behind} por detrás"/>
+    <moqui.basic.LocalizedMessage original="${ahead} ahead, ${behind} behind · conflicts" locale="es" localized="${ahead} por delante, ${behind} por detrás · conflictos"/>
+    <moqui.basic.LocalizedMessage original="${ahead} ahead, ${behind} behind · conflicts in ${paths}" locale="es" localized="${ahead} por delante, ${behind} por detrás · conflictos en ${paths}"/>
+    <moqui.basic.LocalizedMessage original="${ahead} ahead, ${behind} behind · merges cleanly" locale="es" localized="${ahead} por delante, ${behind} por detrás · se fusiona sin conflictos"/>
+    <moqui.basic.LocalizedMessage original="${clone.label} clone address" locale="es" localized="Dirección de clonación ${clone.label}"/>
+    <moqui.basic.LocalizedMessage original="${count} file changed" locale="es" localized="${count} archivo modificado"/>
+    <moqui.basic.LocalizedMessage original="${count} files changed" locale="es" localized="${count} archivos modificados"/>
+    <moqui.basic.LocalizedMessage original="${count} item not shown" locale="es" localized="${count} elemento no mostrado"/>
+    <moqui.basic.LocalizedMessage original="${count} items not shown" locale="es" localized="${count} elementos no mostrados"/>
+    <moqui.basic.LocalizedMessage original="${file.status}  from ${file.oldPath}" locale="es" localized="${file.status}  desde ${file.oldPath}"/>
+    <moqui.basic.LocalizedMessage original="${tab.count} open" locale="es" localized="${tab.count} abiertas"/>
+    <moqui.basic.LocalizedMessage original="A branch is pushed" locale="es" localized="Se envía una rama"/>
+    <moqui.basic.LocalizedMessage original="A file is at that path now. Commit again to replace it, or choose another path." locale="es" localized="Ahora hay un archivo en esa ruta. Haga otra confirmación para reemplazarlo, o elija otra ruta."/>
+    <moqui.basic.LocalizedMessage original="A file is at that path. Choose another path." locale="es" localized="Hay un archivo en esa ruta. Elija otra ruta."/>
+    <moqui.basic.LocalizedMessage original="A file is edited on a branch, not on a tag or a commit." locale="es" localized="Un archivo se edita en una rama, no en una etiqueta ni en una confirmación."/>
+    <moqui.basic.LocalizedMessage original="A first contribution's runs wait for a Maintainer's approval" locale="es" localized="Las ejecuciones de una primera contribución esperan la aprobación de un mantenedor"/>
+    <moqui.basic.LocalizedMessage original="A fork's branch is written" locale="es" localized="La rama de una bifurcación se escribe"/>
+    <moqui.basic.LocalizedMessage original="A job that reads it gets nothing from now on. Its value cannot be read back, so it cannot be restored." locale="es" localized="Un trabajo que lo lee no obtiene nada a partir de ahora. Su valor no se puede volver a leer, así que no se puede restaurar."/>
+    <moqui.basic.LocalizedMessage original="A merge request changes" locale="es" localized="Cambia una solicitud de fusión"/>
+    <moqui.basic.LocalizedMessage original="A moderator hid this group: only its owners and the site's moderators see it, and everyone else gets Not Found." locale="es" localized="Un moderador ocultó este grupo: solo sus propietarios y los moderadores del sitio lo ven, y los demás reciben No encontrado."/>
+    <moqui.basic.LocalizedMessage original="A moderator hid this repository: only its owners and the site's moderators see it, on its pages and in git, and everyone else gets Not Found." locale="es" localized="Un moderador ocultó este repositorio: solo sus propietarios y los moderadores del sitio lo ven, en sus páginas y en git, y los demás reciben No encontrado."/>
+    <moqui.basic.LocalizedMessage original="A secret moved to another scope or environment takes a new value." locale="es" localized="Un secreto movido a otro alcance o entorno adopta un valor nuevo."/>
+    <moqui.basic.LocalizedMessage original="A tag is pushed" locale="es" localized="Se envía una etiqueta"/>
+    <moqui.basic.LocalizedMessage original="A variable name: letters, digits and _." locale="es" localized="Un nombre de variable: letras, dígitos y _."/>
+    <moqui.basic.LocalizedMessage original="About this repository" locale="es" localized="Acerca de este repositorio"/>
+    <moqui.basic.LocalizedMessage original="Abuse or harassment" locale="es" localized="Abuso o acoso"/>
+    <moqui.basic.LocalizedMessage original="Add environment" locale="es" localized="Añadir entorno"/>
+    <moqui.basic.LocalizedMessage original="Add milestone" locale="es" localized="Añadir hito"/>
+    <moqui.basic.LocalizedMessage original="Add secret" locale="es" localized="Añadir secreto"/>
+    <moqui.basic.LocalizedMessage original="Agreement not signed" locale="es" localized="Acuerdo no firmado"/>
+    <moqui.basic.LocalizedMessage original="Agreement signed" locale="es" localized="Acuerdo firmado"/>
+    <moqui.basic.LocalizedMessage original="Agreement waits for a bot's operator" locale="es" localized="El acuerdo espera al operador de un bot"/>
+    <moqui.basic.LocalizedMessage original="All repositories" locale="es" localized="Todos los repositorios"/>
+    <moqui.basic.LocalizedMessage original="Already there" locale="es" localized="Ya estaba"/>
+    <moqui.basic.LocalizedMessage original="An address of a domain this site receives mail for." locale="es" localized="Una dirección de un dominio para el que este sitio recibe correo."/>
+    <moqui.basic.LocalizedMessage original="An author" locale="es" localized="Un autor"/>
+    <moqui.basic.LocalizedMessage original="an environment" locale="es" localized="un entorno"/>
+    <moqui.basic.LocalizedMessage original="An environment with a secret scoped to it is not deleted: delete the secret or move it first." locale="es" localized="No se elimina un entorno que tiene un secreto limitado a él: elimine el secreto o muévalo primero."/>
+    <moqui.basic.LocalizedMessage original="An environment: runs its rules allow" locale="es" localized="Un entorno: las ejecuciones que permiten sus reglas"/>
+    <moqui.basic.LocalizedMessage original="and more" locale="es" localized="y más"/>
+    <moqui.basic.LocalizedMessage original="Any account with a confirmed address" locale="es" localized="Cualquier cuenta con una dirección confirmada"/>
+    <moqui.basic.LocalizedMessage original="Anything that uses this token stops working at once. A token cannot be restored." locale="es" localized="Todo lo que usa este token deja de funcionar de inmediato. Un token no se puede restaurar."/>
+    <moqui.basic.LocalizedMessage original="Asked again before your git access changes, unless you sign in only through another service." locale="es" localized="Se vuelve a pedir antes de que cambie su acceso de Git, salvo que inicie sesión solo a través de otro servicio."/>
+    <moqui.basic.LocalizedMessage original="Attachments left out" locale="es" localized="Adjuntos omitidos"/>
+    <moqui.basic.LocalizedMessage original="Back to the file" locale="es" localized="Volver al archivo"/>
+    <moqui.basic.LocalizedMessage original="Binary file." locale="es" localized="Archivo binario."/>
+    <moqui.basic.LocalizedMessage original="Blame" locale="es" localized="Autoría"/>
+    <moqui.basic.LocalizedMessage original="Branch or tag: ${view.ref}" locale="es" localized="Rama o etiqueta: ${view.ref}"/>
+    <moqui.basic.LocalizedMessage original="By request, approved by an operator" locale="es" localized="Por solicitud, aprobado por un operador"/>
+    <moqui.basic.LocalizedMessage original="Cancel the deployment" locale="es" localized="Cancelar el despliegue"/>
+    <moqui.basic.LocalizedMessage original="Cancel the deployment to ${target}" locale="es" localized="Cancelar el despliegue en ${target}"/>
+    <moqui.basic.LocalizedMessage original="Change visibility" locale="es" localized="Cambiar la visibilidad"/>
+    <moqui.basic.LocalizedMessage original="Changed files" locale="es" localized="Archivos modificados"/>
+    <moqui.basic.LocalizedMessage original="Clone address" locale="es" localized="Dirección de clonación"/>
+    <moqui.basic.LocalizedMessage original="Comment on line ${line} of ${path}" locale="es" localized="Comentario en la línea ${line} de ${path}"/>
+    <moqui.basic.LocalizedMessage original="Commit to ${branch}." locale="es" localized="Confirmar en ${branch}."/>
+    <moqui.basic.LocalizedMessage original="Commit to a new branch and open a merge request to ${branch}, which is protected." locale="es" localized="Confirmar en una rama nueva y abrir una solicitud de fusión hacia ${branch}, que está protegida."/>
+    <moqui.basic.LocalizedMessage original="Commit to a new branch and open a merge request to ${branch}." locale="es" localized="Confirmar en una rama nueva y abrir una solicitud de fusión hacia ${branch}."/>
+    <moqui.basic.LocalizedMessage original="Commits  on ${view.ref}" locale="es" localized="Confirmaciones  en ${view.ref}"/>
+    <moqui.basic.LocalizedMessage original="compare with ${view.parent.path}" locale="es" localized="comparar con ${view.parent.path}"/>
+    <moqui.basic.LocalizedMessage original="Composer" locale="es" localized="Redactor"/>
+    <moqui.basic.LocalizedMessage original="Contained in" locale="es" localized="Contenido en"/>
+    <moqui.basic.LocalizedMessage original="Delete ${row.name}" locale="es" localized="Eliminar ${row.name}"/>
+    <moqui.basic.LocalizedMessage original="Delete environment" locale="es" localized="Eliminar entorno"/>
+    <moqui.basic.LocalizedMessage original="Delete mirror" locale="es" localized="Eliminar espejo"/>
+    <moqui.basic.LocalizedMessage original="Delete secret" locale="es" localized="Eliminar secreto"/>
+    <moqui.basic.LocalizedMessage original="Delete the environment ${name}" locale="es" localized="Eliminar el entorno ${name}"/>
+    <moqui.basic.LocalizedMessage original="Delete the mirror to ${url}" locale="es" localized="Eliminar el espejo hacia ${url}"/>
+    <moqui.basic.LocalizedMessage original="Delete the secret ${name}" locale="es" localized="Eliminar el secreto ${name}"/>
+    <moqui.basic.LocalizedMessage original="Deployed or failed" locale="es" localized="Desplegado o fallido"/>
+    <moqui.basic.LocalizedMessage original="Deployments" locale="es" localized="Despliegues"/>
+    <moqui.basic.LocalizedMessage original="Diff view" locale="es" localized="Vista de diferencias"/>
+    <moqui.basic.LocalizedMessage original="DiffReview" locale="es" localized="Revisión de diferencias"/>
+    <moqui.basic.LocalizedMessage original="Discussion: topics and replies" locale="es" localized="Discusión: temas y respuestas"/>
+    <moqui.basic.LocalizedMessage original="Do" locale="es" localized="Hacer"/>
+    <moqui.basic.LocalizedMessage original="Docs directory" locale="es" localized="Directorio de documentación"/>
+    <moqui.basic.LocalizedMessage original="Download ${row.name} as ${archive.label}" locale="es" localized="Descargar ${row.name} como ${archive.label}"/>
+    <moqui.basic.LocalizedMessage original="Download ${view.ref}" locale="es" localized="Descargar ${view.ref}"/>
+    <moqui.basic.LocalizedMessage original="Download it (${view.size})" locale="es" localized="Descargarlo (${view.size})"/>
+    <moqui.basic.LocalizedMessage original="Edit this milestone" locale="es" localized="Editar este hito"/>
+    <moqui.basic.LocalizedMessage original="Edit this page" locale="es" localized="Editar esta página"/>
+    <moqui.basic.LocalizedMessage original="Every outside run waits for a Maintainer's approval" locale="es" localized="Cada ejecución externa espera la aprobación de un mantenedor"/>
+    <moqui.basic.LocalizedMessage original="File the reports in" locale="es" localized="Presentar las denuncias en"/>
+    <moqui.basic.LocalizedMessage original="Following the log as the job runs." locale="es" localized="Se sigue el registro mientras el trabajo se ejecuta."/>
+    <moqui.basic.LocalizedMessage original="Fork" locale="es" localized="Bifurcar"/>
+    <moqui.basic.LocalizedMessage original="Fork of" locale="es" localized="Bifurcación de"/>
+    <moqui.basic.LocalizedMessage original="Forked from" locale="es" localized="Bifurcado de"/>
+    <moqui.basic.LocalizedMessage original="Forum topics" locale="es" localized="Temas del foro"/>
+    <moqui.basic.LocalizedMessage original="From (a branch, a tag or a commit)" locale="es" localized="Desde (una rama, una etiqueta o una confirmación)"/>
+    <moqui.basic.LocalizedMessage original="From a new directory:" locale="es" localized="Desde un directorio nuevo:"/>
+    <moqui.basic.LocalizedMessage original="From a repository you have:" locale="es" localized="Desde un repositorio que ya tiene:"/>
+    <moqui.basic.LocalizedMessage original="Git access: SSH keys and tokens" locale="es" localized="Acceso de Git: claves SSH y tokens"/>
+    <moqui.basic.LocalizedMessage original="Git over SSH stops accepting the key ${fingerprint} at once." locale="es" localized="Git por SSH deja de aceptar la clave ${fingerprint} de inmediato."/>
+    <moqui.basic.LocalizedMessage original="Group sections" locale="es" localized="Secciones del grupo"/>
+    <moqui.basic.LocalizedMessage original="Handles, separated by commas." locale="es" localized="Identificadores, separados por comas."/>
+    <moqui.basic.LocalizedMessage original="Importing comments and reviews" locale="es" localized="Importando comentarios y revisiones"/>
+    <moqui.basic.LocalizedMessage original="Importing issues" locale="es" localized="Importando incidencias"/>
+    <moqui.basic.LocalizedMessage original="Importing labels and milestones" locale="es" localized="Importando etiquetas e hitos"/>
+    <moqui.basic.LocalizedMessage original="Importing pull requests" locale="es" localized="Importando solicitudes de extracción"/>
+    <moqui.basic.LocalizedMessage original="in ${view.path}" locale="es" localized="en ${view.path}"/>
+    <moqui.basic.LocalizedMessage original="In a character set that could not be read" locale="es" localized="En un juego de caracteres que no se pudo leer"/>
+    <moqui.basic.LocalizedMessage original="In effect now: ${value}. This is its own limit; empty follows the default." locale="es" localized="En vigor ahora: ${value}. Este es su propio límite; vacío sigue el predeterminado."/>
+    <moqui.basic.LocalizedMessage original="In effect now: no limit. This is its own limit; empty follows the default." locale="es" localized="En vigor ahora: sin límite. Este es su propio límite; vacío sigue el predeterminado."/>
+    <moqui.basic.LocalizedMessage original="Inherit: as the group above says" locale="es" localized="Heredar: como indica el grupo superior"/>
+    <moqui.basic.LocalizedMessage original="Islands" locale="es" localized="Islas"/>
+    <moqui.basic.LocalizedMessage original="Issue sections" locale="es" localized="Secciones de incidencias"/>
+    <moqui.basic.LocalizedMessage original="It does not merge cleanly." locale="es" localized="No se fusiona sin conflictos."/>
+    <moqui.basic.LocalizedMessage original="It does not merge cleanly: conflicts in ${paths}." locale="es" localized="No se fusiona sin conflictos: conflictos en ${paths}."/>
+    <moqui.basic.LocalizedMessage original="It has a secret, which is not shown. Leave this empty to keep it." locale="es" localized="Tiene un secreto, que no se muestra. Déjelo vacío para conservarlo."/>
+    <moqui.basic.LocalizedMessage original="Its path in the repository. It must be there before the agreement is required." locale="es" localized="Su ruta en el repositorio. Debe estar allí antes de que se exija el acuerdo."/>
+    <moqui.basic.LocalizedMessage original="Job log" locale="es" localized="Registro del trabajo"/>
+    <moqui.basic.LocalizedMessage original="Last push ${row.pushed}" locale="es" localized="Último envío ${row.pushed}"/>
+    <moqui.basic.LocalizedMessage original="Line comments" locale="es" localized="Comentarios de línea"/>
+    <moqui.basic.LocalizedMessage original="Linked issues" locale="es" localized="Incidencias vinculadas"/>
+    <moqui.basic.LocalizedMessage original="Linking references" locale="es" localized="Vinculando referencias"/>
+    <moqui.basic.LocalizedMessage original="Loading both versions…" locale="es" localized="Cargando las dos versiones…"/>
+    <moqui.basic.LocalizedMessage original="Loading the log" locale="es" localized="Cargando el registro"/>
+    <moqui.basic.LocalizedMessage original="Mailing list: mail to its address is a post, and its mail carries the list's own headers" locale="es" localized="Lista de correo: el correo a su dirección es una publicación, y su correo lleva los encabezados propios de la lista"/>
+    <moqui.basic.LocalizedMessage original="Malware or a way to harm its users" locale="es" localized="Malware o una forma de dañar a sus usuarios"/>
+    <moqui.basic.LocalizedMessage original="Members: the members of this site" locale="es" localized="Miembros: los miembros de este sitio"/>
+    <moqui.basic.LocalizedMessage original="Messages read" locale="es" localized="Mensajes leídos"/>
+    <moqui.basic.LocalizedMessage original="More actions" locale="es" localized="Más acciones"/>
+    <moqui.basic.LocalizedMessage original="More components" locale="es" localized="Más componentes"/>
+    <moqui.basic.LocalizedMessage original="More groups" locale="es" localized="Más grupos"/>
+    <moqui.basic.LocalizedMessage original="More members" locale="es" localized="Más miembros"/>
+    <moqui.basic.LocalizedMessage original="More repositories" locale="es" localized="Más repositorios"/>
+    <moqui.basic.LocalizedMessage original="Muted: nothing" locale="es" localized="Silenciado: nada"/>
+    <moqui.basic.LocalizedMessage original="New environment" locale="es" localized="Nuevo entorno"/>
+    <moqui.basic.LocalizedMessage original="New issue" locale="es" localized="Nueva incidencia"/>
+    <moqui.basic.LocalizedMessage original="New issue in" locale="es" localized="Nueva incidencia en"/>
+    <moqui.basic.LocalizedMessage original="New merge request from ${row.name}" locale="es" localized="Nueva solicitud de fusión desde ${row.name}"/>
+    <moqui.basic.LocalizedMessage original="New mirror" locale="es" localized="Nuevo espejo"/>
+    <moqui.basic.LocalizedMessage original="New secret" locale="es" localized="Nuevo secreto"/>
+    <moqui.basic.LocalizedMessage original="New subgroup" locale="es" localized="Nuevo subgrupo"/>
+    <moqui.basic.LocalizedMessage original="New subgroup of ${path}" locale="es" localized="Nuevo subgrupo de ${path}"/>
+    <moqui.basic.LocalizedMessage original="New value" locale="es" localized="Valor nuevo"/>
+    <moqui.basic.LocalizedMessage original="No commits to show." locale="es" localized="No hay confirmaciones para mostrar."/>
+    <moqui.basic.LocalizedMessage original="No components to show. A repository whose root has a component.xml is listed here." locale="es" localized="No hay componentes para mostrar. Aquí se lista un repositorio cuya raíz tiene un component.xml."/>
+    <moqui.basic.LocalizedMessage original="No groups to show." locale="es" localized="No hay grupos para mostrar."/>
+    <moqui.basic.LocalizedMessage original="No lines yet." locale="es" localized="Aún no hay líneas."/>
+    <moqui.basic.LocalizedMessage original="No members to show." locale="es" localized="No hay miembros para mostrar."/>
+    <moqui.basic.LocalizedMessage original="No more deployments." locale="es" localized="No hay más despliegues."/>
+    <moqui.basic.LocalizedMessage original="No redirect matches." locale="es" localized="Ninguna redirección coincide."/>
+    <moqui.basic.LocalizedMessage original="No repositories to show." locale="es" localized="No hay repositorios para mostrar."/>
+    <moqui.basic.LocalizedMessage original="No run matches these filters." locale="es" localized="Ninguna ejecución coincide con estos filtros."/>
+    <moqui.basic.LocalizedMessage original="No text changes to show." locale="es" localized="No hay cambios de texto para mostrar."/>
+    <moqui.basic.LocalizedMessage original="None to show." locale="es" localized="Nada para mostrar."/>
+    <moqui.basic.LocalizedMessage original="Normal: when you are mentioned or answered" locale="es" localized="Normal: cuando se le menciona o se le responde"/>
+    <moqui.basic.LocalizedMessage original="Not reached" locale="es" localized="No alcanzado"/>
+    <moqui.basic.LocalizedMessage original="Nothing has been deployed from this repository yet." locale="es" localized="Aún no se ha desplegado nada desde este repositorio."/>
+    <moqui.basic.LocalizedMessage original="Nothing has been pushed to it yet." locale="es" localized="Aún no se le ha enviado nada."/>
+    <moqui.basic.LocalizedMessage original="Nothing has been pushed to it yet. A Developer of the repository pushes the first commit, from an account with a confirmed email address." locale="es" localized="Aún no se le ha enviado nada. Un desarrollador del repositorio envía la primera confirmación, desde una cuenta con una dirección de correo confirmada."/>
+    <moqui.basic.LocalizedMessage original="Nothing has been pushed to it yet. A Developer of the repository pushes the first commit." locale="es" localized="Aún no se le ha enviado nada. Un desarrollador del repositorio envía la primera confirmación."/>
+    <moqui.basic.LocalizedMessage original="Nothing is deployed. Deploying it later takes a new request." locale="es" localized="No se despliega nada. Desplegarlo después exige una solicitud nueva."/>
+    <moqui.basic.LocalizedMessage original="Nothing to preview." locale="es" localized="No hay nada para la vista previa."/>
+    <moqui.basic.LocalizedMessage original="Off: no agreement is required" locale="es" localized="Desactivado: no se exige un acuerdo"/>
+    <moqui.basic.LocalizedMessage original="On this site only its operators create groups." locale="es" localized="En este sitio solo sus operadores crean grupos."/>
+    <moqui.basic.LocalizedMessage original="One of these branches, tags or commits was not found in this repository." locale="es" localized="No se encontró una de estas ramas, etiquetas o confirmaciones en este repositorio."/>
+    <moqui.basic.LocalizedMessage original="Only the first commits are listed." locale="es" localized="Solo se listan las primeras confirmaciones."/>
+    <moqui.basic.LocalizedMessage original="Open a merge request" locale="es" localized="Abrir una solicitud de fusión"/>
+    <moqui.basic.LocalizedMessage original="Operators only" locale="es" localized="Solo operadores"/>
+    <moqui.basic.LocalizedMessage original="Outside runs" locale="es" localized="Ejecuciones externas"/>
+    <moqui.basic.LocalizedMessage original="Outside runs start without an approval" locale="es" localized="Las ejecuciones externas comienzan sin una aprobación"/>
+    <moqui.basic.LocalizedMessage original="Parent directory" locale="es" localized="Directorio padre"/>
+    <moqui.basic.LocalizedMessage original="Pinned repositories" locale="es" localized="Repositorios fijados"/>
+    <moqui.basic.LocalizedMessage original="Private: only those given a role" locale="es" localized="Privado: solo quienes tienen un rol"/>
+    <moqui.basic.LocalizedMessage original="Propose the change: it is kept with a merge request to ${branch}, which opens at once. No fork is needed." locale="es" localized="Proponer el cambio: se conserva con una solicitud de fusión hacia ${branch}, que se abre de inmediato. No hace falta una bifurcación."/>
+    <moqui.basic.LocalizedMessage original="protected branches" locale="es" localized="ramas protegidas"/>
+    <moqui.basic.LocalizedMessage original="Protected branches: runs of a branch a branch rule names" locale="es" localized="Ramas protegidas: ejecuciones de una rama que nombra una regla de rama"/>
+    <moqui.basic.LocalizedMessage original="Public: anyone may read it" locale="es" localized="Público: cualquiera puede leerlo"/>
+    <moqui.basic.LocalizedMessage original="Pull requests" locale="es" localized="Solicitudes de extracción"/>
+    <moqui.basic.LocalizedMessage original="Push a first commit to it. Over HTTPS git asks for your username and an access token; over SSH it uses a key of yours. Both are on" locale="es" localized="Envíe una primera confirmación al repositorio. Por HTTPS, git pide su nombre de usuario y un token de acceso; por SSH, usa una clave suya. Ambos están en"/>
+    <moqui.basic.LocalizedMessage original="Pushes to ${url} stop, and its credential is removed. What was pushed there stays." locale="es" localized="Los envíos a ${url} se detienen, y se quita su credencial. Lo que se envió allí permanece."/>
+    <moqui.basic.LocalizedMessage original="Questions and answers" locale="es" localized="Preguntas y respuestas"/>
+    <moqui.basic.LocalizedMessage original="Receive reports at this address" locale="es" localized="Recibir denuncias en esta dirección"/>
+    <moqui.basic.LocalizedMessage original="Refuse the deployment" locale="es" localized="Rechazar el despliegue"/>
+    <moqui.basic.LocalizedMessage original="Refuse the deployment to ${target}" locale="es" localized="Rechazar el despliegue en ${target}"/>
+    <moqui.basic.LocalizedMessage original="Remove key" locale="es" localized="Quitar la clave"/>
+    <moqui.basic.LocalizedMessage original="Remove the key ${name}" locale="es" localized="Quitar la clave ${name}"/>
+    <moqui.basic.LocalizedMessage original="Replies made" locale="es" localized="Respuestas hechas"/>
+    <moqui.basic.LocalizedMessage original="Report this group" locale="es" localized="Denunciar este grupo"/>
+    <moqui.basic.LocalizedMessage original="Report this repository" locale="es" localized="Denunciar este repositorio"/>
+    <moqui.basic.LocalizedMessage original="Repository sections" locale="es" localized="Secciones del repositorio"/>
+    <moqui.basic.LocalizedMessage original="Repository settings" locale="es" localized="Configuración del repositorio"/>
+    <moqui.basic.LocalizedMessage original="Required: every author signs the file" locale="es" localized="Obligatorio: cada autor firma el archivo"/>
+    <moqui.basic.LocalizedMessage original="Revoke the token ${name}" locale="es" localized="Revocar el token ${name}"/>
+    <moqui.basic.LocalizedMessage original="Revoke token" locale="es" localized="Revocar el token"/>
+    <moqui.basic.LocalizedMessage original="Rich text" locale="es" localized="Texto enriquecido"/>
+    <moqui.basic.LocalizedMessage original="Save environment" locale="es" localized="Guardar entorno"/>
+    <moqui.basic.LocalizedMessage original="Save milestone" locale="es" localized="Guardar hito"/>
+    <moqui.basic.LocalizedMessage original="Save secret" locale="es" localized="Guardar secreto"/>
+    <moqui.basic.LocalizedMessage original="Second-factor code, if you use one" locale="es" localized="Código de segundo factor, si usa uno"/>
+    <moqui.basic.LocalizedMessage original="Show every file" locale="es" localized="Mostrar todos los archivos"/>
+    <moqui.basic.LocalizedMessage original="Show more" locale="es" localized="Mostrar más"/>
+    <moqui.basic.LocalizedMessage original="Signs each delivery (X-Hub-Signature-256). It is not shown again after it is saved." locale="es" localized="Firma cada entrega (X-Hub-Signature-256). No se vuelve a mostrar después de guardarlo."/>
+    <moqui.basic.LocalizedMessage original="Something illegal" locale="es" localized="Algo ilegal"/>
+    <moqui.basic.LocalizedMessage original="Sort by" locale="es" localized="Ordenar por"/>
+    <moqui.basic.LocalizedMessage original="Spam or advertising" locale="es" localized="Spam o publicidad"/>
+    <moqui.basic.LocalizedMessage original="Stopped by a problem" locale="es" localized="Detenido por un problema"/>
+    <moqui.basic.LocalizedMessage original="tags" locale="es" localized="etiquetas"/>
+    <moqui.basic.LocalizedMessage original="Tags: runs of a tag" locale="es" localized="Etiquetas: ejecuciones de una etiqueta"/>
+    <moqui.basic.LocalizedMessage original="Text of the file" locale="es" localized="Texto del archivo"/>
+    <moqui.basic.LocalizedMessage original="The author is a bot: its operator, who has signed, says so here, and a Maintainer confirms it." locale="es" localized="El autor es un bot: su operador, que ha firmado, lo declara aquí, y un mantenedor lo confirma."/>
+    <moqui.basic.LocalizedMessage original="The bot's operator (a handle)" locale="es" localized="El operador del bot (un identificador)"/>
+    <moqui.basic.LocalizedMessage original="The bot's operator has said it signed. A Maintainer confirms it." locale="es" localized="El operador del bot ha dicho que firmó. Un mantenedor lo confirma."/>
+    <moqui.basic.LocalizedMessage original="The bot's operator is confirmed." locale="es" localized="El operador del bot está confirmado."/>
+    <moqui.basic.LocalizedMessage original="the branch" locale="es" localized="la rama"/>
+    <moqui.basic.LocalizedMessage original="The group is created at once and you are its Owner." locale="es" localized="El grupo se crea de inmediato y usted es su propietario."/>
+    <moqui.basic.LocalizedMessage original="The job has ended. Reload the page for its results." locale="es" localized="El trabajo ha terminado. Recargue la página para ver sus resultados."/>
+    <moqui.basic.LocalizedMessage original="The old forum" locale="es" localized="El foro anterior"/>
+    <moqui.basic.LocalizedMessage original="The old site" locale="es" localized="El sitio anterior"/>
+    <moqui.basic.LocalizedMessage original="The preview is not available. Your text is kept." locale="es" localized="La vista previa no está disponible. Su texto se conserva."/>
+    <moqui.basic.LocalizedMessage original="This account is a bot" locale="es" localized="Esta cuenta es un bot"/>
+    <moqui.basic.LocalizedMessage original="This cancels the deployment of ${what} to ${target}, and its pipeline run if it is still running." locale="es" localized="Esto cancela el despliegue de ${what} en ${target}, y la ejecución de su canal si aún está en curso."/>
+    <moqui.basic.LocalizedMessage original="This change is large; only part of its diff is shown." locale="es" localized="Este cambio es grande; solo se muestra parte de su diferencia."/>
+    <moqui.basic.LocalizedMessage original="This deletes the environment ${name} of ${repository}." locale="es" localized="Esto elimina el entorno ${name} de ${repository}."/>
+    <moqui.basic.LocalizedMessage original="This deletes the secret ${name} of ${repository}, given to runs of ${scope} ${environment}." locale="es" localized="Esto elimina el secreto ${name} de ${repository}, dado a las ejecuciones de ${scope} ${environment}."/>
+    <moqui.basic.LocalizedMessage original="This deletes the secret ${name} of ${repository}, given to runs of ${scope}." locale="es" localized="Esto elimina el secreto ${name} de ${repository}, dado a las ejecuciones de ${scope}."/>
+    <moqui.basic.LocalizedMessage original="This directory is empty." locale="es" localized="Este directorio está vacío."/>
+    <moqui.basic.LocalizedMessage original="This file cannot be shown side by side: its text was not read (${status})." locale="es" localized="Este archivo no se puede mostrar lado a lado: no se leyó su texto (${status})."/>
+    <moqui.basic.LocalizedMessage original="This file is kept in Git LFS: change it with git." locale="es" localized="Este archivo se guarda en Git LFS: cámbielo con git."/>
+    <moqui.basic.LocalizedMessage original="This file is too large to edit on its page: change it with git." locale="es" localized="Este archivo es demasiado grande para editarlo en su página: cámbielo con git."/>
+    <moqui.basic.LocalizedMessage original="This file is too large to show here." locale="es" localized="Este archivo es demasiado grande para mostrarlo aquí."/>
+    <moqui.basic.LocalizedMessage original="This file is too large to show side by side." locale="es" localized="Este archivo es demasiado grande para mostrarlo lado a lado."/>
+    <moqui.basic.LocalizedMessage original="This group" locale="es" localized="Este grupo"/>
+    <moqui.basic.LocalizedMessage original="This is a binary file: it is replaced by an upload, or with git." locale="es" localized="Este es un archivo binario: se reemplaza con una subida, o con git."/>
+    <moqui.basic.LocalizedMessage original="This job wrote no log." locale="es" localized="Este trabajo no escribió un registro."/>
+    <moqui.basic.LocalizedMessage original="This log is not available now." locale="es" localized="Este registro no está disponible ahora."/>
+    <moqui.basic.LocalizedMessage original="This merge request" locale="es" localized="Esta solicitud de fusión"/>
+    <moqui.basic.LocalizedMessage original="This refuses the deployment of ${what} to ${target}. Nothing is deployed, and deploying it later takes a new request." locale="es" localized="Esto rechaza el despliegue de ${what} en ${target}. No se despliega nada, y desplegarlo después exige una solicitud nueva."/>
+    <moqui.basic.LocalizedMessage original="This repository is a fork:" locale="es" localized="Este repositorio es una bifurcación:"/>
+    <moqui.basic.LocalizedMessage original="This repository is a mirror of another one: it is changed there." locale="es" localized="Este repositorio es un espejo de otro: se cambia allí."/>
+    <moqui.basic.LocalizedMessage original="This repository is archived: nothing in it is changed." locale="es" localized="Este repositorio está archivado: no se cambia nada en él."/>
+    <moqui.basic.LocalizedMessage original="This repository is empty" locale="es" localized="Este repositorio está vacío"/>
+    <moqui.basic.LocalizedMessage original="Too long" locale="es" localized="Demasiado largo"/>
+    <moqui.basic.LocalizedMessage original="Topics made" locale="es" localized="Temas creados"/>
+    <moqui.basic.LocalizedMessage original="Tracking: a count of new comments" locale="es" localized="Seguimiento: un recuento de comentarios nuevos"/>
+    <moqui.basic.LocalizedMessage original="Trusted runs" locale="es" localized="Ejecuciones de confianza"/>
+    <moqui.basic.LocalizedMessage original="Upload a file" locale="es" localized="Subir un archivo"/>
+    <moqui.basic.LocalizedMessage original="View file" locale="es" localized="Ver archivo"/>
+    <moqui.basic.LocalizedMessage original="Waiting for the pipeline" locale="es" localized="Esperando el canal"/>
+    <moqui.basic.LocalizedMessage original="Waiting to start" locale="es" localized="Esperando para comenzar"/>
+    <moqui.basic.LocalizedMessage original="Watching: every comment" locale="es" localized="Observando: cada comentario"/>
+    <moqui.basic.LocalizedMessage original="Who may see this repository" locale="es" localized="Quién puede ver este repositorio"/>
+    <moqui.basic.LocalizedMessage original="Write in" locale="es" localized="Escribir en"/>
+    <moqui.basic.LocalizedMessage original="You are asked to confirm on the next page." locale="es" localized="Se le pide confirmar en la página siguiente."/>
+    <moqui.basic.LocalizedMessage original="You manage this site, so the group is created at once and you are its Owner." locale="es" localized="Usted administra este sitio, así que el grupo se crea de inmediato y usted es su propietario."/>
+    <moqui.basic.LocalizedMessage original="Your password" locale="es" localized="Su contraseña"/>
+    <moqui.basic.LocalizedMessage original="· Blame ·" locale="es" localized="· Autoría ·"/>
+    <moqui.basic.LocalizedMessage original="· depends on ${row.dependsOn.join(', ')}" locale="es" localized="· depende de ${row.dependsOn.join(', ')}"/>
+    <moqui.basic.LocalizedMessage original="· from ${member.fromPath}" locale="es" localized="· de ${member.fromPath}"/>
+    <moqui.basic.LocalizedMessage original="· latest release" locale="es" localized="· último lanzamiento"/>
+    <moqui.basic.LocalizedMessage original="· since ${member.since}" locale="es" localized="· desde ${member.since}"/>
+    <moqui.basic.LocalizedMessage original="· until ${member.until}" locale="es" localized="· hasta ${member.until}"/>
+</entity-facade-xml>

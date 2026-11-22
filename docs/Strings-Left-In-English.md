@@ -171,3 +171,5 @@ Shared product, order, and inventory screens:
 - From ${warehouseInvoice.invoice.fromName} · ${warehouseInvoice.invoice.invoiceDateText}
 - ${[pr.organizationName, pr.filedByName ? 'requested by ' + pr.filedByName : '', pr.facilityName ? 'for ' +
 - ${['Stock request ' + requestId, 'for ' + stockRequest.facilityName, stockRequest.requesterName ? 'by ' +
+
+Sales, Marketing, Commerce, Maintenance, People, Insights, Admin, and PASS (Account, the customer and supplier portals, Smithy, Forum, and Shop) had no user-visible message over 255 characters in this pass. Code fragments the extractor joined across lines are not catalog keys and are not listed here.

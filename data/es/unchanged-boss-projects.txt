@@ -1,0 +1,39 @@
+# Messages the same in this language. A missing catalog row returns the original.
+!${openMergeRequest.mergeRequestNum} ${openMergeRequest.title}
+${authorName} · ${dateText}
+${changeLabel} · +${insertions} −${deletions}
+${chartTitle} · ${rangeText}
+${file.lastCommit.summary} · ${file.lastCommit.authorName} · ${file.lastCommit.dateText}
+${listLabel} · ${allocationRowsCount}
+${listLabel} · ${invoiceRowsCount}
+${listLabel} · ${mergeRequestRowsCount}
+${listLabel} · ${projectRowsCount}
+${listLabel} · ${repositoryRowsCount}
+${listLabel} · ${requestRowsCount}
+${listLabel} · ${roadmapRowsCount}
+${listLabel} · ${timesheetRowsCount}
+${listLabel} · ${workItemRowsCount}
+${mr.numText} ${mr.title}
+${name}${isDir ? '/' : ''}
+${numText} ${title}
+${orderId} ${orderItemSeqId} · ${description}
+${path ? path + '/' : repositoryId} · ${shownRef}
+${preview.summaryText}.
+${projectName} · ${personName} · ${workTypeText}
+${projectTime.billablePct}%
+${purposeLabel} · ${rateRowsCount}
+${release.projectName} ${release.workEffortName}
+${repositoryId} · ${authorName} · ${branchText}
+${requestId} · ${updatedText}
+${sheet.personName} · ${sheet.weekText}
+${statusLabel} · ${linkLabel}
+${statusText} · ${sharedText}
+${summaryText}.
+${type.pct}%
+${typeLabel} · ${dueText}
+${update.dateText} · ${update.healthLabel} · ${update.subject}
+${workEffortId ? workEffortId + ' ' : ''}${workEffortName}
+${workEffortId} ${workEffortName}
+${workEffortName}${isRecurring ? ' ↻' : ''}
+CI
+EEE MMM d

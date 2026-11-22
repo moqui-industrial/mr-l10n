@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+
+<entity-facade-xml type="es">
+    <moqui.basic.LocalizedMessage original="${change.path}, staged against the disk" locale="es" localized="${change.path}, preparado frente al disco"/>
+    <moqui.basic.LocalizedMessage original="${conflict.path} changed on disk since the edits started" locale="es" localized="${conflict.path} cambió en el disco desde que empezaron las ediciones"/>
+    <moqui.basic.LocalizedMessage original="${dataCount} rows; the first ${dataRows.length}:" locale="es" localized="${dataCount} filas; las primeras ${dataRows.length}:"/>
+    <moqui.basic.LocalizedMessage original="${entityCount} entities${entityCount &gt; 500 ? ', the first 500 shown' : ''}" locale="es" localized="${entityCount} entidades${entityCount &gt; 500 ? ', the first 500 shown' : ''}"/>
+    <moqui.basic.LocalizedMessage original="${fileCount} data files${fileCount &gt; 1000 ? ', the first 1000 shown' : ''}" locale="es" localized="${fileCount} archivos de datos${fileCount &gt; 1000 ? ', the first 1000 shown' : ''}"/>
+    <moqui.basic.LocalizedMessage original="${hitRows.length}${hitsTruncated ? '+' : ''} lines hold ${query}" locale="es" localized="${hitRows.length}${hitsTruncated ? '+' : ''} líneas contienen ${query}"/>
+    <moqui.basic.LocalizedMessage original="${path} changed on disk since it was opened" locale="es" localized="${path} cambió en el disco desde que se abrió"/>
+    <moqui.basic.LocalizedMessage original="${plan.addons.present ? 'Replace' : 'Add'} the repository ${plan.addons.repositoryName}${plan.addons.writable ? '' : ' (the full tier, not on a shared server)'}" locale="es" localized="${plan.addons.present ? 'Replace' : 'Add'} el repositorio ${plan.addons.repositoryName}${plan.addons.writable ? '' : ' (the full tier, not on a shared server)'}"/>
+    <moqui.basic.LocalizedMessage original="${plan.taskSource.present ? 'Keep' : 'Add'} the server's tasks as your task source" locale="es" localized="${plan.taskSource.present ? 'Keep' : 'Add'} las tareas del servidor como su origen de tareas"/>
+    <moqui.basic.LocalizedMessage original="${repositories.length} roots${found.gitAvailable ? '' : ': no git on the server, so every root is shown as plain'}" locale="es" localized="${repositories.length} raíces${found.gitAvailable ? '' : ': no git on the server, so every root is shown as plain'}"/>
+    <moqui.basic.LocalizedMessage original="${root.label} is not a git repository." locale="es" localized="${root.label} no es un repositorio git."/>
+    <moqui.basic.LocalizedMessage original="${ruleCount} active rules" locale="es" localized="${ruleCount} reglas activas"/>
+    <moqui.basic.LocalizedMessage original="${serviceCount} services${serviceCount &gt; 500 ? ', the first 500 shown' : ''}" locale="es" localized="${serviceCount} servicios${serviceCount &gt; 500 ? ', the first 500 shown' : ''}"/>
+    <moqui.basic.LocalizedMessage original="${staged == 'true' ? 'Staged changes' : 'Changes'} of ${changePath}" locale="es" localized="${staged == 'true' ? 'Staged changes' : 'Changes'} de ${changePath}"/>
+    <moqui.basic.LocalizedMessage original="A box" locale="es" localized="Un cuadro"/>
+    <moqui.basic.LocalizedMessage original="A change needs a rebuild (./moq build) and a restart" locale="es" localized="Un cambio necesita una recompilación (./moq build) y un reinicio"/>
+    <moqui.basic.LocalizedMessage original="A change needs a restart to apply" locale="es" localized="Un cambio necesita un reinicio para aplicarse"/>
+    <moqui.basic.LocalizedMessage original="A field name" locale="es" localized="Un nombre de campo"/>
+    <moqui.basic.LocalizedMessage original="A field name is letters, digits and _" locale="es" localized="Un nombre de campo es letras, dígitos y _"/>
+    <moqui.basic.LocalizedMessage original="A field needs a name" locale="es" localized="Un campo necesita un nombre"/>
+    <moqui.basic.LocalizedMessage original="A field needs a name: say what it holds" locale="es" localized="Un campo necesita un nombre: diga qué guarda"/>
+    <moqui.basic.LocalizedMessage original="A file changed on disk since the edits started: compare them, then choose" locale="es" localized="Un archivo cambió en el disco desde que empezaron las ediciones: compárelos y luego elija"/>
+    <moqui.basic.LocalizedMessage original="a file in the directory" locale="es" localized="un archivo del directorio"/>
+    <moqui.basic.LocalizedMessage original="A list of related records" locale="es" localized="Una lista de registros relacionados"/>
+    <moqui.basic.LocalizedMessage original="A new site component is made from Home. A component got or cloned is offered to Load now when it needs no restart; otherwise it loads after a restart." locale="es" localized="Un componente de sitio nuevo se crea desde Inicio. Un componente obtenido o clonado se ofrece para cargarlo ahora si no necesita reinicio; si no, se carga después de un reinicio."/>
+    <moqui.basic.LocalizedMessage original="A parameter name is letters, digits and _" locale="es" localized="Un nombre de parámetro es letras, dígitos y _"/>
+    <moqui.basic.LocalizedMessage original="A Picklist's relationship title" locale="es" localized="Título de la relación de una lista de selección"/>
+    <moqui.basic.LocalizedMessage original="A Picklist's values or a Status's statuses, one a line" locale="es" localized="Los valores de una lista de selección, o los estados de un tipo de estado, uno por línea"/>
+    <moqui.basic.LocalizedMessage original="A Reference's entity" locale="es" localized="La entidad de una referencia"/>
+    <moqui.basic.LocalizedMessage original="A repository entry in ${plan.addons.file} for ${plan.addons.url}, so ./moq component-get takes components from the server" locale="es" localized="Una entrada de repositorio en ${plan.addons.file} para ${plan.addons.url}, para que ./moq component-get tome los componentes del servidor"/>
+    <moqui.basic.LocalizedMessage original="A section name" locale="es" localized="Un nombre de sección"/>
+    <moqui.basic.LocalizedMessage original="A section name is letters, digits and _" locale="es" localized="Un nombre de sección es letras, dígitos y _"/>
+    <moqui.basic.LocalizedMessage original="a subscreens-item" locale="es" localized="un subscreens-item"/>
+    <moqui.basic.LocalizedMessage original="A transition name" locale="es" localized="Un nombre de transición"/>
+    <moqui.basic.LocalizedMessage original="A transition name is letters, digits and _" locale="es" localized="Un nombre de transición es letras, dígitos y _"/>
+    <moqui.basic.LocalizedMessage original="A view entity has no table of its own." locale="es" localized="Una entidad de vista no tiene tabla propia."/>
+    <moqui.basic.LocalizedMessage original="Actions after" locale="es" localized="Acciones después"/>
+    <moqui.basic.LocalizedMessage original="Actions after is for an upstream screen in extension mode" locale="es" localized="Acciones después es para una pantalla de origen en modo de extensión"/>
+    <moqui.basic.LocalizedMessage original="Actions after the screen's" locale="es" localized="Acciones posteriores a las de la pantalla"/>
+    <moqui.basic.LocalizedMessage original="Actions before" locale="es" localized="Acciones antes"/>
+    <moqui.basic.LocalizedMessage original="Actions before is for an upstream screen in extension mode" locale="es" localized="Acciones antes es para una pantalla de origen en modo de extensión"/>
+    <moqui.basic.LocalizedMessage original="Actions before the screen's" locale="es" localized="Acciones anteriores a las de la pantalla"/>
+    <moqui.basic.LocalizedMessage original="Added as the commit's task trailer" locale="es" localized="Se agrega como el renglón de tarea de la confirmación"/>
+    <moqui.basic.LocalizedMessage original="Addons repository" locale="es" localized="Repositorio de complementos"/>
+    <moqui.basic.LocalizedMessage original="After it" locale="es" localized="Después"/>
+    <moqui.basic.LocalizedMessage original="Allow remote" locale="es" localized="Permitir remoto"/>
+    <moqui.basic.LocalizedMessage original="Amend the last commit" locale="es" localized="Enmendar la última confirmación"/>
+    <moqui.basic.LocalizedMessage original="An access token made on the server's Git access page works too, as a team's server without the app sign-in needs." locale="es" localized="También sirve un token de acceso creado en la página de acceso Git del servidor, para un servidor de equipo que no necesita el inicio de sesión de la aplicación."/>
+    <moqui.basic.LocalizedMessage original="An expression; empty runs it always" locale="es" localized="Una expresión; vacía, se ejecuta siempre"/>
+    <moqui.basic.LocalizedMessage original="An index needs a name and its fields" locale="es" localized="Un índice necesita un nombre y sus campos"/>
+    <moqui.basic.LocalizedMessage original="Another attribute" locale="es" localized="Otro atributo"/>
+    <moqui.basic.LocalizedMessage original="Another instance's tasks" locale="es" localized="Tareas de otra instancia"/>
+    <moqui.basic.LocalizedMessage original="Authenticate" locale="es" localized="Autenticar"/>
+    <moqui.basic.LocalizedMessage original="Back to the entities" locale="es" localized="Volver a las entidades"/>
+    <moqui.basic.LocalizedMessage original="Back to the screen tree" locale="es" localized="Volver al árbol de pantallas"/>
+    <moqui.basic.LocalizedMessage original="Back to the services" locale="es" localized="Volver a los servicios"/>
+    <moqui.basic.LocalizedMessage original="Before it" locale="es" localized="Antes"/>
+    <moqui.basic.LocalizedMessage original="Box with header and body" locale="es" localized="Cuadro con encabezado y cuerpo"/>
+    <moqui.basic.LocalizedMessage original="Branches, tags, stashes, merge requests, sessions, review, blame and hunks: open the Workspace in the browser (o)." locale="es" localized="Ramas, etiquetas, stash, solicitudes de fusión, sesiones, revisión, autoría y fragmentos: abra el espacio de trabajo en el navegador (o)."/>
+    <moqui.basic.LocalizedMessage original="Button menu" locale="es" localized="Menú de botones"/>
+    <moqui.basic.LocalizedMessage original="Call a service" locale="es" localized="Llamar a un servicio"/>
+    <moqui.basic.LocalizedMessage original="Callable over REST and from a browser" locale="es" localized="Invocable por REST y desde un navegador"/>
+    <moqui.basic.LocalizedMessage original="Called with the context; empty leaves the actions empty" locale="es" localized="Se llama con el contexto; vacío, deja las acciones vacías"/>
+    <moqui.basic.LocalizedMessage original="Changes of ${path}" locale="es" localized="Cambios de ${path}"/>
+    <moqui.basic.LocalizedMessage original="Check errors" locale="es" localized="Comprobar errores"/>
+    <moqui.basic.LocalizedMessage original="Cherry-pick" locale="es" localized="Aplicar confirmación"/>
+    <moqui.basic.LocalizedMessage original="Choose a widget, or write its XML" locale="es" localized="Elija un control, o escriba su XML"/>
+    <moqui.basic.LocalizedMessage original="Clone a URL" locale="es" localized="Clonar una URL"/>
+    <moqui.basic.LocalizedMessage original="Code editor" locale="es" localized="Editor de código"/>
+    <moqui.basic.LocalizedMessage original="Column name" locale="es" localized="Nombre de columna"/>
+    <moqui.basic.LocalizedMessage original="Columns no field has, which the table check never drops:" locale="es" localized="Columnas que ningún campo tiene, y que la comprobación de la tabla nunca quita:"/>
+    <moqui.basic.LocalizedMessage original="Commented on the server" locale="es" localized="Comentado en el servidor"/>
+    <moqui.basic.LocalizedMessage original="Commit and push" locale="es" localized="Confirmar y enviar"/>
+    <moqui.basic.LocalizedMessage original="Commit what is staged" locale="es" localized="Confirmar lo preparado"/>
+    <moqui.basic.LocalizedMessage original="Component (addons.xml)" locale="es" localized="Componente (addons.xml)"/>
+    <moqui.basic.LocalizedMessage original="Connected: confirm what to set from the server" locale="es" localized="Conectado: confirme qué establecer desde el servidor"/>
+    <moqui.basic.LocalizedMessage original="Create a site component on Home first" locale="es" localized="Cree primero un componente de sitio en Inicio"/>
+    <moqui.basic.LocalizedMessage original="Create a site component on Home first: a SECA rule goes in its secas file" locale="es" localized="Cree primero un componente de sitio en Inicio: una regla SECA va en su archivo secas"/>
+    <moqui.basic.LocalizedMessage original="Create a site component on Home to add SECA rules." locale="es" localized="Cree un componente de sitio en Inicio para agregar reglas SECA."/>
+    <moqui.basic.LocalizedMessage original="Create from the parameters" locale="es" localized="Crear a partir de los parámetros"/>
+    <moqui.basic.LocalizedMessage original="Created ${location}: it loads after a restart" locale="es" localized="Creado ${location}: se carga después de un reinicio"/>
+    <moqui.basic.LocalizedMessage original="Data file" locale="es" localized="Archivo de datos"/>
+    <moqui.basic.LocalizedMessage original="Default repository" locale="es" localized="Repositorio predeterminado"/>
+    <moqui.basic.LocalizedMessage original="Deleted ${path}" locale="es" localized="Eliminado ${path}"/>
+    <moqui.basic.LocalizedMessage original="Design in the terminal" locale="es" localized="Diseñar en la terminal"/>
+    <moqui.basic.LocalizedMessage original="Dev AIDE audited action" locale="es" localized="Acción auditada de Dev AIDE"/>
+    <moqui.basic.LocalizedMessage original="Directory (from the URL when empty)" locale="es" localized="Directorio (de la URL si está vacío)"/>
+    <moqui.basic.LocalizedMessage original="Discard and remove" locale="es" localized="Descartar y quitar"/>
+    <moqui.basic.LocalizedMessage original="Discard changes" locale="es" localized="Descartar cambios"/>
+    <moqui.basic.LocalizedMessage original="Discard the changes?" locale="es" localized="¿Descartar los cambios?"/>
+    <moqui.basic.LocalizedMessage original="Discard this change?" locale="es" localized="¿Descartar este cambio?"/>
+    <moqui.basic.LocalizedMessage original="Discarded the changes" locale="es" localized="Se descartaron los cambios"/>
+    <moqui.basic.LocalizedMessage original="Drag to move" locale="es" localized="Arrastrar para mover"/>
+    <moqui.basic.LocalizedMessage original="Drop and create the table" locale="es" localized="Eliminar y crear la tabla"/>
+    <moqui.basic.LocalizedMessage original="Drop and create the table…" locale="es" localized="Eliminar la tabla y crearla de nuevo…"/>
+    <moqui.basic.LocalizedMessage original="Drop it" locale="es" localized="Eliminarla"/>
+    <moqui.basic.LocalizedMessage original="Drop it…" locale="es" localized="Eliminarla…"/>
+    <moqui.basic.LocalizedMessage original="Dynamic dialog" locale="es" localized="Diálogo dinámico"/>
+    <moqui.basic.LocalizedMessage original="Each is set only when checked." locale="es" localized="Cada uno se establece solo cuando está marcado."/>
+    <moqui.basic.LocalizedMessage original="ECA Rules" locale="es" localized="Reglas ECA"/>
+    <moqui.basic.LocalizedMessage original="Edit in the terminal" locale="es" localized="Editar en la terminal"/>
+    <moqui.basic.LocalizedMessage original="Edit in Workspace" locale="es" localized="Editar en el espacio de trabajo"/>
+    <moqui.basic.LocalizedMessage original="EECA rule" locale="es" localized="Regla EECA"/>
+    <moqui.basic.LocalizedMessage original="Element" locale="es" localized="Elemento"/>
+    <moqui.basic.LocalizedMessage original="Entity extension" locale="es" localized="Extensión de entidad"/>
+    <moqui.basic.LocalizedMessage original="Entity find" locale="es" localized="Búsqueda de entidades"/>
+    <moqui.basic.LocalizedMessage original="Entity values" locale="es" localized="Valores de entidad"/>
+    <moqui.basic.LocalizedMessage original="Entity-auto: ${definition.verb} of ${definition.noun}." locale="es" localized="Entidad automática: ${definition.verb} de ${definition.noun}."/>
+    <moqui.basic.LocalizedMessage original="Even when something references it" locale="es" localized="Aunque algo lo referencie"/>
+    <moqui.basic.LocalizedMessage original="Every component from this server" locale="es" localized="Todos los componentes de este servidor"/>
+    <moqui.basic.LocalizedMessage original="Explain the artifact I have open: what it is, what uses it and what it uses." locale="es" localized="Explique el artefacto que tengo abierto: qué es, qué lo usa y qué usa."/>
+    <moqui.basic.LocalizedMessage original="Exported ${exported.docCount} docs to ${rootId}/${exported.path}: ${exported.written} written, ${exported.unchanged} unchanged, ${exported.removed} removed" locale="es" localized="Se exportaron ${exported.docCount} documentos a ${rootId}/${exported.path}: ${exported.written} escritos, ${exported.unchanged} sin cambios, ${exported.removed} quitados"/>
+    <moqui.basic.LocalizedMessage original="Extension mode: every edit goes to the site's" locale="es" localized="Modo de extensión: cada edición va a lo del sitio"/>
+    <moqui.basic.LocalizedMessage original="Extension points" locale="es" localized="Puntos de extensión"/>
+    <moqui.basic.LocalizedMessage original="Extensions" locale="es" localized="Extensiones"/>
+    <moqui.basic.LocalizedMessage original="Fetch all" locale="es" localized="Obtener todo"/>
+    <moqui.basic.LocalizedMessage original="Field names, comma separated" locale="es" localized="Nombres de campo, separados por comas"/>
+    <moqui.basic.LocalizedMessage original="Filter a list" locale="es" localized="Filtrar una lista"/>
+    <moqui.basic.LocalizedMessage original="Find an artifact to browse: what uses it, and what it uses. Try OrdHdr or place#Order." locale="es" localized="Busque un artefacto para explorarlo: qué lo usa y qué usa él. Pruebe OrdHdr o place#Order."/>
+    <moqui.basic.LocalizedMessage original="Find one" locale="es" localized="Buscar uno"/>
+    <moqui.basic.LocalizedMessage original="Find one by its key" locale="es" localized="Buscar uno por su clave"/>
+    <moqui.basic.LocalizedMessage original="Find related" locale="es" localized="Buscar relacionados"/>
+    <moqui.basic.LocalizedMessage original="Find related one" locale="es" localized="Buscar uno relacionado"/>
+    <moqui.basic.LocalizedMessage original="Fix the problems in the file I have open, as a change set." locale="es" localized="Corrija los problemas del archivo que tengo abierto, como un conjunto de cambios."/>
+    <moqui.basic.LocalizedMessage original="For each" locale="es" localized="Para cada uno"/>
+    <moqui.basic.LocalizedMessage original="from" locale="es" localized="desde"/>
+    <moqui.basic.LocalizedMessage original="Generated JavaScript" locale="es" localized="JavaScript generado"/>
+    <moqui.basic.LocalizedMessage original="Get" locale="es" localized="Obtener"/>
+    <moqui.basic.LocalizedMessage original="Get a component" locale="es" localized="Obtener un componente"/>
+    <moqui.basic.LocalizedMessage original="Git's credential for ${plan.gitCredential.prefix}" locale="es" localized="Credencial de Git para ${plan.gitCredential.prefix}"/>
+    <moqui.basic.LocalizedMessage original="Git's own helpers (D5)" locale="es" localized="Los asistentes propios de Git (D5)"/>
+    <moqui.basic.LocalizedMessage original="Give the record a value" locale="es" localized="Dé un valor al registro"/>
+    <moqui.basic.LocalizedMessage original="Go to file" locale="es" localized="Ir al archivo"/>
+    <moqui.basic.LocalizedMessage original="Group servers" locale="es" localized="Servidores del grupo"/>
+    <moqui.basic.LocalizedMessage original="Implements ${implementsText}" locale="es" localized="Implementa ${implementsText}"/>
+    <moqui.basic.LocalizedMessage original="In words, such as Due date: the name is made from them (dueDate)" locale="es" localized="En palabras, como Fecha de vencimiento: el nombre se arma con ellas (dueDate)"/>
+    <moqui.basic.LocalizedMessage original="Initialized a git repository" locale="es" localized="Se inicializó un repositorio git"/>
+    <moqui.basic.LocalizedMessage original="Insert at cursor" locale="es" localized="Insertar en el cursor"/>
+    <moqui.basic.LocalizedMessage original="Inside ${path}" locale="es" localized="Dentro de ${path}"/>
+    <moqui.basic.LocalizedMessage original="Inside it, last" locale="es" localized="Dentro, al final"/>
+    <moqui.basic.LocalizedMessage original="Into ${formName}${extension ? ', through the site\'s form merge' : ''}" locale="es" localized="En ${formName}${extension ? ', through the site\'s form merge' : ''}"/>
+    <moqui.basic.LocalizedMessage original="Into ${secasPath}, staged until Save." locale="es" localized="En ${secasPath}, preparado hasta Guardar."/>
+    <moqui.basic.LocalizedMessage original="Into runtime/components/dev (dev only)" locale="es" localized="En runtime/components/dev (solo desarrollo)"/>
+    <moqui.basic.LocalizedMessage original="Into runtime/components/test (test only)" locale="es" localized="En runtime/components/test (solo pruebas)"/>
+    <moqui.basic.LocalizedMessage original="It needs ${requiredParameters}." locale="es" localized="Necesita ${requiredParameters}."/>
+    <moqui.basic.LocalizedMessage original="It needs no restart: its entities, services, screens and conf load on this server, with its seed, seed-initial and install data." locale="es" localized="No necesita reinicio: sus entidades, servicios, pantallas y configuración se cargan en este servidor, con sus datos semilla, seed-initial e install."/>
+    <moqui.basic.LocalizedMessage original="It stopped at conflicts: resolve them in the browser's Workspace" locale="es" localized="Se detuvo en conflictos: resuélvalos en el espacio de trabajo del navegador"/>
+    <moqui.basic.LocalizedMessage original="Its value" locale="es" localized="Su valor"/>
+    <moqui.basic.LocalizedMessage original="Job re-run" locale="es" localized="Trabajo vuelto a ejecutar"/>
+    <moqui.basic.LocalizedMessage original="Key field" locale="es" localized="Campo clave"/>
+    <moqui.basic.LocalizedMessage original="Leave empty for the kind's type" locale="es" localized="Déjelo vacío para usar el tipo de la clase"/>
+    <moqui.basic.LocalizedMessage original="Leave empty to make it from the words" locale="es" localized="Déjelo vacío para armarlo con las palabras"/>
+    <moqui.basic.LocalizedMessage original="LLM gateway" locale="es" localized="Pasarela LLM"/>
+    <moqui.basic.LocalizedMessage original="Load ${loadName} now" locale="es" localized="Cargar ${loadName} ahora"/>
+    <moqui.basic.LocalizedMessage original="Load this file" locale="es" localized="Cargar este archivo"/>
+    <moqui.basic.LocalizedMessage original="Loop over a find" locale="es" localized="Recorrer una búsqueda"/>
+    <moqui.basic.LocalizedMessage original="Made task ${made.taskId}" locale="es" localized="Tarea creada ${made.taskId}"/>
+    <moqui.basic.LocalizedMessage original="Made the folder ${newPath}" locale="es" localized="Carpeta creada ${newPath}"/>
+    <moqui.basic.LocalizedMessage original="Make a value" locale="es" localized="Crear un valor"/>
+    <moqui.basic.LocalizedMessage original="Make and switch to it" locale="es" localized="Crearla y cambiar a ella"/>
+    <moqui.basic.LocalizedMessage original="Make it the default" locale="es" localized="Hacerla predeterminada"/>
+    <moqui.basic.LocalizedMessage original="Make the file" locale="es" localized="Crear el archivo"/>
+    <moqui.basic.LocalizedMessage original="Make the folder" locale="es" localized="Crear la carpeta"/>
+    <moqui.basic.LocalizedMessage original="Menu index" locale="es" localized="Índice del menú"/>
+    <moqui.basic.LocalizedMessage original="Menu title" locale="es" localized="Título del menú"/>
+    <moqui.basic.LocalizedMessage original="Missing columns, which Save adds: ${missingColumns}" locale="es" localized="Columnas que faltan y que Guardar agrega: ${missingColumns}"/>
+    <moqui.basic.LocalizedMessage original="Model alias" locale="es" localized="Alias del modelo"/>
+    <moqui.basic.LocalizedMessage original="Modes" locale="es" localized="Modos"/>
+    <moqui.basic.LocalizedMessage original="Mounted by" locale="es" localized="Montada por"/>
+    <moqui.basic.LocalizedMessage original="My token from this connection" locale="es" localized="Mi token de esta conexión"/>
+    <moqui.basic.LocalizedMessage original="Name a service" locale="es" localized="Indique un servicio"/>
+    <moqui.basic.LocalizedMessage original="Name an entity" locale="es" localized="Indique una entidad"/>
+    <moqui.basic.LocalizedMessage original="Name the attribute" locale="es" localized="Indique el atributo"/>
+    <moqui.basic.LocalizedMessage original="Name the entity whose records the section lists" locale="es" localized="Indique la entidad cuyos registros lista la sección"/>
+    <moqui.basic.LocalizedMessage original="Name the related entity" locale="es" localized="Indique la entidad relacionada"/>
+    <moqui.basic.LocalizedMessage original="Name the service the button calls" locale="es" localized="Indique el servicio que llama el botón"/>
+    <moqui.basic.LocalizedMessage original="Nearest anchor" locale="es" localized="Ancla más cercana"/>
+    <moqui.basic.LocalizedMessage original="New branch, from the current commit" locale="es" localized="Rama nueva, desde la confirmación actual"/>
+    <moqui.basic.LocalizedMessage original="New path in the root" locale="es" localized="Nueva ruta en la raíz"/>
+    <moqui.basic.LocalizedMessage original="New subscreen" locale="es" localized="Nueva subpantalla"/>
+    <moqui.basic.LocalizedMessage original="Newer commits" locale="es" localized="Confirmaciones más nuevas"/>
+    <moqui.basic.LocalizedMessage original="No changes" locale="es" localized="Sin cambios"/>
+    <moqui.basic.LocalizedMessage original="No EECA rule acts on this entity." locale="es" localized="Ninguna regla EECA actúa sobre esta entidad."/>
+    <moqui.basic.LocalizedMessage original="No records yet." locale="es" localized="Aún no hay registros."/>
+    <moqui.basic.LocalizedMessage original="No site component to write the seed data in: create one on Home" locale="es" localized="No hay componente de sitio donde escribir los datos semilla: cree uno en Inicio"/>
+    <moqui.basic.LocalizedMessage original="No site seed data file: create a site component on Home." locale="es" localized="No hay archivo de datos semilla del sitio: cree un componente de sitio en Inicio."/>
+    <moqui.basic.LocalizedMessage original="No table yet: Save makes it." locale="es" localized="Aún no hay tabla: Guardar la crea."/>
+    <moqui.basic.LocalizedMessage original="Not committed yet: no blame" locale="es" localized="Aún sin confirmar: no hay autoría"/>
+    <moqui.basic.LocalizedMessage original="Not in the schema" locale="es" localized="No está en el esquema"/>
+    <moqui.basic.LocalizedMessage original="Not null" locale="es" localized="No nulo"/>
+    <moqui.basic.LocalizedMessage original="Nothing in it yet: the intents on the screen's elements add to it." locale="es" localized="Aún no hay nada: las intenciones de los elementos de la pantalla lo van llenando."/>
+    <moqui.basic.LocalizedMessage original="Nothing is staged: the files are as on disk." locale="es" localized="No hay nada preparado: los archivos están como en el disco."/>
+    <moqui.basic.LocalizedMessage original="Nothing near this element has a name to anchor an extension at: choose a named element" locale="es" localized="Nada cerca de este elemento tiene un nombre donde anclar una extensión: elija un elemento con nombre"/>
+    <moqui.basic.LocalizedMessage original="Nothing near this element has a name to anchor at" locale="es" localized="Nada cerca de este elemento tiene un nombre para anclar"/>
+    <moqui.basic.LocalizedMessage original="Nothing to save over the disk: open the file and save it again" locale="es" localized="No hay nada que guardar sobre el disco: abra el archivo y vuelva a guardarlo"/>
+    <moqui.basic.LocalizedMessage original="Older commits" locale="es" localized="Confirmaciones más antiguas"/>
+    <moqui.basic.LocalizedMessage original="On ${branch}" locale="es" localized="En ${branch}"/>
+    <moqui.basic.LocalizedMessage original="On ${made.branch} in ${rootId}" locale="es" localized="En ${made.branch}, dentro de ${rootId}"/>
+    <moqui.basic.LocalizedMessage original="Only these projects (ids, comma separated)" locale="es" localized="Solo estos proyectos (ids, separados por comas)"/>
+    <moqui.basic.LocalizedMessage original="Open ${definition.location}" locale="es" localized="Abrir ${definition.location}"/>
+    <moqui.basic.LocalizedMessage original="Open a file from the tree, Go to file, or the palette (Ctrl+K), which finds artifacts by name." locale="es" localized="Abra un archivo desde el árbol, vaya al archivo o use la paleta (Ctrl+K), que encuentra artefactos por nombre."/>
+    <moqui.basic.LocalizedMessage original="Open a file you may edit first" locale="es" localized="Abra primero un archivo que pueda editar"/>
+    <moqui.basic.LocalizedMessage original="Open a terminal here" locale="es" localized="Abrir una terminal aquí"/>
+    <moqui.basic.LocalizedMessage original="Open at its line in the Workspace" locale="es" localized="Abrir en su línea en el espacio de trabajo"/>
+    <moqui.basic.LocalizedMessage original="Open in Data Grid" locale="es" localized="Abrir en la cuadrícula de datos"/>
+    <moqui.basic.LocalizedMessage original="Open in Text" locale="es" localized="Abrir en texto"/>
+    <moqui.basic.LocalizedMessage original="Open in Tools" locale="es" localized="Abrir en Herramientas"/>
+    <moqui.basic.LocalizedMessage original="Opened with Assist's proposal, not saved: Save keeps it" locale="es" localized="Abierto con la propuesta de Assist, sin guardar: Guardar la conserva"/>
+    <moqui.basic.LocalizedMessage original="Or its XML" locale="es" localized="O su XML"/>
+    <moqui.basic.LocalizedMessage original="Order a list" locale="es" localized="Ordenar una lista"/>
+    <moqui.basic.LocalizedMessage original="Override it in the site" locale="es" localized="Sobrescribirlo en el sitio"/>
+    <moqui.basic.LocalizedMessage original="Path in the root" locale="es" localized="Ruta en la raíz"/>
+    <moqui.basic.LocalizedMessage original="PK" locale="es" localized="Clave"/>
+    <moqui.basic.LocalizedMessage original="Plan it" locale="es" localized="Planificarlo"/>
+    <moqui.basic.LocalizedMessage original="Primary key" locale="es" localized="Clave primaria"/>
+    <moqui.basic.LocalizedMessage original="Project id" locale="es" localized="Id del proyecto"/>
+    <moqui.basic.LocalizedMessage original="Properties: Enter on a row edits it, Ctrl+S stages it" locale="es" localized="Propiedades: Enter en una fila la edita y Ctrl+S la prepara"/>
+    <moqui.basic.LocalizedMessage original="Propose as change" locale="es" localized="Proponer como cambio"/>
+    <moqui.basic.LocalizedMessage original="Pull all" locale="es" localized="Traer todo"/>
+    <moqui.basic.LocalizedMessage original="Put each service's definition in its doc" locale="es" localized="Poner la definición de cada servicio en su documento"/>
+    <moqui.basic.LocalizedMessage original="Ran for real" locale="es" localized="Se ejecutó de verdad"/>
+    <moqui.basic.LocalizedMessage original="Ran in the sim: nothing kept" locale="es" localized="Se ejecutó en la simulación: no se conservó nada"/>
+    <moqui.basic.LocalizedMessage original="Ran the snippet in the sim: nothing kept" locale="es" localized="Se ejecutó el fragmento en la simulación: no se conservó nada"/>
+    <moqui.basic.LocalizedMessage original="Read only below 1024 px" locale="es" localized="Solo lectura por debajo de 1024 px"/>
+    <moqui.basic.LocalizedMessage original="Read only here: edit the actions in the Workspace or the browser's logic composer." locale="es" localized="Solo lectura aquí: edite las acciones en el espacio de trabajo o en el compositor de lógica del navegador."/>
+    <moqui.basic.LocalizedMessage original="Read only: ${readOnlyReason}" locale="es" localized="Solo lectura: ${readOnlyReason}"/>
+    <moqui.basic.LocalizedMessage original="Read your tasks from another Moqui instance, such as your team's Projects server, with your own access token there (its user name and a login key). The token is kept encrypted." locale="es" localized="Lea sus tareas en otra instancia de Moqui, como el servidor Projects de su equipo, con su propio token de acceso de allí (su nombre de usuario y una clave de acceso). El token se guarda cifrado."/>
+    <moqui.basic.LocalizedMessage original="Really delete it?" locale="es" localized="¿Eliminarlo de verdad?"/>
+    <moqui.basic.LocalizedMessage original="References of" locale="es" localized="Referencias de"/>
+    <moqui.basic.LocalizedMessage original="Regular expression" locale="es" localized="Expresión regular"/>
+    <moqui.basic.LocalizedMessage original="Related entity" locale="es" localized="Entidad relacionada"/>
+    <moqui.basic.LocalizedMessage original="Related entity (Reference)" locale="es" localized="Entidad relacionada (referencia)"/>
+    <moqui.basic.LocalizedMessage original="Related field" locale="es" localized="Campo relacionado"/>
+    <moqui.basic.LocalizedMessage original="Remove ${removeConfirm.name}" locale="es" localized="Quitar ${removeConfirm.name}"/>
+    <moqui.basic.LocalizedMessage original="Remove docs this tool wrote whose artifacts are gone" locale="es" localized="Quitar los documentos que escribió esta herramienta y cuyo artefacto ya no existe"/>
+    <moqui.basic.LocalizedMessage original="Render" locale="es" localized="Presentar"/>
+    <moqui.basic.LocalizedMessage original="Replace it in the site" locale="es" localized="Reemplazarlo en el sitio"/>
+    <moqui.basic.LocalizedMessage original="Replace selection" locale="es" localized="Reemplazar la selección"/>
+    <moqui.basic.LocalizedMessage original="Replied on the server" locale="es" localized="Respondido en el servidor"/>
+    <moqui.basic.LocalizedMessage original="Repository name" locale="es" localized="Nombre del repositorio"/>
+    <moqui.basic.LocalizedMessage original="REST API only" locale="es" localized="Solo API REST"/>
+    <moqui.basic.LocalizedMessage original="REST APIs" locale="es" localized="API REST"/>
+    <moqui.basic.LocalizedMessage original="REST resource" locale="es" localized="Recurso REST"/>
+    <moqui.basic.LocalizedMessage original="Restart the server?" locale="es" localized="¿Reiniciar el servidor?"/>
+    <moqui.basic.LocalizedMessage original="Restarting: the server comes back in a few seconds" locale="es" localized="Reiniciando: el servidor vuelve en unos segundos"/>
+    <moqui.basic.LocalizedMessage original="Restarting…" locale="es" localized="Reiniciando…"/>
+    <moqui.basic.LocalizedMessage original="Return error" locale="es" localized="Devolver error"/>
+    <moqui.basic.LocalizedMessage original="Row key field" locale="es" localized="Campo clave de la fila"/>
+    <moqui.basic.LocalizedMessage original="Row of two columns" locale="es" localized="Fila de dos columnas"/>
+    <moqui.basic.LocalizedMessage original="Rows it would write${tryResult.moreRows ? ' (the first ones)' : ''}" locale="es" localized="Filas que escribiría${tryResult.moreRows ? ' (the first ones)' : ''}"/>
+    <moqui.basic.LocalizedMessage original="Run for real" locale="es" localized="Ejecutar de verdad"/>
+    <moqui.basic.LocalizedMessage original="Run in sim" locale="es" localized="Ejecutar en la simulación"/>
+    <moqui.basic.LocalizedMessage original="Run in the sim with the Try's values set" locale="es" localized="Ejecutar en la simulación con los valores de Probar ya puestos"/>
+    <moqui.basic.LocalizedMessage original="Run it in the sim first: a spec is made from a Try that passed" locale="es" localized="Ejecútelo primero en la simulación: una especificación sale de un Probar que haya pasado"/>
+    <moqui.basic.LocalizedMessage original="Run on ${ddlPlan.table}?" locale="es" localized="¿Ejecutar en ${ddlPlan.table}?"/>
+    <moqui.basic.LocalizedMessage original="Run re-run" locale="es" localized="La ejecución se volvió a ejecutar"/>
+    <moqui.basic.LocalizedMessage original="Run spec ${trySpec.name}" locale="es" localized="Ejecutar la especificación ${trySpec.name}"/>
+    <moqui.basic.LocalizedMessage original="Save (Ctrl+S)" locale="es" localized="Guardar (Ctrl+S)"/>
+    <moqui.basic.LocalizedMessage original="Save a Try as a spec first" locale="es" localized="Guarde primero un Probar como especificación"/>
+    <moqui.basic.LocalizedMessage original="Save as spec" locale="es" localized="Guardar como especificación"/>
+    <moqui.basic.LocalizedMessage original="Save mine over it" locale="es" localized="Guardar lo mío encima"/>
+    <moqui.basic.LocalizedMessage original="Screen extension" locale="es" localized="Extensión de pantalla"/>
+    <moqui.basic.LocalizedMessage original="Screens and REST API" locale="es" localized="Pantallas y API REST"/>
+    <moqui.basic.LocalizedMessage original="Screens only" locale="es" localized="Solo pantallas"/>
+    <moqui.basic.LocalizedMessage original="Search in files" locale="es" localized="Buscar en archivos"/>
+    <moqui.basic.LocalizedMessage original="SECA rule" locale="es" localized="Regla SECA"/>
+    <moqui.basic.LocalizedMessage original="Section with a condition" locale="es" localized="Sección con una condición"/>
+    <moqui.basic.LocalizedMessage original="Seed data" locale="es" localized="Datos semilla"/>
+    <moqui.basic.LocalizedMessage original="Select a form, or an element in one, first" locale="es" localized="Seleccione primero un formulario, o un elemento dentro de uno"/>
+    <moqui.basic.LocalizedMessage original="Select a list (form-list) first" locale="es" localized="Seleccione primero una lista (form-list)"/>
+    <moqui.basic.LocalizedMessage original="Select a named section or form to replace" locale="es" localized="Seleccione una sección o un formulario con nombre para reemplazar"/>
+    <moqui.basic.LocalizedMessage original="Select a transition to override" locale="es" localized="Seleccione una transición para sobrescribir"/>
+    <moqui.basic.LocalizedMessage original="Select the element the button goes after" locale="es" localized="Seleccione el elemento detrás del cual va el botón"/>
+    <moqui.basic.LocalizedMessage original="Sent: it waits for a moderator" locale="es" localized="Enviado: espera a un moderador"/>
+    <moqui.basic.LocalizedMessage original="Server address" locale="es" localized="Dirección del servidor"/>
+    <moqui.basic.LocalizedMessage original="Service it calls" locale="es" localized="Servicio al que llama"/>
+    <moqui.basic.LocalizedMessage original="Service job" locale="es" localized="Trabajo de servicio"/>
+    <moqui.basic.LocalizedMessage original="Service to call" locale="es" localized="Servicio a llamar"/>
+    <moqui.basic.LocalizedMessage original="Service, entity or event" locale="es" localized="Servicio, entidad o evento"/>
+    <moqui.basic.LocalizedMessage original="Set current" locale="es" localized="Establecer como actual"/>
+    <moqui.basic.LocalizedMessage original="Set fields" locale="es" localized="Establecer campos"/>
+    <moqui.basic.LocalizedMessage original="Set fields of" locale="es" localized="Establecer los campos de"/>
+    <moqui.basic.LocalizedMessage original="Set up from ${planServer.label}" locale="es" localized="Configurar desde ${planServer.label}"/>
+    <moqui.basic.LocalizedMessage original="Sign" locale="es" localized="Firmar"/>
+    <moqui.basic.LocalizedMessage original="Sign off" locale="es" localized="Dar el visto bueno"/>
+    <moqui.basic.LocalizedMessage original="Signed: ${signedOut?.line ?? ''}. Push it to the server." locale="es" localized="Firmado: ${signedOut?.line ?? ''}. Envíelo al servidor."/>
+    <moqui.basic.LocalizedMessage original="Site components saved" locale="es" localized="Componentes de sitio guardados"/>
+    <moqui.basic.LocalizedMessage original="Stage selected" locale="es" localized="Preparar la selección"/>
+    <moqui.basic.LocalizedMessage original="Stage the settings" locale="es" localized="Preparar la configuración"/>
+    <moqui.basic.LocalizedMessage original="Staged against the disk" locale="es" localized="Preparado frente al disco"/>
+    <moqui.basic.LocalizedMessage original="Staged diff" locale="es" localized="Diferencia preparada"/>
+    <moqui.basic.LocalizedMessage original="Staged: Save writes it (Ctrl+S on the header)" locale="es" localized="Preparado: Guardar lo escribe (Ctrl+S en el encabezado)"/>
+    <moqui.basic.LocalizedMessage original="Status bar" locale="es" localized="Barra de estado"/>
+    <moqui.basic.LocalizedMessage original="Subscreen" locale="es" localized="Subpantalla"/>
+    <moqui.basic.LocalizedMessage original="Switch" locale="es" localized="Cambiar"/>
+    <moqui.basic.LocalizedMessage original="Take the disk's" locale="es" localized="Quedarse con el del disco"/>
+    <moqui.basic.LocalizedMessage original="Task source" locale="es" localized="Origen de tareas"/>
+    <moqui.basic.LocalizedMessage original="Task source saved" locale="es" localized="Origen de tareas guardado"/>
+    <moqui.basic.LocalizedMessage original="Tasks from" locale="es" localized="Tareas desde"/>
+    <moqui.basic.LocalizedMessage original="Test only (runtime/components/test)" locale="es" localized="Solo pruebas (runtime/components/test)"/>
+    <moqui.basic.LocalizedMessage original="Text line" locale="es" localized="Línea de texto"/>
+    <moqui.basic.LocalizedMessage original="That does not fit here" locale="es" localized="Eso no cabe aquí"/>
+    <moqui.basic.LocalizedMessage original="That element is not in the screen as staged: choose it again in the outline" locale="es" localized="Ese elemento no está en la pantalla tal como está preparada: elíjalo otra vez en el contorno"/>
+    <moqui.basic.LocalizedMessage original="That element is not in the site's screen-extend as staged: choose it again" locale="es" localized="Ese elemento no está en el screen-extend del sitio tal como está preparado: elíjalo otra vez"/>
+    <moqui.basic.LocalizedMessage original="That record is not in the seed file as staged: open Seed data again" locale="es" localized="Ese registro no está en el archivo semilla tal como está preparado: abra Datos semilla otra vez"/>
+    <moqui.basic.LocalizedMessage original="the context" locale="es" localized="el contexto"/>
+    <moqui.basic.LocalizedMessage original="The diff takes the disk's text to yours." locale="es" localized="La diferencia lleva el texto del disco hacia el suyo."/>
+    <moqui.basic.LocalizedMessage original="The disk's text against yours:" locale="es" localized="El texto del disco frente al suyo:"/>
+    <moqui.basic.LocalizedMessage original="The index is not written in the edit target: an upstream one is removed upstream" locale="es" localized="El índice no está escrito en el destino de la edición: uno de origen se quita en el origen"/>
+    <moqui.basic.LocalizedMessage original="The list's find has no search-form-inputs, so a header filter would not narrow it: add search-form-inputs to its find first." locale="es" localized="La búsqueda de la lista no tiene search-form-inputs, así que un filtro de encabezado no la acotaría: agregue primero search-form-inputs a su búsqueda."/>
+    <moqui.basic.LocalizedMessage original="The list's find is not in this screen's actions, so its filters cannot be told apart." locale="es" localized="La búsqueda de la lista no está en las acciones de esta pantalla, así que sus filtros no se pueden distinguir."/>
+    <moqui.basic.LocalizedMessage original="The merge stopped at conflicts" locale="es" localized="La fusión se detuvo en conflictos"/>
+    <moqui.basic.LocalizedMessage original="The merge stopped at conflicts: resolve them in Changes" locale="es" localized="La fusión se detuvo en conflictos: resuélvalos en Cambios"/>
+    <moqui.basic.LocalizedMessage original="The page's field the records are found by" locale="es" localized="Campo de la página por el que se hallan los registros"/>
+    <moqui.basic.LocalizedMessage original="The page's query, such as exampleId=100; F5 renders it again" locale="es" localized="La consulta de la página, como exampleId=100; F5 la vuelve a presentar"/>
+    <moqui.basic.LocalizedMessage original="The parent is upstream: the new screen is the site's (${made.path}), mounted under it by the site's screen-extend" locale="es" localized="El padre es de origen: la pantalla nueva es la del sitio (${made.path}), montada debajo por el screen-extend del sitio"/>
+    <moqui.basic.LocalizedMessage original="The related records' entity" locale="es" localized="Entidad de los registros relacionados"/>
+    <moqui.basic.LocalizedMessage original="The relationship is not written in the edit target: an upstream one is removed upstream" locale="es" localized="La relación no está escrita en el destino de la edición: una de origen se quita en el origen"/>
+    <moqui.basic.LocalizedMessage original="The relationships of other entities to this one, as the server reversed them." locale="es" localized="Las relaciones de otras entidades hacia esta, tal como el servidor las invirtió."/>
+    <moqui.basic.LocalizedMessage original="The run failed" locale="es" localized="La ejecución falló"/>
+    <moqui.basic.LocalizedMessage original="The run in the sim failed: nothing kept" locale="es" localized="La ejecución en la simulación falló: no se conservó nada"/>
+    <moqui.basic.LocalizedMessage original="The screen itself is not removed here" locale="es" localized="La pantalla misma no se quita aquí"/>
+    <moqui.basic.LocalizedMessage original="The screen-extend itself does not move" locale="es" localized="El screen-extend mismo no se mueve"/>
+    <moqui.basic.LocalizedMessage original="The screen-extend itself is not removed here" locale="es" localized="El screen-extend mismo no se quita aquí"/>
+    <moqui.basic.LocalizedMessage original="The seed data file, staged against the disk" locale="es" localized="El archivo de datos semilla, preparado frente al disco"/>
+    <moqui.basic.LocalizedMessage original="The seed file has no records of that entity as staged: open Seed data again" locale="es" localized="El archivo semilla no tiene registros de esa entidad tal como está preparado: abra Datos semilla otra vez"/>
+    <moqui.basic.LocalizedMessage original="The service is not defined in a file of its own here" locale="es" localized="El servicio no está definido aquí en un archivo propio"/>
+    <moqui.basic.LocalizedMessage original="The site's" locale="es" localized="Lo del sitio"/>
+    <moqui.basic.LocalizedMessage original="The site's ${extensionPath}${editFile.missing ? ' (made on its first save)' : ''}${editFile.staged ? ', staged' : ''}" locale="es" localized="El ${extensionPath} del sitio${editFile.missing ? ' (made on its first save)' : ''}${editFile.staged ? ', staged' : ''}"/>
+    <moqui.basic.LocalizedMessage original="The site's own elements take Properties, Remove and Move: choose an element of the screen for the others" locale="es" localized="Los elementos propios del sitio aceptan Propiedades, Quitar y Mover: para lo demás elija un elemento de la pantalla"/>
+    <moqui.basic.LocalizedMessage original="The snippet failed in the sim: nothing kept" locale="es" localized="El fragmento falló en la simulación: no se conservó nada"/>
+    <moqui.basic.LocalizedMessage original="The table matches the fields." locale="es" localized="La tabla coincide con los campos."/>
+    <moqui.basic.LocalizedMessage original="The unsaved changes are discarded" locale="es" localized="Se descartan los cambios sin guardar"/>
+    <moqui.basic.LocalizedMessage original="The unsaved changes of this entity were kept two hours and are gone: make them again." locale="es" localized="Los cambios sin guardar de esta entidad se conservaron dos horas y ya no están: hágalos otra vez."/>
+    <moqui.basic.LocalizedMessage original="The unsaved changes of this screen were kept two hours and are gone: make them again." locale="es" localized="Los cambios sin guardar de esta pantalla se conservaron dos horas y ya no están: hágalos otra vez."/>
+    <moqui.basic.LocalizedMessage original="The unsaved changes of this service were kept two hours and are gone: make them again." locale="es" localized="Los cambios sin guardar de este servicio se conservaron dos horas y ya no están: hágalos otra vez."/>
+    <moqui.basic.LocalizedMessage original="Their changes in the work tree are lost, and a new file is deleted." locale="es" localized="Se pierden sus cambios en el árbol de trabajo, y un archivo nuevo se elimina."/>
+    <moqui.basic.LocalizedMessage original="There is no doc of this artifact." locale="es" localized="No hay documentación de este artefacto."/>
+    <moqui.basic.LocalizedMessage original="There is no file to make this edit in: create a site component on Home first" locale="es" localized="No hay un archivo donde hacer esta edición: cree primero un componente de sitio en Inicio"/>
+    <moqui.basic.LocalizedMessage original="There is no root ${rootId}: choose one." locale="es" localized="No existe la raíz ${rootId}: elija una."/>
+    <moqui.basic.LocalizedMessage original="This directory has no git history, so it cannot be brought back." locale="es" localized="Este directorio no tiene historial de git, así que no se puede recuperar."/>
+    <moqui.basic.LocalizedMessage original="This entity is upstream and there is no site component to extend it in" locale="es" localized="Esta entidad es de origen y no hay un componente de sitio para extenderla"/>
+    <moqui.basic.LocalizedMessage original="This entity is upstream and there is no site component to extend it in: create one on Home" locale="es" localized="Esta entidad es de origen y no hay un componente de sitio para extenderla: cree uno en Inicio"/>
+    <moqui.basic.LocalizedMessage original="This entity's field; empty when the names match" locale="es" localized="Campo de esta entidad; vacío cuando los nombres coinciden"/>
+    <moqui.basic.LocalizedMessage original="This runtime has no ./moq beside it: clone a URL instead." locale="es" localized="Este runtime no tiene un ./moq al lado: clone una URL."/>
+    <moqui.basic.LocalizedMessage original="This screen is edited in place: choose its element in the outline" locale="es" localized="Esta pantalla se edita in situ: elija su elemento en el contorno"/>
+    <moqui.basic.LocalizedMessage original="This screen is extended: its own elements take the intents below, and the site's elements in the screen-extend (under them) their properties, Remove and Move." locale="es" localized="Esta pantalla está extendida: sus propios elementos usan las intenciones de abajo, y los del sitio en el screen-extend (debajo) usan propiedades, Quitar y Mover."/>
+    <moqui.basic.LocalizedMessage original="This screen is not mounted under the apps, so it has no page to show." locale="es" localized="Esta pantalla no está montada bajo las aplicaciones, así que no hay página que mostrar."/>
+    <moqui.basic.LocalizedMessage original="This screen is upstream and there is no site component to extend it in: create one on Home" locale="es" localized="Esta pantalla es de origen y no hay un componente de sitio para extenderla: cree uno en Inicio"/>
+    <moqui.basic.LocalizedMessage original="This screen renders at no path the app tree reaches, so it has no preview here." locale="es" localized="Esta pantalla no se presenta en ninguna ruta que alcance el árbol de aplicaciones, así que aquí no hay vista previa."/>
+    <moqui.basic.LocalizedMessage original="This server has no sim (it needs embedded Postgres): only Run for real." locale="es" localized="Este servidor no tiene simulación (necesita Postgres integrado): solo Ejecutar de verdad."/>
+    <moqui.basic.LocalizedMessage original="Throw away the changes of the selected files" locale="es" localized="Descartar los cambios de los archivos seleccionados"/>
+    <moqui.basic.LocalizedMessage original="Timeout" locale="es" localized="Tiempo de espera"/>
+    <moqui.basic.LocalizedMessage original="Title (Picklist)" locale="es" localized="Título (lista de selección)"/>
+    <moqui.basic.LocalizedMessage original="To (a path in the root)" locale="es" localized="Hacia (una ruta en la raíz)"/>
+    <moqui.basic.LocalizedMessage original="Token saved" locale="es" localized="Token guardado"/>
+    <moqui.basic.LocalizedMessage original="Transition" locale="es" localized="Transición"/>
+    <moqui.basic.LocalizedMessage original="Type the table name (${ddlPlan.table}) to run it" locale="es" localized="Escriba el nombre de la tabla (${ddlPlan.table}) para ejecutarlo"/>
+    <moqui.basic.LocalizedMessage original="Unique" locale="es" localized="Único"/>
+    <moqui.basic.LocalizedMessage original="Unstage selected" locale="es" localized="Retirar de la preparación lo seleccionado"/>
+    <moqui.basic.LocalizedMessage original="Unstaged" locale="es" localized="Se retiró de la preparación"/>
+    <moqui.basic.LocalizedMessage original="Update what references it" locale="es" localized="Actualizar lo que lo referencia"/>
+    <moqui.basic.LocalizedMessage original="Values (Picklist, Status)" locale="es" localized="Valores (lista de selección, estado)"/>
+    <moqui.basic.LocalizedMessage original="View entity" locale="es" localized="Entidad de vista"/>
+    <moqui.basic.LocalizedMessage original="What a screen-extend can name: the named containers, sections, forms and transitions, and for one with no name the nearest anchor." locale="es" localized="Lo que un screen-extend puede nombrar: los contenedores, las secciones, los formularios y las transiciones con nombre y, si no tiene nombre, el ancla más cercana."/>
+    <moqui.basic.LocalizedMessage original="What does the site component extend of the artifact I have open, and is any extension broken?" locale="es" localized="¿Qué extiende el componente de sitio del artefacto que tengo abierto, y hay alguna extensión rota?"/>
+    <moqui.basic.LocalizedMessage original="What it holds" locale="es" localized="Qué guarda"/>
+    <moqui.basic.LocalizedMessage original="Where is the artifact at my cursor used? List the screens, services and rules." locale="es" localized="¿Dónde se usa el artefacto que está en mi cursor? Liste las pantallas, los servicios y las reglas."/>
+    <moqui.basic.LocalizedMessage original="Widget" locale="es" localized="Control"/>
+    <moqui.basic.LocalizedMessage original="Your legal name" locale="es" localized="Su nombre legal"/>
+    <moqui.basic.LocalizedMessage original="Your line goes under both lists of AUTHORS.md and is committed alone." locale="es" localized="Su línea queda bajo las dos listas de AUTHORS.md y se confirma sola."/>
+    <moqui.basic.LocalizedMessage original="Your user name there" locale="es" localized="Su nombre de usuario allí"/>
+    <moqui.basic.LocalizedMessage original="Your work items from ${plan.taskSource.path}" locale="es" localized="Sus elementos de trabajo desde ${plan.taskSource.path}"/>
+</entity-facade-xml>

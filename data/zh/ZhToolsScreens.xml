@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+
+<entity-facade-xml type="zh">
+    <moqui.basic.LocalizedMessage original="${alert.audienceKind == 'group' ? 'Tells ' + alert.audienceText + ', each in a notification of their own' : 'Tells its owner alone'}${alert.emailChannel == 'Y' ? ', in the app and by email.' : ', in the app.'}" locale="zh" localized="${alert.audienceKind == 'group' ? '通知 ' + alert.audienceText + '，各自收到自己的通知' : '只通知其所有者'}${alert.emailChannel == 'Y' ? '，在应用内并通过电子邮件。' : '，在应用内。'}"/>
+    <moqui.basic.LocalizedMessage original="${alert.sourceText}${creating ? '' : ' · fires when ' + alert.conditionText + ' · tells ' + alert.audienceText}${alert.ownerName ? ' · owner ' + alert.ownerName : ''}" locale="zh" localized="${alert.sourceText}${creating ? '' : ' · 触发于 ' + alert.conditionText + ' · 通知 ' + alert.audienceText}${alert.ownerName ? ' · 所有者 ' + alert.ownerName : ''}"/>
+    <moqui.basic.LocalizedMessage original="${attemptText}${attemptCount &gt; 1 ? ' (' + attemptCount + ' attempts)' : ''}" locale="zh" localized="${attemptText}${attemptCount &gt; 1 ? ' (' + attemptCount + ' 次尝试)' : ''}"/>
+    <moqui.basic.LocalizedMessage original="${label}, A to Z" locale="zh" localized="${label}，从 A 到 Z"/>
+    <moqui.basic.LocalizedMessage original="${label}, highest first" locale="zh" localized="${label}，从高到低"/>
+    <moqui.basic.LocalizedMessage original="${label}, lowest first" locale="zh" localized="${label}，从低到高"/>
+    <moqui.basic.LocalizedMessage original="${label}, Z to A" locale="zh" localized="${label}，从 Z 到 A"/>
+    <moqui.basic.LocalizedMessage original="${ownDelivery.stateText}${ownDelivery.attemptText ? ' on ' + ownDelivery.attemptText : ''}${ownDelivery.reasonText ? ': ' + ownDelivery.reasonText : ''}" locale="zh" localized="${ownDelivery.stateText}${ownDelivery.attemptText ? ' 于 ' + ownDelivery.attemptText : ''}${ownDelivery.reasonText ? ': ' + ownDelivery.reasonText : ''}"/>
+    <moqui.basic.LocalizedMessage original="${schedule.definitionTitle} · ${schedule.cronText} · ${schedule.formatText} · ${schedule.modeText}, to ${schedule.audienceText}" locale="zh" localized="${schedule.definitionTitle} · ${schedule.cronText} · ${schedule.formatText} · ${schedule.modeText}，发给 ${schedule.audienceText}"/>
+    <moqui.basic.LocalizedMessage original="A CalcGrid document is sent as its workbook, an Excel file with every data sheet as the recipient's access reads it. Download it above to see yours." locale="zh" localized="CalcGrid 文档以其工作簿发送，这是一个 Excel 文件，每张数据表按收件人的访问权限呈现。请在上方下载，以查看您自己的。"/>
+    <moqui.basic.LocalizedMessage original="A change needs the index rebuilt before the dataset can be admitted again." locale="zh" localized="发生更改后，必须先重建索引，才能再次准入该数据集。"/>
+    <moqui.basic.LocalizedMessage original="A dashboard is shared with one group at a time, the one you choose." locale="zh" localized="仪表板一次只与一个组共享，即您所选的组。"/>
+    <moqui.basic.LocalizedMessage original="A dashboard is shared with one group at a time. It is shared with ${dashboardShare.sharedWith} now: choosing another group takes it from ${dashboardShare.sharedWith}." locale="zh" localized="仪表板一次只与一个组共享。当前与 ${dashboardShare.sharedWith} 共享：若选择另一个组，会从 ${dashboardShare.sharedWith} 收回。"/>
+    <moqui.basic.LocalizedMessage original="A dashboard or report you may read" locale="zh" localized="您可以读取的仪表板或报表"/>
+    <moqui.basic.LocalizedMessage original="A dataset is read by its own grant, and a business dataset once its steward admits it." locale="zh" localized="数据集按其自身授权读取；业务数据集要等其数据集管理员准入之后才可读取。"/>
+    <moqui.basic.LocalizedMessage original="A dataset reads one document of a registered data feed. It waits for review until its index is built and you admit it." locale="zh" localized="数据集读取已注册数据馈送中的一份文档。在索引建好且您准入之前，它一直等待审核。"/>
+    <moqui.basic.LocalizedMessage original="A dataset you may read" locale="zh" localized="您可以读取的数据集"/>
+    <moqui.basic.LocalizedMessage original="A date or a relative time such as now-30d" locale="zh" localized="日期或相对时间，例如 now-30d"/>
+    <moqui.basic.LocalizedMessage original="A delivery destination for state changes. Use the fields of its type; grouping and repeat apply to every type." locale="zh" localized="状态变化的投递目的地。请使用该类型的字段；分组和重复适用于每一种类型。"/>
+    <moqui.basic.LocalizedMessage original="A field of the source, or relationship:field" locale="zh" localized="来源中的一个字段，或 relationship:field"/>
+    <moqui.basic.LocalizedMessage original="A group you belong to" locale="zh" localized="您所属的组"/>
+    <moqui.basic.LocalizedMessage original="A group you belong to; every member is checked" locale="zh" localized="您所属的组；会检查每一位成员"/>
+    <moqui.basic.LocalizedMessage original="A load script is a file in a component's test/load directory (Name.load.js), with a plan and its scenarios. Open one to start a run." locale="zh" localized="负载脚本是组件 test/load 目录中的一个文件（Name.load.js），含有一份计划及其场景。打开一个即可开始一次运行。"/>
+    <moqui.basic.LocalizedMessage original="A numeric field of the result; empty evaluates each of them" locale="zh" localized="结果中的一个数值字段；留空则逐一评估"/>
+    <moqui.basic.LocalizedMessage original="A part of a resource's or an entity's name or description" locale="zh" localized="资源或实体的名称或描述中的一部分"/>
+    <moqui.basic.LocalizedMessage original="A paused rule is saved without being evaluated" locale="zh" localized="暂停的规则保存后不参与评估"/>
+    <moqui.basic.LocalizedMessage original="A playlist is shared with one group at a time: choosing another group takes it from the one it is shared with now. A group sees the playlist and the dashboards shared with it; each viewer still sees only the data they may read." locale="zh" localized="播放列表一次只与一个组共享：选择另一个组会从当前组收回。该组能看到播放列表及与其共享的仪表板；每位查看者仍只能看到自己可以读取的数据。"/>
+    <moqui.basic.LocalizedMessage original="A result file of moqui test-load (result.json) from another machine, kept here as a run of its own. Its script and target are only shown; Run again checks them anew." locale="zh" localized="来自另一台机器的 moqui test-load 结果文件（result.json），在此作为一次独立运行保存。其脚本和目标仅供查看；再次运行时会重新检查它们。"/>
+    <moqui.basic.LocalizedMessage original="A schedule needs a mapping and a cron expression" locale="zh" localized="排程需要一个映射和一条 cron 表达式"/>
+    <moqui.basic.LocalizedMessage original="A shipped alert is a template: it runs only once copied. Your copy is yours alone; one over business data stays inactive until you set its threshold and whom it tells and activate it." locale="zh" localized="随附的告警是模板：复制后才会运行。副本只属于您；针对业务数据的副本保持停用，直到您设置阈值、通知对象并启用它。"/>
+    <moqui.basic.LocalizedMessage original="A SQL source goes in the request body" locale="zh" localized="SQL 来源放在请求体中"/>
+    <moqui.basic.LocalizedMessage original="Add a field to ${dataset.title}" locale="zh" localized="向 ${dataset.title} 添加一个字段"/>
+    <moqui.basic.LocalizedMessage original="Add field" locale="zh" localized="添加字段"/>
+    <moqui.basic.LocalizedMessage original="Added panel from Explore" locale="zh" localized="从 Explore 添加的面板"/>
+    <moqui.basic.LocalizedMessage original="Admission checks" locale="zh" localized="准入检查"/>
+    <moqui.basic.LocalizedMessage original="Admit" locale="zh" localized="准入"/>
+    <moqui.basic.LocalizedMessage original="Admitted ${dataset.admittedText}" locale="zh" localized="已准入 ${dataset.admittedText}"/>
+    <moqui.basic.LocalizedMessage original="Alert" locale="zh" localized="告警"/>
+    <moqui.basic.LocalizedMessage original="Alert not available" locale="zh" localized="告警不可用"/>
+    <moqui.basic.LocalizedMessage original="All alerts" locale="zh" localized="全部告警"/>
+    <moqui.basic.LocalizedMessage original="All playlists" locale="zh" localized="全部播放列表"/>
+    <moqui.basic.LocalizedMessage original="All schedules" locale="zh" localized="全部排程"/>
+    <moqui.basic.LocalizedMessage original="Allow changes" locale="zh" localized="允许更改"/>
+    <moqui.basic.LocalizedMessage original="Allow changes: list the statements that may change data, then run them on confirmation" locale="zh" localized="允许更改：列出可能修改数据的语句，确认后再运行"/>
+    <moqui.basic.LocalizedMessage original="An alert is evaluated as its owner. Other people are told only when they may read exactly what the owner reads, each in a notification of their own. To watch a panel, open its menu on a dashboard and choose New alert rule; or copy a template." locale="zh" localized="告警按其所有者评估。其他人只有在能读取与所有者完全相同的内容时才会被通知，且各自收到自己的通知。要监视一个面板，请在仪表板上打开其菜单并选择新建告警规则，或复制一个模板。"/>
+    <moqui.basic.LocalizedMessage original="An alert's notification posts under the alert topic" locale="zh" localized="告警通知发布在该告警主题下"/>
+    <moqui.basic.LocalizedMessage original="An amount keeps its unit: group by it or filter to one" locale="zh" localized="数量会保留其单位：按该单位分组，或筛选到一个单位"/>
+    <moqui.basic.LocalizedMessage original="Analyze (ANALYZE TABLE)" locale="zh" localized="分析 (ANALYZE TABLE)"/>
+    <moqui.basic.LocalizedMessage original="Artifact summary" locale="zh" localized="工件摘要"/>
+    <moqui.basic.LocalizedMessage original="At least 60 seconds; a lower value is saved as 60" locale="zh" localized="至少 60 秒；更低的值会保存为 60"/>
+    <moqui.basic.LocalizedMessage original="Back to datasets" locale="zh" localized="返回数据集"/>
+    <moqui.basic.LocalizedMessage original="Back to scheduled reports" locale="zh" localized="返回已排程的报表"/>
+    <moqui.basic.LocalizedMessage original="Back to the dataset" locale="zh" localized="返回该数据集"/>
+    <moqui.basic.LocalizedMessage original="Break down" locale="zh" localized="细分"/>
+    <moqui.basic.LocalizedMessage original="Break down by" locale="zh" localized="细分依据"/>
+    <moqui.basic.LocalizedMessage original="Browse related" locale="zh" localized="浏览相关记录"/>
+    <moqui.basic.LocalizedMessage original="By the database's estimate, which is zero for a table never analyzed" locale="zh" localized="按数据库的估计；从未分析过的表，该估计为零"/>
+    <moqui.basic.LocalizedMessage original="Call BasicServices.echo#Data Service" locale="zh" localized="调用 BasicServices.echo#Data 服务"/>
+    <moqui.basic.LocalizedMessage original="Cancel a statement" locale="zh" localized="取消一条语句"/>
+    <moqui.basic.LocalizedMessage original="Checking data needs authorization for all actions on this screen" locale="zh" localized="检查数据需要对本屏幕全部操作的授权"/>
+    <moqui.basic.LocalizedMessage original="Choose a filter" locale="zh" localized="选择一个筛选"/>
+    <moqui.basic.LocalizedMessage original="Choose a filter action" locale="zh" localized="选择一项筛选操作"/>
+    <moqui.basic.LocalizedMessage original="Choose a panel" locale="zh" localized="选择一个面板"/>
+    <moqui.basic.LocalizedMessage original="Choose a panel id using letters, digits, _, ., : or -" locale="zh" localized="面板 id 请使用字母、数字、_、.、: 或 -"/>
+    <moqui.basic.LocalizedMessage original="Choose a panel of this dashboard" locale="zh" localized="选择此仪表板中的一个面板"/>
+    <moqui.basic.LocalizedMessage original="Choose a result file" locale="zh" localized="选择一个结果文件"/>
+    <moqui.basic.LocalizedMessage original="Choose a searchable field and operation" locale="zh" localized="选择一个可搜索的字段和一项操作"/>
+    <moqui.basic.LocalizedMessage original="Choose a value" locale="zh" localized="选择一个值"/>
+    <moqui.basic.LocalizedMessage original="Choose an admitted dataset to see its rows." locale="zh" localized="选择一个已准入的数据集以查看其行。"/>
+    <moqui.basic.LocalizedMessage original="Choose an editable variable" locale="zh" localized="选择一个可编辑的变量"/>
+    <moqui.basic.LocalizedMessage original="Choose at most 32 filters" locale="zh" localized="最多选择 32 个筛选"/>
+    <moqui.basic.LocalizedMessage original="Choose CSV or XLSX" locale="zh" localized="选择 CSV 或 XLSX"/>
+    <moqui.basic.LocalizedMessage original="Choose weekdays" locale="zh" localized="选择星期"/>
+    <moqui.basic.LocalizedMessage original="Cluster: rewrites the table, locked meanwhile" locale="zh" localized="Cluster：重写该表，期间处于锁定"/>
+    <moqui.basic.LocalizedMessage original="Column type" locale="zh" localized="列类型"/>
+    <moqui.basic.LocalizedMessage original="Comma-separated fields; empty uses the query's own dimensions" locale="zh" localized="以逗号分隔的字段；留空则使用查询自己的维度"/>
+    <moqui.basic.LocalizedMessage original="Compare (2 to 4 runs)" locale="zh" localized="比较（2 至 4 次运行）"/>
+    <moqui.basic.LocalizedMessage original="Compare load runs" locale="zh" localized="比较负载运行"/>
+    <moqui.basic.LocalizedMessage original="Computed from ${analysisView.analysis.sourceCount} records you may read, ${analysisView.analysis.rangeText}." locale="zh" localized="根据您可以读取的 ${analysisView.analysis.sourceCount} 条记录计算，${analysisView.analysis.rangeText}。"/>
+    <moqui.basic.LocalizedMessage original="Connection deleted" locale="zh" localized="连接已删除"/>
+    <moqui.basic.LocalizedMessage original="Contact point" locale="zh" localized="联系点"/>
+    <moqui.basic.LocalizedMessage original="Create dataset" locale="zh" localized="创建数据集"/>
+    <moqui.basic.LocalizedMessage original="Create missing foreign keys" locale="zh" localized="创建缺少的外键"/>
+    <moqui.basic.LocalizedMessage original="Create missing indexes" locale="zh" localized="创建缺少的索引"/>
+    <moqui.basic.LocalizedMessage original="CSV Text Box" locale="zh" localized="CSV 文本框"/>
+    <moqui.basic.LocalizedMessage original="Dashboard / report / CalcGrid" locale="zh" localized="仪表板 / 报表 / CalcGrid"/>
+    <moqui.basic.LocalizedMessage original="Dashboards and panels" locale="zh" localized="仪表板与面板"/>
+    <moqui.basic.LocalizedMessage original="Data grid" locale="zh" localized="数据表格"/>
+    <moqui.basic.LocalizedMessage original="Database admin" locale="zh" localized="数据库管理"/>
+    <moqui.basic.LocalizedMessage original="Dataset admitted" locale="zh" localized="数据集已准入"/>
+    <moqui.basic.LocalizedMessage original="Default (verify-full for a remote host)" locale="zh" localized="默认（远程主机为 verify-full）"/>
+    <moqui.basic.LocalizedMessage original="Definitions, tables and their differences" locale="zh" localized="定义、表及其差异"/>
+    <moqui.basic.LocalizedMessage original="Delivery not available" locale="zh" localized="投递不可用"/>
+    <moqui.basic.LocalizedMessage original="Download as ${schedule.formatText}" locale="zh" localized="下载为 ${schedule.formatText}"/>
+    <moqui.basic.LocalizedMessage original="Drop every foreign key" locale="zh" localized="删除每一个外键"/>
+    <moqui.basic.LocalizedMessage original="Drop extra foreign keys" locale="zh" localized="删除多余的外键"/>
+    <moqui.basic.LocalizedMessage original="Drop extra indexes" locale="zh" localized="删除多余的索引"/>
+    <moqui.basic.LocalizedMessage original="Drop foreign keys first and create them after" locale="zh" localized="先删除外键，之后再创建它们"/>
+    <moqui.basic.LocalizedMessage original="Each is checked when the alert is active" locale="zh" localized="告警处于有效状态时逐一检查"/>
+    <moqui.basic.LocalizedMessage original="Each is checked when you save" locale="zh" localized="保存时逐一检查"/>
+    <moqui.basic.LocalizedMessage original="Each link opens the description of one API as JSON in a new tab, with your current sign-in: a resource's OpenAPI document, an entity's master schema." locale="zh" localized="每个链接都在新标签页中，以您当前的登录打开一个 API 的 JSON 说明：资源的 OpenAPI 文档，或实体的主架构。"/>
+    <moqui.basic.LocalizedMessage original="Each person, and every member of each group, is checked when the alert is active and again before every notification: it tells only those who may read exactly what you read, each separately. Share the alert with a group they are in so they can open it." locale="zh" localized="告警有效时，以及每次通知前，都会检查每个人和每个组的每位成员：只分别通知能读取与您完全相同内容的人。与他们所在的组共享此告警，他们才能打开。"/>
+    <moqui.basic.LocalizedMessage original="Each person, and every member of each group, is checked when you save: the report goes only to those who may read exactly what you read. Leave both empty to send it to you alone." locale="zh" localized="保存时会检查每个人以及每个组的每位成员：报表只发给能读取与您完全相同内容的人。两项都留空则只发给您。"/>
+    <moqui.basic.LocalizedMessage original="Each recipient has a message and a result of their own. A reason says why one was not sent, never what the report held." locale="zh" localized="每位收件人有自己的消息和结果。原因只说明为何未发送，绝不包含报表内容。"/>
+    <moqui.basic.LocalizedMessage original="Edit in Dev AIDE" locale="zh" localized="在 Dev AIDE 中编辑"/>
+    <moqui.basic.LocalizedMessage original="Editable settings" locale="zh" localized="可编辑设置"/>
+    <moqui.basic.LocalizedMessage original="Email (when selected)" locale="zh" localized="电子邮件（选中时）"/>
+    <moqui.basic.LocalizedMessage original="Email delivery (when selected)" locale="zh" localized="电子邮件投递（选中时）"/>
+    <moqui.basic.LocalizedMessage original="Email goes to each recipient's own account address" locale="zh" localized="电子邮件发往每位收件人自己的账号地址"/>
+    <moqui.basic.LocalizedMessage original="Embedded PostgreSQL" locale="zh" localized="嵌入式 PostgreSQL"/>
+    <moqui.basic.LocalizedMessage original="End a session" locale="zh" localized="结束一个会话"/>
+    <moqui.basic.LocalizedMessage original="Enter a number" locale="zh" localized="输入一个数字"/>
+    <moqui.basic.LocalizedMessage original="Enter lower,upper bounds" locale="zh" localized="输入下限,上限"/>
+    <moqui.basic.LocalizedMessage original="Entity master API" locale="zh" localized="实体主 API"/>
+    <moqui.basic.LocalizedMessage original="Error rate" locale="zh" localized="错误率"/>
+    <moqui.basic.LocalizedMessage original="Evaluated every (seconds)" locale="zh" localized="评估间隔（秒）"/>
+    <moqui.basic.LocalizedMessage original="every ${alert.intervalSeconds} seconds" locale="zh" localized="每 ${alert.intervalSeconds} 秒"/>
+    <moqui.basic.LocalizedMessage original="Exact table bloat" locale="zh" localized="表的精确膨胀"/>
+    <moqui.basic.LocalizedMessage original="Explore services and entities in Dev AIDE" locale="zh" localized="在 Dev AIDE 中浏览服务和实体"/>
+    <moqui.basic.LocalizedMessage original="Export ${dataset?.title}" locale="zh" localized="导出 ${dataset?.title}"/>
+    <moqui.basic.LocalizedMessage original="Export status" locale="zh" localized="导出状态"/>
+    <moqui.basic.LocalizedMessage original="Field path" locale="zh" localized="字段路径"/>
+    <moqui.basic.LocalizedMessage original="Field:value terms, as in Explore" locale="zh" localized="Field:value 词项，与 Explore 中相同"/>
+    <moqui.basic.LocalizedMessage original="Fields and conditions" locale="zh" localized="字段与条件"/>
+    <moqui.basic.LocalizedMessage original="Fields of ${dataset.title}" locale="zh" localized="${dataset.title} 的字段"/>
+    <moqui.basic.LocalizedMessage original="Fields of ${otherDatasetId}" locale="zh" localized="${otherDatasetId} 的字段"/>
+    <moqui.basic.LocalizedMessage original="File delivery (when selected)" locale="zh" localized="文件投递（选中时）"/>
+    <moqui.basic.LocalizedMessage original="Find and edit records of an entity, a view, a SQL result or a file" locale="zh" localized="查找并编辑实体、视图、SQL 结果或文件中的记录"/>
+    <moqui.basic.LocalizedMessage original="Fires when" locale="zh" localized="触发条件"/>
+    <moqui.basic.LocalizedMessage original="Fires when it is" locale="zh" localized="当它为"/>
+    <moqui.basic.LocalizedMessage original="Flat XML" locale="zh" localized="扁平 XML"/>
+    <moqui.basic.LocalizedMessage original="For above and below" locale="zh" localized="用于高于和低于"/>
+    <moqui.basic.LocalizedMessage original="For inside and outside a range" locale="zh" localized="用于范围内和范围外"/>
+    <moqui.basic.LocalizedMessage original="Foreign key with no index" locale="zh" localized="无索引的外键"/>
+    <moqui.basic.LocalizedMessage original="Foreign keys with a light lock" locale="zh" localized="使用轻量锁的外键"/>
+    <moqui.basic.LocalizedMessage original="Grouping and timing" locale="zh" localized="分组与时间"/>
+    <moqui.basic.LocalizedMessage original="Header properties" locale="zh" localized="标头属性"/>
+    <moqui.basic.LocalizedMessage original="Header properties must be a JSON object" locale="zh" localized="标头属性必须是 JSON 对象"/>
+    <moqui.basic.LocalizedMessage original="How long it stays firing after the condition ends" locale="zh" localized="条件结束后继续保持触发的时长"/>
+    <moqui.basic.LocalizedMessage original="How long the condition must hold before it fires" locale="zh" localized="触发前条件必须持续的时长"/>
+    <moqui.basic.LocalizedMessage original="How you know" locale="zh" localized="获知方式"/>
+    <moqui.basic.LocalizedMessage original="I understand vacuum full and cluster lock each table until it is rewritten" locale="zh" localized="我了解 vacuum full 和 cluster 会锁定每张表，直到重写完成"/>
+    <moqui.basic.LocalizedMessage original="Identity and delivery type" locale="zh" localized="标识与投递类型"/>
+    <moqui.basic.LocalizedMessage original="Identity and scope" locale="zh" localized="标识与范围"/>
+    <moqui.basic.LocalizedMessage original="Identity and sharing" locale="zh" localized="标识与共享"/>
+    <moqui.basic.LocalizedMessage original="Import a result file" locale="zh" localized="导入一个结果文件"/>
+    <moqui.basic.LocalizedMessage original="In this value" locale="zh" localized="在此值中"/>
+    <moqui.basic.LocalizedMessage original="In-app notification" locale="zh" localized="应用内通知"/>
+    <moqui.basic.LocalizedMessage original="Indented JSON" locale="zh" localized="缩进的 JSON"/>
+    <moqui.basic.LocalizedMessage original="Index and feed" locale="zh" localized="索引与馈送"/>
+    <moqui.basic.LocalizedMessage original="Index rebuilt: ${indexed.documentsIndexed} documents" locale="zh" localized="索引已重建：${indexed.documentsIndexed} 个文档"/>
+    <moqui.basic.LocalizedMessage original="Index usage" locale="zh" localized="索引使用"/>
+    <moqui.basic.LocalizedMessage original="Indexes built online" locale="zh" localized="在线创建的索引"/>
+    <moqui.basic.LocalizedMessage original="Indexes, keys" locale="zh" localized="索引与键"/>
+    <moqui.basic.LocalizedMessage original="Integrity checks" locale="zh" localized="完整性检查"/>
+    <moqui.basic.LocalizedMessage original="Invalid index" locale="zh" localized="无效索引"/>
+    <moqui.basic.LocalizedMessage original="JSON Text Box" locale="zh" localized="JSON 文本框"/>
+    <moqui.basic.LocalizedMessage original="Label matchers" locale="zh" localized="标签匹配"/>
+    <moqui.basic.LocalizedMessage original="Label matchers must be a JSON object" locale="zh" localized="标签匹配必须是 JSON 对象"/>
+    <moqui.basic.LocalizedMessage original="Labels every series of the rule carries, which contact points, silences and mute timings match" locale="zh" localized="规则每个序列携带的标签，联系点、静默和静音时段据此匹配"/>
+    <moqui.basic.LocalizedMessage original="Last committed row" locale="zh" localized="最后提交的行"/>
+    <moqui.basic.LocalizedMessage original="Last rebuilt ${dataset.lastIndexedText} (${dataset.lagText} ago), ${dataset.lastIndexedCount ?? 0} documents" locale="zh" localized="上次重建 ${dataset.lastIndexedText}（${dataset.lagText} 前），${dataset.lastIndexedCount ?? 0} 个文档"/>
+    <moqui.basic.LocalizedMessage original="Leave it empty to keep the analysis private. A group sees the panel; each person still sees only the data they may read." locale="zh" localized="留空则分析保持私有。组内可见该面板；每个人仍只能看到自己可以读取的数据。"/>
+    <moqui.basic.LocalizedMessage original="Leave it empty to keep the dashboard private. A group sees the dashboard; each person still sees only the data they may read." locale="zh" localized="留空则仪表板保持私有。组内可见该仪表板；每个人仍只能看到自己可以读取的数据。"/>
+    <moqui.basic.LocalizedMessage original="Leave it empty to keep the playlist private." locale="zh" localized="留空则播放列表保持私有。"/>
+    <moqui.basic.LocalizedMessage original="Leave it empty to use the report's name" locale="zh" localized="留空则使用报表的名称"/>
+    <moqui.basic.LocalizedMessage original="Load runs" locale="zh" localized="负载运行"/>
+    <moqui.basic.LocalizedMessage original="Load scripts" locale="zh" localized="负载脚本"/>
+    <moqui.basic.LocalizedMessage original="Loaded (committed)" locale="zh" localized="已加载（已提交）"/>
+    <moqui.basic.LocalizedMessage original="Lock waits" locale="zh" localized="锁等待"/>
+    <moqui.basic.LocalizedMessage original="Longest time" locale="zh" localized="最长时间"/>
+    <moqui.basic.LocalizedMessage original="Mapping deleted; its runs stay" locale="zh" localized="映射已删除；其运行仍然保留"/>
+    <moqui.basic.LocalizedMessage original="Mappings that load a file or a query into entities" locale="zh" localized="把文件或查询载入实体的映射"/>
+    <moqui.basic.LocalizedMessage original="Matching labels" locale="zh" localized="匹配标签"/>
+    <moqui.basic.LocalizedMessage original="Matching labels and revision" locale="zh" localized="匹配标签与修订"/>
+    <moqui.basic.LocalizedMessage original="Methods" locale="zh" localized="方法"/>
+    <moqui.basic.LocalizedMessage original="Mute timing" locale="zh" localized="静音时段"/>
+    <moqui.basic.LocalizedMessage original="Narrow ${dataset.title}" locale="zh" localized="收窄 ${dataset.title}"/>
+    <moqui.basic.LocalizedMessage original="New business dataset" locale="zh" localized="新建业务数据集"/>
+    <moqui.basic.LocalizedMessage original="New dataset definition" locale="zh" localized="新建数据集定义"/>
+    <moqui.basic.LocalizedMessage original="New panel" locale="zh" localized="新建面板"/>
+    <moqui.basic.LocalizedMessage original="No alert has told you anything yet." locale="zh" localized="还没有告警向您发出过通知。"/>
+    <moqui.basic.LocalizedMessage original="No business dataset is open to you yet. A dataset steward admits each one once its index is built and its rows are scoped." locale="zh" localized="还没有对您开放的业务数据集。索引建好且行已限定范围后，由数据集管理员逐个准入。"/>
+    <moqui.basic.LocalizedMessage original="No condition narrows this dataset." locale="zh" localized="没有用于收窄此数据集的条件。"/>
+    <moqui.basic.LocalizedMessage original="No contact point has been added here: a state change notifies nobody but through a shared contact point." locale="zh" localized="此处尚未添加联系点：状态变化不会通知任何人，除非通过共享联系点。"/>
+    <moqui.basic.LocalizedMessage original="No dashboard, panel or alert you can read uses this dataset." locale="zh" localized="您可以读取的仪表板、面板或告警均未使用此数据集。"/>
+    <moqui.basic.LocalizedMessage original="No dashboards, reports or CalcGrid documents are available to preview." locale="zh" localized="没有可供预览的仪表板、报表或 CalcGrid 文档。"/>
+    <moqui.basic.LocalizedMessage original="No dataset matches." locale="zh" localized="没有匹配的数据集。"/>
+    <moqui.basic.LocalizedMessage original="No entity with a master definition matches the filter." locale="zh" localized="没有带主定义的实体与筛选相符。"/>
+    <moqui.basic.LocalizedMessage original="No load scripts. Add one as test/load/Name.load.js in a component, as the tools component's test/load/ServiceCall.load.js is. The guide is docs/tools/Load-Runner.md." locale="zh" localized="没有负载脚本。请在组件中按 test/load/Name.load.js 添加一个，如同 tools 组件的 test/load/ServiceCall.load.js。指南见 docs/tools/Load-Runner.md。"/>
+    <moqui.basic.LocalizedMessage original="No one-off silence has been added here." locale="zh" localized="此处尚未添加一次性静默。"/>
+    <moqui.basic.LocalizedMessage original="No playlist is yours or shared with you yet." locale="zh" localized="还没有属于您或与您共享的播放列表。"/>
+    <moqui.basic.LocalizedMessage original="No record matches." locale="zh" localized="没有匹配的记录。"/>
+    <moqui.basic.LocalizedMessage original="No recurring mute timing has been added here." locale="zh" localized="此处尚未添加周期性静音时段。"/>
+    <moqui.basic.LocalizedMessage original="No resource matches the filter." locale="zh" localized="没有资源与筛选相符。"/>
+    <moqui.basic.LocalizedMessage original="No row of this dataset is in the range for you." locale="zh" localized="此数据集没有位于您范围内的行。"/>
+    <moqui.basic.LocalizedMessage original="No runs. Start one from Load scripts, or import a result file." locale="zh" localized="没有运行记录。请从负载脚本开始一次，或导入一个结果文件。"/>
+    <moqui.basic.LocalizedMessage original="No shipped alert is yours to read." locale="zh" localized="没有可供您读取的随附告警。"/>
+    <moqui.basic.LocalizedMessage original="Nobody has been told yet." locale="zh" localized="还没有通知任何人。"/>
+    <moqui.basic.LocalizedMessage original="Nobody was a recipient of this run." locale="zh" localized="此次运行没有收件人。"/>
+    <moqui.basic.LocalizedMessage original="Not a CalcGrid document" locale="zh" localized="不是 CalcGrid 文档"/>
+    <moqui.basic.LocalizedMessage original="Not a meaningful result" locale="zh" localized="不是有意义的结果"/>
+    <moqui.basic.LocalizedMessage original="Not available on this database" locale="zh" localized="在此数据库上不可用"/>
+    <moqui.basic.LocalizedMessage original="Not available: load testing needs the LOAD_RUNNER permission." locale="zh" localized="不可用：负载测试需要 LOAD_RUNNER 权限。"/>
+    <moqui.basic.LocalizedMessage original="Not rebuilt here; its feed indexes records as they are written." locale="zh" localized="不在此处重建；其馈送在写入记录时为它们编制索引。"/>
+    <moqui.basic.LocalizedMessage original="Not yet run." locale="zh" localized="尚未运行。"/>
+    <moqui.basic.LocalizedMessage original="Notification (when selected)" locale="zh" localized="通知（选中时）"/>
+    <moqui.basic.LocalizedMessage original="Of each series" locale="zh" localized="每个序列"/>
+    <moqui.basic.LocalizedMessage original="One more dimension of the same records, in the same scope" locale="zh" localized="同一范围内、相同记录的另一个维度"/>
+    <moqui.basic.LocalizedMessage original="One of the query's measures; empty watches each of them" locale="zh" localized="查询的一个度量；留空则监视每一个"/>
+    <moqui.basic.LocalizedMessage original="One of your own dashboards" locale="zh" localized="您自己的一个仪表板"/>
+    <moqui.basic.LocalizedMessage original="Only failed deliveries are sent again, each after its recipient is checked again. A delivery already sent is never repeated." locale="zh" localized="只会再次发送失败的投递，并且会再次检查每位收件人。已经发出的投递绝不重复。"/>
+    <moqui.basic.LocalizedMessage original="Only where" locale="zh" localized="仅在"/>
+    <moqui.basic.LocalizedMessage original="Open a file" locale="zh" localized="打开一个文件"/>
+    <moqui.basic.LocalizedMessage original="Open a service" locale="zh" localized="打开一个服务"/>
+    <moqui.basic.LocalizedMessage original="Open an entity" locale="zh" localized="打开一个实体"/>
+    <moqui.basic.LocalizedMessage original="Open my report" locale="zh" localized="打开我的报表"/>
+    <moqui.basic.LocalizedMessage original="Open my report renders it again for you with what you may read now; what was sent is not kept here." locale="zh" localized="打开我的报表会按您现在可以读取的内容重新生成；已发送的内容不保留在此处。"/>
+    <moqui.basic.LocalizedMessage original="Optimize (OPTIMIZE TABLE)" locale="zh" localized="优化 (OPTIMIZE TABLE)"/>
+    <moqui.basic.LocalizedMessage original="Optional: one is made from the name when left empty. A saved rule keeps its ID." locale="zh" localized="可选：留空时根据名称生成。已保存的规则保留其 ID。"/>
+    <moqui.basic.LocalizedMessage original="Optional: the value it must pass to stop firing" locale="zh" localized="可选：停止触发所必须越过的值"/>
+    <moqui.basic.LocalizedMessage original="Other datasets" locale="zh" localized="其他数据集"/>
+    <moqui.basic.LocalizedMessage original="Over time" locale="zh" localized="随时间"/>
+    <moqui.basic.LocalizedMessage original="Pause the selected alerts" locale="zh" localized="暂停所选告警"/>
+    <moqui.basic.LocalizedMessage original="Pause the selected schedules" locale="zh" localized="暂停所选排程"/>
+    <moqui.basic.LocalizedMessage original="Per second" locale="zh" localized="每秒"/>
+    <moqui.basic.LocalizedMessage original="Performance in Monitor" locale="zh" localized="监控中的性能"/>
+    <moqui.basic.LocalizedMessage original="Pick up where you left off" locale="zh" localized="从上次离开的地方继续"/>
+    <moqui.basic.LocalizedMessage original="Plan maintenance of the selected tables" locale="zh" localized="规划所选表的维护"/>
+    <moqui.basic.LocalizedMessage original="Plan the changes of the selected tables" locale="zh" localized="规划所选表的更改"/>
+    <moqui.basic.LocalizedMessage original="Play full screen" locale="zh" localized="全屏播放"/>
+    <moqui.basic.LocalizedMessage original="Playlists" locale="zh" localized="播放列表"/>
+    <moqui.basic.LocalizedMessage original="Preview rows" locale="zh" localized="预览行"/>
+    <moqui.basic.LocalizedMessage original="Previews and owner-mode schedules" locale="zh" localized="预览与所有者模式排程"/>
+    <moqui.basic.LocalizedMessage original="Query and filters" locale="zh" localized="查询与筛选"/>
+    <moqui.basic.LocalizedMessage original="Quiets alerts on the chosen weekdays and times, in the rule owner's time zone." locale="zh" localized="在规则所有者的时区内，于所选星期和时间静默告警。"/>
+    <moqui.basic.LocalizedMessage original="Quiets matching alerts for a time. Include Z or an explicit UTC offset in both times." locale="zh" localized="在一段时间内静默匹配的告警。两个时间都要带上 Z 或明确的 UTC 偏移。"/>
+    <moqui.basic.LocalizedMessage original="Range and display" locale="zh" localized="范围与显示"/>
+    <moqui.basic.LocalizedMessage original="Range read" locale="zh" localized="读取的范围"/>
+    <moqui.basic.LocalizedMessage original="Range to" locale="zh" localized="范围至"/>
+    <moqui.basic.LocalizedMessage original="Reading and condition" locale="zh" localized="读取与条件"/>
+    <moqui.basic.LocalizedMessage original="Rebuild index" locale="zh" localized="重建索引"/>
+    <moqui.basic.LocalizedMessage original="Rebuild invalid indexes" locale="zh" localized="重建无效索引"/>
+    <moqui.basic.LocalizedMessage original="Received reports" locale="zh" localized="收到的报表"/>
+    <moqui.basic.LocalizedMessage original="Record outcome" locale="zh" localized="记录结果"/>
+    <moqui.basic.LocalizedMessage original="Recovers at" locale="zh" localized="恢复于"/>
+    <moqui.basic.LocalizedMessage original="Recurring quiet period" locale="zh" localized="周期性静音时段"/>
+    <moqui.basic.LocalizedMessage original="Reindex online" locale="zh" localized="在线重建索引"/>
+    <moqui.basic.LocalizedMessage original="Render Monitor Artifacts Dashboard" locale="zh" localized="渲染 Monitor Artifacts 仪表板"/>
+    <moqui.basic.LocalizedMessage original="Render System Dashboard Screen" locale="zh" localized="渲染 System 仪表板屏幕"/>
+    <moqui.basic.LocalizedMessage original="Report and schedule" locale="zh" localized="报表与排程"/>
+    <moqui.basic.LocalizedMessage original="Require TLS, no verification" locale="zh" localized="要求 TLS，不做验证"/>
+    <moqui.basic.LocalizedMessage original="Result file" locale="zh" localized="结果文件"/>
+    <moqui.basic.LocalizedMessage original="Retry the selected failed deliveries" locale="zh" localized="重试所选的失败投递"/>
+    <moqui.basic.LocalizedMessage original="Rows at most" locale="zh" localized="最多行数"/>
+    <moqui.basic.LocalizedMessage original="Rows scoped by" locale="zh" localized="行范围依据"/>
+    <moqui.basic.LocalizedMessage original="Rows scoped by ${dataset.scopeText}" locale="zh" localized="行范围由 ${dataset.scopeText} 限定"/>
+    <moqui.basic.LocalizedMessage original="Rows scoped by ${dataset?.scopeText}; ${totalText} in the range" locale="zh" localized="行范围由 ${dataset?.scopeText} 限定；范围内有 ${totalText}"/>
+    <moqui.basic.LocalizedMessage original="Rows with errors" locale="zh" localized="出错的行"/>
+    <moqui.basic.LocalizedMessage original="Run ${occurrence.dateText}${occurrence.formatText ? ' · ' + occurrence.formatText : ''}${occurrence.kindText ? ' · ' + occurrence.kindText : ''}${occurrence.ownerName ? ' · owned by ' + occurrence.ownerName : ''}" locale="zh" localized="运行 ${occurrence.dateText}${occurrence.formatText ? ' · ' + occurrence.formatText : ''}${occurrence.kindText ? ' · ' + occurrence.kindText : ''}${occurrence.ownerName ? ' · 所有者 ' + occurrence.ownerName : ''}"/>
+    <moqui.basic.LocalizedMessage original="Run a service" locale="zh" localized="运行一个服务"/>
+    <moqui.basic.LocalizedMessage original="Run statements, read only or with changes confirmed" locale="zh" localized="运行语句，只读，或在确认更改之后运行"/>
+    <moqui.basic.LocalizedMessage original="Running and recent" locale="zh" localized="正在运行与最近的"/>
+    <moqui.basic.LocalizedMessage original="Save analysis" locale="zh" localized="保存分析"/>
+    <moqui.basic.LocalizedMessage original="Save audience" locale="zh" localized="保存受众"/>
+    <moqui.basic.LocalizedMessage original="Save recipients" locale="zh" localized="保存收件人"/>
+    <moqui.basic.LocalizedMessage original="Save sharing" locale="zh" localized="保存共享"/>
+    <moqui.basic.LocalizedMessage original="Save the rule before saying whom it tells. No data and Error never count as healthy." locale="zh" localized="请先保存规则，再指定通知对象。无数据和 Error 绝不算作健康。"/>
+    <moqui.basic.LocalizedMessage original="Saved queries" locale="zh" localized="已保存的查询"/>
+    <moqui.basic.LocalizedMessage original="Saved views" locale="zh" localized="已保存的视图"/>
+    <moqui.basic.LocalizedMessage original="Scenarios" locale="zh" localized="场景"/>
+    <moqui.basic.LocalizedMessage original="Schedule a report in owner mode" locale="zh" localized="以所有者模式排程报表"/>
+    <moqui.basic.LocalizedMessage original="Schedule not available" locale="zh" localized="排程不可用"/>
+    <moqui.basic.LocalizedMessage original="Send nothing when the report has no data" locale="zh" localized="报表没有数据时不发送"/>
+    <moqui.basic.LocalizedMessage original="Series states" locale="zh" localized="序列状态"/>
+    <moqui.basic.LocalizedMessage original="Service REST API" locale="zh" localized="服务 REST API"/>
+    <moqui.basic.LocalizedMessage original="Services and reference" locale="zh" localized="服务与参考"/>
+    <moqui.basic.LocalizedMessage original="Services in this server" locale="zh" localized="此服务器中的服务"/>
+    <moqui.basic.LocalizedMessage original="Sessions, statements, tables, maintenance and jobs" locale="zh" localized="会话、语句、表、维护与作业"/>
+    <moqui.basic.LocalizedMessage original="Shipped by ${dataset.component}; its definition is changed there." locale="zh" localized="由 ${dataset.component} 随附；其定义在该处更改。"/>
+    <moqui.basic.LocalizedMessage original="Short name" locale="zh" localized="短名称"/>
+    <moqui.basic.LocalizedMessage original="Shortest time" locale="zh" localized="最短时间"/>
+    <moqui.basic.LocalizedMessage original="Showing ${drill.rows.length} of ${drill.total} records: a page, not all of them." locale="zh" localized="正在显示 ${drill.rows.length} / ${drill.total} 条记录：这是一页，并非全部。"/>
+    <moqui.basic.LocalizedMessage original="Silence" locale="zh" localized="静默"/>
+    <moqui.basic.LocalizedMessage original="Silence must end after it starts" locale="zh" localized="静默必须在开始之后结束"/>
+    <moqui.basic.LocalizedMessage original="Site map" locale="zh" localized="站点地图"/>
+    <moqui.basic.LocalizedMessage original="Skip when empty" locale="zh" localized="为空时跳过"/>
+    <moqui.basic.LocalizedMessage original="Source records" locale="zh" localized="来源记录"/>
+    <moqui.basic.LocalizedMessage original="Speed test" locale="zh" localized="速度测试"/>
+    <moqui.basic.LocalizedMessage original="Started at row" locale="zh" localized="起始行"/>
+    <moqui.basic.LocalizedMessage original="Started on or after" locale="zh" localized="开始于该时间或之后"/>
+    <moqui.basic.LocalizedMessage original="Statement statistics reset" locale="zh" localized="语句统计已重置"/>
+    <moqui.basic.LocalizedMessage original="Std dev" locale="zh" localized="标准差"/>
+    <moqui.basic.LocalizedMessage original="System › Monitor" locale="zh" localized="系统 › 监控"/>
+    <moqui.basic.LocalizedMessage original="Table sizes and row estimates" locale="zh" localized="表大小与行数估计"/>
+    <moqui.basic.LocalizedMessage original="Table transaction id age" locale="zh" localized="表的事务 id 年龄"/>
+    <moqui.basic.LocalizedMessage original="Tell" locale="zh" localized="通知"/>
+    <moqui.basic.LocalizedMessage original="Tells" locale="zh" localized="通知"/>
+    <moqui.basic.LocalizedMessage original="The alert watches this panel's saved query, read as you. It is saved inactive: activate it once its condition and audience are right." locale="zh" localized="告警监视此面板已保存的查询，并按您的身份读取。保存时为停用：待条件和受众正确后再启用。"/>
+    <moqui.basic.LocalizedMessage original="The change in brackets is against the first run. Times in milliseconds." locale="zh" localized="方括号内的变化相对于第一次运行。时间以毫秒计。"/>
+    <moqui.basic.LocalizedMessage original="The dashboards play in the order chosen; order them later in the editor. Each is checked with the access of whoever plays it." locale="zh" localized="仪表板按所选顺序播放；可稍后在编辑器中调整顺序。每个仪表板按播放者的访问权限检查。"/>
+    <moqui.basic.LocalizedMessage original="The database's statement statistics were reset" locale="zh" localized="数据库的语句统计已重置"/>
+    <moqui.basic.LocalizedMessage original="The date the range filters on" locale="zh" localized="范围所筛选的日期"/>
+    <moqui.basic.LocalizedMessage original="The definitions that use this dataset could not be listed." locale="zh" localized="无法列出使用此数据集的定义。"/>
+    <moqui.basic.LocalizedMessage original="The editor and the JSON describe the same query. Save the rule to keep changes." locale="zh" localized="编辑器与 JSON 描述的是同一查询。请保存规则以保留更改。"/>
+    <moqui.basic.LocalizedMessage original="The export zip was not written" locale="zh" localized="导出 zip 未能写入"/>
+    <moqui.basic.LocalizedMessage original="The foreign keys could not be planned" locale="zh" localized="无法规划外键"/>
+    <moqui.basic.LocalizedMessage original="The group that may open this alert; sharing gives no data" locale="zh" localized="可以打开此告警的组；共享并不提供数据"/>
+    <moqui.basic.LocalizedMessage original="The ID of the user group notified in the app" locale="zh" localized="在应用内接收通知的用户组 ID"/>
+    <moqui.basic.LocalizedMessage original="The ID of the user notified in the app" locale="zh" localized="在应用内接收通知的用户 ID"/>
+    <moqui.basic.LocalizedMessage original="The latest state of each series of the rules above, as you may read it." locale="zh" localized="上方各规则每个序列的最新状态，按您可以读取的范围。"/>
+    <moqui.basic.LocalizedMessage original="The report is rendered as you and sent by email. Other people receive it only when they may read exactly what you read; each gets a message of their own." locale="zh" localized="报表按您的身份生成，并通过电子邮件发送。其他人只有在能读取与您完全相同的内容时才会收到；每人收到自己的一封。"/>
+    <moqui.basic.LocalizedMessage original="The rows you see here, up to ${viewed.exportCapText}; the export is recorded." locale="zh" localized="您在此看到的行，上限为 ${viewed.exportCapText}；导出会被记录。"/>
+    <moqui.basic.LocalizedMessage original="The selected alerts are not evaluated and tell nobody until activated again. Each one's result is shown." locale="zh" localized="所选告警在再次启用之前不会评估，也不会通知任何人。每一项的结果都会显示。"/>
+    <moqui.basic.LocalizedMessage original="The selected schedules send nothing until resumed. Each one's result is shown." locale="zh" localized="所选排程在继续之前不会发送任何内容。每一项的结果都会显示。"/>
+    <moqui.basic.LocalizedMessage original="The session was not found" locale="zh" localized="未找到该会话"/>
+    <moqui.basic.LocalizedMessage original="The state of each series as its owner reads it. No data and Error mean the health is not known, never Normal." locale="zh" localized="每个序列的状态按其所有者的读取结果。无数据和 Error 表示健康状况未知，绝不是 Normal。"/>
+    <moqui.basic.LocalizedMessage original="The statement was cancelled" locale="zh" localized="语句已取消"/>
+    <moqui.basic.LocalizedMessage original="The telemetry indexes, the DataDocument indexes and saved dataset definitions with their row filters. Queries run with your dataset permissions." locale="zh" localized="遥测索引、DataDocument 索引，以及带有行筛选的已保存数据集定义。查询按您的数据集权限运行。"/>
+    <moqui.basic.LocalizedMessage original="This alert does not exist or is not shared with you." locale="zh" localized="此告警不存在，或未与您共享。"/>
+    <moqui.basic.LocalizedMessage original="This definition is not a saved search" locale="zh" localized="此定义不是已保存的搜索"/>
+    <moqui.basic.LocalizedMessage original="This definition is not a shared alert item of that type" locale="zh" localized="此定义不是该类型的共享告警项"/>
+    <moqui.basic.LocalizedMessage original="This definition is not a shared contact point, silence or mute timing" locale="zh" localized="此定义不是共享联系点、静默或静音时段"/>
+    <moqui.basic.LocalizedMessage original="This delivery does not exist or is not yours to see." locale="zh" localized="此投递不存在，或不属于您查看。"/>
+    <moqui.basic.LocalizedMessage original="This entry is unavailable in the authorized dataset and time range." locale="zh" localized="此条目在已授权的数据集和时间范围内不可用。"/>
+    <moqui.basic.LocalizedMessage original="This is a production instance. Changes made here are changes to live data." locale="zh" localized="这是一个生产实例。在这里所做的更改就是对正在使用的数据的更改。"/>
+    <moqui.basic.LocalizedMessage original="This is the report as you read it now. Every recipient is checked to read the same before each delivery." locale="zh" localized="这是您当前读取到的报表。每次投递前都会检查每位收件人读取的内容是否相同。"/>
+    <moqui.basic.LocalizedMessage original="This schedule does not exist or is not yours." locale="zh" localized="此排程不存在，或不属于您。"/>
+    <moqui.basic.LocalizedMessage original="This server" locale="zh" localized="此服务器"/>
+    <moqui.basic.LocalizedMessage original="This server's services" locale="zh" localized="此服务器的服务"/>
+    <moqui.basic.LocalizedMessage original="Time field: ${listed.other.timeField}" locale="zh" localized="时间字段：${listed.other.timeField}"/>
+    <moqui.basic.LocalizedMessage original="Time window" locale="zh" localized="时间窗口"/>
+    <moqui.basic.LocalizedMessage original="Timing and output" locale="zh" localized="时间与输出"/>
+    <moqui.basic.LocalizedMessage original="Told" locale="zh" localized="已通知"/>
+    <moqui.basic.LocalizedMessage original="Total time" locale="zh" localized="总时间"/>
+    <moqui.basic.LocalizedMessage original="Type a part of the name; choosing one opens it" locale="zh" localized="输入名称的一部分；选中一项即打开"/>
+    <moqui.basic.LocalizedMessage original="Type a part of the name; choosing one opens its detail, which has Run" locale="zh" localized="输入名称的一部分；选中一项即打开其详情，其中有运行"/>
+    <moqui.basic.LocalizedMessage original="Unexpected report preview content type" locale="zh" localized="报表预览的内容类型不符合预期"/>
+    <moqui.basic.LocalizedMessage original="Unique in the dataset; the last part of the path by default" locale="zh" localized="在数据集内唯一；默认使用路径的最后一段"/>
+    <moqui.basic.LocalizedMessage original="Unknown shared alert item type" locale="zh" localized="未知的共享告警项类型"/>
+    <moqui.basic.LocalizedMessage original="Updated shared alert item" locale="zh" localized="共享告警项已更新"/>
+    <moqui.basic.LocalizedMessage original="Use HH:mm times" locale="zh" localized="使用 HH:mm 时间"/>
+    <moqui.basic.LocalizedMessage original="Use ISO times including Z or an explicit UTC offset" locale="zh" localized="使用 ISO 时间，并包含 Z 或明确的 UTC 偏移"/>
+    <moqui.basic.LocalizedMessage original="Vacuum and analyze" locale="zh" localized="Vacuum 并分析"/>
+    <moqui.basic.LocalizedMessage original="Vacuum full: rewrites the table, locked meanwhile" locale="zh" localized="Vacuum full：重写该表，期间处于锁定"/>
+    <moqui.basic.LocalizedMessage original="Vacuum, analyze and reindex" locale="zh" localized="Vacuum、分析并重建索引"/>
+    <moqui.basic.LocalizedMessage original="Value map deleted" locale="zh" localized="值映射已删除"/>
+    <moqui.basic.LocalizedMessage original="Verify the certificate (needs the root certificate file)" locale="zh" localized="验证证书（需要根证书文件）"/>
+    <moqui.basic.LocalizedMessage original="Verify the certificate and host" locale="zh" localized="验证证书和主机"/>
+    <moqui.basic.LocalizedMessage original="View entities" locale="zh" localized="视图实体"/>
+    <moqui.basic.LocalizedMessage original="View Entities Only" locale="zh" localized="仅视图实体"/>
+    <moqui.basic.LocalizedMessage original="View##DataBase" locale="zh" localized="视图##DataBase"/>
+    <moqui.basic.LocalizedMessage original="Webhook (when selected)" locale="zh" localized="Webhook（选中时）"/>
+    <moqui.basic.LocalizedMessage original="What it watches" locale="zh" localized="监视对象"/>
+    <moqui.basic.LocalizedMessage original="What opens: the entity's records in the data grid, or its definition" locale="zh" localized="打开的内容：数据表格中该实体的记录，或其定义"/>
+    <moqui.basic.LocalizedMessage original="Whether ${recipientName} received this message is not known. Check with them or the mail system, then record what happened; only then can it be sent again." locale="zh" localized="尚不知道 ${recipientName} 是否收到此消息。请向对方或邮件系统核实，再记录发生的情况；只有这样才可以再次发送。"/>
+    <moqui.basic.LocalizedMessage original="With rows" locale="zh" localized="有行"/>
+    <moqui.basic.LocalizedMessage original="XML Text Box" locale="zh" localized="XML 文本框"/>
+    <moqui.basic.LocalizedMessage original="You can:" locale="zh" localized="您可以："/>
+    <moqui.basic.LocalizedMessage original="You no longer read this report, so it cannot be delivered." locale="zh" localized="您已不能读取此报表，因此无法投递。"/>
+    <moqui.basic.LocalizedMessage original="You were told" locale="zh" localized="已通知您"/>
+    <moqui.basic.LocalizedMessage original="Your delivery" locale="zh" localized="您的投递"/>
+</entity-facade-xml>

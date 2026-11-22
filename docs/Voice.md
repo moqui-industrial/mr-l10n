@@ -150,3 +150,50 @@ Products, Accounting, Warehouse, Manufacturing, Purchasing, and Customer Service
 | Backorder | Pedido pendiente | 缺货订单 |
 
 The single stored words Post (Publicar / 发布), Statement (Sentencia / 语句), and Release (Lanzamiento / 版本) keep those older senses. A longer sentence in these apps uses the table. Payment application is aplicación / 核销. A financial account is Cuenta / 账户. PO, RFQ, ASN, BOM, WIP, MRP, OEE, SKU, RMA, UOM, GL, ATP, and NACHA stay as written when the English is the token. BOM spelled out is Lista de materiales / 物料清单.
+
+## Later BOSS apps and PASS
+
+The neutral catalog `File` row is Archivo / 文件. Fichero is only the `es_ES` overlay in `EsRegional.xml`. Dashboard is Panel de control / 仪表板, never Tablero. Board is Tablero / 看板. Pipeline is Canal / 管道, not 流水线. Do not add a second row for `of` (de /) or `in` (en / 属于). Constitution is Constitución / 宪章. The accounting workbench subtitle Receipts, the Incoming, Outgoing, and Transfer chips, and Check as an output stay English. Catalog Check is the verb Comprobar / 检查. Inventory receipt is Recepción / 收货. Payment receipt is Recibo / 收据. A quote-response acknowledgement is acuse / 回执.
+
+Where two batches named the same original, the row already stored wins.
+
+| English | es | zh | sense |
+| --- | --- | --- | --- |
+| Lead | prospecto | 线索 | a sales lead |
+| Opportunity | oportunidad | 商机 | |
+| Deal | negocio | 交易 | a lead or an opportunity |
+| Sales account | cuenta | 客户账户 | the customer record, not a login or a GL account |
+| Quota | cuota | 指标 | |
+| Attainment | cumplimiento | 达成 | result against the quota |
+| Won / Lost | ganado / perdido | 已赢 / 丢单 | a deal outcome; Lost is not missing stock |
+| Qualify | calificar | 认定 | turn a lead into an opportunity |
+| Hard bounce | Rebote permanente | 硬退信 | the stored row; a permanent mail failure |
+| Waitlist | Lista de espera | 等候名单 | the stored row |
+| Attendee | Asistente | 出席者 | the stored row |
+| Ticket | Entrada | 门票 | an event ticket |
+| Checkout | Finalizar compra | 结账 | the stored shop key |
+| Product review | reseña | 评价 | a buyer's review; stored Reviews stays Revisiones / 审阅 |
+| Delivery (stored) | Entrega | 投递 | the tools row; shop sentences use 配送 on a longer key |
+| Shipping cost | Gastos de envío | 运费 | the cart charge; stored Shipping stays Envío / 发货 |
+| Renewal state | Estado | 状态 | a subscription column; stored State stays Estado / 州 |
+| Amount due now | A pagar ahora | 现在应付 | checkout money; stored Due now stays Vence ahora / 现在到期 |
+| Leave (time off) | permiso | 休假 | not Salir / 离开 |
+| Payslip | recibo de nómina | 工资单 | |
+| Gross / net pay | bruto / neto | 应发 / 实发 | |
+| Person who reports | subordinado | 下属 | a reporting line; a document report stays informe / 报表 |
+| Work order (maintenance) | Orden de trabajo | 工单 | |
+| Outage | Parada | 停运 | not the catalog Downtime row |
+| Issue (to a work order) | Entregar | 发料 | stock issued to maintenance; catalog Issue stays Problema / 问题 |
+| App gate | Accesos a las aplicaciones | 应用访问权限 | |
+| Forum post (noun) | publicación | 帖子 | the verb Post stays Publicar / 发布 |
+| Moderation report | denuncia | 举报 | not a document informe / 报表 |
+| Handle | alias | 账号名 | the public forum name |
+| Bookmark | marcador | 书签 | a saved post |
+| Write in | Escribir en | 编写方式 | the stored row |
+| Rich text | Texto enriquecido | 富文本 | the stored row |
+| Fork | bifurcación | 派生 | a git fork |
+| Merge request | Solicitud de fusión | 合并请求 | |
+| Operator (person) | operador | 操作者 | Smithy; a forum mail operator is 操作员; catalog Operator stays 运算符 |
+| Event registration | registro | 报名 | not the account-registration row 注册 |
+
+Shop delivery sentences use Forma de entrega / 配送方式, Costo de entrega / 配送费, and Envíos de la orden / 订单发货. Do not add a second Delivery or Shipments row. A shop purchase in a new sentence is compra / 购买, not the procurement row 采购. A card ending is terminada en / 尾号. A subscription term is plazo / 期限. A rating star is estrella / 星. PASS theme phrases live in `theme/starter/locales/<locale>.json`, not in LocalizedMessage. `reviews.ofFive` is `de 5` / `（满分 5）`. Reaction keys and forum option keys stay English. Git commands stay byte for byte.

@@ -1,0 +1,15 @@
+# Messages the same in this language. A missing catalog row returns the original.
+${authFlowId} · ${provider.typeName}${provider.clientTypeName ? ' · ' + provider.clientTypeName : ''}
+${directionText}:
+${found.payloadHiddenReason}.
+${keyEnum ? keyEnum.description + ' ' : ''}(${enumId})
+${locale} - ${name}
+${message.ownerApp}: ${message.idempotencyNote}
+${message.typeText}${message.remoteText ? ' · ' + message.remoteText : ''}
+${messageType.readOnlyReason}.
+${messageType.systemMessageTypeId} · ${messageType.directionText}${messageType.ownerText ? ' · ' + messageType.ownerText : ''}
+${provider.problem}.
+${title} (${directionText})
+${typeDescription} - ${description}
+Cookie
+XMPP, STARTTLS

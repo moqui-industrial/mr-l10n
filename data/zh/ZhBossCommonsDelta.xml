@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+
+<entity-facade-xml type="zh">
+    <moqui.basic.LocalizedMessage original="${approveOut.approvedCount} approved" locale="zh" localized="${approveOut.approvedCount} 项已批准"/>
+    <moqui.basic.LocalizedMessage original="A generated key" locale="zh" localized="生成的密钥"/>
+    <moqui.basic.LocalizedMessage original="A shared vault opens with your vault key. Set it up first." locale="zh" localized="共享保险库要用您的保险库密钥打开。请先设置它。"/>
+    <moqui.basic.LocalizedMessage original="A staff relationship of an internal organization is changed in Admin, as an organization membership" locale="zh" localized="内部组织的人员关系在 Admin 中更改，作为组织成员身份"/>
+    <moqui.basic.LocalizedMessage original="A staff relationship of an internal organization is made in Admin, as an organization membership" locale="zh" localized="内部组织的人员关系在 Admin 中建立，作为组织成员身份"/>
+    <moqui.basic.LocalizedMessage original="Add a one-time code" locale="zh" localized="添加一次性验证码"/>
+    <moqui.basic.LocalizedMessage original="Also encrypt every item again now, with new item keys" locale="zh" localized="立即用新的项密钥重新加密每一项"/>
+    <moqui.basic.LocalizedMessage original="An item that does not open" locale="zh" localized="打不开的项"/>
+    <moqui.basic.LocalizedMessage original="Any protocol" locale="zh" localized="任意协议"/>
+    <moqui.basic.LocalizedMessage original="Calendar ${calendarName} created" locale="zh" localized="日历 ${calendarName} 已创建"/>
+    <moqui.basic.LocalizedMessage original="Calendar deleted; its events stay for the people on them" locale="zh" localized="日历已删除；其上的事件仍保留给参与的人"/>
+    <moqui.basic.LocalizedMessage original="Calendar: search" locale="zh" localized="日历：搜索"/>
+    <moqui.basic.LocalizedMessage original="Calendars, contacts and files (CalDAV, CardDAV, WebDAV)" locale="zh" localized="日历、联系人和文件（CalDAV、CardDAV、WebDAV）"/>
+    <moqui.basic.LocalizedMessage original="Cancel the recovery" locale="zh" localized="取消此次恢复"/>
+    <moqui.basic.LocalizedMessage original="Choose a vault" locale="zh" localized="选择保险库"/>
+    <moqui.basic.LocalizedMessage original="Compare the key of every member who stays first" locale="zh" localized="请先比对每位留下成员的密钥"/>
+    <moqui.basic.LocalizedMessage original="Compare the key of one of the vault's managers first: it anchors the vault's member list in your browser." locale="zh" localized="请先比对保险库某一位管理员的密钥：它会在您的浏览器中锚定该保险库的成员列表。"/>
+    <moqui.basic.LocalizedMessage original="Compare their key" locale="zh" localized="比对其密钥"/>
+    <moqui.basic.LocalizedMessage original="Contact book ${contactBookName} created" locale="zh" localized="通讯录 ${contactBookName} 已创建"/>
+    <moqui.basic.LocalizedMessage original="Contact information saved" locale="zh" localized="联系信息已保存"/>
+    <moqui.basic.LocalizedMessage original="Copied the code" locale="zh" localized="验证码已复制"/>
+    <moqui.basic.LocalizedMessage original="Copied to the vault" locale="zh" localized="已复制到保险库"/>
+    <moqui.basic.LocalizedMessage original="Copy the code" locale="zh" localized="复制验证码"/>
+    <moqui.basic.LocalizedMessage original="Copy to another vault" locale="zh" localized="复制到另一保险库"/>
+    <moqui.basic.LocalizedMessage original="Daily digest for ${description}" locale="zh" localized="${description} 的每日摘要"/>
+    <moqui.basic.LocalizedMessage original="Delete the item" locale="zh" localized="删除此项"/>
+    <moqui.basic.LocalizedMessage original="Delete the vault" locale="zh" localized="删除保险库"/>
+    <moqui.basic.LocalizedMessage original="Devices that remember your key" locale="zh" localized="记住您密钥的设备"/>
+    <moqui.basic.LocalizedMessage original="Do not use a common password or word in it" locale="zh" localized="不要在其中使用常见密码或词语"/>
+    <moqui.basic.LocalizedMessage original="Do not use your username in it" locale="zh" localized="不要在其中使用您的用户名"/>
+    <moqui.basic.LocalizedMessage original="Driver license" locale="zh" localized="驾驶证"/>
+    <moqui.basic.LocalizedMessage original="Email notifications for ${description}" locale="zh" localized="${description} 的邮件通知"/>
+    <moqui.basic.LocalizedMessage original="Encrypted vault export" locale="zh" localized="加密的保险库导出"/>
+    <moqui.basic.LocalizedMessage original="Enter one" locale="zh" localized="请输入一个"/>
+    <moqui.basic.LocalizedMessage original="Enter the vault key" locale="zh" localized="请输入保险库密钥"/>
+    <moqui.basic.LocalizedMessage original="Enter the vault password" locale="zh" localized="请输入保险库密码"/>
+    <moqui.basic.LocalizedMessage original="Export, encrypted" locale="zh" localized="导出，已加密"/>
+    <moqui.basic.LocalizedMessage original="File into" locale="zh" localized="存入"/>
+    <moqui.basic.LocalizedMessage original="Files over SFTP" locale="zh" localized="通过 SFTP 传输的文件"/>
+    <moqui.basic.LocalizedMessage original="For (a computer, a CI job)" locale="zh" localized="用途（一台计算机、一项 CI 作业）"/>
+    <moqui.basic.LocalizedMessage original="For the organization" locale="zh" localized="用于本组织"/>
+    <moqui.basic.LocalizedMessage original="Forget on this device" locale="zh" localized="在此设备上忘记"/>
+    <moqui.basic.LocalizedMessage original="From ${problemSource?.sourceText}" locale="zh" localized="来自 ${problemSource?.sourceText}"/>
+    <moqui.basic.LocalizedMessage original="Give access" locale="zh" localized="授予访问权限"/>
+    <moqui.basic.LocalizedMessage original="Going?" locale="zh" localized="参加吗？"/>
+    <moqui.basic.LocalizedMessage original="In app notifications for ${description}" locale="zh" localized="${description} 的应用内通知"/>
+    <moqui.basic.LocalizedMessage original="Keep the old time" locale="zh" localized="保留原时间"/>
+    <moqui.basic.LocalizedMessage original="Keys you checked" locale="zh" localized="您核对过的密钥"/>
+    <moqui.basic.LocalizedMessage original="Knowledge: search pages" locale="zh" localized="知识：搜索页面"/>
+    <moqui.basic.LocalizedMessage original="Lock: forget every key in this tab" locale="zh" localized="锁定：忘记此标签页中的全部密钥"/>
+    <moqui.basic.LocalizedMessage original="Locked vault" locale="zh" localized="已锁定的保险库"/>
+    <moqui.basic.LocalizedMessage original="Low: it can wait" locale="zh" localized="低：可以等待"/>
+    <moqui.basic.LocalizedMessage original="Made here from the seeds in your open vaults. Click a code to copy it." locale="zh" localized="由您已打开保险库中的种子在此生成。点击验证码即可复制。"/>
+    <moqui.basic.LocalizedMessage original="Mail settings saved" locale="zh" localized="邮件设置已保存"/>
+    <moqui.basic.LocalizedMessage original="Make a new key" locale="zh" localized="新建密钥"/>
+    <moqui.basic.LocalizedMessage original="Make the generated key again" locale="zh" localized="重新生成密钥"/>
+    <moqui.basic.LocalizedMessage original="Make the key again" locale="zh" localized="重新创建密钥"/>
+    <moqui.basic.LocalizedMessage original="Make your first vault" locale="zh" localized="创建您的第一个保险库"/>
+    <moqui.basic.LocalizedMessage original="Needs contact administration access, which an administrator can grant." locale="zh" localized="需要联系人管理权限，管理员可以授予。"/>
+    <moqui.basic.LocalizedMessage original="Needs drive administration access, which an administrator can grant." locale="zh" localized="需要网盘管理权限，管理员可以授予。"/>
+    <moqui.basic.LocalizedMessage original="New key" locale="zh" localized="新密钥"/>
+    <moqui.basic.LocalizedMessage original="New vault" locale="zh" localized="新保险库"/>
+    <moqui.basic.LocalizedMessage original="No access tokens. A token is the password for git over HTTPS, and signs in nowhere else. A script or an app signs in with the device key of the desktop or terminal client's sign-in; a calendar, contacts or files app with an app password (Settings, Sync)." locale="zh" localized="没有访问令牌。令牌是通过 HTTPS 使用 git 的密码，不能用于其他登录。脚本或应用使用桌面或终端客户端登录的设备密钥；日历、联系人或文件应用使用应用密码（设置、同步）。"/>
+    <moqui.basic.LocalizedMessage original="No code matches in the open vaults" locale="zh" localized="已打开的保险库中没有匹配的验证码"/>
+    <moqui.basic.LocalizedMessage original="No current employment" locale="zh" localized="当前没有任职"/>
+    <moqui.basic.LocalizedMessage original="No device remembers your key. In the browser it stays open only in this tab, until the vault locks or the tab closes." locale="zh" localized="没有设备记住您的密钥。在浏览器中，它只在此标签页保持打开，直到保险库锁定或标签页关闭。"/>
+    <moqui.basic.LocalizedMessage original="No longer shared" locale="zh" localized="不再共享"/>
+    <moqui.basic.LocalizedMessage original="No one-time codes in the open vaults yet. When a site turns on two-step sign-in it shows a QR code and a setup key: add it here, and this page shows its codes as an authenticator app does." locale="zh" localized="已打开的保险库中还没有一次性验证码。站点开启两步登录时会显示二维码和设置密钥：在此添加后，本页会像身份验证应用一样显示验证码。"/>
+    <moqui.basic.LocalizedMessage original="No QR code found in the image" locale="zh" localized="图像中未找到二维码"/>
+    <moqui.basic.LocalizedMessage original="No recovery is in progress." locale="zh" localized="没有进行中的恢复。"/>
+    <moqui.basic.LocalizedMessage original="No recovery keys yet." locale="zh" localized="还没有恢复密钥。"/>
+    <moqui.basic.LocalizedMessage original="No such item" locale="zh" localized="没有该项"/>
+    <moqui.basic.LocalizedMessage original="No such vault" locale="zh" localized="没有该保险库"/>
+    <moqui.basic.LocalizedMessage original="No vaults yet. A vault keeps passwords, notes, cards and private contacts under a key the server does not hold." locale="zh" localized="还没有保险库。保险库用服务器并不持有的密钥保存密码、笔记、卡片和私人联系人。"/>
+    <moqui.basic.LocalizedMessage original="None yet." locale="zh" localized="还没有。"/>
+    <moqui.basic.LocalizedMessage original="Not an item" locale="zh" localized="不是一项"/>
+    <moqui.basic.LocalizedMessage original="Notes: search" locale="zh" localized="笔记：搜索"/>
+    <moqui.basic.LocalizedMessage original="Nothing matches in the open vaults" locale="zh" localized="已打开的保险库中没有匹配内容"/>
+    <moqui.basic.LocalizedMessage original="One-time code" locale="zh" localized="一次性验证码"/>
+    <moqui.basic.LocalizedMessage original="One-time codes of the open vaults" locale="zh" localized="已打开保险库的一次性验证码"/>
+    <moqui.basic.LocalizedMessage original="Only a manager of the drive makes a link." locale="zh" localized="只有网盘的管理员才能创建链接。"/>
+    <moqui.basic.LocalizedMessage original="Only a manager of the drive shares with that group" locale="zh" localized="只有网盘的管理员才能与该组共享"/>
+    <moqui.basic.LocalizedMessage original="Open a vault to see its one-time codes." locale="zh" localized="打开一个保险库即可查看其一次性验证码。"/>
+    <moqui.basic.LocalizedMessage original="Open from this device" locale="zh" localized="从此设备打开"/>
+    <moqui.basic.LocalizedMessage original="Open it once to show its password is still kept" locale="zh" localized="打开一次，以表明其密码仍被保存"/>
+    <moqui.basic.LocalizedMessage original="Open the vault first" locale="zh" localized="请先打开保险库"/>
+    <moqui.basic.LocalizedMessage original="Or scan its tag" locale="zh" localized="或扫描其标签"/>
+    <moqui.basic.LocalizedMessage original="Organization recovery is on" locale="zh" localized="组织恢复已开启"/>
+    <moqui.basic.LocalizedMessage original="Others compare these words with you before they share a vault with you or send you an item." locale="zh" localized="他人在与您共享保险库或向您发送一项之前，会与您核对这些词。"/>
+    <moqui.basic.LocalizedMessage original="Out of service or blocked" locale="zh" localized="停用或已屏蔽"/>
+    <moqui.basic.LocalizedMessage original="Passport" locale="zh" localized="护照"/>
+    <moqui.basic.LocalizedMessage original="Person (people with a vault key)" locale="zh" localized="人员（拥有保险库密钥者）"/>
+    <moqui.basic.LocalizedMessage original="Photo removed" locale="zh" localized="照片已删除"/>
+    <moqui.basic.LocalizedMessage original="Photo saved" locale="zh" localized="照片已保存"/>
+    <moqui.basic.LocalizedMessage original="Private contacts" locale="zh" localized="私人联系人"/>
+    <moqui.basic.LocalizedMessage original="Read a QR image" locale="zh" localized="读取二维码图片"/>
+    <moqui.basic.LocalizedMessage original="Remember on this device for…" locale="zh" localized="在此设备上记住…"/>
+    <moqui.basic.LocalizedMessage original="Replace it with" locale="zh" localized="替换为"/>
+    <moqui.basic.LocalizedMessage original="Replace the recovery key" locale="zh" localized="更换恢复密钥"/>
+    <moqui.basic.LocalizedMessage original="Report problem" locale="zh" localized="报告问题"/>
+    <moqui.basic.LocalizedMessage original="Restore ${event.name}" locale="zh" localized="恢复 ${event.name}"/>
+    <moqui.basic.LocalizedMessage original="Restore event" locale="zh" localized="恢复事件"/>
+    <moqui.basic.LocalizedMessage original="Revoked: the device using it is signed out of sync" locale="zh" localized="已撤销：使用它的设备已退出同步登录"/>
+    <moqui.basic.LocalizedMessage original="Saved; the keys apply when the next page loads" locale="zh" localized="已保存；快捷键在下次加载页面时生效"/>
+    <moqui.basic.LocalizedMessage original="Scan the asset tag on the equipment" locale="zh" localized="扫描设备上的资产标签"/>
+    <moqui.basic.LocalizedMessage original="Scan with the camera" locale="zh" localized="用摄像头扫描"/>
+    <moqui.basic.LocalizedMessage original="Seen at" locale="zh" localized="发现时间"/>
+    <moqui.basic.LocalizedMessage original="Sent to you" locale="zh" localized="发给您的"/>
+    <moqui.basic.LocalizedMessage original="Set up your vault key first, in Settings › Vault key" locale="zh" localized="请先在设置 › 保险库密钥中设置您的保险库密钥"/>
+    <moqui.basic.LocalizedMessage original="Shared key: opened by your vault key. You can share it, and each member keeps access of their own." locale="zh" localized="共享密钥：由您的保险库密钥打开。您可以共享它，每位成员保留各自的访问权限。"/>
+    <moqui.basic.LocalizedMessage original="Shares sealed" locale="zh" localized="分片已封印"/>
+    <moqui.basic.LocalizedMessage original="Sign out everywhere and end my keys and app passwords" locale="zh" localized="在所有地方退出登录，并终止我的密钥和应用密码"/>
+    <moqui.basic.LocalizedMessage original="Single secret, a generated key" locale="zh" localized="单一秘密，生成的密钥"/>
+    <moqui.basic.LocalizedMessage original="Single secret, a password" locale="zh" localized="单一秘密，一个密码"/>
+    <moqui.basic.LocalizedMessage original="Single secret: one password or generated key, yours only. It cannot be shared, and nobody can recover it for you." locale="zh" localized="单一秘密：一个密码或一把生成的密钥，仅属于您。不能共享，也没有人能替您恢复。"/>
+    <moqui.basic.LocalizedMessage original="Social security number" locale="zh" localized="社会保障号"/>
+    <moqui.basic.LocalizedMessage original="Space ${description} created" locale="zh" localized="空间 ${description} 已创建"/>
+    <moqui.basic.LocalizedMessage original="Space ${wikiSpaceId} cloned${cloneOut.versionCount ? ' with ' + cloneOut.versionCount + ' versions' : ''}" locale="zh" localized="空间 ${wikiSpaceId} 已克隆${cloneOut.versionCount ? '，含 ' + cloneOut.versionCount + ' 个版本' : ''}"/>
+    <moqui.basic.LocalizedMessage original="Stop the camera" locale="zh" localized="停止摄像头"/>
+    <moqui.basic.LocalizedMessage original="Subscribed; the calendar fills in at its first fetch" locale="zh" localized="已订阅；日历在首次获取时填入"/>
+    <moqui.basic.LocalizedMessage original="Tell the attendees it is back on" locale="zh" localized="告知参与者活动已恢复"/>
+    <moqui.basic.LocalizedMessage original="That does not open this vault" locale="zh" localized="这无法打开此保险库"/>
+    <moqui.basic.LocalizedMessage original="That is not that group of the code. Check your copy." locale="zh" localized="这不是这段代码的那一组。请核对您的副本。"/>
+    <moqui.basic.LocalizedMessage original="That passphrase does not open your vault key" locale="zh" localized="该口令无法打开您的保险库密钥"/>
+    <moqui.basic.LocalizedMessage original="That password does not open the export" locale="zh" localized="该密码无法打开此导出"/>
+    <moqui.basic.LocalizedMessage original="That recovery code does not open your vault key" locale="zh" localized="该恢复码无法打开您的保险库密钥"/>
+    <moqui.basic.LocalizedMessage original="That version is under a key this browser no longer holds" locale="zh" localized="该版本所用的密钥此浏览器已不再持有"/>
+    <moqui.basic.LocalizedMessage original="The code is added" locale="zh" localized="验证码已添加"/>
+    <moqui.basic.LocalizedMessage original="The CSV file has no Title, Username or Password column" locale="zh" localized="此 CSV 文件没有 Title、Username 或 Password 列"/>
+    <moqui.basic.LocalizedMessage original="The desktop and mobile apps can keep your key open for a while, under the device's own key store. Take a device off the list and it opens nothing more." locale="zh" localized="桌面和手机应用可以在设备自己的密钥库下暂时保持您的密钥打开。将设备从列表中移除后，它便不能再打开任何内容。"/>
+    <moqui.basic.LocalizedMessage original="The device is signed out" locale="zh" localized="该设备已退出登录"/>
+    <moqui.basic.LocalizedMessage original="The export holds no time-based codes" locale="zh" localized="导出内容中没有基于时间的验证码"/>
+    <moqui.basic.LocalizedMessage original="The file could not be read" locale="zh" localized="无法读取该文件"/>
+    <moqui.basic.LocalizedMessage original="The file has no rows to import" locale="zh" localized="文件中没有可导入的行"/>
+    <moqui.basic.LocalizedMessage original="The file is larger than 10 MB: export a smaller part" locale="zh" localized="文件大于 10 MB：请导出较小的一部分"/>
+    <moqui.basic.LocalizedMessage original="The file is not JSON" locale="zh" localized="此文件不是 JSON"/>
+    <moqui.basic.LocalizedMessage original="The item was changed elsewhere: open it again and make your change there" locale="zh" localized="此项已在别处更改：请重新打开并在那里修改"/>
+    <moqui.basic.LocalizedMessage original="The key that opens the vaults you share and the items people send you, its recovery code and fingerprint, and the keys you compared." locale="zh" localized="打开您所共享的保险库以及他人发给您的项的密钥、它的恢复码和指纹，以及您核对过的密钥。"/>
+    <moqui.basic.LocalizedMessage original="The member's new key has the vault: every member is told. Replace the recovery key now." locale="zh" localized="该成员的新密钥已持有此保险库：已通知每位成员。请立即更换恢复密钥。"/>
+    <moqui.basic.LocalizedMessage original="The message is not available, so nothing is filled in from it." locale="zh" localized="该消息不可用，因此不会据此填入任何内容。"/>
+    <moqui.basic.LocalizedMessage original="The passphrase is changed" locale="zh" localized="口令已更改"/>
+    <moqui.basic.LocalizedMessage original="The people whose key fingerprint you compared with them. A key that changes is compared again." locale="zh" localized="您曾与其核对密钥指纹的人。密钥一旦变更就要再次核对。"/>
+    <moqui.basic.LocalizedMessage original="The print window was blocked: download the file and print it instead" locale="zh" localized="打印窗口被阻止：请下载文件再打印"/>
+    <moqui.basic.LocalizedMessage original="The recoveries in progress show to the holders of a recovery key." locale="zh" localized="进行中的恢复仅向恢复密钥的持有者显示。"/>
+    <moqui.basic.LocalizedMessage original="The recovery is started: keep this tab open while the other holders seal their shares" locale="zh" localized="恢复已开始：请保持此标签页打开，直至其他持有者封印其分片"/>
+    <moqui.basic.LocalizedMessage original="The recovery key is made and split among its holders" locale="zh" localized="恢复密钥已创建，并分给其持有者"/>
+    <moqui.basic.LocalizedMessage original="The server could not confirm this device just now: try again, or use your passphrase" locale="zh" localized="服务器刚才未能确认此设备：请重试，或使用您的口令"/>
+    <moqui.basic.LocalizedMessage original="The server gave an older copy of an item than this browser saw before. Someone may have put back old data." locale="zh" localized="服务器给出的项副本比此浏览器先前见到的更旧。可能有人放回了旧数据。"/>
+    <moqui.basic.LocalizedMessage original="The vault is made" locale="zh" localized="保险库已创建"/>
+    <moqui.basic.LocalizedMessage original="The vault module has no integrity hash here, so it is not loaded" locale="zh" localized="此处没有保险库模块的完整性哈希，因此未加载它"/>
+    <moqui.basic.LocalizedMessage original="The vault's key changed: open it again" locale="zh" localized="保险库密钥已更改：请重新打开"/>
+    <moqui.basic.LocalizedMessage original="The words match" locale="zh" localized="这些词一致"/>
+    <moqui.basic.LocalizedMessage original="They have no vault key yet. Ask them to set one up in Settings › Vault key." locale="zh" localized="他们还没有保险库密钥。请让他们在设置 › 保险库密钥中设置。"/>
+    <moqui.basic.LocalizedMessage original="They have no vault key yet: they make a new one in Settings › Vault key first." locale="zh" localized="他们还没有保险库密钥：须先在设置 › 保险库密钥中新建一把。"/>
+    <moqui.basic.LocalizedMessage original="This Bitwarden export is encrypted. Export from Bitwarden again as JSON, not encrypted, to import it here." locale="zh" localized="此 Bitwarden 导出已加密。请从 Bitwarden 再次导出为未加密的 JSON，才能在此导入。"/>
+    <moqui.basic.LocalizedMessage original="This device does not remember your key" locale="zh" localized="此设备未记住您的密钥"/>
+    <moqui.basic.LocalizedMessage original="This device no longer remembers your key" locale="zh" localized="此设备不再记住您的密钥"/>
+    <moqui.basic.LocalizedMessage original="This device no longer remembers your key: its time ended, or it was taken off the list" locale="zh" localized="此设备不再记住您的密钥：时限已到，或已从列表中移除"/>
+    <moqui.basic.LocalizedMessage original="This event is changed on ${managedBy}, not here." locale="zh" localized="此事件在 ${managedBy} 上更改，而不是在这里。"/>
+    <moqui.basic.LocalizedMessage original="This item does not open with this vault's key" locale="zh" localized="此项无法用此保险库的密钥打开"/>
+    <moqui.basic.LocalizedMessage original="This JSON file is not a Bitwarden export" locale="zh" localized="此 JSON 文件不是 Bitwarden 导出"/>
+    <moqui.basic.LocalizedMessage original="This recovery was started in another tab, or before this tab locked: cancel it and start it again" locale="zh" localized="此次恢复是在另一个标签页开始的，或在此标签页锁定之前开始的：请取消并重新开始"/>
+    <moqui.basic.LocalizedMessage original="This task is an issue: its text is the first post, edited on the issue's page" locale="zh" localized="此任务是一个议题：其文本是第一条帖子，在议题页面上编辑"/>
+    <moqui.basic.LocalizedMessage original="This vault is locked" locale="zh" localized="此保险库已锁定"/>
+    <moqui.basic.LocalizedMessage original="This vault's member list is signed by people whose key you have not compared yet. Compare one of them:" locale="zh" localized="此保险库的成员列表由您尚未核对密钥的人签名。请比对其中一位："/>
+    <moqui.basic.LocalizedMessage original="This XML file is not a KeePass export" locale="zh" localized="此 XML 文件不是 KeePass 导出"/>
+    <moqui.basic.LocalizedMessage original="Turn recovery on" locale="zh" localized="开启恢复"/>
+    <moqui.basic.LocalizedMessage original="Unlock this device to open your key from it" locale="zh" localized="请解锁此设备，以从中打开您的密钥"/>
+    <moqui.basic.LocalizedMessage original="Unlock your vault key first" locale="zh" localized="请先解锁您的保险库密钥"/>
+    <moqui.basic.LocalizedMessage original="Unlock your vault key to see them." locale="zh" localized="请解锁您的保险库密钥以查看它们。"/>
+    <moqui.basic.LocalizedMessage original="Unlocked, with your new passphrase" locale="zh" localized="已解锁，并使用您的新口令"/>
+    <moqui.basic.LocalizedMessage original="Urgent: it stops work or is unsafe" locale="zh" localized="紧急：妨碍工作或不安全"/>
+    <moqui.basic.LocalizedMessage original="Use 16 or more characters, or mix letters, digits and symbols" locale="zh" localized="请使用 16 个及以上字符，或混合字母、数字和符号"/>
+    <moqui.basic.LocalizedMessage original="Use at least 12 characters" locale="zh" localized="至少使用 12 个字符"/>
+    <moqui.basic.LocalizedMessage original="Use more different characters" locale="zh" localized="请使用更多不同的字符"/>
+    <moqui.basic.LocalizedMessage original="Use the recovery code" locale="zh" localized="使用恢复码"/>
+    <moqui.basic.LocalizedMessage original="Used, replace" locale="zh" localized="已使用，请更换"/>
+    <moqui.basic.LocalizedMessage original="Vault key" locale="zh" localized="保险库密钥"/>
+    <moqui.basic.LocalizedMessage original="What the server sees" locale="zh" localized="服务器能看到的内容"/>
+    <moqui.basic.LocalizedMessage original="When you noticed it; now when empty" locale="zh" localized="您注意到的时间；留空则为现在"/>
+    <moqui.basic.LocalizedMessage original="Words and meaning" locale="zh" localized="词语与语义"/>
+    <moqui.basic.LocalizedMessage original="You are signed out: the vault is locked" locale="zh" localized="您已退出登录：保险库已锁定"/>
+    <moqui.basic.LocalizedMessage original="You have no access to this vault's current key" locale="zh" localized="您无权使用此保险库的当前密钥"/>
+    <moqui.basic.LocalizedMessage original="You have no vault key yet" locale="zh" localized="您还没有保险库密钥"/>
+    <moqui.basic.LocalizedMessage original="Your share is sealed to the recovery" locale="zh" localized="您的分片已封印到此次恢复"/>
+    <moqui.basic.LocalizedMessage original="Your vault key" locale="zh" localized="您的保险库密钥"/>
+    <moqui.basic.LocalizedMessage original="Your vault key needs a sign-in with a password and a second factor, SSO or a paired device: set up a second factor in Account first" locale="zh" localized="您的保险库密钥需要密码加第二因素、SSO 或已配对设备的登录：请先在账号中设置第二因素"/>
+    <moqui.basic.LocalizedMessage original="Your vault key needs a sign-in with a second factor." locale="zh" localized="您的保险库密钥需要带第二因素的登录。"/>
+    <moqui.basic.LocalizedMessage original="Your vault key opens the vaults you share with others and lets people send you items. It is made in this browser under a key passphrase, which is not your sign-in password and never reaches the server." locale="zh" localized="您的保险库密钥打开您与他人共享的保险库，并让别人把项发给您。它在此浏览器中根据一句口令创建，这不是您的登录密码，也从不发送到服务器。"/>
+</entity-facade-xml>

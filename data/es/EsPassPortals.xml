@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+
+<entity-facade-xml type="es">
+    <moqui.basic.LocalizedMessage original=" and valid through the date given" locale="es" localized=" y válida hasta la fecha indicada"/>
+    <moqui.basic.LocalizedMessage original=" · asked ${r.requestedText}" locale="es" localized=" · pedida ${r.requestedText}"/>
+    <moqui.basic.LocalizedMessage original=" · authorized ${r.approvedQuantity}" locale="es" localized=" · autorizado ${r.approvedQuantity}"/>
+    <moqui.basic.LocalizedMessage original=" · due ${i.dueText}" locale="es" localized=" · vence ${i.dueText}"/>
+    <moqui.basic.LocalizedMessage original=" · due ${work.dueText}" locale="es" localized=" · vence ${work.dueText}"/>
+    <moqui.basic.LocalizedMessage original=" · received ${r.receivedQuantity}" locale="es" localized=" · recibido ${r.receivedQuantity}"/>
+    <moqui.basic.LocalizedMessage original=" · tracking ${report.trackingCode}" locale="es" localized=" · seguimiento ${report.trackingCode}"/>
+    <moqui.basic.LocalizedMessage original=" · valid through ${row.validThruText}" locale="es" localized=" · válida hasta ${row.validThruText}"/>
+    <moqui.basic.LocalizedMessage original=" · your PO ${row.purchaseOrder}" locale="es" localized=" · su PO ${row.purchaseOrder}"/>
+    <moqui.basic.LocalizedMessage original="${doc.stateText} · delivery by ${doc.dueText}" locale="es" localized="${doc.stateText} · entrega para ${doc.dueText}"/>
+    <moqui.basic.LocalizedMessage original="${doc.stateText} · respond by ${doc.dueText}" locale="es" localized="${doc.stateText} · responder para ${doc.dueText}"/>
+    <moqui.basic.LocalizedMessage original="${inv.organizationName} asks ${inv.customerName} about a request it handled for you." locale="es" localized="${inv.organizationName} pregunta a ${inv.customerName} sobre una solicitud que atendió para usted."/>
+    <moqui.basic.LocalizedMessage original="${line.deliveredText} delivered" locale="es" localized="${line.deliveredText} entregado"/>
+    <moqui.basic.LocalizedMessage original="${queue.hoursNotice.message}. We still take your request now." locale="es" localized="${queue.hoursNotice.message}. Aún recibimos su solicitud ahora."/>
+    <moqui.basic.LocalizedMessage original="${report.submittedText} · shipped ${report.shippedText}" locale="es" localized="${report.submittedText} · enviado ${report.shippedText}"/>
+    <moqui.basic.LocalizedMessage original="${view.hoursNotice.message}. You can still send us your request now." locale="es" localized="${view.hoursNotice.message}. Aún puede enviarnos su solicitud ahora."/>
+    <moqui.basic.LocalizedMessage original="(after the response date)" locale="es" localized="(después de la fecha de respuesta)"/>
+    <moqui.basic.LocalizedMessage original="(late)" locale="es" localized="(con retraso)"/>
+    <moqui.basic.LocalizedMessage original=", needed by ${line.requiredText}" locale="es" localized=", necesario para ${line.requiredText}"/>
+    <moqui.basic.LocalizedMessage original=", plus any tax, shown on the payment page." locale="es" localized=", más cualquier impuesto, que se muestra en la página de pago."/>
+    <moqui.basic.LocalizedMessage original=", revision ${q.revision}" locale="es" localized=", revisión ${q.revision}"/>
+    <moqui.basic.LocalizedMessage original=", revision ${view.acceptedQuote.revision}, accepted ${view.acceptedQuote.acceptedText}" locale="es" localized=", revisión ${view.acceptedQuote.revision}, aceptada el ${view.acceptedQuote.acceptedText}"/>
+    <moqui.basic.LocalizedMessage original="; the order's own page shows what is ordered now (its link is in our order confirmation)" locale="es" localized="; la página de la orden muestra lo que está ordenado ahora (su enlace está en nuestra confirmación de orden)"/>
+    <moqui.basic.LocalizedMessage original="A draft is yours alone; the buyer sees the quote once you send it, and reviews it before any order." locale="es" localized="Un borrador es solo suyo; el comprador ve la cotización cuando usted la envía, y la revisa antes de cualquier orden."/>
+    <moqui.basic.LocalizedMessage original="A file (PDF, PNG or JPEG, at most 10 MB)" locale="es" localized="Un archivo (PDF, PNG o JPEG, como máximo 10 MB)"/>
+    <moqui.basic.LocalizedMessage original="A photo or document (PDF, PNG or JPEG, at most 10 MB)" locale="es" localized="Una foto o un documento (PDF, PNG o JPEG, como máximo 10 MB)"/>
+    <moqui.basic.LocalizedMessage original="A separate choice: we send one message to this address first, and nothing more until you confirm from it. Your answers do not subscribe you." locale="es" localized="Una elección aparte: primero enviamos un mensaje a esta dirección, y nada más hasta que usted confirme desde ella. Sus respuestas no crean una suscripción."/>
+    <moqui.basic.LocalizedMessage original="About the article" locale="es" localized="Sobre el artículo"/>
+    <moqui.basic.LocalizedMessage original="Accept as ordered" locale="es" localized="Aceptar tal como se ordenó"/>
+    <moqui.basic.LocalizedMessage original="Accept the quote" locale="es" localized="Aceptar la cotización"/>
+    <moqui.basic.LocalizedMessage original="Accept this quote" locale="es" localized="Aceptar esta cotización"/>
+    <moqui.basic.LocalizedMessage original="Accept with changes (give the reason)" locale="es" localized="Aceptar con cambios (indique el motivo)"/>
+    <moqui.basic.LocalizedMessage original="Acknowledge ${o.revisionText}" locale="es" localized="Acusar recibo de ${o.revisionText}"/>
+    <moqui.basic.LocalizedMessage original="Add a photo of it below." locale="es" localized="Añada una foto de él abajo."/>
+    <moqui.basic.LocalizedMessage original="Add a photo or a message" locale="es" localized="Añadir una foto o un mensaje"/>
+    <moqui.basic.LocalizedMessage original="Amount (${view.order.currencyUomId})" locale="es" localized="Importe (${view.order.currencyUomId})"/>
+    <moqui.basic.LocalizedMessage original="Amount due:" locale="es" localized="Importe a pagar:"/>
+    <moqui.basic.LocalizedMessage original="Amount: ${view.payment.amountText}." locale="es" localized="Importe: ${view.payment.amountText}."/>
+    <moqui.basic.LocalizedMessage original="Another order" locale="es" localized="Otra orden"/>
+    <moqui.basic.LocalizedMessage original="Answers for “${query}”" locale="es" localized="Respuestas para “${query}”"/>
+    <moqui.basic.LocalizedMessage original="Answers that may help" locale="es" localized="Respuestas que pueden ayudar"/>
+    <moqui.basic.LocalizedMessage original="Anything already shipped cannot be cancelled here; we confirm what we cancel." locale="es" localized="Lo que ya se envió no se puede cancelar aquí; confirmamos lo que cancelemos."/>
+    <moqui.basic.LocalizedMessage original="Anything else we should know (optional)" locale="es" localized="Algo más que debamos saber (opcional)"/>
+    <moqui.basic.LocalizedMessage original="Ask about or change this order" locale="es" localized="Preguntar o cambiar esta orden"/>
+    <moqui.basic.LocalizedMessage original="Ask about this order" locale="es" localized="Preguntar sobre esta orden"/>
+    <moqui.basic.LocalizedMessage original="Ask to cancel" locale="es" localized="Pedir cancelación"/>
+    <moqui.basic.LocalizedMessage original="Ask to reopen" locale="es" localized="Pedir reapertura"/>
+    <moqui.basic.LocalizedMessage original="asks ${q.supplierName} for a quote" locale="es" localized="pide a ${q.supplierName} una cotización"/>
+    <moqui.basic.LocalizedMessage original="Attendee ${place_index + 1}: ${place.ticketName}" locale="es" localized="Asistente ${place_index + 1}: ${place.ticketName}"/>
+    <moqui.basic.LocalizedMessage original="Availability is a guide until a place is reserved." locale="es" localized="La disponibilidad es una guía hasta que se reserva una plaza."/>
+    <moqui.basic.LocalizedMessage original="Availability is a guide: places are held for you only when you reserve them, and if there are not enough left you join the waitlist." locale="es" localized="La disponibilidad es una guía: las plazas se le reservan solo cuando usted las reserva, y si no quedan suficientes pasa a la lista de espera."/>
+    <moqui.basic.LocalizedMessage original="Back to your registration" locale="es" localized="Volver a su registro"/>
+    <moqui.basic.LocalizedMessage original="before ${view.holdEndsText}." locale="es" localized="antes del ${view.holdEndsText}."/>
+    <moqui.basic.LocalizedMessage original="Bill file (PDF, PNG or JPEG, at most 10 MB)" locale="es" localized="Archivo de la factura recibida (PDF, PNG o JPEG, como máximo 10 MB)"/>
+    <moqui.basic.LocalizedMessage original="Bill for order ${view.order.orderId}" locale="es" localized="Factura recibida de la orden ${view.order.orderId}"/>
+    <moqui.basic.LocalizedMessage original="Bill received" locale="es" localized="Factura recibida"/>
+    <moqui.basic.LocalizedMessage original="Bill upload" locale="es" localized="Cargar factura recibida"/>
+    <moqui.basic.LocalizedMessage original="Bills sent" locale="es" localized="Facturas recibidas enviadas"/>
+    <moqui.basic.LocalizedMessage original="Bills sent for this order" locale="es" localized="Facturas recibidas enviadas de esta orden"/>
+    <moqui.basic.LocalizedMessage original="Cancel my registration" locale="es" localized="Cancelar mi registro"/>
+    <moqui.basic.LocalizedMessage original="Cancel order ${view.order.orderId}" locale="es" localized="Cancelar la orden ${view.order.orderId}"/>
+    <moqui.basic.LocalizedMessage original="Cancel this request" locale="es" localized="Cancelar esta solicitud"/>
+    <moqui.basic.LocalizedMessage original="Cancellation" locale="es" localized="Cancelación"/>
+    <moqui.basic.LocalizedMessage original="Cancellation requested" locale="es" localized="Cancelación solicitada"/>
+    <moqui.basic.LocalizedMessage original="Case ${row.requestId}" locale="es" localized="Caso ${row.requestId}"/>
+    <moqui.basic.LocalizedMessage original="Changed your mind?" locale="es" localized="¿Cambió de opinión?"/>
+    <moqui.basic.LocalizedMessage original="Check your email" locale="es" localized="Revise su correo"/>
+    <moqui.basic.LocalizedMessage original="Code from the email *" locale="es" localized="Código del correo *"/>
+    <moqui.basic.LocalizedMessage original="Complete your registration" locale="es" localized="Completar su registro"/>
+    <moqui.basic.LocalizedMessage original="Confirm my places" locale="es" localized="Confirmar mis plazas"/>
+    <moqui.basic.LocalizedMessage original="Confirm that these places are yours. They are held until you do." locale="es" localized="Confirme que estas plazas son suyas. Se reservan hasta que lo haga."/>
+    <moqui.basic.LocalizedMessage original="Confirm that you want to receive this at ${view.maskedAddress}. The link works until ${view.expiresText}." locale="es" localized="Confirme que desea recibir esto en ${view.maskedAddress}. El enlace funciona hasta ${view.expiresText}."/>
+    <moqui.basic.LocalizedMessage original="Confirm your subscription" locale="es" localized="Confirmar su suscripción"/>
+    <moqui.basic.LocalizedMessage original="Confirmation file (PDF, PNG or JPEG, at most 10 MB; optional)" locale="es" localized="Archivo de confirmación (PDF, PNG o JPEG, como máximo 10 MB; opcional)"/>
+    <moqui.basic.LocalizedMessage original="Confirmed." locale="es" localized="Confirmado."/>
+    <moqui.basic.LocalizedMessage original="contact support" locale="es" localized="contactar a soporte"/>
+    <moqui.basic.LocalizedMessage original="Contact support" locale="es" localized="Contactar a soporte"/>
+    <moqui.basic.LocalizedMessage original="Continue to the payment page" locale="es" localized="Continuar a la página de pago"/>
+    <moqui.basic.LocalizedMessage original="Decline the quote" locale="es" localized="Rechazar la cotización"/>
+    <moqui.basic.LocalizedMessage original="Decline this quote" locale="es" localized="Rechazar esta cotización"/>
+    <moqui.basic.LocalizedMessage original="Deliveries reported" locale="es" localized="Entregas informadas"/>
+    <moqui.basic.LocalizedMessage original="Delivery reported. The buyer confirms it." locale="es" localized="Entrega informada. El comprador la confirma."/>
+    <moqui.basic.LocalizedMessage original="Download the order confirmation (PDF): ${view.document.fileName}" locale="es" localized="Descargar la confirmación de la orden (PDF): ${view.document.fileName}"/>
+    <moqui.basic.LocalizedMessage original="Download the quote (PDF): ${view.document.fileName}" locale="es" localized="Descargar la cotización (PDF): ${view.document.fileName}"/>
+    <moqui.basic.LocalizedMessage original="Download your return label" locale="es" localized="Descargar su etiqueta de devolución"/>
+    <moqui.basic.LocalizedMessage original="Draft saved ${view.draft.savedText}." locale="es" localized="Borrador guardado ${view.draft.savedText}."/>
+    <moqui.basic.LocalizedMessage original="Draft saved. Only you see it until you send the quote." locale="es" localized="Borrador guardado. Solo usted lo ve hasta que envíe la cotización."/>
+    <moqui.basic.LocalizedMessage original="Email *" locale="es" localized="Correo electrónico *"/>
+    <moqui.basic.LocalizedMessage original="Email address (optional)" locale="es" localized="Dirección de correo electrónico (opcional)"/>
+    <moqui.basic.LocalizedMessage original="Email from ${form.organizationName} (optional)" locale="es" localized="Correo de ${form.organizationName} (opcional)"/>
+    <moqui.basic.LocalizedMessage original="Email from ${view.organizationName} to ${view.maskedAddress}" locale="es" localized="Correo de ${view.organizationName} a ${view.maskedAddress}"/>
+    <moqui.basic.LocalizedMessage original="Email me a code" locale="es" localized="Enviarme un código por correo"/>
+    <moqui.basic.LocalizedMessage original="Everyone I act for" locale="es" localized="Todos a quienes represento"/>
+    <moqui.basic.LocalizedMessage original="First name *" locale="es" localized="Nombre *"/>
+    <moqui.basic.LocalizedMessage original="For *" locale="es" localized="Para *"/>
+    <moqui.basic.LocalizedMessage original="For customer" locale="es" localized="Para"/>
+    <moqui.basic.LocalizedMessage original="For revision" locale="es" localized="Para la revisión"/>
+    <moqui.basic.LocalizedMessage original="for what is ordered now" locale="es" localized="para lo que está ordenado ahora"/>
+    <moqui.basic.LocalizedMessage original="From quote" locale="es" localized="De la cotización"/>
+    <moqui.basic.LocalizedMessage original="Help" locale="es" localized="Ayuda"/>
+    <moqui.basic.LocalizedMessage original="Help articles" locale="es" localized="Artículos de ayuda"/>
+    <moqui.basic.LocalizedMessage original="Help from ${view.organizationName}" locale="es" localized="Ayuda de ${view.organizationName}"/>
+    <moqui.basic.LocalizedMessage original="Help with this order" locale="es" localized="Ayuda con esta orden"/>
+    <moqui.basic.LocalizedMessage original="How many (up to ${l.eligibleQuantity})" locale="es" localized="Cuántos (hasta ${l.eligibleQuantity})"/>
+    <moqui.basic.LocalizedMessage original="I accept these terms" locale="es" localized="Acepto estos términos"/>
+    <moqui.basic.LocalizedMessage original="I accept this quote and its terms for ${q.customerName}" locale="es" localized="Acepto esta cotización y sus términos para ${q.customerName}"/>
+    <moqui.basic.LocalizedMessage original="I ask ${view.organizationName} to cancel these lines" locale="es" localized="Pido a ${view.organizationName} que cancele estas líneas"/>
+    <moqui.basic.LocalizedMessage original="Invoice ${i.invoiceId}" locale="es" localized="Factura ${i.invoiceId}"/>
+    <moqui.basic.LocalizedMessage original="issued ${row.issuedText}" locale="es" localized="emitida ${row.issuedText}"/>
+    <moqui.basic.LocalizedMessage original="Issued on" locale="es" localized="Emitida el"/>
+    <moqui.basic.LocalizedMessage original="Its condition (optional)" locale="es" localized="Su condición (opcional)"/>
+    <moqui.basic.LocalizedMessage original="Join the event online" locale="es" localized="Unirse al evento en línea"/>
+    <moqui.basic.LocalizedMessage original="Kind of request" locale="es" localized="Tipo de solicitud"/>
+    <moqui.basic.LocalizedMessage original="Last name *" locale="es" localized="Apellido *"/>
+    <moqui.basic.LocalizedMessage original="Line ${line.orderItemSeqId} shipped (of ${line.quantityText})" locale="es" localized="Línea ${line.orderItemSeqId} enviada (de ${line.quantityText})"/>
+    <moqui.basic.LocalizedMessage original="Line ${line.orderItemSeqId}: ${line.productText} · ${line.quantityText} ${line.unitText}" locale="es" localized="Línea ${line.orderItemSeqId}: ${line.productText} · ${line.quantityText} ${line.unitText}"/>
+    <moqui.basic.LocalizedMessage original="Line ${work.orderItemSeqId}" locale="es" localized="Línea ${work.orderItemSeqId}"/>
+    <moqui.basic.LocalizedMessage original="Lines to cancel" locale="es" localized="Líneas a cancelar"/>
+    <moqui.basic.LocalizedMessage original="More cases" locale="es" localized="Más casos"/>
+    <moqui.basic.LocalizedMessage original="More help" locale="es" localized="Más ayuda"/>
+    <moqui.basic.LocalizedMessage original="More orders" locale="es" localized="Más órdenes"/>
+    <moqui.basic.LocalizedMessage original="More quotes" locale="es" localized="Más cotizaciones"/>
+    <moqui.basic.LocalizedMessage original="More returns" locale="es" localized="Más devoluciones"/>
+    <moqui.basic.LocalizedMessage original="My cases" locale="es" localized="Mis casos"/>
+    <moqui.basic.LocalizedMessage original="My orders" locale="es" localized="Mis órdenes"/>
+    <moqui.basic.LocalizedMessage original="My quotes" locale="es" localized="Mis cotizaciones"/>
+    <moqui.basic.LocalizedMessage original="My returns" locale="es" localized="Mis devoluciones"/>
+    <moqui.basic.LocalizedMessage original="Needed by ${l.promisedText}" locale="es" localized="Necesario para ${l.promisedText}"/>
+    <moqui.basic.LocalizedMessage original="Needs your reply" locale="es" localized="Necesita su respuesta"/>
+    <moqui.basic.LocalizedMessage original="Newest cases" locale="es" localized="Casos más recientes"/>
+    <moqui.basic.LocalizedMessage original="Newest orders" locale="es" localized="Órdenes más recientes"/>
+    <moqui.basic.LocalizedMessage original="Newest quotes" locale="es" localized="Cotizaciones más recientes"/>
+    <moqui.basic.LocalizedMessage original="Newest returns" locale="es" localized="Devoluciones más recientes"/>
+    <moqui.basic.LocalizedMessage original="No article matches “${query}”. Our team can help you directly." locale="es" localized="Ningún artículo coincide con “${query}”. Nuestro equipo puede ayudarle directamente."/>
+    <moqui.basic.LocalizedMessage original="No article matches. Our team can help you directly." locale="es" localized="Ningún artículo coincide. Nuestro equipo puede ayudarle directamente."/>
+    <moqui.basic.LocalizedMessage original="No cases to show." locale="es" localized="No hay casos para mostrar."/>
+    <moqui.basic.LocalizedMessage original="No invoice yet." locale="es" localized="Aún no hay factura."/>
+    <moqui.basic.LocalizedMessage original="No longer needed?" locale="es" localized="¿Ya no la necesita?"/>
+    <moqui.basic.LocalizedMessage original="No messages yet." locale="es" localized="Aún no hay mensajes."/>
+    <moqui.basic.LocalizedMessage original="No orders to return from." locale="es" localized="No hay órdenes para devolver."/>
+    <moqui.basic.LocalizedMessage original="No orders to show." locale="es" localized="No hay órdenes para mostrar."/>
+    <moqui.basic.LocalizedMessage original="No quotes to show." locale="es" localized="No hay cotizaciones para mostrar."/>
+    <moqui.basic.LocalizedMessage original="No request form is open for you now." locale="es" localized="Ahora no hay un formulario de solicitud abierto para usted."/>
+    <moqui.basic.LocalizedMessage original="No returns to show." locale="es" localized="No hay devoluciones para mostrar."/>
+    <moqui.basic.LocalizedMessage original="none yet" locale="es" localized="ninguno aún"/>
+    <moqui.basic.LocalizedMessage original="Not resolved?" locale="es" localized="¿No quedó resuelto?"/>
+    <moqui.basic.LocalizedMessage original="Note to the buyer" locale="es" localized="Nota para el comprador"/>
+    <moqui.basic.LocalizedMessage original="Nothing has shipped yet." locale="es" localized="Aún no se ha enviado nada."/>
+    <moqui.basic.LocalizedMessage original="Nothing is waiting for confirmation here. To subscribe, ask again from the subscribe page." locale="es" localized="Aquí no hay nada en espera de confirmación. Para suscribirse, solicítelo de nuevo desde la página de suscripción."/>
+    <moqui.basic.LocalizedMessage original="Nothing on this order can be cancelled here now. Send us a request below." locale="es" localized="Nada de esta orden se puede cancelar aquí ahora. Envíenos una solicitud abajo."/>
+    <moqui.basic.LocalizedMessage original="Nothing to answer from ${view.contact.organizationName} right now." locale="es" localized="Nada que responder de ${view.contact.organizationName} por ahora."/>
+    <moqui.basic.LocalizedMessage original="Older cases" locale="es" localized="Casos anteriores"/>
+    <moqui.basic.LocalizedMessage original="Older orders" locale="es" localized="Órdenes anteriores"/>
+    <moqui.basic.LocalizedMessage original="Older quotes" locale="es" localized="Cotizaciones anteriores"/>
+    <moqui.basic.LocalizedMessage original="Older returns" locale="es" localized="Devoluciones anteriores"/>
+    <moqui.basic.LocalizedMessage original="Open in Billing" locale="es" localized="Abrir en Facturación"/>
+    <moqui.basic.LocalizedMessage original="Open the case from My cases, or the link in our email." locale="es" localized="Abra el caso desde Mis casos, o el enlace de nuestro correo."/>
+    <moqui.basic.LocalizedMessage original="Open the link in the email we sent you about your request." locale="es" localized="Abra el enlace del correo que le enviamos sobre su solicitud."/>
+    <moqui.basic.LocalizedMessage original="Open the link the buyer sent with the purchase order." locale="es" localized="Abra el enlace que el comprador envió con la orden de compra."/>
+    <moqui.basic.LocalizedMessage original="Open the link the buyer sent with the request for quotation." locale="es" localized="Abra el enlace que el comprador envió con la solicitud de cotización."/>
+    <moqui.basic.LocalizedMessage original="Open the link the buyer sent you, or" locale="es" localized="Abra el enlace que le envió el comprador, o"/>
+    <moqui.basic.LocalizedMessage original="Open the order from the link in our order confirmation, or from My orders." locale="es" localized="Abra la orden desde el enlace de nuestra confirmación de orden, o desde Mis órdenes."/>
+    <moqui.basic.LocalizedMessage original="Open the quote from the link in our email, or from My quotes." locale="es" localized="Abra la cotización desde el enlace de nuestro correo, o desde Mis cotizaciones."/>
+    <moqui.basic.LocalizedMessage original="Open the return from My returns, or the link in our return email." locale="es" localized="Abra la devolución desde Mis devoluciones, o el enlace de nuestro correo de devolución."/>
+    <moqui.basic.LocalizedMessage original="Open this page from the event you want to register for." locale="es" localized="Abra esta página desde el evento al que desea inscribirse."/>
+    <moqui.basic.LocalizedMessage original="Open this page from the link in the message we sent you." locale="es" localized="Abra esta página desde el enlace del mensaje que le enviamos."/>
+    <moqui.basic.LocalizedMessage original="Open this page from the link you were given." locale="es" localized="Abra esta página desde el enlace que le dieron."/>
+    <moqui.basic.LocalizedMessage original="Open: ${i.openText}" locale="es" localized="Pendiente: ${i.openText}"/>
+    <moqui.basic.LocalizedMessage original="Opened on" locale="es" localized="Abierto el"/>
+    <moqui.basic.LocalizedMessage original="Order ${o.orderId}" locale="es" localized="Orden ${o.orderId}"/>
+    <moqui.basic.LocalizedMessage original="Order ${row.orderId}" locale="es" localized="Orden ${row.orderId}"/>
+    <moqui.basic.LocalizedMessage original="Order or reference" locale="es" localized="Orden o referencia"/>
+    <moqui.basic.LocalizedMessage original="Order or your PO" locale="es" localized="Orden o su PO"/>
+    <moqui.basic.LocalizedMessage original="Order total" locale="es" localized="Total de la orden"/>
+    <moqui.basic.LocalizedMessage original="orders from ${o.supplierName}" locale="es" localized="ordena a ${o.supplierName}"/>
+    <moqui.basic.LocalizedMessage original="Our components held at ${work.custodyText}" locale="es" localized="Nuestros componentes en custodia en ${work.custodyText}"/>
+    <moqui.basic.LocalizedMessage original="Pay for your registration" locale="es" localized="Pagar su registro"/>
+    <moqui.basic.LocalizedMessage original="Pay for your registration: ${view.title}" locale="es" localized="Pagar su registro: ${view.title}"/>
+    <moqui.basic.LocalizedMessage original="Payment: ${view.payment.amountText}" locale="es" localized="Pago: ${view.payment.amountText}"/>
+    <moqui.basic.LocalizedMessage original="placed ${row.placedText}" locale="es" localized="realizada ${row.placedText}"/>
+    <moqui.basic.LocalizedMessage original="Placed ${view.order.placedText}" locale="es" localized="Realizada ${view.order.placedText}"/>
+    <moqui.basic.LocalizedMessage original="Places" locale="es" localized="Plazas"/>
+    <moqui.basic.LocalizedMessage original="Places of ${t.name}" locale="es" localized="Plazas de ${t.name}"/>
+    <moqui.basic.LocalizedMessage original="Places to cancel (none chosen: all)" locale="es" localized="Plazas a cancelar (si no elige: todas)"/>
+    <moqui.basic.LocalizedMessage original="Purchase order ${o.orderId}" locale="es" localized="Orden de compra ${o.orderId}"/>
+    <moqui.basic.LocalizedMessage original="Purchase order ${view.superseded.orderId}" locale="es" localized="Orden de compra ${view.superseded.orderId}"/>
+    <moqui.basic.LocalizedMessage original="Quantity (up to ${l.openQuantity})" locale="es" localized="Cantidad (hasta ${l.openQuantity})"/>
+    <moqui.basic.LocalizedMessage original="Questions? Contact ${o.repName || o.sellerName}." locale="es" localized="¿Preguntas? Comuníquese con ${o.repName || o.sellerName}."/>
+    <moqui.basic.LocalizedMessage original="Questions? Contact ${q.repName || q.sellerName}." locale="es" localized="¿Preguntas? Comuníquese con ${q.repName || q.sellerName}."/>
+    <moqui.basic.LocalizedMessage original="Quote ${q.orderId}" locale="es" localized="Cotización ${q.orderId}"/>
+    <moqui.basic.LocalizedMessage original="Quote ${row.orderId}" locale="es" localized="Cotización ${row.orderId}"/>
+    <moqui.basic.LocalizedMessage original="Quote ${view.acceptedQuote.orderId}" locale="es" localized="Cotización ${view.acceptedQuote.orderId}"/>
+    <moqui.basic.LocalizedMessage original="Quote accepted" locale="es" localized="Cotización aceptada"/>
+    <moqui.basic.LocalizedMessage original="Quote declined" locale="es" localized="Cotización rechazada"/>
+    <moqui.basic.LocalizedMessage original="Quote file (PDF, PNG or JPEG, at most 10 MB; optional)" locale="es" localized="Archivo de la cotización (PDF, PNG o JPEG, como máximo 10 MB; opcional)"/>
+    <moqui.basic.LocalizedMessage original="Quote received" locale="es" localized="Cotización recibida"/>
+    <moqui.basic.LocalizedMessage original="Reason (optional)" locale="es" localized="Motivo (opcional)"/>
+    <moqui.basic.LocalizedMessage original="Reason or note" locale="es" localized="Motivo o nota"/>
+    <moqui.basic.LocalizedMessage original="Reference ${view.reference}" locale="es" localized="Referencia ${view.reference}"/>
+    <moqui.basic.LocalizedMessage original="Register: ${event.title}" locale="es" localized="Registro: ${event.title}"/>
+    <moqui.basic.LocalizedMessage original="Register: ${view.title}" locale="es" localized="Registro: ${view.title}"/>
+    <moqui.basic.LocalizedMessage original="Registered attendees receive the link to join with their confirmation." locale="es" localized="Los asistentes registrados reciben el enlace para unirse con su confirmación."/>
+    <moqui.basic.LocalizedMessage original="Reject (give the reason)" locale="es" localized="Rechazar (indique el motivo)"/>
+    <moqui.basic.LocalizedMessage original="Report a delivery" locale="es" localized="Informar una entrega"/>
+    <moqui.basic.LocalizedMessage original="Report a delivery to the customer" locale="es" localized="Informar una entrega al cliente"/>
+    <moqui.basic.LocalizedMessage original="Request a return" locale="es" localized="Solicitar una devolución"/>
+    <moqui.basic.LocalizedMessage original="Request cancellation" locale="es" localized="Solicitar cancelación"/>
+    <moqui.basic.LocalizedMessage original="Request for quotation" locale="es" localized="Solicitud de cotización"/>
+    <moqui.basic.LocalizedMessage original="Request for quotation ${q.requestId}" locale="es" localized="Solicitud de cotización ${q.requestId}"/>
+    <moqui.basic.LocalizedMessage original="Request the return" locale="es" localized="Solicitar la devolución"/>
+    <moqui.basic.LocalizedMessage original="Requested ${r.requestedQuantity}" locale="es" localized="Solicitado ${r.requestedQuantity}"/>
+    <moqui.basic.LocalizedMessage original="Requests and orders" locale="es" localized="Solicitudes y órdenes"/>
+    <moqui.basic.LocalizedMessage original="Resolved or cancelled" locale="es" localized="Resueltos o cancelados"/>
+    <moqui.basic.LocalizedMessage original="Return ${r.reference}" locale="es" localized="Devolución ${r.reference}"/>
+    <moqui.basic.LocalizedMessage original="Return by ${l.windowEndText}" locale="es" localized="Devolver antes del ${l.windowEndText}"/>
+    <moqui.basic.LocalizedMessage original="Return this item" locale="es" localized="Devolver este artículo"/>
+    <moqui.basic.LocalizedMessage original="Search our help" locale="es" localized="Buscar en nuestra ayuda"/>
+    <moqui.basic.LocalizedMessage original="See the event" locale="es" localized="Ver el evento"/>
+    <moqui.basic.LocalizedMessage original="see the order" locale="es" localized="ver la orden"/>
+    <moqui.basic.LocalizedMessage original="See the receipt" locale="es" localized="Ver el acuse"/>
+    <moqui.basic.LocalizedMessage original="Send a bill for this order" locale="es" localized="Enviar una factura recibida de esta orden"/>
+    <moqui.basic.LocalizedMessage original="Send acknowledgement" locale="es" localized="Enviar acuse"/>
+    <moqui.basic.LocalizedMessage original="Send another bill for this order" locale="es" localized="Enviar otra factura recibida de esta orden"/>
+    <moqui.basic.LocalizedMessage original="Send back by" locale="es" localized="Devolver antes del"/>
+    <moqui.basic.LocalizedMessage original="Send bill" locale="es" localized="Enviar factura recibida"/>
+    <moqui.basic.LocalizedMessage original="Send my answer" locale="es" localized="Enviar mi respuesta"/>
+    <moqui.basic.LocalizedMessage original="Send quote" locale="es" localized="Enviar cotización"/>
+    <moqui.basic.LocalizedMessage original="Send request" locale="es" localized="Enviar solicitud"/>
+    <moqui.basic.LocalizedMessage original="Ship to the customer" locale="es" localized="Enviar al cliente"/>
+    <moqui.basic.LocalizedMessage original="Shipped on" locale="es" localized="Enviado el"/>
+    <moqui.basic.LocalizedMessage original="Ships by" locale="es" localized="Envío para el"/>
+    <moqui.basic.LocalizedMessage original="Show my entry code" locale="es" localized="Mostrar mi código de entrada"/>
+    <moqui.basic.LocalizedMessage original="Show this at the entrance. It is the same code as in your ticket email; the organizer can issue a new one if it is lost." locale="es" localized="Muestre esto en la entrada. Es el mismo código que en el correo de su entrada; el organizador puede emitir uno nuevo si se pierde."/>
+    <moqui.basic.LocalizedMessage original="Sign in to accept" locale="es" localized="Iniciar sesión para aceptar"/>
+    <moqui.basic.LocalizedMessage original="Sign in to follow your requests." locale="es" localized="Inicie sesión para seguir sus solicitudes."/>
+    <moqui.basic.LocalizedMessage original="Sign in to follow your returns, or open the link in our return email." locale="es" localized="Inicie sesión para seguir sus devoluciones, o abra el enlace de nuestro correo de devolución."/>
+    <moqui.basic.LocalizedMessage original="Sign in to return something you bought." locale="es" localized="Inicie sesión para devolver algo que compró."/>
+    <moqui.basic.LocalizedMessage original="Sign in to see the quotes we sent your company. A quote's link in our email opens it without signing in." locale="es" localized="Inicie sesión para ver las cotizaciones que enviamos a su empresa. El enlace de una cotización en nuestro correo la abre sin iniciar sesión."/>
+    <moqui.basic.LocalizedMessage original="Sign in to see your company's orders with us. The link in our order confirmation opens that order without signing in." locale="es" localized="Inicie sesión para ver las órdenes de su empresa con nosotros. El enlace de nuestra confirmación de orden abre esa orden sin iniciar sesión."/>
+    <moqui.basic.LocalizedMessage original="Sign in to send us a request, or use the form link we gave you." locale="es" localized="Inicie sesión para enviarnos una solicitud, o use el enlace del formulario que le dimos."/>
+    <moqui.basic.LocalizedMessage original="Sign in to your account to answer this form." locale="es" localized="Inicie sesión en su cuenta para responder este formulario."/>
+    <moqui.basic.LocalizedMessage original="Still need help?" locale="es" localized="¿Aún necesita ayuda?"/>
+    <moqui.basic.LocalizedMessage original="Still need help? Contact support" locale="es" localized="¿Aún necesita ayuda? Contacte a soporte"/>
+    <moqui.basic.LocalizedMessage original="Subject *" locale="es" localized="Asunto *"/>
+    <moqui.basic.LocalizedMessage original="Subscribe to ${view.organizationName}" locale="es" localized="Suscribirse a ${view.organizationName}"/>
+    <moqui.basic.LocalizedMessage original="Supplier documents" locale="es" localized="Documentos del proveedor"/>
+    <moqui.basic.LocalizedMessage original="Thank you" locale="es" localized="Gracias"/>
+    <moqui.basic.LocalizedMessage original="The buyer confirms the delivery; this report ships nothing." locale="es" localized="El comprador confirma la entrega; este informe no envía nada."/>
+    <moqui.basic.LocalizedMessage original="The buyer reviews any change; acknowledging changes no quantity or price." locale="es" localized="El comprador revisa cualquier cambio; el acuse no cambia ninguna cantidad ni precio."/>
+    <moqui.basic.LocalizedMessage original="The buyer reviews your quote; sending it does not award the order." locale="es" localized="El comprador revisa su cotización; enviarla no adjudica la orden."/>
+    <moqui.basic.LocalizedMessage original="The components stay ours while you hold them." locale="es" localized="Los componentes siguen siendo nuestros mientras usted los tiene."/>
+    <moqui.basic.LocalizedMessage original="The offer cannot be changed here; to change it, ask ${q.repName || q.sellerName} for a new quote." locale="es" localized="La oferta no se puede cambiar aquí; para cambiarla, pida una cotización nueva a ${q.repName || q.sellerName}."/>
+    <moqui.basic.LocalizedMessage original="The order has changed since you accepted this quote. The PDF below is the quote as we offered it" locale="es" localized="La orden cambió desde que aceptó esta cotización. El PDF de abajo es la cotización tal como la ofrecimos"/>
+    <moqui.basic.LocalizedMessage original="The payment page cannot be opened now." locale="es" localized="La página de pago no se puede abrir ahora."/>
+    <moqui.basic.LocalizedMessage original="The payment was not completed. You can try again while your places are held." locale="es" localized="El pago no se completó. Puede intentarlo de nuevo mientras sus plazas están reservadas."/>
+    <moqui.basic.LocalizedMessage original="The terms you accepted" locale="es" localized="Los términos que aceptó"/>
+    <moqui.basic.LocalizedMessage original="There is nothing to subscribe to here. The offer may have ended." locale="es" localized="Aquí no hay nada a lo que suscribirse. La oferta puede haber terminado."/>
+    <moqui.basic.LocalizedMessage original="These may answer your question" locale="es" localized="Esto puede responder su pregunta"/>
+    <moqui.basic.LocalizedMessage original="This article is not available." locale="es" localized="Este artículo no está disponible."/>
+    <moqui.basic.LocalizedMessage original="This case is closed; a reply opens a new case." locale="es" localized="Este caso está cerrado; una respuesta abre un caso nuevo."/>
+    <moqui.basic.LocalizedMessage original="This case is not available. The link may have expired, or the case is not one of yours." locale="es" localized="Este caso no está disponible. El enlace puede haber vencido, o el caso no es suyo."/>
+    <moqui.basic.LocalizedMessage original="This event is not available." locale="es" localized="Este evento no está disponible."/>
+    <moqui.basic.LocalizedMessage original="This feedback link is not available. It may have expired or been replaced; you can still reply to the email we sent you." locale="es" localized="Este enlace de comentarios no está disponible. Puede haber vencido o haber sido reemplazado; aún puede responder al correo que le enviamos."/>
+    <moqui.basic.LocalizedMessage original="This form is not available. It may have closed, or the link may have expired." locale="es" localized="Este formulario no está disponible. Puede haberse cerrado, o el enlace puede haber vencido."/>
+    <moqui.basic.LocalizedMessage original="This form is not available. The link may have expired or been replaced." locale="es" localized="Este formulario no está disponible. El enlace puede haber vencido o haber sido reemplazado."/>
+    <moqui.basic.LocalizedMessage original="This is our quote, on the terms above" locale="es" localized="Esta es nuestra cotización, en los términos de arriba"/>
+    <moqui.basic.LocalizedMessage original="This link is not available. It may have expired or been replaced: ask again from the subscribe page." locale="es" localized="Este enlace no está disponible. Puede haber vencido o haber sido reemplazado: solicítelo de nuevo desde la página de suscripción."/>
+    <moqui.basic.LocalizedMessage original="This link works until" locale="es" localized="Este enlace funciona hasta"/>
+    <moqui.basic.LocalizedMessage original="This order is not available. The link may have expired, or the order is not one of yours. Your sales contact can help." locale="es" localized="Esta orden no está disponible. El enlace puede haber vencido, o la orden no es suya. Su contacto de ventas puede ayudar."/>
+    <moqui.basic.LocalizedMessage original="This payment page is not available." locale="es" localized="Esta página de pago no está disponible."/>
+    <moqui.basic.LocalizedMessage original="This payment page is not available. Open your registration from the link in your email." locale="es" localized="Esta página de pago no está disponible. Abra su registro desde el enlace de su correo."/>
+    <moqui.basic.LocalizedMessage original="This quote is not available. The link may have expired or been replaced, or the quote is not one of yours. Your sales contact can send you a new link." locale="es" localized="Esta cotización no está disponible. El enlace puede haber vencido o haber sido reemplazado, o la cotización no es suya. Su contacto de ventas puede enviarle un enlace nuevo."/>
+    <moqui.basic.LocalizedMessage original="This receipt is not available. The link may have expired or been replaced. Your sales contact can help." locale="es" localized="Este acuse no está disponible. El enlace puede haber vencido o haber sido reemplazado. Su contacto de ventas puede ayudar."/>
+    <moqui.basic.LocalizedMessage original="This registration is not available. It may have closed, or this page was opened in another browser: use the link in your email." locale="es" localized="Este registro no está disponible. Puede haberse cerrado, o esta página se abrió en otro navegador: use el enlace de su correo."/>
+    <moqui.basic.LocalizedMessage original="This registration is not available. The link may have expired: open the latest one from your email." locale="es" localized="Este registro no está disponible. El enlace puede haber vencido: abra el más reciente desde su correo."/>
+    <moqui.basic.LocalizedMessage original="This return is not available. The link may have expired or been replaced." locale="es" localized="Esta devolución no está disponible. El enlace puede haber vencido o haber sido reemplazado."/>
+    <moqui.basic.LocalizedMessage original="Tickets" locale="es" localized="Entradas"/>
+    <moqui.basic.LocalizedMessage original="To accept a quote of this amount, sign in as a contact invited for ${q.customerName}. You can still decline it here." locale="es" localized="Para aceptar una cotización de este importe, inicie sesión como un contacto invitado para ${q.customerName}. Aún puede rechazarla aquí."/>
+    <moqui.basic.LocalizedMessage original="To change or cancel this return now, reply to our email or" locale="es" localized="Para cambiar o cancelar esta devolución ahora, responda a nuestro correo o"/>
+    <moqui.basic.LocalizedMessage original="To change what you receive, use the link at the foot of any of our messages." locale="es" localized="Para cambiar lo que recibe, use el enlace al pie de cualquiera de nuestros mensajes."/>
+    <moqui.basic.LocalizedMessage original="to contact us and follow your requests and returns." locale="es" localized="para contactarnos y seguir sus solicitudes y devoluciones."/>
+    <moqui.basic.LocalizedMessage original="To send a request about this order from its link, enter the code we email to the order's address. It works once, for 15 minutes." locale="es" localized="Para enviar una solicitud sobre esta orden desde su enlace, escriba el código que enviamos por correo a la dirección de la orden. Funciona una vez, durante 15 minutos."/>
+    <moqui.basic.LocalizedMessage original="Type a few words about your question." locale="es" localized="Escriba unas palabras sobre su pregunta."/>
+    <moqui.basic.LocalizedMessage original="Unit price (${q.currencyUomId})" locale="es" localized="Precio unitario (${q.currencyUomId})"/>
+    <moqui.basic.LocalizedMessage original="Was this helpful?" locale="es" localized="¿Le fue útil?"/>
+    <moqui.basic.LocalizedMessage original="We are waiting for the payment provider's answer. This page shows it once it arrives; you are not charged twice." locale="es" localized="Esperamos la respuesta del proveedor de pago. Esta página la muestra cuando llega; no se le cobra dos veces."/>
+    <moqui.basic.LocalizedMessage original="We are waiting for your reply" locale="es" localized="Esperamos su respuesta"/>
+    <moqui.basic.LocalizedMessage original="We have your payment. The organizer confirms your registration next; your ticket and entry code follow then." locale="es" localized="Tenemos su pago. El organizador confirma su registro a continuación; luego siguen su entrada y su código de entrada."/>
+    <moqui.basic.LocalizedMessage original="We have your payment. The organizer confirms your registration next; your ticket follows then." locale="es" localized="Tenemos su pago. El organizador confirma su registro a continuación; luego sigue su entrada."/>
+    <moqui.basic.LocalizedMessage original="We have your request and will answer you by email." locale="es" localized="Tenemos su solicitud y le responderemos por correo."/>
+    <moqui.basic.LocalizedMessage original="We have your return request and will email you what to do next." locale="es" localized="Tenemos su solicitud de devolución y le enviaremos por correo qué hacer después."/>
+    <moqui.basic.LocalizedMessage original="We review your request and tell you how to send the goods back; what you would like is not yet approved." locale="es" localized="Revisamos su solicitud y le indicamos cómo devolver los bienes; lo que usted desea aún no está aprobado."/>
+    <moqui.basic.LocalizedMessage original="We send one message to this address first; nothing more until you confirm from it. You can unsubscribe from any message." locale="es" localized="Primero enviamos un mensaje a esta dirección; nada más hasta que usted confirme desde ella. Puede cancelar la suscripción desde cualquier mensaje."/>
+    <moqui.basic.LocalizedMessage original="We send your receipt and ticket to this address. Registering does not subscribe you to anything." locale="es" localized="Enviamos su recibo y su entrada a esta dirección. Registrarse no lo suscribe a nada."/>
+    <moqui.basic.LocalizedMessage original="What do you need? *" locale="es" localized="¿Qué necesita? *"/>
+    <moqui.basic.LocalizedMessage original="What is still wrong?" locale="es" localized="¿Qué sigue mal?"/>
+    <moqui.basic.LocalizedMessage original="What to do" locale="es" localized="Qué hacer"/>
+    <moqui.basic.LocalizedMessage original="What would you like" locale="es" localized="Qué desea"/>
+    <moqui.basic.LocalizedMessage original="What you sent" locale="es" localized="Lo que envió"/>
+    <moqui.basic.LocalizedMessage original="What you sent us" locale="es" localized="Lo que nos envió"/>
+    <moqui.basic.LocalizedMessage original="What you want to receive" locale="es" localized="Lo que desea recibir"/>
+    <moqui.basic.LocalizedMessage original="Which order?" locale="es" localized="¿Cuál orden?"/>
+    <moqui.basic.LocalizedMessage original="Why (so we can do better)" locale="es" localized="Por qué (para mejorar)"/>
+    <moqui.basic.LocalizedMessage original="Why do you want to cancel?" locale="es" localized="¿Por qué desea cancelar?"/>
+    <moqui.basic.LocalizedMessage original="with the account you were invited to." locale="es" localized="con la cuenta a la que se le invitó."/>
+    <moqui.basic.LocalizedMessage original="Withdraw this return" locale="es" localized="Retirar esta devolución"/>
+    <moqui.basic.LocalizedMessage original="Yes, cancel. A refund, where one is due, shows here until it is done." locale="es" localized="Sí, cancelar. Un reembolso, cuando corresponde, se muestra aquí hasta que se complete."/>
+    <moqui.basic.LocalizedMessage original="You accept the whole quote ${q.orderId}, revision ${q.revision}, for" locale="es" localized="Acepta la cotización completa ${q.orderId}, revisión ${q.revision}, por"/>
+    <moqui.basic.LocalizedMessage original="You are on the waitlist. We email you if a place is yours." locale="es" localized="Está en la lista de espera. Le enviamos un correo si una plaza es suya."/>
+    <moqui.basic.LocalizedMessage original="You asked for" locale="es" localized="Lo que pidió"/>
+    <moqui.basic.LocalizedMessage original="You can answer once." locale="es" localized="Puede responder una vez."/>
+    <moqui.basic.LocalizedMessage original="You can answer once. The link works until ${inv.expiresText}." locale="es" localized="Puede responder una vez. El enlace funciona hasta ${inv.expiresText}."/>
+    <moqui.basic.LocalizedMessage original="You pay on the payment provider's page. Your registration is confirmed by the provider's answer, not by returning here." locale="es" localized="Paga en la página del proveedor de pago. La respuesta del proveedor confirma su registro, no el regreso a esta página."/>
+    <moqui.basic.LocalizedMessage original="Your account is not a contact of a customer here. Ask your sales contact for an invitation." locale="es" localized="Su cuenta no es un contacto de un cliente aquí. Pida una invitación a su contacto de ventas."/>
+    <moqui.basic.LocalizedMessage original="Your account is not linked to a customer of ${view.organizationName}. Use the invitation we sent you, or reply to one of our emails." locale="es" localized="Su cuenta no está vinculada a un cliente de ${view.organizationName}. Use la invitación que le enviamos, o responda a uno de nuestros correos."/>
+    <moqui.basic.LocalizedMessage original="Your bill number" locale="es" localized="Su número de factura recibida"/>
+    <moqui.basic.LocalizedMessage original="Your case" locale="es" localized="Su caso"/>
+    <moqui.basic.LocalizedMessage original="Your code" locale="es" localized="Su código"/>
+    <moqui.basic.LocalizedMessage original="Your code ${line.otherPartyProductId}" locale="es" localized="Su código ${line.otherPartyProductId}"/>
+    <moqui.basic.LocalizedMessage original="Your entry code" locale="es" localized="Su código de entrada"/>
+    <moqui.basic.LocalizedMessage original="Your feedback" locale="es" localized="Sus comentarios"/>
+    <moqui.basic.LocalizedMessage original="Your item code" locale="es" localized="Su código de artículo"/>
+    <moqui.basic.LocalizedMessage original="Your message" locale="es" localized="Su mensaje"/>
+    <moqui.basic.LocalizedMessage original="Your name (optional)" locale="es" localized="Su nombre (opcional)"/>
+    <moqui.basic.LocalizedMessage original="Your note" locale="es" localized="Su nota"/>
+    <moqui.basic.LocalizedMessage original="Your order" locale="es" localized="Su orden"/>
+    <moqui.basic.LocalizedMessage original="Your order reference" locale="es" localized="Su referencia de orden"/>
+    <moqui.basic.LocalizedMessage original="Your orders" locale="es" localized="Sus órdenes"/>
+    <moqui.basic.LocalizedMessage original="Your payment is waiting at the payment provider." locale="es" localized="Su pago está en espera en el proveedor de pago."/>
+    <moqui.basic.LocalizedMessage original="Your places are held until ${view.holdEndsText}." locale="es" localized="Sus plazas están reservadas hasta ${view.holdEndsText}."/>
+    <moqui.basic.LocalizedMessage original="Your places can no longer be cancelled online; contact the organizer." locale="es" localized="Sus plazas ya no se pueden cancelar en línea; contacte al organizador."/>
+    <moqui.basic.LocalizedMessage original="Your price" locale="es" localized="Su precio"/>
+    <moqui.basic.LocalizedMessage original="Your purchase order" locale="es" localized="Su orden de compra"/>
+    <moqui.basic.LocalizedMessage original="Your purchase order number" locale="es" localized="Su número de orden de compra"/>
+    <moqui.basic.LocalizedMessage original="Your quote" locale="es" localized="Su cotización"/>
+    <moqui.basic.LocalizedMessage original="Your quote reference" locale="es" localized="Su referencia de cotización"/>
+    <moqui.basic.LocalizedMessage original="Your rating" locale="es" localized="Su valoración"/>
+    <moqui.basic.LocalizedMessage original="Your reason" locale="es" localized="Su motivo"/>
+    <moqui.basic.LocalizedMessage original="Your reference" locale="es" localized="Su referencia"/>
+    <moqui.basic.LocalizedMessage original="Your reference (optional)" locale="es" localized="Su referencia (opcional)"/>
+    <moqui.basic.LocalizedMessage original="Your registration" locale="es" localized="Su registro"/>
+    <moqui.basic.LocalizedMessage original="Your request" locale="es" localized="Su solicitud"/>
+    <moqui.basic.LocalizedMessage original="Your request is about" locale="es" localized="Su solicitud es sobre"/>
+    <moqui.basic.LocalizedMessage original="Your response" locale="es" localized="Su respuesta"/>
+    <moqui.basic.LocalizedMessage original="Your return" locale="es" localized="Su devolución"/>
+    <moqui.basic.LocalizedMessage original="Your ticket is on its way to your email." locale="es" localized="Su entrada va en camino a su correo."/>
+    <moqui.basic.LocalizedMessage original="Your title" locale="es" localized="Su cargo"/>
+    <moqui.basic.LocalizedMessage original="Your work on our components" locale="es" localized="Su trabajo en nuestros componentes"/>
+    <moqui.basic.LocalizedMessage original="· expected ${s.arrivalText}" locale="es" localized="· prevista ${s.arrivalText}"/>
+    <moqui.basic.LocalizedMessage original="· opened ${row.createdText} · updated ${row.updatedText}" locale="es" localized="· abierto ${row.createdText} · actualizado ${row.updatedText}"/>
+    <moqui.basic.LocalizedMessage original="· order ${bill.orderId} · ${bill.receivedDateText}" locale="es" localized="· orden ${bill.orderId} · ${bill.receivedDateText}"/>
+    <moqui.basic.LocalizedMessage original="· order ${r.orderId}" locale="es" localized="· orden ${r.orderId}"/>
+    <moqui.basic.LocalizedMessage original="· Reference ${view.reference}" locale="es" localized="· Referencia ${view.reference}"/>
+    <moqui.basic.LocalizedMessage original="· send by ${r.expiryText}" locale="es" localized="· enviar antes del ${r.expiryText}"/>
+    <moqui.basic.LocalizedMessage original="· shipped ${s.shippedText}" locale="es" localized="· enviado ${s.shippedText}"/>
+    <moqui.basic.LocalizedMessage original="· this order was cancelled and can no longer be changed" locale="es" localized="· esta orden se canceló y ya no se puede cambiar"/>
+    <moqui.basic.LocalizedMessage original="· tracking ${r.trackingText}" locale="es" localized="· seguimiento ${r.trackingText}"/>
+    <moqui.basic.LocalizedMessage original="· your reference ${r.customerReference}" locale="es" localized="· su referencia ${r.customerReference}"/>
+</entity-facade-xml>

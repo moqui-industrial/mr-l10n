@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+
+<entity-facade-xml type="zh">
+    <moqui.basic.LocalizedMessage original="A rate of no project shared by every organization is changed only by an administrator of every project" locale="zh" localized="由每个组织共享的无项目费率，只有管理所有项目的管理员才能更改"/>
+    <moqui.basic.LocalizedMessage original="A relative path under runtime/git-export, of letters, digits, '.', '_' and '-' segments; an absolute path or '..' is refused" locale="zh" localized="runtime/git-export 下的相对路径，由字母、数字、'.'、'_' 和 '-' 组成的段；绝对路径或 '..' 会被拒绝"/>
+    <moqui.basic.LocalizedMessage original="Access token revoked" locale="zh" localized="访问令牌已撤销"/>
+    <moqui.basic.LocalizedMessage original="Act+rem/bgt" locale="zh" localized="实际+剩余/预算"/>
+    <moqui.basic.LocalizedMessage original="Act+rem/est" locale="zh" localized="实际+剩余/估计"/>
+    <moqui.basic.LocalizedMessage original="Any project, every organization" locale="zh" localized="任意项目，每个组织"/>
+    <moqui.basic.LocalizedMessage original="Changed in Admin" locale="zh" localized="已在 Admin 中更改"/>
+    <moqui.basic.LocalizedMessage original="Choose the organization whose time the rate is for" locale="zh" localized="请选择该费率所对应工时的组织"/>
+    <moqui.basic.LocalizedMessage original="Code hosting is not in this build, so there is nothing to clone here; the SSH keys still serve SFTP (a token signs in to git only)." locale="zh" localized="此构建不含代码托管，因此这里没有可克隆的内容；SSH 密钥仍用于 SFTP（令牌只能登录 git）。"/>
+    <moqui.basic.LocalizedMessage original="Every employee keeps a weekly timesheet (managers see each report's week)" locale="zh" localized="每位员工保留一份每周工时表（经理可查看每位下属的那一周）"/>
+    <moqui.basic.LocalizedMessage original="Export to a bare repository at runtime/git-export/ (empty: runtime/git/${repositoryId})" locale="zh" localized="导出到 runtime/git-export/ 的裸代码库（留空：runtime/git/${repositoryId}）"/>
+    <moqui.basic.LocalizedMessage original="GitHub issues" locale="zh" localized="GitHub 议题"/>
+    <moqui.basic.LocalizedMessage original="It is not one of yours." locale="zh" localized="这不是您的。"/>
+    <moqui.basic.LocalizedMessage original="Labor costing" locale="zh" localized="人工成本"/>
+    <moqui.basic.LocalizedMessage original="Labor costing rates price approved hours by position and work type for cost reports, never a person's pay. Finance administration sets them in Accounting's Costing policies." locale="zh" localized="人工成本费率按岗位和工作类型为已批准的工时计价，用于成本报表，从不是某人的工资。财务管理部门在会计的成本核算策略中设置这些费率。"/>
+    <moqui.basic.LocalizedMessage original="Maintenance · ${money.maintenanceRows.length} · ${money.maintenanceTotalText}" locale="zh" localized="维护 · ${money.maintenanceRows.length} · ${money.maintenanceTotalText}"/>
+    <moqui.basic.LocalizedMessage original="Needs billing rate editing access, which an administrator can grant." locale="zh" localized="需要开票费率编辑权限，管理员可以授予。"/>
+    <moqui.basic.LocalizedMessage original="Needs code hosting administration access, which an administrator can grant." locale="zh" localized="需要代码托管管理权限，管理员可以授予。"/>
+    <moqui.basic.LocalizedMessage original="Needs project management access, which an administrator can grant." locale="zh" localized="需要项目管理权限，管理员可以授予。"/>
+    <moqui.basic.LocalizedMessage original="Needs project planning access, which an administrator can grant." locale="zh" localized="需要项目规划权限，管理员可以授予。"/>
+    <moqui.basic.LocalizedMessage original="Needs repository write access, which an administrator can grant." locale="zh" localized="需要代码库写入权限，管理员可以授予。"/>
+    <moqui.basic.LocalizedMessage original="Needs resource allocation access, which an administrator can grant." locale="zh" localized="需要资源分配权限，管理员可以授予。"/>
+    <moqui.basic.LocalizedMessage original="No access tokens. A token is the password for git over HTTPS and for git's REST API (posting checks), and signs in nowhere else." locale="zh" localized="没有访问令牌。令牌是通过 HTTPS 使用 git 以及 git 的 REST API（发布检查）的密码，并且不能在别处登录。"/>
+    <moqui.basic.LocalizedMessage original="No labor costing rates: labor hours are unpriced" locale="zh" localized="没有人工成本费率：人工工时没有计价"/>
+    <moqui.basic.LocalizedMessage original="No merge conflicts" locale="zh" localized="无合并冲突"/>
+    <moqui.basic.LocalizedMessage original="Not priced" locale="zh" localized="未计价"/>
+    <moqui.basic.LocalizedMessage original="Nothing to schedule here." locale="zh" localized="此处没有可排程的事项。"/>
+    <moqui.basic.LocalizedMessage original="Open the project" locale="zh" localized="打开项目"/>
+    <moqui.basic.LocalizedMessage original="Organization (for a rate of no project)" locale="zh" localized="组织（用于无项目的费率）"/>
+    <moqui.basic.LocalizedMessage original="Owners only" locale="zh" localized="仅所有者"/>
+    <moqui.basic.LocalizedMessage original="Paid by payroll: this week stays approved, and a correction pays any difference." locale="zh" localized="已由薪资支付：本周保持已批准，差额由更正支付。"/>
+    <moqui.basic.LocalizedMessage original="Payroll sets the pay rate of an employee, on no project" locale="zh" localized="薪资设置员工的报酬费率，且不关联项目"/>
+    <moqui.basic.LocalizedMessage original="Rates are for those who manage money or payroll" locale="zh" localized="费率供管理资金或薪资的人员使用"/>
+    <moqui.basic.LocalizedMessage original="Rates are for those who manage money or payroll." locale="zh" localized="费率供管理资金或薪资的人员使用。"/>
+    <moqui.basic.LocalizedMessage original="Rem." locale="zh" localized="剩余"/>
+    <moqui.basic.LocalizedMessage original="SSH key added" locale="zh" localized="SSH 密钥已添加"/>
+    <moqui.basic.LocalizedMessage original="SSH key removed" locale="zh" localized="SSH 密钥已移除"/>
+    <moqui.basic.LocalizedMessage original="The import runs on; this page shows how far it is" locale="zh" localized="导入仍在进行；此页面显示进行到何处"/>
+    <moqui.basic.LocalizedMessage original="Their working schedule (People)" locale="zh" localized="其工作时间表（人员）"/>
+    <moqui.basic.LocalizedMessage original="This item is an issue: its text is the first post, edited on the issue's page" locale="zh" localized="此工作项是一个议题：其文本是第一条帖子，在议题页面上编辑"/>
+    <moqui.basic.LocalizedMessage original="This project is closed. Re-open it to change its settings." locale="zh" localized="此项目已关闭。请重新打开它，以更改其设置。"/>
+    <moqui.basic.LocalizedMessage original="Your comment is held for review: it shows here once a moderator approves it" locale="zh" localized="您的评论待审核：版主批准后会显示在这里"/>
+</entity-facade-xml>

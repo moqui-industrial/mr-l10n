@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+
+<entity-facade-xml type="zh">
+    <moqui.basic.LocalizedMessage original="A newer authority version exists. Choose which text to continue editing." locale="zh" localized="存在更新的认证机构版本。请选择要继续编辑的文本。"/>
+    <moqui.basic.LocalizedMessage original="Accept an answer" locale="zh" localized="采纳回答"/>
+    <moqui.basic.LocalizedMessage original="Action failed" locale="zh" localized="操作失败"/>
+    <moqui.basic.LocalizedMessage original="Activate now" locale="zh" localized="立即激活"/>
+    <moqui.basic.LocalizedMessage original="Activate the imported community" locale="zh" localized="激活已导入的社区"/>
+    <moqui.basic.LocalizedMessage original="Active site members" locale="zh" localized="站点的有效成员"/>
+    <moqui.basic.LocalizedMessage original="Add a poll" locale="zh" localized="添加投票"/>
+    <moqui.basic.LocalizedMessage original="Add a private staff note" locale="zh" localized="添加工作人员私密备注"/>
+    <moqui.basic.LocalizedMessage original="Add members (handles, comma separated)" locale="zh" localized="添加成员（账号名，以逗号分隔）"/>
+    <moqui.basic.LocalizedMessage original="Adopt an existing mailbox" locale="zh" localized="采用现有邮箱"/>
+    <moqui.basic.LocalizedMessage original="After voting" locale="zh" localized="投票后"/>
+    <moqui.basic.LocalizedMessage original="An older unsent copy of this text was written as rich text and this post is Markdown now: the copy was not kept." locale="zh" localized="此文本的一份较早未发送副本是富文本，而此帖子现在是 Markdown：未保留该副本。"/>
+    <moqui.basic.LocalizedMessage original="Answer (empty to clear)" locale="zh" localized="回答（留空以清除）"/>
+    <moqui.basic.LocalizedMessage original="Anyone, including visitors" locale="zh" localized="任何人，包括访客"/>
+    <moqui.basic.LocalizedMessage original="Apply sanction" locale="zh" localized="实施处罚"/>
+    <moqui.basic.LocalizedMessage original="Approve as" locale="zh" localized="批准身份"/>
+    <moqui.basic.LocalizedMessage original="Approve the reconciliation" locale="zh" localized="批准对账"/>
+    <moqui.basic.LocalizedMessage original="Approve the requested escalation (site owner)" locale="zh" localized="批准所请求的升级（站点所有者）"/>
+    <moqui.basic.LocalizedMessage original="Archive file in the import directory" locale="zh" localized="导入目录中的导入归档"/>
+    <moqui.basic.LocalizedMessage original="Archive or leave" locale="zh" localized="归档或离开"/>
+    <moqui.basic.LocalizedMessage original="Article access" locale="zh" localized="文章访问权限"/>
+    <moqui.basic.LocalizedMessage original="Article title" locale="zh" localized="文章标题"/>
+    <moqui.basic.LocalizedMessage original="Attach a file" locale="zh" localized="附加文件"/>
+    <moqui.basic.LocalizedMessage original="Attached image" locale="zh" localized="附件图片"/>
+    <moqui.basic.LocalizedMessage original="Audience generation from preview" locale="zh" localized="来自预览的受众代次"/>
+    <moqui.basic.LocalizedMessage original="Audience: ${audience}." locale="zh" localized="受众：${audience}。"/>
+    <moqui.basic.LocalizedMessage original="Authority text" locale="zh" localized="认证机构文本"/>
+    <moqui.basic.LocalizedMessage original="Bookmark" locale="zh" localized="书签"/>
+    <moqui.basic.LocalizedMessage original="Bookmark a post" locale="zh" localized="为帖子添加书签"/>
+    <moqui.basic.LocalizedMessage original="Bookmark revision" locale="zh" localized="书签修订"/>
+    <moqui.basic.LocalizedMessage original="Bookmarks" locale="zh" localized="书签"/>
+    <moqui.basic.LocalizedMessage original="Browser recovery storage is unavailable; save your draft before leaving." locale="zh" localized="浏览器恢复存储不可用；离开前请保存草稿。"/>
+    <moqui.basic.LocalizedMessage original="Browser recovery text" locale="zh" localized="浏览器恢复文本"/>
+    <moqui.basic.LocalizedMessage original="Cancel the import" locale="zh" localized="取消导入"/>
+    <moqui.basic.LocalizedMessage original="Category (empty for new)" locale="zh" localized="类别（新建时留空）"/>
+    <moqui.basic.LocalizedMessage original="Category (for a category grant)" locale="zh" localized="类别（用于类别授权）"/>
+    <moqui.basic.LocalizedMessage original="Category (optional)" locale="zh" localized="类别（可选）"/>
+    <moqui.basic.LocalizedMessage original="Category for new topics (empty: replies only)" locale="zh" localized="新话题的类别（留空：仅回复）"/>
+    <moqui.basic.LocalizedMessage original="Category notifications" locale="zh" localized="类别通知"/>
+    <moqui.basic.LocalizedMessage original="Category revision" locale="zh" localized="类别修订"/>
+    <moqui.basic.LocalizedMessage original="Category role" locale="zh" localized="类别角色"/>
+    <moqui.basic.LocalizedMessage original="CategoryDetail" locale="zh" localized="类别详情"/>
+    <moqui.basic.LocalizedMessage original="CategorySettings" locale="zh" localized="类别设置"/>
+    <moqui.basic.LocalizedMessage original="Censored display" locale="zh" localized="屏蔽后的显示"/>
+    <moqui.basic.LocalizedMessage original="Change category membership or role" locale="zh" localized="更改类别成员资格或角色"/>
+    <moqui.basic.LocalizedMessage original="Change membership" locale="zh" localized="更改成员资格"/>
+    <moqui.basic.LocalizedMessage original="Change participants" locale="zh" localized="更改参与者"/>
+    <moqui.basic.LocalizedMessage original="Choices a voter may pick" locale="zh" localized="投票人可选的选项数"/>
+    <moqui.basic.LocalizedMessage original="Choices, one per line" locale="zh" localized="选项，每行一个"/>
+    <moqui.basic.LocalizedMessage original="Choose a category" locale="zh" localized="请选择类别"/>
+    <moqui.basic.LocalizedMessage original="Choose up to ${count}" locale="zh" localized="最多选择 ${count} 项"/>
+    <moqui.basic.LocalizedMessage original="Claim review" locale="zh" localized="认领审核"/>
+    <moqui.basic.LocalizedMessage original="Closes at" locale="zh" localized="结束时间"/>
+    <moqui.basic.LocalizedMessage original="Community member" locale="zh" localized="社区成员"/>
+    <moqui.basic.LocalizedMessage original="Compare saved drafts" locale="zh" localized="比较已保存的草稿"/>
+    <moqui.basic.LocalizedMessage original="Compare the authority and browser versions before saving." locale="zh" localized="保存前请比较认证机构版本与浏览器版本。"/>
+    <moqui.basic.LocalizedMessage original="Confirm publication" locale="zh" localized="确认发布"/>
+    <moqui.basic.LocalizedMessage original="Confirmed provider outcome" locale="zh" localized="已确认的提供方结果"/>
+    <moqui.basic.LocalizedMessage original="Continue with browser text" locale="zh" localized="继续使用浏览器文本"/>
+    <moqui.basic.LocalizedMessage original="Conversation revision" locale="zh" localized="对话修订"/>
+    <moqui.basic.LocalizedMessage original="Create invitation" locale="zh" localized="创建邀请"/>
+    <moqui.basic.LocalizedMessage original="Current revision" locale="zh" localized="当前修订"/>
+    <moqui.basic.LocalizedMessage original="Current topic revision" locale="zh" localized="话题的当前修订"/>
+    <moqui.basic.LocalizedMessage original="Decide an erasure request" locale="zh" localized="决定删除请求"/>
+    <moqui.basic.LocalizedMessage original="Decide selected reviews" locale="zh" localized="决定所选审核"/>
+    <moqui.basic.LocalizedMessage original="Decision about" locale="zh" localized="决定对象"/>
+    <moqui.basic.LocalizedMessage original="Decision reason" locale="zh" localized="决定原因"/>
+    <moqui.basic.LocalizedMessage original="Delete a post" locale="zh" localized="删除帖子"/>
+    <moqui.basic.LocalizedMessage original="Delivery ledger: days to keep (0 keeps)" locale="zh" localized="投递记录：保留天数（0 表示保留）"/>
+    <moqui.basic.LocalizedMessage original="Delivery revision" locale="zh" localized="投递修订"/>
+    <moqui.basic.LocalizedMessage original="Destination category" locale="zh" localized="目标类别"/>
+    <moqui.basic.LocalizedMessage original="Destination topic" locale="zh" localized="目标话题"/>
+    <moqui.basic.LocalizedMessage original="Detach a linked discussion" locale="zh" localized="解除已关联的讨论"/>
+    <moqui.basic.LocalizedMessage original="Discard draft" locale="zh" localized="丢弃草稿"/>
+    <moqui.basic.LocalizedMessage original="Discard recovery copy" locale="zh" localized="丢弃恢复副本"/>
+    <moqui.basic.LocalizedMessage original="Discard the browser recovery copy?" locale="zh" localized="丢弃浏览器恢复副本？"/>
+    <moqui.basic.LocalizedMessage original="Discussion style" locale="zh" localized="讨论样式"/>
+    <moqui.basic.LocalizedMessage original="Draft an article from this topic" locale="zh" localized="根据此话题起草文章"/>
+    <moqui.basic.LocalizedMessage original="Draft changed in another tab. Reload and compare; your recovery copy is retained." locale="zh" localized="草稿已在另一个标签页中更改。请重新加载并比较；已保留您的恢复副本。"/>
+    <moqui.basic.LocalizedMessage original="Draft saved." locale="zh" localized="草稿已保存。"/>
+    <moqui.basic.LocalizedMessage original="Earlier versions are" locale="zh" localized="较早版本为"/>
+    <moqui.basic.LocalizedMessage original="Edit bookmark" locale="zh" localized="编辑书签"/>
+    <moqui.basic.LocalizedMessage original="Edit reason" locale="zh" localized="编辑原因"/>
+    <moqui.basic.LocalizedMessage original="End a manual grant" locale="zh" localized="结束手动授权"/>
+    <moqui.basic.LocalizedMessage original="End sanction" locale="zh" localized="结束处罚"/>
+    <moqui.basic.LocalizedMessage original="Enhanced reading is unavailable. The server-rendered posts remain below." locale="zh" localized="增强阅读不可用。服务器呈现的帖子仍显示在下方。"/>
+    <moqui.basic.LocalizedMessage original="Escalate to a support case" locale="zh" localized="升级为支持案例"/>
+    <moqui.basic.LocalizedMessage original="Every selected item gets the same decision; each one is checked and recorded on its own." locale="zh" localized="每个选定项使用相同的决定；每一项单独检查并记录。"/>
+    <moqui.basic.LocalizedMessage original="EveryPost" locale="zh" localized="每篇帖子"/>
+    <moqui.basic.LocalizedMessage original="Evidence and reason" locale="zh" localized="证据和原因"/>
+    <moqui.basic.LocalizedMessage original="Existing party (to map an identity)" locale="zh" localized="现有参与方（用于映射身份）"/>
+    <moqui.basic.LocalizedMessage original="Expired invitations: days to keep (0 keeps)" locale="zh" localized="已过期的邀请：保留天数（0 表示保留）"/>
+    <moqui.basic.LocalizedMessage original="Expires at" locale="zh" localized="到期时间"/>
+    <moqui.basic.LocalizedMessage original="Export a report as CSV" locale="zh" localized="将报表导出为 CSV"/>
+    <moqui.basic.LocalizedMessage original="Finished operation runs: days to keep (0 keeps)" locale="zh" localized="已完成的操作运行：保留天数（0 表示保留）"/>
+    <moqui.basic.LocalizedMessage original="Forum" locale="zh" localized="论坛"/>
+    <moqui.basic.LocalizedMessage original="From (optional)" locale="zh" localized="起始（可选）"/>
+    <moqui.basic.LocalizedMessage original="Grant access" locale="zh" localized="授予访问权限"/>
+    <moqui.basic.LocalizedMessage original="Grant revision" locale="zh" localized="授权修订"/>
+    <moqui.basic.LocalizedMessage original="Grant sources that qualify (manual, subscription)" locale="zh" localized="符合条件的授权来源（手动、订阅）"/>
+    <moqui.basic.LocalizedMessage original="Granted category members" locale="zh" localized="已授权的类别成员"/>
+    <moqui.basic.LocalizedMessage original="Guidelines" locale="zh" localized="准则"/>
+    <moqui.basic.LocalizedMessage original="Held as possible spam; not delivered" locale="zh" localized="因疑似垃圾信息而暂扣，尚未投递"/>
+    <moqui.basic.LocalizedMessage original="Hidden from readers" locale="zh" localized="对读者隐藏"/>
+    <moqui.basic.LocalizedMessage original="Hide the earlier versions of this post from readers" locale="zh" localized="对读者隐藏此帖子的较早版本"/>
+    <moqui.basic.LocalizedMessage original="I have reviewed the audience" locale="zh" localized="我已核对受众"/>
+    <moqui.basic.LocalizedMessage original="I have reviewed the mailbox audience" locale="zh" localized="我已核对邮箱受众"/>
+    <moqui.basic.LocalizedMessage original="I have reviewed the parent audience change" locale="zh" localized="我已核对上级受众变更"/>
+    <moqui.basic.LocalizedMessage original="I reviewed the category audience" locale="zh" localized="我已核对类别受众"/>
+    <moqui.basic.LocalizedMessage original="I reviewed the destination audience" locale="zh" localized="我已核对目标受众"/>
+    <moqui.basic.LocalizedMessage original="Inbound mail receipts: days to keep (0 keeps)" locale="zh" localized="入站邮件回执：保留天数（0 表示保留）"/>
+    <moqui.basic.LocalizedMessage original="Inbound message" locale="zh" localized="入站消息"/>
+    <moqui.basic.LocalizedMessage original="Join category" locale="zh" localized="加入类别"/>
+    <moqui.basic.LocalizedMessage original="Keep authority text" locale="zh" localized="保留认证机构文本"/>
+    <moqui.basic.LocalizedMessage original="Leave category" locale="zh" localized="离开类别"/>
+    <moqui.basic.LocalizedMessage original="Limit to categories (comma separated)" locale="zh" localized="限于类别（以逗号分隔）"/>
+    <moqui.basic.LocalizedMessage original="Link a product or article" locale="zh" localized="关联产品或文章"/>
+    <moqui.basic.LocalizedMessage original="ListModerator" locale="zh" localized="列表版主"/>
+    <moqui.basic.LocalizedMessage original="ListOwner" locale="zh" localized="列表所有者"/>
+    <moqui.basic.LocalizedMessage original="Loading composer…" locale="zh" localized="正在加载撰写页…"/>
+    <moqui.basic.LocalizedMessage original="Lock this level" locale="zh" localized="锁定此级别"/>
+    <moqui.basic.LocalizedMessage original="Mail to these routes is not read yet." locale="zh" localized="这些路线的邮件尚未读取。"/>
+    <moqui.basic.LocalizedMessage original="Make owners (handles)" locale="zh" localized="设为所有者（账号名）"/>
+    <moqui.basic.LocalizedMessage original="Media: files per post" locale="zh" localized="媒体：每篇帖子的文件数"/>
+    <moqui.basic.LocalizedMessage original="Media: maximum bytes per file" locale="zh" localized="媒体：每个文件的最大字节数"/>
+    <moqui.basic.LocalizedMessage original="Member handle" locale="zh" localized="成员账号名"/>
+    <moqui.basic.LocalizedMessage original="Member state revision" locale="zh" localized="成员状态修订"/>
+    <moqui.basic.LocalizedMessage original="MemberModeration" locale="zh" localized="成员审核"/>
+    <moqui.basic.LocalizedMessage original="Membership revision (zero for a new member)" locale="zh" localized="成员资格修订（新成员为 0）"/>
+    <moqui.basic.LocalizedMessage original="Merge into" locale="zh" localized="合并到"/>
+    <moqui.basic.LocalizedMessage original="Merge tags" locale="zh" localized="合并标签"/>
+    <moqui.basic.LocalizedMessage original="Message (Markdown)" locale="zh" localized="消息（Markdown）"/>
+    <moqui.basic.LocalizedMessage original="Moderate topic" locale="zh" localized="审核话题"/>
+    <moqui.basic.LocalizedMessage original="Moderation: reports that hide a post" locale="zh" localized="审核：隐藏帖子的举报数"/>
+    <moqui.basic.LocalizedMessage original="Moderation: send posts to the approved classifier" locale="zh" localized="审核：将帖子送入已批准的分类器"/>
+    <moqui.basic.LocalizedMessage original="Muted" locale="zh" localized="已静音"/>
+    <moqui.basic.LocalizedMessage original="New participants will see the whole conversation" locale="zh" localized="新参与者将看到整个对话"/>
+    <moqui.basic.LocalizedMessage original="New private message" locale="zh" localized="新建私信"/>
+    <moqui.basic.LocalizedMessage original="Note for the reviewer" locale="zh" localized="给审核人的备注"/>
+    <moqui.basic.LocalizedMessage original="Only in category (optional)" locale="zh" localized="仅限类别（可选）"/>
+    <moqui.basic.LocalizedMessage original="Opening the post…" locale="zh" localized="正在打开帖子…"/>
+    <moqui.basic.LocalizedMessage original="Parent category" locale="zh" localized="上级类别"/>
+    <moqui.basic.LocalizedMessage original="Participants in their own discussion" locale="zh" localized="本讨论的参与者"/>
+    <moqui.basic.LocalizedMessage original="Policy revision" locale="zh" localized="策略修订"/>
+    <moqui.basic.LocalizedMessage original="Post (wiki, delete or restore)" locale="zh" localized="帖子（维基、删除或恢复）"/>
+    <moqui.basic.LocalizedMessage original="Post actions" locale="zh" localized="帖子操作"/>
+    <moqui.basic.LocalizedMessage original="Post history" locale="zh" localized="帖子历史"/>
+    <moqui.basic.LocalizedMessage original="Post my message" locale="zh" localized="发布我的消息"/>
+    <moqui.basic.LocalizedMessage original="Post revision" locale="zh" localized="帖子修订"/>
+    <moqui.basic.LocalizedMessage original="Posting is currently unavailable here. Your draft can still be saved." locale="zh" localized="此处暂时无法发布。您仍可保存草稿。"/>
+    <moqui.basic.LocalizedMessage original="Posting: author edit window in hours" locale="zh" localized="发帖：作者编辑窗口小时数"/>
+    <moqui.basic.LocalizedMessage original="Posting: contributions requiring approval" locale="zh" localized="发帖：需要批准的贡献数"/>
+    <moqui.basic.LocalizedMessage original="Posting: default slow mode seconds" locale="zh" localized="发帖：慢速模式的默认秒数"/>
+    <moqui.basic.LocalizedMessage original="Posting: maximum post length" locale="zh" localized="发帖：帖子最大长度"/>
+    <moqui.basic.LocalizedMessage original="Posting: minimum seconds between posts" locale="zh" localized="发帖：两次发帖之间的最少秒数"/>
+    <moqui.basic.LocalizedMessage original="Posts to copy into the case (comma separated)" locale="zh" localized="要复制到案例中的帖子（以逗号分隔）"/>
+    <moqui.basic.LocalizedMessage original="Posts to include (comma separated)" locale="zh" localized="要包含的帖子（以逗号分隔）"/>
+    <moqui.basic.LocalizedMessage original="Preference revision" locale="zh" localized="偏好修订"/>
+    <moqui.basic.LocalizedMessage original="Preview a move, split or merge" locale="zh" localized="预览移动、拆分或合并"/>
+    <moqui.basic.LocalizedMessage original="Preview a public reply from a case" locale="zh" localized="预览来自案例的公开回复"/>
+    <moqui.basic.LocalizedMessage original="Preview an operation" locale="zh" localized="预览操作"/>
+    <moqui.basic.LocalizedMessage original="Preview publication" locale="zh" localized="预览发布"/>
+    <moqui.basic.LocalizedMessage original="Private context escalation" locale="zh" localized="私密上下文升级"/>
+    <moqui.basic.LocalizedMessage original="Private messages: allow full message email" locale="zh" localized="私信：允许发送完整消息邮件"/>
+    <moqui.basic.LocalizedMessage original="Private messages: members may start conversations" locale="zh" localized="私信：成员可以发起对话"/>
+    <moqui.basic.LocalizedMessage original="Private messages: minimum trust to start" locale="zh" localized="私信：发起所需的最低信任"/>
+    <moqui.basic.LocalizedMessage original="Private messages: recipients per conversation" locale="zh" localized="私信：每个对话的收件人数"/>
+    <moqui.basic.LocalizedMessage original="Private messages: replies continue when starting is off" locale="zh" localized="私信：关闭发起后仍可回复"/>
+    <moqui.basic.LocalizedMessage original="Product or wiki page" locale="zh" localized="产品或维基页面"/>
+    <moqui.basic.LocalizedMessage original="Published." locale="zh" localized="已发布。"/>
+    <moqui.basic.LocalizedMessage original="Publishing is available once every attachment has passed scanning. Remove any that did not." locale="zh" localized="每个附件都通过扫描后即可发布。请移除未通过的附件。"/>
+    <moqui.basic.LocalizedMessage original="Reactions" locale="zh" localized="反应"/>
+    <moqui.basic.LocalizedMessage original="Reading position will retry when the connection returns." locale="zh" localized="连接恢复后将重试阅读位置。"/>
+    <moqui.basic.LocalizedMessage original="Ready to continue editing." locale="zh" localized="可以继续编辑。"/>
+    <moqui.basic.LocalizedMessage original="Reason for this revision" locale="zh" localized="此次修订的原因"/>
+    <moqui.basic.LocalizedMessage original="Reconcile a failed or uncertain delivery" locale="zh" localized="核对失败或不确定的投递"/>
+    <moqui.basic.LocalizedMessage original="Reconciliation revision" locale="zh" localized="对账修订"/>
+    <moqui.basic.LocalizedMessage original="Record a decision" locale="zh" localized="记录决定"/>
+    <moqui.basic.LocalizedMessage original="Recover a checkpointed job" locale="zh" localized="恢复已设检查点的作业"/>
+    <moqui.basic.LocalizedMessage original="Recovered your unsent draft." locale="zh" localized="已恢复您未发送的草稿。"/>
+    <moqui.basic.LocalizedMessage original="Recovery copy discarded." locale="zh" localized="已丢弃恢复副本。"/>
+    <moqui.basic.LocalizedMessage original="Register an archive (operator)" locale="zh" localized="登记导入归档（操作员）"/>
+    <moqui.basic.LocalizedMessage original="Registered sender" locale="zh" localized="已登记的发件人"/>
+    <moqui.basic.LocalizedMessage original="Registered template" locale="zh" localized="已登记的模板"/>
+    <moqui.basic.LocalizedMessage original="Release the message" locale="zh" localized="发放消息"/>
+    <moqui.basic.LocalizedMessage original="Remind me at" locale="zh" localized="提醒时间"/>
+    <moqui.basic.LocalizedMessage original="Remove bookmark" locale="zh" localized="移除书签"/>
+    <moqui.basic.LocalizedMessage original="Remove members (handles)" locale="zh" localized="移除成员（账号名）"/>
+    <moqui.basic.LocalizedMessage original="Report a post" locale="zh" localized="举报帖子"/>
+    <moqui.basic.LocalizedMessage original="Request revision" locale="zh" localized="请求修订"/>
+    <moqui.basic.LocalizedMessage original="Restore this revision" locale="zh" localized="恢复此修订"/>
+    <moqui.basic.LocalizedMessage original="Restricted audience" locale="zh" localized="受限受众"/>
+    <moqui.basic.LocalizedMessage original="Retention dry run" locale="zh" localized="保留策略试运行"/>
+    <moqui.basic.LocalizedMessage original="Retention policy revision from the preview" locale="zh" localized="来自预览的保留策略修订"/>
+    <moqui.basic.LocalizedMessage original="Retention revision" locale="zh" localized="保留修订"/>
+    <moqui.basic.LocalizedMessage original="Retry a failed inbound message" locale="zh" localized="重试失败的入站消息"/>
+    <moqui.basic.LocalizedMessage original="Return to policies" locale="zh" localized="返回策略"/>
+    <moqui.basic.LocalizedMessage original="Review revision" locale="zh" localized="审核修订"/>
+    <moqui.basic.LocalizedMessage original="ReviewDetail" locale="zh" localized="审核详情"/>
+    <moqui.basic.LocalizedMessage original="Reviewer username" locale="zh" localized="审核人用户名"/>
+    <moqui.basic.LocalizedMessage original="ReviewQueue" locale="zh" localized="审核队列"/>
+    <moqui.basic.LocalizedMessage original="Revision to restore" locale="zh" localized="要恢复的修订"/>
+    <moqui.basic.LocalizedMessage original="Route (empty for new)" locale="zh" localized="路线（新建时留空）"/>
+    <moqui.basic.LocalizedMessage original="Route address (registered domain)" locale="zh" localized="路线地址（已登记的域名）"/>
+    <moqui.basic.LocalizedMessage original="Route revision" locale="zh" localized="路线修订"/>
+    <moqui.basic.LocalizedMessage original="Rule (empty for new)" locale="zh" localized="规则（新建时留空）"/>
+    <moqui.basic.LocalizedMessage original="Rule revision" locale="zh" localized="规则修订"/>
+    <moqui.basic.LocalizedMessage original="Rule test" locale="zh" localized="规则测试"/>
+    <moqui.basic.LocalizedMessage original="Run the import" locale="zh" localized="运行导入"/>
+    <moqui.basic.LocalizedMessage original="Sample text" locale="zh" localized="示例文本"/>
+    <moqui.basic.LocalizedMessage original="Sanction" locale="zh" localized="处罚"/>
+    <moqui.basic.LocalizedMessage original="Sanction revision" locale="zh" localized="处罚修订"/>
+    <moqui.basic.LocalizedMessage original="Save an inbound route" locale="zh" localized="保存入站路线"/>
+    <moqui.basic.LocalizedMessage original="Save content rule" locale="zh" localized="保存内容规则"/>
+    <moqui.basic.LocalizedMessage original="Save forum policy" locale="zh" localized="保存论坛策略"/>
+    <moqui.basic.LocalizedMessage original="Save outbound mail" locale="zh" localized="保存出站邮件"/>
+    <moqui.basic.LocalizedMessage original="Save retention periods" locale="zh" localized="保存保留期限"/>
+    <moqui.basic.LocalizedMessage original="Save tag" locale="zh" localized="保存标签"/>
+    <moqui.basic.LocalizedMessage original="Selected posts (comma separated)" locale="zh" localized="选定的帖子（以逗号分隔）"/>
+    <moqui.basic.LocalizedMessage original="Send a route test to my own address" locale="zh" localized="向我自己的地址发送路线测试"/>
+    <moqui.basic.LocalizedMessage original="Sender name" locale="zh" localized="发件人名称"/>
+    <moqui.basic.LocalizedMessage original="Set or lock trust level" locale="zh" localized="设置或锁定信任级别"/>
+    <moqui.basic.LocalizedMessage original="SHA-256 checksum" locale="zh" localized="SHA-256 校验和"/>
+    <moqui.basic.LocalizedMessage original="Show results" locale="zh" localized="显示结果"/>
+    <moqui.basic.LocalizedMessage original="Show the message" locale="zh" localized="显示消息"/>
+    <moqui.basic.LocalizedMessage original="Show who voted for each choice" locale="zh" localized="显示每个选项的投票人"/>
+    <moqui.basic.LocalizedMessage original="Shown to readers" locale="zh" localized="对读者可见"/>
+    <moqui.basic.LocalizedMessage original="Sign in to contribute." locale="zh" localized="请登录后再参与。"/>
+    <moqui.basic.LocalizedMessage original="Sign in with the account whose confirmed address sent the message, or confirm that address in your account's settings." locale="zh" localized="请使用已确认地址曾发送该消息的账号登录，或在账号设置中确认该地址。"/>
+    <moqui.basic.LocalizedMessage original="Slow mode seconds (0 ends it)" locale="zh" localized="慢速模式秒数（0 表示结束）"/>
+    <moqui.basic.LocalizedMessage original="Source community name" locale="zh" localized="源社区名称"/>
+    <moqui.basic.LocalizedMessage original="Source id (table:id for a change)" locale="zh" localized="源 id（变更时为 table:id）"/>
+    <moqui.basic.LocalizedMessage original="Stage and preflight the archive" locale="zh" localized="暂存并预检导入归档"/>
+    <moqui.basic.LocalizedMessage original="Start an operation" locale="zh" localized="启动操作"/>
+    <moqui.basic.LocalizedMessage original="Submitted for review." locale="zh" localized="已提交审核。"/>
+    <moqui.basic.LocalizedMessage original="Support queue (optional)" locale="zh" localized="支持队列（可选）"/>
+    <moqui.basic.LocalizedMessage original="Tag (empty for new)" locale="zh" localized="标签（新建时留空）"/>
+    <moqui.basic.LocalizedMessage original="Tag revision" locale="zh" localized="标签修订"/>
+    <moqui.basic.LocalizedMessage original="Tag to merge" locale="zh" localized="要合并的标签"/>
+    <moqui.basic.LocalizedMessage original="Tags (comma separated, up to five)" locale="zh" localized="标签（以逗号分隔，最多五个）"/>
+    <moqui.basic.LocalizedMessage original="Target backup reference" locale="zh" localized="目标备份参考"/>
+    <moqui.basic.LocalizedMessage original="Test a rule" locale="zh" localized="测试规则"/>
+    <moqui.basic.LocalizedMessage original="Text of deleted and rejected posts: days to keep (0 keeps)" locale="zh" localized="已删除和已拒绝帖子的文本：保留天数（0 表示保留）"/>
+    <moqui.basic.LocalizedMessage original="The authority is unavailable. Saved browser drafts remain on this device." locale="zh" localized="认证机构不可用。保存在浏览器中的草稿仍留在此设备上。"/>
+    <moqui.basic.LocalizedMessage original="The browser copy was written as rich text and this post is Markdown now: the authority text is kept." locale="zh" localized="浏览器副本是富文本，而此帖子现在是 Markdown：保留认证机构文本。"/>
+    <moqui.basic.LocalizedMessage original="The message could not be posted now. Try again later." locale="zh" localized="现在无法发布该消息。请稍后再试。"/>
+    <moqui.basic.LocalizedMessage original="The message was not released. Try again." locale="zh" localized="消息未发放。请重试。"/>
+    <moqui.basic.LocalizedMessage original="The rule does not match this text." locale="zh" localized="规则与此文本不匹配。"/>
+    <moqui.basic.LocalizedMessage original="The rule matches this text." locale="zh" localized="规则与此文本匹配。"/>
+    <moqui.basic.LocalizedMessage original="The server's operator has named no forum inbound mail account (mantle@forum-inbound-accounts), so a route saved here takes no mail until one is named." locale="zh" localized="服务器操作员尚未指定论坛入站邮件账号（mantle@forum-inbound-accounts），因此在指定之前，此处保存的路线不会接收邮件。"/>
+    <moqui.basic.LocalizedMessage original="The source community is frozen" locale="zh" localized="源社区已冻结"/>
+    <moqui.basic.LocalizedMessage original="This link was used already or has expired. A held message is kept for 30 days; send it again from your account's address." locale="zh" localized="此链接已使用或已过期。暂扣消息保留 30 天；请从您账号的地址重新发送。"/>
+    <moqui.basic.LocalizedMessage original="This message is held as possible spam, and its text is hidden." locale="zh" localized="此消息因疑似垃圾信息而暂扣，其文本已隐藏。"/>
+    <moqui.basic.LocalizedMessage original="Timer action" locale="zh" localized="定时操作"/>
+    <moqui.basic.LocalizedMessage original="Timer due at" locale="zh" localized="定时到期时间"/>
+    <moqui.basic.LocalizedMessage original="To (member handles, comma separated)" locale="zh" localized="收件人（成员账号名，以逗号分隔）"/>
+    <moqui.basic.LocalizedMessage original="Topic notifications" locale="zh" localized="话题通知"/>
+    <moqui.basic.LocalizedMessage original="Topic posts" locale="zh" localized="话题帖子"/>
+    <moqui.basic.LocalizedMessage original="Topic revision" locale="zh" localized="话题修订"/>
+    <moqui.basic.LocalizedMessage original="Topic unavailable" locale="zh" localized="话题不可用"/>
+    <moqui.basic.LocalizedMessage original="TopicDetail" locale="zh" localized="话题详情"/>
+    <moqui.basic.LocalizedMessage original="Trust (basic): posts read" locale="zh" localized="信任（基础）：已读帖子数"/>
+    <moqui.basic.LocalizedMessage original="Trust (basic): reading minutes" locale="zh" localized="信任（基础）：阅读分钟数"/>
+    <moqui.basic.LocalizedMessage original="Trust (basic): topics entered" locale="zh" localized="信任（基础）：已进入的话题数"/>
+    <moqui.basic.LocalizedMessage original="Trust (basic): visiting days" locale="zh" localized="信任（基础）：访问天数"/>
+    <moqui.basic.LocalizedMessage original="Trust (member): posts read" locale="zh" localized="信任（成员）：已读帖子数"/>
+    <moqui.basic.LocalizedMessage original="Trust (member): reading minutes" locale="zh" localized="信任（成员）：阅读分钟数"/>
+    <moqui.basic.LocalizedMessage original="Trust (member): topics entered" locale="zh" localized="信任（成员）：已进入的话题数"/>
+    <moqui.basic.LocalizedMessage original="Trust (member): visiting days" locale="zh" localized="信任（成员）：访问天数"/>
+    <moqui.basic.LocalizedMessage original="Trust (regular): approved contributions" locale="zh" localized="信任（常规）：已批准的贡献数"/>
+    <moqui.basic.LocalizedMessage original="Trust (regular): posts read" locale="zh" localized="信任（常规）：已读帖子数"/>
+    <moqui.basic.LocalizedMessage original="Trust (regular): topics entered" locale="zh" localized="信任（常规）：已进入的话题数"/>
+    <moqui.basic.LocalizedMessage original="Trust (regular): visiting days" locale="zh" localized="信任（常规）：访问天数"/>
+    <moqui.basic.LocalizedMessage original="Trust level" locale="zh" localized="信任级别"/>
+    <moqui.basic.LocalizedMessage original="Trust: days without sanctions before promotion" locale="zh" localized="信任：升级前无处罚的天数"/>
+    <moqui.basic.LocalizedMessage original="Unable to save. Your recovery copy is retained." locale="zh" localized="无法保存。已保留您的恢复副本。"/>
+    <moqui.basic.LocalizedMessage original="Upload failed or media is unavailable." locale="zh" localized="上传失败或媒体不可用。"/>
+    <moqui.basic.LocalizedMessage original="URL label" locale="zh" localized="URL 标签"/>
+    <moqui.basic.LocalizedMessage original="Verified recipient email" locale="zh" localized="已验证的收件人电子邮件"/>
+    <moqui.basic.LocalizedMessage original="Voters may change their vote" locale="zh" localized="投票人可以更改投票"/>
+    <moqui.basic.LocalizedMessage original="WatchingFirstPost" locale="zh" localized="关注首帖"/>
+    <moqui.basic.LocalizedMessage original="When the poll closes" locale="zh" localized="投票结束时"/>
+    <moqui.basic.LocalizedMessage original="Wiki mode on" locale="zh" localized="开启维基模式"/>
+    <moqui.basic.LocalizedMessage original="Word, pattern or link domain" locale="zh" localized="词语、模式或链接域名"/>
+    <moqui.basic.LocalizedMessage original="Write your message" locale="zh" localized="请写下消息"/>
+    <moqui.basic.LocalizedMessage original="Your access changed. Sign in or return to the topic list." locale="zh" localized="您的访问权限已更改。请登录或返回话题列表。"/>
+    <moqui.basic.LocalizedMessage original="Your message is posted to the list as your account. The address you sent it from must be this account's confirmed address." locale="zh" localized="您的消息将以您的账号发布到列表。发送时使用的地址必须是此账号的已确认地址。"/>
+    <moqui.basic.LocalizedMessage original="Your message to the list" locale="zh" localized="您发给列表的消息"/>
+    <moqui.basic.LocalizedMessage original="Your message was not posted, because every post needs an account with a confirmed address. It is kept for you. Sign in with the address you sent it from and come back to this link." locale="zh" localized="您的消息未发布，因为每篇帖子都需要一个已确认地址的账号。系统已为您保留。请使用发送时的地址登录，然后返回此链接。"/>
+    <moqui.basic.LocalizedMessage original="Your message was not posted, because every post needs an account with a confirmed address. It is kept for you. Sign in with the address you sent it from, or register with that address, and come back to this link." locale="zh" localized="您的消息未发布，因为每篇帖子都需要一个已确认地址的账号。系统已为您保留。请使用发送时的地址登录，或使用该地址注册，然后返回此链接。"/>
+    <moqui.basic.LocalizedMessage original="Your reaction was not saved. Try again." locale="zh" localized="反应未保存。请重试。"/>
+    <moqui.basic.LocalizedMessage original="Your vote was not recorded. Try again." locale="zh" localized="投票未记录。请重试。"/>
+    <moqui.basic.LocalizedMessage original="Your vote was recorded." locale="zh" localized="投票已记录。"/>
+</entity-facade-xml>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+
+<entity-facade-xml type="es">
+    <moqui.basic.LocalizedMessage original="${org} does not settle returns separately: its returns are received when the shipment is delivered, so there is no Receive here" locale="es" localized="${org} no liquida las devoluciones por separado: sus devoluciones se reciben cuando se entrega el envío, así que aquí no se puede recibir"/>
+    <moqui.basic.LocalizedMessage original="${org} does not settle returns separately: its returns are received when the shipment is delivered, so Warehouse does not receive this one" locale="es" localized="${org} no liquida las devoluciones por separado: sus devoluciones se reciben cuando se entrega el envío, así que Almacén no recibe esta devolución"/>
+    <moqui.basic.LocalizedMessage original="${picked.result.alreadyApplied ? 'Already picked' : 'Picked'} ${picked.result.quantity}
+                of ${picked.result.productId}; ${picked.result.remainingQuantity} left on the line" locale="es" localized="${picked.result.alreadyApplied ? 'Already picked' : 'Picked'} ${picked.result.quantity}
+                de ${picked.result.productId}; ${picked.result.remainingQuantity} restantes en la línea"/>
+    <moqui.basic.LocalizedMessage original="${received.result.alreadyApplied ? 'Already received' : 'Received'}
+                ${received.result.quantity} of ${received.result.productId} without an order
+                ${received.result.locationSeqId ? 'to ' + received.result.locationSeqId : ''}" locale="es" localized="${received.result.alreadyApplied ? 'Already received' : 'Received'}
+                ${received.result.quantity} de ${received.result.productId} sin una orden
+                ${received.result.locationSeqId ? 'to ' + received.result.locationSeqId : ''}"/>
+    <moqui.basic.LocalizedMessage original="${row.itemText}: no count planned" locale="es" localized="${row.itemText}: sin conteo planificado"/>
+    <moqui.basic.LocalizedMessage original="Address check" locale="es" localized="Comprobación de dirección"/>
+    <moqui.basic.LocalizedMessage original="Annual count" locale="es" localized="Conteo anual"/>
+    <moqui.basic.LocalizedMessage original="At or above minimum" locale="es" localized="En el mínimo o por encima"/>
+    <moqui.basic.LocalizedMessage original="Box type ${stored.shipmentBoxTypeId} saved" locale="es" localized="Tipo de caja ${stored.shipmentBoxTypeId} guardado"/>
+    <moqui.basic.LocalizedMessage original="Built-in default" locale="es" localized="Valor predeterminado integrado"/>
+    <moqui.basic.LocalizedMessage original="Choose a facility" locale="es" localized="Elija una instalación"/>
+    <moqui.basic.LocalizedMessage original="Choose a kind of label" locale="es" localized="Elija un tipo de etiqueta"/>
+    <moqui.basic.LocalizedMessage original="Choose the material work" locale="es" localized="Elija el trabajo de material"/>
+    <moqui.basic.LocalizedMessage original="Container move" locale="es" localized="Movimiento de contenedor"/>
+    <moqui.basic.LocalizedMessage original="Count ${created.physicalInventoryId} planned for
+                        ${row.itemText}" locale="es" localized="Conteo ${created.physicalInventoryId} planificado para
+                        ${row.itemText}"/>
+    <moqui.basic.LocalizedMessage original="Count every few days" locale="es" localized="Conteo cada pocos días"/>
+    <moqui.basic.LocalizedMessage original="Count requested" locale="es" localized="Conteo solicitado"/>
+    <moqui.basic.LocalizedMessage original="Count schedule saved" locale="es" localized="Programación de conteo guardada"/>
+    <moqui.basic.LocalizedMessage original="Counting needs the count, count review or adjust permission" locale="es" localized="Contar requiere el permiso de conteo, de revisión del conteo o de ajuste"/>
+    <moqui.basic.LocalizedMessage original="Depreciation at year start" locale="es" localized="Depreciación al inicio del año"/>
+    <moqui.basic.LocalizedMessage original="Depreciation method" locale="es" localized="Método de depreciación"/>
+    <moqui.basic.LocalizedMessage original="Every carrier" locale="es" localized="Todos los transportistas"/>
+    <moqui.basic.LocalizedMessage original="Every facility" locale="es" localized="Todas las instalaciones"/>
+    <moqui.basic.LocalizedMessage original="From customer" locale="es" localized="Del cliente"/>
+    <moqui.basic.LocalizedMessage original="Issue component" locale="es" localized="Entregar componente"/>
+    <moqui.basic.LocalizedMessage original="Issues and kit receipts" locale="es" localized="Entregas y recepciones de kit"/>
+    <moqui.basic.LocalizedMessage original="Kit received" locale="es" localized="Kit recibido"/>
+    <moqui.basic.LocalizedMessage original="Labels need the ship permission" locale="es" localized="Las etiquetas requieren el permiso de envío"/>
+    <moqui.basic.LocalizedMessage original="Left the facility" locale="es" localized="Salió de la instalación"/>
+    <moqui.basic.LocalizedMessage original="Location labels" locale="es" localized="Etiquetas de ubicación"/>
+    <moqui.basic.LocalizedMessage original="Lookup after a timeout" locale="es" localized="Búsqueda tras un tiempo de espera"/>
+    <moqui.basic.LocalizedMessage original="Lot ${lotValue}: ${received.result.alreadyApplied ? 'already received' :
+                        'received'} ${received.result.quantityAccepted}" locale="es" localized="Lote ${lotValue}: ${received.result.alreadyApplied ? 'already received' :
+                        'received'} ${received.result.quantityAccepted}"/>
+    <moqui.basic.LocalizedMessage original="Lot correction" locale="es" localized="Corrección de lote"/>
+    <moqui.basic.LocalizedMessage original="Lot labels" locale="es" localized="Etiquetas de lote"/>
+    <moqui.basic.LocalizedMessage original="Map point" locale="es" localized="Punto del mapa"/>
+    <moqui.basic.LocalizedMessage original="Moved ${containerId} with ${moved.result.assets.length} assets to ${toLocationSeqId}" locale="es" localized="Se movió ${containerId} con ${moved.result.assets.length} activos a ${toLocationSeqId}"/>
+    <moqui.basic.LocalizedMessage original="Needs carrier settings access, which an administrator can grant." locale="es" localized="Hace falta el acceso a la configuración del transportista, que un administrador puede conceder."/>
+    <moqui.basic.LocalizedMessage original="Needs facility editing access, which an administrator can grant." locale="es" localized="Hace falta el acceso de edición de instalaciones, que un administrador puede conceder."/>
+    <moqui.basic.LocalizedMessage original="Needs inventory counting access, which an administrator can grant." locale="es" localized="Hace falta el acceso de conteo de inventario, que un administrador puede conceder."/>
+    <moqui.basic.LocalizedMessage original="Needs inventory moves access, which an administrator can grant." locale="es" localized="Hace falta el acceso de movimientos de inventario, que un administrador puede conceder."/>
+    <moqui.basic.LocalizedMessage original="Needs receiving access, which an administrator can grant." locale="es" localized="Hace falta el acceso de recepción, que un administrador puede conceder."/>
+    <moqui.basic.LocalizedMessage original="Needs receiving or quality disposition access, which an administrator can grant." locale="es" localized="Hace falta el acceso de recepción o de disposición de calidad, que un administrador puede conceder."/>
+    <moqui.basic.LocalizedMessage original="Needs shipping and picking access, which an administrator can grant." locale="es" localized="Hace falta el acceso de envío y de surtido, que un administrador puede conceder."/>
+    <moqui.basic.LocalizedMessage original="Needs warehouse settings access, which an administrator can grant." locale="es" localized="Hace falta el acceso a la configuración del almacén, que un administrador puede conceder."/>
+    <moqui.basic.LocalizedMessage original="Never counted" locale="es" localized="Nunca contado"/>
+    <moqui.basic.LocalizedMessage original="No approved standard: output is received at the issued cost, provisional" locale="es" localized="Sin estándar aprobado: la salida se recibe al costo entregado, provisional"/>
+    <moqui.basic.LocalizedMessage original="No box type" locale="es" localized="Sin tipo de caja"/>
+    <moqui.basic.LocalizedMessage original="No event yet" locale="es" localized="Aún sin evento"/>
+    <moqui.basic.LocalizedMessage original="No gateway: local rules and tracking by hand" locale="es" localized="Sin pasarela: reglas locales y seguimiento manual"/>
+    <moqui.basic.LocalizedMessage original="No location fits" locale="es" localized="Ninguna ubicación es adecuada"/>
+    <moqui.basic.LocalizedMessage original="No longer qualifies" locale="es" localized="Ya no califica"/>
+    <moqui.basic.LocalizedMessage original="No minimum" locale="es" localized="Sin mínimo"/>
+    <moqui.basic.LocalizedMessage original="Not available, while other stock of the product is" locale="es" localized="No disponible, mientras hay otras existencias del producto"/>
+    <moqui.basic.LocalizedMessage original="Not chosen" locale="es" localized="No elegido"/>
+    <moqui.basic.LocalizedMessage original="Not posted yet" locale="es" localized="Aún no contabilizado"/>
+    <moqui.basic.LocalizedMessage original="Not reserved" locale="es" localized="Sin reservar"/>
+    <moqui.basic.LocalizedMessage original="Not settled: Accounting settles after inspection" locale="es" localized="No liquidado: Contabilidad liquida después de la inspección"/>
+    <moqui.basic.LocalizedMessage original="Not weighed" locale="es" localized="Sin pesar"/>
+    <moqui.basic.LocalizedMessage original="Nothing is issued to this kit yet." locale="es" localized="Aún no se ha entregado nada a este kit."/>
+    <moqui.basic.LocalizedMessage original="Nothing is issued to this run yet." locale="es" localized="Aún no se ha entregado nada a esta ejecución."/>
+    <moqui.basic.LocalizedMessage original="Order item ${row.orderId}:${row.orderItemSeqId}: not repaired, ${row.message}" locale="es" localized="Artículo de la orden ${row.orderId}:${row.orderItemSeqId}: no reparado, ${row.message}"/>
+    <moqui.basic.LocalizedMessage original="Output (provisional cost)" locale="es" localized="Salida (costo provisional)"/>
+    <moqui.basic.LocalizedMessage original="Over-receipt tolerance" locale="es" localized="Tolerancia de recepción en exceso"/>
+    <moqui.basic.LocalizedMessage original="Over-shipment tolerance" locale="es" localized="Tolerancia de envío en exceso"/>
+    <moqui.basic.LocalizedMessage original="Packing needs the pack permission" locale="es" localized="Empacar requiere el permiso de empaque"/>
+    <moqui.basic.LocalizedMessage original="Part short" locale="es" localized="Parcialmente en falta"/>
+    <moqui.basic.LocalizedMessage original="Pick-face moves need the pick, pick supervisor or move permission" locale="es" localized="Los movimientos de frente de surtido requieren el permiso de surtido, de supervisor de surtido o de movimiento"/>
+    <moqui.basic.LocalizedMessage original="Picking needs the pick, pick supervisor or move permission" locale="es" localized="Surtir requiere el permiso de surtido, de supervisor de surtido o de movimiento"/>
+    <moqui.basic.LocalizedMessage original="Posted issues and receipts" locale="es" localized="Entregas y recepciones contabilizadas"/>
+    <moqui.basic.LocalizedMessage original="Purchase receipt" locale="es" localized="Recepción de compra"/>
+    <moqui.basic.LocalizedMessage original="Put ${attached.result.quantity} of ${assetId} in ${containerId}" locale="es" localized="Se puso ${attached.result.quantity} de ${assetId} en ${containerId}"/>
+    <moqui.basic.LocalizedMessage original="Putaway: ${result.putawayExplanation}" locale="es" localized="Ubicar: ${result.putawayExplanation}"/>
+    <moqui.basic.LocalizedMessage original="Received to each product's location" locale="es" localized="Recibido en la ubicación de cada producto"/>
+    <moqui.basic.LocalizedMessage original="Repack into ${name} (${factor} each)" locale="es" localized="Reempacar en ${name} (${factor} cada uno)"/>
+    <moqui.basic.LocalizedMessage original="Repaired ${repaired.result.repairedCount} reservations" locale="es" localized="Se repararon ${repaired.result.repairedCount} reservas"/>
+    <moqui.basic.LocalizedMessage original="Return receipt" locale="es" localized="Recepción de devolución"/>
+    <moqui.basic.LocalizedMessage original="Selected stock or the whole facility" locale="es" localized="Las existencias seleccionadas o toda la instalación"/>
+    <moqui.basic.LocalizedMessage original="Serial labels" locale="es" localized="Etiquetas de serie"/>
+    <moqui.basic.LocalizedMessage original="Shipping needs the ship permission" locale="es" localized="Enviar requiere el permiso de envío"/>
+    <moqui.basic.LocalizedMessage original="Short pick recount" locale="es" localized="Reconteo de surtido incompleto"/>
+    <moqui.basic.LocalizedMessage original="Stock reached zero" locale="es" localized="Existencias en cero"/>
+    <moqui.basic.LocalizedMessage original="Stock set aside for parties and stores" locale="es" localized="Existencias apartadas para participantes y tiendas"/>
+    <moqui.basic.LocalizedMessage original="STOCK_RECEIVE is required" locale="es" localized="Se requiere STOCK_RECEIVE"/>
+    <moqui.basic.LocalizedMessage original="Subcontract dispatch" locale="es" localized="Despacho de subcontrato"/>
+    <moqui.basic.LocalizedMessage original="Taken out" locale="es" localized="Sacado"/>
+    <moqui.basic.LocalizedMessage original="Tax depreciation" locale="es" localized="Depreciación fiscal"/>
+    <moqui.basic.LocalizedMessage original="The count schedule is not available to you." locale="es" localized="La programación de conteo no está disponible para usted."/>
+    <moqui.basic.LocalizedMessage original="The facility's first location of that type" locale="es" localized="La primera ubicación de ese tipo en la instalación"/>
+    <moqui.basic.LocalizedMessage original="The order does not qualify for the stock's pool" locale="es" localized="La orden no califica para el fondo de las existencias"/>
+    <moqui.basic.LocalizedMessage original="The order ships from another facility" locale="es" localized="La orden se envía desde otra instalación"/>
+    <moqui.basic.LocalizedMessage original="The stock it is on is no longer available" locale="es" localized="Las existencias en que está ya no están disponibles"/>
+    <moqui.basic.LocalizedMessage original="This kind of material work is not available here" locale="es" localized="Este tipo de trabajo de material no está disponible aquí"/>
+    <moqui.basic.LocalizedMessage original="This organization does not settle returns separately: its returns are received when the shipment is delivered, so there is no Receive here" locale="es" localized="Esta organización no liquida las devoluciones por separado: sus devoluciones se reciben cuando se entrega el envío, así que aquí no se puede recibir"/>
+    <moqui.basic.LocalizedMessage original="This organization does not settle returns separately: its returns are received when the shipment is delivered, so Warehouse does not receive this one" locale="es" localized="Esta organización no liquida las devoluciones por separado: sus devoluciones se reciben cuando se entrega el envío, así que Almacén no recibe esta devolución"/>
+    <moqui.basic.LocalizedMessage original="This run has no material lines." locale="es" localized="Esta ejecución no tiene líneas de material."/>
+    <moqui.basic.LocalizedMessage original="This shipment has no kit to assemble." locale="es" localized="Este envío no tiene un kit para armar."/>
+    <moqui.basic.LocalizedMessage original="Three-step receipt needs a quarantine location at this facility." locale="es" localized="La recepción en tres pasos necesita una ubicación de cuarentena en esta instalación."/>
+    <moqui.basic.LocalizedMessage original="Took ${detached.result.quantity} of ${assetId} out of ${detached.result.containerId}" locale="es" localized="Se sacó ${detached.result.quantity} de ${assetId} de ${detached.result.containerId}"/>
+    <moqui.basic.LocalizedMessage original="Tracking by hand" locale="es" localized="Seguimiento manual"/>
+    <moqui.basic.LocalizedMessage original="Two-step delivery needs a staging location at this facility." locale="es" localized="La entrega en dos pasos necesita una ubicación temporal en esta instalación."/>
+    <moqui.basic.LocalizedMessage original="Two-step receipt needs a receiving location at this facility." locale="es" localized="La recepción en dos pasos necesita una ubicación de recepción en esta instalación."/>
+    <moqui.basic.LocalizedMessage original="Unit cost unavailable: the stock repacked has no cost" locale="es" localized="Costo unitario no disponible: las existencias reempacadas no tienen costo"/>
+    <moqui.basic.LocalizedMessage original="Unpack into ${name} (${factor} each)" locale="es" localized="Desempacar en ${name} (${factor} cada uno)"/>
+    <moqui.basic.LocalizedMessage original="Value unavailable: stock this changes has no cost" locale="es" localized="Valor no disponible: las existencias que esto cambia no tienen costo"/>
+    <moqui.basic.LocalizedMessage original="Waiting for pickup" locale="es" localized="En espera de recogida"/>
+    <moqui.basic.LocalizedMessage original="Warehouse context is not available" locale="es" localized="El contexto de almacén no está disponible"/>
+    <moqui.basic.LocalizedMessage original="Warehouse is not available" locale="es" localized="El almacén no está disponible"/>
+    <moqui.basic.LocalizedMessage original="Warehouse managers change it" locale="es" localized="Lo cambian los gerentes del almacén"/>
+    <moqui.basic.LocalizedMessage original="You belong to no organization with a warehouse policy." locale="es" localized="No pertenece a ninguna organización con una política de almacén."/>
+    <moqui.basic.LocalizedMessage original="You can change it" locale="es" localized="Puede cambiarlo"/>
+</entity-facade-xml>

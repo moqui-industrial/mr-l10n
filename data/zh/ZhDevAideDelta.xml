@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+
+<entity-facade-xml type="zh">
+    <moqui.basic.LocalizedMessage original="${change.path}${change.changedOnDisk ? ' (changed on disk since: Save will ask)' : ''}" locale="zh" localized="${change.path}${change.changedOnDisk ? '（自打开后已在磁盘上更改：保存时会询问）' : ''}"/>
+    <moqui.basic.LocalizedMessage original="${change.path}, staged against the disk" locale="zh" localized="${change.path}，相对磁盘已暂存"/>
+    <moqui.basic.LocalizedMessage original="${component}${site ? ' · site' : ''}" locale="zh" localized="${component}${site ? ' · 站点' : ''}"/>
+    <moqui.basic.LocalizedMessage original="${component}${upstream ? '' : ' · site'}" locale="zh" localized="${component}${upstream ? '' : ' · 站点'}"/>
+    <moqui.basic.LocalizedMessage original="${conflict.path} changed on disk since the edits started" locale="zh" localized="${conflict.path} 自开始编辑后已在磁盘上更改"/>
+    <moqui.basic.LocalizedMessage original="${dataCount} rows; the first ${dataRows.length}:" locale="zh" localized="${dataCount} 行；前 ${dataRows.length} 行："/>
+    <moqui.basic.LocalizedMessage original="${entityCount} entities${entityCount &gt; 500 ? ', the first 500 shown' : ''}" locale="zh" localized="${entityCount} 个实体${entityCount &gt; 500 ? '，仅显示前 500 个' : ''}"/>
+    <moqui.basic.LocalizedMessage original="${fileCount} data files${fileCount &gt; 1000 ? ', the first 1000 shown' : ''}" locale="zh" localized="${fileCount} 个数据文件${fileCount &gt; 1000 ? '，仅显示前 1000 个' : ''}"/>
+    <moqui.basic.LocalizedMessage original="${hitRows.length}${hitsTruncated ? '+' : ''} lines hold ${query}" locale="zh" localized="有 ${hitRows.length}${hitsTruncated ? '+' : ''} 行包含 ${query}"/>
+    <moqui.basic.LocalizedMessage original="${kind == 'git' ? 'git' : 'Not a git repository'}${upstream ? ' · upstream' : ' · site'}" locale="zh" localized="${kind == 'git' ? 'git' : '不是 git 代码库'}${upstream ? ' · 上游' : ' · 站点'}"/>
+    <moqui.basic.LocalizedMessage original="${kind}${replacedBy ? ' (replaced)' : ''}" locale="zh" localized="${kind}${replacedBy ? '（已替换）' : ''}"/>
+    <moqui.basic.LocalizedMessage original="${label} (${kind == 'git' ? 'git' : 'Not a git repository'}${upstream ? ', upstream' : ''})" locale="zh" localized="${label} (${kind == 'git' ? 'git' : '不是 git 代码库'}${upstream ? '，上游' : ''})"/>
+    <moqui.basic.LocalizedMessage original="${label}${upstream ? '' : ' (site)'}" locale="zh" localized="${label}${upstream ? '' : '（站点）'}"/>
+    <moqui.basic.LocalizedMessage original="${menuIndex == null ? '' : menuIndex}${menuInclude ? (menuIncludeWhen ? ' (when ' + menuIncludeWhen + ')' : '') : ' (hidden)'}${isDefault ? ' · default' : ''}" locale="zh" localized="${menuIndex == null ? '' : menuIndex}${menuInclude ? (menuIncludeWhen ? '（当 ' + menuIncludeWhen + '）' : '') : '（隐藏）'}${isDefault ? ' · 默认' : ''}"/>
+    <moqui.basic.LocalizedMessage original="${name}${resolved ? '' : ' (not found)'}" locale="zh" localized="${name}${resolved ? '' : '（未找到）'}"/>
+    <moqui.basic.LocalizedMessage original="${path} changed on disk since it was opened" locale="zh" localized="${path} 自打开后已在磁盘上更改"/>
+    <moqui.basic.LocalizedMessage original="${plan.addons.present ? 'Replace' : 'Add'} the repository ${plan.addons.repositoryName}${plan.addons.writable ? '' : ' (the full tier, not on a shared server)'}" locale="zh" localized="${plan.addons.present ? '替换' : '添加'}代码库 ${plan.addons.repositoryName}${plan.addons.writable ? '' : '（完整级别，不在共享服务器上）'}"/>
+    <moqui.basic.LocalizedMessage original="${plan.taskSource.present ? 'Keep' : 'Add'} the server's tasks as your task source" locale="zh" localized="${plan.taskSource.present ? '保留' : '添加'}该服务器的任务作为您的任务来源"/>
+    <moqui.basic.LocalizedMessage original="${repositories.length} roots${found.gitAvailable ? '' : ': no git on the server, so every root is shown as plain'}" locale="zh" localized="${repositories.length} 个根${found.gitAvailable ? '' : '：服务器上没有 git，因此每个根都按普通目录显示'}"/>
+    <moqui.basic.LocalizedMessage original="${root.label} is not a git repository." locale="zh" localized="${root.label} 不是 git 代码库。"/>
+    <moqui.basic.LocalizedMessage original="${ruleCount} active rules" locale="zh" localized="${ruleCount} 条有效规则"/>
+    <moqui.basic.LocalizedMessage original="${seedFile.path}${seedFile.missing ? ' (made on its first save)' : ''}${seedFile.staged ? ' · staged, loads after Save' : ''}" locale="zh" localized="${seedFile.path}${seedFile.missing ? '（首次保存时创建）' : ''}${seedFile.staged ? ' · 已暂存，保存后加载' : ''}"/>
+    <moqui.basic.LocalizedMessage original="${serviceCount} services${serviceCount &gt; 500 ? ', the first 500 shown' : ''}" locale="zh" localized="${serviceCount} 个服务${serviceCount &gt; 500 ? '，仅显示前 500 个' : ''}"/>
+    <moqui.basic.LocalizedMessage original="${staged == 'true' ? 'Staged changes' : 'Changes'} of ${changePath}" locale="zh" localized="${staged == 'true' ? '已暂存更改' : '更改'}，${changePath}"/>
+    <moqui.basic.LocalizedMessage original="A box" locale="zh" localized="一个框"/>
+    <moqui.basic.LocalizedMessage original="A change needs a rebuild (./moq build) and a restart" locale="zh" localized="有一处更改需要重新构建（./moq build）并重启"/>
+    <moqui.basic.LocalizedMessage original="A change needs a restart to apply" locale="zh" localized="有一处更改需要重启才能生效"/>
+    <moqui.basic.LocalizedMessage original="A field name" locale="zh" localized="一个字段名"/>
+    <moqui.basic.LocalizedMessage original="A field name is letters, digits and _" locale="zh" localized="字段名由字母、数字和 _ 组成"/>
+    <moqui.basic.LocalizedMessage original="A field needs a name" locale="zh" localized="字段需要一个名称"/>
+    <moqui.basic.LocalizedMessage original="A field needs a name: say what it holds" locale="zh" localized="字段需要一个名称：请说明它存放什么"/>
+    <moqui.basic.LocalizedMessage original="A file changed on disk since the edits started: compare them, then choose" locale="zh" localized="自开始编辑后，有文件已在磁盘上更改：请比较后再选择"/>
+    <moqui.basic.LocalizedMessage original="a file in the directory" locale="zh" localized="目录中的一个文件"/>
+    <moqui.basic.LocalizedMessage original="A list of related records" locale="zh" localized="相关记录的列表"/>
+    <moqui.basic.LocalizedMessage original="A new site component is made from Home. A component got or cloned is offered to Load now when it needs no restart; otherwise it loads after a restart." locale="zh" localized="新的站点组件从主页创建。获取或克隆的组件若不需要重启，会提供立即加载；否则在重启后加载。"/>
+    <moqui.basic.LocalizedMessage original="A parameter name is letters, digits and _" locale="zh" localized="参数名由字母、数字和 _ 组成"/>
+    <moqui.basic.LocalizedMessage original="A Picklist's relationship title" locale="zh" localized="选择列表的关系标题"/>
+    <moqui.basic.LocalizedMessage original="A Picklist's values or a Status's statuses, one a line" locale="zh" localized="选择列表的值，或某个状态类型下的状态，每行一个"/>
+    <moqui.basic.LocalizedMessage original="A Reference's entity" locale="zh" localized="引用所指向的实体"/>
+    <moqui.basic.LocalizedMessage original="A repository entry in ${plan.addons.file} for ${plan.addons.url}, so ./moq component-get takes components from the server" locale="zh" localized="${plan.addons.file} 中指向 ${plan.addons.url} 的代码库条目，以便 ./moq component-get 从该服务器获取组件"/>
+    <moqui.basic.LocalizedMessage original="A section name" locale="zh" localized="一个区段名"/>
+    <moqui.basic.LocalizedMessage original="A section name is letters, digits and _" locale="zh" localized="区段名由字母、数字和 _ 组成"/>
+    <moqui.basic.LocalizedMessage original="a subscreens-item" locale="zh" localized="一个 subscreens-item"/>
+    <moqui.basic.LocalizedMessage original="A transition name" locale="zh" localized="一个转换名"/>
+    <moqui.basic.LocalizedMessage original="A transition name is letters, digits and _" locale="zh" localized="转换名由字母、数字和 _ 组成"/>
+    <moqui.basic.LocalizedMessage original="A view entity has no table of its own." locale="zh" localized="视图实体没有自己的表。"/>
+    <moqui.basic.LocalizedMessage original="Actions after" locale="zh" localized="之后的操作"/>
+    <moqui.basic.LocalizedMessage original="Actions after is for an upstream screen in extension mode" locale="zh" localized="之后的操作仅用于上游屏幕的扩展模式"/>
+    <moqui.basic.LocalizedMessage original="Actions after the screen's" locale="zh" localized="屏幕操作之后的操作"/>
+    <moqui.basic.LocalizedMessage original="Actions before" locale="zh" localized="之前的操作"/>
+    <moqui.basic.LocalizedMessage original="Actions before is for an upstream screen in extension mode" locale="zh" localized="之前的操作仅用于上游屏幕的扩展模式"/>
+    <moqui.basic.LocalizedMessage original="Actions before the screen's" locale="zh" localized="屏幕操作之前的操作"/>
+    <moqui.basic.LocalizedMessage original="Added as the commit's task trailer" locale="zh" localized="作为提交记录的任务附注添加"/>
+    <moqui.basic.LocalizedMessage original="Addons repository" locale="zh" localized="插件代码库"/>
+    <moqui.basic.LocalizedMessage original="After it" locale="zh" localized="在其后"/>
+    <moqui.basic.LocalizedMessage original="Allow remote" locale="zh" localized="允许远程"/>
+    <moqui.basic.LocalizedMessage original="Amend the last commit" locale="zh" localized="修改最近一次提交记录"/>
+    <moqui.basic.LocalizedMessage original="An access token made on the server's Git access page works too, as a team's server without the app sign-in needs." locale="zh" localized="在服务器的 Git 访问页上创建的访问令牌同样可用，适合不需要应用登录的团队服务器。"/>
+    <moqui.basic.LocalizedMessage original="An expression; empty runs it always" locale="zh" localized="表达式；留空则始终执行"/>
+    <moqui.basic.LocalizedMessage original="An index needs a name and its fields" locale="zh" localized="索引需要名称和它的字段"/>
+    <moqui.basic.LocalizedMessage original="Another attribute" locale="zh" localized="另一个属性"/>
+    <moqui.basic.LocalizedMessage original="Another instance's tasks" locale="zh" localized="另一个实例的任务"/>
+    <moqui.basic.LocalizedMessage original="Authenticate" locale="zh" localized="认证"/>
+    <moqui.basic.LocalizedMessage original="Back to the entities" locale="zh" localized="返回实体"/>
+    <moqui.basic.LocalizedMessage original="Back to the screen tree" locale="zh" localized="返回屏幕树"/>
+    <moqui.basic.LocalizedMessage original="Back to the services" locale="zh" localized="返回服务"/>
+    <moqui.basic.LocalizedMessage original="Before it" locale="zh" localized="在其前"/>
+    <moqui.basic.LocalizedMessage original="Box with header and body" locale="zh" localized="带标题和正文的框"/>
+    <moqui.basic.LocalizedMessage original="Branches, tags, stashes, merge requests, sessions, review, blame and hunks: open the Workspace in the browser (o)." locale="zh" localized="分支、标签、贮藏、合并请求、会话、复查、追溯和差异块：请在浏览器中打开工作区（o）。"/>
+    <moqui.basic.LocalizedMessage original="Button menu" locale="zh" localized="按钮菜单"/>
+    <moqui.basic.LocalizedMessage original="Call a service" locale="zh" localized="调用一个服务"/>
+    <moqui.basic.LocalizedMessage original="Callable over REST and from a browser" locale="zh" localized="可通过 REST 和浏览器调用"/>
+    <moqui.basic.LocalizedMessage original="Called with the context; empty leaves the actions empty" locale="zh" localized="使用上下文调用；留空则操作保持为空"/>
+    <moqui.basic.LocalizedMessage original="Changes of ${path}" locale="zh" localized="${path} 的更改"/>
+    <moqui.basic.LocalizedMessage original="Check errors" locale="zh" localized="检查错误"/>
+    <moqui.basic.LocalizedMessage original="Cherry-pick" locale="zh" localized="拣选"/>
+    <moqui.basic.LocalizedMessage original="Choose a widget, or write its XML" locale="zh" localized="请选择一个控件，或写下它的 XML"/>
+    <moqui.basic.LocalizedMessage original="Clone a URL" locale="zh" localized="克隆一个 URL"/>
+    <moqui.basic.LocalizedMessage original="Code editor" locale="zh" localized="代码编辑器"/>
+    <moqui.basic.LocalizedMessage original="Column name" locale="zh" localized="列名"/>
+    <moqui.basic.LocalizedMessage original="Columns no field has, which the table check never drops:" locale="zh" localized="没有任何字段对应的列，表检查从不会删除它们："/>
+    <moqui.basic.LocalizedMessage original="Commented on the server" locale="zh" localized="已在服务器上评论"/>
+    <moqui.basic.LocalizedMessage original="Commit and push" locale="zh" localized="提交并推送"/>
+    <moqui.basic.LocalizedMessage original="Commit what is staged" locale="zh" localized="提交已暂存的内容"/>
+    <moqui.basic.LocalizedMessage original="Component (addons.xml)" locale="zh" localized="组件（addons.xml）"/>
+    <moqui.basic.LocalizedMessage original="Connected: confirm what to set from the server" locale="zh" localized="已连接：请确认要从服务器设置的内容"/>
+    <moqui.basic.LocalizedMessage original="Create a site component on Home first" locale="zh" localized="请先在主页创建站点组件"/>
+    <moqui.basic.LocalizedMessage original="Create a site component on Home first: a SECA rule goes in its secas file" locale="zh" localized="请先在主页创建站点组件：SECA 规则写在它的 secas 文件里"/>
+    <moqui.basic.LocalizedMessage original="Create a site component on Home to add SECA rules." locale="zh" localized="请在主页创建站点组件，以便添加 SECA 规则。"/>
+    <moqui.basic.LocalizedMessage original="Create from the parameters" locale="zh" localized="根据参数创建"/>
+    <moqui.basic.LocalizedMessage original="Created ${location}: it loads after a restart" locale="zh" localized="已创建 ${location}：重启后才会加载"/>
+    <moqui.basic.LocalizedMessage original="Data file" locale="zh" localized="数据文件"/>
+    <moqui.basic.LocalizedMessage original="Default repository" locale="zh" localized="默认代码库"/>
+    <moqui.basic.LocalizedMessage original="Deleted ${path}" locale="zh" localized="已删除 ${path}"/>
+    <moqui.basic.LocalizedMessage original="Design in the terminal" locale="zh" localized="在终端中设计"/>
+    <moqui.basic.LocalizedMessage original="Dev AIDE audited action" locale="zh" localized="Dev AIDE 审计操作"/>
+    <moqui.basic.LocalizedMessage original="Directory (from the URL when empty)" locale="zh" localized="目录（为空时取自 URL）"/>
+    <moqui.basic.LocalizedMessage original="Discard and remove" locale="zh" localized="丢弃并移除"/>
+    <moqui.basic.LocalizedMessage original="Discard changes" locale="zh" localized="丢弃更改"/>
+    <moqui.basic.LocalizedMessage original="Discard the changes?" locale="zh" localized="要丢弃这些更改吗？"/>
+    <moqui.basic.LocalizedMessage original="Discard this change?" locale="zh" localized="要丢弃此更改吗？"/>
+    <moqui.basic.LocalizedMessage original="Discarded the changes" locale="zh" localized="已丢弃更改"/>
+    <moqui.basic.LocalizedMessage original="Drag to move" locale="zh" localized="拖动即可移动"/>
+    <moqui.basic.LocalizedMessage original="Drop and create the table" locale="zh" localized="删除并重建该表"/>
+    <moqui.basic.LocalizedMessage original="Drop and create the table…" locale="zh" localized="删除并重建该表…"/>
+    <moqui.basic.LocalizedMessage original="Drop it" locale="zh" localized="删除"/>
+    <moqui.basic.LocalizedMessage original="Drop it…" locale="zh" localized="删除…"/>
+    <moqui.basic.LocalizedMessage original="Dynamic dialog" locale="zh" localized="动态对话框"/>
+    <moqui.basic.LocalizedMessage original="Each is set only when checked." locale="zh" localized="仅在勾选时才会设置。"/>
+    <moqui.basic.LocalizedMessage original="ECA Rules" locale="zh" localized="ECA 规则"/>
+    <moqui.basic.LocalizedMessage original="Edit in the terminal" locale="zh" localized="在终端中编辑"/>
+    <moqui.basic.LocalizedMessage original="Edit in Workspace" locale="zh" localized="在工作区中编辑"/>
+    <moqui.basic.LocalizedMessage original="EECA rule" locale="zh" localized="EECA 规则"/>
+    <moqui.basic.LocalizedMessage original="Element" locale="zh" localized="元素"/>
+    <moqui.basic.LocalizedMessage original="Entity extension" locale="zh" localized="实体扩展"/>
+    <moqui.basic.LocalizedMessage original="Entity find" locale="zh" localized="实体查找"/>
+    <moqui.basic.LocalizedMessage original="Entity values" locale="zh" localized="实体的值"/>
+    <moqui.basic.LocalizedMessage original="Entity-auto: ${definition.verb} of ${definition.noun}." locale="zh" localized="实体自动：${definition.verb}，${definition.noun}。"/>
+    <moqui.basic.LocalizedMessage original="Even when something references it" locale="zh" localized="即使有对象引用它"/>
+    <moqui.basic.LocalizedMessage original="Every component from this server" locale="zh" localized="此服务器上的全部组件"/>
+    <moqui.basic.LocalizedMessage original="Explain the artifact I have open: what it is, what uses it and what it uses." locale="zh" localized="说明我打开的这个工件：它是什么，什么在使用它，以及它使用什么。"/>
+    <moqui.basic.LocalizedMessage original="Exported ${exported.docCount} docs to ${rootId}/${exported.path}: ${exported.written} written, ${exported.unchanged} unchanged, ${exported.removed} removed" locale="zh" localized="已把 ${exported.docCount} 篇文档导出到 ${rootId}/${exported.path}：写入 ${exported.written}，未改 ${exported.unchanged}，移除 ${exported.removed}"/>
+    <moqui.basic.LocalizedMessage original="Extension mode: every edit goes to the site's" locale="zh" localized="扩展模式：每次编辑都写到站点的"/>
+    <moqui.basic.LocalizedMessage original="Extension points" locale="zh" localized="扩展点"/>
+    <moqui.basic.LocalizedMessage original="Extensions" locale="zh" localized="扩展"/>
+    <moqui.basic.LocalizedMessage original="Fetch all" locale="zh" localized="全部获取"/>
+    <moqui.basic.LocalizedMessage original="Field names, comma separated" locale="zh" localized="字段名，以逗号分隔"/>
+    <moqui.basic.LocalizedMessage original="Filter a list" locale="zh" localized="筛选一个列表"/>
+    <moqui.basic.LocalizedMessage original="Find an artifact to browse: what uses it, and what it uses. Try OrdHdr or place#Order." locale="zh" localized="查找一个工件来浏览：什么在使用它，以及它使用什么。试试 OrdHdr 或 place#Order。"/>
+    <moqui.basic.LocalizedMessage original="Find one" locale="zh" localized="查找一个"/>
+    <moqui.basic.LocalizedMessage original="Find one by its key" locale="zh" localized="按其键查找一个"/>
+    <moqui.basic.LocalizedMessage original="Find related" locale="zh" localized="查找相关的"/>
+    <moqui.basic.LocalizedMessage original="Find related one" locale="zh" localized="查找一个相关的"/>
+    <moqui.basic.LocalizedMessage original="Fix the problems in the file I have open, as a change set." locale="zh" localized="把我打开的文件里的问题修正为一个更改集。"/>
+    <moqui.basic.LocalizedMessage original="For each" locale="zh" localized="对于每个"/>
+    <moqui.basic.LocalizedMessage original="from" locale="zh" localized="从"/>
+    <moqui.basic.LocalizedMessage original="Generated JavaScript" locale="zh" localized="已生成的 JavaScript"/>
+    <moqui.basic.LocalizedMessage original="Get" locale="zh" localized="获取"/>
+    <moqui.basic.LocalizedMessage original="Get a component" locale="zh" localized="获取一个组件"/>
+    <moqui.basic.LocalizedMessage original="Git's credential for ${plan.gitCredential.prefix}" locale="zh" localized="${plan.gitCredential.prefix} 的 Git 凭据"/>
+    <moqui.basic.LocalizedMessage original="Git's own helpers (D5)" locale="zh" localized="Git 自带的辅助工具（D5）"/>
+    <moqui.basic.LocalizedMessage original="Give the record a value" locale="zh" localized="请给这条记录一个值"/>
+    <moqui.basic.LocalizedMessage original="Go to file" locale="zh" localized="转到文件"/>
+    <moqui.basic.LocalizedMessage original="Group servers" locale="zh" localized="组内服务器"/>
+    <moqui.basic.LocalizedMessage original="Implements ${implementsText}" locale="zh" localized="实现 ${implementsText}"/>
+    <moqui.basic.LocalizedMessage original="In words, such as Due date: the name is made from them (dueDate)" locale="zh" localized="用文字说明，例如到期日：名称由此生成（dueDate）"/>
+    <moqui.basic.LocalizedMessage original="Initialized a git repository" locale="zh" localized="已初始化一个 git 代码库"/>
+    <moqui.basic.LocalizedMessage original="Insert at cursor" locale="zh" localized="插入到光标处"/>
+    <moqui.basic.LocalizedMessage original="Inside ${path}" locale="zh" localized="在 ${path} 内"/>
+    <moqui.basic.LocalizedMessage original="Inside it, last" locale="zh" localized="在其内部末尾"/>
+    <moqui.basic.LocalizedMessage original="Into ${formName}${extension ? ', through the site\'s form merge' : ''}" locale="zh" localized="到 ${formName}${extension ? '，经站点的表单合并' : ''}"/>
+    <moqui.basic.LocalizedMessage original="Into ${secasPath}, staged until Save." locale="zh" localized="写入 ${secasPath}，在保存之前保持暂存。"/>
+    <moqui.basic.LocalizedMessage original="Into runtime/components/dev (dev only)" locale="zh" localized="放入 runtime/components/dev（仅开发）"/>
+    <moqui.basic.LocalizedMessage original="Into runtime/components/test (test only)" locale="zh" localized="放入 runtime/components/test（仅测试）"/>
+    <moqui.basic.LocalizedMessage original="It needs ${requiredParameters}." locale="zh" localized="需要 ${requiredParameters}。"/>
+    <moqui.basic.LocalizedMessage original="It needs no restart: its entities, services, screens and conf load on this server, with its seed, seed-initial and install data." locale="zh" localized="无需重启：它的实体、服务、屏幕和配置会在此服务器上加载，并带上种子数据、seed-initial 和 install 数据。"/>
+    <moqui.basic.LocalizedMessage original="It stopped at conflicts: resolve them in the browser's Workspace" locale="zh" localized="因冲突而停止：请在浏览器的工作区里解决"/>
+    <moqui.basic.LocalizedMessage original="Its value" locale="zh" localized="它的值"/>
+    <moqui.basic.LocalizedMessage original="Job re-run" locale="zh" localized="作业已重新运行"/>
+    <moqui.basic.LocalizedMessage original="Key field" locale="zh" localized="键字段"/>
+    <moqui.basic.LocalizedMessage original="Leave empty for the kind's type" locale="zh" localized="留空则使用该种类的类型"/>
+    <moqui.basic.LocalizedMessage original="Leave empty to make it from the words" locale="zh" localized="留空则根据文字生成"/>
+    <moqui.basic.LocalizedMessage original="LLM gateway" locale="zh" localized="LLM 网关"/>
+    <moqui.basic.LocalizedMessage original="Load ${loadName} now" locale="zh" localized="立即加载 ${loadName}"/>
+    <moqui.basic.LocalizedMessage original="Load this file" locale="zh" localized="加载此文件"/>
+    <moqui.basic.LocalizedMessage original="Loop over a find" locale="zh" localized="遍历一次查找"/>
+    <moqui.basic.LocalizedMessage original="Made task ${made.taskId}" locale="zh" localized="已创建任务 ${made.taskId}"/>
+    <moqui.basic.LocalizedMessage original="Made the folder ${newPath}" locale="zh" localized="已创建文件夹 ${newPath}"/>
+    <moqui.basic.LocalizedMessage original="Make a value" locale="zh" localized="创建一个值"/>
+    <moqui.basic.LocalizedMessage original="Make and switch to it" locale="zh" localized="创建并切换过去"/>
+    <moqui.basic.LocalizedMessage original="Make it the default" locale="zh" localized="设为默认"/>
+    <moqui.basic.LocalizedMessage original="Make the file" locale="zh" localized="创建文件"/>
+    <moqui.basic.LocalizedMessage original="Make the folder" locale="zh" localized="创建文件夹"/>
+    <moqui.basic.LocalizedMessage original="Menu index" locale="zh" localized="菜单序号"/>
+    <moqui.basic.LocalizedMessage original="Menu title" locale="zh" localized="菜单标题"/>
+    <moqui.basic.LocalizedMessage original="Missing columns, which Save adds: ${missingColumns}" locale="zh" localized="缺少的列，保存时会补上：${missingColumns}"/>
+    <moqui.basic.LocalizedMessage original="Model alias" locale="zh" localized="模型别名"/>
+    <moqui.basic.LocalizedMessage original="Modes" locale="zh" localized="模式"/>
+    <moqui.basic.LocalizedMessage original="Mounted by" locale="zh" localized="挂载方"/>
+    <moqui.basic.LocalizedMessage original="My token from this connection" locale="zh" localized="此连接上我的令牌"/>
+    <moqui.basic.LocalizedMessage original="Name a service" locale="zh" localized="请指定一个服务"/>
+    <moqui.basic.LocalizedMessage original="Name an entity" locale="zh" localized="请指定一个实体"/>
+    <moqui.basic.LocalizedMessage original="Name the attribute" locale="zh" localized="请指定属性"/>
+    <moqui.basic.LocalizedMessage original="Name the entity whose records the section lists" locale="zh" localized="请指定此区段要列出其记录的实体"/>
+    <moqui.basic.LocalizedMessage original="Name the related entity" locale="zh" localized="请指定相关实体"/>
+    <moqui.basic.LocalizedMessage original="Name the service the button calls" locale="zh" localized="请指定按钮调用的服务"/>
+    <moqui.basic.LocalizedMessage original="Nearest anchor" locale="zh" localized="最近的锚点"/>
+    <moqui.basic.LocalizedMessage original="New branch, from the current commit" locale="zh" localized="新分支，基于当前提交记录"/>
+    <moqui.basic.LocalizedMessage original="New path in the root" locale="zh" localized="根目录中的新路径"/>
+    <moqui.basic.LocalizedMessage original="New subscreen" locale="zh" localized="新建子屏幕"/>
+    <moqui.basic.LocalizedMessage original="Newer commits" locale="zh" localized="较新的提交记录"/>
+    <moqui.basic.LocalizedMessage original="No changes" locale="zh" localized="没有更改"/>
+    <moqui.basic.LocalizedMessage original="No EECA rule acts on this entity." locale="zh" localized="没有 EECA 规则作用于此实体。"/>
+    <moqui.basic.LocalizedMessage original="No records yet." locale="zh" localized="还没有记录。"/>
+    <moqui.basic.LocalizedMessage original="No site component to write the seed data in: create one on Home" locale="zh" localized="没有可写入种子数据的站点组件：请在主页创建一个"/>
+    <moqui.basic.LocalizedMessage original="No site seed data file: create a site component on Home." locale="zh" localized="没有站点的种子数据文件：请在主页创建站点组件。"/>
+    <moqui.basic.LocalizedMessage original="No table yet: Save makes it." locale="zh" localized="还没有表：保存时会创建它。"/>
+    <moqui.basic.LocalizedMessage original="Not committed yet: no blame" locale="zh" localized="尚未提交：没有追溯"/>
+    <moqui.basic.LocalizedMessage original="Not in the schema" locale="zh" localized="不在架构中"/>
+    <moqui.basic.LocalizedMessage original="Not null" locale="zh" localized="非空"/>
+    <moqui.basic.LocalizedMessage original="Nothing in it yet: the intents on the screen's elements add to it." locale="zh" localized="里面还没有内容：屏幕元素上的意图会添加到这里。"/>
+    <moqui.basic.LocalizedMessage original="Nothing is staged: the files are as on disk." locale="zh" localized="没有暂存内容：文件与磁盘上的一致。"/>
+    <moqui.basic.LocalizedMessage original="Nothing near this element has a name to anchor an extension at: choose a named element" locale="zh" localized="此元素附近没有可锚定扩展的名称：请选择一个有名称的元素"/>
+    <moqui.basic.LocalizedMessage original="Nothing near this element has a name to anchor at" locale="zh" localized="此元素附近没有可用来锚定的名称"/>
+    <moqui.basic.LocalizedMessage original="Nothing to save over the disk: open the file and save it again" locale="zh" localized="没有可覆盖到磁盘的内容：请打开该文件并再次保存"/>
+    <moqui.basic.LocalizedMessage original="Older commits" locale="zh" localized="较旧的提交记录"/>
+    <moqui.basic.LocalizedMessage original="On ${branch}" locale="zh" localized="在 ${branch} 上"/>
+    <moqui.basic.LocalizedMessage original="On ${made.branch} in ${rootId}" locale="zh" localized="在 ${made.branch} 上，于 ${rootId}"/>
+    <moqui.basic.LocalizedMessage original="Only these projects (ids, comma separated)" locale="zh" localized="仅这些项目（id，以逗号分隔）"/>
+    <moqui.basic.LocalizedMessage original="Open ${definition.location}" locale="zh" localized="打开 ${definition.location}"/>
+    <moqui.basic.LocalizedMessage original="Open a file from the tree, Go to file, or the palette (Ctrl+K), which finds artifacts by name." locale="zh" localized="从树中打开文件，或使用转到文件，或使用面板（Ctrl+K），按名称查找工件。"/>
+    <moqui.basic.LocalizedMessage original="Open a file you may edit first" locale="zh" localized="请先打开一个您可以编辑的文件"/>
+    <moqui.basic.LocalizedMessage original="Open a terminal here" locale="zh" localized="在此打开终端"/>
+    <moqui.basic.LocalizedMessage original="Open at its line in the Workspace" locale="zh" localized="在工作区中打开到它所在的行"/>
+    <moqui.basic.LocalizedMessage original="Open in Data Grid" locale="zh" localized="在数据表格中打开"/>
+    <moqui.basic.LocalizedMessage original="Open in Text" locale="zh" localized="在文本中打开"/>
+    <moqui.basic.LocalizedMessage original="Open in Tools" locale="zh" localized="在工具中打开"/>
+    <moqui.basic.LocalizedMessage original="Opened with Assist's proposal, not saved: Save keeps it" locale="zh" localized="已按 Assist 的提案打开，尚未保存：保存就会留下它"/>
+    <moqui.basic.LocalizedMessage original="Or its XML" locale="zh" localized="或其 XML"/>
+    <moqui.basic.LocalizedMessage original="Order a list" locale="zh" localized="给一个列表排序"/>
+    <moqui.basic.LocalizedMessage original="Override it in the site" locale="zh" localized="在站点中覆盖"/>
+    <moqui.basic.LocalizedMessage original="Path in the root" locale="zh" localized="根目录中的路径"/>
+    <moqui.basic.LocalizedMessage original="PK" locale="zh" localized="主键"/>
+    <moqui.basic.LocalizedMessage original="Plan it" locale="zh" localized="生成计划"/>
+    <moqui.basic.LocalizedMessage original="Primary key" locale="zh" localized="主键"/>
+    <moqui.basic.LocalizedMessage original="Project id" locale="zh" localized="项目 id"/>
+    <moqui.basic.LocalizedMessage original="Properties: Enter on a row edits it, Ctrl+S stages it" locale="zh" localized="属性：在一行上按 Enter 编辑，Ctrl+S 将其暂存"/>
+    <moqui.basic.LocalizedMessage original="Propose as change" locale="zh" localized="作为更改提出"/>
+    <moqui.basic.LocalizedMessage original="Pull all" locale="zh" localized="全部拉取"/>
+    <moqui.basic.LocalizedMessage original="Put each service's definition in its doc" locale="zh" localized="把每个服务的定义写入其文档"/>
+    <moqui.basic.LocalizedMessage original="Ran for real" locale="zh" localized="已实际运行"/>
+    <moqui.basic.LocalizedMessage original="Ran in the sim: nothing kept" locale="zh" localized="已在模拟中运行：没有保留任何内容"/>
+    <moqui.basic.LocalizedMessage original="Ran the snippet in the sim: nothing kept" locale="zh" localized="片段已在模拟中运行：没有保留任何内容"/>
+    <moqui.basic.LocalizedMessage original="Read only below 1024 px" locale="zh" localized="低于 1024 像素时为只读"/>
+    <moqui.basic.LocalizedMessage original="Read only here: edit the actions in the Workspace or the browser's logic composer." locale="zh" localized="此处为只读：请在工作区或浏览器的逻辑编排器中编辑操作。"/>
+    <moqui.basic.LocalizedMessage original="Read only: ${readOnlyReason}" locale="zh" localized="只读：${readOnlyReason}"/>
+    <moqui.basic.LocalizedMessage original="Read your tasks from another Moqui instance, such as your team's Projects server, with your own access token there (its user name and a login key). The token is kept encrypted." locale="zh" localized="从另一个 Moqui 实例读取您的任务，例如团队的 Projects 服务器，使用您在那里的访问令牌（用户名和登录密钥）。令牌会加密保存。"/>
+    <moqui.basic.LocalizedMessage original="Really delete it?" locale="zh" localized="确定删除吗？"/>
+    <moqui.basic.LocalizedMessage original="References of" locale="zh" localized="引用来源"/>
+    <moqui.basic.LocalizedMessage original="Regular expression" locale="zh" localized="正则表达式"/>
+    <moqui.basic.LocalizedMessage original="Related entity" locale="zh" localized="相关实体"/>
+    <moqui.basic.LocalizedMessage original="Related entity (Reference)" locale="zh" localized="相关实体（引用）"/>
+    <moqui.basic.LocalizedMessage original="Related field" locale="zh" localized="相关字段"/>
+    <moqui.basic.LocalizedMessage original="Remove ${removeConfirm.name}" locale="zh" localized="移除 ${removeConfirm.name}"/>
+    <moqui.basic.LocalizedMessage original="Remove docs this tool wrote whose artifacts are gone" locale="zh" localized="移除本工具写过、但其工件已不存在的文档"/>
+    <moqui.basic.LocalizedMessage original="Render" locale="zh" localized="渲染"/>
+    <moqui.basic.LocalizedMessage original="Replace it in the site" locale="zh" localized="在站点中替换"/>
+    <moqui.basic.LocalizedMessage original="Replace selection" locale="zh" localized="替换所选"/>
+    <moqui.basic.LocalizedMessage original="Replied on the server" locale="zh" localized="已在服务器上回复"/>
+    <moqui.basic.LocalizedMessage original="Repository name" locale="zh" localized="代码库名称"/>
+    <moqui.basic.LocalizedMessage original="REST API only" locale="zh" localized="仅 REST API"/>
+    <moqui.basic.LocalizedMessage original="REST APIs" locale="zh" localized="REST API"/>
+    <moqui.basic.LocalizedMessage original="REST resource" locale="zh" localized="REST 资源"/>
+    <moqui.basic.LocalizedMessage original="Restart the server?" locale="zh" localized="要重启服务器吗？"/>
+    <moqui.basic.LocalizedMessage original="Restarting: the server comes back in a few seconds" locale="zh" localized="正在重启：服务器几秒后会回来"/>
+    <moqui.basic.LocalizedMessage original="Restarting…" locale="zh" localized="正在重启…"/>
+    <moqui.basic.LocalizedMessage original="Return error" locale="zh" localized="返回错误"/>
+    <moqui.basic.LocalizedMessage original="Row key field" locale="zh" localized="行的键字段"/>
+    <moqui.basic.LocalizedMessage original="Row of two columns" locale="zh" localized="两列一行"/>
+    <moqui.basic.LocalizedMessage original="Rows it would write${tryResult.moreRows ? ' (the first ones)' : ''}" locale="zh" localized="将要写入的行${tryResult.moreRows ? '（只是开头的一些）' : ''}"/>
+    <moqui.basic.LocalizedMessage original="Run for real" locale="zh" localized="实际运行"/>
+    <moqui.basic.LocalizedMessage original="Run in sim" locale="zh" localized="在模拟中运行"/>
+    <moqui.basic.LocalizedMessage original="Run in the sim with the Try's values set" locale="zh" localized="用试运行中已填的值在模拟中运行"/>
+    <moqui.basic.LocalizedMessage original="Run it in the sim first: a spec is made from a Try that passed" locale="zh" localized="请先在模拟中运行：规格来自一次已通过的试运行"/>
+    <moqui.basic.LocalizedMessage original="Run on ${ddlPlan.table}?" locale="zh" localized="要在 ${ddlPlan.table} 上运行吗？"/>
+    <moqui.basic.LocalizedMessage original="Run re-run" locale="zh" localized="该次运行已重新运行"/>
+    <moqui.basic.LocalizedMessage original="Run spec ${trySpec.name}" locale="zh" localized="运行规格 ${trySpec.name}"/>
+    <moqui.basic.LocalizedMessage original="Save (Ctrl+S)" locale="zh" localized="保存（Ctrl+S）"/>
+    <moqui.basic.LocalizedMessage original="Save a Try as a spec first" locale="zh" localized="请先把一次试运行保存为规格"/>
+    <moqui.basic.LocalizedMessage original="Save as spec" locale="zh" localized="另存为规格"/>
+    <moqui.basic.LocalizedMessage original="Save mine over it" locale="zh" localized="用我的版本覆盖"/>
+    <moqui.basic.LocalizedMessage original="Screen extension" locale="zh" localized="屏幕扩展"/>
+    <moqui.basic.LocalizedMessage original="Screens and REST API" locale="zh" localized="屏幕和 REST API"/>
+    <moqui.basic.LocalizedMessage original="Screens only" locale="zh" localized="仅屏幕"/>
+    <moqui.basic.LocalizedMessage original="Search in files" locale="zh" localized="在文件中搜索"/>
+    <moqui.basic.LocalizedMessage original="SECA rule" locale="zh" localized="SECA 规则"/>
+    <moqui.basic.LocalizedMessage original="Section with a condition" locale="zh" localized="带条件的区段"/>
+    <moqui.basic.LocalizedMessage original="Seed data" locale="zh" localized="种子数据"/>
+    <moqui.basic.LocalizedMessage original="Select a form, or an element in one, first" locale="zh" localized="请先选择一个表单，或其中的一个元素"/>
+    <moqui.basic.LocalizedMessage original="Select a list (form-list) first" locale="zh" localized="请先选择一个列表（form-list）"/>
+    <moqui.basic.LocalizedMessage original="Select a named section or form to replace" locale="zh" localized="请选择一个有名称的区段或表单来替换"/>
+    <moqui.basic.LocalizedMessage original="Select a transition to override" locale="zh" localized="请选择一个转换来覆盖"/>
+    <moqui.basic.LocalizedMessage original="Select the element the button goes after" locale="zh" localized="请选择按钮要放在其后的元素"/>
+    <moqui.basic.LocalizedMessage original="Sent: it waits for a moderator" locale="zh" localized="已发送：正在等一位主持人"/>
+    <moqui.basic.LocalizedMessage original="Server address" locale="zh" localized="服务器地址"/>
+    <moqui.basic.LocalizedMessage original="Service it calls" locale="zh" localized="它调用的服务"/>
+    <moqui.basic.LocalizedMessage original="Service job" locale="zh" localized="服务作业"/>
+    <moqui.basic.LocalizedMessage original="Service to call" locale="zh" localized="要调用的服务"/>
+    <moqui.basic.LocalizedMessage original="Service, entity or event" locale="zh" localized="服务、实体或事件"/>
+    <moqui.basic.LocalizedMessage original="Set current" locale="zh" localized="设为当前"/>
+    <moqui.basic.LocalizedMessage original="Set fields" locale="zh" localized="设置字段"/>
+    <moqui.basic.LocalizedMessage original="Set fields of" locale="zh" localized="设置其字段"/>
+    <moqui.basic.LocalizedMessage original="Set up from ${planServer.label}" locale="zh" localized="根据 ${planServer.label} 来设置"/>
+    <moqui.basic.LocalizedMessage original="Sign" locale="zh" localized="签署"/>
+    <moqui.basic.LocalizedMessage original="Sign off" locale="zh" localized="签核"/>
+    <moqui.basic.LocalizedMessage original="Signed: ${signedOut?.line ?? ''}. Push it to the server." locale="zh" localized="已签署：${signedOut?.line ?? ''}。请把它推送到服务器。"/>
+    <moqui.basic.LocalizedMessage original="Site components saved" locale="zh" localized="站点组件已保存"/>
+    <moqui.basic.LocalizedMessage original="Stage selected" locale="zh" localized="暂存所选"/>
+    <moqui.basic.LocalizedMessage original="Stage the settings" locale="zh" localized="暂存这些设置"/>
+    <moqui.basic.LocalizedMessage original="Staged against the disk" locale="zh" localized="相对磁盘已暂存"/>
+    <moqui.basic.LocalizedMessage original="Staged diff" locale="zh" localized="已暂存的差异"/>
+    <moqui.basic.LocalizedMessage original="Staged: Save writes it (Ctrl+S on the header)" locale="zh" localized="已暂存：保存会把它写上（标题栏上的 Ctrl+S）"/>
+    <moqui.basic.LocalizedMessage original="Status bar" locale="zh" localized="状态栏"/>
+    <moqui.basic.LocalizedMessage original="Subscreen" locale="zh" localized="子屏幕"/>
+    <moqui.basic.LocalizedMessage original="Switch" locale="zh" localized="切换"/>
+    <moqui.basic.LocalizedMessage original="Take the disk's" locale="zh" localized="采用磁盘上的版本"/>
+    <moqui.basic.LocalizedMessage original="Task source" locale="zh" localized="任务来源"/>
+    <moqui.basic.LocalizedMessage original="Task source saved" locale="zh" localized="任务来源已保存"/>
+    <moqui.basic.LocalizedMessage original="Tasks from" locale="zh" localized="任务来自"/>
+    <moqui.basic.LocalizedMessage original="Test only (runtime/components/test)" locale="zh" localized="仅测试（runtime/components/test）"/>
+    <moqui.basic.LocalizedMessage original="Text line" locale="zh" localized="文本行"/>
+    <moqui.basic.LocalizedMessage original="That does not fit here" locale="zh" localized="这里放不下"/>
+    <moqui.basic.LocalizedMessage original="That element is not in the screen as staged: choose it again in the outline" locale="zh" localized="按当前暂存，该元素不在屏幕里：请在大纲中重新选择"/>
+    <moqui.basic.LocalizedMessage original="That element is not in the site's screen-extend as staged: choose it again" locale="zh" localized="按当前暂存，该元素不在站点的 screen-extend 里：请重新选择"/>
+    <moqui.basic.LocalizedMessage original="That record is not in the seed file as staged: open Seed data again" locale="zh" localized="按当前暂存，种子文件里没有这条记录：请重新打开种子数据"/>
+    <moqui.basic.LocalizedMessage original="the context" locale="zh" localized="上下文"/>
+    <moqui.basic.LocalizedMessage original="The diff takes the disk's text to yours." locale="zh" localized="此差异把磁盘上的文本变成您的文本。"/>
+    <moqui.basic.LocalizedMessage original="The disk's text against yours:" locale="zh" localized="磁盘上的文本与您的文本对照："/>
+    <moqui.basic.LocalizedMessage original="The index is not written in the edit target: an upstream one is removed upstream" locale="zh" localized="索引并没有写在编辑目标里：上游的索引要在上游删除"/>
+    <moqui.basic.LocalizedMessage original="The list's find has no search-form-inputs, so a header filter would not narrow it: add search-form-inputs to its find first." locale="zh" localized="该列表的查找没有 search-form-inputs，因此表头筛选缩小不了范围：请先在它的查找里加上 search-form-inputs。"/>
+    <moqui.basic.LocalizedMessage original="The list's find is not in this screen's actions, so its filters cannot be told apart." locale="zh" localized="该列表的查找不在此屏幕的操作里，因此分不清它的筛选。"/>
+    <moqui.basic.LocalizedMessage original="The merge stopped at conflicts" locale="zh" localized="合并因冲突而停止"/>
+    <moqui.basic.LocalizedMessage original="The merge stopped at conflicts: resolve them in Changes" locale="zh" localized="合并因冲突而停止：请在更改里解决"/>
+    <moqui.basic.LocalizedMessage original="The page's field the records are found by" locale="zh" localized="用于查找这些记录的页面字段"/>
+    <moqui.basic.LocalizedMessage original="The page's query, such as exampleId=100; F5 renders it again" locale="zh" localized="页面查询，例如 exampleId=100；按 F5 会重新渲染"/>
+    <moqui.basic.LocalizedMessage original="The parent is upstream: the new screen is the site's (${made.path}), mounted under it by the site's screen-extend" locale="zh" localized="父级属于上游：新屏幕是站点的（${made.path}），由站点的 screen-extend 挂在它下面"/>
+    <moqui.basic.LocalizedMessage original="The related records' entity" locale="zh" localized="相关记录的实体"/>
+    <moqui.basic.LocalizedMessage original="The relationship is not written in the edit target: an upstream one is removed upstream" locale="zh" localized="关系并没有写在编辑目标里：上游的关系要在上游删除"/>
+    <moqui.basic.LocalizedMessage original="The relationships of other entities to this one, as the server reversed them." locale="zh" localized="其他实体指向此实体的关系，按服务器反转后的结果。"/>
+    <moqui.basic.LocalizedMessage original="The run failed" locale="zh" localized="运行失败"/>
+    <moqui.basic.LocalizedMessage original="The run in the sim failed: nothing kept" locale="zh" localized="模拟中的运行失败了：没有保留任何内容"/>
+    <moqui.basic.LocalizedMessage original="The screen itself is not removed here" locale="zh" localized="这里不会移除屏幕本身"/>
+    <moqui.basic.LocalizedMessage original="The screen-extend itself does not move" locale="zh" localized="screen-extend 本身不会移动"/>
+    <moqui.basic.LocalizedMessage original="The screen-extend itself is not removed here" locale="zh" localized="这里不会移除 screen-extend 本身"/>
+    <moqui.basic.LocalizedMessage original="The seed data file, staged against the disk" locale="zh" localized="种子数据文件，相对磁盘已暂存"/>
+    <moqui.basic.LocalizedMessage original="The seed file has no records of that entity as staged: open Seed data again" locale="zh" localized="按当前暂存，种子文件里没有该实体的记录：请重新打开种子数据"/>
+    <moqui.basic.LocalizedMessage original="The service is not defined in a file of its own here" locale="zh" localized="此服务在这里没有单独的定义文件"/>
+    <moqui.basic.LocalizedMessage original="The site's" locale="zh" localized="站点的"/>
+    <moqui.basic.LocalizedMessage original="The site's ${extensionPath}${editFile.missing ? ' (made on its first save)' : ''}${editFile.staged ? ', staged' : ''}" locale="zh" localized="站点的 ${extensionPath}${editFile.missing ? '（首次保存时创建）' : ''}${editFile.staged ? '，已暂存' : ''}"/>
+    <moqui.basic.LocalizedMessage original="The site's own elements take Properties, Remove and Move: choose an element of the screen for the others" locale="zh" localized="站点自己的元素可以使用属性、移除和移动：其他操作请选择屏幕上的一个元素"/>
+    <moqui.basic.LocalizedMessage original="The snippet failed in the sim: nothing kept" locale="zh" localized="片段在模拟中失败了：没有保留任何内容"/>
+    <moqui.basic.LocalizedMessage original="The table matches the fields." locale="zh" localized="表与字段一致。"/>
+    <moqui.basic.LocalizedMessage original="The unsaved changes are discarded" locale="zh" localized="未保存的更改已丢弃"/>
+    <moqui.basic.LocalizedMessage original="The unsaved changes of this entity were kept two hours and are gone: make them again." locale="zh" localized="此实体未保存的更改保留了两个小时，现已消失：请重新做一遍。"/>
+    <moqui.basic.LocalizedMessage original="The unsaved changes of this screen were kept two hours and are gone: make them again." locale="zh" localized="此屏幕未保存的更改保留了两个小时，现已消失：请重新做一遍。"/>
+    <moqui.basic.LocalizedMessage original="The unsaved changes of this service were kept two hours and are gone: make them again." locale="zh" localized="此服务未保存的更改保留了两个小时，现已消失：请重新做一遍。"/>
+    <moqui.basic.LocalizedMessage original="Their changes in the work tree are lost, and a new file is deleted." locale="zh" localized="工作树中的更改会丢失，新建的文件会被删除。"/>
+    <moqui.basic.LocalizedMessage original="There is no doc of this artifact." locale="zh" localized="没有此工件的文档。"/>
+    <moqui.basic.LocalizedMessage original="There is no file to make this edit in: create a site component on Home first" locale="zh" localized="没有可做这次编辑的文件：请先在主页创建站点组件"/>
+    <moqui.basic.LocalizedMessage original="There is no root ${rootId}: choose one." locale="zh" localized="没有根 ${rootId}：请选一个。"/>
+    <moqui.basic.LocalizedMessage original="This directory has no git history, so it cannot be brought back." locale="zh" localized="此目录没有 git 历史，因此无法恢复。"/>
+    <moqui.basic.LocalizedMessage original="This entity is upstream and there is no site component to extend it in" locale="zh" localized="此实体属于上游，且没有站点组件可用于扩展它"/>
+    <moqui.basic.LocalizedMessage original="This entity is upstream and there is no site component to extend it in: create one on Home" locale="zh" localized="此实体属于上游，且没有站点组件可用于扩展它：请在主页创建一个"/>
+    <moqui.basic.LocalizedMessage original="This entity's field; empty when the names match" locale="zh" localized="此实体的字段；名称一致时留空"/>
+    <moqui.basic.LocalizedMessage original="This runtime has no ./moq beside it: clone a URL instead." locale="zh" localized="此 runtime 旁边没有 ./moq：请改为克隆一个 URL。"/>
+    <moqui.basic.LocalizedMessage original="This screen is edited in place: choose its element in the outline" locale="zh" localized="此屏幕是就地编辑的：请在大纲里选择它的元素"/>
+    <moqui.basic.LocalizedMessage original="This screen is extended: its own elements take the intents below, and the site's elements in the screen-extend (under them) their properties, Remove and Move." locale="zh" localized="此屏幕已扩展：它自己的元素使用下面的意图，screen-extend 里站点的元素（位于其下）则使用属性、移除和移动。"/>
+    <moqui.basic.LocalizedMessage original="This screen is not mounted under the apps, so it has no page to show." locale="zh" localized="此屏幕没有挂在应用之下，因此没有可显示的页面。"/>
+    <moqui.basic.LocalizedMessage original="This screen is upstream and there is no site component to extend it in: create one on Home" locale="zh" localized="此屏幕属于上游，且没有站点组件可用于扩展它：请在主页创建一个"/>
+    <moqui.basic.LocalizedMessage original="This screen renders at no path the app tree reaches, so it has no preview here." locale="zh" localized="应用树到达不了此屏幕的任何路径，因此这里没有预览。"/>
+    <moqui.basic.LocalizedMessage original="This server has no sim (it needs embedded Postgres): only Run for real." locale="zh" localized="此服务器没有模拟（需要嵌入式 Postgres）：只能实际运行。"/>
+    <moqui.basic.LocalizedMessage original="Throw away the changes of the selected files" locale="zh" localized="丢弃所选文件的更改"/>
+    <moqui.basic.LocalizedMessage original="Timeout" locale="zh" localized="超时"/>
+    <moqui.basic.LocalizedMessage original="Title (Picklist)" locale="zh" localized="标题（选择列表）"/>
+    <moqui.basic.LocalizedMessage original="To (a path in the root)" locale="zh" localized="到（根目录中的路径）"/>
+    <moqui.basic.LocalizedMessage original="Token saved" locale="zh" localized="令牌已保存"/>
+    <moqui.basic.LocalizedMessage original="Transition" locale="zh" localized="转换"/>
+    <moqui.basic.LocalizedMessage original="Type the table name (${ddlPlan.table}) to run it" locale="zh" localized="输入表名（${ddlPlan.table}）才能运行"/>
+    <moqui.basic.LocalizedMessage original="Unique" locale="zh" localized="唯一"/>
+    <moqui.basic.LocalizedMessage original="Unstage selected" locale="zh" localized="取消暂存所选"/>
+    <moqui.basic.LocalizedMessage original="Unstaged" locale="zh" localized="已取消暂存"/>
+    <moqui.basic.LocalizedMessage original="Update what references it" locale="zh" localized="更新引用它的内容"/>
+    <moqui.basic.LocalizedMessage original="Values (Picklist, Status)" locale="zh" localized="值（选择列表、状态）"/>
+    <moqui.basic.LocalizedMessage original="View entity" locale="zh" localized="视图实体"/>
+    <moqui.basic.LocalizedMessage original="What a screen-extend can name: the named containers, sections, forms and transitions, and for one with no name the nearest anchor." locale="zh" localized="screen-extend 可以点名的内容：有名称的容器、区段、表单和转换；没有名称时，则是最近的锚点。"/>
+    <moqui.basic.LocalizedMessage original="What does the site component extend of the artifact I have open, and is any extension broken?" locale="zh" localized="站点组件对当前打开的工件做了哪些扩展，是否有扩展已失效？"/>
+    <moqui.basic.LocalizedMessage original="What it holds" locale="zh" localized="存放的内容"/>
+    <moqui.basic.LocalizedMessage original="Where is the artifact at my cursor used? List the screens, services and rules." locale="zh" localized="光标处的工件用在何处？请列出屏幕、服务和规则。"/>
+    <moqui.basic.LocalizedMessage original="Widget" locale="zh" localized="控件"/>
+    <moqui.basic.LocalizedMessage original="Your legal name" locale="zh" localized="您的法定姓名"/>
+    <moqui.basic.LocalizedMessage original="Your line goes under both lists of AUTHORS.md and is committed alone." locale="zh" localized="您的那一行会写在 AUTHORS.md 的两份名单下，并单独提交。"/>
+    <moqui.basic.LocalizedMessage original="Your user name there" locale="zh" localized="您在那边的用户名"/>
+    <moqui.basic.LocalizedMessage original="Your work items from ${plan.taskSource.path}" locale="zh" localized="来自 ${plan.taskSource.path} 的工作项"/>
+</entity-facade-xml>

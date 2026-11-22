@@ -1,0 +1,46 @@
+# Messages the same in this language. A missing catalog row returns the original.
+${ag.statusId == 'AgmStDraft' ? 'Cancel draft' : 'End agreement'} ${agreementId}
+${asset.ownerText}${asset.facilityText ? ' · ' + asset.facilityText : ''}${asset.netBook != null                                 ? ' · net book ' + ec.l10n.formatCurrency(asset.netBook, asset.currencyUomId) : ''}
+${balance} ${unitText.toLowerCase()}
+${choice.organizationName} · ${choice.stateText}
+${customerText} · ${episodeText}
+${dealRow.typeText} ${dealRow.salesOpportunityId} · ${dealRow.opportunityName}
+${disposedDateText} · ${disposedByName}
+${ec.l10n.localize('Move')} ${facility.facilityName}
+${ec.l10n.localize('Order')} ${change.orderId}
+${ec.l10n.localize('Order')} ${heldOrder.orderId}
+${filename} · ${kindDescription} · ${state}
+${findingText}.
+${followUp.stateText} · ${followUp.assigneeText}${followUp.teamText ? ' (' + followUp.teamText + ')' : ''}${followUp.dueText ? ' · due ' + followUp.dueText : ''}
+${fromText} – ${thruText}
+${impact.effects.creditText}.
+${impact.effects.freightText}.
+${impact.effects.taxText}.
+${inspection.productName} · ${inspection.statusText}
+${inv.kindText} ${invoiceId}
+${inv.kindText} ${invoiceId} · ${inv.toName}
+${invoiceItemSeqId} · ${lineText}
+${issuePost.authorName} · ${issuePost.dateText}${issuePost.markText ? ' · ' + issuePost.markText : ''}
+${latestScorecard.scoreText} · ${latestScorecard.periodText}
+${locationSeqId}${description ? ' · ' + description : ''}
+${material.source.actionText} ${lineTitle}
+${methodCode} · ${bomName}
+${orderId} · ${statusText}
+${orderRow.workEffortId} · ${orderRow.workEffortName}
+${otherId} ${otherName}
+${productName} · ${planText}
+${requestId} ${requestName}
+${salesExplanation.overridden ? 'Entered price' : salesExplanation.priceSourceText}${salesExplanation.customerPrice ? ' · the customer’s own price' : ''}${salesExplanation.priceListName ? ' · price list ' + salesExplanation.priceListName : ''}
+${salesTask.opportunityRows[0].typeText} ${salesTask.opportunityRows[0].opportunityName}
+${send.statusText} · ${countsText}
+${side} · ${roleText}
+${subItemId} ${workEffortName}
+${templateName} · ${organizationName}
+${typeText} · ${dateText}${hasFile ? '' : ' · ' + ec.l10n.localize('no file')}
+${verificationText}${validityText ? ' · ' + validityText : ''}
+${versionShort} · ${dateText} ${userText}${note ? ' · ' + note : ''}${isPublished ? ' (on the site)' : ''}
+${warningText}.
+${words.formLabel} ${form.description}
+DataMatrix
+HH:mm
+QR

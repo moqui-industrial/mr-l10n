@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+
+<entity-facade-xml type="zh">
+    <moqui.basic.LocalizedMessage original="A button is a reply, a link or a call" locale="zh" localized="按钮是回复、链接或通话"/>
+    <moqui.basic.LocalizedMessage original="A button needs its words" locale="zh" localized="按钮需要其文字"/>
+    <moqui.basic.LocalizedMessage original="A card is not edited: delete it and send another" locale="zh" localized="卡片不能编辑：请删除后另发一张"/>
+    <moqui.basic.LocalizedMessage original="A card is one card" locale="zh" localized="卡片只能是一张"/>
+    <moqui.basic.LocalizedMessage original="A card needs a title or words" locale="zh" localized="卡片需要标题或文字"/>
+    <moqui.basic.LocalizedMessage original="A card needs one thing more than its title or its words: words, a title, a picture or a button" locale="zh" localized="卡片除标题或文字外还需要一项：文字、标题、图片或按钮"/>
+    <moqui.basic.LocalizedMessage original="A card's message has only its cards' pictures as files" locale="zh" localized="卡片消息的文件只能是其各张卡片的图片"/>
+    <moqui.basic.LocalizedMessage original="A card's picture is one of the message's files, each card its own" locale="zh" localized="卡片图片是消息的文件之一，每张卡片各用一个"/>
+    <moqui.basic.LocalizedMessage original="A carousel card has 1 or 2 buttons" locale="zh" localized="轮播卡片有 1 或 2 个按钮"/>
+    <moqui.basic.LocalizedMessage original="A GroupMe bridge needs its accessToken" locale="zh" localized="GroupMe 桥接需要其 accessToken"/>
+    <moqui.basic.LocalizedMessage original="A GroupMe bridge needs ownerUserId, the user whose account it is" locale="zh" localized="GroupMe 桥接需要 ownerUserId，即该账号所属的用户"/>
+    <moqui.basic.LocalizedMessage original="A GroupMe bridge with rooms keeps its owner" locale="zh" localized="已有聊天室的 GroupMe 桥接保持其所有者"/>
+    <moqui.basic.LocalizedMessage original="A GroupMe bridge's adapter is groupme" locale="zh" localized="GroupMe 桥接的适配器是 groupme"/>
+    <moqui.basic.LocalizedMessage original="A message with buttons has no files: make it a card for a picture" locale="zh" localized="带按钮的消息不能有文件：若要图片，请做成卡片"/>
+    <moqui.basic.LocalizedMessage original="A message with buttons needs its words" locale="zh" localized="带按钮的消息需要文字"/>
+    <moqui.basic.LocalizedMessage original="A message you asked to be reminded of" locale="zh" localized="您要求提醒的一条消息"/>
+    <moqui.basic.LocalizedMessage original="A provider template is named by an app only" locale="zh" localized="提供商模板只能由应用指定"/>
+    <moqui.basic.LocalizedMessage original="A reply button's postback is up to 200 characters, with no control characters" locale="zh" localized="回复按钮的 postback 最多 200 个字符，且不能含控制字符"/>
+    <moqui.basic.LocalizedMessage original="A rich message is a text with buttons, a card or a carousel" locale="zh" localized="富消息是带按钮的文本、一张卡片或一个轮播"/>
+    <moqui.basic.LocalizedMessage original="A rich message needs its cards or buttons" locale="zh" localized="富消息需要其卡片或按钮"/>
+    <moqui.basic.LocalizedMessage original="A Twilio template is named by its HX... id" locale="zh" localized="Twilio 模板以其 HX... id 命名"/>
+    <moqui.basic.LocalizedMessage original="A Twilio template's variables are a JSON object" locale="zh" localized="Twilio 模板的变量是一个 JSON 对象"/>
+    <moqui.basic.LocalizedMessage original="A view-once photo is not edited" locale="zh" localized="阅后即焚照片不能编辑"/>
+    <moqui.basic.LocalizedMessage original="An encrypted room has no cards: the server cannot read them to make their text" locale="zh" localized="加密聊天室没有卡片：服务器无法读取它们来生成文本"/>
+    <moqui.basic.LocalizedMessage original="An event is changed with Change, not edited" locale="zh" localized="事件要用更改，不能编辑"/>
+    <moqui.basic.LocalizedMessage original="An RCS bridge has one number, its home number: move the others to an SMS bridge first" locale="zh" localized="RCS 桥接只有一个号码，即其主号码：请先把其他号码移到 SMS 桥接"/>
+    <moqui.basic.LocalizedMessage original="An RCS bridge's adapter is rcs-twilio or rcs-sinch" locale="zh" localized="RCS 桥接的适配器是 rcs-twilio 或 rcs-sinch"/>
+    <moqui.basic.LocalizedMessage original="An RCS bridge's home number (fallbackFrom on Twilio, smsSender on Sinch) is its number" locale="zh" localized="RCS 桥接的主号码（Twilio 上的 fallbackFrom，Sinch 上的 smsSender）就是它的号码"/>
+    <moqui.basic.LocalizedMessage original="An SMS bridge's adapter is sms, sms-twilio or sms-sinch" locale="zh" localized="SMS 桥接的适配器是 sms、sms-twilio 或 sms-sinch"/>
+    <moqui.basic.LocalizedMessage original="Another room of this bridge has that conversation" locale="zh" localized="此桥接的另一个聊天室已有该会话"/>
+    <moqui.basic.LocalizedMessage original="Choose off, in encrypted rooms or everywhere" locale="zh" localized="请选择关闭、仅在加密聊天室或所有地方"/>
+    <moqui.basic.LocalizedMessage original="Disconnected by you. Your GroupMe rooms keep their history and no longer sync." locale="zh" localized="已由您断开。您的 GroupMe 聊天室保留历史记录，不再同步。"/>
+    <moqui.basic.LocalizedMessage original="Every card of a carousel has a picture" locale="zh" localized="轮播的每张卡片都有一张图片"/>
+    <moqui.basic.LocalizedMessage original="Every card of a carousel has the same kinds of buttons, in the same order" locale="zh" localized="轮播的每张卡片具有相同类型的按钮，且顺序相同"/>
+    <moqui.basic.LocalizedMessage original="GroupMe could not be reached. The bridge tries again on its own." locale="zh" localized="无法连接到 GroupMe。桥接会自行重试。"/>
+    <moqui.basic.LocalizedMessage original="GroupMe direct messages" locale="zh" localized="GroupMe 私聊"/>
+    <moqui.basic.LocalizedMessage original="GroupMe group" locale="zh" localized="GroupMe 群组"/>
+    <moqui.basic.LocalizedMessage original="GroupMe person" locale="zh" localized="GroupMe 人员"/>
+    <moqui.basic.LocalizedMessage original="GroupMe refused the access token: paste a new one." locale="zh" localized="GroupMe 拒绝了访问令牌：请粘贴一个新的。"/>
+    <moqui.basic.LocalizedMessage original="Join the room to vote" locale="zh" localized="要投票，请先加入聊天室"/>
+    <moqui.basic.LocalizedMessage original="Paste your GroupMe access token to connect." locale="zh" localized="粘贴您的 GroupMe 访问令牌以连接。"/>
+    <moqui.basic.LocalizedMessage original="That button is not a reply" locale="zh" localized="该按钮不是回复"/>
+    <moqui.basic.LocalizedMessage original="That message has no code" locale="zh" localized="该消息没有验证码"/>
+    <moqui.basic.LocalizedMessage original="That user has a GroupMe bridge already" locale="zh" localized="该用户已经有一个 GroupMe 桥接"/>
+    <moqui.basic.LocalizedMessage original="The device that keeps it has not been open since it was due" locale="zh" localized="保存它的设备自到期后一直没有打开"/>
+    <moqui.basic.LocalizedMessage original="The draft was lost on the device that held it" locale="zh" localized="草稿在保存它的设备上丢失了"/>
+    <moqui.basic.LocalizedMessage original="The draft was on a device that is gone" locale="zh" localized="草稿在一台已不存在的设备上"/>
+    <moqui.basic.LocalizedMessage original="The message could not be sent" locale="zh" localized="消息无法发送"/>
+    <moqui.basic.LocalizedMessage original="The room has no mapping to this bridge" locale="zh" localized="此聊天室没有到此桥接的映射"/>
+    <moqui.basic.LocalizedMessage original="The room limit is reached: new groups and conversations are not brought in." locale="zh" localized="已达到聊天室上限：不再引入新的群组和会话。"/>
+    <moqui.basic.LocalizedMessage original="The system's number is on this bridge, and the system texts stay on an SMS bridge: choose another system number first" locale="zh" localized="系统号码在此桥接上，系统短信仍走 SMS 桥接：请先另选一个系统号码"/>
+    <moqui.basic.LocalizedMessage original="This list cursor is not valid: read the list again from the start" locale="zh" localized="此列表游标无效：请从头重新阅读列表"/>
+    <moqui.basic.LocalizedMessage original="This room's buttons are for the other person to tap, on their phone" locale="zh" localized="此聊天室的按钮供对方在其手机上点按"/>
+    <moqui.basic.LocalizedMessage original="This room's messages disappear by its timer" locale="zh" localized="此聊天室的消息按其计时器消失"/>
+    <moqui.basic.LocalizedMessage original="You are no longer in the room" locale="zh" localized="您已不在此聊天室"/>
+    <moqui.basic.LocalizedMessage original="You blocked this conversation" locale="zh" localized="您已屏蔽此会话"/>
+    <moqui.basic.LocalizedMessage original="You no longer have the app" locale="zh" localized="您已不再拥有此应用"/>
+    <moqui.basic.LocalizedMessage original="Your account is closed" locale="zh" localized="您的账号已关闭"/>
+    <moqui.basic.LocalizedMessage original="Your own message's buttons are for the others to tap" locale="zh" localized="您自己消息的按钮是给其他人点按的"/>
+</entity-facade-xml>

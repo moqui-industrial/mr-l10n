@@ -1,0 +1,18 @@
+# Messages the same in this language. A missing catalog row returns the original.
+${approval.statusText}${approval.waitingText ? ': ' + approval.waitingText : ''}
+${batch.fileName}: ${batch.organizationName}, ${batch.sourceSystem}
+${claim.statusText}: ${claim.decisionReason}
+${componentCode} · ${componentName}
+${cycleName} · ${periodText}
+${day.personName}: ${day.weekdayText} ${day.attendanceDate}
+${employer.clockingText}.
+${failure.personName}: ${failure.message}
+${group.groupName} · ${period.text} · ${group.basisText}
+${invoiceId}${purpose ? ' · ' + purpose : ''}
+${leave.personName}: ${leave.datesText}
+${policy.organizationName} · ${policy.leaveTypeText} · ${policy.unitText} · ${policy.accrualText}
+${preview.personName}: ${preview.leaveTypeText}, ${preview.datesText}
+${skippedRow.personName} ${skippedRow.whenText}: ${skippedRow.message}
+${stored.settings.organizationName}: ${stored.settings.clockingText}
+${uomId} ${description}
+${weekdayText} ${attendanceDate}

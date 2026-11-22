@@ -1,0 +1,42 @@
+# Messages the same in this language. A missing catalog row returns the original.
+${actionText} ${kindText.toLowerCase()}
+${archiveProblem}.
+${artifactDescription} (${typeText})
+${databaseHostId}: ${hostAddress}
+${description} [${artifactGroupId}]
+${ec.l10n.localize('Model')} ${modelId}
+${ec.l10n.localize('Model')} ${preview?.modelId}
+${ec.l10n.localize('Trace')} ${sampleTrace}
+${ec.l10n.localize('Trace')} ${traceId}
+${effective.contextWindow ?? '-'} / ${effective.maxOutput ?? '-'}
+${effective.isLocal ?? ''} / ${effective.disabled ?? ''} / ${effective.source ?? ''}
+${factsText} ·
+${found.itemsReason}.
+${found.registration?.ownerApp}: ${found.registration?.idempotencyNote}
+${front.name}: ${front.stateLabel}
+${geoId} - ${geoName}
+${id}${label ? ' · ' + label : ''}
+${imageName} (${kindDescription})
+${instanceHostId}: ${typeDescription} ${hostAddress}
+${instanceImageId}: ${imageName}
+${instanceName} (${instanceKindId})
+${itemId} #${trialNum}
+${job.readOnlyReason}.
+${kindName}${purposeName ? ' · ' + purposeName : ''}
+${maxElements} (${evictionStrategy})
+${name} (${username})
+${offer.label}: ${job.jobName}
+${record.defaultsReadOnlyReason}.
+${record.subscriptionsReadOnlyReason}.
+${releaseInfo.releasedText} (${ec.user.timeZone})
+${serverHost} - ${printerName}
+${serviceName} ${version}
+${skill.title ?? ''}: ${skill.description ?? ''}
+${username} - ${userFullName}
+${userPermissionId} - ${description}
+DatabaseHost:${databaseHostId}:admin
+Let's Encrypt
+MySQL
+OK
+Postgres
+Webhook

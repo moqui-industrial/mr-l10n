@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+
+<entity-facade-xml type="es">
+    <moqui.basic.LocalizedMessage original="${caseCount} case(s) on the article" locale="es" localized="${caseCount} caso(s) en el artículo"/>
+    <moqui.basic.LocalizedMessage original="${closedLines.length} more line(s) of the order have nothing left to return." locale="es" localized="${closedLines.length} línea(s) más de la orden ya no tienen nada que devolver."/>
+    <moqui.basic.LocalizedMessage original="${count} (${customer} customer-visible, ${internal} internal)" locale="es" localized="${count} (${customer} visibles para el cliente, ${internal} internas)"/>
+    <moqui.basic.LocalizedMessage original="${customerFields.length ? '' : 'No customer-visible field: customers see only the subject and description. '}${internalCount} internal field(s) are never shown or sent to the customer." locale="es" localized="${customerFields.length ? '' : 'No customer-visible field: customers see only the subject and description. '}${internalCount} campo(s) interno(s) nunca se muestran ni se envían al cliente."/>
+    <moqui.basic.LocalizedMessage original="${description}, stored ${stored}" locale="es" localized="${description}, almacenada ${stored}"/>
+    <moqui.basic.LocalizedMessage original="${open} running" locale="es" localized="${open} en curso"/>
+    <moqui.basic.LocalizedMessage original="${open} running, ${breached} breached" locale="es" localized="${open} en curso, ${breached} incumplidos"/>
+    <moqui.basic.LocalizedMessage original="${orderId} · rev ${orderRevision}" locale="es" localized="${orderId} · revisión ${orderRevision}"/>
+    <moqui.basic.LocalizedMessage original="${prepared.customerName} has ${prepared.duplicates.length} open case(s): is this one of them?" locale="es" localized="${prepared.customerName} tiene ${prepared.duplicates.length} caso(s) abierto(s): ¿es uno de ellos?"/>
+    <moqui.basic.LocalizedMessage original="${prepared.internalCount} internal note(s) or message(s) of the case are left out: they are never put in an article." locale="es" localized="${prepared.internalCount} nota(s) o mensaje(s) interno(s) del caso quedan fuera: nunca se ponen en un artículo."/>
+    <moqui.basic.LocalizedMessage original="${sim.policyName}, ${sim.bandText}: received ${sim.receivedText}, on ${sim.calendarText} (${sim.hoursText})" locale="es" localized="${sim.policyName}, ${sim.bandText}: recibido ${sim.receivedText}, el ${sim.calendarText} (${sim.hoursText})"/>
+    <moqui.basic.LocalizedMessage original="${splitPreview.chosenCount} item(s) chosen." locale="es" localized="${splitPreview.chosenCount} elemento(s) elegido(s)."/>
+    <moqui.basic.LocalizedMessage original="${team.teamName} · ${team.memberCount} members" locale="es" localized="${team.teamName} · ${team.memberCount} miembros"/>
+    <moqui.basic.LocalizedMessage original="${templateChoice.templateName}: its fields below; an internal one is never shown to the customer" locale="es" localized="${templateChoice.templateName}: sus campos abajo; uno interno nunca se muestra al cliente"/>
+    <moqui.basic.LocalizedMessage original="${typeText} for cases" locale="es" localized="${typeText} para casos"/>
+    <moqui.basic.LocalizedMessage original="0 to 3" locale="es" localized="0 a 3"/>
+    <moqui.basic.LocalizedMessage original="1 (highest) to 9; empty: 5" locale="es" localized="1 (la más alta) a 9; vacío: 5"/>
+    <moqui.basic.LocalizedMessage original="1. Customer and type" locale="es" localized="1. Cliente y tipo"/>
+    <moqui.basic.LocalizedMessage original="1. The answers it is made from" locale="es" localized="1. Las respuestas de las que se redacta"/>
+    <moqui.basic.LocalizedMessage original="1. The case to keep and its duplicates" locale="es" localized="1. El caso que se conserva y sus duplicados"/>
+    <moqui.basic.LocalizedMessage original="1. The customer and the sale" locale="es" localized="1. El cliente y la venta"/>
+    <moqui.basic.LocalizedMessage original="1. What the new case takes" locale="es" localized="1. Qué toma el caso nuevo"/>
+    <moqui.basic.LocalizedMessage original="2. The case" locale="es" localized="2. El caso"/>
+    <moqui.basic.LocalizedMessage original="2. The draft" locale="es" localized="2. El borrador"/>
+    <moqui.basic.LocalizedMessage original="2. The new case" locale="es" localized="2. El caso nuevo"/>
+    <moqui.basic.LocalizedMessage original="2. What comes back" locale="es" localized="2. Qué vuelve"/>
+    <moqui.basic.LocalizedMessage original="2. What the merge does" locale="es" localized="2. Qué hace la fusión"/>
+    <moqui.basic.LocalizedMessage original="3. Merge" locale="es" localized="3. Fusionar"/>
+    <moqui.basic.LocalizedMessage original="3. The request and its policy" locale="es" localized="3. La solicitud y su política"/>
+    <moqui.basic.LocalizedMessage original="A chargeable repair (partly covered or rejected), in the organization's currency" locale="es" localized="Una reparación con cargo (cubierta en parte o rechazada), en la moneda de la organización"/>
+    <moqui.basic.LocalizedMessage original="A Comms text block; it may name the case number, its subject and the queue" locale="es" localized="Un bloque de texto de Comms; puede nombrar el número del caso, su asunto y la cola"/>
+    <moqui.basic.LocalizedMessage original="A credit without receipt may be given" locale="es" localized="Se puede dar un crédito sin recibo"/>
+    <moqui.basic.LocalizedMessage original="A language code such as en or es" locale="es" localized="Un código de idioma como en o es"/>
+    <moqui.basic.LocalizedMessage original="A manual override of the lookup's end, with its reason" locale="es" localized="Una sustitución manual del fin de la consulta, con su motivo"/>
+    <moqui.basic.LocalizedMessage original="A message from an unknown sender makes" locale="es" localized="Un mensaje de un remitente desconocido crea"/>
+    <moqui.basic.LocalizedMessage original="A message, call or reference" locale="es" localized="Un mensaje, una llamada o una referencia"/>
+    <moqui.basic.LocalizedMessage original="A message, call or reference; a chargeable repair starts only with it" locale="es" localized="Un mensaje, una llamada o una referencia; una reparación con cargo solo empieza con ello"/>
+    <moqui.basic.LocalizedMessage original="A Message-ID, as &lt;id@host&gt;" locale="es" localized="Un Message-ID, como &lt;id@host&gt;"/>
+    <moqui.basic.LocalizedMessage original="A name, account id, email address or phone number" locale="es" localized="Un nombre, id de cuenta, dirección de correo electrónico o número de teléfono"/>
+    <moqui.basic.LocalizedMessage original="A new case is acknowledged" locale="es" localized="Un caso nuevo tiene acuse"/>
+    <moqui.basic.LocalizedMessage original="A page path of the space; empty for the whole space" locale="es" localized="Una ruta de página del espacio; vacío para todo el espacio"/>
+    <moqui.basic.LocalizedMessage original="A reopen" locale="es" localized="Una reapertura"/>
+    <moqui.basic.LocalizedMessage original="A repair: ${can.linkWorkReason}." locale="es" localized="Una reparación: ${can.linkWorkReason}."/>
+    <moqui.basic.LocalizedMessage original="A return reason" locale="es" localized="Un motivo de devolución"/>
+    <moqui.basic.LocalizedMessage original="A rule's Make a request action with a queue as its value files that queue's mail." locale="es" localized="La acción Hacer una solicitud de una regla, con una cola como valor, archiva el correo de esa cola."/>
+    <moqui.basic.LocalizedMessage original="Account, profile, branding, working hours and mail accounts are set in Commons." locale="es" localized="La cuenta, el perfil, la marca, las horas de trabajo y las cuentas de correo se establecen en Commons."/>
+    <moqui.basic.LocalizedMessage original="Acknowledge a new case" locale="es" localized="Acusar un caso nuevo"/>
+    <moqui.basic.LocalizedMessage original="Acknowledgement" locale="es" localized="Acuse"/>
+    <moqui.basic.LocalizedMessage original="Acknowledgement text" locale="es" localized="Texto del acuse"/>
+    <moqui.basic.LocalizedMessage original="Add a condition to ${rule.ruleName}" locale="es" localized="Añadir una condición a ${rule.ruleName}"/>
+    <moqui.basic.LocalizedMessage original="Add a field" locale="es" localized="Añadir un campo"/>
+    <moqui.basic.LocalizedMessage original="Add a knowledge source" locale="es" localized="Añadir una fuente de conocimiento"/>
+    <moqui.basic.LocalizedMessage original="Add a member to ${team.teamName}" locale="es" localized="Añadir un miembro a ${team.teamName}"/>
+    <moqui.basic.LocalizedMessage original="Add a move" locale="es" localized="Añadir un movimiento"/>
+    <moqui.basic.LocalizedMessage original="Add a route" locale="es" localized="Añadir una ruta"/>
+    <moqui.basic.LocalizedMessage original="Add action" locale="es" localized="Añadir acción"/>
+    <moqui.basic.LocalizedMessage original="Add an action to ${reply.title}" locale="es" localized="Añadir una acción a ${reply.title}"/>
+    <moqui.basic.LocalizedMessage original="Add from now" locale="es" localized="Añadir desde ahora"/>
+    <moqui.basic.LocalizedMessage original="Add repair" locale="es" localized="Añadir reparación"/>
+    <moqui.basic.LocalizedMessage original="Add the contact's email address first" locale="es" localized="Añada primero la dirección de correo electrónico del contacto"/>
+    <moqui.basic.LocalizedMessage original="Add two fields first: a condition shows or requires one field by the value of another." locale="es" localized="Añada primero dos campos: una condición muestra o exige un campo según el valor de otro."/>
+    <moqui.basic.LocalizedMessage original="Advance replacement (needs finance rights at authorization)" locale="es" localized="Reemplazo anticipado (necesita derechos de finanzas en la autorización)"/>
+    <moqui.basic.LocalizedMessage original="After the merge" locale="es" localized="Después de la fusión"/>
+    <moqui.basic.LocalizedMessage original="After this a reply makes a follow-up case" locale="es" localized="Después de esto una respuesta crea un caso de seguimiento"/>
+    <moqui.basic.LocalizedMessage original="Agent teams" locale="es" localized="Equipos de agentes"/>
+    <moqui.basic.LocalizedMessage original="Agents see" locale="es" localized="Los agentes ven"/>
+    <moqui.basic.LocalizedMessage original="All case templates" locale="es" localized="Todas las plantillas de caso"/>
+    <moqui.basic.LocalizedMessage original="All cases" locale="es" localized="Todos los casos"/>
+    <moqui.basic.LocalizedMessage original="All clocks" locale="es" localized="Todos los relojes"/>
+    <moqui.basic.LocalizedMessage original="All my cases" locale="es" localized="Todos mis casos"/>
+    <moqui.basic.LocalizedMessage original="Amounts per currency" locale="es" localized="Importes por moneda"/>
+    <moqui.basic.LocalizedMessage original="An autoresponder's or a list's: never a case, never acknowledged" locale="es" localized="De un contestador automático o de una lista: nunca un caso, nunca un acuse"/>
+    <moqui.basic.LocalizedMessage original="An IANA name such as America/Chicago" locale="es" localized="Un nombre IANA como America/Chicago"/>
+    <moqui.basic.LocalizedMessage original="An internal field is never shown or sent to the customer" locale="es" localized="Un campo interno nunca se muestra ni se envía al cliente"/>
+    <moqui.basic.LocalizedMessage original="An internal hold pauses resolution" locale="es" localized="Una retención interna pausa la resolución"/>
+    <moqui.basic.LocalizedMessage original="An internal note, or the reason a status needs" locale="es" localized="Una nota interna, o el motivo que exige un estado"/>
+    <moqui.basic.LocalizedMessage original="An open return counts as requested, never as credited. Amounts are per currency and never added across currencies." locale="es" localized="Una devolución abierta cuenta como solicitada, nunca como acreditada. Los importes son por moneda y nunca se suman entre monedas."/>
+    <moqui.basic.LocalizedMessage original="An order id, external id or customer reference finds                                 that order; a name, email or phone finds the customer's orders" locale="es" localized="Un id de orden, un id externo o una referencia del cliente encuentra esa orden; un nombre, un correo o un teléfono encuentra las órdenes del cliente"/>
+    <moqui.basic.LocalizedMessage original="Any time" locale="es" localized="En cualquier momento"/>
+    <moqui.basic.LocalizedMessage original="approved by ${name}" locale="es" localized="aprobado por ${name}"/>
+    <moqui.basic.LocalizedMessage original="Approved repair or replacement" locale="es" localized="Reparación o reemplazo aprobado"/>
+    <moqui.basic.LocalizedMessage original="Article feedback" locale="es" localized="Retroalimentación del artículo"/>
+    <moqui.basic.LocalizedMessage original="Article feedback is reviewed by the knowledge authors and the service managers." locale="es" localized="La retroalimentación del artículo la revisan los autores del conocimiento y los gerentes del servicio."/>
+    <moqui.basic.LocalizedMessage original="Article from a case" locale="es" localized="Artículo desde un caso"/>
+    <moqui.basic.LocalizedMessage original="Article from case ${requestId}" locale="es" localized="Artículo del caso ${requestId}"/>
+    <moqui.basic.LocalizedMessage original="Articles that may answer it" locale="es" localized="Artículos que pueden responderlo"/>
+    <moqui.basic.LocalizedMessage original="As a draft" locale="es" localized="Como borrador"/>
+    <moqui.basic.LocalizedMessage original="As of the claim's date, ${coverage.asOfText}." locale="es" localized="A la fecha de la reclamación, ${coverage.asOfText}."/>
+    <moqui.basic.LocalizedMessage original="Ask" locale="es" localized="Pedir"/>
+    <moqui.basic.LocalizedMessage original="Asked before" locale="es" localized="Solicitado antes de"/>
+    <moqui.basic.LocalizedMessage original="Asked from" locale="es" localized="Solicitado desde"/>
+    <moqui.basic.LocalizedMessage original="Assign the selected cases" locale="es" localized="Asignar los casos seleccionados"/>
+    <moqui.basic.LocalizedMessage original="Assignment and replies" locale="es" localized="Asignación y respuestas"/>
+    <moqui.basic.LocalizedMessage original="Assignment rules" locale="es" localized="Reglas de asignación"/>
+    <moqui.basic.LocalizedMessage original="Assignment rules may give them cases" locale="es" localized="Las reglas de asignación pueden darles casos"/>
+    <moqui.basic.LocalizedMessage original="Authorization valid (days)" locale="es" localized="Autorización válida (días)"/>
+    <moqui.basic.LocalizedMessage original="authorization valid until ${when}" locale="es" localized="autorización válida hasta ${when}"/>
+    <moqui.basic.LocalizedMessage original="Authorize the selected returns" locale="es" localized="Autorizar las devoluciones seleccionadas"/>
+    <moqui.basic.LocalizedMessage original="Automatic mail" locale="es" localized="Correo automático"/>
+    <moqui.basic.LocalizedMessage original="Back to case ${requestId}" locale="es" localized="Volver al caso ${requestId}"/>
+    <moqui.basic.LocalizedMessage original="Back to Case templates" locale="es" localized="Volver a Plantillas de caso"/>
+    <moqui.basic.LocalizedMessage original="Back to Knowledge" locale="es" localized="Volver a Conocimiento"/>
+    <moqui.basic.LocalizedMessage original="Back to Returns" locale="es" localized="Volver a Devoluciones"/>
+    <moqui.basic.LocalizedMessage original="Back to warranty claims" locale="es" localized="Volver a reclamaciones de garantía"/>
+    <moqui.basic.LocalizedMessage original="Breached" locale="es" localized="Incumplido"/>
+    <moqui.basic.LocalizedMessage original="Bulk reply" locale="es" localized="Respuesta masiva"/>
+    <moqui.basic.LocalizedMessage original="Business time counts each clock on its calendar, less its pauses; elapsed time is the clock on the wall. Median and p90 are of the clocks done in the period, with their count." locale="es" localized="El tiempo hábil cuenta cada reloj en su calendario, menos sus pausas; el tiempo transcurrido es el reloj de pared. La mediana y el p90 son de los relojes terminados en el periodo, con su cantidad."/>
+    <moqui.basic.LocalizedMessage original="By id, name or code" locale="es" localized="Por id, nombre o código"/>
+    <moqui.basic.LocalizedMessage original="By name, account, email or phone" locale="es" localized="Por nombre, cuenta, correo o teléfono"/>
+    <moqui.basic.LocalizedMessage original="Calls, chats and mail with customers and on your cases." locale="es" localized="Llamadas, conversaciones y correo con los clientes y en sus casos."/>
+    <moqui.basic.LocalizedMessage original="Cancel returns" locale="es" localized="Cancelar devoluciones"/>
+    <moqui.basic.LocalizedMessage original="Cancel the selected returns" locale="es" localized="Cancelar las devoluciones seleccionadas"/>
+    <moqui.basic.LocalizedMessage original="Cancelled (not started)" locale="es" localized="Cancelado (no iniciado)"/>
+    <moqui.basic.LocalizedMessage original="Case ${keptCase.requestId} · ${keptCase.requestName} of ${keptCase.customerName} is kept, with its clocks as they are. Only the same customer's cases merge; another customer's case is linked as related instead." locale="es" localized="Se conserva el caso ${keptCase.requestId} · ${keptCase.requestName} de ${keptCase.customerName}, con sus relojes como están. Solo se fusionan casos del mismo cliente; el caso de otro cliente se vincula como relacionado."/>
+    <moqui.basic.LocalizedMessage original="Case ${mergeTarget}" locale="es" localized="Caso ${mergeTarget}"/>
+    <moqui.basic.LocalizedMessage original="Case ${requestId}" locale="es" localized="Caso ${requestId}"/>
+    <moqui.basic.LocalizedMessage original="Case ${requestId} is not available" locale="es" localized="El caso ${requestId} no está disponible"/>
+    <moqui.basic.LocalizedMessage original="Case ${requestId} is not available to you here: articles from cases are drafted by the knowledge authors, on a case they see." locale="es" localized="El caso ${requestId} no está disponible para usted aquí: los artículos desde casos los redactan los autores del conocimiento, en un caso que ven."/>
+    <moqui.basic.LocalizedMessage original="Case ${requestId} is not available to you." locale="es" localized="El caso ${requestId} no está disponible para usted."/>
+    <moqui.basic.LocalizedMessage original="Case ${requestId}: ${prepared.caseName}" locale="es" localized="Caso ${requestId}: ${prepared.caseName}"/>
+    <moqui.basic.LocalizedMessage original="Case ${requestId}: ${status}" locale="es" localized="Caso ${requestId}: ${status}"/>
+    <moqui.basic.LocalizedMessage original="Case actions, in order" locale="es" localized="Acciones del caso, en orden"/>
+    <moqui.basic.LocalizedMessage original="Case template" locale="es" localized="Plantilla de caso"/>
+    <moqui.basic.LocalizedMessage original="Case templates" locale="es" localized="Plantillas de caso"/>
+    <moqui.basic.LocalizedMessage original="Case type" locale="es" localized="Tipo de caso"/>
+    <moqui.basic.LocalizedMessage original="Case types offered" locale="es" localized="Tipos de caso ofrecidos"/>
+    <moqui.basic.LocalizedMessage original="Case workflow" locale="es" localized="Flujo de trabajo del caso"/>
+    <moqui.basic.LocalizedMessage original="Change ${policy.policyName}" locale="es" localized="Cambiar ${policy.policyName}"/>
+    <moqui.basic.LocalizedMessage original="Change the status of case ${requestId}" locale="es" localized="Cambiar el estado del caso ${requestId}"/>
+    <moqui.basic.LocalizedMessage original="Channel routing" locale="es" localized="Enrutamiento de canales"/>
+    <moqui.basic.LocalizedMessage original="Channel sessions" locale="es" localized="Sesiones de canal"/>
+    <moqui.basic.LocalizedMessage original="Channels" locale="es" localized="Canales"/>
+    <moqui.basic.LocalizedMessage original="Charge estimate" locale="es" localized="Estimación del cargo"/>
+    <moqui.basic.LocalizedMessage original="Check of these values" locale="es" localized="Comprobación de estos valores"/>
+    <moqui.basic.LocalizedMessage original="Check these values" locale="es" localized="Comprobar estos valores"/>
+    <moqui.basic.LocalizedMessage original="Choice buttons" locale="es" localized="Botones de elección"/>
+    <moqui.basic.LocalizedMessage original="Choose an organization with a published site with the Support app" locale="es" localized="Elija una organización con un sitio publicado que tenga la aplicación Soporte"/>
+    <moqui.basic.LocalizedMessage original="Choose cases and a saved reply on Cases first." locale="es" localized="Elija primero casos y una respuesta guardada en Casos."/>
+    <moqui.basic.LocalizedMessage original="Choose one of the contact's own email addresses" locale="es" localized="Elija una de las direcciones de correo electrónico del propio contacto"/>
+    <moqui.basic.LocalizedMessage original="Claim ${requestId} is decided" locale="es" localized="La reclamación ${requestId} está decidida"/>
+    <moqui.basic.LocalizedMessage original="Claimed" locale="es" localized="Reclamado"/>
+    <moqui.basic.LocalizedMessage original="claimed ${date}" locale="es" localized="reclamado ${date}"/>
+    <moqui.basic.LocalizedMessage original="Claimed before" locale="es" localized="Reclamado antes de"/>
+    <moqui.basic.LocalizedMessage original="Claimed from" locale="es" localized="Reclamado desde"/>
+    <moqui.basic.LocalizedMessage original="Clock starts" locale="es" localized="El reloj empieza"/>
+    <moqui.basic.LocalizedMessage original="Clocks started in the period, as they stood at the as-of time. The rate is met over met, missed, closed without it and open past due; cancelled cases are shown apart, never in the rate." locale="es" localized="Relojes iniciados en el periodo, como estaban en el momento de corte. La tasa es cumplidos sobre cumplidos, incumplidos, cerrados sin ello y abiertos vencidos; los casos cancelados se muestran aparte, nunca en la tasa."/>
+    <moqui.basic.LocalizedMessage original="Close resolved cases after (days)" locale="es" localized="Cerrar casos resueltos después de (días)"/>
+    <moqui.basic.LocalizedMessage original="Conditions: a case must meet all of them" locale="es" localized="Condiciones: un caso debe cumplirlas todas"/>
+    <moqui.basic.LocalizedMessage original="Coverage until" locale="es" localized="Cobertura hasta"/>
+    <moqui.basic.LocalizedMessage original="Coverage until ${coverage.coverageEndText}: ${coverage.coverageEndSourceText}" locale="es" localized="Cobertura hasta ${coverage.coverageEndText}: ${coverage.coverageEndSourceText}"/>
+    <moqui.basic.LocalizedMessage original="Coverage · ${coverage.covered ? 'covered' : 'not covered'} · ${coverage.basisText}" locale="es" localized="Cobertura · ${coverage.covered ? 'covered' : 'not covered'} · ${coverage.basisText}"/>
+    <moqui.basic.LocalizedMessage original="Create case" locale="es" localized="Crear caso"/>
+    <moqui.basic.LocalizedMessage original="Create queue" locale="es" localized="Crear cola"/>
+    <moqui.basic.LocalizedMessage original="Create reply" locale="es" localized="Crear respuesta"/>
+    <moqui.basic.LocalizedMessage original="Created case ${requestId}" locale="es" localized="Caso ${requestId} creado"/>
+    <moqui.basic.LocalizedMessage original="Customer copy" locale="es" localized="Copia del cliente"/>
+    <moqui.basic.LocalizedMessage original="Customer copy of case ${requestId}: print it from the browser" locale="es" localized="Copia del cliente del caso ${requestId}: imprímala desde el navegador"/>
+    <moqui.basic.LocalizedMessage original="Customer follow-up" locale="es" localized="Seguimiento del cliente"/>
+    <moqui.basic.LocalizedMessage original="Customer group" locale="es" localized="Grupo de clientes"/>
+    <moqui.basic.LocalizedMessage original="Customer instructions" locale="es" localized="Instrucciones para el cliente"/>
+    <moqui.basic.LocalizedMessage original="Customer label" locale="es" localized="Etiqueta para el cliente"/>
+    <moqui.basic.LocalizedMessage original="Customer Service context is not available" locale="es" localized="El contexto del servicio al cliente no está disponible"/>
+    <moqui.basic.LocalizedMessage original="Customer Service is not available" locale="es" localized="El servicio al cliente no está disponible"/>
+    <moqui.basic.LocalizedMessage original="Customer Service is not set up for your organizations yet: the service defaults, a queue and a case type come first." locale="es" localized="Servicio al cliente aún no está configurado para sus organizaciones: primero van los valores predeterminados del servicio, una cola y un tipo de caso."/>
+    <moqui.basic.LocalizedMessage original="Customer Service settings" locale="es" localized="Configuración del servicio al cliente"/>
+    <moqui.basic.LocalizedMessage original="Customer Service settings are not available to you." locale="es" localized="La configuración del servicio al cliente no está disponible para usted."/>
+    <moqui.basic.LocalizedMessage original="Customer's reference" locale="es" localized="Referencia del cliente"/>
+    <moqui.basic.LocalizedMessage original="Customer-visible" locale="es" localized="Visible para el cliente"/>
+    <moqui.basic.LocalizedMessage original="Customer-visible field" locale="es" localized="Campo visible para el cliente"/>
+    <moqui.basic.LocalizedMessage original="Customers cancel unshipped orders at once" locale="es" localized="Los clientes cancelan de inmediato las órdenes no enviadas"/>
+    <moqui.basic.LocalizedMessage original="Customers may choose it" locale="es" localized="Los clientes pueden elegirlo"/>
+    <moqui.basic.LocalizedMessage original="Customers may request returns themselves" locale="es" localized="Los clientes pueden solicitar devoluciones ellos mismos"/>
+    <moqui.basic.LocalizedMessage original="Customers reach the Support app at ${urls}." locale="es" localized="Los clientes llegan a la aplicación Soporte en ${urls}."/>
+    <moqui.basic.LocalizedMessage original="Customers see" locale="es" localized="Los clientes ven"/>
+    <moqui.basic.LocalizedMessage original="Customers · ${customers.length}" locale="es" localized="Clientes · ${customers.length}"/>
+    <moqui.basic.LocalizedMessage original="Days between reminders" locale="es" localized="Días entre recordatorios"/>
+    <moqui.basic.LocalizedMessage original="Decide claim ${requestId}" locale="es" localized="Decidir la reclamación ${requestId}"/>
+    <moqui.basic.LocalizedMessage original="Decisions · ${decisionList.length}" locale="es" localized="Decisiones · ${decisionList.length}"/>
+    <moqui.basic.LocalizedMessage original="Default priority" locale="es" localized="Prioridad predeterminada"/>
+    <moqui.basic.LocalizedMessage original="Default queue" locale="es" localized="Cola predeterminada"/>
+    <moqui.basic.LocalizedMessage original="Delete the draft field ${title}?" locale="es" localized="¿Eliminar el campo en borrador ${title}?"/>
+    <moqui.basic.LocalizedMessage original="Delivered to the customer by your organizations" locale="es" localized="Entregado al cliente por sus organizaciones"/>
+    <moqui.basic.LocalizedMessage original="Dismiss request ${requestId}" locale="es" localized="Ignorar la solicitud ${requestId}"/>
+    <moqui.basic.LocalizedMessage original="Dismissed request ${requestId}" locale="es" localized="Solicitud ${requestId} ignorada"/>
+    <moqui.basic.LocalizedMessage original="draft" locale="es" localized="borrador"/>
+    <moqui.basic.LocalizedMessage original="Draft ${path} saved, not published" locale="es" localized="Borrador ${path} guardado, sin publicar"/>
+    <moqui.basic.LocalizedMessage original="Draft space" locale="es" localized="Espacio de borradores"/>
+    <moqui.basic.LocalizedMessage original="Drafts go to" locale="es" localized="Los borradores van a"/>
+    <moqui.basic.LocalizedMessage original="Drafts under" locale="es" localized="Borradores bajo"/>
+    <moqui.basic.LocalizedMessage original="due ${when}" locale="es" localized="vence ${when}"/>
+    <moqui.basic.LocalizedMessage original="Each case gets its own message to its own contact, on its own thread; no case sees another's address." locale="es" localized="Cada caso recibe su propio mensaje para su propio contacto, en su propio hilo; ningún caso ve la dirección de otro."/>
+    <moqui.basic.LocalizedMessage original="Each report reads your organizations and the queues of the teams you report on, as of the time it is run; its export holds the same rows." locale="es" localized="Cada informe lee sus organizaciones y las colas de los equipos sobre los que informa, en el momento en que se ejecuta; su exportación tiene las mismas filas."/>
+    <moqui.basic.LocalizedMessage original="Each time it is resolved" locale="es" localized="Cada vez que se resuelve"/>
+    <moqui.basic.LocalizedMessage original="Earlier feedback delivery" locale="es" localized="Entrega anterior de retroalimentación"/>
+    <moqui.basic.LocalizedMessage original="Edit the field ${title}" locale="es" localized="Editar el campo ${title}"/>
+    <moqui.basic.LocalizedMessage original="Edit the route of ${queueText}" locale="es" localized="Editar la ruta de ${queueText}"/>
+    <moqui.basic.LocalizedMessage original="Edit the source ${spaceName}" locale="es" localized="Editar la fuente ${spaceName}"/>
+    <moqui.basic.LocalizedMessage original="Empty leaves it for the queue's team" locale="es" localized="Vacío lo deja para el equipo de la cola"/>
+    <moqui.basic.LocalizedMessage original="Empty leaves the task unassigned" locale="es" localized="Vacío deja la tarea sin asignar"/>
+    <moqui.basic.LocalizedMessage original="Empty takes every service-enabled type" locale="es" localized="Vacío acepta todos los tipos habilitados para el servicio"/>
+    <moqui.basic.LocalizedMessage original="Empty takes the sale line's invoice" locale="es" localized="Vacío toma la factura de la línea de venta"/>
+    <moqui.basic.LocalizedMessage original="Empty takes the serial's product" locale="es" localized="Vacío toma el producto del número de serie"/>
+    <moqui.basic.LocalizedMessage original="Empty takes the serial's sale" locale="es" localized="Vacío toma la venta del número de serie"/>
+    <moqui.basic.LocalizedMessage original="Empty unassigns them" locale="es" localized="Vacío los desasigna"/>
+    <moqui.basic.LocalizedMessage original="Empty: 60" locale="es" localized="Vacío: 60"/>
+    <moqui.basic.LocalizedMessage original="Empty: any customer" locale="es" localized="Vacío: cualquier cliente"/>
+    <moqui.basic.LocalizedMessage original="Empty: any queue" locale="es" localized="Vacío: cualquier cola"/>
+    <moqui.basic.LocalizedMessage original="Empty: any type" locale="es" localized="Vacío: cualquier tipo"/>
+    <moqui.basic.LocalizedMessage original="Empty: credit, refund and replacement" locale="es" localized="Vacío: crédito, reembolso y reemplazo"/>
+    <moqui.basic.LocalizedMessage original="Empty: each queue's own" locale="es" localized="Vacío: el de cada cola"/>
+    <moqui.basic.LocalizedMessage original="Empty: every agent of the team" locale="es" localized="Vacío: todos los agentes del equipo"/>
+    <moqui.basic.LocalizedMessage original="Empty: every category of the site" locale="es" localized="Vacío: todas las categorías del sitio"/>
+    <moqui.basic.LocalizedMessage original="Empty: every customer" locale="es" localized="Vacío: todos los clientes"/>
+    <moqui.basic.LocalizedMessage original="Empty: every customer and public knowledge source" locale="es" localized="Vacío: todas las fuentes de conocimiento de clientes y públicas"/>
+    <moqui.basic.LocalizedMessage original="Empty: every product" locale="es" localized="Vacío: todos los productos"/>
+    <moqui.basic.LocalizedMessage original="Empty: every queue" locale="es" localized="Vacío: todas las colas"/>
+    <moqui.basic.LocalizedMessage original="Empty: every reason" locale="es" localized="Vacío: todos los motivos"/>
+    <moqui.basic.LocalizedMessage original="Empty: every store" locale="es" localized="Vacío: todas las tiendas"/>
+    <moqui.basic.LocalizedMessage original="Empty: every type" locale="es" localized="Vacío: todos los tipos"/>
+    <moqui.basic.LocalizedMessage original="Empty: from now. A later date, or a new kind or audience, makes a new field that replaces this one" locale="es" localized="Vacío: desde ahora. Una fecha posterior, o un tipo o un público nuevo, crea un campo nuevo que reemplaza a este"/>
+    <moqui.basic.LocalizedMessage original="Empty: from now. New cases take the drafts from then; earlier cases keep the form they were made with" locale="es" localized="Vacío: desde ahora. Los casos nuevos toman los borradores desde entonces; los anteriores conservan el formulario con el que se crearon"/>
+    <moqui.basic.LocalizedMessage original="Empty: never" locale="es" localized="Vacío: nunca"/>
+    <moqui.basic.LocalizedMessage original="Empty: no follow-up" locale="es" localized="Vacío: sin seguimiento"/>
+    <moqui.basic.LocalizedMessage original="Empty: no limit" locale="es" localized="Vacío: sin límite"/>
+    <moqui.basic.LocalizedMessage original="Empty: no limit; an agent's own limit counts first" locale="es" localized="Vacío: sin límite; el límite propio del agente cuenta primero"/>
+    <moqui.basic.LocalizedMessage original="Empty: now; a published rule's change starts a new row and ends this one" locale="es" localized="Vacío: ahora; el cambio de una regla publicada inicia una fila nueva y termina esta"/>
+    <moqui.basic.LocalizedMessage original="Empty: now; an invitation keeps the row it was made under" locale="es" localized="Vacío: ahora; una invitación conserva la fila con la que se creó"/>
+    <moqui.basic.LocalizedMessage original="Empty: now; open cases keep the row they began with" locale="es" localized="Vacío: ahora; los casos abiertos conservan la fila con la que empezaron"/>
+    <moqui.basic.LocalizedMessage original="Empty: now; the days before keep their hours" locale="es" localized="Vacío: ahora; los días anteriores conservan su horario"/>
+    <moqui.basic.LocalizedMessage original="Empty: now; the row in effect ends then" locale="es" localized="Vacío: ahora; la fila en vigor termina entonces"/>
+    <moqui.basic.LocalizedMessage original="Empty: the case's queue team" locale="es" localized="Vacío: el equipo de la cola del caso"/>
+    <moqui.basic.LocalizedMessage original="Empty: the default queue" locale="es" localized="Vacío: la cola predeterminada"/>
+    <moqui.basic.LocalizedMessage original="Empty: the order's carrier" locale="es" localized="Vacío: el transportista de la orden"/>
+    <moqui.basic.LocalizedMessage original="Empty: the queue's assignment rules" locale="es" localized="Vacío: las reglas de asignación de la cola"/>
+    <moqui.basic.LocalizedMessage original="Empty: the queue's team" locale="es" localized="Vacío: el equipo de la cola"/>
+    <moqui.basic.LocalizedMessage original="Empty: the rule's limit, if any" locale="es" localized="Vacío: el límite de la regla, si lo hay"/>
+    <moqui.basic.LocalizedMessage original="Empty: the sender becomes the customer" locale="es" localized="Vacío: el remitente pasa a ser el cliente"/>
+    <moqui.basic.LocalizedMessage original="Empty: the service defaults' rule" locale="es" localized="Vacío: la regla de los valores predeterminados del servicio"/>
+    <moqui.basic.LocalizedMessage original="Empty: the source's review team" locale="es" localized="Vacío: el equipo de revisión de la fuente"/>
+    <moqui.basic.LocalizedMessage original="Empty: the working hours of the queue's team" locale="es" localized="Vacío: las horas de trabajo del equipo de la cola"/>
+    <moqui.basic.LocalizedMessage original="Empty: their own hours, else the team's" locale="es" localized="Vacío: su horario; si no, el del equipo"/>
+    <moqui.basic.LocalizedMessage original="Empty: with or without one" locale="es" localized="Vacío: con o sin uno"/>
+    <moqui.basic.LocalizedMessage original="End the field ${title}" locale="es" localized="Finalizar el campo ${title}"/>
+    <moqui.basic.LocalizedMessage original="End the field ${title}? Cases made before keep its value." locale="es" localized="¿Finalizar el campo ${title}? Los casos creados antes conservan su valor."/>
+    <moqui.basic.LocalizedMessage original="End the route of ${queueText}" locale="es" localized="Finalizar la ruta de ${queueText}"/>
+    <moqui.basic.LocalizedMessage original="End the source ${spaceName}" locale="es" localized="Finalizar la fuente ${spaceName}"/>
+    <moqui.basic.LocalizedMessage original="End this reason's row" locale="es" localized="Finalizar la fila de este motivo"/>
+    <moqui.basic.LocalizedMessage original="Ended the condition" locale="es" localized="Condición finalizada"/>
+    <moqui.basic.LocalizedMessage original="Ended the field; earlier cases keep its value" locale="es" localized="Campo finalizado; los casos anteriores conservan su valor"/>
+    <moqui.basic.LocalizedMessage original="Ended the knowledge source" locale="es" localized="Fuente de conocimiento finalizada"/>
+    <moqui.basic.LocalizedMessage original="Ended the policy" locale="es" localized="Política finalizada"/>
+    <moqui.basic.LocalizedMessage original="Ended the return policy" locale="es" localized="Política de devolución finalizada"/>
+    <moqui.basic.LocalizedMessage original="Ended the route" locale="es" localized="Ruta finalizada"/>
+    <moqui.basic.LocalizedMessage original="Ended the rule" locale="es" localized="Regla finalizada"/>
+    <moqui.basic.LocalizedMessage original="entered ${when}" locale="es" localized="registrada ${when}"/>
+    <moqui.basic.LocalizedMessage original="Every agent of the team" locale="es" localized="Todos los agentes del equipo"/>
+    <moqui.basic.LocalizedMessage original="Every case" locale="es" localized="Todos los casos"/>
+    <moqui.basic.LocalizedMessage original="Every return reason is offered with its own name." locale="es" localized="Cada motivo de devolución se ofrece con su propio nombre."/>
+    <moqui.basic.LocalizedMessage original="Every service-enabled type" locale="es" localized="Todos los tipos habilitados para el servicio"/>
+    <moqui.basic.LocalizedMessage original="Evidence of claim ${requestId}" locale="es" localized="Evidencia de la reclamación ${requestId}"/>
+    <moqui.basic.LocalizedMessage original="Fallback assignee" locale="es" localized="Responsable de respaldo"/>
+    <moqui.basic.LocalizedMessage original="Fault, usage and condition" locale="es" localized="Falla, uso y estado"/>
+    <moqui.basic.LocalizedMessage original="Fee cap" locale="es" localized="Tope del cargo"/>
+    <moqui.basic.LocalizedMessage original="Feedback delivery" locale="es" localized="Entrega de retroalimentación"/>
+    <moqui.basic.LocalizedMessage original="Feedback form" locale="es" localized="Formulario de retroalimentación"/>
+    <moqui.basic.LocalizedMessage original="Feedback forms" locale="es" localized="Formularios de retroalimentación"/>
+    <moqui.basic.LocalizedMessage original="filed ${date}" locale="es" localized="presentado ${date}"/>
+    <moqui.basic.LocalizedMessage original="Files into" locale="es" localized="Se archiva en"/>
+    <moqui.basic.LocalizedMessage original="finished ${when}" locale="es" localized="terminado ${when}"/>
+    <moqui.basic.LocalizedMessage original="First for" locale="es" localized="Primero para"/>
+    <moqui.basic.LocalizedMessage original="First for the queue" locale="es" localized="Primero para la cola"/>
+    <moqui.basic.LocalizedMessage original="Follow up a score of at most" locale="es" localized="Dar seguimiento a una puntuación de como máximo"/>
+    <moqui.basic.LocalizedMessage original="Follow up within (days)" locale="es" localized="Dar seguimiento en (días)"/>
+    <moqui.basic.LocalizedMessage original="Follow-up team" locale="es" localized="Equipo de seguimiento"/>
+    <moqui.basic.LocalizedMessage original="For a choice: one a line, as value | label (the value is what a condition compares)" locale="es" localized="Para una elección: uno por línea, como valor | etiqueta (el valor es lo que compara una condición)"/>
+    <moqui.basic.LocalizedMessage original="For Add a tag" locale="es" localized="Para Añadir una etiqueta"/>
+    <moqui.basic.LocalizedMessage original="For any customer to read: no names, contacts, addresses or orders" locale="es" localized="Para que cualquier cliente lo lea: sin nombres, contactos, direcciones ni órdenes"/>
+    <moqui.basic.LocalizedMessage original="For Assign to" locale="es" localized="Para Asignar a"/>
+    <moqui.basic.LocalizedMessage original="For is and is not: one of the field's options" locale="es" localized="Para es y no es: una de las opciones del campo"/>
+    <moqui.basic.LocalizedMessage original="For mail; empty: any account whose rule names the queue" locale="es" localized="Para el correo; vacío: cualquier cuenta cuya regla nombre la cola"/>
+    <moqui.basic.LocalizedMessage original="For Set the priority" locale="es" localized="Para Establecer la prioridad"/>
+    <moqui.basic.LocalizedMessage original="For Set the status" locale="es" localized="Para Establecer el estado"/>
+    <moqui.basic.LocalizedMessage original="For the forum" locale="es" localized="Para el foro"/>
+    <moqui.basic.LocalizedMessage original="For the public form; empty: 30" locale="es" localized="Para el formulario público; vacío: 30"/>
+    <moqui.basic.LocalizedMessage original="Form link lasts (days)" locale="es" localized="El enlace del formulario dura (días)"/>
+    <moqui.basic.LocalizedMessage original="Form requests an hour" locale="es" localized="Solicitudes del formulario por hora"/>
+    <moqui.basic.LocalizedMessage original="Forum category" locale="es" localized="Categoría del foro"/>
+    <moqui.basic.LocalizedMessage original="Forum site" locale="es" localized="Sitio del foro"/>
+    <moqui.basic.LocalizedMessage original="From case" locale="es" localized="Desde el caso"/>
+    <moqui.basic.LocalizedMessage original="From case ${prepared.caseRow?.requestId}: ${prepared.caseRow?.label}" locale="es" localized="Desde el caso ${prepared.caseRow?.requestId}: ${prepared.caseRow?.label}"/>
+    <moqui.basic.LocalizedMessage original="Gets the tasks of its feedback and suggested edits" locale="es" localized="Recibe las tareas de su retroalimentación y de las ediciones sugeridas"/>
+    <moqui.basic.LocalizedMessage original="Give cases" locale="es" localized="Dar casos"/>
+    <moqui.basic.LocalizedMessage original="Gives cases" locale="es" localized="Da casos"/>
+    <moqui.basic.LocalizedMessage original="Goods go to" locale="es" localized="Los bienes van a"/>
+    <moqui.basic.LocalizedMessage original="Goodwill" locale="es" localized="Cortesía"/>
+    <moqui.basic.LocalizedMessage original="Headers" locale="es" localized="Encabezados"/>
+    <moqui.basic.LocalizedMessage original="Held for review" locale="es" localized="Retenido para revisión"/>
+    <moqui.basic.LocalizedMessage original="Help from" locale="es" localized="Ayuda de"/>
+    <moqui.basic.LocalizedMessage original="High: first response (minutes)" locale="es" localized="Alta: primera respuesta (minutos)"/>
+    <moqui.basic.LocalizedMessage original="Hold or conflict" locale="es" localized="Retención o conflicto"/>
+    <moqui.basic.LocalizedMessage original="How ${name} takes cases" locale="es" localized="Cómo ${name} acepta casos"/>
+    <moqui.basic.LocalizedMessage original="How it was read" locale="es" localized="Cómo se leyó"/>
+    <moqui.basic.LocalizedMessage original="How mail, the public form, the forum and chat reach the queues: what a message from a customer, from staff or from an unknown sender makes, and the acknowledgement a new case gets." locale="es" localized="Cómo el correo, el formulario público, el foro y la conversación llegan a las colas: qué crea un mensaje de un cliente, del personal o de un remitente desconocido, y el acuse que recibe un caso nuevo."/>
+    <moqui.basic.LocalizedMessage original="In effect since ${from}." locale="es" localized="En vigor desde ${from}."/>
+    <moqui.basic.LocalizedMessage original="In reply to" locale="es" localized="En respuesta a"/>
+    <moqui.basic.LocalizedMessage original="In their working hours" locale="es" localized="En sus horas de trabajo"/>
+    <moqui.basic.LocalizedMessage original="Inspected on receipt" locale="es" localized="Inspeccionado al recibir"/>
+    <moqui.basic.LocalizedMessage original="Instant credit (needs finance rights at authorization)" locale="es" localized="Crédito inmediato (necesita derechos de finanzas en la autorización)"/>
+    <moqui.basic.LocalizedMessage original="Intake (received, resolved, reopened, cancelled, merged) is counted in the period; the backlog is the cases open at the as-of time, a merged case once." locale="es" localized="La entrada (recibidos, resueltos, reabiertos, cancelados, fusionados) se cuenta en el periodo; el trabajo pendiente son los casos abiertos en el momento de corte, un caso fusionado una sola vez."/>
+    <moqui.basic.LocalizedMessage original="internal" locale="es" localized="interno"/>
+    <moqui.basic.LocalizedMessage original="Internal summary" locale="es" localized="Resumen interno"/>
+    <moqui.basic.LocalizedMessage original="Internal summary of case ${requestId}: print it from the browser" locale="es" localized="Resumen interno del caso ${requestId}: imprímalo desde el navegador"/>
+    <moqui.basic.LocalizedMessage original="Inviting a contact to the Support app needs SUPPORT_CONTACT_INVITE" locale="es" localized="Invitar a un contacto a la aplicación Soporte necesita SUPPORT_CONTACT_INVITE"/>
+    <moqui.basic.LocalizedMessage original="Invoice ${claim.invoiceId}" locale="es" localized="Factura ${claim.invoiceId}"/>
+    <moqui.basic.LocalizedMessage original="is filled in" locale="es" localized="no está vacío"/>
+    <moqui.basic.LocalizedMessage original="is not" locale="es" localized="no es"/>
+    <moqui.basic.LocalizedMessage original="Its clock starts ${when}, when the earliest message chosen came in." locale="es" localized="Su reloj empieza ${when}, cuando llegó el mensaje elegido más antiguo."/>
+    <moqui.basic.LocalizedMessage original="Its team's working hours; empty: the default queue" locale="es" localized="Las horas de trabajo de su equipo; vacío: la cola predeterminada"/>
+    <moqui.basic.LocalizedMessage original="Joins by its" locale="es" localized="Se une por su"/>
+    <moqui.basic.LocalizedMessage original="Keep as a draft" locale="es" localized="Conservar como borrador"/>
+    <moqui.basic.LocalizedMessage original="Kept on each case's history" locale="es" localized="Conservado en el historial de cada caso"/>
+    <moqui.basic.LocalizedMessage original="Knowledge and feedback" locale="es" localized="Conocimiento y retroalimentación"/>
+    <moqui.basic.LocalizedMessage original="Knowledge sources" locale="es" localized="Fuentes de conocimiento"/>
+    <moqui.basic.LocalizedMessage original="Latest order" locale="es" localized="Última orden"/>
+    <moqui.basic.LocalizedMessage original="Left to return" locale="es" localized="Pendiente de devolver"/>
+    <moqui.basic.LocalizedMessage original="Low: first response (minutes)" locale="es" localized="Baja: primera respuesta (minutos)"/>
+    <moqui.basic.LocalizedMessage original="Lower comes first" locale="es" localized="El menor va primero"/>
+    <moqui.basic.LocalizedMessage original="Made the template ${description}: add its fields, then publish it" locale="es" localized="Plantilla ${description} creada: añada sus campos y luego publíquela"/>
+    <moqui.basic.LocalizedMessage original="Mail rules" locale="es" localized="Reglas de correo"/>
+    <moqui.basic.LocalizedMessage original="Mail rules in Comms" locale="es" localized="Reglas de correo en Comms"/>
+    <moqui.basic.LocalizedMessage original="Make a new link for ${queue}? The current link stops working." locale="es" localized="¿Crear un enlace nuevo para ${queue}? El enlace actual deja de funcionar."/>
+    <moqui.basic.LocalizedMessage original="Make it a case" locale="es" localized="Convertirlo en caso"/>
+    <moqui.basic.LocalizedMessage original="Make request ${requestId} a case" locale="es" localized="Convertir la solicitud ${requestId} en caso"/>
+    <moqui.basic.LocalizedMessage original="Make template" locale="es" localized="Crear plantilla"/>
+    <moqui.basic.LocalizedMessage original="Make the new case" locale="es" localized="Crear el caso nuevo"/>
+    <moqui.basic.LocalizedMessage original="Managers only" locale="es" localized="Solo gerentes"/>
+    <moqui.basic.LocalizedMessage original="Measured as of ${asOfText}; times in each clock's zone" locale="es" localized="Medido a ${asOfText}; tiempos en la zona de cada reloj"/>
+    <moqui.basic.LocalizedMessage original="Median open age" locale="es" localized="Antigüedad mediana en abierto"/>
+    <moqui.basic.LocalizedMessage original="Merge ${mergePreview.sources.length} case(s)" locale="es" localized="Fusionar ${mergePreview.sources.length} caso(s)"/>
+    <moqui.basic.LocalizedMessage original="Merge into it" locale="es" localized="Fusionar en él"/>
+    <moqui.basic.LocalizedMessage original="Merged ${mergeSources.length} case(s) into case ${requestId}" locale="es" localized="Se fusionaron ${mergeSources.length} caso(s) en el caso ${requestId}"/>
+    <moqui.basic.LocalizedMessage original="Merged into it" locale="es" localized="Fusionado en él"/>
+    <moqui.basic.LocalizedMessage original="Merging cases is for service managers." locale="es" localized="Fusionar casos es para los gerentes del servicio."/>
+    <moqui.basic.LocalizedMessage original="More filters" locale="es" localized="Más filtros"/>
+    <moqui.basic.LocalizedMessage original="Most open cases" locale="es" localized="Máximo de casos abiertos"/>
+    <moqui.basic.LocalizedMessage original="Needed for a return no policy covers (manual review)" locale="es" localized="Necesario para una devolución que ninguna política cubre (revisión manual)"/>
+    <moqui.basic.LocalizedMessage original="Needs a reason" locale="es" localized="Necesita un motivo"/>
+    <moqui.basic.LocalizedMessage original="Needs a resolution" locale="es" localized="Necesita una resolución"/>
+    <moqui.basic.LocalizedMessage original="Needs case editing or return authorization access, which an administrator can grant." locale="es" localized="Necesita acceso para editar casos o autorizar devoluciones, que un administrador puede conceder."/>
+    <moqui.basic.LocalizedMessage original="Needs information" locale="es" localized="Necesita información"/>
+    <moqui.basic.LocalizedMessage original="Needs return policy editing access, which an administrator can grant." locale="es" localized="Necesita acceso para editar políticas de devolución, que un administrador puede conceder."/>
+    <moqui.basic.LocalizedMessage original="Needs service settings access, which an administrator can grant." locale="es" localized="Necesita acceso a la configuración del servicio, que un administrador puede conceder."/>
+    <moqui.basic.LocalizedMessage original="New assignment rule" locale="es" localized="Nueva regla de asignación"/>
+    <moqui.basic.LocalizedMessage original="New case template" locale="es" localized="Nueva plantilla de caso"/>
+    <moqui.basic.LocalizedMessage original="New cases" locale="es" localized="Casos nuevos"/>
+    <moqui.basic.LocalizedMessage original="New queue" locale="es" localized="Nueva cola"/>
+    <moqui.basic.LocalizedMessage original="New return policy" locale="es" localized="Nueva política de devolución"/>
+    <moqui.basic.LocalizedMessage original="New saved reply" locale="es" localized="Nueva respuesta guardada"/>
+    <moqui.basic.LocalizedMessage original="New service level policy" locale="es" localized="Nueva política de nivel de servicio"/>
+    <moqui.basic.LocalizedMessage original="New service team" locale="es" localized="Nuevo equipo de servicio"/>
+    <moqui.basic.LocalizedMessage original="Next delivery" locale="es" localized="Siguiente entrega"/>
+    <moqui.basic.LocalizedMessage original="Next follow-up" locale="es" localized="Siguiente seguimiento"/>
+    <moqui.basic.LocalizedMessage original="No acknowledgement" locale="es" localized="Sin acuse"/>
+    <moqui.basic.LocalizedMessage original="No action: the reply only sends its text." locale="es" localized="Sin acción: la respuesta solo envía su texto."/>
+    <moqui.basic.LocalizedMessage original="No amount in this period." locale="es" localized="Ningún importe en este periodo."/>
+    <moqui.basic.LocalizedMessage original="No assignment rule yet: every case stays unassigned until an agent takes it. Make one with New rule." locale="es" localized="Aún no hay regla de asignación: cada caso queda sin asignar hasta que un agente lo toma. Cree una con Nueva regla."/>
+    <moqui.basic.LocalizedMessage original="No call, chat or mail found. Choose a customer to see theirs, or log a call on a case." locale="es" localized="No se encontró ninguna llamada, conversación o correo. Elija un cliente para ver los suyos, o registre una llamada en un caso."/>
+    <moqui.basic.LocalizedMessage original="No case in this period." locale="es" localized="Ningún caso en este periodo."/>
+    <moqui.basic.LocalizedMessage original="No case template yet: a case asks only for its subject and description. Make one with New template." locale="es" localized="Aún no hay plantilla de caso: un caso solo pide su asunto y su descripción. Cree una con Nueva plantilla."/>
+    <moqui.basic.LocalizedMessage original="No clock of this metric was done in the period." locale="es" localized="Ningún reloj de esta métrica se completó en el periodo."/>
+    <moqui.basic.LocalizedMessage original="No clock started in this period." locale="es" localized="Ningún reloj empezó en este periodo."/>
+    <moqui.basic.LocalizedMessage original="No condition: every case of the queue meets this rule." locale="es" localized="Sin condición: todos los casos de la cola cumplen esta regla."/>
+    <moqui.basic.LocalizedMessage original="No decision waits for you." locale="es" localized="Ninguna decisión le espera."/>
+    <moqui.basic.LocalizedMessage original="No feedback here. Agents give it from a case's Knowledge tab; customers from the help pages." locale="es" localized="No hay retroalimentación aquí. Los agentes la dan desde la pestaña Conocimiento de un caso; los clientes, desde las páginas de ayuda."/>
+    <moqui.basic.LocalizedMessage original="No field yet. Add the first with Add field: it stays a draft until you publish." locale="es" localized="Aún no hay campo. Añada el primero con Añadir campo: queda como borrador hasta que lo publique."/>
+    <moqui.basic.LocalizedMessage original="No knowledge source yet: agents are offered no articles. Add the space of your help center first." locale="es" localized="Aún no hay fuente de conocimiento: a los agentes no se les ofrecen artículos. Añada primero el espacio de su centro de ayuda."/>
+    <moqui.basic.LocalizedMessage original="No mail rule files into these queues yet." locale="es" localized="Aún ninguna regla de correo archiva en estas colas."/>
+    <moqui.basic.LocalizedMessage original="No member yet." locale="es" localized="Aún no hay miembros."/>
+    <moqui.basic.LocalizedMessage original="No message is chosen: its clock starts when it is made, or at the start you give below with its reason." locale="es" localized="No se eligió ningún mensaje: su reloj empieza cuando se crea, o en el inicio que indique abajo con su motivo."/>
+    <moqui.basic.LocalizedMessage original="No message is chosen: its clock starts when it is made." locale="es" localized="No se eligió ningún mensaje: su reloj empieza cuando se crea."/>
+    <moqui.basic.LocalizedMessage original="No open case is assigned to you." locale="es" localized="Ningún caso abierto está asignado a usted."/>
+    <moqui.basic.LocalizedMessage original="No order changes match." locale="es" localized="Ningún cambio de orden coincide."/>
+    <moqui.basic.LocalizedMessage original="No organization of yours has a published site with the Support app" locale="es" localized="Ninguna organización suya tiene un sitio publicado con la aplicación Soporte"/>
+    <moqui.basic.LocalizedMessage original="No policy" locale="es" localized="Sin política"/>
+    <moqui.basic.LocalizedMessage original="No policy: cases have no clocks" locale="es" localized="Sin política: los casos no tienen relojes"/>
+    <moqui.basic.LocalizedMessage original="No product recorded." locale="es" localized="No hay producto registrado."/>
+    <moqui.basic.LocalizedMessage original="No published site has the Support app for this organization yet (PASS site mounts)." locale="es" localized="Ningún sitio publicado tiene todavía la aplicación Soporte para esta organización (montajes de sitio de PASS)."/>
+    <moqui.basic.LocalizedMessage original="No queue uses it yet" locale="es" localized="Ninguna cola la usa aún"/>
+    <moqui.basic.LocalizedMessage original="No queue yet. Make the first with New queue, then give it a team." locale="es" localized="Aún no hay cola. Cree la primera con Nueva cola y luego asígnele un equipo."/>
+    <moqui.basic.LocalizedMessage original="No repair or return is linked. A repair is of the customer's serial; a replacement goes through a return." locale="es" localized="No hay reparación ni devolución vinculada. Una reparación es del número de serie del cliente; un reemplazo pasa por una devolución."/>
+    <moqui.basic.LocalizedMessage original="no report stored yet" locale="es" localized="aún no hay informe almacenado"/>
+    <moqui.basic.LocalizedMessage original="No return in this period." locale="es" localized="Ninguna devolución en este periodo."/>
+    <moqui.basic.LocalizedMessage original="No return policy: every return goes to manual review." locale="es" localized="Sin política de devolución: toda devolución va a revisión manual."/>
+    <moqui.basic.LocalizedMessage original="No return waits for authorization." locale="es" localized="Ninguna devolución espera autorización."/>
+    <moqui.basic.LocalizedMessage original="No route yet: mail a rule files into a queue makes a case with the queue's defaults and no acknowledgement." locale="es" localized="Aún no hay ruta: el correo que una regla archiva en una cola crea un caso con los valores predeterminados de la cola y sin acuse."/>
+    <moqui.basic.LocalizedMessage original="No saved reply yet. Make one with New reply; share it with your team or every service agent." locale="es" localized="Aún no hay respuesta guardada. Cree una con Nueva respuesta; compártala con su equipo o con todos los agentes del servicio."/>
+    <moqui.basic.LocalizedMessage original="No service level policy applied to this case when it came in." locale="es" localized="Ninguna política de nivel de servicio se aplicó a este caso cuando entró."/>
+    <moqui.basic.LocalizedMessage original="No service level policy yet: cases have no clocks. Make the organization's default with New policy." locale="es" localized="Aún no hay política de nivel de servicio: los casos no tienen relojes. Cree la predeterminada de la organización con Nueva política."/>
+    <moqui.basic.LocalizedMessage original="No service queue yet" locale="es" localized="Aún no hay cola de servicio"/>
+    <moqui.basic.LocalizedMessage original="No service team yet. Make one with New team, then add its agents." locale="es" localized="Aún no hay equipo de servicio. Cree uno con Nuevo equipo y luego añada sus agentes."/>
+    <moqui.basic.LocalizedMessage original="No type service-enabled" locale="es" localized="Ningún tipo habilitado para el servicio"/>
+    <moqui.basic.LocalizedMessage original="No warranty claims match." locale="es" localized="Ninguna reclamación de garantía coincide."/>
+    <moqui.basic.LocalizedMessage original="None of the organization's knowledge sources has a draft space: the service administrator sets one in Settings, Knowledge sources." locale="es" localized="Ninguna fuente de conocimiento de la organización tiene un espacio de borradores: el administrador del servicio lo establece en Configuración, Fuentes de conocimiento."/>
+    <moqui.basic.LocalizedMessage original="None of your queues takes this type. Choose another type, or ask a service manager for a queue." locale="es" localized="Ninguna de sus colas acepta este tipo. Elija otro tipo, o pida una cola a un gerente del servicio."/>
+    <moqui.basic.LocalizedMessage original="Normal: first response (minutes)" locale="es" localized="Normal: primera respuesta (minutos)"/>
+    <moqui.basic.LocalizedMessage original="Not a service queue now" locale="es" localized="Ahora no es una cola de servicio"/>
+    <moqui.basic.LocalizedMessage original="Not offered for cases" locale="es" localized="No ofrecido para casos"/>
+    <moqui.basic.LocalizedMessage original="Not offered on cases" locale="es" localized="No ofrecido en casos"/>
+    <moqui.basic.LocalizedMessage original="not reviewed: ${list}" locale="es" localized="no revisados: ${list}"/>
+    <moqui.basic.LocalizedMessage original="Not set: customers file into the default queue, and the help reads every customer and public knowledge source." locale="es" localized="Sin definir: los clientes se archivan en la cola predeterminada, y la ayuda lee cada fuente de conocimiento de clientes y pública."/>
+    <moqui.basic.LocalizedMessage original="Not set: its cases' clocks run around the clock" locale="es" localized="Sin definir: los relojes de sus casos funcionan las 24 h"/>
+    <moqui.basic.LocalizedMessage original="Not set: no request of the organization is a case until these are saved." locale="es" localized="Sin definir: ninguna solicitud de la organización es un caso hasta que se guarden estos valores."/>
+    <moqui.basic.LocalizedMessage original="Not set: publish a feedback form first (Settings, Feedback forms)." locale="es" localized="Sin definir: publique primero un formulario de retroalimentación (Configuración, Formularios de retroalimentación)."/>
+    <moqui.basic.LocalizedMessage original="Not set: resolved cases are not asked for feedback." locale="es" localized="Sin definir: no se pide retroalimentación de los casos resueltos."/>
+    <moqui.basic.LocalizedMessage original="Not stored yet: the first resend prints the order as placed and keeps it." locale="es" localized="Aún no almacenada: el primer reenvío imprime la orden tal como se emitió y la conserva."/>
+    <moqui.basic.LocalizedMessage original="Not taking cases" locale="es" localized="No acepta casos"/>
+    <moqui.basic.LocalizedMessage original="Note on both cases" locale="es" localized="Nota en ambos casos"/>
+    <moqui.basic.LocalizedMessage original="Note or reason" locale="es" localized="Nota o motivo"/>
+    <moqui.basic.LocalizedMessage original="Nothing held: mail and forms from staff, from parties that are no customer and from unknown senders wait here." locale="es" localized="Nada retenido: el correo y los formularios del personal, de participantes que no son clientes y de remitentes desconocidos esperan aquí."/>
+    <moqui.basic.LocalizedMessage original="Nothing on order ${orderId} is left to return: what was shipped and invoiced is on other returns already." locale="es" localized="En la orden ${orderId} no queda nada que devolver: lo enviado y facturado ya está en otras devoluciones."/>
+    <moqui.basic.LocalizedMessage original="Nothing was written or sent." locale="es" localized="No se escribió ni se envió nada."/>
+    <moqui.basic.LocalizedMessage original="Now when empty: an earlier time reads what was recorded by then" locale="es" localized="Ahora si está vacío: un momento anterior lee lo registrado hasta entonces"/>
+    <moqui.basic.LocalizedMessage original="On a case" locale="es" localized="En un caso"/>
+    <moqui.basic.LocalizedMessage original="On the customer pages" locale="es" localized="En las páginas del cliente"/>
+    <moqui.basic.LocalizedMessage original="Once per case" locale="es" localized="Una vez por caso"/>
+    <moqui.basic.LocalizedMessage original="One word: type /word in the composer" locale="es" localized="Una palabra: escriba /word en el redactor"/>
+    <moqui.basic.LocalizedMessage original="Only agents in their working hours" locale="es" localized="Solo agentes en sus horas de trabajo"/>
+    <moqui.basic.LocalizedMessage original="Only by a condition" locale="es" localized="Solo por una condición"/>
+    <moqui.basic.LocalizedMessage original="Only its owner changes this reply; you may use it on your cases." locale="es" localized="Solo su dueño cambia esta respuesta; usted puede usarla en sus casos."/>
+    <moqui.basic.LocalizedMessage original="Only these agents" locale="es" localized="Solo estos agentes"/>
+    <moqui.basic.LocalizedMessage original="Only when the messages do not show when the issue came in" locale="es" localized="Solo cuando los mensajes no muestran cuándo llegó el problema"/>
+    <moqui.basic.LocalizedMessage original="Open Approvals" locale="es" localized="Abrir Aprobaciones"/>
+    <moqui.basic.LocalizedMessage original="Open one of these to add to it, or describe a distinct case below." locale="es" localized="Abra uno de estos para añadirle, o describa abajo un caso distinto."/>
+    <moqui.basic.LocalizedMessage original="Open the case to keep, then Merge cases from its More menu: case ${requestId} is not available to you." locale="es" localized="Abra el caso que se conserva y luego Fusione casos desde su menú Más: el caso ${requestId} no está disponible para usted."/>
+    <moqui.basic.LocalizedMessage original="Order changes are for the service agents, managers and the order desk. Open an                                 order to see its state." locale="es" localized="Los cambios de orden son para los agentes del servicio, los gerentes y el mostrador de órdenes. Abra una orden para ver su estado."/>
+    <moqui.basic.LocalizedMessage original="Order or customer" locale="es" localized="Orden o cliente"/>
+    <moqui.basic.LocalizedMessage original="Ordered before" locale="es" localized="Ordenado antes de"/>
+    <moqui.basic.LocalizedMessage original="Ordered from" locale="es" localized="Ordenado desde"/>
+    <moqui.basic.LocalizedMessage original="owned by ${name}" locale="es" localized="propiedad de ${name}"/>
+    <moqui.basic.LocalizedMessage original="Pages under" locale="es" localized="Páginas bajo"/>
+    <moqui.basic.LocalizedMessage original="Partly covered" locale="es" localized="Parcialmente cubierto"/>
+    <moqui.basic.LocalizedMessage original="Pauses" locale="es" localized="Pausas"/>
+    <moqui.basic.LocalizedMessage original="Personal data of this case, taken out of the text below; check for any other:" locale="es" localized="Datos personales de este caso, extraídos del texto de abajo; compruebe si hay otros:"/>
+    <moqui.basic.LocalizedMessage original="placed ${when}" locale="es" localized="colocada ${when}"/>
+    <moqui.basic.LocalizedMessage original="Policy ${name}" locale="es" localized="Política ${name}"/>
+    <moqui.basic.LocalizedMessage original="Policy preview" locale="es" localized="Vista previa de la política"/>
+    <moqui.basic.LocalizedMessage original="Preview each case's reply" locale="es" localized="Previsualizar la respuesta de cada caso"/>
+    <moqui.basic.LocalizedMessage original="Preview on a case" locale="es" localized="Vista previa en un caso"/>
+    <moqui.basic.LocalizedMessage original="Preview the merge" locale="es" localized="Previsualizar la fusión"/>
+    <moqui.basic.LocalizedMessage original="Preview the return" locale="es" localized="Previsualizar la devolución"/>
+    <moqui.basic.LocalizedMessage original="Preview: the agent's form" locale="es" localized="Vista previa: el formulario del agente"/>
+    <moqui.basic.LocalizedMessage original="Preview: the customer's form" locale="es" localized="Vista previa: el formulario del cliente"/>
+    <moqui.basic.LocalizedMessage original="Preview: who would a case go to now?" locale="es" localized="Vista previa: ¿a quién iría un caso ahora?"/>
+    <moqui.basic.LocalizedMessage original="Product ${productId} is not available." locale="es" localized="El producto ${productId} no está disponible."/>
+    <moqui.basic.LocalizedMessage original="Product availability" locale="es" localized="Disponibilidad del producto"/>
+    <moqui.basic.LocalizedMessage original="Product record" locale="es" localized="Registro del producto"/>
+    <moqui.basic.LocalizedMessage original="Product: ${product}" locale="es" localized="Producto: ${product}"/>
+    <moqui.basic.LocalizedMessage original="Product: ${product} × ${quantity}" locale="es" localized="Producto: ${product} × ${quantity}"/>
+    <moqui.basic.LocalizedMessage original="Proof of purchase or condition required" locale="es" localized="Se exige prueba de compra o del estado"/>
+    <moqui.basic.LocalizedMessage original="Publish ${tpl.description}" locale="es" localized="Publicar ${tpl.description}"/>
+    <moqui.basic.LocalizedMessage original="published ${when}" locale="es" localized="publicada ${when}"/>
+    <moqui.basic.LocalizedMessage original="Queue ${description}" locale="es" localized="Cola ${description}"/>
+    <moqui.basic.LocalizedMessage original="Queues customers file into" locale="es" localized="Colas en las que presentan los clientes"/>
+    <moqui.basic.LocalizedMessage original="Reasons allowed" locale="es" localized="Motivos permitidos"/>
+    <moqui.basic.LocalizedMessage original="reference ${ref}" locale="es" localized="referencia ${ref}"/>
+    <moqui.basic.LocalizedMessage original="Remedies allowed" locale="es" localized="Remedios permitidos"/>
+    <moqui.basic.LocalizedMessage original="Rename ${tpl.description}" locale="es" localized="Renombrar ${tpl.description}"/>
+    <moqui.basic.LocalizedMessage original="Reopen within (days)" locale="es" localized="Reabrir en un plazo de (días)"/>
+    <moqui.basic.LocalizedMessage original="Repair ${assetMaintenanceId} is updated" locale="es" localized="Reparación ${assetMaintenanceId} actualizada"/>
+    <moqui.basic.LocalizedMessage original="Repair ${linked.assetMaintenanceId} is linked to claim ${requestId}" locale="es" localized="La reparación ${linked.assetMaintenanceId} está vinculada a la reclamación ${requestId}"/>
+    <moqui.basic.LocalizedMessage original="Repair ${repair.assetMaintenanceId} · ${repair.statusText}" locale="es" localized="Reparación ${repair.assetMaintenanceId} · ${repair.statusText}"/>
+    <moqui.basic.LocalizedMessage original="Repair for claim ${requestId}" locale="es" localized="Reparación de la reclamación ${requestId}"/>
+    <moqui.basic.LocalizedMessage original="Repair or return" locale="es" localized="Reparación o devolución"/>
+    <moqui.basic.LocalizedMessage original="Repairs and returns" locale="es" localized="Reparaciones y devoluciones"/>
+    <moqui.basic.LocalizedMessage original="Replies you may use" locale="es" localized="Respuestas que puede usar"/>
+    <moqui.basic.LocalizedMessage original="Reply from" locale="es" localized="Responder desde"/>
+    <moqui.basic.LocalizedMessage original="Reply texts with their case actions, personal, for a team or for every agent." locale="es" localized="Textos de respuesta con sus acciones de caso, personales, de un equipo o de todos los agentes."/>
+    <moqui.basic.LocalizedMessage original="Reply to the selected cases" locale="es" localized="Responder a los casos seleccionados"/>
+    <moqui.basic.LocalizedMessage original="report stored" locale="es" localized="informe almacenado"/>
+    <moqui.basic.LocalizedMessage original="Request ${requestId} is now a case" locale="es" localized="La solicitud ${requestId} ya es un caso"/>
+    <moqui.basic.LocalizedMessage original="Request type" locale="es" localized="Tipo de solicitud"/>
+    <moqui.basic.LocalizedMessage original="Required unless covered" locale="es" localized="Obligatorio salvo que esté cubierto"/>
+    <moqui.basic.LocalizedMessage original="Required work" locale="es" localized="Trabajo requerido"/>
+    <moqui.basic.LocalizedMessage original="Resolution (minutes)" locale="es" localized="Resolución (minutos)"/>
+    <moqui.basic.LocalizedMessage original="Resolved cases are no longer asked for feedback" locale="es" localized="Ya no se pide retroalimentación de los casos resueltos"/>
+    <moqui.basic.LocalizedMessage original="Resolving needs a resolution" locale="es" localized="Resolver exige una resolución"/>
+    <moqui.basic.LocalizedMessage original="Restocking fee %" locale="es" localized="% de cargo por reposición"/>
+    <moqui.basic.LocalizedMessage original="Retry the ${bulk.failedCount} not delivered" locale="es" localized="Reintentar las ${bulk.failedCount} no entregadas"/>
+    <moqui.basic.LocalizedMessage original="Return ${returnId} is not authorized yet." locale="es" localized="La devolución ${returnId} aún no está autorizada."/>
+    <moqui.basic.LocalizedMessage original="Return ${returnId} is not available." locale="es" localized="La devolución ${returnId} no está disponible."/>
+    <moqui.basic.LocalizedMessage original="Return ${returnId}: ${submitted.outcomeText}" locale="es" localized="Devolución ${returnId}: ${submitted.outcomeText}"/>
+    <moqui.basic.LocalizedMessage original="Return ${returnRow.displayId}" locale="es" localized="Devolución ${returnRow.displayId}"/>
+    <moqui.basic.LocalizedMessage original="Return authorization ${returnId}: print it from the browser" locale="es" localized="Autorización de devolución ${returnId}: imprímala desde el navegador"/>
+    <moqui.basic.LocalizedMessage original="Return label carrier" locale="es" localized="Transportista de la etiqueta de devolución"/>
+    <moqui.basic.LocalizedMessage original="Return policies" locale="es" localized="Políticas de devolución"/>
+    <moqui.basic.LocalizedMessage original="Return reasons" locale="es" localized="Motivos de devolución"/>
+    <moqui.basic.LocalizedMessage original="Returning" locale="es" localized="A devolver"/>
+    <moqui.basic.LocalizedMessage original="Returns awaiting approval" locale="es" localized="Devoluciones en espera de aprobación"/>
+    <moqui.basic.LocalizedMessage original="Review team" locale="es" localized="Equipo de revisión"/>
+    <moqui.basic.LocalizedMessage original="Review the selected feedback" locale="es" localized="Revisar la retroalimentación seleccionada"/>
+    <moqui.basic.LocalizedMessage original="Reviewed ${done}" locale="es" localized="Revisados ${done}"/>
+    <moqui.basic.LocalizedMessage original="RMA or customer reference" locale="es" localized="RMA o referencia del cliente"/>
+    <moqui.basic.LocalizedMessage original="Routes" locale="es" localized="Rutas"/>
+    <moqui.basic.LocalizedMessage original="Rules by queue" locale="es" localized="Reglas por cola"/>
+    <moqui.basic.LocalizedMessage original="Sale" locale="es" localized="Venta"/>
+    <moqui.basic.LocalizedMessage original="Sale (order)" locale="es" localized="Venta (orden)"/>
+    <moqui.basic.LocalizedMessage original="Sale: order ${claim.orderId}" locale="es" localized="Venta: orden ${claim.orderId}"/>
+    <moqui.basic.LocalizedMessage original="Sales prepares and sends the estimate; record the customer's consent here as a decision." locale="es" localized="Ventas prepara y envía el presupuesto; registre aquí el consentimiento del cliente como una decisión."/>
+    <moqui.basic.LocalizedMessage original="Sales quotes · ${salesQuoteList.length}" locale="es" localized="Cotizaciones de ventas · ${salesQuoteList.length}"/>
+    <moqui.basic.LocalizedMessage original="Save as draft (not requested yet)" locale="es" localized="Guardar como borrador (aún no solicitado)"/>
+    <moqui.basic.LocalizedMessage original="Save from that date" locale="es" localized="Guardar desde esa fecha"/>
+    <moqui.basic.LocalizedMessage original="Save hours" locale="es" localized="Guardar horario"/>
+    <moqui.basic.LocalizedMessage original="Save reply" locale="es" localized="Guardar respuesta"/>
+    <moqui.basic.LocalizedMessage original="Save the draft" locale="es" localized="Guardar el borrador"/>
+    <moqui.basic.LocalizedMessage original="Saved the case type" locale="es" localized="Tipo de caso guardado"/>
+    <moqui.basic.LocalizedMessage original="Saved the condition" locale="es" localized="Condición guardada"/>
+    <moqui.basic.LocalizedMessage original="Saved the feedback delivery" locale="es" localized="Entrega de retroalimentación guardada"/>
+    <moqui.basic.LocalizedMessage original="Saved the knowledge source" locale="es" localized="Fuente de conocimiento guardada"/>
+    <moqui.basic.LocalizedMessage original="Saved the move" locale="es" localized="Movimiento guardado"/>
+    <moqui.basic.LocalizedMessage original="Saved the policy ${policyName}" locale="es" localized="Política ${policyName} guardada"/>
+    <moqui.basic.LocalizedMessage original="Saved the reply ${title}" locale="es" localized="Respuesta ${title} guardada"/>
+    <moqui.basic.LocalizedMessage original="Saved the reply's actions" locale="es" localized="Acciones de la respuesta guardadas"/>
+    <moqui.basic.LocalizedMessage original="Saved the return policy ${policyName}" locale="es" localized="Política de devolución ${policyName} guardada"/>
+    <moqui.basic.LocalizedMessage original="Saved the return reason" locale="es" localized="Motivo de devolución guardado"/>
+    <moqui.basic.LocalizedMessage original="Saved the route" locale="es" localized="Ruta guardada"/>
+    <moqui.basic.LocalizedMessage original="Saved the rule ${ruleName}" locale="es" localized="Regla ${ruleName} guardada"/>
+    <moqui.basic.LocalizedMessage original="Saved the rule's conditions" locale="es" localized="Condiciones de la regla guardadas"/>
+    <moqui.basic.LocalizedMessage original="Saved the service defaults" locale="es" localized="Valores predeterminados del servicio guardados"/>
+    <moqui.basic.LocalizedMessage original="Saved the status ${agentLabel}" locale="es" localized="Estado ${agentLabel} guardado"/>
+    <moqui.basic.LocalizedMessage original="Saved the Support app's settings" locale="es" localized="Configuración de la aplicación Soporte guardada"/>
+    <moqui.basic.LocalizedMessage original="Saved the team ${teamName}" locale="es" localized="Equipo ${teamName} guardado"/>
+    <moqui.basic.LocalizedMessage original="Saved the team's members" locale="es" localized="Miembros del equipo guardados"/>
+    <moqui.basic.LocalizedMessage original="Saved the team's working hours" locale="es" localized="Horas de trabajo del equipo guardadas"/>
+    <moqui.basic.LocalizedMessage original="Saved the template" locale="es" localized="Plantilla guardada"/>
+    <moqui.basic.LocalizedMessage original="Send ${bulk.readyCount} replies" locale="es" localized="Enviar ${bulk.readyCount} respuestas"/>
+    <moqui.basic.LocalizedMessage original="Send after resolving (minutes)" locale="es" localized="Enviar después de resolver (minutos)"/>
+    <moqui.basic.LocalizedMessage original="Send the intervention report of repair ${repair.assetMaintenanceId}" locale="es" localized="Enviar el informe de intervención de la reparación ${repair.assetMaintenanceId}"/>
+    <moqui.basic.LocalizedMessage original="Send the summary of case ${requestId}" locale="es" localized="Enviar el resumen del caso ${requestId}"/>
+    <moqui.basic.LocalizedMessage original="Sent the case summary to ${sent.recipient} (${sent.status})" locale="es" localized="Resumen del caso enviado a ${sent.recipient} (${sent.status})"/>
+    <moqui.basic.LocalizedMessage original="Sent the intervention report to ${sent.recipient} (${sent.status})" locale="es" localized="Informe de intervención enviado a ${sent.recipient} (${sent.status})"/>
+    <moqui.basic.LocalizedMessage original="Sent to the return exception approvers" locale="es" localized="Enviado a quienes aprueban excepciones de devolución"/>
+    <moqui.basic.LocalizedMessage original="Serial: ${serial}" locale="es" localized="Número de serie: ${serial}"/>
+    <moqui.basic.LocalizedMessage original="Service agreement" locale="es" localized="Acuerdo de servicio"/>
+    <moqui.basic.LocalizedMessage original="Service agreement ${claim.agreementId}" locale="es" localized="Acuerdo de servicio ${claim.agreementId}"/>
+    <moqui.basic.LocalizedMessage original="Service defaults" locale="es" localized="Valores predeterminados del servicio"/>
+    <moqui.basic.LocalizedMessage original="Service health, ${dashboard.periodText}, as of ${dashboard.asOfText}" locale="es" localized="Estado del servicio, ${dashboard.periodText}, a ${dashboard.asOfText}"/>
+    <moqui.basic.LocalizedMessage original="Service level" locale="es" localized="Nivel de servicio"/>
+    <moqui.basic.LocalizedMessage original="Service levels" locale="es" localized="Niveles de servicio"/>
+    <moqui.basic.LocalizedMessage original="Service organization" locale="es" localized="Organización de servicio"/>
+    <moqui.basic.LocalizedMessage original="Service reports" locale="es" localized="Informes de servicio"/>
+    <moqui.basic.LocalizedMessage original="Service-enabled" locale="es" localized="Habilitado para el servicio"/>
+    <moqui.basic.LocalizedMessage original="Set the coverage end" locale="es" localized="Establecer el fin de la cobertura"/>
+    <moqui.basic.LocalizedMessage original="Set the status of the selected cases" locale="es" localized="Establecer el estado de los casos seleccionados"/>
+    <moqui.basic.LocalizedMessage original="Shipped ${coverage.shipText} on order ${coverage.saleOrderId}" locale="es" localized="Enviado ${coverage.shipText} en la orden ${coverage.saleOrderId}"/>
+    <moqui.basic.LocalizedMessage original="Shipped ${shippedQuantity} · invoiced ${invoicedQuantity} · on other returns ${returnedQuantity}" locale="es" localized="Enviado ${shippedQuantity} · facturado ${invoicedQuantity} · en otras devoluciones ${returnedQuantity}"/>
+    <moqui.basic.LocalizedMessage original="Show due times" locale="es" localized="Mostrar horas de vencimiento"/>
+    <moqui.basic.LocalizedMessage original="Show the returnable lines" locale="es" localized="Mostrar las líneas que se pueden devolver"/>
+    <moqui.basic.LocalizedMessage original="SLA compliance" locale="es" localized="Cumplimiento del SLA"/>
+    <moqui.basic.LocalizedMessage original="Split case" locale="es" localized="Dividir caso"/>
+    <moqui.basic.LocalizedMessage original="Split case ${requestId} from case ${sourceRequestId}" locale="es" localized="Caso ${requestId} separado del caso ${sourceRequestId}"/>
+    <moqui.basic.LocalizedMessage original="Split case ${requestId}${sourceCase ? ': ' + sourceCase.requestName : ''}" locale="es" localized="Dividir el caso ${requestId}${sourceCase ? ': ' + sourceCase.requestName : ''}"/>
+    <moqui.basic.LocalizedMessage original="Splitting a case is for those who work cases." locale="es" localized="Dividir un caso es para quienes trabajan los casos."/>
+    <moqui.basic.LocalizedMessage original="started ${when}" locale="es" localized="iniciado ${when}"/>
+    <moqui.basic.LocalizedMessage original="Status categories" locale="es" localized="Categorías de estado"/>
+    <moqui.basic.LocalizedMessage original="Status category" locale="es" localized="Categoría de estado"/>
+    <moqui.basic.LocalizedMessage original="Statuses" locale="es" localized="Estados"/>
+    <moqui.basic.LocalizedMessage original="Stock at a past date" locale="es" localized="Existencias en una fecha pasada"/>
+    <moqui.basic.LocalizedMessage original="Stop asking for feedback" locale="es" localized="Dejar de pedir retroalimentación"/>
+    <moqui.basic.LocalizedMessage original="Stop asking resolved cases for feedback?" locale="es" localized="¿Dejar de pedir retroalimentación de los casos resueltos?"/>
+    <moqui.basic.LocalizedMessage original="Stop from now" locale="es" localized="Detener desde ahora"/>
+    <moqui.basic.LocalizedMessage original="Stop using it" locale="es" localized="Dejar de usarlo"/>
+    <moqui.basic.LocalizedMessage original="Such as Auto-Submitted: auto-replied" locale="es" localized="Como Auto-Submitted: auto-replied"/>
+    <moqui.basic.LocalizedMessage original="Suggested remedy" locale="es" localized="Remedio sugerido"/>
+    <moqui.basic.LocalizedMessage original="Support alone makes no case: an employee's request stays a request. A customer's request of a service-enabled type does." locale="es" localized="Support por sí solo no crea un caso: la solicitud de un empleado sigue siendo una solicitud. La solicitud de un cliente de un tipo habilitado para el servicio sí lo hace."/>
+    <moqui.basic.LocalizedMessage original="Support app" locale="es" localized="Aplicación Soporte"/>
+    <moqui.basic.LocalizedMessage original="Tag the selected cases" locale="es" localized="Etiquetar los casos seleccionados"/>
+    <moqui.basic.LocalizedMessage original="taken out: ${list}" locale="es" localized="retirado: ${list}"/>
+    <moqui.basic.LocalizedMessage original="Taken out: ${prepared.removedText}." locale="es" localized="Extraído: ${prepared.removedText}."/>
+    <moqui.basic.LocalizedMessage original="Takes cases" locale="es" localized="Acepta casos"/>
+    <moqui.basic.LocalizedMessage original="Takes their turn while they are outside their hours" locale="es" localized="Toma su turno aunque esté fuera de sus horas de trabajo"/>
+    <moqui.basic.LocalizedMessage original="task ${id} ${status}" locale="es" localized="tarea ${id} ${status}"/>
+    <moqui.basic.LocalizedMessage original="Team basis" locale="es" localized="Base del equipo"/>
+    <moqui.basic.LocalizedMessage original="Team manager" locale="es" localized="Gerente del equipo"/>
+    <moqui.basic.LocalizedMessage original="Team queues" locale="es" localized="Colas del equipo"/>
+    <moqui.basic.LocalizedMessage original="Template ${formId} is not available: it does not exist or is not one of your organization's." locale="es" localized="La plantilla ${formId} no está disponible: no existe o no es de su organización."/>
+    <moqui.basic.LocalizedMessage original="Terms: ${coverage.termText}${coverage.termsSourceText ? ' (' + coverage.termsSourceText + ')' : ''}" locale="es" localized="Condiciones: ${coverage.termText}${coverage.termsSourceText ? ' (' + coverage.termsSourceText + ')' : ''}"/>
+    <moqui.basic.LocalizedMessage original="Test a message" locale="es" localized="Probar un mensaje"/>
+    <moqui.basic.LocalizedMessage original="The case has no reply or customer email yet: write the article's text below." locale="es" localized="El caso aún no tiene respuesta ni correo del cliente: escriba abajo el texto del artículo."/>
+    <moqui.basic.LocalizedMessage original="The case's subject; it suggests articles that may answer it" locale="es" localized="El asunto del caso; sugiere artículos que pueden responderlo"/>
+    <moqui.basic.LocalizedMessage original="The confirmation of order ${orderId} as placed is not sent to ${recipient}" locale="es" localized="La confirmación de la orden ${orderId} tal como se emitió no se envió a ${recipient}"/>
+    <moqui.basic.LocalizedMessage original="The confirmation of order ${orderId} as placed is on its way to ${recipient}" locale="es" localized="La confirmación de la orden ${orderId} tal como se emitió está en camino a ${recipient}"/>
+    <moqui.basic.LocalizedMessage original="The confirmation of order ${orderId} as placed is sent to ${recipient}" locale="es" localized="La confirmación de la orden ${orderId} tal como se emitió se envió a ${recipient}"/>
+    <moqui.basic.LocalizedMessage original="The confirmation stored ${stored} is sent again, not a new print." locale="es" localized="La confirmación almacenada ${stored} se vuelve a enviar; no es una impresión nueva."/>
+    <moqui.basic.LocalizedMessage original="The customer copy goes: outward messages, shared files and the customer's labels; never a note or an internal file." locale="es" localized="La copia del cliente incluye: mensajes hacia fuera, archivos compartidos y las etiquetas del cliente; nunca una nota ni un archivo interno."/>
+    <moqui.basic.LocalizedMessage original="The customer's approved, sent or completed orders" locale="es" localized="Las órdenes aprobadas, enviadas o completadas del cliente"/>
+    <moqui.basic.LocalizedMessage original="The customer's consent to ${current.chargeText}" locale="es" localized="El consentimiento del cliente a ${current.chargeText}"/>
+    <moqui.basic.LocalizedMessage original="The customer's other open cases" locale="es" localized="Los otros casos abiertos del cliente"/>
+    <moqui.basic.LocalizedMessage original="The customer's person you are dealing with" locale="es" localized="La persona del cliente con la que trata"/>
+    <moqui.basic.LocalizedMessage original="The evidence of claim ${requestId} is recorded" locale="es" localized="La evidencia de la reclamación ${requestId} quedó registrada"/>
+    <moqui.basic.LocalizedMessage original="The fields a case of a queue asks for, customer-visible or internal, and when each shows or is required." locale="es" localized="Los campos que pide un caso de una cola, visibles para el cliente o internos, y cuándo se muestra o se exige cada uno."/>
+    <moqui.basic.LocalizedMessage original="The fields a case of a queue asks for, each customer-visible or internal, and the conditions that show or require them." locale="es" localized="Los campos que pide un caso de una cola, cada uno visible para el cliente o interno, y las condiciones que los muestran o los exigen."/>
+    <moqui.basic.LocalizedMessage original="The fields the case asks for; empty takes the queue's" locale="es" localized="Los campos que pide el caso; vacío toma los de la cola"/>
+    <moqui.basic.LocalizedMessage original="The form is on at ${url}; the earlier link no longer works" locale="es" localized="El formulario está activo en ${url}; el enlace anterior ya no funciona"/>
+    <moqui.basic.LocalizedMessage original="The form is on with the token ${token}; the earlier link no longer works. Its page is the Support app's, on a site of the organization" locale="es" localized="El formulario está activo con el token ${token}; el enlace anterior ya no funciona. Su página es la de la aplicación Soporte, en un sitio de la organización"/>
+    <moqui.basic.LocalizedMessage original="The form is the Support app's page on the organization's site. A project's request form stays in Projects." locale="es" localized="El formulario es la página de la aplicación Soporte en el sitio de la organización. El formulario de solicitud de un proyecto permanece en Proyectos."/>
+    <moqui.basic.LocalizedMessage original="The language of its pages, as a code: en, es, de" locale="es" localized="El idioma de sus páginas, como código: en, es, de"/>
+    <moqui.basic.LocalizedMessage original="The link works for (days)" locale="es" localized="El enlace funciona durante (días)"/>
+    <moqui.basic.LocalizedMessage original="The new case is ${sourceCase.customerName}'s too: each message keeps who could see it, and case ${requestId} keeps all of it and stays open." locale="es" localized="El caso nuevo también es de ${sourceCase.customerName}: cada mensaje conserva quién podía verlo, y el caso ${requestId} lo conserva todo y sigue abierto."/>
+    <moqui.basic.LocalizedMessage original="The order as placed is printed once, stored and sent; later sends attach the same file." locale="es" localized="La orden tal como se emitió se imprime una vez, se almacena y se envía; los envíos posteriores adjuntan el mismo archivo."/>
+    <moqui.basic.LocalizedMessage original="The organization has no service queue yet. Make one in Queues, then route its channels here." locale="es" localized="La organización aún no tiene cola de servicio. Cree una en Colas y luego enrute aquí sus canales."/>
+    <moqui.basic.LocalizedMessage original="The organization has no service queue yet: make one on Queues first." locale="es" localized="La organización aún no tiene cola de servicio: cree una primero en Colas."/>
+    <moqui.basic.LocalizedMessage original="The public form is off: its link no longer works" locale="es" localized="El formulario público está desactivado: su enlace ya no funciona"/>
+    <moqui.basic.LocalizedMessage original="The questions a customer answers once a case is resolved; Service defaults says when they are sent." locale="es" localized="Las preguntas que un cliente responde cuando un caso se resuelve; Valores predeterminados del servicio dice cuándo se envían."/>
+    <moqui.basic.LocalizedMessage original="The queue that uses ${tpl.description}" locale="es" localized="La cola que usa ${tpl.description}"/>
+    <moqui.basic.LocalizedMessage original="The queue's fallback" locale="es" localized="El respaldo de la cola"/>
+    <moqui.basic.LocalizedMessage original="The queue's rules are tried lowest first; the first whose conditions hold wins" locale="es" localized="Las reglas de la cola se prueban de menor a mayor; gana la primera cuyas condiciones se cumplen"/>
+    <moqui.basic.LocalizedMessage original="The repair is" locale="es" localized="La reparación es"/>
+    <moqui.basic.LocalizedMessage original="The repair is worked in Maintenance; you are told when it finishes." locale="es" localized="La reparación se trabaja en Mantenimiento; se le avisa cuando termina."/>
+    <moqui.basic.LocalizedMessage original="The reply cannot be previewed on case ${requestId}" locale="es" localized="La respuesta no se puede previsualizar en el caso ${requestId}"/>
+    <moqui.basic.LocalizedMessage original="The service level the merged cases carry" locale="es" localized="El nivel de servicio que llevan los casos fusionados"/>
+    <moqui.basic.LocalizedMessage original="The service levels of this organization are not available to you; choose another organization." locale="es" localized="Los niveles de servicio de esta organización no están disponibles para usted; elija otra organización."/>
+    <moqui.basic.LocalizedMessage original="The status ${statusText}" locale="es" localized="El estado ${statusText}"/>
+    <moqui.basic.LocalizedMessage original="The summary of case ${requestId} is not available to you" locale="es" localized="El resumen del caso ${requestId} no está disponible para usted"/>
+    <moqui.basic.LocalizedMessage original="The variables a reply may use: ${variablesText}. Any other is refused, and so is one the case has no value for." locale="es" localized="Las variables que puede usar una respuesta: ${variablesText}. Cualquier otra se rechaza, y también aquella para la que el caso no tiene valor."/>
+    <moqui.basic.LocalizedMessage original="The wiki spaces whose articles agents are offered and send to customers." locale="es" localized="Los espacios wiki cuyos artículos se ofrecen a los agentes y se envían a los clientes."/>
+    <moqui.basic.LocalizedMessage original="The wiki spaces whose articles agents are offered and send. Who may read a page is still the wiki's; an internal source is never offered to customers." locale="es" localized="Los espacios wiki cuyos artículos se ofrecen a los agentes y se envían. Quién puede leer una página sigue siendo del wiki; una fuente interna nunca se ofrece a los clientes."/>
+    <moqui.basic.LocalizedMessage original="Their own number for this return, if any" locale="es" localized="Su propio número para esta devolución, si lo hay"/>
+    <moqui.basic.LocalizedMessage original="Their own, else the team's" locale="es" localized="El suyo; si no, el del equipo"/>
+    <moqui.basic.LocalizedMessage original="These cases cannot be merged" locale="es" localized="Estos casos no se pueden fusionar"/>
+    <moqui.basic.LocalizedMessage original="These stop the merge" locale="es" localized="Estos impiden la fusión"/>
+    <moqui.basic.LocalizedMessage original="This case is not a warranty claim yet: record its evidence to make it one." locale="es" localized="Este caso aún no es una reclamación de garantía: registre su evidencia para convertirla en una."/>
+    <moqui.basic.LocalizedMessage original="This claim is not available: it does not exist, or it is not a case you may work with." locale="es" localized="Esta reclamación no está disponible: no existe, o no es un caso con el que usted pueda trabajar."/>
+    <moqui.basic.LocalizedMessage original="This contact is not available: it does not exist, or it is not a contact of a                                 customer you serve." locale="es" localized="Este contacto no está disponible: no existe, o no es un contacto de un cliente al que usted atiende."/>
+    <moqui.basic.LocalizedMessage original="This queue asks for the fields of its template ${queueChoice.templateName}: choose it as the Template in step 1, then fill it in" locale="es" localized="Esta cola pide los campos de su plantilla ${queueChoice.templateName}: elíjala como la Plantilla en el paso 1 y luego complétela"/>
+    <moqui.basic.LocalizedMessage original="To hold, cancel or reopen" locale="es" localized="Para retener, cancelar o reabrir"/>
+    <moqui.basic.LocalizedMessage original="To resolve or cancel" locale="es" localized="Para resolver o cancelar"/>
+    <moqui.basic.LocalizedMessage original="To the queue" locale="es" localized="A la cola"/>
+    <moqui.basic.LocalizedMessage original="Turn off the public form of ${queueText}? Its link stops working." locale="es" localized="¿Desactivar el formulario público de ${queueText}? Su enlace deja de funcionar."/>
+    <moqui.basic.LocalizedMessage original="Turn on the public form of ${queue}?" locale="es" localized="¿Activar el formulario público de ${queue}?"/>
+    <moqui.basic.LocalizedMessage original="Types it takes" locale="es" localized="Tipos que acepta"/>
+    <moqui.basic.LocalizedMessage original="Unknown sender" locale="es" localized="Remitente desconocido"/>
+    <moqui.basic.LocalizedMessage original="Update repair ${repair.assetMaintenanceId}" locale="es" localized="Actualizar la reparación ${repair.assetMaintenanceId}"/>
+    <moqui.basic.LocalizedMessage original="Urgent: first response (minutes)" locale="es" localized="Urgente: primera respuesta (minutos)"/>
+    <moqui.basic.LocalizedMessage original="Use these" locale="es" localized="Usar estos"/>
+    <moqui.basic.LocalizedMessage original="Use this template" locale="es" localized="Usar esta plantilla"/>
+    <moqui.basic.LocalizedMessage original="Used by ${names}" locale="es" localized="Usada por ${names}"/>
+    <moqui.basic.LocalizedMessage original="Variables: {{customerName}}, {{contactFirstName}}, {{caseId}} and the others below" locale="es" localized="Variables: {{customerName}}, {{contactFirstName}}, {{caseId}} y las demás de abajo"/>
+    <moqui.basic.LocalizedMessage original="version ${version}" locale="es" localized="versión ${version}"/>
+    <moqui.basic.LocalizedMessage original="Waiting for the customer always does" locale="es" localized="Esperar al cliente siempre pausa"/>
+    <moqui.basic.LocalizedMessage original="Waiting for the customer from" locale="es" localized="Espera del cliente desde"/>
+    <moqui.basic.LocalizedMessage original="Warn before (minutes)" locale="es" localized="Avisar antes (minutos)"/>
+    <moqui.basic.LocalizedMessage original="Warn of a pause longer than (minutes)" locale="es" localized="Avisar de una pausa de más de (minutos)"/>
+    <moqui.basic.LocalizedMessage original="Warranty claim" locale="es" localized="Reclamación de garantía"/>
+    <moqui.basic.LocalizedMessage original="Warranty claim ${requestId}" locale="es" localized="Reclamación de garantía ${requestId}"/>
+    <moqui.basic.LocalizedMessage original="Warranty claim not available" locale="es" localized="Reclamación de garantía no disponible"/>
+    <moqui.basic.LocalizedMessage original="Warranty claims" locale="es" localized="Reclamaciones de garantía"/>
+    <moqui.basic.LocalizedMessage original="Warranty claims are for the service agents and managers. Open a return to see its state." locale="es" localized="Las reclamaciones de garantía son para los agentes y los gerentes del servicio. Abra una devolución para ver su estado."/>
+    <moqui.basic.LocalizedMessage original="What is it about?" locale="es" localized="¿De qué se trata?"/>
+    <moqui.basic.LocalizedMessage original="What readers said of the articles. Reviewing a report makes or links a task; the article changes only when its authors edit and publish it." locale="es" localized="Lo que los lectores dijeron de los artículos. Revisar un informe crea o vincula una tarea; el artículo cambia solo cuando sus autores lo editan y lo publican."/>
+    <moqui.basic.LocalizedMessage original="When no agent is eligible; empty: the queue's fallback, else unassigned" locale="es" localized="Cuando ningún agente es elegible; vacío: el respaldo de la cola; si no, sin asignar"/>
+    <moqui.basic.LocalizedMessage original="When the reply starts a thread; empty: the case's subject" locale="es" localized="Cuando la respuesta inicia un hilo; vacío: el asunto del caso"/>
+    <moqui.basic.LocalizedMessage original="When would a case be due?" locale="es" localized="¿Cuándo vencería un caso?"/>
+    <moqui.basic.LocalizedMessage original="Where an article drafted from a case goes" locale="es" localized="Adónde va un artículo redactado desde un caso"/>
+    <moqui.basic.LocalizedMessage original="Which agent of a queue's team a new case goes to, and when no one can take it." locale="es" localized="A qué agente del equipo de una cola va un caso nuevo, y qué ocurre cuando nadie puede tomarlo."/>
+    <moqui.basic.LocalizedMessage original="Which queue mail, the public form, the forum and chat file into, the acknowledgement, and what is held for review." locale="es" localized="En qué cola se archivan el correo, el formulario público, el foro y la conversación, el acuse, y qué se retiene para revisión."/>
+    <moqui.basic.LocalizedMessage original="Who sees its cases" locale="es" localized="Quién ve sus casos"/>
+    <moqui.basic.LocalizedMessage original="Why an exception" locale="es" localized="Por qué una excepción"/>
+    <moqui.basic.LocalizedMessage original="Why it starts then" locale="es" localized="Por qué empieza entonces"/>
+    <moqui.basic.LocalizedMessage original="Why the coverage end is set" locale="es" localized="Por qué se establece el fin de la cobertura"/>
+    <moqui.basic.LocalizedMessage original="Window (days)" locale="es" localized="Plazo (días)"/>
+    <moqui.basic.LocalizedMessage original="Window ends" locale="es" localized="El plazo termina"/>
+    <moqui.basic.LocalizedMessage original="with ${name}" locale="es" localized="con ${name}"/>
+    <moqui.basic.LocalizedMessage original="With an improvement, what the task is to do" locale="es" localized="Con una mejora, qué debe hacer la tarea"/>
+    <moqui.basic.LocalizedMessage original="With no policy a return is reviewed by a person; a return keeps the policy row it was evaluated against." locale="es" localized="Sin política, una persona revisa la devolución; una devolución conserva la fila de política contra la que se evaluó."/>
+    <moqui.basic.LocalizedMessage original="Work order ${id} · ${status}" locale="es" localized="Orden de trabajo ${id} · ${status}"/>
+    <moqui.basic.LocalizedMessage original="Work routing" locale="es" localized="Enrutamiento del trabajo"/>
+    <moqui.basic.LocalizedMessage original="Working hours of ${team.teamName}" locale="es" localized="Horas de trabajo de ${team.teamName}"/>
+    <moqui.basic.LocalizedMessage original="Working hours: ${team.hoursText}" locale="es" localized="Horas de trabajo: ${team.hoursText}"/>
+    <moqui.basic.LocalizedMessage original="You do not enter cases here: ask a service manager to add you to a team." locale="es" localized="Usted no registra casos aquí: pida a un gerente del servicio que lo añada a un equipo."/>
+    <moqui.basic.LocalizedMessage original="You do not enter returns here." locale="es" localized="Usted no registra devoluciones aquí."/>
+    <moqui.basic.LocalizedMessage original="You work no queue yet: a service manager adds you to a team." locale="es" localized="Usted aún no trabaja en ninguna cola: un gerente del servicio lo añade a un equipo."/>
+</entity-facade-xml>

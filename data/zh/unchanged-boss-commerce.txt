@@ -1,0 +1,12 @@
+# Messages the same in this language. A missing catalog row returns the original.
+${ec.l10n.localize('Edit')} ${label}
+${formatText} · ${locale} · ${currencyUomId}
+${integration.connectorText} · ${integration.storeName}
+${menu.name} (${menu.menuKey}${menu.locale ? ', ' + menu.locale : ''})
+${menuLink.name}${menuLink.locale ? ' (' + menuLink.locale + ')' : ''}
+${offerName} · ${productName}
+${scopeText}${periodText ? ', ' + periodText : ''}
+${systemMessageId} ${externalId}: ${safeError}
+${taxOut?.displayText}${taxOut?.message ? ' (' + taxOut.message + ')' : ''}
+${transactionSetId} ${businessKey} (${statusText})
+IronStone Starter
