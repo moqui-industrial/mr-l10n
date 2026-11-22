@@ -18,8 +18,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="${batch.integrationName} · ${batch.storeName} · ${batch.formatText} · ${batch.statusText} · prepared ${batch.preparedText}${batch.committedText ? ' · committed ' + batch.committedText + (batch.committedBy ? ' by ' + batch.committedBy : '') : ''}" locale="zh" localized="${batch.integrationName} · ${batch.storeName} · ${batch.formatText} · ${batch.statusText} · 已编制 ${batch.preparedText}${batch.committedText ? ' · 已提交 ' + batch.committedText + (batch.committedBy ? '，由 ' + batch.committedBy : '') : ''}"/>
     <moqui.basic.LocalizedMessage original="${checkout.statusText}${checkout.frozenText ? ', totals frozen ' + checkout.frozenText : ''}${checkout.dueText ? ', due ' + checkout.dueText : ''}${checkout.paymentText ? ', payment ' + checkout.paymentText : ''}." locale="zh" localized="${checkout.statusText}${checkout.frozenText ? '，合计已冻结 ' + checkout.frozenText : ''}${checkout.dueText ? '，到期 ' + checkout.dueText : ''}${checkout.paymentText ? '，付款 ' + checkout.paymentText : ''}。"/>
     <moqui.basic.LocalizedMessage original="${composition.theme.name}: draft revision ${composition.draftRevision}" locale="zh" localized="${composition.theme.name}：草稿修订 ${composition.draftRevision}"/>
-    <moqui.basic.LocalizedMessage original="${count} code uses left" locale="zh" localized="促销代码剩余 ${count} 次"/>
-    <moqui.basic.LocalizedMessage original="${count} promotion uses left" locale="zh" localized="促销活动剩余 ${count} 次"/>
     <moqui.basic.LocalizedMessage original="${decision == 'approve' ? 'Approved' : 'Deleted'} ${decided.decidedCount} of ${decided.results.length} reviews." locale="zh" localized="${decision == 'approve' ? '已批准' : '已删除'} ${decided.decidedCount} 条，共 ${decided.results.length} 条审阅。"/>
     <moqui.basic.LocalizedMessage original="${detailMessage.stateText} · received ${detailMessage.receivedText}${detailMessage.processedText ? ' · processed ' + detailMessage.processedText : ''} · ${detailMessage.attempts} failed attempts" locale="zh" localized="${detailMessage.stateText} · 已接收 ${detailMessage.receivedText}${detailMessage.processedText ? ' · 已处理 ' + detailMessage.processedText : ''} · ${detailMessage.attempts} 次失败"/>
     <moqui.basic.LocalizedMessage original="${done.doneCount} done." locale="zh" localized="${done.doneCount} 已完成。"/>
@@ -361,20 +359,20 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="No store sold in these periods." locale="zh" localized="这些期间没有商店售出。"/>
     <moqui.basic.LocalizedMessage original="No store yet" locale="zh" localized="还没有商店"/>
     <moqui.basic.LocalizedMessage original="No store yet. Start one with New store: its organization, a facility, then its checkout and site." locale="zh" localized="还没有商店。用新建商店开始一家：其组织、一个设施，然后是结账和站点。"/>
-    <moqui.basic.LocalizedMessage original="No stores" locale="zh" localized="没有商店"/>
     <moqui.basic.LocalizedMessage original="No submitted order yet." locale="zh" localized="还没有已提交的订单。"/>
     <moqui.basic.LocalizedMessage original="No subscription offer: Shop sells paid access only as prepaid purchases." locale="zh" localized="没有订阅优惠：商店仅以预付购买的方式销售付费访问。"/>
     <moqui.basic.LocalizedMessage original="No themes yet. Start one with New theme, from the starter or a release." locale="zh" localized="还没有主题。用新建主题开始一个，从起始主题或一个版本。"/>
     <moqui.basic.LocalizedMessage original="No wiki space gives this store its pages." locale="zh" localized="没有 wiki 空间为此商店提供页面。"/>
     <moqui.basic.LocalizedMessage original="None of your stores has a channel order integration; New integration on Integrations binds one." locale="zh" localized="您的商店都没有渠道订单集成；在集成中用新建集成绑定一个。"/>
     <moqui.basic.LocalizedMessage original="None of your stores sells on a site yet. A site operator mounts the shop for a store." locale="zh" localized="您的商店都还没有在站点上销售。站点操作员为一家商店挂载其商店。"/>
+    <moqui.basic.LocalizedMessage original="code ${count}" locale="zh" localized="促销代码 ${count}"/>
     <moqui.basic.LocalizedMessage original="none, or some of reviewRequests, cartReminders, news; empty for the default" locale="zh" localized="none，或 reviewRequests、cartReminders、news 中的若干项；留空则用默认"/>
     <moqui.basic.LocalizedMessage original="Not built yet: Build now makes the first one." locale="zh" localized="尚未构建：立即构建会生成第一个。"/>
     <moqui.basic.LocalizedMessage original="Not live" locale="zh" localized="未上线"/>
     <moqui.basic.LocalizedMessage original="Not live on a site" locale="zh" localized="未在站点上线"/>
     <moqui.basic.LocalizedMessage original="Not published yet." locale="zh" localized="尚未发布。"/>
     <moqui.basic.LocalizedMessage original="Nothing is published in this store yet" locale="zh" localized="此商店还没有发布任何内容"/>
-    <moqui.basic.LocalizedMessage original="Nothing left out" locale="zh" localized="没有遗漏"/>
+    <moqui.basic.LocalizedMessage original="Nothing##left out" locale="zh" localized="没有遗漏"/>
     <moqui.basic.LocalizedMessage original="Notice not delivered" locale="zh" localized="通知未送达"/>
     <moqui.basic.LocalizedMessage original="Notices not delivered" locale="zh" localized="未送达的通知"/>
     <moqui.basic.LocalizedMessage original="Now: ${retryRow?.stateText}${retryRow?.failureText ? ' · ' + retryRow.failureText : ''} · ${retryRow?.attemptCount} attempts" locale="zh" localized="现在：${retryRow?.stateText}${retryRow?.failureText ? ' · ' + retryRow.failureText : ''} · ${retryRow?.attemptCount} 次尝试"/>
@@ -585,12 +583,14 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Store reply: ${replyText}" locale="zh" localized="商店回复：${replyText}"/>
     <moqui.basic.LocalizedMessage original="Store reports" locale="zh" localized="商店报表"/>
     <moqui.basic.LocalizedMessage original="Store staff" locale="zh" localized="商店工作人员"/>
+    <moqui.basic.LocalizedMessage original="promotion ${count}" locale="zh" localized="促销 ${count}"/>
     <moqui.basic.LocalizedMessage original="store, period" locale="zh" localized="商店、期间"/>
     <moqui.basic.LocalizedMessage original="store, period, currency" locale="zh" localized="商店、期间、货币"/>
     <moqui.basic.LocalizedMessage original="store, period, periods shown, currency" locale="zh" localized="商店、期间、显示的期间、货币"/>
     <moqui.basic.LocalizedMessage original="store, promotion, period, currency" locale="zh" localized="商店、促销活动、期间、货币"/>
     <moqui.basic.LocalizedMessage original="Storefront details of ${productName}" locale="zh" localized="${productName} 的店面详情"/>
     <moqui.basic.LocalizedMessage original="Stores: ${names}" locale="zh" localized="商店：${names}"/>
+    <moqui.basic.LocalizedMessage original="Stores: none" locale="zh" localized="没有商店"/>
     <moqui.basic.LocalizedMessage original="Subscription ${contractId} is not available: it does not exist, or it is not of a store you work." locale="zh" localized="订阅 ${contractId} 不可用：它不存在，或不是您经办的商店的订阅。"/>
     <moqui.basic.LocalizedMessage original="Subscription ${contractId} · ${sc.customerName}" locale="zh" localized="订阅 ${contractId} · ${sc.customerName}"/>
     <moqui.basic.LocalizedMessage original="Subscription address" locale="zh" localized="订阅地址"/>
