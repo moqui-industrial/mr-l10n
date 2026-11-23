@@ -21,8 +21,8 @@ database.
 | mr-moqui | framework, tools, webroot, basic-comms, example, dev-aide | |
 | [mr-mantle](https://github.com/moqui/mr-mantle) | Enumerations and statuses, states and provinces, messages and templates | |
 | [mr-marble](https://github.com/moqui/mr-marble) | Screens, email and print | |
-| [mr-boss](https://github.com/moqui/mr-boss) | Commons, Comms, Projects, Products, Accounting, Warehouse, Manufacturing, Purchasing, Customer Service, and the shared screens they mount | Sales, Marketing, Commerce, Maintenance, People, Insights, Admin |
-| [mr-pass](https://github.com/moqui/mr-pass) | | All of it |
+| [mr-boss](https://github.com/moqui/mr-boss) | All sixteen apps, and the shared screens they mount | |
+| [mr-pass](https://github.com/moqui/mr-pass) | Account, Billing, Forum, Marketing, Members, Sales, Shop, Sites, Smithy, Supplier, and Support | |
 
 Texts longer than 255 characters stay in English; they are listed in
 [docs/Strings-Left-In-English.md](docs/Strings-Left-In-English.md).
@@ -64,7 +64,8 @@ large:
 | `DevAide` | Dev AIDE |
 | `Mantle*` | mr-mantle enumerations, states and provinces, messages and templates |
 | `Marble*` | mr-marble screens, email and print |
-| `Boss*` | mr-boss Commons, Comms, Projects, Products, Accounting, Warehouse, Manufacturing, Purchasing, and Customer Service, and the shared screens those apps mount |
+| `Boss*` | mr-boss: all sixteen apps, and the shared screens they mount |
+| `Pass*` | mr-pass: Account, the customer and supplier portals, Smithy, Forum, and Shop |
 | `EsRegional.xml` | `es_ES` overrides (still type `es`); `es_MX` has none of its own |
 
 `Geo.geoName`, enumeration and status descriptions, status transition names, and UOM description and symbol have `enable-localization="true"`, so these rows show on screen. Product feature description and abbreviation do too. `geoNameLocal` is the place's own name, not the viewer's language. Party names, product names, and GL account names are stored text and stay as entered.

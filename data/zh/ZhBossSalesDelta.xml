@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+
+<entity-facade-xml type="zh">
+    <moqui.basic.LocalizedMessage original="${ensured.createdCount} sales periods added" locale="zh" localized="已添加 ${ensured.createdCount} 个销售期间"/>
+    <moqui.basic.LocalizedMessage original="${forecast.allocatedText} of ${forecast.forecastText} allocated." locale="zh" localized="已分配 ${forecast.allocatedText}／${forecast.forecastText}。"/>
+    <moqui.basic.LocalizedMessage original="${forecast.periodText} · as of ${forecast.asOfText}${forecast.parentName ? ' · rolls up to ' + forecast.parentName : ''}" locale="zh" localized="${forecast.periodText} · 截至 ${forecast.asOfText}${forecast.parentName ? ' · 汇总至 ' + forecast.parentName : ''}"/>
+    <moqui.basic.LocalizedMessage original="${home.assignedCount} assigned in all; the soonest ten are shown." locale="zh" localized="共分派 ${home.assignedCount} 个；显示最近的十个。"/>
+    <moqui.basic.LocalizedMessage original="${offeredCount} offered to ${setup?.organizationName}" locale="zh" localized="已提供 ${offeredCount} 个，给 ${setup?.organizationName}"/>
+    <moqui.basic.LocalizedMessage original="${panel.title} Detail" locale="zh" localized="${panel.title}详情"/>
+    <moqui.basic.LocalizedMessage original="${pipeline?.pipelineName}: stages" locale="zh" localized="${pipeline?.pipelineName}：阶段"/>
+    <moqui.basic.LocalizedMessage original="${report.modeText}. Closed ${report.fromText} – ${report.thruText}, as of ${report.asOfText}." locale="zh" localized="${report.modeText}。已关闭 ${report.fromText} – ${report.thruText}，截至 ${report.asOfText}。"/>
+    <moqui.basic.LocalizedMessage original="${team?.teamName}: members" locale="zh" localized="${team?.teamName}：成员"/>
+    <moqui.basic.LocalizedMessage original="${tp.state == 'draft' ? 'Set aside' : 'End'} template ${orderId}" locale="zh" localized="${tp.state == 'draft' ? '搁置' : '结束'}模板 ${orderId}"/>
+    <moqui.basic.LocalizedMessage original="0 to 23, in the zone below" locale="zh" localized="0 到 23，使用下方时区"/>
+    <moqui.basic.LocalizedMessage original="1 to 12, for a yearly order" locale="zh" localized="1 到 12，用于年度订单"/>
+    <moqui.basic.LocalizedMessage original="1 to 28, or L for the last day" locale="zh" localized="1 到 28，或 L 表示最后一天"/>
+    <moqui.basic.LocalizedMessage original="A deal moves through its pipeline's stages; Won and Lost are outcomes, not stages. A stage in use is retired with its open deals moved, never deleted." locale="zh" localized="交易沿其管道的阶段推进；已赢和丢单是结果，不是阶段。使用中的阶段在停用时移走其未结交易，从不删除。"/>
+    <moqui.basic.LocalizedMessage original="A forecast is an entered judgement; the pipeline beside it is calculated from the deals you see." locale="zh" localized="预测是录入的判断；旁边的管道根据您看到的交易计算。"/>
+    <moqui.basic.LocalizedMessage original="A forecast of the same period and currency" locale="zh" localized="同一期间和同一货币的预测"/>
+    <moqui.basic.LocalizedMessage original="A lead from a tracked link takes the source its UTM source and medium map to; a source with no medium mapped covers every medium, and an unmapped link keeps the form's or rule's own source." locale="zh" localized="来自跟踪链接的线索采用其 UTM 来源和媒介所映射的来源；未映射媒介的来源覆盖所有媒介，未映射的链接保留表单或规则自己的来源。"/>
+    <moqui.basic.LocalizedMessage original="A lost deal needs its reason" locale="zh" localized="丢单的交易需要原因"/>
+    <moqui.basic.LocalizedMessage original="A message is filed on a lead, an opportunity or an account" locale="zh" localized="消息归档在线索、商机或客户账户上"/>
+    <moqui.basic.LocalizedMessage original="A new quote's team when its opportunity has none and its author is in no single team" locale="zh" localized="新报价的团队：其商机没有团队，且作者不属于唯一团队"/>
+    <moqui.basic.LocalizedMessage original="A pipeline is ended once no open deal is on its stages; its history stays." locale="zh" localized="当其阶段上没有未结交易时，管道即结束；其历史保留。"/>
+    <moqui.basic.LocalizedMessage original="A placed, approved or held order of your organization" locale="zh" localized="您组织的已下达、已批准或已暂挂订单"/>
+    <moqui.basic.LocalizedMessage original="A product, or a category below, not both" locale="zh" localized="一个产品，或下方的一个类别，不能两者都填"/>
+    <moqui.basic.LocalizedMessage original="A published template is not changed: start its successor, change that and publish it to replace this one." locale="zh" localized="已发布的模板不可更改：开始其后继，修改并发布它以替换这一份。"/>
+    <moqui.basic.LocalizedMessage original="A representative, a sales team or the organization itself" locale="zh" localized="一名代表、一个销售团队或组织本身"/>
+    <moqui.basic.LocalizedMessage original="A sales manager assigns outside your teams" locale="zh" localized="销售经理可在您的团队之外分派"/>
+    <moqui.basic.LocalizedMessage original="A stay whose entry or exit the history does not show" locale="zh" localized="历史未显示进入或离开的停留"/>
+    <moqui.basic.LocalizedMessage original="A target is a quota for a period, measured on one basis. Changing a target never changes what was measured." locale="zh" localized="目标是一个期间的指标，按单一基准计量。更改目标从不改变已计量的结果。"/>
+    <moqui.basic.LocalizedMessage original="A team's members see its opportunities. Joining and leaving take effect from their dates; past work keeps who did it." locale="zh" localized="团队成员可以看到其商机。加入和离开自其日期起生效；过去的工作保留完成人。"/>
+    <moqui.basic.LocalizedMessage original="A template to start agreements from" locale="zh" localized="用于开始协议的模板"/>
+    <moqui.basic.LocalizedMessage original="Above it, a customer's quote link alone cannot accept: they sign in as a contact you invited. Empty: none" locale="zh" localized="在此之上，仅凭客户的报价链接不能接受：对方以您邀请的联系人身份登录。空：无"/>
+    <moqui.basic.LocalizedMessage original="Account or contact" locale="zh" localized="客户账户或联系人"/>
+    <moqui.basic.LocalizedMessage original="Account: ${deal.accountName}" locale="zh" localized="客户账户：${deal.accountName}"/>
+    <moqui.basic.LocalizedMessage original="Acknowledge a request for quote by mail" locale="zh" localized="通过邮件回执询价"/>
+    <moqui.basic.LocalizedMessage original="Add ${salesContact.label} to an account" locale="zh" localized="将 ${salesContact.label} 加入客户账户"/>
+    <moqui.basic.LocalizedMessage original="Add a competitor" locale="zh" localized="添加竞争对手"/>
+    <moqui.basic.LocalizedMessage original="Add a contact to ${deal.opportunityName}" locale="zh" localized="向 ${deal.opportunityName} 添加联系人"/>
+    <moqui.basic.LocalizedMessage original="Add a line to template ${orderId}" locale="zh" localized="向模板 ${orderId} 添加一行"/>
+    <moqui.basic.LocalizedMessage original="Add a lost reason" locale="zh" localized="添加丢单原因"/>
+    <moqui.basic.LocalizedMessage original="Add a member to ${team?.teamName}" locale="zh" localized="向 ${team?.teamName} 添加成员"/>
+    <moqui.basic.LocalizedMessage original="Add a shipping charge to template ${orderId}" locale="zh" localized="向模板 ${orderId} 添加运费"/>
+    <moqui.basic.LocalizedMessage original="Add a stage to ${pipeline?.pipelineName}" locale="zh" localized="向 ${pipeline?.pipelineName} 添加阶段"/>
+    <moqui.basic.LocalizedMessage original="Add a year's sales periods" locale="zh" localized="添加一年的销售期间"/>
+    <moqui.basic.LocalizedMessage original="Add its lines on the request, then make a quote from them." locale="zh" localized="在询价上添加其行，再据此生成报价。"/>
+    <moqui.basic.LocalizedMessage original="Add periods" locale="zh" localized="添加期间"/>
+    <moqui.basic.LocalizedMessage original="Add stage" locale="zh" localized="添加阶段"/>
+    <moqui.basic.LocalizedMessage original="Add the selected accounts' contacts to a list" locale="zh" localized="将所选客户账户的联系人加入列表"/>
+    <moqui.basic.LocalizedMessage original="Add the selected leads' contacts to a list" locale="zh" localized="将所选线索的联系人加入列表"/>
+    <moqui.basic.LocalizedMessage original="Against the quota: ${quotaLine}" locale="zh" localized="相对指标：${quotaLine}"/>
+    <moqui.basic.LocalizedMessage original="Agreement template" locale="zh" localized="协议模板"/>
+    <moqui.basic.LocalizedMessage original="Ahead of us" locale="zh" localized="领先"/>
+    <moqui.basic.LocalizedMessage original="All opportunities" locale="zh" localized="全部商机"/>
+    <moqui.basic.LocalizedMessage original="All templates" locale="zh" localized="全部模板"/>
+    <moqui.basic.LocalizedMessage original="Allocate the forecast" locale="zh" localized="分配预测"/>
+    <moqui.basic.LocalizedMessage original="Allocation by product or category" locale="zh" localized="按产品或类别分配"/>
+    <moqui.basic.LocalizedMessage original="Also offered to" locale="zh" localized="同时提供给"/>
+    <moqui.basic.LocalizedMessage original="An acceptance needs the customer's purchase order" locale="zh" localized="接受需要客户的采购订单"/>
+    <moqui.basic.LocalizedMessage original="An account of the organization; none for a template" locale="zh" localized="组织的客户账户；模板则无"/>
+    <moqui.basic.LocalizedMessage original="An approved sales order; it stays as it is and a copy holds the schedule" locale="zh" localized="已批准的销售订单；原单保持不变，副本承载计划"/>
+    <moqui.basic.LocalizedMessage original="An order is made only while the agreement applies" locale="zh" localized="仅在协议有效期间生成订单"/>
+    <moqui.basic.LocalizedMessage original="Approval of quote ${orderId} · revision ${preview?.orderRevision}" locale="zh" localized="报价 ${orderId} 的审批 · 修订 ${preview?.orderRevision}"/>
+    <moqui.basic.LocalizedMessage original="Approvals a quote needs" locale="zh" localized="报价所需的审批"/>
+    <moqui.basic.LocalizedMessage original="As of ${report.asOfText} · ${report.openDealCount} open opportunities · ${report.openLeadCount} open leads" locale="zh" localized="截至 ${report.asOfText} · ${report.openDealCount} 个未结商机 · ${report.openLeadCount} 个未结线索"/>
+    <moqui.basic.LocalizedMessage original="As the link carries it, such as newsletter" locale="zh" localized="按链接所带，例如新闻通讯"/>
+    <moqui.basic.LocalizedMessage original="At least the forecast" locale="zh" localized="至少为预测"/>
+    <moqui.basic.LocalizedMessage original="Average age" locale="zh" localized="平均时长"/>
+    <moqui.basic.LocalizedMessage original="Awaiting a response" locale="zh" localized="等待回复"/>
+    <moqui.basic.LocalizedMessage original="Awaiting approval or held" locale="zh" localized="待审批或已暂挂"/>
+    <moqui.basic.LocalizedMessage original="Back to contacts" locale="zh" localized="返回联系人"/>
+    <moqui.basic.LocalizedMessage original="Back to duplicates" locale="zh" localized="返回重复项"/>
+    <moqui.basic.LocalizedMessage original="Back to quote templates" locale="zh" localized="返回报价模板"/>
+    <moqui.basic.LocalizedMessage original="Behind us" locale="zh" localized="落后"/>
+    <moqui.basic.LocalizedMessage original="Best case" locale="zh" localized="最好情况"/>
+    <moqui.basic.LocalizedMessage original="Bill each order once it is approved" locale="zh" localized="每张订单在批准后开票"/>
+    <moqui.basic.LocalizedMessage original="Call logged on the deal" locale="zh" localized="已在交易上记录通话"/>
+    <moqui.basic.LocalizedMessage original="Came by" locale="zh" localized="来自渠道"/>
+    <moqui.basic.LocalizedMessage original="Candidate pairs among your organizations' accounts and their contacts, from the last duplicate scan. Compare a pair to merge it, or mark it not a duplicate; nothing is merged on a similar name alone." locale="zh" localized="来自最近一次重复扫描的、您所在组织的客户账户及其联系人的候选对。比较一对再合并，或标为不是重复；不会仅因名称相似而合并。"/>
+    <moqui.basic.LocalizedMessage original="Change ${ruleText}" locale="zh" localized="更改 ${ruleText}"/>
+    <moqui.basic.LocalizedMessage original="Change owner" locale="zh" localized="更改所有者"/>
+    <moqui.basic.LocalizedMessage original="Change stage" locale="zh" localized="更改阶段"/>
+    <moqui.basic.LocalizedMessage original="Change the commercial revision" locale="zh" localized="更改商务修订"/>
+    <moqui.basic.LocalizedMessage original="Change the owner of ${deal.opportunityName}" locale="zh" localized="更改 ${deal.opportunityName} 的所有者"/>
+    <moqui.basic.LocalizedMessage original="Change the stage of ${deal.opportunityName}" locale="zh" localized="更改 ${deal.opportunityName} 的阶段"/>
+    <moqui.basic.LocalizedMessage original="Change the stage of ${opportunityName}" locale="zh" localized="更改 ${opportunityName} 的阶段"/>
+    <moqui.basic.LocalizedMessage original="Change the target of ${subjectName}, ${periodName}" locale="zh" localized="更改 ${subjectName}、${periodName} 的目标"/>
+    <moqui.basic.LocalizedMessage original="Check this quote before I send it: its lines, validity, tax, approvals and who it goes to" locale="zh" localized="在我发送前检查此报价：其行、有效期、税、审批以及接收人"/>
+    <moqui.basic.LocalizedMessage original="Choose an organization to see its forecast." locale="zh" localized="选择一个组织以查看其预测。"/>
+    <moqui.basic.LocalizedMessage original="Close ${deal.opportunityName}" locale="zh" localized="关闭 ${deal.opportunityName}"/>
+    <moqui.basic.LocalizedMessage original="Close a lead or opportunity" locale="zh" localized="关闭线索或商机"/>
+    <moqui.basic.LocalizedMessage original="Close as lost" locale="zh" localized="关闭为丢单"/>
+    <moqui.basic.LocalizedMessage original="Close date" locale="zh" localized="成交日期"/>
+    <moqui.basic.LocalizedMessage original="Close remainders" locale="zh" localized="关闭剩余部分"/>
+    <moqui.basic.LocalizedMessage original="Closed ${deal.closedText}" locale="zh" localized="已关闭 ${deal.closedText}"/>
+    <moqui.basic.LocalizedMessage original="Closed deals" locale="zh" localized="已关闭的交易"/>
+    <moqui.basic.LocalizedMessage original="Closed from" locale="zh" localized="关闭日起"/>
+    <moqui.basic.LocalizedMessage original="Closed on" locale="zh" localized="关闭于"/>
+    <moqui.basic.LocalizedMessage original="Closed through" locale="zh" localized="关闭日止"/>
+    <moqui.basic.LocalizedMessage original="Closing from" locale="zh" localized="成交日起"/>
+    <moqui.basic.LocalizedMessage original="Closing through" locale="zh" localized="成交日止"/>
+    <moqui.basic.LocalizedMessage original="Commercial revision" locale="zh" localized="商务修订"/>
+    <moqui.basic.LocalizedMessage original="Commercial revision saved" locale="zh" localized="商务修订已保存"/>
+    <moqui.basic.LocalizedMessage original="Competitor" locale="zh" localized="竞争对手"/>
+    <moqui.basic.LocalizedMessage original="Competitors" locale="zh" localized="竞争对手"/>
+    <moqui.basic.LocalizedMessage original="Cost of shipped" locale="zh" localized="已发货成本"/>
+    <moqui.basic.LocalizedMessage original="Create and offer" locale="zh" localized="新建并提供"/>
+    <moqui.basic.LocalizedMessage original="Create pipeline" locale="zh" localized="新建管道"/>
+    <moqui.basic.LocalizedMessage original="Create target" locale="zh" localized="新建目标"/>
+    <moqui.basic.LocalizedMessage original="Cron expression" locale="zh" localized="Cron 表达式"/>
+    <moqui.basic.LocalizedMessage original="Customer prices" locale="zh" localized="客户价格"/>
+    <moqui.basic.LocalizedMessage original="Customer terms and negotiated prices: a quote for the customer takes an agreement's prices while it is active." locale="zh" localized="客户条款和议定价格：给客户的报价在协议有效期间采用协议的价格。"/>
+    <moqui.basic.LocalizedMessage original="Day of the month" locale="zh" localized="月中的日"/>
+    <moqui.basic.LocalizedMessage original="Day of the week" locale="zh" localized="星期几"/>
+    <moqui.basic.LocalizedMessage original="Deal" locale="zh" localized="交易"/>
+    <moqui.basic.LocalizedMessage original="Deals behind the pipeline" locale="zh" localized="管道下的交易"/>
+    <moqui.basic.LocalizedMessage original="Deals with no stage movement" locale="zh" localized="无阶段变动的交易"/>
+    <moqui.basic.LocalizedMessage original="Default probability" locale="zh" localized="默认概率"/>
+    <moqui.basic.LocalizedMessage original="Default probability %" locale="zh" localized="默认概率 %"/>
+    <moqui.basic.LocalizedMessage original="Defaults published${changeText ? ': ' + changeText : ''}" locale="zh" localized="已发布默认值${changeText ? '：' + changeText : ''}"/>
+    <moqui.basic.LocalizedMessage original="Disqualified" locale="zh" localized="已取消资格"/>
+    <moqui.basic.LocalizedMessage original="Disqualify" locale="zh" localized="取消资格"/>
+    <moqui.basic.LocalizedMessage original="Disqualify ${deal.opportunityName}" locale="zh" localized="取消 ${deal.opportunityName} 的资格"/>
+    <moqui.basic.LocalizedMessage original="Draft a follow-up message to this deal's contact about the next step" locale="zh" localized="起草发给此交易联系人的跟进消息，说明下一步"/>
+    <moqui.basic.LocalizedMessage original="Draft a short cover note for sending this quote to the customer's contact" locale="zh" localized="起草一封简短附言，以便把此报价发给客户的联系人"/>
+    <moqui.basic.LocalizedMessage original="Duplicate accounts" locale="zh" localized="重复的客户账户"/>
+    <moqui.basic.LocalizedMessage original="Each close event" locale="zh" localized="每次关闭事件"/>
+    <moqui.basic.LocalizedMessage original="Each forecast is its own judgement; they are not added to this one." locale="zh" localized="每个预测是各自的判断；不会加到这一个上。"/>
+    <moqui.basic.LocalizedMessage original="Each one places a copy of its order on its schedule; the copy waits to be approved like any sales order." locale="zh" localized="每一项按计划下达其订单的副本；副本像任何销售订单一样等待批准。"/>
+    <moqui.basic.LocalizedMessage original="Each target against the one basis it is measured on: won deals, placed orders or finalized invoices, never added together." locale="zh" localized="每个目标按其计量的单一基准：赢单交易、已下达订单或已完成发票，从不相加。"/>
+    <moqui.basic.LocalizedMessage original="Edit ${deal.opportunityName}" locale="zh" localized="编辑 ${deal.opportunityName}"/>
+    <moqui.basic.LocalizedMessage original="Edit ${pipelineName}" locale="zh" localized="编辑 ${pipelineName}"/>
+    <moqui.basic.LocalizedMessage original="Edit template ${orderId}" locale="zh" localized="编辑模板 ${orderId}"/>
+    <moqui.basic.LocalizedMessage original="Empty for every medium" locale="zh" localized="留空表示所有媒介"/>
+    <moqui.basic.LocalizedMessage original="Empty for the seller's own price" locale="zh" localized="留空则用卖方自己的价格"/>
+    <moqui.basic.LocalizedMessage original="Empty: 30 days" locale="zh" localized="空：30 天"/>
+    <moqui.basic.LocalizedMessage original="Empty: 90 days before the as-of time" locale="zh" localized="空：截至时间前 90 天"/>
+    <moqui.basic.LocalizedMessage original="Empty: a new quote's end is left open" locale="zh" localized="空：新报价的结束日期保持开放"/>
+    <moqui.basic.LocalizedMessage original="Empty: any sales approver of the organization" locale="zh" localized="空：组织的任意销售批准人"/>
+    <moqui.basic.LocalizedMessage original="Empty: every team" locale="zh" localized="空：所有团队"/>
+    <moqui.basic.LocalizedMessage original="Empty: every team of the organization" locale="zh" localized="空：组织的所有团队"/>
+    <moqui.basic.LocalizedMessage original="Empty: no reminder" locale="zh" localized="空：不提醒"/>
+    <moqui.basic.LocalizedMessage original="Empty: open" locale="zh" localized="空：未结"/>
+    <moqui.basic.LocalizedMessage original="Empty: this quarter" locale="zh" localized="空：本季度"/>
+    <moqui.basic.LocalizedMessage original="End ${pipelineName}" locale="zh" localized="结束 ${pipelineName}"/>
+    <moqui.basic.LocalizedMessage original="End ${ruleText}" locale="zh" localized="结束 ${ruleText}"/>
+    <moqui.basic.LocalizedMessage original="End ${teamName}" locale="zh" localized="结束 ${teamName}"/>
+    <moqui.basic.LocalizedMessage original="End pipeline" locale="zh" localized="结束管道"/>
+    <moqui.basic.LocalizedMessage original="End recurring order ${baseOrderId}" locale="zh" localized="结束定期订单 ${baseOrderId}"/>
+    <moqui.basic.LocalizedMessage original="End team" locale="zh" localized="结束团队"/>
+    <moqui.basic.LocalizedMessage original="Even" locale="zh" localized="持平"/>
+    <moqui.basic.LocalizedMessage original="Expected close from" locale="zh" localized="预计成交日起"/>
+    <moqui.basic.LocalizedMessage original="Expected close through" locale="zh" localized="预计成交日止"/>
+    <moqui.basic.LocalizedMessage original="Expiring within a week" locale="zh" localized="一周内到期"/>
+    <moqui.basic.LocalizedMessage original="Failed: tried again" locale="zh" localized="失败：已重试"/>
+    <moqui.basic.LocalizedMessage original="Final outcome, each deal once" locale="zh" localized="最终结果，每笔交易一次"/>
+    <moqui.basic.LocalizedMessage original="Finalized sales invoice value" locale="zh" localized="已完成销售发票价值"/>
+    <moqui.basic.LocalizedMessage original="Fixed: a deal is a lead until qualified, then an opportunity; it ends Won or Lost." locale="zh" localized="固定：交易在认定前是线索，之后是商机；以已赢或丢单结束。"/>
+    <moqui.basic.LocalizedMessage original="Fold on the board" locale="zh" localized="在看板上折叠"/>
+    <moqui.basic.LocalizedMessage original="Folded" locale="zh" localized="已折叠"/>
+    <moqui.basic.LocalizedMessage original="For a discount rule" locale="zh" localized="用于折扣规则"/>
+    <moqui.basic.LocalizedMessage original="For a price floor rule; empty is the cost itself" locale="zh" localized="用于底价规则；留空即成本本身"/>
+    <moqui.basic.LocalizedMessage original="For an amount rule" locale="zh" localized="用于金额规则"/>
+    <moqui.basic.LocalizedMessage original="Forecast submitted" locale="zh" localized="预测已提交"/>
+    <moqui.basic.LocalizedMessage original="Forecasts below this one" locale="zh" localized="此预测之下的预测"/>
+    <moqui.basic.LocalizedMessage original="From the stage" locale="zh" localized="取自阶段"/>
+    <moqui.basic.LocalizedMessage original="From the stage, or keep yours" locale="zh" localized="取自阶段，或保留您的"/>
+    <moqui.basic.LocalizedMessage original="From the voicemail: an inbound call, its transcript the summary unless you write one." locale="zh" localized="来自语音信箱：一通来电，其文字记录作为摘要，除非您另行填写。"/>
+    <moqui.basic.LocalizedMessage original="Funnel of the lead cohort" locale="zh" localized="线索队列的漏斗"/>
+    <moqui.basic.LocalizedMessage original="Has it already" locale="zh" localized="已有"/>
+    <moqui.basic.LocalizedMessage original="History · ${templateHistory.length}" locale="zh" localized="历史 · ${templateHistory.length}"/>
+    <moqui.basic.LocalizedMessage original="Home summarizes the sales work, pipeline and orders of your organizations. Nothing of it is open to you." locale="zh" localized="首页汇总您所在组织的销售工作、管道和订单。其中没有任何内容对您开放。"/>
+    <moqui.basic.LocalizedMessage original="I called" locale="zh" localized="我方去电"/>
+    <moqui.basic.LocalizedMessage original="Id or name" locale="zh" localized="Id 或名称"/>
+    <moqui.basic.LocalizedMessage original="Id, name or customer reference" locale="zh" localized="Id、名称或客户参考"/>
+    <moqui.basic.LocalizedMessage original="Import leads and opportunities" locale="zh" localized="导入线索和商机"/>
+    <moqui.basic.LocalizedMessage original="In currency" locale="zh" localized="以货币"/>
+    <moqui.basic.LocalizedMessage original="In effect through" locale="zh" localized="有效期至"/>
+    <moqui.basic.LocalizedMessage original="In stage" locale="zh" localized="所在阶段"/>
+    <moqui.basic.LocalizedMessage original="Include ended and retired" locale="zh" localized="包含已结束和已停用"/>
+    <moqui.basic.LocalizedMessage original="Include ended reasons" locale="zh" localized="包含已结束的原因"/>
+    <moqui.basic.LocalizedMessage original="Inquiries" locale="zh" localized="咨询"/>
+    <moqui.basic.LocalizedMessage original="Intake address" locale="zh" localized="接收地址"/>
+    <moqui.basic.LocalizedMessage original="Intake address of ${teamName}" locale="zh" localized="${teamName} 的接收地址"/>
+    <moqui.basic.LocalizedMessage original="Intake address saved" locale="zh" localized="接收地址已保存"/>
+    <moqui.basic.LocalizedMessage original="Invoice Cost %" locale="zh" localized="发票成本 %"/>
+    <moqui.basic.LocalizedMessage original="Invoice Discount %" locale="zh" localized="发票折扣 %"/>
+    <moqui.basic.LocalizedMessage original="Invoice Discounts" locale="zh" localized="发票折扣"/>
+    <moqui.basic.LocalizedMessage original="Items · ${templateLines.length}" locale="zh" localized="项目 · ${templateLines.length}"/>
+    <moqui.basic.LocalizedMessage original="Its items, prices and terms are copied" locale="zh" localized="复制其项目、价格和条款"/>
+    <moqui.basic.LocalizedMessage original="Its memberships end with it; its members keep the work they did." locale="zh" localized="成员关系随之结束；成员保留自己做过的工作。"/>
+    <moqui.basic.LocalizedMessage original="Keep mine" locale="zh" localized="保留我的"/>
+    <moqui.basic.LocalizedMessage original="Keep unverified inquiries for days" locale="zh" localized="未核实咨询的保留天数"/>
+    <moqui.basic.LocalizedMessage original="Kept under agreement" locale="zh" localized="按协议保留"/>
+    <moqui.basic.LocalizedMessage original="Kept with My value" locale="zh" localized="随「我的值」保留"/>
+    <moqui.basic.LocalizedMessage original="Lead or opportunity" locale="zh" localized="线索或商机"/>
+    <moqui.basic.LocalizedMessage original="Lead source" locale="zh" localized="线索来源"/>
+    <moqui.basic.LocalizedMessage original="Lead sources" locale="zh" localized="线索来源"/>
+    <moqui.basic.LocalizedMessage original="Leads created by source" locale="zh" localized="按来源创建的线索"/>
+    <moqui.basic.LocalizedMessage original="Leads created from" locale="zh" localized="线索创建日起"/>
+    <moqui.basic.LocalizedMessage original="Leads created through" locale="zh" localized="线索创建日止"/>
+    <moqui.basic.LocalizedMessage original="Leads to work" locale="zh" localized="待处理线索"/>
+    <moqui.basic.LocalizedMessage original="Leave empty to keep the pricing; a fixed price needs its reason" locale="zh" localized="留空以保留定价；固定价格需要原因"/>
+    <moqui.basic.LocalizedMessage original="Leave empty to price it for each customer on the quote's date; a fixed price needs its reason" locale="zh" localized="留空则按报价日期为每位客户计价；固定价格需要原因"/>
+    <moqui.basic.LocalizedMessage original="Left, known" locale="zh" localized="已知离开"/>
+    <moqui.basic.LocalizedMessage original="Log call" locale="zh" localized="记录通话"/>
+    <moqui.basic.LocalizedMessage original="Log call on opportunity" locale="zh" localized="在商机上记录通话"/>
+    <moqui.basic.LocalizedMessage original="Loss reasons" locale="zh" localized="失败原因"/>
+    <moqui.basic.LocalizedMessage original="Lost reason" locale="zh" localized="丢单原因"/>
+    <moqui.basic.LocalizedMessage original="Lost reasons" locale="zh" localized="丢单原因"/>
+    <moqui.basic.LocalizedMessage original="Lost value" locale="zh" localized="丢单价值"/>
+    <moqui.basic.LocalizedMessage original="Lost: ${deal.lostReasonText}" locale="zh" localized="丢单：${deal.lostReasonText}"/>
+    <moqui.basic.LocalizedMessage original="Mail intake" locale="zh" localized="邮件接收"/>
+    <moqui.basic.LocalizedMessage original="Mail to sales+tag@ your intake mailbox becomes a lead in that team's queue when the mailbox has a rule whose action is Make a sales lead. Mail from anyone makes an inquiry, never a contact; the same message twice makes one lead." locale="zh" localized="发到 sales+tag@ 接收邮箱的邮件，若有动作为“创建销售线索”的规则，则成为该团队队列中的线索。任何人的邮件只产生咨询，从不产生联系人；同一封邮件两次只产生一条。"/>
+    <moqui.basic.LocalizedMessage original="Make order" locale="zh" localized="生成订单"/>
+    <moqui.basic.LocalizedMessage original="Make request" locale="zh" localized="生成询价"/>
+    <moqui.basic.LocalizedMessage original="Make the due order of ${baseOrderId} now" locale="zh" localized="立即生成 ${baseOrderId} 的到期订单"/>
+    <moqui.basic.LocalizedMessage original="Map a tracked link's source" locale="zh" localized="映射跟踪链接的来源"/>
+    <moqui.basic.LocalizedMessage original="Margin over cost %" locale="zh" localized="成本毛利率 %"/>
+    <moqui.basic.LocalizedMessage original="Measured on" locale="zh" localized="计量依据"/>
+    <moqui.basic.LocalizedMessage original="Monthly recurring" locale="zh" localized="每月经常性"/>
+    <moqui.basic.LocalizedMessage original="Move an opportunity to a stage" locale="zh" localized="将商机移到一个阶段"/>
+    <moqui.basic.LocalizedMessage original="Move open deals to" locale="zh" localized="将未结交易移至"/>
+    <moqui.basic.LocalizedMessage original="My accounts" locale="zh" localized="我的客户账户"/>
+    <moqui.basic.LocalizedMessage original="My leads" locale="zh" localized="我的线索"/>
+    <moqui.basic.LocalizedMessage original="My mail" locale="zh" localized="我的邮件"/>
+    <moqui.basic.LocalizedMessage original="My open opportunities" locale="zh" localized="我的未结商机"/>
+    <moqui.basic.LocalizedMessage original="My opportunities" locale="zh" localized="我的商机"/>
+    <moqui.basic.LocalizedMessage original="My pipeline" locale="zh" localized="我的管道"/>
+    <moqui.basic.LocalizedMessage original="My value" locale="zh" localized="我的值"/>
+    <moqui.basic.LocalizedMessage original="Name or account" locale="zh" localized="名称或客户账户"/>
+    <moqui.basic.LocalizedMessage original="Needs approval when" locale="zh" localized="需要审批的条件"/>
+    <moqui.basic.LocalizedMessage original="Needs opportunity editing access, which an administrator can grant." locale="zh" localized="需要商机编辑权限，管理员可以授予。"/>
+    <moqui.basic.LocalizedMessage original="Needs quote editing with sales team management or sales settings access, which an administrator can grant." locale="zh" localized="需要报价编辑以及销售团队管理或销售配置权限，管理员可以授予。"/>
+    <moqui.basic.LocalizedMessage original="Needs sales import access, which an administrator can grant." locale="zh" localized="需要销售导入权限，管理员可以授予。"/>
+    <moqui.basic.LocalizedMessage original="Needs sales settings access, which an administrator can grant." locale="zh" localized="需要销售配置权限，管理员可以授予。"/>
+    <moqui.basic.LocalizedMessage original="New activity" locale="zh" localized="新建活动"/>
+    <moqui.basic.LocalizedMessage original="New contact of an account" locale="zh" localized="客户账户的新联系人"/>
+    <moqui.basic.LocalizedMessage original="New Customer %" locale="zh" localized="新客户 %"/>
+    <moqui.basic.LocalizedMessage original="New Customers" locale="zh" localized="新客户"/>
+    <moqui.basic.LocalizedMessage original="New individual customer" locale="zh" localized="新建个人客户"/>
+    <moqui.basic.LocalizedMessage original="New lead" locale="zh" localized="新建线索"/>
+    <moqui.basic.LocalizedMessage original="New lead or opportunity" locale="zh" localized="新建线索或商机"/>
+    <moqui.basic.LocalizedMessage original="New lead source" locale="zh" localized="新建线索来源"/>
+    <moqui.basic.LocalizedMessage original="New opportunity" locale="zh" localized="新建商机"/>
+    <moqui.basic.LocalizedMessage original="New pipeline" locale="zh" localized="新建管道"/>
+    <moqui.basic.LocalizedMessage original="New quote for ${deal.opportunityName}" locale="zh" localized="为 ${deal.opportunityName} 新建报价"/>
+    <moqui.basic.LocalizedMessage original="New quote from ${tp.orderName}" locale="zh" localized="从 ${tp.orderName} 新建报价"/>
+    <moqui.basic.LocalizedMessage original="New quote template" locale="zh" localized="新建报价模板"/>
+    <moqui.basic.LocalizedMessage original="New request for quote" locale="zh" localized="新建询价"/>
+    <moqui.basic.LocalizedMessage original="New sales order" locale="zh" localized="新建销售订单"/>
+    <moqui.basic.LocalizedMessage original="New sales team" locale="zh" localized="新建销售团队"/>
+    <moqui.basic.LocalizedMessage original="Next activity" locale="zh" localized="下一步活动"/>
+    <moqui.basic.LocalizedMessage original="Next order" locale="zh" localized="下一订单"/>
+    <moqui.basic.LocalizedMessage original="Next step: ${deal.nextStep}" locale="zh" localized="下一步：${deal.nextStep}"/>
+    <moqui.basic.LocalizedMessage original="No account yet; qualifying links or creates one." locale="zh" localized="尚无客户账户；认定时关联或新建一个。"/>
+    <moqui.basic.LocalizedMessage original="No activity yet${detail.canAddActivity ? ' · Schedule one.' : '.'}" locale="zh" localized="尚无活动${detail.canAddActivity ? ' · 安排一项。' : '。'}"/>
+    <moqui.basic.LocalizedMessage original="No approval rule yet: add the first with New rule." locale="zh" localized="尚无审批规则：用新建规则添加第一条。"/>
+    <moqui.basic.LocalizedMessage original="No changes recorded yet" locale="zh" localized="尚无已记录的变更"/>
+    <moqui.basic.LocalizedMessage original="No competitor recorded." locale="zh" localized="未记录竞争对手。"/>
+    <moqui.basic.LocalizedMessage original="No current team: add one in Teams to take mail." locale="zh" localized="没有当前团队：在团队中添加一个以接收邮件。"/>
+    <moqui.basic.LocalizedMessage original="No deal of this forecast closes in the period." locale="zh" localized="此预测没有交易在本期间成交。"/>
+    <moqui.basic.LocalizedMessage original="No defaults yet: a new quote's end is left open and unverified inquiries are kept 30 days. Publish the first with Publish new defaults." locale="zh" localized="尚无默认值：新报价的结束日期保持开放，未核实咨询保留 30 天。用发布新默认值发布第一套。"/>
+    <moqui.basic.LocalizedMessage original="No estimate" locale="zh" localized="无估计"/>
+    <moqui.basic.LocalizedMessage original="No lead source yet: create one." locale="zh" localized="尚无线索来源：请新建一个。"/>
+    <moqui.basic.LocalizedMessage original="No member: add the first." locale="zh" localized="没有成员：添加第一位。"/>
+    <moqui.basic.LocalizedMessage original="No open opportunities match." locale="zh" localized="没有匹配的未结商机。"/>
+    <moqui.basic.LocalizedMessage original="No opportunity closed in this period." locale="zh" localized="本期间没有关闭的商机。"/>
+    <moqui.basic.LocalizedMessage original="No order change here." locale="zh" localized="此处没有订单变更。"/>
+    <moqui.basic.LocalizedMessage original="No order on or after this day; empty to repeat until ended" locale="zh" localized="此日及之后不再下订单；留空则重复直到结束"/>
+    <moqui.basic.LocalizedMessage original="No organization of yours uses Sales yet: choose one to check it." locale="zh" localized="您的组织尚未使用销售：请选择一个进行检查。"/>
+    <moqui.basic.LocalizedMessage original="No pipeline is offered to this organization: create one." locale="zh" localized="未向此组织提供管道：请新建一个。"/>
+    <moqui.basic.LocalizedMessage original="No quote rule is in effect: a manual price on a quote needs an approver other than the one who entered it." locale="zh" localized="没有生效的报价规则：报价上的手工价格需要录入人以外的批准人。"/>
+    <moqui.basic.LocalizedMessage original="No sales period to report on: a sales manager adds them under Settings › Targets." locale="zh" localized="没有可报告的销售期间：销售经理在设置 › 目标下添加。"/>
+    <moqui.basic.LocalizedMessage original="No sales team yet: create one." locale="zh" localized="尚无销售团队：请新建一个。"/>
+    <moqui.basic.LocalizedMessage original="No stage changes recorded." locale="zh" localized="没有已记录的阶段变更。"/>
+    <moqui.basic.LocalizedMessage original="No target is set for this period and currency." locale="zh" localized="此期间和货币未设置目标。"/>
+    <moqui.basic.LocalizedMessage original="No target yet: set the first with New target." locale="zh" localized="尚无目标：用新建目标设置第一个。"/>
+    <moqui.basic.LocalizedMessage original="No tracked link is mapped: its leads keep their form's or rule's source." locale="zh" localized="没有跟踪链接被映射：其线索保留表单或规则自己的来源。"/>
+    <moqui.basic.LocalizedMessage original="Nobody is on the deal yet." locale="zh" localized="交易上还没有人。"/>
+    <moqui.basic.LocalizedMessage original="Not allocated yet: allocate the forecast to products or categories." locale="zh" localized="尚未分配：将预测分配到产品或类别。"/>
+    <moqui.basic.LocalizedMessage original="Not the default" locale="zh" localized="非默认"/>
+    <moqui.basic.LocalizedMessage original="Nothing is assigned to you. New leads and opportunities you own show here, the soonest to close first." locale="zh" localized="没有分派给您的内容。您拥有的新线索和商机显示在这里，最先成交的在前。"/>
+    <moqui.basic.LocalizedMessage original="Of quota" locale="zh" localized="占指标"/>
+    <moqui.basic.LocalizedMessage original="Of the leads" locale="zh" localized="占线索"/>
+    <moqui.basic.LocalizedMessage original="Off: every change of a quote, a file or a note among them, moves its revision, so a quote cannot be issued." locale="zh" localized="关闭：报价、文件或其中一条备注的每次变更都会移动修订，因此无法开具报价。"/>
+    <moqui.basic.LocalizedMessage original="On: a quote's revision moves with its commercial changes only, so storing its PDF, a file or a note leaves an issue and an approval in force." locale="zh" localized="开启：报价的修订只随商务变更移动，因此保存其 PDF、文件或备注后，开具和审批仍然有效。"/>
+    <moqui.basic.LocalizedMessage original="One currency at a time: amounts in two currencies are never added" locale="zh" localized="一次一种货币：两种货币的金额从不相加"/>
+    <moqui.basic.LocalizedMessage original="Online acceptance needs sign-in above" locale="zh" localized="在线接受需要上方的登录"/>
+    <moqui.basic.LocalizedMessage original="Open a lead, an opportunity or an account to log a note on it" locale="zh" localized="打开线索、商机或客户账户以记录备注"/>
+    <moqui.basic.LocalizedMessage original="Open a lead, an opportunity or an account to log a note on it." locale="zh" localized="打开线索、商机或客户账户以记录备注。"/>
+    <moqui.basic.LocalizedMessage original="Open a report for your organization; each states what its figures rest on." locale="zh" localized="打开您组织的报表；每一份都说明其数字的依据。"/>
+    <moqui.basic.LocalizedMessage original="Open deals" locale="zh" localized="未结交易"/>
+    <moqui.basic.LocalizedMessage original="Open opportunities" locale="zh" localized="未结商机"/>
+    <moqui.basic.LocalizedMessage original="Open opportunities as they stood at the as-of time, never added across currencies; stage durations from the audited stage changes; conversion over the leads created in the cohort." locale="zh" localized="截至时点的未结商机，从不跨货币相加；阶段时长来自经审计的阶段变更；转化按队列中创建的线索计算。"/>
+    <moqui.basic.LocalizedMessage original="Open opportunities by owner" locale="zh" localized="按所有者的未结商机"/>
+    <moqui.basic.LocalizedMessage original="Open opportunities by source" locale="zh" localized="按来源的未结商机"/>
+    <moqui.basic.LocalizedMessage original="Open opportunities by stage" locale="zh" localized="按阶段的未结商机"/>
+    <moqui.basic.LocalizedMessage original="Open opportunities by stage now" locale="zh" localized="当前按阶段的未结商机"/>
+    <moqui.basic.LocalizedMessage original="Open opportunities of your pipeline by stage, as you may read them." locale="zh" localized="您的管道中按阶段的未结商机，以您可以阅读的为准。"/>
+    <moqui.basic.LocalizedMessage original="Open pipeline" locale="zh" localized="未结管道"/>
+    <moqui.basic.LocalizedMessage original="Open pipeline by currency" locale="zh" localized="按货币的未结管道"/>
+    <moqui.basic.LocalizedMessage original="Open Targets" locale="zh" localized="打开目标"/>
+    <moqui.basic.LocalizedMessage original="Open the board" locale="zh" localized="打开看板"/>
+    <moqui.basic.LocalizedMessage original="Opportunities" locale="zh" localized="商机"/>
+    <moqui.basic.LocalizedMessage original="Opportunity ${salesOpportunityId} is not available: it does not exist, it is not one of your organizations', or it is not assigned to you or your team." locale="zh" localized="商机 ${salesOpportunityId} 不可用：不存在、不属于您的组织，或未分派给您或您的团队。"/>
+    <moqui.basic.LocalizedMessage original="Order Discount %" locale="zh" localized="订单折扣 %"/>
+    <moqui.basic.LocalizedMessage original="Order Discounts" locale="zh" localized="订单折扣"/>
+    <moqui.basic.LocalizedMessage original="Order to repeat" locale="zh" localized="要重复的订单"/>
+    <moqui.basic.LocalizedMessage original="Ordered by placed date, invoiced by book day, returns by entry; values in each document's currency, never added across currencies." locale="zh" localized="按下达日期排序，按记账日开票，按录入日退货；金额用各单据自己的货币，从不跨货币相加。"/>
+    <moqui.basic.LocalizedMessage original="Orders awaiting approval" locale="zh" localized="待审批订单"/>
+    <moqui.basic.LocalizedMessage original="Orders blocked" locale="zh" localized="受阻订单"/>
+    <moqui.basic.LocalizedMessage original="Orders ship from" locale="zh" localized="订单发货地点"/>
+    <moqui.basic.LocalizedMessage original="Outcomes by currency" locale="zh" localized="按货币的结果"/>
+    <moqui.basic.LocalizedMessage original="Owner: ${deal.ownerName}${deal.teamName ? ' · team ' + deal.teamName : ''}" locale="zh" localized="所有者：${deal.ownerName}${deal.teamName ? ' · 团队 ' + deal.teamName : ''}"/>
+    <moqui.basic.LocalizedMessage original="Part fulfilled" locale="zh" localized="部分履行"/>
+    <moqui.basic.LocalizedMessage original="Past their expected close" locale="zh" localized="已过预计成交日"/>
+    <moqui.basic.LocalizedMessage original="Pause recurring order ${baseOrderId}" locale="zh" localized="暂停定期订单 ${baseOrderId}"/>
+    <moqui.basic.LocalizedMessage original="PERMISSION_DENIED: Sales approvals are the sales approver's" locale="zh" localized="PERMISSION_DENIED: 销售审批属于销售批准人"/>
+    <moqui.basic.LocalizedMessage original="PERMISSION_DENIED: Sales lead sources are the Sales administrator's" locale="zh" localized="PERMISSION_DENIED: 销售线索来源属于销售管理员"/>
+    <moqui.basic.LocalizedMessage original="PERMISSION_DENIED: Sales order changes are the change operator's, the approver's and the manager's" locale="zh" localized="PERMISSION_DENIED: 销售订单变更属于变更操作人、批准人和经理"/>
+    <moqui.basic.LocalizedMessage original="PERMISSION_DENIED: Sales settings are the Sales administrator's" locale="zh" localized="PERMISSION_DENIED: 销售配置属于销售管理员"/>
+    <moqui.basic.LocalizedMessage original="PERMISSION_DENIED: Sales targets are set by the sales managers" locale="zh" localized="PERMISSION_DENIED: 销售目标由销售经理设置"/>
+    <moqui.basic.LocalizedMessage original="PERMISSION_DENIED: Sales teams are kept by the Sales administrator and the sales managers" locale="zh" localized="PERMISSION_DENIED: 销售团队由销售管理员和销售经理维护"/>
+    <moqui.basic.LocalizedMessage original="Pipeline analysis" locale="zh" localized="管道分析"/>
+    <moqui.basic.LocalizedMessage original="Pipeline by ${groupTitle.toLowerCase()}" locale="zh" localized="按${groupTitle.toLowerCase()}的管道"/>
+    <moqui.basic.LocalizedMessage original="Pipeline by stage" locale="zh" localized="按阶段的管道"/>
+    <moqui.basic.LocalizedMessage original="Pipelines and stages" locale="zh" localized="管道和阶段"/>
+    <moqui.basic.LocalizedMessage original="Placed sales order value" locale="zh" localized="已下达销售订单价值"/>
+    <moqui.basic.LocalizedMessage original="Plus tag" locale="zh" localized="加号标记"/>
+    <moqui.basic.LocalizedMessage original="Pre-approval warnings tell the person approving; they do not refuse the approval. Each order is approved on its own, with its credit check." locale="zh" localized="审批前的警告只告知批准人；它们不会拒绝审批。每张订单单独批准，并做信用检查。"/>
+    <moqui.basic.LocalizedMessage original="Preview the changes; publish nothing" locale="zh" localized="预览变更；不发布"/>
+    <moqui.basic.LocalizedMessage original="Preview${preview ? ' · ' + preview.customerName + ' · ' + preview.validText : ''}" locale="zh" localized="预览${preview ? ' · ' + preview.customerName + ' · ' + preview.validText : ''}"/>
+    <moqui.basic.LocalizedMessage original="Price from" locale="zh" localized="价格从"/>
+    <moqui.basic.LocalizedMessage original="Price it on the quote's date instead" locale="zh" localized="改为按报价日期计价"/>
+    <moqui.basic.LocalizedMessage original="Priced on" locale="zh" localized="计价日"/>
+    <moqui.basic.LocalizedMessage original="Probability" locale="zh" localized="概率"/>
+    <moqui.basic.LocalizedMessage original="Probability %" locale="zh" localized="概率 %"/>
+    <moqui.basic.LocalizedMessage original="Probability from" locale="zh" localized="概率从"/>
+    <moqui.basic.LocalizedMessage original="Product Cost" locale="zh" localized="产品成本"/>
+    <moqui.basic.LocalizedMessage original="Product Invoiced" locale="zh" localized="已开票产品"/>
+    <moqui.basic.LocalizedMessage original="Product or category" locale="zh" localized="产品或类别"/>
+    <moqui.basic.LocalizedMessage original="Product Ordered" locale="zh" localized="已订购产品"/>
+    <moqui.basic.LocalizedMessage original="Propose a change to an order" locale="zh" localized="提议更改订单"/>
+    <moqui.basic.LocalizedMessage original="Publish new Sales defaults" locale="zh" localized="发布新的销售默认值"/>
+    <moqui.basic.LocalizedMessage original="Publish template ${orderId}" locale="zh" localized="发布模板 ${orderId}"/>
+    <moqui.basic.LocalizedMessage original="Published through" locale="zh" localized="发布至"/>
+    <moqui.basic.LocalizedMessage original="Qualified ${deal.convertedText}" locale="zh" localized="已认定 ${deal.convertedText}"/>
+    <moqui.basic.LocalizedMessage original="Qualify ${deal.opportunityName}" locale="zh" localized="认定 ${deal.opportunityName}"/>
+    <moqui.basic.LocalizedMessage original="Qualify ${opportunityName}" locale="zh" localized="认定 ${opportunityName}"/>
+    <moqui.basic.LocalizedMessage original="Quota" locale="zh" localized="指标"/>
+    <moqui.basic.LocalizedMessage original="Quota (${currencyUomId})" locale="zh" localized="指标（${currencyUomId}）"/>
+    <moqui.basic.LocalizedMessage original="Quote ${orderId} cannot be sent now${previewError ? ': ' + previewError.replace(/^(Error: )?([A-Z_]+: )/, '') : ': it must be proposed, valid, and yours to send.'}" locale="zh" localized="报价 ${orderId} 现在无法发送${previewError ? '：' + previewError.replace(/^(Error: )?([A-Z_]+: )/, '') : '：必须已提议、有效，并且由您发送。'}"/>
+    <moqui.basic.LocalizedMessage original="Quote template" locale="zh" localized="报价模板"/>
+    <moqui.basic.LocalizedMessage original="Quote template ${orderId} is not available: it does not exist, it is not one of your organizations', or it is not published." locale="zh" localized="报价模板 ${orderId} 不可用：不存在、不属于您的组织，或未发布。"/>
+    <moqui.basic.LocalizedMessage original="Quote templates" locale="zh" localized="报价模板"/>
+    <moqui.basic.LocalizedMessage original="Quote validity in days" locale="zh" localized="报价有效天数"/>
+    <moqui.basic.LocalizedMessage original="Quotes already made from a template keep their lines and terms when it is replaced." locale="zh" localized="已从模板生成的报价在模板被替换后仍保留其行和条款。"/>
+    <moqui.basic.LocalizedMessage original="Quotes to send" locale="zh" localized="待发送报价"/>
+    <moqui.basic.LocalizedMessage original="Quotes valid for (days)" locale="zh" localized="报价有效期（天）"/>
+    <moqui.basic.LocalizedMessage original="Quotes · ${dealQuoteList.length}" locale="zh" localized="报价 · ${dealQuoteList.length}"/>
+    <moqui.basic.LocalizedMessage original="Read the sales of your organizations: orders, invoices, top products and customer classes." locale="zh" localized="阅读您所在组织的销售：订单、发票、主要产品和客户分类。"/>
+    <moqui.basic.LocalizedMessage original="Reason for the fixed price" locale="zh" localized="固定价格的原因"/>
+    <moqui.basic.LocalizedMessage original="Rebuild the sales pipeline index" locale="zh" localized="重建销售管道索引"/>
+    <moqui.basic.LocalizedMessage original="Rebuild the sales quotes index" locale="zh" localized="重建销售报价索引"/>
+    <moqui.basic.LocalizedMessage original="Remind the customer days after a quote is sent" locale="zh" localized="报价发出后提醒客户的天数"/>
+    <moqui.basic.LocalizedMessage original="Remove the allocation to ${dimensionText}" locale="zh" localized="移除对 ${dimensionText} 的分配"/>
+    <moqui.basic.LocalizedMessage original="Rename ${description}" locale="zh" localized="重命名 ${description}"/>
+    <moqui.basic.LocalizedMessage original="Rename ${teamName}" locale="zh" localized="重命名 ${teamName}"/>
+    <moqui.basic.LocalizedMessage original="Reopen ${deal.opportunityName}" locale="zh" localized="重新打开 ${deal.opportunityName}"/>
+    <moqui.basic.LocalizedMessage original="Repeat an approved order" locale="zh" localized="重复已批准的订单"/>
+    <moqui.basic.LocalizedMessage original="Replaces ${tp.predecessorName}" locale="zh" localized="替换 ${tp.predecessorName}"/>
+    <moqui.basic.LocalizedMessage original="Requests for quote" locale="zh" localized="询价"/>
+    <moqui.basic.LocalizedMessage original="Retire ${description}" locale="zh" localized="停用 ${description}"/>
+    <moqui.basic.LocalizedMessage original="Retire stage" locale="zh" localized="停用阶段"/>
+    <moqui.basic.LocalizedMessage original="RFQs awaiting response" locale="zh" localized="待回复的 RFQ"/>
+    <moqui.basic.LocalizedMessage original="Rolls up to" locale="zh" localized="汇总至"/>
+    <moqui.basic.LocalizedMessage original="Rolls up to nothing" locale="zh" localized="不向上汇总"/>
+    <moqui.basic.LocalizedMessage original="Rules · ${ruleList.length}" locale="zh" localized="规则 · ${ruleList.length}"/>
+    <moqui.basic.LocalizedMessage original="Sales assignments" locale="zh" localized="销售分派"/>
+    <moqui.basic.LocalizedMessage original="Sales context is not available" locale="zh" localized="销售上下文不可用"/>
+    <moqui.basic.LocalizedMessage original="Sales defaults" locale="zh" localized="销售默认值"/>
+    <moqui.basic.LocalizedMessage original="Sales is not available" locale="zh" localized="销售不可用"/>
+    <moqui.basic.LocalizedMessage original="Sales leads" locale="zh" localized="销售线索"/>
+    <moqui.basic.LocalizedMessage original="Sales leads and opportunities" locale="zh" localized="销售线索和商机"/>
+    <moqui.basic.LocalizedMessage original="Sales managers and administrators review duplicate accounts." locale="zh" localized="销售经理和管理员审核重复的客户账户。"/>
+    <moqui.basic.LocalizedMessage original="Sales opportunities" locale="zh" localized="销售商机"/>
+    <moqui.basic.LocalizedMessage original="Sales pipeline" locale="zh" localized="销售管道"/>
+    <moqui.basic.LocalizedMessage original="Sales pipeline index" locale="zh" localized="销售管道索引"/>
+    <moqui.basic.LocalizedMessage original="Sales quotes" locale="zh" localized="销售报价"/>
+    <moqui.basic.LocalizedMessage original="Sales quotes index" locale="zh" localized="销售报价索引"/>
+    <moqui.basic.LocalizedMessage original="Sales reports" locale="zh" localized="销售报表"/>
+    <moqui.basic.LocalizedMessage original="Sales settings" locale="zh" localized="销售设置"/>
+    <moqui.basic.LocalizedMessage original="Sales setup" locale="zh" localized="销售准备"/>
+    <moqui.basic.LocalizedMessage original="Sales summary" locale="zh" localized="销售摘要"/>
+    <moqui.basic.LocalizedMessage original="Sales teams" locale="zh" localized="销售团队"/>
+    <moqui.basic.LocalizedMessage original="Sales work" locale="zh" localized="销售工作"/>
+    <moqui.basic.LocalizedMessage original="Sales' approval rules cannot be read for this organization just now." locale="zh" localized="此刻无法读取此组织的销售审批规则。"/>
+    <moqui.basic.LocalizedMessage original="Sales' defaults cannot be read for this organization just now." locale="zh" localized="此刻无法读取此组织的销售默认值。"/>
+    <moqui.basic.LocalizedMessage original="Sales' types and reasons cannot be read just now." locale="zh" localized="此刻无法读取销售的类型和原因。"/>
+    <moqui.basic.LocalizedMessage original="Save as the next version" locale="zh" localized="另存为下一版本"/>
+    <moqui.basic.LocalizedMessage original="Schedule an activity on ${deal.opportunityName}" locale="zh" localized="在 ${deal.opportunityName} 上安排活动"/>
+    <moqui.basic.LocalizedMessage original="Schedule of recurring order ${baseOrderId}" locale="zh" localized="定期订单 ${baseOrderId} 的计划"/>
+    <moqui.basic.LocalizedMessage original="Scheduled and earlier · ${versionRows.length}" locale="zh" localized="已计划及更早 · ${versionRows.length}"/>
+    <moqui.basic.LocalizedMessage original="Search not available" locale="zh" localized="搜索不可用"/>
+    <moqui.basic.LocalizedMessage original="Seconds first, for Repeats: cron expression" locale="zh" localized="秒在前，用于重复：Cron 表达式"/>
+    <moqui.basic.LocalizedMessage original="Send a quote" locale="zh" localized="发送报价"/>
+    <moqui.basic.LocalizedMessage original="Set team" locale="zh" localized="设置团队"/>
+    <moqui.basic.LocalizedMessage original="Set the team of ${deal.opportunityName}" locale="zh" localized="设置 ${deal.opportunityName} 的团队"/>
+    <moqui.basic.LocalizedMessage original="Shipped value" locale="zh" localized="已发货价值"/>
+    <moqui.basic.LocalizedMessage original="Shown above each quote's cover text" locale="zh" localized="显示在每份报价的封面文字之上"/>
+    <moqui.basic.LocalizedMessage original="Shown above the quote's cover text" locale="zh" localized="显示在报价的封面文字之上"/>
+    <moqui.basic.LocalizedMessage original="Someone who works for the organization" locale="zh" localized="为组织工作的人"/>
+    <moqui.basic.LocalizedMessage original="Source: ${deal.sourceText}" locale="zh" localized="来源：${deal.sourceText}"/>
+    <moqui.basic.LocalizedMessage original="Stage: ${deal.stageText} for ${deal.stageAgeText}" locale="zh" localized="阶段：${deal.stageText}，已 ${deal.stageAgeText}"/>
+    <moqui.basic.LocalizedMessage original="Stages" locale="zh" localized="阶段"/>
+    <moqui.basic.LocalizedMessage original="Standard offers to start a quote from: their lines are priced for the customer on the quote's own date." locale="zh" localized="用于开始报价的标准报价：其行按报价自身日期为客户计价。"/>
+    <moqui.basic.LocalizedMessage original="Start recurring order" locale="zh" localized="开始定期订单"/>
+    <moqui.basic.LocalizedMessage original="Start successor" locale="zh" localized="开始后继"/>
+    <moqui.basic.LocalizedMessage original="Start template" locale="zh" localized="开始模板"/>
+    <moqui.basic.LocalizedMessage original="Strengths" locale="zh" localized="优势"/>
+    <moqui.basic.LocalizedMessage original="Submit forecast" locale="zh" localized="提交预测"/>
+    <moqui.basic.LocalizedMessage original="Submit the forecast for ${headlineText}" locale="zh" localized="提交 ${headlineText} 的预测"/>
+    <moqui.basic.LocalizedMessage original="Submitted forecast" locale="zh" localized="已提交的预测"/>
+    <moqui.basic.LocalizedMessage original="Successor ${tp.successorName}" locale="zh" localized="后继 ${tp.successorName}"/>
+    <moqui.basic.LocalizedMessage original="Summarize this deal: its stage, amount, people, activities and what is next" locale="zh" localized="汇总此交易：阶段、金额、人员、活动以及下一步"/>
+    <moqui.basic.LocalizedMessage original="Target attainment" locale="zh" localized="目标达成"/>
+    <moqui.basic.LocalizedMessage original="Target saved" locale="zh" localized="目标已保存"/>
+    <moqui.basic.LocalizedMessage original="Targets" locale="zh" localized="目标"/>
+    <moqui.basic.LocalizedMessage original="The author may approve" locale="zh" localized="作者可以批准"/>
+    <moqui.basic.LocalizedMessage original="The cost and margin are shown to a reader of product costs: a finance reader who reads costs, or one who reads both prices and costs." locale="zh" localized="成本和毛利向可阅读产品成本的人显示：阅读成本的财务读者，或同时阅读价格和成本的人。"/>
+    <moqui.basic.LocalizedMessage original="The lost reasons are shared by every organization; an administrator of every organization changes them." locale="zh" localized="丢单原因由所有组织共用；全部组织的管理员才能更改。"/>
+    <moqui.basic.LocalizedMessage original="The one kept gets the other's contact details, contacts, relationships, opportunities, orders, agreements, files and history; the other is disabled. The one kept keeps its own name." locale="zh" localized="保留的一方获得另一方的联系方式、联系人、关系、商机、订单、协议、文件和历史；另一方被禁用。保留的一方保持自己的名称。"/>
+    <moqui.basic.LocalizedMessage original="The orders due while it is paused are skipped" locale="zh" localized="暂停期间到期的订单会被跳过"/>
+    <moqui.basic.LocalizedMessage original="The organization" locale="zh" localized="组织"/>
+    <moqui.basic.LocalizedMessage original="The organization's currency when empty; a quote from the template is in it" locale="zh" localized="留空时用组织的货币；从模板生成的报价使用该货币"/>
+    <moqui.basic.LocalizedMessage original="The organization's default" locale="zh" localized="组织的默认"/>
+    <moqui.basic.LocalizedMessage original="The organization's quote validity when empty" locale="zh" localized="留空时用组织的报价有效期"/>
+    <moqui.basic.LocalizedMessage original="The part after + in sales+tag@; empty takes no mail" locale="zh" localized="sales+tag@ 中 + 之后的部分；留空则不接收邮件"/>
+    <moqui.basic.LocalizedMessage original="The quote's author may approve it" locale="zh" localized="报价作者可以批准"/>
+    <moqui.basic.LocalizedMessage original="The shared pipeline is changed by an administrator of every organization; create a pipeline of your own to change its stages." locale="zh" localized="共享管道由全部组织的管理员更改；要更改阶段，请创建自己的管道。"/>
+    <moqui.basic.LocalizedMessage original="The stage" locale="zh" localized="阶段"/>
+    <moqui.basic.LocalizedMessage original="The template's or the organization's when empty" locale="zh" localized="留空时用模板的或组织的"/>
+    <moqui.basic.LocalizedMessage original="The warehouse, store or plant of the organization a new quote or order ships from; it can be changed on the order" locale="zh" localized="新报价或订单的发货仓库、门店或工厂，可在订单上更改"/>
+    <moqui.basic.LocalizedMessage original="The year, its four quarters and twelve months, those the organization does not have yet." locale="zh" localized="该年、四个季度和十二个月中组织尚没有的那些。"/>
+    <moqui.basic.LocalizedMessage original="Their forecast" locale="zh" localized="其预测"/>
+    <moqui.basic.LocalizedMessage original="These accounts are not available" locale="zh" localized="这些客户账户不可用"/>
+    <moqui.basic.LocalizedMessage original="They called" locale="zh" localized="对方来电"/>
+    <moqui.basic.LocalizedMessage original="This contact is not available: it does not exist, or it is not an account or a contact of an                                 account you may see." locale="zh" localized="此联系人不可用：不存在，或不是您可以查看的客户账户或其联系人。"/>
+    <moqui.basic.LocalizedMessage original="This organization has no sales periods yet. A sales manager adds them under Settings › Targets." locale="zh" localized="此组织尚无销售期间。销售经理在设置 › 目标下添加。"/>
+    <moqui.basic.LocalizedMessage original="This organization has no sales periods yet: add this year's first." locale="zh" localized="此组织尚无销售期间：请添加今年的第一批。"/>
+    <moqui.basic.LocalizedMessage original="This organization is not available to you, or its settings cannot be read just now." locale="zh" localized="此组织对您不可用，或此刻无法读取其配置。"/>
+    <moqui.basic.LocalizedMessage original="This organization is not available to you, or its sources cannot be read just now." locale="zh" localized="此组织对您不可用，或此刻无法读取其来源。"/>
+    <moqui.basic.LocalizedMessage original="This organization is not available to you, or its teams cannot be read just now." locale="zh" localized="此组织对您不可用，或此刻无法读取其团队。"/>
+    <moqui.basic.LocalizedMessage original="This pipeline has no stages: add the first." locale="zh" localized="此管道没有阶段：请添加第一个。"/>
+    <moqui.basic.LocalizedMessage original="This quote needs no approval at its current revision." locale="zh" localized="此报价的当前修订不需要审批。"/>
+    <moqui.basic.LocalizedMessage original="Time in each stage" locale="zh" localized="各阶段时长"/>
+    <moqui.basic.LocalizedMessage original="Total ${totalsText}" locale="zh" localized="合计 ${totalsText}"/>
+    <moqui.basic.LocalizedMessage original="Tracked links" locale="zh" localized="跟踪链接"/>
+    <moqui.basic.LocalizedMessage original="Types and reasons" locale="zh" localized="类型和原因"/>
+    <moqui.basic.LocalizedMessage original="Validity" locale="zh" localized="有效期"/>
+    <moqui.basic.LocalizedMessage original="Validity days" locale="zh" localized="有效天数"/>
+    <moqui.basic.LocalizedMessage original="Warranty claims whose repair Customer Service will charge for: make the estimate's quote from the claim's lines. Nothing of the claim but its customer and products is shown here." locale="zh" localized="客户服务将收费维修的质保索赔：根据索赔的行制作估价的报价。此处只显示索赔的客户和产品。"/>
+    <moqui.basic.LocalizedMessage original="Weaknesses" locale="zh" localized="劣势"/>
+    <moqui.basic.LocalizedMessage original="Web" locale="zh" localized="网站"/>
+    <moqui.basic.LocalizedMessage original="Weekly sales pipeline digest" locale="zh" localized="销售管道每周摘要"/>
+    <moqui.basic.LocalizedMessage original="Weighted" locale="zh" localized="加权"/>
+    <moqui.basic.LocalizedMessage original="Weighted pipeline" locale="zh" localized="加权管道"/>
+    <moqui.basic.LocalizedMessage original="What changed on this deal since its last activity?" locale="zh" localized="自上次活动以来此交易有何变化？"/>
+    <moqui.basic.LocalizedMessage original="What each contact asked for, and where" locale="zh" localized="每位联系人的需求以及来处"/>
+    <moqui.basic.LocalizedMessage original="What it was about" locale="zh" localized="事由"/>
+    <moqui.basic.LocalizedMessage original="What meets it" locale="zh" localized="满足条件"/>
+    <moqui.basic.LocalizedMessage original="What open work does this account have: deals, activities and the next steps?" locale="zh" localized="此客户账户有哪些未结工作：交易、活动和下一步？"/>
+    <moqui.basic.LocalizedMessage original="What you expect to close in the period" locale="zh" localized="您预计在本期间成交的金额"/>
+    <moqui.basic.LocalizedMessage original="Where leads come from. A source is shared; each organization chooses the ones it offers." locale="zh" localized="线索的来源。来源是共享的；每个组织选择自己提供的那些。"/>
+    <moqui.basic.LocalizedMessage original="Whose forecast" locale="zh" localized="谁的预测"/>
+    <moqui.basic.LocalizedMessage original="Will be sent" locale="zh" localized="将发送"/>
+    <moqui.basic.LocalizedMessage original="Win rate" locale="zh" localized="赢单率"/>
+    <moqui.basic.LocalizedMessage original="With a next activity" locale="zh" localized="有下一步活动"/>
+    <moqui.basic.LocalizedMessage original="With no representative" locale="zh" localized="无代表"/>
+    <moqui.basic.LocalizedMessage original="Won" locale="zh" localized="已赢"/>
+    <moqui.basic.LocalizedMessage original="Won amount" locale="zh" localized="赢单金额"/>
+    <moqui.basic.LocalizedMessage original="Won and lost deals created in the range" locale="zh" localized="区间内创建的赢单和丢单"/>
+    <moqui.basic.LocalizedMessage original="Won opportunity value" locale="zh" localized="已赢商机价值"/>
+    <moqui.basic.LocalizedMessage original="Won or lost" locale="zh" localized="已赢或丢单"/>
+    <moqui.basic.LocalizedMessage original="Won value" locale="zh" localized="赢单价值"/>
+    <moqui.basic.LocalizedMessage original="Yes: a request made from mail is answered once, to the address it came from, with its reference, when the sender is a contact or account of yours" locale="zh" localized="是：从邮件生成的询价，在发件人是您的联系人或客户账户时，只回复一次到其来源地址并附上参考号"/>
+    <moqui.basic.LocalizedMessage original="You do not add contacts in Sales." locale="zh" localized="您不能在销售中添加联系人。"/>
+    <moqui.basic.LocalizedMessage original="You do not create accounts in Sales." locale="zh" localized="您不能在销售中新建客户账户。"/>
+    <moqui.basic.LocalizedMessage original="You do not create leads in Sales." locale="zh" localized="您不能在销售中新建线索。"/>
+    <moqui.basic.LocalizedMessage original="You do not create opportunities in Sales." locale="zh" localized="您不能在销售中新建商机。"/>
+    <moqui.basic.LocalizedMessage original="You do not create quotes in Sales." locale="zh" localized="您不能在销售中新建报价。"/>
+    <moqui.basic.LocalizedMessage original="You do not keep or read recurring orders in Sales." locale="zh" localized="您不能在销售中维护或阅读定期订单。"/>
+    <moqui.basic.LocalizedMessage original="You do not read accounts in Sales." locale="zh" localized="您不能在销售中阅读客户账户。"/>
+    <moqui.basic.LocalizedMessage original="You do not read agreements in Sales." locale="zh" localized="您不能在销售中阅读协议。"/>
+    <moqui.basic.LocalizedMessage original="You do not read contacts in Sales." locale="zh" localized="您不能在销售中阅读联系人。"/>
+    <moqui.basic.LocalizedMessage original="You do not read forecasts in Sales." locale="zh" localized="您不能在销售中阅读预测。"/>
+    <moqui.basic.LocalizedMessage original="You do not read leads in Sales." locale="zh" localized="您不能在销售中阅读线索。"/>
+    <moqui.basic.LocalizedMessage original="You do not read opportunities in Sales." locale="zh" localized="您不能在销售中阅读商机。"/>
+    <moqui.basic.LocalizedMessage original="You do not read orders in Sales." locale="zh" localized="您不能在销售中阅读订单。"/>
+    <moqui.basic.LocalizedMessage original="You do not read quotes in Sales." locale="zh" localized="您不能在销售中阅读报价。"/>
+    <moqui.basic.LocalizedMessage original="You do not read requests for quote in Sales." locale="zh" localized="您不能在销售中阅读询价。"/>
+    <moqui.basic.LocalizedMessage original="You do not schedule activities on deals in Sales." locale="zh" localized="您不能在销售中为交易安排活动。"/>
+    <moqui.basic.LocalizedMessage original="You have no open opportunities." locale="zh" localized="您没有未结商机。"/>
+    <moqui.basic.LocalizedMessage original="You sell for more than one organization: make the lead with New lead in Sales' Leads" locale="zh" localized="您为多个组织销售：请用销售线索中的新建线索来创建线索"/>
+    <moqui.basic.LocalizedMessage original="You sell for more than one organization: make the request with New request in Sales' RFQs" locale="zh" localized="您为多个组织销售：请用销售 RFQ 中的新建请求来创建请求"/>
+    <moqui.basic.LocalizedMessage original="Your assigned work is unavailable right now." locale="zh" localized="您被分派的工作此刻不可用。"/>
+    <moqui.basic.LocalizedMessage original="Your only team of the organization when empty" locale="zh" localized="留空时取您在该组织的唯一团队"/>
+    <moqui.basic.LocalizedMessage original="Your pipeline is unavailable right now." locale="zh" localized="您的管道此刻不可用。"/>
+</entity-facade-xml>

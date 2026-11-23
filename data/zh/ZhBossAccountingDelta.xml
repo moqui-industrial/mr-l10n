@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+
+<entity-facade-xml type="zh">
+    <moqui.basic.LocalizedMessage original="${
+                returned.returnedPaymentIds.length} payments returned by the bank" locale="zh" localized="${
+                returned.returnedPaymentIds.length} 笔付款被银行退回"/>
+    <moqui.basic.LocalizedMessage original="${applied.appliedCount} lines reconciled by rules; ${applied.suggestedCount} keep a suggestion." locale="zh" localized="${applied.appliedCount} 行已按规则对账；${applied.suggestedCount} 行仍保留建议。"/>
+    <moqui.basic.LocalizedMessage original="${heldCount} of ${selectedIds.length} bills held" locale="zh" localized="已暂挂 ${heldCount} 张，共 ${selectedIds.length} 张账单"/>
+    <moqui.basic.LocalizedMessage original="${kind} ${id} · ${name} · ${amount} · Due ${due}" locale="zh" localized="${kind} ${id} · ${name} · ${amount} · 到期 ${due}"/>
+    <moqui.basic.LocalizedMessage original="${label} is unavailable" locale="zh" localized="${label} 不可用"/>
+    <moqui.basic.LocalizedMessage original="${name} editing authority is required" locale="zh" localized="需要${name}的编辑权限"/>
+    <moqui.basic.LocalizedMessage original="${name} settlement read authority is required" locale="zh" localized="需要${name}的结算读取权限"/>
+    <moqui.basic.LocalizedMessage original="${selected.selectedCount} bills selected, ${selected.excludedCount} left out" locale="zh" localized="已选择 ${selected.selectedCount} 张账单，排除 ${selected.excludedCount} 张"/>
+    <moqui.basic.LocalizedMessage original="${sent.sentCount} reminders sent${sent.failedCount
+                ? ', ' + sent.failedCount + ' failed: see each reason below' : ''}" locale="zh" localized="${sent.sentCount} 个提醒已发送${sent.failedCount
+                ? '，' + sent.failedCount + ' 个失败：请查看下面每个原因' : ''}"/>
+    <moqui.basic.LocalizedMessage original="${title} ${paymentId} for ${amount}?" locale="zh" localized="${title} ${paymentId}，金额 ${amount}？"/>
+    <moqui.basic.LocalizedMessage original="${title} ${paymentId}?" locale="zh" localized="${title} ${paymentId}？"/>
+    <moqui.basic.LocalizedMessage original="1099 data made for ${run.created.length} vendors; ${run.failures.length} failed,
+                ${run.skipped.length} not reported" locale="zh" localized="已为 ${run.created.length} 个供应商生成 1099 数据；${run.failures.length} 个失败，
+                ${run.skipped.length} 个未申报"/>
+    <moqui.basic.LocalizedMessage original="; match its lines on the Match tab." locale="zh" localized="；在匹配选项卡上核对其行。"/>
+    <moqui.basic.LocalizedMessage original="A delivered refund payment posts on its date and is applied to this payment." locale="zh" localized="已交付的退款付款在其日期过账，并核销到此付款。"/>
+    <moqui.basic.LocalizedMessage original="A part issued to maintenance work posts to the mapping of its facility (or the nearest facility above it) and kind, else every facility or any kind; with none the issue is refused." locale="zh" localized="发给维护工作的零件按其设施（或其上方最近的设施）和类别的映射过账；否则按每个设施或任意类别；若没有映射，则拒绝该发料。"/>
+    <moqui.basic.LocalizedMessage original="A selected item is no longer available" locale="zh" localized="所选项目已不可用"/>
+    <moqui.basic.LocalizedMessage original="Accounting context is not available" locale="zh" localized="会计上下文不可用"/>
+    <moqui.basic.LocalizedMessage original="Accounting organization is not available" locale="zh" localized="会计组织不可用"/>
+    <moqui.basic.LocalizedMessage original="Accounting read authority is required" locale="zh" localized="需要会计读取权限"/>
+    <moqui.basic.LocalizedMessage original="Advance ${employeeAdvanceId} applied to claim ${invoiceId}" locale="zh" localized="预付款 ${employeeAdvanceId} 已应用到报销单 ${invoiceId}"/>
+    <moqui.basic.LocalizedMessage original="All payments" locale="zh" localized="全部付款"/>
+    <moqui.basic.LocalizedMessage original="All sales" locale="zh" localized="全部销售"/>
+    <moqui.basic.LocalizedMessage original="Allocate receipts and credits" locale="zh" localized="分配收据和贷项"/>
+    <moqui.basic.LocalizedMessage original="Choose a customer and currency. Balances are current; the dates limit the documents listed." locale="zh" localized="选择一个客户和一种货币。余额为当前余额；日期限制列出的单据。"/>
+    <moqui.basic.LocalizedMessage original="Choose a supplier and currency. Balances are current; a bill's discount is open through its date." locale="zh" localized="选择一个供应商和一种货币。余额为当前余额；账单的折扣在其日期之前有效。"/>
+    <moqui.basic.LocalizedMessage original="Receipts##cash" locale="zh" localized="收款"/>
+    <moqui.basic.LocalizedMessage original="An accepted capture delivers and posts this payment." locale="zh" localized="已接受的请款会交付并过账此付款。"/>
+    <moqui.basic.LocalizedMessage original="An accepted refund delivers and posts a refund payment applied to this payment." locale="zh" localized="已接受的退款会交付并过账一笔核销到此付款的退款付款。"/>
+    <moqui.basic.LocalizedMessage original="An item changed; choose its current version before previewing" locale="zh" localized="某个项目已变更；请在预览前选择其当前版本"/>
+    <moqui.basic.LocalizedMessage original="An item has different reviewed revisions. Choose it again" locale="zh" localized="某个项目的已复核版本不一致。请重新选择"/>
+    <moqui.basic.LocalizedMessage original="An item has different reviewed revisions. Choose it again in each allocation before previewing" locale="zh" localized="某个项目的已复核版本不一致。请在预览前于每笔分配中重新选择它"/>
+    <moqui.basic.LocalizedMessage original="Any position when empty" locale="zh" localized="留空表示任意岗位"/>
+    <moqui.basic.LocalizedMessage original="Any work when empty" locale="zh" localized="留空表示任意工作"/>
+    <moqui.basic.LocalizedMessage original="Applications released" locale="zh" localized="核销已解除"/>
+    <moqui.basic.LocalizedMessage original="Apply supplier credits and payments" locale="zh" localized="核销供应商贷项和付款"/>
+    <moqui.basic.LocalizedMessage original="Apply this settlement for ${party} on ${date}?" locale="zh" localized="要为 ${party} 在 ${date} 应用此结算吗？"/>
+    <moqui.basic.LocalizedMessage original="Assets, liabilities and equity at the end of a period." locale="zh" localized="一个期间期末的资产、负债和权益。"/>
+    <moqui.basic.LocalizedMessage original="Authoritative balances are unavailable" locale="zh" localized="权威余额不可用"/>
+    <moqui.basic.LocalizedMessage original="Authorize payment" locale="zh" localized="授权付款"/>
+    <moqui.basic.LocalizedMessage original="Available payments and supplier credits" locale="zh" localized="可用的付款和供应商贷项"/>
+    <moqui.basic.LocalizedMessage original="Available receipts and credits" locale="zh" localized="可用的收据和贷项"/>
+    <moqui.basic.LocalizedMessage original="Available to refund" locale="zh" localized="可退金额"/>
+    <moqui.basic.LocalizedMessage original="Balances and income of each month of a fiscal year." locale="zh" localized="一个会计年度各月的余额和损益。"/>
+    <moqui.basic.LocalizedMessage original="Bank accounts in other currencies are left out of the bank balance" locale="zh" localized="其他货币的银行账户不计入银行余额"/>
+    <moqui.basic.LocalizedMessage original="Bank balances" locale="zh" localized="银行余额"/>
+    <moqui.basic.LocalizedMessage original="Bill ${invoiceId} ${approvedText}" locale="zh" localized="账单 ${invoiceId} ${approvedText}"/>
+    <moqui.basic.LocalizedMessage original="Bill ${invoiceId} approved for payment" locale="zh" localized="账单 ${invoiceId} 已批准付款"/>
+    <moqui.basic.LocalizedMessage original="Bill ${invoiceId} is on hold" locale="zh" localized="账单 ${invoiceId} 已暂挂"/>
+    <moqui.basic.LocalizedMessage original="Bill ${invoiceId} sent for approval" locale="zh" localized="账单 ${invoiceId} 已送审"/>
+    <moqui.basic.LocalizedMessage original="Bill ${selectedId}: ${holdError}" locale="zh" localized="账单 ${selectedId}：${holdError}"/>
+    <moqui.basic.LocalizedMessage original="Bill or supplier refund" locale="zh" localized="账单或供应商退款"/>
+    <moqui.basic.LocalizedMessage original="Budget ${budgetId} approved" locale="zh" localized="预算 ${budgetId} 已批准"/>
+    <moqui.basic.LocalizedMessage original="Budget ${budgetId} revised (revision ${Number(revised.revisionSeqId)})" locale="zh" localized="预算 ${budgetId} 已修订（修订 ${Number(revised.revisionSeqId)}）"/>
+    <moqui.basic.LocalizedMessage original="Budget read authority is required" locale="zh" localized="需要预算读取权限"/>
+    <moqui.basic.LocalizedMessage original="Cancel payment" locale="zh" localized="取消付款"/>
+    <moqui.basic.LocalizedMessage original="Capture payment" locale="zh" localized="请款"/>
+    <moqui.basic.LocalizedMessage original="Cash from operating, investing and financing activities." locale="zh" localized="经营活动、投资活动和筹资活动产生的现金。"/>
+    <moqui.basic.LocalizedMessage original="Change payment" locale="zh" localized="更改付款"/>
+    <moqui.basic.LocalizedMessage original="Change the labor costing rate" locale="zh" localized="更改人工成本费率"/>
+    <moqui.basic.LocalizedMessage original="Changing the customer, currency or dates starts a new selection." locale="zh" localized="更改客户、货币或日期会开始新的选择。"/>
+    <moqui.basic.LocalizedMessage original="Changing the supplier, currency or dates starts a new selection." locale="zh" localized="更改供应商、货币或日期会开始新的选择。"/>
+    <moqui.basic.LocalizedMessage original="Choose a posting account" locale="zh" localized="请选择一个过账账户"/>
+    <moqui.basic.LocalizedMessage original="Choose a receipt or credit and an invoice or payment target" locale="zh" localized="请选择一张收据或一笔贷项，以及一张发票或一笔目标付款"/>
+    <moqui.basic.LocalizedMessage original="Choose a settlement action" locale="zh" localized="请选择一项结算操作"/>
+    <moqui.basic.LocalizedMessage original="Choose an available gateway action" locale="zh" localized="请选择一项可用的网关操作"/>
+    <moqui.basic.LocalizedMessage original="Choose an invoice for the adjustment" locale="zh" localized="请选择一张发票用于此调整"/>
+    <moqui.basic.LocalizedMessage original="Choose at most 200 allocations and 50 adjustments" locale="zh" localized="最多选择 200 笔分配和 50 笔调整"/>
+    <moqui.basic.LocalizedMessage original="Choose at most 200 distinct open items in one settlement" locale="zh" localized="一次结算最多选择 200 个不同的未结项目"/>
+    <moqui.basic.LocalizedMessage original="Choose at most 200 records" locale="zh" localized="最多选择 200 条记录"/>
+    <moqui.basic.LocalizedMessage original="Choose receivables or payables" locale="zh" localized="请选择应收或应付"/>
+    <moqui.basic.LocalizedMessage original="Close the last month" locale="zh" localized="结账最近一个月"/>
+    <moqui.basic.LocalizedMessage original="Collection follow-ups assigned to you" locale="zh" localized="分配给您的收款跟进"/>
+    <moqui.basic.LocalizedMessage original="Complete, not cost closed" locale="zh" localized="已完成，成本未结账"/>
+    <moqui.basic.LocalizedMessage original="Cost an hour" locale="zh" localized="每小时成本"/>
+    <moqui.basic.LocalizedMessage original="Cost events after the close" locale="zh" localized="结账后的成本事件"/>
+    <moqui.basic.LocalizedMessage original="Cost of goods sold / inventory" locale="zh" localized="销售成本 / 存货"/>
+    <moqui.basic.LocalizedMessage original="Costing policy saved" locale="zh" localized="成本政策已保存"/>
+    <moqui.basic.LocalizedMessage original="Current assets / current liabilities" locale="zh" localized="流动资产 / 流动负债"/>
+    <moqui.basic.LocalizedMessage original="Current ratio" locale="zh" localized="流动比率"/>
+    <moqui.basic.LocalizedMessage original="Debt ratio" locale="zh" localized="资产负债率"/>
+    <moqui.basic.LocalizedMessage original="Debt to equity" locale="zh" localized="负债权益比"/>
+    <moqui.basic.LocalizedMessage original="Each account's beginning balance, debits, credits and ending balance." locale="zh" localized="每个账户的期初余额、借方、贷方和期末余额。"/>
+    <moqui.basic.LocalizedMessage original="Each account's budget, commitments, actual and what remains." locale="zh" localized="每个账户的预算、承诺、实际和剩余。"/>
+    <moqui.basic.LocalizedMessage original="Each account's posted debits, credits and balance between two days." locale="zh" localized="每个账户在两个日期之间的已过账借方、贷方和余额。"/>
+    <moqui.basic.LocalizedMessage original="Each customer's or supplier's movements and balance on its account." locale="zh" localized="每个客户或供应商在其账户上的发生额和余额。"/>
+    <moqui.basic.LocalizedMessage original="Earnings before interest and tax / interest expense" locale="zh" localized="息税前利润 / 利息费用"/>
+    <moqui.basic.LocalizedMessage original="Employee advances" locale="zh" localized="员工预付款"/>
+    <moqui.basic.LocalizedMessage original="Empty: any maintenance work" locale="zh" localized="留空：任意维护工作"/>
+    <moqui.basic.LocalizedMessage original="Ends the mapping; to change one, end it and add a new one" locale="zh" localized="结束该映射；要更改一条，请先结束再新增"/>
+    <moqui.basic.LocalizedMessage original="Equity multiplier" locale="zh" localized="权益乘数"/>
+    <moqui.basic.LocalizedMessage original="Every account" locale="zh" localized="每个账户"/>
+    <moqui.basic.LocalizedMessage original="Every budget" locale="zh" localized="每个预算"/>
+    <moqui.basic.LocalizedMessage original="Every organization (shared)" locale="zh" localized="每个组织（共享）"/>
+    <moqui.basic.LocalizedMessage original="Every stage" locale="zh" localized="每个阶段"/>
+    <moqui.basic.LocalizedMessage original="Exported" locale="zh" localized="已导出"/>
+    <moqui.basic.LocalizedMessage original="Financial read authority is required" locale="zh" localized="需要财务读取权限"/>
+    <moqui.basic.LocalizedMessage original="Fixed asset turnover" locale="zh" localized="固定资产周转率"/>
+    <moqui.basic.LocalizedMessage original="Funding application" locale="zh" localized="资金核销"/>
+    <moqui.basic.LocalizedMessage original="Gateway action" locale="zh" localized="网关操作"/>
+    <moqui.basic.LocalizedMessage original="Gateway actions are unavailable." locale="zh" localized="网关操作不可用。"/>
+    <moqui.basic.LocalizedMessage original="Gateway actions require treasury access." locale="zh" localized="网关操作需要司库权限。"/>
+    <moqui.basic.LocalizedMessage original="Gateway answer: ${outcome}" locale="zh" localized="网关应答：${outcome}"/>
+    <moqui.basic.LocalizedMessage original="Gateway response" locale="zh" localized="网关应答"/>
+    <moqui.basic.LocalizedMessage original="Gross profit" locale="zh" localized="毛利"/>
+    <moqui.basic.LocalizedMessage original="Gross profit / sales" locale="zh" localized="毛利 / 销售额"/>
+    <moqui.basic.LocalizedMessage original="Gross profit margin" locale="zh" localized="毛利率"/>
+    <moqui.basic.LocalizedMessage original="Hold released" locale="zh" localized="暂挂已解除"/>
+    <moqui.basic.LocalizedMessage original="Income and expense of a period, to net income." locale="zh" localized="一个期间的收入与费用，直至净利润。"/>
+    <moqui.basic.LocalizedMessage original="Incoming payments" locale="zh" localized="收款"/>
+    <moqui.basic.LocalizedMessage original="Internal transfer" locale="zh" localized="内部转账"/>
+    <moqui.basic.LocalizedMessage original="Internal transfers" locale="zh" localized="内部转账"/>
+    <moqui.basic.LocalizedMessage original="Inventory turnover" locale="zh" localized="存货周转率"/>
+    <moqui.basic.LocalizedMessage original="Invoice or payment" locale="zh" localized="发票或付款"/>
+    <moqui.basic.LocalizedMessage original="Invoiced by the store at renewal" locale="zh" localized="续订时由商店开票"/>
+    <moqui.basic.LocalizedMessage original="Invoiced on approval" locale="zh" localized="批准时开票"/>
+    <moqui.basic.LocalizedMessage original="Invoices, payments and postings that disagree with the ledger." locale="zh" localized="与总账不一致的发票、付款和过账。"/>
+    <moqui.basic.LocalizedMessage original="Issued document" locale="zh" localized="已开具单据"/>
+    <moqui.basic.LocalizedMessage original="Journal batches with entries that did not post" locale="zh" localized="含有未过账分录的日记账批次"/>
+    <moqui.basic.LocalizedMessage original="Labor costing rate ended" locale="zh" localized="人工成本费率已结束"/>
+    <moqui.basic.LocalizedMessage original="Labor costing rate saved" locale="zh" localized="人工成本费率已保存"/>
+    <moqui.basic.LocalizedMessage original="Labor costing rates" locale="zh" localized="人工成本费率"/>
+    <moqui.basic.LocalizedMessage original="Landed cost posted in transaction ${posted.acctgTransId}" locale="zh" localized="到岸成本已过账到交易 ${posted.acctgTransId}"/>
+    <moqui.basic.LocalizedMessage original="Liquidity, activity, leverage and profitability ratios." locale="zh" localized="流动性、营运、杠杆和盈利能力比率。"/>
+    <moqui.basic.LocalizedMessage original="Long-term debt / equity" locale="zh" localized="长期负债 / 权益"/>
+    <moqui.basic.LocalizedMessage original="Maintenance kind" locale="zh" localized="维护类别"/>
+    <moqui.basic.LocalizedMessage original="Manage in Sales" locale="zh" localized="在销售中管理"/>
+    <moqui.basic.LocalizedMessage original="Match policy saved" locale="zh" localized="匹配政策已保存"/>
+    <moqui.basic.LocalizedMessage original="More bills are due than one run takes; the first by due
+                    date are in this run" locale="zh" localized="到期账单多于一次运行所能处理的数量；按到期日排在前面的进入本次运行"/>
+    <moqui.basic.LocalizedMessage original="More invoices are overdue than one run takes; send this run and preview
+                    again" locale="zh" localized="逾期发票多于一次运行所能处理的数量；请发送本次运行并再次预览"/>
+    <moqui.basic.LocalizedMessage original="Needs accounting administration access, which an administrator can grant." locale="zh" localized="需要会计管理权限，管理员可以授予。"/>
+    <moqui.basic.LocalizedMessage original="Needs accounts payable access, which an administrator can grant." locale="zh" localized="需要应付账款权限，管理员可以授予。"/>
+    <moqui.basic.LocalizedMessage original="Needs accounts receivable access, which an administrator can grant." locale="zh" localized="需要应收账款权限，管理员可以授予。"/>
+    <moqui.basic.LocalizedMessage original="Needs bank reconciliation access, which an administrator can grant." locale="zh" localized="需要银行对账权限，管理员可以授予。"/>
+    <moqui.basic.LocalizedMessage original="Needs bill matching access, which an administrator can grant." locale="zh" localized="需要账单匹配权限，管理员可以授予。"/>
+    <moqui.basic.LocalizedMessage original="Needs budget editing access, which an administrator can grant." locale="zh" localized="需要预算编辑权限，管理员可以授予。"/>
+    <moqui.basic.LocalizedMessage original="Needs general ledger posting access, which an administrator can grant." locale="zh" localized="需要总账过账权限，管理员可以授予。"/>
+    <moqui.basic.LocalizedMessage original="Needs payments access, which an administrator can grant." locale="zh" localized="需要付款权限，管理员可以授予。"/>
+    <moqui.basic.LocalizedMessage original="Needs supplier terms access, which an administrator can grant." locale="zh" localized="需要供应商条款权限，管理员可以授予。"/>
+    <moqui.basic.LocalizedMessage original="Needs tax statements access, which an administrator can grant." locale="zh" localized="需要税务报表权限，管理员可以授予。"/>
+    <moqui.basic.LocalizedMessage original="Net cash from financing activities" locale="zh" localized="筹资活动现金净额"/>
+    <moqui.basic.LocalizedMessage original="Net cash from investing activities" locale="zh" localized="投资活动现金净额"/>
+    <moqui.basic.LocalizedMessage original="Net cash from operating activities" locale="zh" localized="经营活动现金净额"/>
+    <moqui.basic.LocalizedMessage original="Net change in cash" locale="zh" localized="现金净变动额"/>
+    <moqui.basic.LocalizedMessage original="Net income / equity" locale="zh" localized="净利润 / 权益"/>
+    <moqui.basic.LocalizedMessage original="Net income / sales" locale="zh" localized="净利润 / 销售额"/>
+    <moqui.basic.LocalizedMessage original="Net income / total assets" locale="zh" localized="净利润 / 总资产"/>
+    <moqui.basic.LocalizedMessage original="Net income not yet closed" locale="zh" localized="尚未结转的净利润"/>
+    <moqui.basic.LocalizedMessage original="Net non-operating income" locale="zh" localized="营业外净收益"/>
+    <moqui.basic.LocalizedMessage original="Net operating income" locale="zh" localized="营业利润"/>
+    <moqui.basic.LocalizedMessage original="Net profit margin" locale="zh" localized="销售净利率"/>
+    <moqui.basic.LocalizedMessage original="New cost an hour" locale="zh" localized="新的每小时成本"/>
+    <moqui.basic.LocalizedMessage original="New labor costing rate" locale="zh" localized="新的人工成本费率"/>
+    <moqui.basic.LocalizedMessage original="New refund payment" locale="zh" localized="新的退款付款"/>
+    <moqui.basic.LocalizedMessage original="No gateway action is available for this payment in its status." locale="zh" localized="此付款在当前状态下没有可用的网关操作。"/>
+    <moqui.basic.LocalizedMessage original="No gateway response" locale="zh" localized="无网关应答"/>
+    <moqui.basic.LocalizedMessage original="No labor costing rates: labor hours are unpriced in production, maintenance and cost reports until a rate covers them." locale="zh" localized="没有人工成本费率：在有费率覆盖之前，生产、维护和成本报表中的工时没有计价。"/>
+    <moqui.basic.LocalizedMessage original="No payment received" locale="zh" localized="未收到付款"/>
+    <moqui.basic.LocalizedMessage original="No posting: the payment's status changes only." locale="zh" localized="不过账：仅更改付款的状态。"/>
+    <moqui.basic.LocalizedMessage original="Not exported" locale="zh" localized="未导出"/>
+    <moqui.basic.LocalizedMessage original="Not invoiced automatically" locale="zh" localized="不自动开票"/>
+    <moqui.basic.LocalizedMessage original="Not posted" locale="zh" localized="未过账"/>
+    <moqui.basic.LocalizedMessage original="Not requested" locale="zh" localized="未请求"/>
+    <moqui.basic.LocalizedMessage original="Not yet due" locale="zh" localized="尚未到期"/>
+    <moqui.basic.LocalizedMessage original="Ordered, shipped, invoiced and returned, by product, customer or class." locale="zh" localized="按产品、客户或类别列示的已下单、已发货、已开票和已退回。"/>
+    <moqui.basic.LocalizedMessage original="Organization's default" locale="zh" localized="组织的默认值"/>
+    <moqui.basic.LocalizedMessage original="Original payment" locale="zh" localized="原始付款"/>
+    <moqui.basic.LocalizedMessage original="Outgoing payments" locale="zh" localized="对外付款"/>
+    <moqui.basic.LocalizedMessage original="Payment change completed" locale="zh" localized="付款更改已完成"/>
+    <moqui.basic.LocalizedMessage original="Payment detail" locale="zh" localized="付款明细"/>
+    <moqui.basic.LocalizedMessage original="Payment filters are not available" locale="zh" localized="付款筛选不可用"/>
+    <moqui.basic.LocalizedMessage original="Payment or supplier credit" locale="zh" localized="付款或供应商贷项"/>
+    <moqui.basic.LocalizedMessage original="Payment read authority is required" locale="zh" localized="需要付款读取权限"/>
+    <moqui.basic.LocalizedMessage original="Payment review is not available" locale="zh" localized="付款复核不可用"/>
+    <moqui.basic.LocalizedMessage original="Payment run ${created.paymentRunId}: ${created.selectedCount} bills selected,
+                ${created.excludedCount} left out" locale="zh" localized="付款运行 ${created.paymentRunId}：已选择 ${created.selectedCount} 张账单，
+                排除 ${created.excludedCount} 张"/>
+    <moqui.basic.LocalizedMessage original="Payment run ${paymentRunId} ${approvedText}" locale="zh" localized="付款运行 ${paymentRunId} ${approvedText}"/>
+    <moqui.basic.LocalizedMessage original="Payment run ${paymentRunId} ${executedText}" locale="zh" localized="付款运行 ${paymentRunId} ${executedText}"/>
+    <moqui.basic.LocalizedMessage original="Payment run ${paymentRunId} cancelled" locale="zh" localized="付款运行 ${paymentRunId} 已取消"/>
+    <moqui.basic.LocalizedMessage original="Payment run ${paymentRunId} sent for approval" locale="zh" localized="付款运行 ${paymentRunId} 已送审"/>
+    <moqui.basic.LocalizedMessage original="Payment status" locale="zh" localized="付款状态"/>
+    <moqui.basic.LocalizedMessage original="Payment to ${name}" locale="zh" localized="付款至 ${name}"/>
+    <moqui.basic.LocalizedMessage original="PAYMENT_REVIEW_MISMATCH: This review belongs to another payment" locale="zh" localized="PAYMENT_REVIEW_MISMATCH: 此复核属于另一笔付款"/>
+    <moqui.basic.LocalizedMessage original="Payments reported" locale="zh" localized="已申报付款"/>
+    <moqui.basic.LocalizedMessage original="Payments to validate" locale="zh" localized="待验证的付款"/>
+    <moqui.basic.LocalizedMessage original="Pending at the gateway" locale="zh" localized="在网关待处理"/>
+    <moqui.basic.LocalizedMessage original="PERIOD_REQUIRED: Choose a fiscal period" locale="zh" localized="PERIOD_REQUIRED: 请选择一个会计期间"/>
+    <moqui.basic.LocalizedMessage original="PERIOD_UNAVAILABLE: Choose a fiscal period of this organization" locale="zh" localized="PERIOD_UNAVAILABLE: 请选择本组织的一个会计期间"/>
+    <moqui.basic.LocalizedMessage original="PERMISSION_DENIED: Finance administration is required" locale="zh" localized="PERMISSION_DENIED: 需要财务管理权限"/>
+    <moqui.basic.LocalizedMessage original="PERMISSION_DENIED: Payables or payment edit authority is required" locale="zh" localized="PERMISSION_DENIED: 需要应付或付款的编辑权限"/>
+    <moqui.basic.LocalizedMessage original="PERMISSION_DENIED: Payables or payment read authority is required" locale="zh" localized="PERMISSION_DENIED: 需要应付或付款的读取权限"/>
+    <moqui.basic.LocalizedMessage original="PERMISSION_DENIED: Payables read authority is required" locale="zh" localized="PERMISSION_DENIED: 需要应付读取权限"/>
+    <moqui.basic.LocalizedMessage original="PERMISSION_DENIED: Receivables read authority is required" locale="zh" localized="PERMISSION_DENIED: 需要应收读取权限"/>
+    <moqui.basic.LocalizedMessage original="Position class" locale="zh" localized="岗位类别"/>
+    <moqui.basic.LocalizedMessage original="Queued for delivery" locale="zh" localized="排队待交付"/>
+    <moqui.basic.LocalizedMessage original="Receipt from ${name}" locale="zh" localized="收款来自 ${name}"/>
+    <moqui.basic.LocalizedMessage original="Receipt or credit" locale="zh" localized="收据或贷项"/>
+    <moqui.basic.LocalizedMessage original="Receivables and payables" locale="zh" localized="应收和应付"/>
+    <moqui.basic.LocalizedMessage original="Receivables or payables open on a day, by days past due." locale="zh" localized="某一天未结的应收或应付，按逾期天数。"/>
+    <moqui.basic.LocalizedMessage original="Recorded event" locale="zh" localized="已记录的事件"/>
+    <moqui.basic.LocalizedMessage original="Refund completed" locale="zh" localized="退款已完成"/>
+    <moqui.basic.LocalizedMessage original="Refund status" locale="zh" localized="退款状态"/>
+    <moqui.basic.LocalizedMessage original="Refund through the gateway" locale="zh" localized="通过网关退款"/>
+    <moqui.basic.LocalizedMessage original="Refunds pending" locale="zh" localized="待处理的退款"/>
+    <moqui.basic.LocalizedMessage original="Release asked for; the approvers are notified" locale="zh" localized="已请求解除；已通知审批人"/>
+    <moqui.basic.LocalizedMessage original="Release authorization" locale="zh" localized="解除授权"/>
+    <moqui.basic.LocalizedMessage original="Reminder run ${previewed.dunningRunId}: ${previewed.noticeCount} reminders to send,
+                ${previewed.excludedCount} left out" locale="zh" localized="提醒运行 ${previewed.dunningRunId}：待发送 ${previewed.noticeCount} 个提醒，
+                排除 ${previewed.excludedCount} 个"/>
+    <moqui.basic.LocalizedMessage original="Reminder settled as ${resolved.statusId == 'DntSent' ? 'sent' : 'failed'}" locale="zh" localized="提醒已按${resolved.statusId == 'DntSent' ? '已发送' : '失败'}处理"/>
+    <moqui.basic.LocalizedMessage original="REPORT_UNAVAILABLE: Choose a report from the list" locale="zh" localized="REPORT_UNAVAILABLE: 请从列表中选择一份报表"/>
+    <moqui.basic.LocalizedMessage original="Retained earnings at the end" locale="zh" localized="期末留存收益"/>
+    <moqui.basic.LocalizedMessage original="Retained earnings at the start" locale="zh" localized="期初留存收益"/>
+    <moqui.basic.LocalizedMessage original="Retained earnings at the start, net income, distributions." locale="zh" localized="期初留存收益、净利润和分配。"/>
+    <moqui.basic.LocalizedMessage original="Return on assets" locale="zh" localized="资产收益率"/>
+    <moqui.basic.LocalizedMessage original="Return on equity" locale="zh" localized="净资产收益率"/>
+    <moqui.basic.LocalizedMessage original="Sales / net fixed assets" locale="zh" localized="销售额 / 固定资产净值"/>
+    <moqui.basic.LocalizedMessage original="Sales / total assets" locale="zh" localized="销售额 / 总资产"/>
+    <moqui.basic.LocalizedMessage original="Schedule ${stored.invoiceScheduleId} saved" locale="zh" localized="计划 ${stored.invoiceScheduleId} 已保存"/>
+    <moqui.basic.LocalizedMessage original="Select no more than 100 invoices" locale="zh" localized="最多选择 100 张发票"/>
+    <moqui.basic.LocalizedMessage original="Self-billed" locale="zh" localized="自开票"/>
+    <moqui.basic.LocalizedMessage original="Setup health is unavailable" locale="zh" localized="初始设置状况不可用"/>
+    <moqui.basic.LocalizedMessage original="Some payment choices are unavailable" locale="zh" localized="部分付款选项不可用"/>
+    <moqui.basic.LocalizedMessage original="Some provider choices are unavailable" locale="zh" localized="部分提供方选项不可用"/>
+    <moqui.basic.LocalizedMessage original="Some transfer fee accounts are unavailable" locale="zh" localized="部分转账手续费账户不可用"/>
+    <moqui.basic.LocalizedMessage original="STALE_REVIEW: The selection changed after this review was prepared. Go back to the selection and preview it again" locale="zh" localized="STALE_REVIEW: 准备此复核后选择已更改。请返回选择并再次预览"/>
+    <moqui.basic.LocalizedMessage original="Start rate" locale="zh" localized="开始费率"/>
+    <moqui.basic.LocalizedMessage original="Start the new rate" locale="zh" localized="开始新费率"/>
+    <moqui.basic.LocalizedMessage original="Supplier credit" locale="zh" localized="供应商贷项"/>
+    <moqui.basic.LocalizedMessage original="Supplier refund" locale="zh" localized="供应商退款"/>
+    <moqui.basic.LocalizedMessage original="Supplier refunds" locale="zh" localized="供应商退款"/>
+    <moqui.basic.LocalizedMessage original="Tax authority is required" locale="zh" localized="需要税务权限"/>
+    <moqui.basic.LocalizedMessage original="Taxable sales" locale="zh" localized="应税销售额"/>
+    <moqui.basic.LocalizedMessage original="Term ${description} saved with ${lines.length} lines" locale="zh" localized="付款条件 ${description} 已保存，含 ${lines.length} 行"/>
+    <moqui.basic.LocalizedMessage original="The balance went from ${moved.preBalance} to ${moved.postBalance}." locale="zh" localized="余额从 ${moved.preBalance} 变为 ${moved.postBalance}。"/>
+    <moqui.basic.LocalizedMessage original="The invoice output is not available" locale="zh" localized="发票输出不可用"/>
+    <moqui.basic.LocalizedMessage original="The job has not run yet" locale="zh" localized="作业尚未运行"/>
+    <moqui.basic.LocalizedMessage original="The largest residual, in the base currency, a receivables or payables user writes off or credits without an approver; empty or 0, every write-off needs one" locale="zh" localized="以本位币计，应收或应付用户可不经审批人核销或贷记的最大尾差；留空或 0 表示每笔核销都需要审批人"/>
+    <moqui.basic.LocalizedMessage original="The organization has no recurring orders. A sales order repeats from Recurring orders in                                     Sales." locale="zh" localized="本组织没有循环订单。销售订单从销售中的循环订单重复。"/>
+    <moqui.basic.LocalizedMessage original="The override is ended; the broader row applies from now" locale="zh" localized="覆盖已结束；此后适用更广的那一行"/>
+    <moqui.basic.LocalizedMessage original="The posted lines of each account, with a running balance." locale="zh" localized="每个账户的已过账行及其滚动余额。"/>
+    <moqui.basic.LocalizedMessage original="The provider has no rate for ${result.skippedUomIds.join(', ')}" locale="zh" localized="提供方没有 ${result.skippedUomIds.join(', ')} 的汇率"/>
+    <moqui.basic.LocalizedMessage original="The receipts, issues and count variances of a period." locale="zh" localized="一个期间的收货、发料和盘点差异。"/>
+    <moqui.basic.LocalizedMessage original="The selected allocation is not available" locale="zh" localized="所选分配不可用"/>
+    <moqui.basic.LocalizedMessage original="The selection was cleared for the new customer, currency or dates." locale="zh" localized="已清除选择，以使用新的客户、货币或日期。"/>
+    <moqui.basic.LocalizedMessage original="The selection was cleared for the new supplier, currency or dates." locale="zh" localized="已清除选择，以使用新的供应商、货币或日期。"/>
+    <moqui.basic.LocalizedMessage original="The settlement selection is too large" locale="zh" localized="结算选择过大"/>
+    <moqui.basic.LocalizedMessage original="The shared rates are every organization's: change them with no organization chosen." locale="zh" localized="共享费率属于每个组织：请在未选择组织时更改它们。"/>
+    <moqui.basic.LocalizedMessage original="The supplier sent this bill for purchase order" locale="zh" localized="供应商针对采购订单发送了此账单"/>
+    <moqui.basic.LocalizedMessage original="This invoice is not available" locale="zh" localized="此发票不可用"/>
+    <moqui.basic.LocalizedMessage original="This payment has no gateway." locale="zh" localized="此付款没有网关。"/>
+    <moqui.basic.LocalizedMessage original="This review belongs to the other workbench" locale="zh" localized="此复核属于另一个工作台"/>
+    <moqui.basic.LocalizedMessage original="Times interest earned" locale="zh" localized="利息保障倍数"/>
+    <moqui.basic.LocalizedMessage original="Total asset turnover" locale="zh" localized="总资产周转率"/>
+    <moqui.basic.LocalizedMessage original="Total assets" locale="zh" localized="总资产"/>
+    <moqui.basic.LocalizedMessage original="Total assets / equity" locale="zh" localized="总资产 / 权益"/>
+    <moqui.basic.LocalizedMessage original="Total liabilities / total assets" locale="zh" localized="总负债 / 总资产"/>
+    <moqui.basic.LocalizedMessage original="Total liabilities, equity and net income" locale="zh" localized="总负债、权益和净利润"/>
+    <moqui.basic.LocalizedMessage original="Total out" locale="zh" localized="支出合计"/>
+    <moqui.basic.LocalizedMessage original="Trial balance imported" locale="zh" localized="试算平衡表已导入"/>
+    <moqui.basic.LocalizedMessage original="Unapplied cash" locale="zh" localized="未核销现金"/>
+    <moqui.basic.LocalizedMessage original="Unapplied payments" locale="zh" localized="未核销付款"/>
+    <moqui.basic.LocalizedMessage original="Unposted documents" locale="zh" localized="未过账单据"/>
+    <moqui.basic.LocalizedMessage original="Validate payment" locale="zh" localized="验证付款"/>
+    <moqui.basic.LocalizedMessage original="Void payment" locale="zh" localized="作废付款"/>
+    <moqui.basic.LocalizedMessage original="With the facilities under it; empty: every facility" locale="zh" localized="包含其下级设施；留空：每个设施"/>
+    <moqui.basic.LocalizedMessage original="Without receipt" locale="zh" localized="无收货"/>
+    <moqui.basic.LocalizedMessage original="Worker bills" locale="zh" localized="员工账单"/>
+    <moqui.basic.LocalizedMessage original="Write-off tolerance" locale="zh" localized="核销容差"/>
+</entity-facade-xml>

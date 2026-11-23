@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+
+<entity-facade-xml type="zh">
+    <moqui.basic.LocalizedMessage original="${address} is not banned on this server" locale="zh" localized="${address} 未在此服务器上被封禁"/>
+    <moqui.basic.LocalizedMessage original="${deliverOut.itemCount} items queued again for ${pairedNodeId}" locale="zh" localized="已重新入队 ${deliverOut.itemCount} 项，用于 ${pairedNodeId}"/>
+    <moqui.basic.LocalizedMessage original="${hostOut.hostName} now goes to ${pairedNodeId}" locale="zh" localized="${hostOut.hostName} 现在指向 ${pairedNodeId}"/>
+    <moqui.basic.LocalizedMessage original="${instanceId} may take ${pairedNodeId} over at its next link" locale="zh" localized="${instanceId} 可在下次链路时接管 ${pairedNodeId}"/>
+    <moqui.basic.LocalizedMessage original="${instanceId} of ${pairedNodeId} is ${drainOut.state} now" locale="zh" localized="${instanceId}（${pairedNodeId}）现在为 ${drainOut.state}"/>
+    <moqui.basic.LocalizedMessage original="${loginAsHeld}: you may not login as that user" locale="zh" localized="${loginAsHeld}：您不能以该用户身份登录"/>
+    <moqui.basic.LocalizedMessage original="${offer.label}: message ${message.systemMessageId}" locale="zh" localized="${offer.label}：消息 ${message.systemMessageId}"/>
+    <moqui.basic.LocalizedMessage original="${pairedNodeId} is resumed: it pauses again if it still passes a cap" locale="zh" localized="${pairedNodeId} 已恢复：若仍超过上限会再次暂停"/>
+    <moqui.basic.LocalizedMessage original="${pairedNodeId} was not paused" locale="zh" localized="${pairedNodeId} 并未暂停"/>
+    <moqui.basic.LocalizedMessage original="${pairedNodeId}'s queue has the conf's cap" locale="zh" localized="${pairedNodeId} 的队列使用配置的上限"/>
+    <moqui.basic.LocalizedMessage original="${pairedNodeId}'s queue holds up to ${capOut.queueMaxMegabytes} MB" locale="zh" localized="${pairedNodeId} 的队列最多容纳 ${capOut.queueMaxMegabytes} MB"/>
+    <moqui.basic.LocalizedMessage original="${review?.memberCount} current member(s). ${review?.summary}." locale="zh" localized="当前成员 ${review?.memberCount} 名。${review?.summary}。"/>
+    <moqui.basic.LocalizedMessage original="${secretText} For Apple, the private key." locale="zh" localized="${secretText} 对于 Apple，为私钥。"/>
+    <moqui.basic.LocalizedMessage original="A connection is started as one of the kinds this instance has an integration for. It is saved disabled: configure it, then test it." locale="zh" localized="连接按此实例已有集成的一种类型启动。保存时为禁用：请先配置，再测试。"/>
+    <moqui.basic.LocalizedMessage original="A member is set aside" locale="zh" localized="一名成员已搁置"/>
+    <moqui.basic.LocalizedMessage original="A message tried more recently is left for later" locale="zh" localized="更近尝试过的消息留待以后"/>
+    <moqui.basic.LocalizedMessage original="A new node" locale="zh" localized="新节点"/>
+    <moqui.basic.LocalizedMessage original="A new node taking ${pairedNodeId} over is admitted, with a notice" locale="zh" localized="接管 ${pairedNodeId} 的新节点已准入，并已通知"/>
+    <moqui.basic.LocalizedMessage original="A new node taking ${pairedNodeId} over is held for your approval" locale="zh" localized="接管 ${pairedNodeId} 的新节点已保留，待您审批"/>
+    <moqui.basic.LocalizedMessage original="A new node taking a pairing over" locale="zh" localized="接管一个配对的新节点"/>
+    <moqui.basic.LocalizedMessage original="A pairing's queue cap" locale="zh" localized="一个配对的队列上限"/>
+    <moqui.basic.LocalizedMessage original="A public name whose DNS points at this node, such as erp.example.com. A name goes to one local node: one another node has is refused" locale="zh" localized="指向此节点的公共名称，例如 erp.example.com。一个名称只属于一个本地节点：另一节点已有的名称会被拒绝"/>
+    <moqui.basic.LocalizedMessage original="A received file is" locale="zh" localized="收到的文件为"/>
+    <moqui.basic.LocalizedMessage original="A regular expression the file names match" locale="zh" localized="文件名要匹配的正则表达式"/>
+    <moqui.basic.LocalizedMessage original="A role or group name the provider sends for the person" locale="zh" localized="提供商为该人发送的角色名或组名"/>
+    <moqui.basic.LocalizedMessage original="A TCP port on this node, not one of its own listeners. Open it in the firewall" locale="zh" localized="此节点上的一个 TCP 端口，不是它自己的监听端口。请在防火墙中开放"/>
+    <moqui.basic.LocalizedMessage original="A terminate name's requests go to its local node's members sticky by this cookie; a passthrough name's connections by the client's address" locale="zh" localized="终结名称的请求按此 Cookie 粘滞到其本地节点的成员；透传名称的连接按客户端地址粘滞"/>
+    <moqui.basic.LocalizedMessage original="A whole id: the message's, its envelope's or the other system's" locale="zh" localized="完整 ID：消息的、其信封的，或对方系统的"/>
+    <moqui.basic.LocalizedMessage original="Account field" locale="zh" localized="账号字段"/>
+    <moqui.basic.LocalizedMessage original="Acknowledges" locale="zh" localized="回执"/>
+    <moqui.basic.LocalizedMessage original="Add a tunnel port" locale="zh" localized="添加隧道端口"/>
+    <moqui.basic.LocalizedMessage original="Add role mapping" locale="zh" localized="添加角色映射"/>
+    <moqui.basic.LocalizedMessage original="Administration" locale="zh" localized="管理"/>
+    <moqui.basic.LocalizedMessage original="Administrators who can still sign in after the change: ${review?.pathsAfter} (now ${review?.pathsBefore})." locale="zh" localized="更改后仍可登录的管理员：${review?.pathsAfter}（现在 ${review?.pathsBefore}）。"/>
+    <moqui.basic.LocalizedMessage original="Admitted, with a notice" locale="zh" localized="已准入，并通知"/>
+    <moqui.basic.LocalizedMessage original="All fields" locale="zh" localized="全部字段"/>
+    <moqui.basic.LocalizedMessage original="An access administrator enables the provider once it is tested." locale="zh" localized="访问管理员在测试之后启用提供商。"/>
+    <moqui.basic.LocalizedMessage original="An inbound flow is a remote system's, not a sign-in: an instance administrator changes it in Tools." locale="zh" localized="入站流程属于远程系统，不是登录：实例管理员在 Tools 中更改它。"/>
+    <moqui.basic.LocalizedMessage original="Any address" locale="zh" localized="任意地址"/>
+    <moqui.basic.LocalizedMessage original="Apple key ID" locale="zh" localized="Apple 密钥 ID"/>
+    <moqui.basic.LocalizedMessage original="Apple team ID" locale="zh" localized="Apple 团队 ID"/>
+    <moqui.basic.LocalizedMessage original="As its owner lets you read it${found.payloadTruncated ? ', cut to its first 20,000 characters' : ''}; values of fields named like a credential are hidden." locale="zh" localized="在其所有者允许您阅读的范围内${found.payloadTruncated ? '，已截断为前 20,000 个字符' : ''}；名称像凭据的字段值已隐藏。"/>
+    <moqui.basic.LocalizedMessage original="As the scheduled job does: each incoming message received and not consumed is consumed now. One that has failed the limit of attempts is put in error." locale="zh" localized="与计划作业相同：每条已接收且未消耗的入站消息现在就消耗。超过尝试次数上限的进入错误。"/>
+    <moqui.basic.LocalizedMessage original="As the scheduled job does: each outgoing message waiting to be sent is sent now, whatever its owner registered. One that has failed the limit of attempts is put in error." locale="zh" localized="与计划作业相同：每条等待发送的出站消息现在就发送，不论哪个所有者登记了它。超过尝试次数上限的进入错误。"/>
+    <moqui.basic.LocalizedMessage original="At sign-in" locale="zh" localized="登录时"/>
+    <moqui.basic.LocalizedMessage original="Attempts before error" locale="zh" localized="出错前的尝试次数"/>
+    <moqui.basic.LocalizedMessage original="Balancing" locale="zh" localized="负载均衡"/>
+    <moqui.basic.LocalizedMessage original="Balancing could not be read" locale="zh" localized="无法读取负载均衡"/>
+    <moqui.basic.LocalizedMessage original="Banned by" locale="zh" localized="封禁者"/>
+    <moqui.basic.LocalizedMessage original="Banned now" locale="zh" localized="当前封禁"/>
+    <moqui.basic.LocalizedMessage original="Bridge ids may be the same on two nodes: a webhook goes by the request's host name first" locale="zh" localized="两个节点上的桥接 ID 可以相同：webhook 先按请求的主机名路由"/>
+    <moqui.basic.LocalizedMessage original="Callback URL" locale="zh" localized="回调 URL"/>
+    <moqui.basic.LocalizedMessage original="Callback URL to register at the provider: ${provider.callbackUrl}" locale="zh" localized="向提供商登记的回调 URL：${provider.callbackUrl}"/>
+    <moqui.basic.LocalizedMessage original="Caps" locale="zh" localized="上限"/>
+    <moqui.basic.LocalizedMessage original="Changed by an instance administrator" locale="zh" localized="由实例管理员更改"/>
+    <moqui.basic.LocalizedMessage original="Changing the client, the issuer or an endpoint needs the secret entered again: otherwise the stored secret is cleared. Either way the provider is disabled until a test against it passes." locale="zh" localized="更改客户端、颁发者或端点后必须重新输入密钥；否则已存储的密钥会被清除。无论哪种，提供商都会禁用，直到针对它的测试通过。"/>
+    <moqui.basic.LocalizedMessage original="Checked again: ${recheckOut?.applied ?? 0} applied" locale="zh" localized="已再次检查：已应用 ${recheckOut?.applied ?? 0}"/>
+    <moqui.basic.LocalizedMessage original="Checks the configuration, the role mappings and that a sign-in can start at the provider. No account is made and nobody is signed in." locale="zh" localized="检查配置、角色映射，以及能否在提供商处开始登录。不会创建账号，也没有人登录。"/>
+    <moqui.basic.LocalizedMessage original="Choose another user to login as" locale="zh" localized="请选择另一个要以其身份登录的用户"/>
+    <moqui.basic.LocalizedMessage original="Choose messages of this page and one action. You review what happens to each before anything is done. Up to ${found.maxTargets} at a time." locale="zh" localized="选择本页的消息和一项操作。在执行之前，先复核每条会发生什么。一次最多 ${found.maxTargets} 条。"/>
+    <moqui.basic.LocalizedMessage original="Clients banned now" locale="zh" localized="当前封禁的客户端"/>
+    <moqui.basic.LocalizedMessage original="Clients tracked" locale="zh" localized="已跟踪的客户端"/>
+    <moqui.basic.LocalizedMessage original="Comma separated addresses members may sign in from, each IPv4 part a number, * or a range like 0-31; empty for any address" locale="zh" localized="成员可用来登录的地址，以逗号分隔；IPv4 的每一段为数字、* 或如 0-31 的范围；留空表示任意地址"/>
+    <moqui.basic.LocalizedMessage original="Confirms a sign-in" locale="zh" localized="确认一次登录"/>
+    <moqui.basic.LocalizedMessage original="Connection started. It stays disabled until it is configured and a test of it passes." locale="zh" localized="连接已启动。在完成配置且测试通过之前保持禁用。"/>
+    <moqui.basic.LocalizedMessage original="Connections are not available to you." locale="zh" localized="连接对您不可用。"/>
+    <moqui.basic.LocalizedMessage original="Connections refused" locale="zh" localized="已拒绝的连接"/>
+    <moqui.basic.LocalizedMessage original="Consume all" locale="zh" localized="全部消耗"/>
+    <moqui.basic.LocalizedMessage original="Consume every received message now" locale="zh" localized="立即消耗每条已接收的消息"/>
+    <moqui.basic.LocalizedMessage original="Consume service" locale="zh" localized="消耗服务"/>
+    <moqui.basic.LocalizedMessage original="Consumed by" locale="zh" localized="消耗方"/>
+    <moqui.basic.LocalizedMessage original="Create a message type directly" locale="zh" localized="直接创建消息类型"/>
+    <moqui.basic.LocalizedMessage original="Create message type" locale="zh" localized="创建消息类型"/>
+    <moqui.basic.LocalizedMessage original="Default group" locale="zh" localized="默认组"/>
+    <moqui.basic.LocalizedMessage original="Default group for a sign-in with no mapped role: ${defaultGroupText}." locale="zh" localized="没有映射角色的登录所用的默认组：${defaultGroupText}。"/>
+    <moqui.basic.LocalizedMessage original="Deliver again" locale="zh" localized="再次投递"/>
+    <moqui.basic.LocalizedMessage original="Deliver again since a time" locale="zh" localized="自某一时刻起再次投递"/>
+    <moqui.basic.LocalizedMessage original="Delivered since" locale="zh" localized="投递自"/>
+    <moqui.basic.LocalizedMessage original="Disabled until its test passes" locale="zh" localized="已禁用，直到其测试通过"/>
+    <moqui.basic.LocalizedMessage original="Discovery URL" locale="zh" localized="发现 URL"/>
+    <moqui.basic.LocalizedMessage original="Discovery: ${discoveryText}" locale="zh" localized="发现：${discoveryText}"/>
+    <moqui.basic.LocalizedMessage original="Documented producer" locale="zh" localized="已记载的生产者"/>
+    <moqui.basic.LocalizedMessage original="Domains" locale="zh" localized="域名"/>
+    <moqui.basic.LocalizedMessage original="Download message text" locale="zh" localized="下载消息文本"/>
+    <moqui.basic.LocalizedMessage original="Each message is taken on its own: one that is refused or fails is named in the result and the others go on. A message whose outcome is unknown is never retried here." locale="zh" localized="每条消息单独处理：被拒绝或失败的会在结果中点名，其余继续。结果未知的消息不会在此处重试。"/>
+    <moqui.basic.LocalizedMessage original="Each selected session's next request goes to the sign-in page. Its user can sign in again." locale="zh" localized="每个所选会话的下一次请求都会转到登录页。其用户可以再次登录。"/>
+    <moqui.basic.LocalizedMessage original="edge/front-node@url, or the front member's own link address" locale="zh" localized="edge/front-node@url，或前置成员自己的链路地址"/>
+    <moqui.basic.LocalizedMessage original="edge@link-url: where local nodes dial this member, its own public https address" locale="zh" localized="edge@link-url：本地节点连接此成员的地址，即它自己的公共 https 地址"/>
+    <moqui.basic.LocalizedMessage original="Edit message text" locale="zh" localized="编辑消息文本"/>
+    <moqui.basic.LocalizedMessage original="Empty takes the named provider's own" locale="zh" localized="留空则用所指名提供商自己的"/>
+    <moqui.basic.LocalizedMessage original="Empty takes the next id" locale="zh" localized="留空则取下一个 ID"/>
+    <moqui.basic.LocalizedMessage original="Endpoints: ${endpointText}" locale="zh" localized="端点：${endpointText}"/>
+    <moqui.basic.LocalizedMessage original="Enumeration" locale="zh" localized="枚举"/>
+    <moqui.basic.LocalizedMessage original="Enumeration values at this remote" locale="zh" localized="此远程上的枚举值"/>
+    <moqui.basic.LocalizedMessage original="Every remote" locale="zh" localized="所有远程"/>
+    <moqui.basic.LocalizedMessage original="Existing accounts are linked: ${provider.accountLinkName}." locale="zh" localized="已有账号会关联：${provider.accountLinkName}。"/>
+    <moqui.basic.LocalizedMessage original="Failed attempts" locale="zh" localized="失败次数"/>
+    <moqui.basic.LocalizedMessage original="Failures in a row" locale="zh" localized="连续失败"/>
+    <moqui.basic.LocalizedMessage original="File pattern" locale="zh" localized="文件模式"/>
+    <moqui.basic.LocalizedMessage original="For a terminate name whose local node is a cluster: the cookie its requests are sticky by, so a browser session stays on one member. Empty for this node's default, the session cookie" locale="zh" localized="用于其本地节点为集群的终结名称：请求据此 Cookie 粘滞，使浏览器会话留在同一成员上。留空则用此节点的默认值，即会话 Cookie"/>
+    <moqui.basic.LocalizedMessage original="For local node" locale="zh" localized="用于本地节点"/>
+    <moqui.basic.LocalizedMessage original="For the instance administrator: a type is deployed with the integration that speaks it. One made here names its services directly, with no owner and no registered handler." locale="zh" localized="供实例管理员使用：类型随负责该类型的集成一起部署。在此创建的类型直接写出其服务，没有所有者，也没有已登记的处理程序。"/>
+    <moqui.basic.LocalizedMessage original="Forget key" locale="zh" localized="忘记密钥"/>
+    <moqui.basic.LocalizedMessage original="Front member" locale="zh" localized="前置成员"/>
+    <moqui.basic.LocalizedMessage original="Front nodes on one database with one .env, so one link key, that each take links. A node behind them pairs once and links to every live member at its link address. Each needs the address records of the names it answers." locale="zh" localized="前置节点共用一个数据库和一个 .env，因此共用一把链路密钥，并各自接收链路。其后面的节点只配对一次，并在每个运行中成员的链路地址上建立链路。每个成员都需要它所应答的名称的地址记录。"/>
+    <moqui.basic.LocalizedMessage original="Give a group to a remote role" locale="zh" localized="为远程角色指定一个组"/>
+    <moqui.basic.LocalizedMessage original="Given to a sign-in that has no group at all; empty for none. Now: ${defaultGroupText}" locale="zh" localized="授予完全没有组的登录；留空表示不授予。现在：${defaultGroupText}"/>
+    <moqui.basic.LocalizedMessage original="Groups with a requirement" locale="zh" localized="有要求的组"/>
+    <moqui.basic.LocalizedMessage original="Handlers" locale="zh" localized="处理程序"/>
+    <moqui.basic.LocalizedMessage original="Held for approval" locale="zh" localized="待审批"/>
+    <moqui.basic.LocalizedMessage original="How a first sign-in finds an account that already exists here. A provider's username alone links nothing, and an account in a privileged group is linked by an administrator only." locale="zh" localized="首次登录如何找到此处已有的账号。仅凭提供商的用户名不会关联任何账号，特权组中的账号只能由管理员关联。"/>
+    <moqui.basic.LocalizedMessage original="How people sign in to this instance: the password, lockout and session rules it runs with, and what each group requires of its members." locale="zh" localized="人们如何登录此实例：它所执行的密码、锁定和会话规则，以及每个组对其成员的要求。"/>
+    <moqui.basic.LocalizedMessage original="Id at the other system" locale="zh" localized="对方系统中的 ID"/>
+    <moqui.basic.LocalizedMessage original="Identity mappings" locale="zh" localized="身份映射"/>
+    <moqui.basic.LocalizedMessage original="Identity mappings saved" locale="zh" localized="身份映射已保存"/>
+    <moqui.basic.LocalizedMessage original="Identity provider" locale="zh" localized="身份提供商"/>
+    <moqui.basic.LocalizedMessage original="Identity providers are not available to you." locale="zh" localized="身份提供商对您不可用。"/>
+    <moqui.basic.LocalizedMessage original="In Instance settings" locale="zh" localized="在实例设置中"/>
+    <moqui.basic.LocalizedMessage original="In this batch" locale="zh" localized="在此批次中"/>
+    <moqui.basic.LocalizedMessage original="Its members linked now: every member of a local cluster links" locale="zh" localized="其成员当前已建立链路：本地集群的每个成员都会建立链路"/>
+    <moqui.basic.LocalizedMessage original="Kept in the audit log beside each message" locale="zh" localized="保存在每条消息旁的审计日志中"/>
+    <moqui.basic.LocalizedMessage original="Keycloak base URL" locale="zh" localized="Keycloak 基础 URL"/>
+    <moqui.basic.LocalizedMessage original="Keycloak realm" locale="zh" localized="Keycloak 领域"/>
+    <moqui.basic.LocalizedMessage original="Keystore password" locale="zh" localized="密钥库密码"/>
+    <moqui.basic.LocalizedMessage original="Last failure, or who settled it" locale="zh" localized="上次失败，或了结它的人"/>
+    <moqui.basic.LocalizedMessage original="Let it link again" locale="zh" localized="允许它再次建立链路"/>
+    <moqui.basic.LocalizedMessage original="Letters, digits and underscores, starting with a letter; a printer may leave it empty" locale="zh" localized="以字母开头的字母、数字和下划线；打印机可以留空"/>
+    <moqui.basic.LocalizedMessage original="Lift" locale="zh" localized="解除"/>
+    <moqui.basic.LocalizedMessage original="Link name" locale="zh" localized="链路名"/>
+    <moqui.basic.LocalizedMessage original="Linking existing accounts" locale="zh" localized="关联已有账号"/>
+    <moqui.basic.LocalizedMessage original="Local nodes paired with this node. A local node pairs in its own System, Edge Node, with a pairing code made here." locale="zh" localized="与此节点配对的本地节点。本地节点在自己的系统、边缘节点中，用此处生成的配对码进行配对。"/>
+    <moqui.basic.LocalizedMessage original="Look for files at" locale="zh" localized="在此查找文件"/>
+    <moqui.basic.LocalizedMessage original="Mail to these domains goes to this node, by its replicated recipients; another node may have other addresses in the same domain" locale="zh" localized="发往这些域的邮件按已复制的收件人到达此节点；另一节点可以拥有同一域中的其他地址"/>
+    <moqui.basic.LocalizedMessage original="Map a claim onto an account field" locale="zh" localized="将声明映射到一个账号字段"/>
+    <moqui.basic.LocalizedMessage original="May link again" locale="zh" localized="可以再次建立链路"/>
+    <moqui.basic.LocalizedMessage original="Megabytes" locale="zh" localized="兆字节"/>
+    <moqui.basic.LocalizedMessage original="Members must confirm a second factor to sign in" locale="zh" localized="成员必须确认第二因素才能登录"/>
+    <moqui.basic.LocalizedMessage original="Members with no link address" locale="zh" localized="没有链路地址的成员"/>
+    <moqui.basic.LocalizedMessage original="Message ${message.systemMessageId}" locale="zh" localized="消息 ${message.systemMessageId}"/>
+    <moqui.basic.LocalizedMessage original="Message authentication" locale="zh" localized="消息认证"/>
+    <moqui.basic.LocalizedMessage original="Message text" locale="zh" localized="消息文本"/>
+    <moqui.basic.LocalizedMessage original="Message type saved" locale="zh" localized="消息类型已保存"/>
+    <moqui.basic.LocalizedMessage original="Message types are not available to you." locale="zh" localized="消息类型对您不可用。"/>
+    <moqui.basic.LocalizedMessage original="Messages of this remote" locale="zh" localized="此远程的消息"/>
+    <moqui.basic.LocalizedMessage original="Messages split from it" locale="zh" localized="从它拆出的消息"/>
+    <moqui.basic.LocalizedMessage original="Minutes since the last attempt" locale="zh" localized="距上次尝试的分钟数"/>
+    <moqui.basic.LocalizedMessage original="Move received files to" locale="zh" localized="将收到的文件移至"/>
+    <moqui.basic.LocalizedMessage original="New work" locale="zh" localized="新工作"/>
+    <moqui.basic.LocalizedMessage original="No claim is mapped: a new account takes its sign-in name from the provider and nothing else." locale="zh" localized="没有映射任何声明：新账号只从提供商取得登录名，别无其他。"/>
+    <moqui.basic.LocalizedMessage original="No client is banned on this server." locale="zh" localized="此服务器上没有被封禁的客户端。"/>
+    <moqui.basic.LocalizedMessage original="No conflicts: every local node's records are applied." locale="zh" localized="没有冲突：每个本地节点的记录都已应用。"/>
+    <moqui.basic.LocalizedMessage original="No enumeration has a value of its own at this remote." locale="zh" localized="没有枚举在此远程上有自己的值。"/>
+    <moqui.basic.LocalizedMessage original="No error is recorded." locale="zh" localized="没有记录错误。"/>
+    <moqui.basic.LocalizedMessage original="No failed attempt is recorded." locale="zh" localized="没有记录失败的尝试。"/>
+    <moqui.basic.LocalizedMessage original="No front node. Behind one (conf/full-stack), pair a member with it on Edge Node and copy the front_node lines of its .env to the other members." locale="zh" localized="没有前置节点。若位于一个之后（conf/full-stack），请在边缘节点中将一名成员与它配对，并将其 .env 的 front_node 行复制到其他成员。"/>
+    <moqui.basic.LocalizedMessage original="No host names yet. Add one for a paired local node, and point its DNS at this node." locale="zh" localized="还没有主机名。请为一个已配对的本地节点添加一个，并将其 DNS 指向此节点。"/>
+    <moqui.basic.LocalizedMessage original="No key is pinned for ${instanceId}" locale="zh" localized="没有为 ${instanceId} 固定密钥"/>
+    <moqui.basic.LocalizedMessage original="No local node is paired." locale="zh" localized="没有已配对的本地节点。"/>
+    <moqui.basic.LocalizedMessage original="No member has been sent work since this node started." locale="zh" localized="自此节点启动以来，没有向任何成员发送过工作。"/>
+    <moqui.basic.LocalizedMessage original="No member has linked since this node started. The members are kept in memory and come back with the first link." locale="zh" localized="自此节点启动以来，没有成员建立过链路。成员保存在内存中，并随第一次链路恢复。"/>
+    <moqui.basic.LocalizedMessage original="No message type matches." locale="zh" localized="没有匹配的消息类型。"/>
+    <moqui.basic.LocalizedMessage original="No owner has registered a recovery for this type: its failed messages are read in System messages and recovered by its owner, or by an instance administrator." locale="zh" localized="没有所有者为此类型登记恢复：其失败的消息在系统消息中查看，并由其所有者或实例管理员恢复。"/>
+    <moqui.basic.LocalizedMessage original="No provider matches." locale="zh" localized="没有匹配的提供商。"/>
+    <moqui.basic.LocalizedMessage original="No remote is of this type alone; any remote may carry it." locale="zh" localized="没有远程专属于此类型；任何远程都可以承载它。"/>
+    <moqui.basic.LocalizedMessage original="No remote role is mapped: a sign-in gives no group but the default." locale="zh" localized="没有映射远程角色：登录只给予默认组。"/>
+    <moqui.basic.LocalizedMessage original="No sign-in provider yet: everyone signs in with a password here. Start one with New provider." locale="zh" localized="还没有登录提供商：所有人都在此用密码登录。请用新建提供商启动一个。"/>
+    <moqui.basic.LocalizedMessage original="No status change is recorded." locale="zh" localized="没有记录状态变更。"/>
+    <moqui.basic.LocalizedMessage original="No such host name" locale="zh" localized="没有这样的主机名"/>
+    <moqui.basic.LocalizedMessage original="No such node is paired" locale="zh" localized="没有这样的已配对节点"/>
+    <moqui.basic.LocalizedMessage original="No such port" locale="zh" localized="没有这样的端口"/>
+    <moqui.basic.LocalizedMessage original="No tunnel ports. Add one to reach a local node's SSH or XMPP server through this node." locale="zh" localized="没有隧道端口。请添加一个，以便经此节点到达本地节点的 SSH 或 XMPP 服务器。"/>
+    <moqui.basic.LocalizedMessage original="Nonce" locale="zh" localized="随机数"/>
+    <moqui.basic.LocalizedMessage original="None of the chosen messages can be taken by this action now." locale="zh" localized="所选消息现在都不能用此操作处理。"/>
+    <moqui.basic.LocalizedMessage original="Not enabled" locale="zh" localized="未启用"/>
+    <moqui.basic.LocalizedMessage original="Not in its cluster's list" locale="zh" localized="不在其集群的列表中"/>
+    <moqui.basic.LocalizedMessage original="Not linked" locale="zh" localized="无链路"/>
+    <moqui.basic.LocalizedMessage original="Not listening" locale="zh" localized="未在监听"/>
+    <moqui.basic.LocalizedMessage original="Not started here" locale="zh" localized="未在此处启动"/>
+    <moqui.basic.LocalizedMessage original="Not used" locale="zh" localized="未使用"/>
+    <moqui.basic.LocalizedMessage original="Nothing is to be done to this message here." locale="zh" localized="此处无需对此消息做任何事。"/>
+    <moqui.basic.LocalizedMessage original="Of the remote ${systemMessageRemoteId}." locale="zh" localized="属于远程 ${systemMessageRemoteId}。"/>
+    <moqui.basic.LocalizedMessage original="On the remote's file server. It may hold the names the sender fills in, each written as a dollar sign and the name in braces: systemMessageId, remoteMessageId, systemMessageTypeId, systemMessageRemoteId, date and dateTime." locale="zh" localized="在远程的文件服务器上。可以包含发送方填入的名称，每个都写成一个 $ 符号加花括号中的名称：systemMessageId、remoteMessageId、systemMessageTypeId、systemMessageRemoteId、date 和 dateTime。"/>
+    <moqui.basic.LocalizedMessage original="One member registers the trunks, the holder of a lock row the members renew; it moves to another member when that one stops. Every member places and takes calls" locale="zh" localized="一名成员登记这些中继，即成员们所续期的锁行的持有者；该成员停止后转到另一名成员。每名成员都发起并接听通话"/>
+    <moqui.basic.LocalizedMessage original="One member: local nodes dial it at the address they paired with, so it needs no link address. Set edge@link-url on each member before a second one starts." locale="zh" localized="只有一名成员：本地节点在配对时的地址上连接它，因此它不需要链路地址。在第二名成员启动之前，请在每名成员上设置 edge@link-url。"/>
+    <moqui.basic.LocalizedMessage original="Only bundles you may assign are offered. A sign-in never gives a privileged group or one that grants a sealed permission." locale="zh" localized="只提供您可以分配的包。登录从不授予特权组，也不授予会给出已封存权限的组。"/>
+    <moqui.basic.LocalizedMessage original="Open them" locale="zh" localized="打开"/>
+    <moqui.basic.LocalizedMessage original="Optional: letters, digits and underscores; it is part of the provider's sign-in link" locale="zh" localized="可选：字母、数字和下划线；它是提供商登录链接的一部分"/>
+    <moqui.basic.LocalizedMessage original="Optional: the remote roles of someone who would sign in, separated by commas, to see which groups they would be given" locale="zh" localized="可选：将要登录者的远程角色，以逗号分隔，用来查看会授予哪些组"/>
+    <moqui.basic.LocalizedMessage original="Other version" locale="zh" localized="其他版本"/>
+    <moqui.basic.LocalizedMessage original="Our entity ID" locale="zh" localized="我方实体 ID"/>
+    <moqui.basic.LocalizedMessage original="Owner:" locale="zh" localized="所有者："/>
+    <moqui.basic.LocalizedMessage original="Port ${portOut.port} now goes to ${portOut.pairedNodeId}" locale="zh" localized="端口 ${portOut.port} 现在指向 ${portOut.pairedNodeId}"/>
+    <moqui.basic.LocalizedMessage original="Ports" locale="zh" localized="端口"/>
+    <moqui.basic.LocalizedMessage original="Private key password" locale="zh" localized="私钥密码"/>
+    <moqui.basic.LocalizedMessage original="Privileged: changed by its members" locale="zh" localized="特权：由其成员更改"/>
+    <moqui.basic.LocalizedMessage original="Produce service" locale="zh" localized="生产服务"/>
+    <moqui.basic.LocalizedMessage original="Provider metadata URL" locale="zh" localized="提供商元数据 URL"/>
+    <moqui.basic.LocalizedMessage original="Provider started. It stays disabled until it is configured, tested and enabled." locale="zh" localized="提供商已启动。在完成配置、测试并启用之前保持禁用。"/>
+    <moqui.basic.LocalizedMessage original="Put files at" locale="zh" localized="将文件放到"/>
+    <moqui.basic.LocalizedMessage original="Queue again" locale="zh" localized="重新入队"/>
+    <moqui.basic.LocalizedMessage original="Receive a message typed here" locale="zh" localized="接收在此键入的消息"/>
+    <moqui.basic.LocalizedMessage original="Receive and consume" locale="zh" localized="接收并消耗"/>
+    <moqui.basic.LocalizedMessage original="Receive service" locale="zh" localized="接收服务"/>
+    <moqui.basic.LocalizedMessage original="Recover several" locale="zh" localized="恢复多项"/>
+    <moqui.basic.LocalizedMessage original="Recovery of its messages" locale="zh" localized="其消息的恢复"/>
+    <moqui.basic.LocalizedMessage original="Recovery registered" locale="zh" localized="已登记恢复"/>
+    <moqui.basic.LocalizedMessage original="Refused until you let it link again" locale="zh" localized="已拒绝，直到您允许它再次建立链路"/>
+    <moqui.basic.LocalizedMessage original="Registered handlers" locale="zh" localized="已登记的处理程序"/>
+    <moqui.basic.LocalizedMessage original="Registers them" locale="zh" localized="由它注册"/>
+    <moqui.basic.LocalizedMessage original="Remote claim" locale="zh" localized="远程声明"/>
+    <moqui.basic.LocalizedMessage original="Remote role" locale="zh" localized="远程角色"/>
+    <moqui.basic.LocalizedMessage original="Remotes of this type" locale="zh" localized="此类型的远程"/>
+    <moqui.basic.LocalizedMessage original="Removed ${hostName}" locale="zh" localized="已移除 ${hostName}"/>
+    <moqui.basic.LocalizedMessage original="Removed port ${port}" locale="zh" localized="已移除端口 ${port}"/>
+    <moqui.basic.LocalizedMessage original="Requests by this user" locale="zh" localized="此用户的请求"/>
+    <moqui.basic.LocalizedMessage original="Requests denied" locale="zh" localized="已拒绝的请求"/>
+    <moqui.basic.LocalizedMessage original="Requests or connections refused; for a ban, the bans it started" locale="zh" localized="被拒绝的请求或连接；若是封禁，则为它发起的封禁"/>
+    <moqui.basic.LocalizedMessage original="Requests over capacity" locale="zh" localized="超出容量的请求"/>
+    <moqui.basic.LocalizedMessage original="Requests rate limited" locale="zh" localized="已限速的请求"/>
+    <moqui.basic.LocalizedMessage original="Requests, calls and tunnel opens sent and not answered yet" locale="zh" localized="已发出且尚未应答的请求、通话和隧道打开"/>
+    <moqui.basic.LocalizedMessage original="Requests, calls and tunnel opens sent to it and not answered yet; Balancing has more" locale="zh" localized="发给它且尚未应答的请求、通话和隧道打开；负载均衡中还有更多"/>
+    <moqui.basic.LocalizedMessage original="Reset from error" locale="zh" localized="从错误中重置"/>
+    <moqui.basic.LocalizedMessage original="Reset to produced" locale="zh" localized="重置为已生产"/>
+    <moqui.basic.LocalizedMessage original="Retry now" locale="zh" localized="立即重试"/>
+    <moqui.basic.LocalizedMessage original="Review: ${reviewText.toLowerCase()}." locale="zh" localized="复核：${reviewText.toLowerCase()}。"/>
+    <moqui.basic.LocalizedMessage original="Revoked: the node's link is closed" locale="zh" localized="已撤销：节点的链路已关闭"/>
+    <moqui.basic.LocalizedMessage original="Role mappings saved" locale="zh" localized="角色映射已保存"/>
+    <moqui.basic.LocalizedMessage original="Roles of a test identity" locale="zh" localized="测试身份的角色"/>
+    <moqui.basic.LocalizedMessage original="Round trip to ${instanceId} of ${pairedNodeId}: ${ec.l10n.format(pingOut.rttMs, '#,##0.0')} ms" locale="zh" localized="到 ${instanceId}（${pairedNodeId}）的往返：${ec.l10n.format(pingOut.rttMs, '#,##0.0')} ms"/>
+    <moqui.basic.LocalizedMessage original="Round trip to ${pairedNodeId}: ${ec.l10n.format(pingOut.rttMs, '#,##0.0')} ms" locale="zh" localized="到 ${pairedNodeId} 的往返：${ec.l10n.format(pingOut.rttMs, '#,##0.0')} ms"/>
+    <moqui.basic.LocalizedMessage original="Rules this instance runs with" locale="zh" localized="此实例所执行的规则"/>
+    <moqui.basic.LocalizedMessage original="SAML sign-in is not available in this build: the provider is kept and cannot be enabled." locale="zh" localized="此构建不提供 SAML 登录：提供商予以保留，且不能启用。"/>
+    <moqui.basic.LocalizedMessage original="Save sign-in rules" locale="zh" localized="保存登录规则"/>
+    <moqui.basic.LocalizedMessage original="Second factor" locale="zh" localized="第二因素"/>
+    <moqui.basic.LocalizedMessage original="Send ack" locale="zh" localized="发送回执"/>
+    <moqui.basic.LocalizedMessage original="Send all" locale="zh" localized="全部发送"/>
+    <moqui.basic.LocalizedMessage original="Send authentication" locale="zh" localized="发送认证"/>
+    <moqui.basic.LocalizedMessage original="Send every produced message now" locale="zh" localized="立即发送每条已生产的消息"/>
+    <moqui.basic.LocalizedMessage original="Send service" locale="zh" localized="发送服务"/>
+    <moqui.basic.LocalizedMessage original="Sent from here" locale="zh" localized="从此处发送"/>
+    <moqui.basic.LocalizedMessage original="Service now" locale="zh" localized="当前服务"/>
+    <moqui.basic.LocalizedMessage original="Set aside" locale="zh" localized="已搁置"/>
+    <moqui.basic.LocalizedMessage original="Set aside until" locale="zh" localized="搁置至"/>
+    <moqui.basic.LocalizedMessage original="set-aside-failures and set-aside-seconds" locale="zh" localized="set-aside-failures 和 set-aside-seconds"/>
+    <moqui.basic.LocalizedMessage original="Show the content" locale="zh" localized="显示内容"/>
+    <moqui.basic.LocalizedMessage original="Sign in again each time" locale="zh" localized="每次都重新登录"/>
+    <moqui.basic.LocalizedMessage original="Sign out the selected sessions" locale="zh" localized="退出所选会话"/>
+    <moqui.basic.LocalizedMessage original="Sign-in rules of ${reviewGroup.description}" locale="zh" localized="${reviewGroup.description} 的登录规则"/>
+    <moqui.basic.LocalizedMessage original="Signed in now" locale="zh" localized="当前已登录"/>
+    <moqui.basic.LocalizedMessage original="Since this node started, from memory: what each member was sent and how it answered." locale="zh" localized="自此节点启动以来，来自内存：向每个成员发送了什么，以及它如何应答。"/>
+    <moqui.basic.LocalizedMessage original="SIP realm and numbers" locale="zh" localized="SIP 领域和号码"/>
+    <moqui.basic.LocalizedMessage original="SIP trunks" locale="zh" localized="SIP 中继"/>
+    <moqui.basic.LocalizedMessage original="Space separated; empty takes the provider's default" locale="zh" localized="以空格分隔；留空则用提供商的默认值"/>
+    <moqui.basic.LocalizedMessage original="Split from" locale="zh" localized="拆分自"/>
+    <moqui.basic.LocalizedMessage original="Stale heartbeat" locale="zh" localized="心跳已过期"/>
+    <moqui.basic.LocalizedMessage original="Start a connection" locale="zh" localized="启动一个连接"/>
+    <moqui.basic.LocalizedMessage original="Start a sign-in provider" locale="zh" localized="启动一个登录提供商"/>
+    <moqui.basic.LocalizedMessage original="Start connection" locale="zh" localized="启动连接"/>
+    <moqui.basic.LocalizedMessage original="Start provider" locale="zh" localized="启动提供商"/>
+    <moqui.basic.LocalizedMessage original="Status changes" locale="zh" localized="状态变更"/>
+    <moqui.basic.LocalizedMessage original="Status history" locale="zh" localized="状态历史"/>
+    <moqui.basic.LocalizedMessage original="Sticky by" locale="zh" localized="粘滞依据"/>
+    <moqui.basic.LocalizedMessage original="Sticky cookie" locale="zh" localized="粘滞 Cookie"/>
+    <moqui.basic.LocalizedMessage original="sticky-cookie: the cookie a terminate host's requests are sticky by, where the host names none. A request without it goes round robin" locale="zh" localized="sticky-cookie：终结主机未指定时，其请求据此 Cookie 粘滞。没有该 Cookie 的请求按轮流分配"/>
+    <moqui.basic.LocalizedMessage original="Stored message" locale="zh" localized="已存储的消息"/>
+    <moqui.basic.LocalizedMessage original="System messages are not available to you." locale="zh" localized="系统消息对您不可用。"/>
+    <moqui.basic.LocalizedMessage original="Taken over by" locale="zh" localized="接管者"/>
+    <moqui.basic.LocalizedMessage original="Takeovers" locale="zh" localized="接管"/>
+    <moqui.basic.LocalizedMessage original="Taking work" locale="zh" localized="承接工作"/>
+    <moqui.basic.LocalizedMessage original="Test ${provider.description}" locale="zh" localized="测试 ${provider.description}"/>
+    <moqui.basic.LocalizedMessage original="The age of its heartbeat in its cluster's list, as its linked members last sent it" locale="zh" localized="它在其集群列表中的心跳年龄，按其已建立链路的成员上次发送的为准"/>
+    <moqui.basic.LocalizedMessage original="The ban of ${address} is lifted" locale="zh" localized="已解除对 ${address} 的封禁"/>
+    <moqui.basic.LocalizedMessage original="The change could not be reviewed." locale="zh" localized="无法复核此更改。"/>
+    <moqui.basic.LocalizedMessage original="The conf has no rate limits, bans or rules." locale="zh" localized="配置中没有速率限制、封禁或规则。"/>
+    <moqui.basic.LocalizedMessage original="The conf's" locale="zh" localized="配置的"/>
+    <moqui.basic.LocalizedMessage original="The cookie whose value picks the member for each request; empty for this node's default" locale="zh" localized="其值用来为每个请求选择成员的 Cookie；留空则用此节点的默认值"/>
+    <moqui.basic.LocalizedMessage original="The domains could not be read" locale="zh" localized="无法读取域名"/>
+    <moqui.basic.LocalizedMessage original="The edge cluster could not be read" locale="zh" localized="无法读取边缘集群"/>
+    <moqui.basic.LocalizedMessage original="The gateways, remote systems and printers this instance reaches, with their addresses and credentials. Those who use a connection choose among them; only here are their addresses and secrets changed." locale="zh" localized="此实例所到达的网关、远程系统和打印机，以及它们的地址和凭据。使用连接的人在其中选择；只有在这里才更改其地址和密钥。"/>
+    <moqui.basic.LocalizedMessage original="The group already has these rules." locale="zh" localized="该组已有这些规则。"/>
+    <moqui.basic.LocalizedMessage original="The groups' sign-in rules are for an access administrator." locale="zh" localized="组的登录规则供访问管理员使用。"/>
+    <moqui.basic.LocalizedMessage original="The id of the one local node this code pairs; needed to pair again a node that was revoked or unpaired itself, whatever key it brings, or one paired before with another key (its hosts, ports and queued items go to it). Empty for a new node" locale="zh" localized="此代码所配对的那一个本地节点的 ID；再次配对时需要它：已撤销或自行取消配对的节点，不论它带来什么密钥，或以前用另一密钥配对过的节点（其主机、端口和队列中的项都归它）。留空表示新节点"/>
+    <moqui.basic.LocalizedMessage original="The issuer's .well-known/openid-configuration; empty for Google, Apple and Azure AD, which have their own" locale="zh" localized="颁发者的 .well-known/openid-configuration；Google、Apple 和 Azure AD 留空，它们自有该地址"/>
+    <moqui.basic.LocalizedMessage original="The key of ${instanceId} is forgotten: its next link is a new node's" locale="zh" localized="已忘记 ${instanceId} 的密钥：它的下一次链路属于一个新节点"/>
+    <moqui.basic.LocalizedMessage original="The kinds of message this instance exchanges with other systems, and what sends and consumes each. A type comes with the integration that speaks it; where its owner allows, its transport options and its handler are chosen here." locale="zh" localized="此实例与其他系统交换的消息类型，以及各自由什么发送和消耗。类型随负责它的集成而来；若其所有者允许，在此选择其传输选项和处理程序。"/>
+    <moqui.basic.LocalizedMessage original="The message as it is stored, acted on directly: no owner's registration, eligibility or review applies. Use Recovery above where it offers the action." locale="zh" localized="按存储原样直接处理的消息：不适用所有者的登记、资格或复核。若上方的恢复提供了该操作，请使用它。"/>
+    <moqui.basic.LocalizedMessage original="The message is being consumed in the background" locale="zh" localized="消息正在后台消耗"/>
+    <moqui.basic.LocalizedMessage original="The messages could not be reviewed" locale="zh" localized="无法复核这些消息"/>
+    <moqui.basic.LocalizedMessage original="The most its waiting items and kept content may take (its own, or the conf's queue-max-megabytes) and its replicated records (its own, or replica-max-rows); at a cap it pauses until Resume" locale="zh" localized="其等待项和所保留内容的最大占用（它自己的，或配置的 queue-max-megabytes）及其复制的记录（它自己的，或 replica-max-rows）；达到上限则暂停，直到“继续”"/>
+    <moqui.basic.LocalizedMessage original="The most replicated records this node keeps for it, all its sets; past it the pairing pauses. Empty for the conf's replica-max-rows. Saving resumes a paused pairing" locale="zh" localized="此节点为它保留的复制记录上限，含其全部集合；超过后配对暂停。留空则用配置的 replica-max-rows。保存会恢复已暂停的配对"/>
+    <moqui.basic.LocalizedMessage original="The most the items waiting for this node may take; past it the oldest fail. The content it sends with its deliveries counts against it too: past it the pairing pauses. Empty for the conf's queue-max-megabytes, which holds for each pairing alone" locale="zh" localized="此节点等待项的最大占用；超过后最旧的会失败。它随投递发送的内容也计入：超过后配对暂停。留空则用配置的 queue-max-megabytes，它对每个配对单独生效"/>
+    <moqui.basic.LocalizedMessage original="The mr-pass sites whose authority this node is" locale="zh" localized="此节点作为其权威的 mr-pass 站点"/>
+    <moqui.basic.LocalizedMessage original="The name of a claim the provider sends, such as name or email" locale="zh" localized="提供商发送的声明名称，例如 name 或 email"/>
+    <moqui.basic.LocalizedMessage original="The node displaced" locale="zh" localized="被替换的节点"/>
+    <moqui.basic.LocalizedMessage original="The node displaced from ${pairedNodeId} may link again" locale="zh" localized="从 ${pairedNodeId} 被替换的节点可以再次建立链路"/>
+    <moqui.basic.LocalizedMessage original="The pairings could not be read" locale="zh" localized="无法读取配对"/>
+    <moqui.basic.LocalizedMessage original="The per-client parts are off: only the global limits apply. Turn them on with enabled=&quot;true&quot; on web-protection, or by naming the proxies in front with trusted-proxies." locale="zh" localized="按客户端的部分已关闭：只应用全局限制。在 web-protection 上用 enabled=&quot;true&quot; 打开它们，或用 trusted-proxies 写明前面的代理。"/>
+    <moqui.basic.LocalizedMessage original="The ports could not be read" locale="zh" localized="无法读取端口"/>
+    <moqui.basic.LocalizedMessage original="The provider is disabled: nobody signs in through it" locale="zh" localized="提供商已禁用：没有人通过它登录"/>
+    <moqui.basic.LocalizedMessage original="The provider is enabled: people can sign in through it" locale="zh" localized="提供商已启用：人们可以通过它登录"/>
+    <moqui.basic.LocalizedMessage original="The providers people may sign in through instead of a password here. A provider is configured, tested and then enabled; a sign-in gives only the groups its role mappings name." locale="zh" localized="人们可以用来登录、而不在此使用密码的提供商。提供商先配置、再测试，然后启用；一次登录只给予其角色映射所指定的组。"/>
+    <moqui.basic.LocalizedMessage original="The public names this node answers for its local nodes, each for one. A passthrough name's TLS goes to the local node unopened; a terminate name's requests are forwarded. A local node's own setup adds and removes its names too." locale="zh" localized="此节点为其本地节点应答的公共名称，每个名称对应一个节点。透传名称的 TLS 原样到达本地节点；终结名称的请求会被转发。本地节点自己的设置也会添加和移除其名称。"/>
+    <moqui.basic.LocalizedMessage original="The remote's record, changed directly: no rule of its kind, test or review applies, and its stored credentials and keys are shown. Use the configuration above where it offers the change." locale="zh" localized="直接更改的远程记录：不适用其类型的规则、测试或复核，并会显示其已存储的凭据和密钥。若上方的配置提供了该更改，请使用它。"/>
+    <moqui.basic.LocalizedMessage original="The server reaches this provider on the public network only. An instance administrator allows a provider on the instance's own network." locale="zh" localized="服务器只能经公共网络到达此提供商。实例管理员可以允许实例自身网络上的提供商。"/>
+    <moqui.basic.LocalizedMessage original="The SHA-256 of this node's link key. A local node shows it in its Pair step before it pairs: check that the two match" locale="zh" localized="此节点链路密钥的 SHA-256。本地节点在配对前的配对步骤中显示它：请核对两者一致"/>
+    <moqui.basic.LocalizedMessage original="The sign-in policy is not available to you." locale="zh" localized="登录策略对您不可用。"/>
+    <moqui.basic.LocalizedMessage original="The sticky cookie of ${hostName}" locale="zh" localized="${hostName} 的粘滞 Cookie"/>
+    <moqui.basic.LocalizedMessage original="The text is received as a message of the type from the remote, then consumed by the type's service, as if the remote had sent it." locale="zh" localized="该文本作为来自远程的此类型消息被接收，再由该类型的服务消耗，如同远程发送了它。"/>
+    <moqui.basic.LocalizedMessage original="The time of the backup the local node was restored from, or a little before" locale="zh" localized="本地节点所恢复的那份备份的时间，或稍早一点"/>
+    <moqui.basic.LocalizedMessage original="The type's record, changed directly: its services are named as typed, with no owner registration or review. Use the contract above where it offers the change." locale="zh" localized="直接更改的类型记录：其服务按所写的名称指定，没有所有者登记，也没有复核。若上方的合同提供了该更改，请使用它。"/>
+    <moqui.basic.LocalizedMessage original="These rules are deployment configuration: whoever runs the server sets them in its conf, and they apply to everyone. A group can ask more of its members below." locale="zh" localized="这些规则是部署配置：运行服务器的人在其配置中设置它们，并对所有人生效。一个组可以在下方对其成员提出更多要求。"/>
+    <moqui.basic.LocalizedMessage original="This message is not available to you, or there is no such message." locale="zh" localized="此消息对您不可用，或没有这样的消息。"/>
+    <moqui.basic.LocalizedMessage original="This message type is not available to you, or there is no such type." locale="zh" localized="此消息类型对您不可用，或没有这样的类型。"/>
+    <moqui.basic.LocalizedMessage original="This message's text is not available to you, or there is no such message." locale="zh" localized="此消息的文本对您不可用，或没有这样的消息。"/>
+    <moqui.basic.LocalizedMessage original="This node's link" locale="zh" localized="此节点的链路"/>
+    <moqui.basic.LocalizedMessage original="This node's link key fingerprint" locale="zh" localized="此节点链路密钥的指纹"/>
+    <moqui.basic.LocalizedMessage original="This provider is not available to you, or it does not exist." locale="zh" localized="此提供商对您不可用，或不存在。"/>
+    <moqui.basic.LocalizedMessage original="This server's web listeners have not started, so there is nothing to show." locale="zh" localized="此服务器的 Web 监听尚未启动，因此没有可显示的内容。"/>
+    <moqui.basic.LocalizedMessage original="Times set aside" locale="zh" localized="搁置次数"/>
+    <moqui.basic.LocalizedMessage original="Token signature" locale="zh" localized="令牌签名"/>
+    <moqui.basic.LocalizedMessage original="Tunnel ports" locale="zh" localized="隧道端口"/>
+    <moqui.basic.LocalizedMessage original="Type and remote" locale="zh" localized="类型和远程"/>
+    <moqui.basic.LocalizedMessage original="Update message text" locale="zh" localized="更新消息文本"/>
+    <moqui.basic.LocalizedMessage original="Update message type" locale="zh" localized="更新消息类型"/>
+    <moqui.basic.LocalizedMessage original="Update remote" locale="zh" localized="更新远程"/>
+    <moqui.basic.LocalizedMessage original="User info endpoint" locale="zh" localized="用户信息端点"/>
+    <moqui.basic.LocalizedMessage original="Value at the remote" locale="zh" localized="远程上的值"/>
+    <moqui.basic.LocalizedMessage original="Visits by user" locale="zh" localized="按用户统计的访问"/>
+    <moqui.basic.LocalizedMessage original="Visits by user: the users with visits in a period, with how many and the first and the last." locale="zh" localized="按用户统计的访问：一段时期内有访问的用户、次数，以及第一次和最后一次。"/>
+    <moqui.basic.LocalizedMessage original="Web protection" locale="zh" localized="Web 防护"/>
+    <moqui.basic.LocalizedMessage original="Web protection could not be read" locale="zh" localized="无法读取 Web 防护"/>
+    <moqui.basic.LocalizedMessage original="What each local node claims" locale="zh" localized="每个本地节点认领了什么"/>
+    <moqui.basic.LocalizedMessage original="What each local node's own setup, from its Edge Node wizard, sent besides its host names, and the numbers its copies have. Each name, domain, number and site belongs to one local node: the first to claim it." locale="zh" localized="每个本地节点自己的设置，从其边缘节点向导发出的、主机名以外的内容，以及其副本的数量。每个名称、域、号码和站点只属于一个本地节点：先认领的那个。"/>
+    <moqui.basic.LocalizedMessage original="What groups require" locale="zh" localized="组的要求"/>
+    <moqui.basic.LocalizedMessage original="What happens to a node with a new instance id that takes the pairing over while none of its members is linked, such as a standby (New nodes sets it)" locale="zh" localized="当其成员都未建立链路时，一个带有新实例 ID 的节点（例如备用节点）接管该配对时会发生什么（由“新节点”设置）"/>
+    <moqui.basic.LocalizedMessage original="What happens, or why not" locale="zh" localized="会发生什么，或为什么不会"/>
+    <moqui.basic.LocalizedMessage original="What makes a repeat safe" locale="zh" localized="如何使重复处理保持安全"/>
+    <moqui.basic.LocalizedMessage original="What people see on the sign-in page" locale="zh" localized="人们在登录页上看到的内容"/>
+    <moqui.basic.LocalizedMessage original="What the member says on its link: starting, live, draining or stopping. Only a live member gets new work" locale="zh" localized="成员在其链路上报告的状态：启动中、运行中、排空中或停止中。只有运行中的成员接收新工作"/>
+    <moqui.basic.LocalizedMessage original="What this server is limiting, denying and banning, by the web-protection rules of its conf. A rule with hosts applies to those sites only. A ban started on one server is told to the other members of its cluster and to the edge node it is paired with." locale="zh" localized="此服务器按其配置中的 web-protection 规则在限制、拒绝和封禁什么。带有 hosts 的规则只用于那些站点。在一台服务器上开始的封禁会通知其集群的其他成员以及与它配对的边缘节点。"/>
+    <moqui.basic.LocalizedMessage original="What was recorded" locale="zh" localized="所记录的内容"/>
+    <moqui.basic.LocalizedMessage original="Where it is listed on the sign-in page" locale="zh" localized="在登录页上的位置"/>
+    <moqui.basic.LocalizedMessage original="Where the accounts of this instance are signed in. Signing a session out sends its next request to the sign-in page; its user can sign in again." locale="zh" localized="此实例的账号在何处保持登录。退出一个会话会将其下一次请求送到登录页；其用户可以再次登录。"/>
+    <moqui.basic.LocalizedMessage original="Who acts" locale="zh" localized="由谁执行"/>
+    <moqui.basic.LocalizedMessage original="Why not" locale="zh" localized="为何不能"/>
+    <moqui.basic.LocalizedMessage original="With none of a pairing's members linked, a node with its key and a new instance id, such as a standby, takes the pairing over. It is admitted and the administrators are told, or it waits for your approval on this page." locale="zh" localized="当一个配对的成员都未建立链路时，持有其密钥和新实例 ID 的节点（例如备用节点）会接管该配对。它会被准入并通知管理员，或在此页等待您的审批。"/>
+    <moqui.basic.LocalizedMessage original="XMPP, direct TLS" locale="zh" localized="XMPP，直接 TLS"/>
+    <moqui.basic.LocalizedMessage original="You would not be admitted from your own address as a member of this group." locale="zh" localized="以您自己的地址，您不会被接纳为该组的成员。"/>
+</entity-facade-xml>

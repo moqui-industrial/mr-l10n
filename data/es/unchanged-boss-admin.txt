@@ -1,0 +1,9 @@
+# Messages the same in this language. A missing catalog row returns the original.
+${account.username} · ${organizationText}
+${description}${fingerprint ? ' · ' + fingerprint : ''}
+${message}${subject != 'Instance' ? ' (' + subject + ')' : ''}
+${operation.kindText}: ${operation.userName}
+${operation.scopeText} · ${operation.statusText} · ${operation.progressText}
+${organization.organizationName} · ${organization.pseudoId}
+${ownerApp}: ${title}
+• ${consequence}

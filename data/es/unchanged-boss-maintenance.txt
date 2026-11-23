@@ -1,0 +1,12 @@
+# Messages the same in this language. A missing catalog row returns the original.
+${decided.resourceName}: ${decision == 'approve' ? 'booking approved' : 'booking denied'}
+${enumCode} ${description}
+${optionsText}. ${summary.noteText}
+${outcomeText}${valueText ? ' ' + valueText : ''}
+${projectName} (${projectWorkEffortId})
+${sourceTypeText} ${sourceId}
+${typeText}${locationName ? ' · ' + locationName : ''}
+${whenText} · ${requesterName}
+${whenText}${recurring ? ' (repeats)' : ''}
+Data Matrix
+${name} (${count})

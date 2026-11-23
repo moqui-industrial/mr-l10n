@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+
+<entity-facade-xml type="zh">
+    <moqui.basic.LocalizedMessage original="${account.userFullName} loses this group's permissions and app gates from the date given; the membership stays on record." locale="zh" localized="${account.userFullName} 自所给日期起失去此组的权限和应用访问权限；成员资格仍保留在记录中。"/>
+    <moqui.basic.LocalizedMessage original="${account.userFullName} no longer works for ${organizationName} from the date given. Their account and other organizations are unchanged; the membership stays on record." locale="zh" localized="${account.userFullName} 自所给日期起不再为 ${organizationName} 工作。其账号和其他组织不变；成员资格仍保留在记录中。"/>
+    <moqui.basic.LocalizedMessage original="${account.userFullName} works for" locale="zh" localized="${account.userFullName} 就职于"/>
+    <moqui.basic.LocalizedMessage original="${count} disabled" locale="zh" localized="已禁用 ${count} 个"/>
+    <moqui.basic.LocalizedMessage original="${count} disabled; ${failed} refused: ${why}" locale="zh" localized="已禁用 ${count} 个；拒绝 ${failed} 个：${why}"/>
+    <moqui.basic.LocalizedMessage original="${count} products checked, no issue" locale="zh" localized="已检查 ${count} 个产品，没有问题"/>
+    <moqui.basic.LocalizedMessage original="${count} session(s) signed out" locale="zh" localized="已退出 ${count} 个会话"/>
+    <moqui.basic.LocalizedMessage original="${count} session(s) signed out; ${refused} not yours to end" locale="zh" localized="已退出 ${count} 个会话；${refused} 个不属于您，不能结束"/>
+    <moqui.basic.LocalizedMessage original="${endedMemberCount} ended membership(s) kept on record." locale="zh" localized="有 ${endedMemberCount} 个已结束的成员资格保留在记录中。"/>
+    <moqui.basic.LocalizedMessage original="${endedMembershipCount} ended membership(s) kept on record." locale="zh" localized="有 ${endedMembershipCount} 个已结束的成员资格保留在记录中。"/>
+    <moqui.basic.LocalizedMessage original="${found.memberCount} current member(s). Their names are for identity operators." locale="zh" localized="当前成员 ${found.memberCount} 人。其姓名供身份操作员使用。"/>
+    <moqui.basic.LocalizedMessage original="${found.otherCount} other device(s) belong to organizations you do not administer." locale="zh" localized="另有 ${found.otherCount} 个设备属于您不管理的组织。"/>
+    <moqui.basic.LocalizedMessage original="${found.singleUseCodeCount} unused single use code(s)." locale="zh" localized="${found.singleUseCodeCount} 个未使用的一次性验证码。"/>
+    <moqui.basic.LocalizedMessage original="${issues} catalog issues in ${count} products checked" locale="zh" localized="${issues} 个目录问题，在已检查的 ${count} 个产品中"/>
+    <moqui.basic.LocalizedMessage original="${name} cannot sign in: choose another owner" locale="zh" localized="${name} 不能登录：请另选所有者"/>
+    <moqui.basic.LocalizedMessage original="${name} has its own Constitution; it replaces the instance Constitution for its members." locale="zh" localized="${name} 有自己的宪章；对其成员取代实例宪章。"/>
+    <moqui.basic.LocalizedMessage original="${name} uses the instance Constitution (${which}); a change saves its own copy." locale="zh" localized="${name} 使用实例宪章（${which}）；更改会保存其自己的副本。"/>
+    <moqui.basic.LocalizedMessage original="${name} • read only" locale="zh" localized="${name} • 只读"/>
+    <moqui.basic.LocalizedMessage original="${operation.userName} no longer works here. Choose who takes this over: someone of your organizations who can sign in. ${ownerText} checks that they may own it." locale="zh" localized="${operation.userName} 已不在此处工作。请选择接手的人：您的组织中可以登录的人。${ownerText} 会检查其能否拥有此项。"/>
+    <moqui.basic.LocalizedMessage original="${organization.organizationName} belongs to" locale="zh" localized="${organization.organizationName} 属于"/>
+    <moqui.basic.LocalizedMessage original="${organization.organizationName} contacts" locale="zh" localized="${organization.organizationName} 的联系人"/>
+    <moqui.basic.LocalizedMessage original="${outsideCount} more current member(s) work for organizations you do not administer." locale="zh" localized="另有 ${outsideCount} 名当前成员就职于您不管理的组织。"/>
+    <moqui.basic.LocalizedMessage original="${permission} is needed to move this" locale="zh" localized="转移此项需要 ${permission}"/>
+    <moqui.basic.LocalizedMessage original="14 days" locale="zh" localized="14 天"/>
+    <moqui.basic.LocalizedMessage original="A client key, shown once" locale="zh" localized="客户端密钥，只显示一次"/>
+    <moqui.basic.LocalizedMessage original="A dated membership of one of your organizations. Ending it keeps it on record." locale="zh" localized="您某个组织中带日期的成员资格。结束后仍保留在记录中。"/>
+    <moqui.basic.LocalizedMessage original="A dated relationship of one of your staff. Another organization's staff need identity-global authority. Ending it keeps it on record." locale="zh" localized="您的一名员工的带日期关系。其他组织的员工需要全局身份权限。结束后仍保留在记录中。"/>
+    <moqui.basic.LocalizedMessage original="A device not seen for longer stops and is registered again; a wall display that is switched off at night needs more than a night" locale="zh" localized="较长时间未见的设备会停止并需重新注册；夜间关闭的墙面显示屏需要超过一夜"/>
+    <moqui.basic.LocalizedMessage original="A display account stands for a shared screen, not a person: it has no password or email and nothing signs it in. A device registered in Security › Devices runs as it and shows the organization and access chosen here." locale="zh" localized="展示账号代表共享屏幕，不是人员：没有密码或电子邮件，也不能登录。在安全 › 设备中注册的设备以其身份运行，并显示此处所选的组织和访问权限。"/>
+    <moqui.basic.LocalizedMessage original="A new link was made but its email was not sent: resend it again later" locale="zh" localized="已生成新链接，但未发送邮件：请稍后再次重发"/>
+    <moqui.basic.LocalizedMessage original="A person's or a team's mail account, with its own server, is set up in that account" locale="zh" localized="个人或团队的邮件账号及其自有服务器在该账号中设置"/>
+    <moqui.basic.LocalizedMessage original="A registered bundle you may assign, from a date. Ending a membership keeps it on record." locale="zh" localized="您可以从某个日期起分配的已注册包。结束成员资格后仍保留在记录中。"/>
+    <moqui.basic.LocalizedMessage original="A2A tasks" locale="zh" localized="A2A 任务"/>
+    <moqui.basic.LocalizedMessage original="Acceptance link for ${revealed.emailAddress}" locale="zh" localized="${revealed.emailAddress} 的接受链接"/>
+    <moqui.basic.LocalizedMessage original="Access ends" locale="zh" localized="访问结束"/>
+    <moqui.basic.LocalizedMessage original="Access ends ${terminateText}" locale="zh" localized="访问于 ${terminateText} 结束"/>
+    <moqui.basic.LocalizedMessage original="Access log" locale="zh" localized="访问日志"/>
+    <moqui.basic.LocalizedMessage original="Account created; a reset password was mailed for the user to set their own" locale="zh" localized="账号已创建；已邮寄重置密码，供用户自行设置"/>
+    <moqui.basic.LocalizedMessage original="Account revision" locale="zh" localized="账号修订"/>
+    <moqui.basic.LocalizedMessage original="Account saved" locale="zh" localized="账号已保存"/>
+    <moqui.basic.LocalizedMessage original="Accounting is not set up" locale="zh" localized="会计尚未设置"/>
+    <moqui.basic.LocalizedMessage original="Accounting setup is complete" locale="zh" localized="会计初始设置已完成"/>
+    <moqui.basic.LocalizedMessage original="Accounting setup is not activated yet" locale="zh" localized="会计初始设置尚未激活"/>
+    <moqui.basic.LocalizedMessage original="Add a member to ${organization.organizationName}" locale="zh" localized="向 ${organization.organizationName} 添加成员"/>
+    <moqui.basic.LocalizedMessage original="Address or name" locale="zh" localized="地址或名称"/>
+    <moqui.basic.LocalizedMessage original="Admin context is not available" locale="zh" localized="Admin 上下文不可用"/>
+    <moqui.basic.LocalizedMessage original="Admin is not available" locale="zh" localized="Admin 不可用"/>
+    <moqui.basic.LocalizedMessage original="Agent##party" locale="zh" localized="代理人"/>
+    <moqui.basic.LocalizedMessage original="Agent administration" locale="zh" localized="智能体管理"/>
+    <moqui.basic.LocalizedMessage original="Agent and model administration needs the AgentAdmin permission." locale="zh" localized="智能体和模型管理需要 AgentAdmin 权限。"/>
+    <moqui.basic.LocalizedMessage original="Agent definitions" locale="zh" localized="智能体定义"/>
+    <moqui.basic.LocalizedMessage original="Agent runs and their steps" locale="zh" localized="智能体运行及其步骤"/>
+    <moqui.basic.LocalizedMessage original="All, ended too" locale="zh" localized="全部，含已结束的"/>
+    <moqui.basic.LocalizedMessage original="Ask a business number" locale="zh" localized="查询一个业务数字"/>
+    <moqui.basic.LocalizedMessage original="Ask a business operations number" locale="zh" localized="查询一个业务运营数字"/>
+    <moqui.basic.LocalizedMessage original="At most 730; then it is registered again" locale="zh" localized="最多 730；之后需重新注册"/>
+    <moqui.basic.LocalizedMessage original="At once: signed out everywhere, keys, app passwords, SSH keys and phones revoked, and the account disabled. With a date: sign-in stops then. You review what it does before it is done." locale="zh" localized="立即：在所有位置退出登录，撤销密钥、应用密码、SSH 密钥和电话，并禁用账号。若指定日期：登录到那时停止。执行前由您复核其作用。"/>
+    <moqui.basic.LocalizedMessage original="Back to lifecycle operations" locale="zh" localized="返回生命周期操作"/>
+    <moqui.basic.LocalizedMessage original="Back to organizations" locale="zh" localized="返回组织"/>
+    <moqui.basic.LocalizedMessage original="Back to users" locale="zh" localized="返回用户"/>
+    <moqui.basic.LocalizedMessage original="Belongs to ${name}" locale="zh" localized="属于 ${name}"/>
+    <moqui.basic.LocalizedMessage original="Bill match exceptions" locale="zh" localized="账单匹配例外"/>
+    <moqui.basic.LocalizedMessage original="Business operations datasets" locale="zh" localized="业务运营数据集"/>
+    <moqui.basic.LocalizedMessage original="Calls and usage" locale="zh" localized="调用与用量"/>
+    <moqui.basic.LocalizedMessage original="Calls today" locale="zh" localized="今日调用"/>
+    <moqui.basic.LocalizedMessage original="Case status categories" locale="zh" localized="案例状态类别"/>
+    <moqui.basic.LocalizedMessage original="Catalog quality" locale="zh" localized="目录质量"/>
+    <moqui.basic.LocalizedMessage original="Change parent" locale="zh" localized="更改上级组织"/>
+    <moqui.basic.LocalizedMessage original="Changing the instance Constitution needs ADMIN_SETTINGS_MANAGE and ADMIN_CONSTITUTION_GLOBAL" locale="zh" localized="更改实例宪章需要 ADMIN_SETTINGS_MANAGE 和 ADMIN_CONSTITUTION_GLOBAL"/>
+    <moqui.basic.LocalizedMessage original="Child organizations" locale="zh" localized="下级组织"/>
+    <moqui.basic.LocalizedMessage original="Child organizations: ${childText}" locale="zh" localized="下级组织：${childText}"/>
+    <moqui.basic.LocalizedMessage original="Choose another user to sign in as" locale="zh" localized="请选择其他用户来登录"/>
+    <moqui.basic.LocalizedMessage original="Choose the staff to disable. You review each one before anything is done; each is its own lifecycle operation." locale="zh" localized="请选择要禁用的员工。执行前逐一复核；每一项都是独立的生命周期操作。"/>
+    <moqui.basic.LocalizedMessage original="Code not entered" locale="zh" localized="未输入验证码"/>
+    <moqui.basic.LocalizedMessage original="Configuration problems" locale="zh" localized="配置问题"/>
+    <moqui.basic.LocalizedMessage original="Confirm ${preview.kindText.toLowerCase()}" locale="zh" localized="确认 ${preview.kindText.toLowerCase()}"/>
+    <moqui.basic.LocalizedMessage original="Constitution not available" locale="zh" localized="宪章不可用"/>
+    <moqui.basic.LocalizedMessage original="Constitution reset; agent runs that start from now use the inherited one" locale="zh" localized="宪章已重置；从现在起开始的智能体运行使用继承的宪章"/>
+    <moqui.basic.LocalizedMessage original="Constitution saved; agent runs that start from now use it" locale="zh" localized="宪章已保存；从现在起开始的智能体运行使用它"/>
+    <moqui.basic.LocalizedMessage original="Contacts saved" locale="zh" localized="联系人已保存"/>
+    <moqui.basic.LocalizedMessage original="Content hash ${hashText}." locale="zh" localized="内容哈希 ${hashText}。"/>
+    <moqui.basic.LocalizedMessage original="Costs and margins" locale="zh" localized="成本与毛利"/>
+    <moqui.basic.LocalizedMessage original="Could not be checked: ${setupFailed}" locale="zh" localized="无法检查：${setupFailed}"/>
+    <moqui.basic.LocalizedMessage original="Create display account" locale="zh" localized="新建展示账号"/>
+    <moqui.basic.LocalizedMessage original="Create organization" locale="zh" localized="新建组织"/>
+    <moqui.basic.LocalizedMessage original="Creates the organization and its place under its parent only. Accounting, members and connections are set up afterwards, each by whoever owns it." locale="zh" localized="只创建组织及其在上级组织下的位置。会计、成员和连接之后由各自的所有者设置。"/>
+    <moqui.basic.LocalizedMessage original="Credential revoked" locale="zh" localized="凭据已撤销"/>
+    <moqui.basic.LocalizedMessage original="Current##active" locale="zh" localized="当前"/>
+    <moqui.basic.LocalizedMessage original="Dataset rows" locale="zh" localized="数据集行"/>
+    <moqui.basic.LocalizedMessage original="Datasets to ask" locale="zh" localized="可查询的数据集"/>
+    <moqui.basic.LocalizedMessage original="Device or display" locale="zh" localized="设备或显示屏"/>
+    <moqui.basic.LocalizedMessage original="Device revoked: its next request is refused" locale="zh" localized="设备已撤销：其下次请求将被拒绝"/>
+    <moqui.basic.LocalizedMessage original="Devices are not available to you." locale="zh" localized="设备对您不可用。"/>
+    <moqui.basic.LocalizedMessage original="Disable ${account.userFullName}" locale="zh" localized="禁用 ${account.userFullName}"/>
+    <moqui.basic.LocalizedMessage original="Disable them" locale="zh" localized="禁用他们"/>
+    <moqui.basic.LocalizedMessage original="Disable users" locale="zh" localized="禁用用户"/>
+    <moqui.basic.LocalizedMessage original="Disabled accounts, organization removals and restorations in the organizations you administer, with what still waits: a failed step to retry, or a resource waiting for a new owner. Start one from a user's Lifecycle box." locale="zh" localized="您所管理组织中已禁用的账号、移出组织和还原，以及仍在等待的事项：可重试的失败步骤，或等待新所有者的资源。从用户的生命周期框开始一项。"/>
+    <moqui.basic.LocalizedMessage original="Display account ${created.username} created; an access administrator registers a device for it in Security › Devices" locale="zh" localized="展示账号 ${created.username} 已创建；访问管理员在安全 › 设备中为其注册设备"/>
+    <moqui.basic.LocalizedMessage original="Document in ${locale}" locale="zh" localized="${locale} 的文档"/>
+    <moqui.basic.LocalizedMessage original="Done; some steps wait for you below" locale="zh" localized="已完成；下面有步骤等您处理"/>
+    <moqui.basic.LocalizedMessage original="Each is checked on its own: signed out everywhere, keys, app passwords, SSH keys and phones revoked, the account disabled, and owned shared resources left waiting for a new owner. A refused one is left as it is." locale="zh" localized="逐一检查：在所有位置退出登录，撤销密钥、应用密码、SSH 密钥和电话，禁用账号，并将其拥有的共享资源留给新所有者。被拒绝的保持原样。"/>
+    <moqui.basic.LocalizedMessage original="Each step stands on its own: one that failed leaves the others, and the access revoked, in place. Retry it, or hand a waiting resource to a new owner." locale="zh" localized="每个步骤各自独立：失败的一步不影响其余步骤和已撤销的访问。请重试，或把等待中的资源交给新所有者。"/>
+    <moqui.basic.LocalizedMessage original="Empty changes it now" locale="zh" localized="留空则立即更改"/>
+    <moqui.basic.LocalizedMessage original="Empty shows what the instance still keeps" locale="zh" localized="留空则显示实例仍保留的内容"/>
+    <moqui.basic.LocalizedMessage original="Empty uses the default" locale="zh" localized="留空则使用默认值"/>
+    <moqui.basic.LocalizedMessage original="Empty uses the email address" locale="zh" localized="留空则使用电子邮件地址"/>
+    <moqui.basic.LocalizedMessage original="Enables the account and clears its end date. Nothing revoked comes back: the user makes new keys and app passwords, and ended memberships and paused schedules stay as they are." locale="zh" localized="启用账号并清除其结束日期。已撤销的内容不会恢复：用户需新建密钥和应用密码，已结束的成员资格和已暂停的计划保持原样。"/>
+    <moqui.basic.LocalizedMessage original="End ${organizationName} membership" locale="zh" localized="结束 ${organizationName} 的成员资格"/>
+    <moqui.basic.LocalizedMessage original="Ends their relationships with that organization only. Access to their other organizations stays; when no organization is left, their memberships end too. You review it first." locale="zh" localized="只结束其与该组织的关系。对其他组织的访问保留；当不再属于任何组织时，其成员资格也结束。请先复核。"/>
+    <moqui.basic.LocalizedMessage original="Every line of this trace" locale="zh" localized="此追踪的每一行"/>
+    <moqui.basic.LocalizedMessage original="Every line, the ones no person wrote too" locale="zh" localized="每一行，包括无人写入的"/>
+    <moqui.basic.LocalizedMessage original="Expected receipts" locale="zh" localized="预计收货"/>
+    <moqui.basic.LocalizedMessage original="Explain what this group's members can do, which grants are sealed or privileged, and who may change it" locale="zh" localized="说明此组成员能做什么、哪些授予是密封或特权的，以及谁可以更改它"/>
+    <moqui.basic.LocalizedMessage original="Failing job runs" locale="zh" localized="失败的作业运行"/>
+    <moqui.basic.LocalizedMessage original="Find a kind" locale="zh" localized="查找一种类型"/>
+    <moqui.basic.LocalizedMessage original="For a new person" locale="zh" localized="用于新人员"/>
+    <moqui.basic.LocalizedMessage original="For configuration administrators" locale="zh" localized="供配置管理员使用"/>
+    <moqui.basic.LocalizedMessage original="Gateway client keys" locale="zh" localized="网关客户端密钥"/>
+    <moqui.basic.LocalizedMessage original="Give ${account.userFullName} access" locale="zh" localized="授予 ${account.userFullName} 访问权限"/>
+    <moqui.basic.LocalizedMessage original="Group ${id} is not available." locale="zh" localized="组 ${id} 不可用。"/>
+    <moqui.basic.LocalizedMessage original="Idle timeout (minutes)" locale="zh" localized="空闲超时（分钟）"/>
+    <moqui.basic.LocalizedMessage original="In the last 30 days" locale="zh" localized="最近 30 天"/>
+    <moqui.basic.LocalizedMessage original="In the last 7 days" locale="zh" localized="最近 7 天"/>
+    <moqui.basic.LocalizedMessage original="In the last day" locale="zh" localized="最近一天"/>
+    <moqui.basic.LocalizedMessage original="Insights dataset class" locale="zh" localized="Insights 数据集类别"/>
+    <moqui.basic.LocalizedMessage original="Insights freshness policy" locale="zh" localized="Insights 新鲜度策略"/>
+    <moqui.basic.LocalizedMessage original="Insights week start" locale="zh" localized="Insights 的一周起始"/>
+    <moqui.basic.LocalizedMessage original="Instance (every organization without its own)" locale="zh" localized="实例（没有自己宪章的各组织）"/>
+    <moqui.basic.LocalizedMessage original="Instance (every organization without its own) • read only" locale="zh" localized="实例（没有自己宪章的各组织）• 只读"/>
+    <moqui.basic.LocalizedMessage original="Inventory index" locale="zh" localized="库存索引"/>
+    <moqui.basic.LocalizedMessage original="Invitation revoked; its link no longer works" locale="zh" localized="邀请已撤销；其链接不再有效"/>
+    <moqui.basic.LocalizedMessage original="Invitation sent again; the earlier link no longer works" locale="zh" localized="邀请已再次发送；之前的链接不再有效"/>
+    <moqui.basic.LocalizedMessage original="Invitation sent to ${emailAddress}" locale="zh" localized="邀请已发送至 ${emailAddress}"/>
+    <moqui.basic.LocalizedMessage original="Invitations are not available to you." locale="zh" localized="邀请对您不可用。"/>
+    <moqui.basic.LocalizedMessage original="Invitations are the usual way to add staff. A direct account gets no password: a reset password is mailed so the person sets their own. IronStone BOSS users is always included." locale="zh" localized="邀请是添加员工的通常方式。直接账号没有密码：会邮寄重置密码，以便本人自行设置。始终包含 IronStone BOSS users。"/>
+    <moqui.basic.LocalizedMessage original="Invite from a file" locale="zh" localized="从文件邀请"/>
+    <moqui.basic.LocalizedMessage original="Invite users" locale="zh" localized="邀请用户"/>
+    <moqui.basic.LocalizedMessage original="Inviting staff needs ADMIN_IDENTITY_MANAGE." locale="zh" localized="邀请员工需要 ADMIN_IDENTITY_MANAGE。"/>
+    <moqui.basic.LocalizedMessage original="Invoiced revenue" locale="zh" localized="已开票收入"/>
+    <moqui.basic.LocalizedMessage original="Invoices of a billing batch" locale="zh" localized="一个开票批次的发票"/>
+    <moqui.basic.LocalizedMessage original="IP limited" locale="zh" localized="受 IP 限制"/>
+    <moqui.basic.LocalizedMessage original="Its geo id, such as USA" locale="zh" localized="其地理 id，例如 USA"/>
+    <moqui.basic.LocalizedMessage original="Its geo id, such as USA_UT" locale="zh" localized="其地理 id，例如 USA_UT"/>
+    <moqui.basic.LocalizedMessage original="Its own Constitution applies" locale="zh" localized="适用其自己的宪章"/>
+    <moqui.basic.LocalizedMessage original="Its own Constitution is not valid" locale="zh" localized="其自己的宪章无效"/>
+    <moqui.basic.LocalizedMessage original="Its owner could not answer" locale="zh" localized="其所有者未能应答"/>
+    <moqui.basic.LocalizedMessage original="Kind and format" locale="zh" localized="类型与格式"/>
+    <moqui.basic.LocalizedMessage original="Last changed ${when}" locale="zh" localized="上次更改 ${when}"/>
+    <moqui.basic.LocalizedMessage original="Last changed ${when} by ${name}" locale="zh" localized="上次更改 ${when}，由 ${name}"/>
+    <moqui.basic.LocalizedMessage original="Last sign-in" locale="zh" localized="上次登录"/>
+    <moqui.basic.LocalizedMessage original="Late work orders" locale="zh" localized="逾期工单"/>
+    <moqui.basic.LocalizedMessage original="Lessons agents keep" locale="zh" localized="智能体保留的经验"/>
+    <moqui.basic.LocalizedMessage original="Lifecycle operation" locale="zh" localized="生命周期操作"/>
+    <moqui.basic.LocalizedMessage original="Lifecycle operation ${id} is not available." locale="zh" localized="生命周期操作 ${id} 不可用。"/>
+    <moqui.basic.LocalizedMessage original="Lifecycle operation not available" locale="zh" localized="生命周期操作不可用"/>
+    <moqui.basic.LocalizedMessage original="Lifecycle operations" locale="zh" localized="生命周期操作"/>
+    <moqui.basic.LocalizedMessage original="Lifecycle operations are not available to you." locale="zh" localized="生命周期操作对您不可用。"/>
+    <moqui.basic.LocalizedMessage original="Link expires after" locale="zh" localized="链接在此后失效"/>
+    <moqui.basic.LocalizedMessage original="Mail accounts in Comms" locale="zh" localized="通信中的邮件账号"/>
+    <moqui.basic.LocalizedMessage original="Members read it in the Assist drawer under Constitution / Rules, without Admin access; agent runs of its members use it from their next run." locale="zh" localized="成员在助手抽屉的宪章 / 规则中阅读，无需 Admin 访问权限；其成员的智能体运行从下次运行起使用它。"/>
+    <moqui.basic.LocalizedMessage original="Membership added" locale="zh" localized="已添加成员资格"/>
+    <moqui.basic.LocalizedMessage original="Model calls, tokens and cost" locale="zh" localized="模型调用、token 和成本"/>
+    <moqui.basic.LocalizedMessage original="Models and endpoints" locale="zh" localized="模型与端点"/>
+    <moqui.basic.LocalizedMessage original="Models, endpoints and feature bindings" locale="zh" localized="模型、端点和功能绑定"/>
+    <moqui.basic.LocalizedMessage original="Monitor and Dashboards are open to their own users; an instance administrator grants them." locale="zh" localized="监控和仪表板对其自己的用户开放；由实例管理员授予。"/>
+    <moqui.basic.LocalizedMessage original="Monitoring" locale="zh" localized="监控"/>
+    <moqui.basic.LocalizedMessage original="Monitoring tools" locale="zh" localized="监控工具"/>
+    <moqui.basic.LocalizedMessage original="Name or email" locale="zh" localized="名称或电子邮件"/>
+    <moqui.basic.LocalizedMessage original="Name or identifier" locale="zh" localized="名称或标识"/>
+    <moqui.basic.LocalizedMessage original="Needs access management access, which an administrator can grant." locale="zh" localized="需要访问管理权限，管理员可以授予。"/>
+    <moqui.basic.LocalizedMessage original="Needs device management access, which an administrator can grant." locale="zh" localized="需要设备管理权限，管理员可以授予。"/>
+    <moqui.basic.LocalizedMessage original="Needs identity management access, which an administrator can grant." locale="zh" localized="需要身份管理权限，管理员可以授予。"/>
+    <moqui.basic.LocalizedMessage original="Needs identity management and data import access, which an administrator can grant." locale="zh" localized="需要身份管理和数据导入权限，管理员可以授予。"/>
+    <moqui.basic.LocalizedMessage original="Needs organization management access, which an administrator can grant." locale="zh" localized="需要组织管理权限，管理员可以授予。"/>
+    <moqui.basic.LocalizedMessage original="New display account" locale="zh" localized="新建展示账号"/>
+    <moqui.basic.LocalizedMessage original="New internal organization" locale="zh" localized="新建内部组织"/>
+    <moqui.basic.LocalizedMessage original="New owner" locale="zh" localized="新所有者"/>
+    <moqui.basic.LocalizedMessage original="New owner ${name}" locale="zh" localized="新所有者 ${name}"/>
+    <moqui.basic.LocalizedMessage original="New owner of ${stepText}" locale="zh" localized="${stepText} 的新所有者"/>
+    <moqui.basic.LocalizedMessage original="New staff account" locale="zh" localized="新建员工账号"/>
+    <moqui.basic.LocalizedMessage original="No access events recorded." locale="zh" localized="没有记录的访问事件。"/>
+    <moqui.basic.LocalizedMessage original="No app has registered a route group for devices." locale="zh" localized="没有应用为设备注册路由组。"/>
+    <moqui.basic.LocalizedMessage original="No device is registered. A wall display is registered here and its code entered on the display's browser." locale="zh" localized="没有已注册的设备。墙面显示屏在此注册，并在显示屏的浏览器中输入验证码。"/>
+    <moqui.basic.LocalizedMessage original="No device matches." locale="zh" localized="没有匹配的设备。"/>
+    <moqui.basic.LocalizedMessage original="No display account is available to you yet. A device runs as a display account, which an identity operator makes in Users (New display account)." locale="zh" localized="还没有可供您使用的展示账号。设备以展示账号运行，由身份操作员在用户（新建展示账号）中创建。"/>
+    <moqui.basic.LocalizedMessage original="No group memberships." locale="zh" localized="没有组成员资格。"/>
+    <moqui.basic.LocalizedMessage original="No invitation matches." locale="zh" localized="没有匹配的邀请。"/>
+    <moqui.basic.LocalizedMessage original="No invitations yet." locale="zh" localized="还没有邀请。"/>
+    <moqui.basic.LocalizedMessage original="No keys, app passwords, SSH keys or phones." locale="zh" localized="没有密钥、应用密码、SSH 密钥或电话。"/>
+    <moqui.basic.LocalizedMessage original="No kind of reference data matches." locale="zh" localized="没有匹配的参考数据类型。"/>
+    <moqui.basic.LocalizedMessage original="No lifecycle operations of this account in your organizations." locale="zh" localized="您的组织中没有此账号的生命周期操作。"/>
+    <moqui.basic.LocalizedMessage original="No lifecycle operations yet." locale="zh" localized="还没有生命周期操作。"/>
+    <moqui.basic.LocalizedMessage original="No live session to end" locale="zh" localized="没有可结束的活动会话"/>
+    <moqui.basic.LocalizedMessage original="No members in the organizations you administer." locale="zh" localized="您管理的组织中没有成员。"/>
+    <moqui.basic.LocalizedMessage original="No memberships of the organizations you administer." locale="zh" localized="没有您所管理组织的成员资格。"/>
+    <moqui.basic.LocalizedMessage original="No open incident." locale="zh" localized="没有未处理的事件。"/>
+    <moqui.basic.LocalizedMessage original="No operation matches." locale="zh" localized="没有匹配的操作。"/>
+    <moqui.basic.LocalizedMessage original="No organization matches." locale="zh" localized="没有匹配的组织。"/>
+    <moqui.basic.LocalizedMessage original="No organization you administer may use this gateway yet. Until one is permitted, Accounting and Commerce do not offer it." locale="zh" localized="您管理的组织还不能使用此网关。在允许某个组织之前，会计和商务不会提供它。"/>
+    <moqui.basic.LocalizedMessage original="No owner's reference data is open to you. Each app's administrators change its own." locale="zh" localized="没有对您开放的所有者参考数据。每个应用的管理员更改自己的数据。"/>
+    <moqui.basic.LocalizedMessage original="No password yet" locale="zh" localized="还没有密码"/>
+    <moqui.basic.LocalizedMessage original="No reason given" locale="zh" localized="未给出原因"/>
+    <moqui.basic.LocalizedMessage original="No second factor." locale="zh" localized="没有第二因素。"/>
+    <moqui.basic.LocalizedMessage original="No sessions in the last 30 days." locale="zh" localized="最近 30 天没有会话。"/>
+    <moqui.basic.LocalizedMessage original="No setup check could be read." locale="zh" localized="无法读取任何设置检查。"/>
+    <moqui.basic.LocalizedMessage original="No setup check of this organization that you may read." locale="zh" localized="没有您可以读取的此组织设置检查。"/>
+    <moqui.basic.LocalizedMessage original="No staff in the organizations you administer." locale="zh" localized="您管理的组织中没有员工。"/>
+    <moqui.basic.LocalizedMessage original="No steps recorded." locale="zh" localized="没有记录的步骤。"/>
+    <moqui.basic.LocalizedMessage original="No user matches." locale="zh" localized="没有匹配的用户。"/>
+    <moqui.basic.LocalizedMessage original="Not a hire" locale="zh" localized="不是入职"/>
+    <moqui.basic.LocalizedMessage original="Not a separation" locale="zh" localized="不是离职"/>
+    <moqui.basic.LocalizedMessage original="Not readable here: the Constitution of this organization is not available to you." locale="zh" localized="此处不可读：此组织的宪章对您不可用。"/>
+    <moqui.basic.LocalizedMessage original="Not ready: ${names}" locale="zh" localized="未就绪：${names}"/>
+    <moqui.basic.LocalizedMessage original="Not verified" locale="zh" localized="未核验"/>
+    <moqui.basic.LocalizedMessage original="Note in the email" locale="zh" localized="邮件中的备注"/>
+    <moqui.basic.LocalizedMessage original="On the device, open ${devicePageUrl} and enter this code before ${codeExpiresText}. It works once and is shown only now: to get another, revoke the device and register it again." locale="zh" localized="在设备上打开 ${devicePageUrl}，并在 ${codeExpiresText} 之前输入此验证码。它只能使用一次且仅此次显示：若要再获取一个，请撤销设备并重新注册。"/>
+    <moqui.basic.LocalizedMessage original="One day" locale="zh" localized="一天"/>
+    <moqui.basic.LocalizedMessage original="One hour" locale="zh" localized="一小时"/>
+    <moqui.basic.LocalizedMessage original="One week" locale="zh" localized="一周"/>
+    <moqui.basic.LocalizedMessage original="Only lines about this" locale="zh" localized="仅关于此项的行"/>
+    <moqui.basic.LocalizedMessage original="Only the newest ${found.exportRows} lines are in this print or file: narrow the dates for the rest." locale="zh" localized="此次打印或文件中只有最新的 ${found.exportRows} 行：请缩小日期范围以查看其余部分。"/>
+    <moqui.basic.LocalizedMessage original="Only this user's lines" locale="zh" localized="仅此用户的行"/>
+    <moqui.basic.LocalizedMessage original="Open a user or a group to log a note on it" locale="zh" localized="打开一个用户或组以记录备注"/>
+    <moqui.basic.LocalizedMessage original="Open a user or a group to log a note on it." locale="zh" localized="打开一个用户或组以记录备注。"/>
+    <moqui.basic.LocalizedMessage original="Open assignments" locale="zh" localized="未完成的分派"/>
+    <moqui.basic.LocalizedMessage original="Open case backlog" locale="zh" localized="未结案例待办"/>
+    <moqui.basic.LocalizedMessage original="Open Health" locale="zh" localized="打开健康度"/>
+    <moqui.basic.LocalizedMessage original="Open project work items" locale="zh" localized="未完成的项目工作项"/>
+    <moqui.basic.LocalizedMessage original="Open System › Constitution › Origins" locale="zh" localized="打开系统 › 宪章 › 来源"/>
+    <moqui.basic.LocalizedMessage original="Open tasks" locale="zh" localized="未完成任务"/>
+    <moqui.basic.LocalizedMessage original="Opens in System for instance administrators" locale="zh" localized="在系统中打开，供实例管理员使用"/>
+    <moqui.basic.LocalizedMessage original="Operations rolled back" locale="zh" localized="已回滚的操作"/>
+    <moqui.basic.LocalizedMessage original="Optional: the device works only from these, such as 10.20.*.*" locale="zh" localized="可选：设备仅从这些地址工作，例如 10.20.*.*"/>
+    <moqui.basic.LocalizedMessage original="Organization ${id} is not available." locale="zh" localized="组织 ${id} 不可用。"/>
+    <moqui.basic.LocalizedMessage original="Organization ${organization.organizationName}" locale="zh" localized="组织 ${organization.organizationName}"/>
+    <moqui.basic.LocalizedMessage original="Organization Constitution" locale="zh" localized="组织宪章"/>
+    <moqui.basic.LocalizedMessage original="Organization created" locale="zh" localized="组织已创建"/>
+    <moqui.basic.LocalizedMessage original="Organization membership added" locale="zh" localized="已添加组织成员资格"/>
+    <moqui.basic.LocalizedMessage original="Organization membership ended" locale="zh" localized="组织成员资格已结束"/>
+    <moqui.basic.LocalizedMessage original="Organization not available" locale="zh" localized="组织不可用"/>
+    <moqui.basic.LocalizedMessage original="Organization removal" locale="zh" localized="移出组织"/>
+    <moqui.basic.LocalizedMessage original="Organization saved" locale="zh" localized="组织已保存"/>
+    <moqui.basic.LocalizedMessage original="Overall equipment effectiveness" locale="zh" localized="设备综合效率"/>
+    <moqui.basic.LocalizedMessage original="Owned" locale="zh" localized="名下"/>
+    <moqui.basic.LocalizedMessage original="Ownership transferred" locale="zh" localized="所有权已转移"/>
+    <moqui.basic.LocalizedMessage original="Parent changed" locale="zh" localized="上级组织已更改"/>
+    <moqui.basic.LocalizedMessage original="Payment gateways an organization may use" locale="zh" localized="组织可以使用的支付网关"/>
+    <moqui.basic.LocalizedMessage original="People and payroll" locale="zh" localized="人员与工资"/>
+    <moqui.basic.LocalizedMessage original="Permit" locale="zh" localized="允许"/>
+    <moqui.basic.LocalizedMessage original="Permit ${connection.name} for an organization" locale="zh" localized="允许组织使用 ${connection.name}"/>
+    <moqui.basic.LocalizedMessage original="Permit again" locale="zh" localized="再次允许"/>
+    <moqui.basic.LocalizedMessage original="Permitted for" locale="zh" localized="允许用于"/>
+    <moqui.basic.LocalizedMessage original="Privileged" locale="zh" localized="特权"/>
+    <moqui.basic.LocalizedMessage original="Procedure skills" locale="zh" localized="流程技能"/>
+    <moqui.basic.LocalizedMessage original="Product identification types" locale="zh" localized="产品标识类型"/>
+    <moqui.basic.LocalizedMessage original="Production reason codes" locale="zh" localized="生产原因代码"/>
+    <moqui.basic.LocalizedMessage original="Quantity on hand" locale="zh" localized="现有数量"/>
+    <moqui.basic.LocalizedMessage original="Read a business operations panel" locale="zh" localized="读取业务运营面板"/>
+    <moqui.basic.LocalizedMessage original="Read a dashboard panel" locale="zh" localized="读取仪表板中的面板"/>
+    <moqui.basic.LocalizedMessage original="Rebuild the inventory index" locale="zh" localized="重建库存索引"/>
+    <moqui.basic.LocalizedMessage original="Rebuild the sales items index" locale="zh" localized="重建销售明细索引"/>
+    <moqui.basic.LocalizedMessage original="Rebuild the sales orders index" locale="zh" localized="重建销售订单索引"/>
+    <moqui.basic.LocalizedMessage original="Rebuild the service clocks index" locale="zh" localized="重建服务计时索引"/>
+    <moqui.basic.LocalizedMessage original="Rebuild the service level breaches index" locale="zh" localized="重建服务级别违约索引"/>
+    <moqui.basic.LocalizedMessage original="Rebuild the store checkouts index" locale="zh" localized="重建商店结账索引"/>
+    <moqui.basic.LocalizedMessage original="Rebuild the store feed builds index" locale="zh" localized="重建商店信息流构建索引"/>
+    <moqui.basic.LocalizedMessage original="Rebuild the store payment attempts index" locale="zh" localized="重建商店付款尝试索引"/>
+    <moqui.basic.LocalizedMessage original="Recovery action" locale="zh" localized="恢复操作"/>
+    <moqui.basic.LocalizedMessage original="Recovery adapter" locale="zh" localized="恢复适配器"/>
+    <moqui.basic.LocalizedMessage original="Recovery decision" locale="zh" localized="恢复决策"/>
+    <moqui.basic.LocalizedMessage original="Recovery keys" locale="zh" localized="恢复密钥"/>
+    <moqui.basic.LocalizedMessage original="Recovery policy" locale="zh" localized="恢复策略"/>
+    <moqui.basic.LocalizedMessage original="Reference data" locale="zh" localized="参考数据"/>
+    <moqui.basic.LocalizedMessage original="Refused: ${preview.reason}" locale="zh" localized="已拒绝：${preview.reason}"/>
+    <moqui.basic.LocalizedMessage original="Register a device" locale="zh" localized="注册设备"/>
+    <moqui.basic.LocalizedMessage original="Register and show the code" locale="zh" localized="注册并显示验证码"/>
+    <moqui.basic.LocalizedMessage original="Registered bundles you may assign" locale="zh" localized="您可以分配的已注册包"/>
+    <moqui.basic.LocalizedMessage original="Registered bundles you may assign; a display needs only readers" locale="zh" localized="您可以分配的已注册包；显示屏只需要读者"/>
+    <moqui.basic.LocalizedMessage original="Registered for (days)" locale="zh" localized="注册期限（天）"/>
+    <moqui.basic.LocalizedMessage original="Registration code for ${revealed.deviceName}" locale="zh" localized="${revealed.deviceName} 的注册码"/>
+    <moqui.basic.LocalizedMessage original="Release sign-in lock" locale="zh" localized="解除登录锁定"/>
+    <moqui.basic.LocalizedMessage original="Remote agents" locale="zh" localized="远程智能体"/>
+    <moqui.basic.LocalizedMessage original="Remote MCP and A2A servers" locale="zh" localized="远程 MCP 和 A2A 服务器"/>
+    <moqui.basic.LocalizedMessage original="Remove ${account.userFullName} from an organization" locale="zh" localized="将 ${account.userFullName} 移出一个组织"/>
+    <moqui.basic.LocalizedMessage original="Report catalog" locale="zh" localized="报表目录"/>
+    <moqui.basic.LocalizedMessage original="Report schedules" locale="zh" localized="报表计划"/>
+    <moqui.basic.LocalizedMessage original="Requested from" locale="zh" localized="请求起始"/>
+    <moqui.basic.LocalizedMessage original="Restore ${account.userFullName}" locale="zh" localized="还原 ${account.userFullName}"/>
+    <moqui.basic.LocalizedMessage original="Review at most ${count} groups at a time" locale="zh" localized="一次最多复核 ${count} 个组"/>
+    <moqui.basic.LocalizedMessage original="Review: disable ${bulkRows.length} user(s)" locale="zh" localized="复核：禁用 ${bulkRows.length} 个用户"/>
+    <moqui.basic.LocalizedMessage original="Revoke all access" locale="zh" localized="撤销全部访问"/>
+    <moqui.basic.LocalizedMessage original="Runs as" locale="zh" localized="运行身份"/>
+    <moqui.basic.LocalizedMessage original="Runs failed today" locale="zh" localized="今日失败的运行"/>
+    <moqui.basic.LocalizedMessage original="Runs waiting" locale="zh" localized="等待中的运行"/>
+    <moqui.basic.LocalizedMessage original="Runtime setting" locale="zh" localized="运行时设置"/>
+    <moqui.basic.LocalizedMessage original="Sales analysis (finance)" locale="zh" localized="销售分析（财务）"/>
+    <moqui.basic.LocalizedMessage original="Sales items index" locale="zh" localized="销售明细索引"/>
+    <moqui.basic.LocalizedMessage original="Sales orders index" locale="zh" localized="销售订单索引"/>
+    <moqui.basic.LocalizedMessage original="Save contacts" locale="zh" localized="保存联系人"/>
+    <moqui.basic.LocalizedMessage original="Saved: the organization may not use the gateway now" locale="zh" localized="已保存：该组织现在不能使用此网关"/>
+    <moqui.basic.LocalizedMessage original="Scheduled: access ends at the date" locale="zh" localized="已排程：访问在该日期结束"/>
+    <moqui.basic.LocalizedMessage original="Select one or more users first" locale="zh" localized="请先选择一个或多个用户"/>
+    <moqui.basic.LocalizedMessage original="Send invitation" locale="zh" localized="发送邀请"/>
+    <moqui.basic.LocalizedMessage original="Send password reset" locale="zh" localized="发送密码重置"/>
+    <moqui.basic.LocalizedMessage original="Service clocks index" locale="zh" localized="服务计时索引"/>
+    <moqui.basic.LocalizedMessage original="Service level breaches index" locale="zh" localized="服务级别违约索引"/>
+    <moqui.basic.LocalizedMessage original="Sessions and history" locale="zh" localized="会话与历史"/>
+    <moqui.basic.LocalizedMessage original="Sessions are not available to you." locale="zh" localized="会话对您不可用。"/>
+    <moqui.basic.LocalizedMessage original="Sessions, keys, app passwords and phones revoked" locale="zh" localized="会话、密钥、应用密码和电话已撤销"/>
+    <moqui.basic.LocalizedMessage original="Setup and health summaries are shown to administrative readers." locale="zh" localized="设置和健康摘要向具有管理阅读权限的人显示。"/>
+    <moqui.basic.LocalizedMessage original="Setup checks" locale="zh" localized="设置检查"/>
+    <moqui.basic.LocalizedMessage original="Shared calendars" locale="zh" localized="共享日历"/>
+    <moqui.basic.LocalizedMessage original="Shared contact books" locale="zh" localized="共享通讯录"/>
+    <moqui.basic.LocalizedMessage original="Shared drives" locale="zh" localized="共享网盘"/>
+    <moqui.basic.LocalizedMessage original="Shared identity" locale="zh" localized="共享身份"/>
+    <moqui.basic.LocalizedMessage original="Shared mail accounts" locale="zh" localized="共享邮件账号"/>
+    <moqui.basic.LocalizedMessage original="Shared screens with no one signed in: a registered browser opens only its route group, as its display account, and shows what that account's organizations and access allow. Revoking a device stops it at its next request." locale="zh" localized="无人登录的共享屏幕：已注册的浏览器只打开其路由组，并以展示账号身份显示该账号的组织和访问权限所允许的内容。撤销设备后，其下次请求即停止。"/>
+    <moqui.basic.LocalizedMessage original="Showing ${invitations.length} of ${invitationListCount}; narrow the search to see others." locale="zh" localized="显示 ${invitations.length} / ${invitationListCount}；请缩小搜索以查看其他项。"/>
+    <moqui.basic.LocalizedMessage original="Showing ${operations.length} of ${operationListCount}; narrow the search to see others." locale="zh" localized="显示 ${operations.length} / ${operationListCount}；请缩小搜索以查看其他项。"/>
+    <moqui.basic.LocalizedMessage original="Showing ${organizations.length} of ${organizationListCount}; narrow the search to see others." locale="zh" localized="显示 ${organizations.length} / ${organizationListCount}；请缩小搜索以查看其他项。"/>
+    <moqui.basic.LocalizedMessage original="Showing ${users.length} of ${userListCount}; narrow the search to see others." locale="zh" localized="显示 ${users.length} / ${userListCount}；请缩小搜索以查看其他项。"/>
+    <moqui.basic.LocalizedMessage original="Shows the organization" locale="zh" localized="显示组织"/>
+    <moqui.basic.LocalizedMessage original="Sign in to administer identities" locale="zh" localized="请登录以管理身份"/>
+    <moqui.basic.LocalizedMessage original="Sign in to see assignments" locale="zh" localized="请登录以查看分配"/>
+    <moqui.basic.LocalizedMessage original="Sign out everywhere" locale="zh" localized="在所有位置退出登录"/>
+    <moqui.basic.LocalizedMessage original="Signed out ${when}" locale="zh" localized="已退出 ${when}"/>
+    <moqui.basic.LocalizedMessage original="Signed out: its next request goes to the sign-in page" locale="zh" localized="已退出：其下次请求将进入登录页"/>
+    <moqui.basic.LocalizedMessage original="Some access could not be revoked: ${kinds}" locale="zh" localized="部分访问未能撤销：${kinds}"/>
+    <moqui.basic.LocalizedMessage original="SSH key" locale="zh" localized="SSH 密钥"/>
+    <moqui.basic.LocalizedMessage original="Staff invitations of the organizations you administer. A link works once; a resend makes a new one and the earlier stops working." locale="zh" localized="您所管理组织的员工邀请。链接只能使用一次；重发会生成新链接，之前的链接停止有效。"/>
+    <moqui.basic.LocalizedMessage original="Staff users" locale="zh" localized="员工用户"/>
+    <moqui.basic.LocalizedMessage original="Starts ${when}" locale="zh" localized="开始于 ${when}"/>
+    <moqui.basic.LocalizedMessage original="Step done" locale="zh" localized="步骤已完成"/>
+    <moqui.basic.LocalizedMessage original="Store checkouts index" locale="zh" localized="商店结账索引"/>
+    <moqui.basic.LocalizedMessage original="Store feed builds index" locale="zh" localized="商店信息流构建索引"/>
+    <moqui.basic.LocalizedMessage original="Store orders" locale="zh" localized="商店订单"/>
+    <moqui.basic.LocalizedMessage original="Store payment attempts index" locale="zh" localized="商店付款尝试索引"/>
+    <moqui.basic.LocalizedMessage original="Store readiness" locale="zh" localized="商店就绪"/>
+    <moqui.basic.LocalizedMessage original="Store returns" locale="zh" localized="商店退货"/>
+    <moqui.basic.LocalizedMessage original="Surfaces, instructions, run-as user and cost limits" locale="zh" localized="界面、指令、运行身份用户和成本限额"/>
+    <moqui.basic.LocalizedMessage original="Tasks other agents sent" locale="zh" localized="其他智能体发送的任务"/>
+    <moqui.basic.LocalizedMessage original="Tax authorities and rates" locale="zh" localized="税务机关与税率"/>
+    <moqui.basic.LocalizedMessage original="Tax statement data" locale="zh" localized="纳税申报数据"/>
+    <moqui.basic.LocalizedMessage original="Text blocks in Comms" locale="zh" localized="通信中的文本块"/>
+    <moqui.basic.LocalizedMessage original="The access log could not be read" locale="zh" localized="无法读取访问日志"/>
+    <moqui.basic.LocalizedMessage original="The access log is not available to you" locale="zh" localized="访问日志对您不可用"/>
+    <moqui.basic.LocalizedMessage original="The access log row filter is computed for the signed-in user only" locale="zh" localized="访问日志的行筛选仅针对已登录用户计算"/>
+    <moqui.basic.LocalizedMessage original="The Constitution is not available to you." locale="zh" localized="宪章对您不可用。"/>
+    <moqui.basic.LocalizedMessage original="The Constitution of ${scope} is not available to you. Choose another scope." locale="zh" localized="${scope} 的宪章对您不可用。请选择其他范围。"/>
+    <moqui.basic.LocalizedMessage original="The display account whose organizations and access decide what the device shows" locale="zh" localized="其组织和访问权限决定设备显示内容的展示账号"/>
+    <moqui.basic.LocalizedMessage original="The hire asked for no account" locale="zh" localized="该入职未要求账号"/>
+    <moqui.basic.LocalizedMessage original="The instance Constitution applies" locale="zh" localized="适用实例宪章"/>
+    <moqui.basic.LocalizedMessage original="the instance's own" locale="zh" localized="实例自己的"/>
+    <moqui.basic.LocalizedMessage original="The internal organizations you administer: the legal companies of this instance. Departments and teams are People's." locale="zh" localized="您管理的内部组织：此实例的法律实体公司。部门和团队属于人员。"/>
+    <moqui.basic.LocalizedMessage original="The invitation was made but its email was not sent: resend it from Invitations" locale="zh" localized="邀请已创建，但未发送邮件：请从邀请中重发"/>
+    <moqui.basic.LocalizedMessage original="The link is not available" locale="zh" localized="链接不可用"/>
+    <moqui.basic.LocalizedMessage original="The model gateway and its clients" locale="zh" localized="模型网关及其客户端"/>
+    <moqui.basic.LocalizedMessage original="The new rule gets the next unused id. Write it in the default language; translate it afterwards." locale="zh" localized="新规则使用下一个未用的 id。请用默认语言编写，之后再翻译。"/>
+    <moqui.basic.LocalizedMessage original="The organization may use the gateway" locale="zh" localized="该组织可以使用此网关"/>
+    <moqui.basic.LocalizedMessage original="The organization's finance and store administrators may then choose this gateway. They cannot change its credentials." locale="zh" localized="之后，该组织的财务和商店管理员可以选择此网关。他们不能更改其凭据。"/>
+    <moqui.basic.LocalizedMessage original="The organizations are not available to you." locale="zh" localized="组织对您不可用。"/>
+    <moqui.basic.LocalizedMessage original="The organizations you administer have more than ${count} user accounts, and the access log is not narrowed to that many: it is read by an administrator of every organization" locale="zh" localized="您管理的组织有超过 ${count} 个用户账号，访问日志不会缩小到这个数量：由管理所有组织的管理员读取"/>
+    <moqui.basic.LocalizedMessage original="The parent changes from the date given; the earlier parent is kept as history. Both must be organizations you administer; empty makes it top level." locale="zh" localized="上级组织自所给日期起更改；原先的上级作为历史保留。两者都必须是您管理的组织；留空则使其成为顶级。"/>
+    <moqui.basic.LocalizedMessage original="The person gets a link that works once. They sign in with the account of that address, or create one, and get the organization and the access you choose. IronStone BOSS users is always included; privileged and sealed access is never offered." locale="zh" localized="该人员收到一个只能使用一次的链接。使用该地址的账号登录，或创建一个，并获得您选择的组织和访问权限。始终包含 IronStone BOSS users；从不提供特权和密封访问。"/>
+    <moqui.basic.LocalizedMessage original="The primary address, phone and email. Bank accounts and payment instruments stay in Accounting." locale="zh" localized="主要地址、电话和电子邮件。银行账户和支付工具仍在会计中。"/>
+    <moqui.basic.LocalizedMessage original="The reusable texts of the mail a person writes" locale="zh" localized="人员撰写邮件时的可复用文本"/>
+    <moqui.basic.LocalizedMessage original="The shared guidance every agent run gets, for the instance and each organization" locale="zh" localized="每次智能体运行都会获得的共享指南，适用于实例和每个组织"/>
+    <moqui.basic.LocalizedMessage original="The shared guidance for people and agent runs. An organization may have its own document, which replaces the instance's for its members; members read it in the Assist drawer under Constitution / Rules." locale="zh" localized="面向人员和智能体运行的共享指南。组织可以有自己的文档，对其成员取代实例的文档；成员在助手抽屉的宪章 / 规则中阅读。"/>
+    <moqui.basic.LocalizedMessage original="the shipped one" locale="zh" localized="随附的"/>
+    <moqui.basic.LocalizedMessage original="The sites whose pages open inside the app as references are the instance's policy, set in System › Constitution › Origins by an instance administrator. An organization's document cannot add one; a reference to another site is refused on save." locale="zh" localized="作为参考在应用内打开页面的站点是实例策略，由实例管理员在系统 › 宪章 › 来源中设置。组织的文档不能添加站点；保存时会拒绝指向其他站点的参考。"/>
+    <moqui.basic.LocalizedMessage original="The staff of the organizations you administer. An identity that also works elsewhere shows only your organizations; account-wide changes to it need identity-global authority." locale="zh" localized="您所管理组织的员工。同时在别处任职的身份只显示您的组织；对其整账号的更改需要全局身份权限。"/>
+    <moqui.basic.LocalizedMessage original="The step is not available" locale="zh" localized="该步骤不可用"/>
+    <moqui.basic.LocalizedMessage original="The store is ready" locale="zh" localized="商店已就绪"/>
+    <moqui.basic.LocalizedMessage original="These texts have no ${preview?.locale ?? locale} translation and come from another language:" locale="zh" localized="这些文本没有 ${preview?.locale ?? locale} 的翻译，来自另一种语言："/>
+    <moqui.basic.LocalizedMessage original="they could not be read" locale="zh" localized="无法读取"/>
+    <moqui.basic.LocalizedMessage original="This instance has no mail server, so the invitation was not emailed. Copy this link and pass it to ${revealed.emailAddress} yourself. It is shown only now: resend the invitation for a new one." locale="zh" localized="此实例没有邮件服务器，因此邀请未通过电子邮件发送。请复制此链接并自行交给 ${revealed.emailAddress}。仅此次显示：重发邀请可获得新链接。"/>
+    <moqui.basic.LocalizedMessage original="This organization" locale="zh" localized="此组织"/>
+    <moqui.basic.LocalizedMessage original="This organization has its own Constitution, replacing the instance Constitution for its members." locale="zh" localized="此组织有自己的宪章，对其成员取代实例宪章。"/>
+    <moqui.basic.LocalizedMessage original="This organization uses the instance Constitution." locale="zh" localized="此组织使用实例宪章。"/>
+    <moqui.basic.LocalizedMessage original="This step does not move a resource" locale="zh" localized="此步骤不转移资源"/>
+    <moqui.basic.LocalizedMessage original="This step's owner is no longer registered to move it; ask its owner" locale="zh" localized="此步骤的所有者不再注册为可转移此项；请询问其所有者"/>
+    <moqui.basic.LocalizedMessage original="Time to approve" locale="zh" localized="审批用时"/>
+    <moqui.basic.LocalizedMessage original="To name" locale="zh" localized="收件人姓名"/>
+    <moqui.basic.LocalizedMessage original="Tool calls waiting for approval" locale="zh" localized="等待审批的工具调用"/>
+    <moqui.basic.LocalizedMessage original="Tool exposure, approval and policies" locale="zh" localized="工具公开、审批和策略"/>
+    <moqui.basic.LocalizedMessage original="Tools and policies" locale="zh" localized="工具与策略"/>
+    <moqui.basic.LocalizedMessage original="Transport health" locale="zh" localized="传输健康度"/>
+    <moqui.basic.LocalizedMessage original="Trunks, numbers, ring groups, menus and queues: the phone system's own screens" locale="zh" localized="中继、号码、振铃组、菜单和队列：电话系统自己的界面"/>
+    <moqui.basic.LocalizedMessage original="Units of measure" locale="zh" localized="计量单位"/>
+    <moqui.basic.LocalizedMessage original="Units, currencies, types and statuses are changed in the app that owns them, by whoever that app lets. A change there never rewrites a posted document." locale="zh" localized="单位、货币、类型和状态在所属应用中更改，由该应用允许的人操作。那里的更改从不改写已过账的文档。"/>
+    <moqui.basic.LocalizedMessage original="Unknown access log source" locale="zh" localized="未知的访问日志来源"/>
+    <moqui.basic.LocalizedMessage original="Unknown Admin capability ${name}" locale="zh" localized="未知的 Admin 能力 ${name}"/>
+    <moqui.basic.LocalizedMessage original="Unknown Admin choice ${name}" locale="zh" localized="未知的 Admin 选项 ${name}"/>
+    <moqui.basic.LocalizedMessage original="Unknown Admin operation ${name}" locale="zh" localized="未知的 Admin 操作 ${name}"/>
+    <moqui.basic.LocalizedMessage original="Unknown Admin registry operation ${name}" locale="zh" localized="未知的 Admin 注册表操作 ${name}"/>
+    <moqui.basic.LocalizedMessage original="Unknown assignment kind ${name}" locale="zh" localized="未知的分派类型 ${name}"/>
+    <moqui.basic.LocalizedMessage original="Unknown audit operation ${name}" locale="zh" localized="未知的审计操作 ${name}"/>
+    <moqui.basic.LocalizedMessage original="Unknown capability operation ${name}" locale="zh" localized="未知的能力操作 ${name}"/>
+    <moqui.basic.LocalizedMessage original="Unknown lifecycle operation ${name}" locale="zh" localized="未知的生命周期操作 ${name}"/>
+    <moqui.basic.LocalizedMessage original="Unknown owner readiness ${name}" locale="zh" localized="未知的所有者就绪项 ${name}"/>
+    <moqui.basic.LocalizedMessage original="Unknown provisioning operation ${name}" locale="zh" localized="未知的预配操作 ${name}"/>
+    <moqui.basic.LocalizedMessage original="User ${account.userFullName}" locale="zh" localized="用户 ${account.userFullName}"/>
+    <moqui.basic.LocalizedMessage original="User ${id} has no party to assign work to" locale="zh" localized="用户 ${id} 没有可分配工作的参与方"/>
+    <moqui.basic.LocalizedMessage original="User ${id} is not available." locale="zh" localized="用户 ${id} 不可用。"/>
+    <moqui.basic.LocalizedMessage original="User not available" locale="zh" localized="用户不可用"/>
+    <moqui.basic.LocalizedMessage original="Users are not available to you." locale="zh" localized="用户对您不可用。"/>
+    <moqui.basic.LocalizedMessage original="Waiting for its code" locale="zh" localized="等待其验证码"/>
+    <moqui.basic.LocalizedMessage original="Waiting: ${operation.nextText}" locale="zh" localized="等待中：${operation.nextText}"/>
+    <moqui.basic.LocalizedMessage original="Waits for a new owner" locale="zh" localized="等待新所有者"/>
+    <moqui.basic.LocalizedMessage original="What a measure means" locale="zh" localized="一项指标的含义"/>
+    <moqui.basic.LocalizedMessage original="What is failing, and who fixes it?" locale="zh" localized="什么出了故障，由谁修复？"/>
+    <moqui.basic.LocalizedMessage original="What starts an agent run" locale="zh" localized="什么会启动智能体运行"/>
+    <moqui.basic.LocalizedMessage original="What the display is, such as Plant floor wall" locale="zh" localized="此显示屏是什么，例如车间墙面"/>
+    <moqui.basic.LocalizedMessage original="What the people of the organizations you administer did" locale="zh" localized="您所管理的组织中的人员做了什么"/>
+    <moqui.basic.LocalizedMessage original="What this device shows of the route group: a wall display's playlist. The device cannot open another." locale="zh" localized="此设备在路由组中显示的内容：墙面显示屏的播放列表。设备不能打开其他内容。"/>
+    <moqui.basic.LocalizedMessage original="Where the device is, such as Plant floor east wall" locale="zh" localized="设备所在位置，例如车间东墙"/>
+    <moqui.basic.LocalizedMessage original="Where the staff of your organizations are signed in. Signing a session out sends its next request to the sign-in page; an identity shared with another organization needs identity-global authority." locale="zh" localized="您的组织的员工在何处处于登录状态。结束一个会话会使其下次请求进入登录页；与其他组织共享的身份需要全局身份权限。"/>
+    <moqui.basic.LocalizedMessage original="Why can't this user sign in? Check the account's state, sign-in lock, factor, allowed IPs and groups, and say who can fix it" locale="zh" localized="此用户为什么不能登录？请检查账号状态、登录锁定、因素、允许的 IP 和组，并说明谁可以修复"/>
+    <moqui.basic.LocalizedMessage original="Work item workflows" locale="zh" localized="工作项工作流"/>
+    <moqui.basic.LocalizedMessage original="Work orders in progress" locale="zh" localized="进行中的工单"/>
+    <moqui.basic.LocalizedMessage original="Works as" locale="zh" localized="任职为"/>
+    <moqui.basic.LocalizedMessage original="You administer no organization." locale="zh" localized="您不管理任何组织。"/>
+</entity-facade-xml>

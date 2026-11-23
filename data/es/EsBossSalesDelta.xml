@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+
+<entity-facade-xml type="es">
+    <moqui.basic.LocalizedMessage original="${ensured.createdCount} sales periods added" locale="es" localized="${ensured.createdCount} periodos de venta añadidos"/>
+    <moqui.basic.LocalizedMessage original="${forecast.allocatedText} of ${forecast.forecastText} allocated." locale="es" localized="${forecast.allocatedText} de ${forecast.forecastText} distribuido."/>
+    <moqui.basic.LocalizedMessage original="${forecast.periodText} · as of ${forecast.asOfText}${forecast.parentName ? ' · rolls up to ' + forecast.parentName : ''}" locale="es" localized="${forecast.periodText} · al ${forecast.asOfText}${forecast.parentName ? ' · rolls up to ' + forecast.parentName : ''}"/>
+    <moqui.basic.LocalizedMessage original="${home.assignedCount} assigned in all; the soonest ten are shown." locale="es" localized="${home.assignedCount} asignados en total; se muestran los diez más próximos."/>
+    <moqui.basic.LocalizedMessage original="${offeredCount} offered to ${setup?.organizationName}" locale="es" localized="${offeredCount} ofrecidos a ${setup?.organizationName}"/>
+    <moqui.basic.LocalizedMessage original="${panel.title} Detail" locale="es" localized="${panel.title} Detalle"/>
+    <moqui.basic.LocalizedMessage original="${pipeline?.pipelineName}: stages" locale="es" localized="${pipeline?.pipelineName}: etapas"/>
+    <moqui.basic.LocalizedMessage original="${report.modeText}. Closed ${report.fromText} – ${report.thruText}, as of ${report.asOfText}." locale="es" localized="${report.modeText}. Cerrado ${report.fromText} – ${report.thruText}, al ${report.asOfText}."/>
+    <moqui.basic.LocalizedMessage original="${team?.teamName}: members" locale="es" localized="${team?.teamName}: miembros"/>
+    <moqui.basic.LocalizedMessage original="${tp.state == 'draft' ? 'Set aside' : 'End'} template ${orderId}" locale="es" localized="${tp.state == 'draft' ? 'Set aside' : 'End'} plantilla ${orderId}"/>
+    <moqui.basic.LocalizedMessage original="0 to 23, in the zone below" locale="es" localized="De 0 a 23, en la zona de abajo"/>
+    <moqui.basic.LocalizedMessage original="1 to 12, for a yearly order" locale="es" localized="De 1 a 12, para una orden anual"/>
+    <moqui.basic.LocalizedMessage original="1 to 28, or L for the last day" locale="es" localized="De 1 a 28, o L para el último día"/>
+    <moqui.basic.LocalizedMessage original="A deal moves through its pipeline's stages; Won and Lost are outcomes, not stages. A stage in use is retired with its open deals moved, never deleted." locale="es" localized="Un negocio avanza por las etapas de su canal; Ganado y Perdido son resultados, no etapas. Una etapa en uso se retira y sus negocios abiertos se mueven; nunca se elimina."/>
+    <moqui.basic.LocalizedMessage original="A forecast is an entered judgement; the pipeline beside it is calculated from the deals you see." locale="es" localized="Un pronóstico es un juicio ingresado; el canal junto a él se calcula con los negocios que usted ve."/>
+    <moqui.basic.LocalizedMessage original="A forecast of the same period and currency" locale="es" localized="Un pronóstico del mismo periodo y la misma moneda"/>
+    <moqui.basic.LocalizedMessage original="A lead from a tracked link takes the source its UTM source and medium map to; a source with no medium mapped covers every medium, and an unmapped link keeps the form's or rule's own source." locale="es" localized="Un prospecto de un enlace con seguimiento toma el origen al que se asignan su origen y medio UTM; un origen sin medio asignado cubre todos los medios, y un enlace sin asignar conserva el origen del formulario o de la regla."/>
+    <moqui.basic.LocalizedMessage original="A lost deal needs its reason" locale="es" localized="Un negocio perdido necesita su motivo"/>
+    <moqui.basic.LocalizedMessage original="A message is filed on a lead, an opportunity or an account" locale="es" localized="Un mensaje se archiva en un prospecto, una oportunidad o una cuenta"/>
+    <moqui.basic.LocalizedMessage original="A new quote's team when its opportunity has none and its author is in no single team" locale="es" localized="El equipo de una cotización nueva cuando su oportunidad no tiene ninguno y su autor no está en un solo equipo"/>
+    <moqui.basic.LocalizedMessage original="A pipeline is ended once no open deal is on its stages; its history stays." locale="es" localized="Un canal se finaliza cuando no queda ningún negocio abierto en sus etapas; su historial permanece."/>
+    <moqui.basic.LocalizedMessage original="A placed, approved or held order of your organization" locale="es" localized="Una orden realizada, aprobada o retenida de su organización"/>
+    <moqui.basic.LocalizedMessage original="A product, or a category below, not both" locale="es" localized="Un producto, o una categoría de abajo, no ambos"/>
+    <moqui.basic.LocalizedMessage original="A published template is not changed: start its successor, change that and publish it to replace this one." locale="es" localized="Una plantilla publicada no se cambia: inicie su sucesora, cámbiela y publíquela para reemplazar esta."/>
+    <moqui.basic.LocalizedMessage original="A representative, a sales team or the organization itself" locale="es" localized="Un representante, un equipo de ventas o la organización misma"/>
+    <moqui.basic.LocalizedMessage original="A sales manager assigns outside your teams" locale="es" localized="Un gerente de ventas asigna fuera de sus equipos"/>
+    <moqui.basic.LocalizedMessage original="A stay whose entry or exit the history does not show" locale="es" localized="Una permanencia cuya entrada o salida no muestra el historial"/>
+    <moqui.basic.LocalizedMessage original="A target is a quota for a period, measured on one basis. Changing a target never changes what was measured." locale="es" localized="Un objetivo es una cuota de un periodo, medida sobre una sola base. Cambiar un objetivo nunca cambia lo que se midió."/>
+    <moqui.basic.LocalizedMessage original="A team's members see its opportunities. Joining and leaving take effect from their dates; past work keeps who did it." locale="es" localized="Los miembros de un equipo ven sus oportunidades. Entrar y salir surten efecto desde sus fechas; el trabajo pasado conserva quién lo hizo."/>
+    <moqui.basic.LocalizedMessage original="A template to start agreements from" locale="es" localized="Una plantilla para iniciar acuerdos"/>
+    <moqui.basic.LocalizedMessage original="Above it, a customer's quote link alone cannot accept: they sign in as a contact you invited. Empty: none" locale="es" localized="Por encima, el enlace de cotización del cliente por sí solo no puede aceptar: inicia sesión como un contacto que usted invitó. Vacío: ninguno"/>
+    <moqui.basic.LocalizedMessage original="Account or contact" locale="es" localized="Cuenta o contacto"/>
+    <moqui.basic.LocalizedMessage original="Account: ${deal.accountName}" locale="es" localized="Cuenta: ${deal.accountName}"/>
+    <moqui.basic.LocalizedMessage original="Acknowledge a request for quote by mail" locale="es" localized="Acusar recibo por correo de una solicitud de cotización"/>
+    <moqui.basic.LocalizedMessage original="Add ${salesContact.label} to an account" locale="es" localized="Añadir ${salesContact.label} a una cuenta"/>
+    <moqui.basic.LocalizedMessage original="Add a competitor" locale="es" localized="Añadir un competidor"/>
+    <moqui.basic.LocalizedMessage original="Add a contact to ${deal.opportunityName}" locale="es" localized="Añadir un contacto a ${deal.opportunityName}"/>
+    <moqui.basic.LocalizedMessage original="Add a line to template ${orderId}" locale="es" localized="Añadir una partida a la plantilla ${orderId}"/>
+    <moqui.basic.LocalizedMessage original="Add a lost reason" locale="es" localized="Añadir un motivo de pérdida"/>
+    <moqui.basic.LocalizedMessage original="Add a member to ${team?.teamName}" locale="es" localized="Añadir un miembro a ${team?.teamName}"/>
+    <moqui.basic.LocalizedMessage original="Add a shipping charge to template ${orderId}" locale="es" localized="Añadir un cargo de envío a la plantilla ${orderId}"/>
+    <moqui.basic.LocalizedMessage original="Add a stage to ${pipeline?.pipelineName}" locale="es" localized="Añadir una etapa a ${pipeline?.pipelineName}"/>
+    <moqui.basic.LocalizedMessage original="Add a year's sales periods" locale="es" localized="Añadir los periodos de venta de un año"/>
+    <moqui.basic.LocalizedMessage original="Add its lines on the request, then make a quote from them." locale="es" localized="Añadir sus partidas en la solicitud y luego hacer una cotización a partir de ellas."/>
+    <moqui.basic.LocalizedMessage original="Add periods" locale="es" localized="Añadir periodos"/>
+    <moqui.basic.LocalizedMessage original="Add stage" locale="es" localized="Añadir etapa"/>
+    <moqui.basic.LocalizedMessage original="Add the selected accounts' contacts to a list" locale="es" localized="Añadir a una lista los contactos de las cuentas seleccionadas"/>
+    <moqui.basic.LocalizedMessage original="Add the selected leads' contacts to a list" locale="es" localized="Añadir a una lista los contactos de los prospectos seleccionados"/>
+    <moqui.basic.LocalizedMessage original="Against the quota: ${quotaLine}" locale="es" localized="Respecto de la cuota: ${quotaLine}"/>
+    <moqui.basic.LocalizedMessage original="Agreement template" locale="es" localized="Plantilla de acuerdo"/>
+    <moqui.basic.LocalizedMessage original="Ahead of us" locale="es" localized="Por delante"/>
+    <moqui.basic.LocalizedMessage original="All opportunities" locale="es" localized="Todas las oportunidades"/>
+    <moqui.basic.LocalizedMessage original="All templates" locale="es" localized="Todas las plantillas"/>
+    <moqui.basic.LocalizedMessage original="Allocate the forecast" locale="es" localized="Distribuir el pronóstico"/>
+    <moqui.basic.LocalizedMessage original="Allocation by product or category" locale="es" localized="Distribución por producto o categoría"/>
+    <moqui.basic.LocalizedMessage original="Also offered to" locale="es" localized="También ofrecido a"/>
+    <moqui.basic.LocalizedMessage original="An acceptance needs the customer's purchase order" locale="es" localized="Una aceptación necesita la orden de compra del cliente"/>
+    <moqui.basic.LocalizedMessage original="An account of the organization; none for a template" locale="es" localized="Una cuenta de la organización; ninguna para una plantilla"/>
+    <moqui.basic.LocalizedMessage original="An approved sales order; it stays as it is and a copy holds the schedule" locale="es" localized="Una orden de venta aprobada; permanece como está y una copia guarda el calendario"/>
+    <moqui.basic.LocalizedMessage original="An order is made only while the agreement applies" locale="es" localized="La orden se genera solo mientras el acuerdo está vigente"/>
+    <moqui.basic.LocalizedMessage original="Approval of quote ${orderId} · revision ${preview?.orderRevision}" locale="es" localized="Aprobación de la cotización ${orderId} · revisión ${preview?.orderRevision}"/>
+    <moqui.basic.LocalizedMessage original="Approvals a quote needs" locale="es" localized="Aprobaciones que necesita una cotización"/>
+    <moqui.basic.LocalizedMessage original="As of ${report.asOfText} · ${report.openDealCount} open opportunities · ${report.openLeadCount} open leads" locale="es" localized="Al ${report.asOfText} · ${report.openDealCount} oportunidades abiertas · ${report.openLeadCount} prospectos abiertos"/>
+    <moqui.basic.LocalizedMessage original="As the link carries it, such as newsletter" locale="es" localized="Como lo trae el enlace, por ejemplo un boletín"/>
+    <moqui.basic.LocalizedMessage original="At least the forecast" locale="es" localized="Al menos el pronóstico"/>
+    <moqui.basic.LocalizedMessage original="Average age" locale="es" localized="Antigüedad media"/>
+    <moqui.basic.LocalizedMessage original="Awaiting a response" locale="es" localized="En espera de respuesta"/>
+    <moqui.basic.LocalizedMessage original="Awaiting approval or held" locale="es" localized="En espera de aprobación o retenido"/>
+    <moqui.basic.LocalizedMessage original="Back to contacts" locale="es" localized="Volver a los contactos"/>
+    <moqui.basic.LocalizedMessage original="Back to duplicates" locale="es" localized="Volver a los duplicados"/>
+    <moqui.basic.LocalizedMessage original="Back to quote templates" locale="es" localized="Volver a las plantillas de cotización"/>
+    <moqui.basic.LocalizedMessage original="Behind us" locale="es" localized="Por detrás"/>
+    <moqui.basic.LocalizedMessage original="Best case" locale="es" localized="Caso optimista"/>
+    <moqui.basic.LocalizedMessage original="Bill each order once it is approved" locale="es" localized="Facturar cada orden cuando se aprueba"/>
+    <moqui.basic.LocalizedMessage original="Call logged on the deal" locale="es" localized="Llamada registrada en el negocio"/>
+    <moqui.basic.LocalizedMessage original="Came by" locale="es" localized="Llegó por"/>
+    <moqui.basic.LocalizedMessage original="Candidate pairs among your organizations' accounts and their contacts, from the last duplicate scan. Compare a pair to merge it, or mark it not a duplicate; nothing is merged on a similar name alone." locale="es" localized="Pares candidatos entre las cuentas de sus organizaciones y sus contactos, del último análisis de duplicados. Compare un par para fusionarlo, o márquelo como no duplicado; nada se fusiona solo por un nombre parecido."/>
+    <moqui.basic.LocalizedMessage original="Change ${ruleText}" locale="es" localized="Cambiar ${ruleText}"/>
+    <moqui.basic.LocalizedMessage original="Change owner" locale="es" localized="Cambiar el propietario"/>
+    <moqui.basic.LocalizedMessage original="Change stage" locale="es" localized="Cambiar la etapa"/>
+    <moqui.basic.LocalizedMessage original="Change the commercial revision" locale="es" localized="Cambiar la revisión comercial"/>
+    <moqui.basic.LocalizedMessage original="Change the owner of ${deal.opportunityName}" locale="es" localized="Cambiar el propietario de ${deal.opportunityName}"/>
+    <moqui.basic.LocalizedMessage original="Change the stage of ${deal.opportunityName}" locale="es" localized="Cambiar la etapa de ${deal.opportunityName}"/>
+    <moqui.basic.LocalizedMessage original="Change the stage of ${opportunityName}" locale="es" localized="Cambiar la etapa de ${opportunityName}"/>
+    <moqui.basic.LocalizedMessage original="Change the target of ${subjectName}, ${periodName}" locale="es" localized="Cambiar el objetivo de ${subjectName}, ${periodName}"/>
+    <moqui.basic.LocalizedMessage original="Check this quote before I send it: its lines, validity, tax, approvals and who it goes to" locale="es" localized="Revisar esta cotización antes de enviarla: sus partidas, validez, impuesto, aprobaciones y a quién va"/>
+    <moqui.basic.LocalizedMessage original="Choose an organization to see its forecast." locale="es" localized="Elija una organización para ver su pronóstico."/>
+    <moqui.basic.LocalizedMessage original="Close ${deal.opportunityName}" locale="es" localized="Cerrar ${deal.opportunityName}"/>
+    <moqui.basic.LocalizedMessage original="Close a lead or opportunity" locale="es" localized="Cerrar un prospecto o una oportunidad"/>
+    <moqui.basic.LocalizedMessage original="Close as lost" locale="es" localized="Cerrar como perdido"/>
+    <moqui.basic.LocalizedMessage original="Close date" locale="es" localized="Fecha de cierre"/>
+    <moqui.basic.LocalizedMessage original="Close remainders" locale="es" localized="Cerrar lo que queda"/>
+    <moqui.basic.LocalizedMessage original="Closed ${deal.closedText}" locale="es" localized="Cerrado ${deal.closedText}"/>
+    <moqui.basic.LocalizedMessage original="Closed deals" locale="es" localized="Negocios cerrados"/>
+    <moqui.basic.LocalizedMessage original="Closed from" locale="es" localized="Cerrado desde"/>
+    <moqui.basic.LocalizedMessage original="Closed on" locale="es" localized="Cerrado el"/>
+    <moqui.basic.LocalizedMessage original="Closed through" locale="es" localized="Cerrado hasta"/>
+    <moqui.basic.LocalizedMessage original="Closing from" locale="es" localized="Cierre desde"/>
+    <moqui.basic.LocalizedMessage original="Closing through" locale="es" localized="Cierre hasta"/>
+    <moqui.basic.LocalizedMessage original="Commercial revision" locale="es" localized="Revisión comercial"/>
+    <moqui.basic.LocalizedMessage original="Commercial revision saved" locale="es" localized="Revisión comercial guardada"/>
+    <moqui.basic.LocalizedMessage original="Competitor" locale="es" localized="Competidor"/>
+    <moqui.basic.LocalizedMessage original="Competitors" locale="es" localized="Competidores"/>
+    <moqui.basic.LocalizedMessage original="Cost of shipped" locale="es" localized="Costo de lo enviado"/>
+    <moqui.basic.LocalizedMessage original="Create and offer" locale="es" localized="Crear y ofrecer"/>
+    <moqui.basic.LocalizedMessage original="Create pipeline" locale="es" localized="Crear canal"/>
+    <moqui.basic.LocalizedMessage original="Create target" locale="es" localized="Crear objetivo"/>
+    <moqui.basic.LocalizedMessage original="Cron expression" locale="es" localized="Expresión cron"/>
+    <moqui.basic.LocalizedMessage original="Customer prices" locale="es" localized="Precios de clientes"/>
+    <moqui.basic.LocalizedMessage original="Customer terms and negotiated prices: a quote for the customer takes an agreement's prices while it is active." locale="es" localized="Condiciones del cliente y precios negociados: una cotización para el cliente toma los precios de un acuerdo mientras está activo."/>
+    <moqui.basic.LocalizedMessage original="Day of the month" locale="es" localized="Día del mes"/>
+    <moqui.basic.LocalizedMessage original="Day of the week" locale="es" localized="Día de la semana"/>
+    <moqui.basic.LocalizedMessage original="Deal" locale="es" localized="Negocio"/>
+    <moqui.basic.LocalizedMessage original="Deals behind the pipeline" locale="es" localized="Negocios detrás del canal"/>
+    <moqui.basic.LocalizedMessage original="Deals with no stage movement" locale="es" localized="Negocios sin movimiento de etapa"/>
+    <moqui.basic.LocalizedMessage original="Default probability" locale="es" localized="Probabilidad predeterminada"/>
+    <moqui.basic.LocalizedMessage original="Default probability %" locale="es" localized="Probabilidad predeterminada %"/>
+    <moqui.basic.LocalizedMessage original="Defaults published${changeText ? ': ' + changeText : ''}" locale="es" localized="Valores predeterminados publicados${changeText ? ': ' + changeText : ''}"/>
+    <moqui.basic.LocalizedMessage original="Disqualified" locale="es" localized="Descalificado"/>
+    <moqui.basic.LocalizedMessage original="Disqualify" locale="es" localized="Descalificar"/>
+    <moqui.basic.LocalizedMessage original="Disqualify ${deal.opportunityName}" locale="es" localized="Descalificar ${deal.opportunityName}"/>
+    <moqui.basic.LocalizedMessage original="Draft a follow-up message to this deal's contact about the next step" locale="es" localized="Redactar un mensaje de seguimiento al contacto de este negocio sobre el paso siguiente"/>
+    <moqui.basic.LocalizedMessage original="Draft a short cover note for sending this quote to the customer's contact" locale="es" localized="Redactar una nota breve de presentación para enviar esta cotización al contacto del cliente"/>
+    <moqui.basic.LocalizedMessage original="Duplicate accounts" locale="es" localized="Cuentas duplicadas"/>
+    <moqui.basic.LocalizedMessage original="Each close event" locale="es" localized="Cada evento de cierre"/>
+    <moqui.basic.LocalizedMessage original="Each forecast is its own judgement; they are not added to this one." locale="es" localized="Cada pronóstico es un juicio propio; no se suman a este."/>
+    <moqui.basic.LocalizedMessage original="Each one places a copy of its order on its schedule; the copy waits to be approved like any sales order." locale="es" localized="Cada uno realiza una copia de su orden en su calendario; la copia espera aprobación como cualquier orden de venta."/>
+    <moqui.basic.LocalizedMessage original="Each target against the one basis it is measured on: won deals, placed orders or finalized invoices, never added together." locale="es" localized="Cada objetivo según la única base en que se mide: negocios ganados, órdenes realizadas o facturas finalizadas, nunca sumados entre sí."/>
+    <moqui.basic.LocalizedMessage original="Edit ${deal.opportunityName}" locale="es" localized="Editar ${deal.opportunityName}"/>
+    <moqui.basic.LocalizedMessage original="Edit ${pipelineName}" locale="es" localized="Editar ${pipelineName}"/>
+    <moqui.basic.LocalizedMessage original="Edit template ${orderId}" locale="es" localized="Editar la plantilla ${orderId}"/>
+    <moqui.basic.LocalizedMessage original="Empty for every medium" locale="es" localized="Vacío para todos los medios"/>
+    <moqui.basic.LocalizedMessage original="Empty for the seller's own price" locale="es" localized="Vacío para el precio propio del vendedor"/>
+    <moqui.basic.LocalizedMessage original="Empty: 30 days" locale="es" localized="Vacío: 30 días"/>
+    <moqui.basic.LocalizedMessage original="Empty: 90 days before the as-of time" locale="es" localized="Vacío: 90 días antes del momento de corte"/>
+    <moqui.basic.LocalizedMessage original="Empty: a new quote's end is left open" locale="es" localized="Vacío: el fin de una cotización nueva queda abierto"/>
+    <moqui.basic.LocalizedMessage original="Empty: any sales approver of the organization" locale="es" localized="Vacío: cualquier aprobador de ventas de la organización"/>
+    <moqui.basic.LocalizedMessage original="Empty: every team" locale="es" localized="Vacío: todos los equipos"/>
+    <moqui.basic.LocalizedMessage original="Empty: every team of the organization" locale="es" localized="Vacío: todos los equipos de la organización"/>
+    <moqui.basic.LocalizedMessage original="Empty: no reminder" locale="es" localized="Vacío: sin recordatorio"/>
+    <moqui.basic.LocalizedMessage original="Empty: open" locale="es" localized="Vacío: abiertos"/>
+    <moqui.basic.LocalizedMessage original="Empty: this quarter" locale="es" localized="Vacío: este trimestre"/>
+    <moqui.basic.LocalizedMessage original="End ${pipelineName}" locale="es" localized="Finalizar ${pipelineName}"/>
+    <moqui.basic.LocalizedMessage original="End ${ruleText}" locale="es" localized="Finalizar ${ruleText}"/>
+    <moqui.basic.LocalizedMessage original="End ${teamName}" locale="es" localized="Finalizar ${teamName}"/>
+    <moqui.basic.LocalizedMessage original="End pipeline" locale="es" localized="Finalizar el canal"/>
+    <moqui.basic.LocalizedMessage original="End recurring order ${baseOrderId}" locale="es" localized="Finalizar la orden recurrente ${baseOrderId}"/>
+    <moqui.basic.LocalizedMessage original="End team" locale="es" localized="Finalizar el equipo"/>
+    <moqui.basic.LocalizedMessage original="Even" locale="es" localized="Empate"/>
+    <moqui.basic.LocalizedMessage original="Expected close from" locale="es" localized="Cierre previsto desde"/>
+    <moqui.basic.LocalizedMessage original="Expected close through" locale="es" localized="Cierre previsto hasta"/>
+    <moqui.basic.LocalizedMessage original="Expiring within a week" locale="es" localized="Vence dentro de una semana"/>
+    <moqui.basic.LocalizedMessage original="Failed: tried again" locale="es" localized="Falló: se reintentó"/>
+    <moqui.basic.LocalizedMessage original="Final outcome, each deal once" locale="es" localized="Resultado final, cada negocio una vez"/>
+    <moqui.basic.LocalizedMessage original="Finalized sales invoice value" locale="es" localized="Valor de facturas de venta finalizadas"/>
+    <moqui.basic.LocalizedMessage original="Fixed: a deal is a lead until qualified, then an opportunity; it ends Won or Lost." locale="es" localized="Fijo: un negocio es un prospecto hasta que se califica y luego una oportunidad; termina Ganado o Perdido."/>
+    <moqui.basic.LocalizedMessage original="Fold on the board" locale="es" localized="Plegar en el tablero"/>
+    <moqui.basic.LocalizedMessage original="Folded" locale="es" localized="Plegado"/>
+    <moqui.basic.LocalizedMessage original="For a discount rule" locale="es" localized="Para una regla de descuento"/>
+    <moqui.basic.LocalizedMessage original="For a price floor rule; empty is the cost itself" locale="es" localized="Para una regla de precio mínimo; vacío es el costo mismo"/>
+    <moqui.basic.LocalizedMessage original="For an amount rule" locale="es" localized="Para una regla de importe"/>
+    <moqui.basic.LocalizedMessage original="Forecast submitted" locale="es" localized="Pronóstico enviado"/>
+    <moqui.basic.LocalizedMessage original="Forecasts below this one" locale="es" localized="Pronósticos debajo de este"/>
+    <moqui.basic.LocalizedMessage original="From the stage" locale="es" localized="De la etapa"/>
+    <moqui.basic.LocalizedMessage original="From the stage, or keep yours" locale="es" localized="De la etapa, o conservar el suyo"/>
+    <moqui.basic.LocalizedMessage original="From the voicemail: an inbound call, its transcript the summary unless you write one." locale="es" localized="Desde el buzón de voz: una llamada entrante; su transcripción es el resumen, salvo que usted escriba uno."/>
+    <moqui.basic.LocalizedMessage original="Funnel of the lead cohort" locale="es" localized="Embudo de la cohorte de prospectos"/>
+    <moqui.basic.LocalizedMessage original="Has it already" locale="es" localized="Ya lo tiene"/>
+    <moqui.basic.LocalizedMessage original="History · ${templateHistory.length}" locale="es" localized="Historial · ${templateHistory.length}"/>
+    <moqui.basic.LocalizedMessage original="Home summarizes the sales work, pipeline and orders of your organizations. Nothing of it is open to you." locale="es" localized="Inicio resume el trabajo de ventas, el canal y las órdenes de sus organizaciones. Nada de ello está abierto para usted."/>
+    <moqui.basic.LocalizedMessage original="I called" locale="es" localized="Yo llamé"/>
+    <moqui.basic.LocalizedMessage original="Id or name" locale="es" localized="Id o nombre"/>
+    <moqui.basic.LocalizedMessage original="Id, name or customer reference" locale="es" localized="Id, nombre o referencia del cliente"/>
+    <moqui.basic.LocalizedMessage original="Import leads and opportunities" locale="es" localized="Importar prospectos y oportunidades"/>
+    <moqui.basic.LocalizedMessage original="In currency" locale="es" localized="En la moneda"/>
+    <moqui.basic.LocalizedMessage original="In effect through" locale="es" localized="Vigente hasta"/>
+    <moqui.basic.LocalizedMessage original="In stage" locale="es" localized="En la etapa"/>
+    <moqui.basic.LocalizedMessage original="Include ended and retired" locale="es" localized="Incluir finalizados y retirados"/>
+    <moqui.basic.LocalizedMessage original="Include ended reasons" locale="es" localized="Incluir motivos finalizados"/>
+    <moqui.basic.LocalizedMessage original="Inquiries" locale="es" localized="Consultas"/>
+    <moqui.basic.LocalizedMessage original="Intake address" locale="es" localized="Dirección de recepción"/>
+    <moqui.basic.LocalizedMessage original="Intake address of ${teamName}" locale="es" localized="Dirección de recepción de ${teamName}"/>
+    <moqui.basic.LocalizedMessage original="Intake address saved" locale="es" localized="Dirección de recepción guardada"/>
+    <moqui.basic.LocalizedMessage original="Invoice Cost %" locale="es" localized="% de costo de facturas"/>
+    <moqui.basic.LocalizedMessage original="Invoice Discount %" locale="es" localized="% de descuento de facturas"/>
+    <moqui.basic.LocalizedMessage original="Invoice Discounts" locale="es" localized="Descuentos de facturas"/>
+    <moqui.basic.LocalizedMessage original="Items · ${templateLines.length}" locale="es" localized="Partidas · ${templateLines.length}"/>
+    <moqui.basic.LocalizedMessage original="Its items, prices and terms are copied" locale="es" localized="Se copian sus partidas, precios y condiciones"/>
+    <moqui.basic.LocalizedMessage original="Its memberships end with it; its members keep the work they did." locale="es" localized="Las membresías terminan con el equipo; los miembros conservan el trabajo que hicieron."/>
+    <moqui.basic.LocalizedMessage original="Keep mine" locale="es" localized="Conservar el mío"/>
+    <moqui.basic.LocalizedMessage original="Keep unverified inquiries for days" locale="es" localized="Conservar consultas no verificadas durante días"/>
+    <moqui.basic.LocalizedMessage original="Kept under agreement" locale="es" localized="Conservado bajo el acuerdo"/>
+    <moqui.basic.LocalizedMessage original="Kept with My value" locale="es" localized="Se conserva con Mi valor"/>
+    <moqui.basic.LocalizedMessage original="Lead or opportunity" locale="es" localized="Prospecto u oportunidad"/>
+    <moqui.basic.LocalizedMessage original="Lead source" locale="es" localized="Origen del prospecto"/>
+    <moqui.basic.LocalizedMessage original="Lead sources" locale="es" localized="Orígenes de prospectos"/>
+    <moqui.basic.LocalizedMessage original="Leads created by source" locale="es" localized="Prospectos creados por origen"/>
+    <moqui.basic.LocalizedMessage original="Leads created from" locale="es" localized="Prospectos creados desde"/>
+    <moqui.basic.LocalizedMessage original="Leads created through" locale="es" localized="Prospectos creados hasta"/>
+    <moqui.basic.LocalizedMessage original="Leads to work" locale="es" localized="Prospectos por trabajar"/>
+    <moqui.basic.LocalizedMessage original="Leave empty to keep the pricing; a fixed price needs its reason" locale="es" localized="Dejar vacío para conservar el precio; un precio fijo necesita su motivo"/>
+    <moqui.basic.LocalizedMessage original="Leave empty to price it for each customer on the quote's date; a fixed price needs its reason" locale="es" localized="Dejar vacío para calcular el precio de cada cliente en la fecha de la cotización; un precio fijo necesita su motivo"/>
+    <moqui.basic.LocalizedMessage original="Left, known" locale="es" localized="Salidas conocidas"/>
+    <moqui.basic.LocalizedMessage original="Log call" locale="es" localized="Registrar la llamada"/>
+    <moqui.basic.LocalizedMessage original="Log call on opportunity" locale="es" localized="Registrar llamada en la oportunidad"/>
+    <moqui.basic.LocalizedMessage original="Loss reasons" locale="es" localized="Motivos de la pérdida"/>
+    <moqui.basic.LocalizedMessage original="Lost reason" locale="es" localized="Motivo de pérdida"/>
+    <moqui.basic.LocalizedMessage original="Lost reasons" locale="es" localized="Motivos de pérdida"/>
+    <moqui.basic.LocalizedMessage original="Lost value" locale="es" localized="Valor perdido"/>
+    <moqui.basic.LocalizedMessage original="Lost: ${deal.lostReasonText}" locale="es" localized="Perdido: ${deal.lostReasonText}"/>
+    <moqui.basic.LocalizedMessage original="Mail intake" locale="es" localized="Recepción de correo"/>
+    <moqui.basic.LocalizedMessage original="Mail to sales+tag@ your intake mailbox becomes a lead in that team's queue when the mailbox has a rule whose action is Make a sales lead. Mail from anyone makes an inquiry, never a contact; the same message twice makes one lead." locale="es" localized="Correo a sales+tag@ en el buzón de recepción: prospecto en la cola de ese equipo si una regla tiene la acción Crear un prospecto de ventas. El de cualquiera es una consulta, nunca un contacto; el mismo mensaje dos veces es uno."/>
+    <moqui.basic.LocalizedMessage original="Make order" locale="es" localized="Generar la orden"/>
+    <moqui.basic.LocalizedMessage original="Make request" locale="es" localized="Generar la solicitud"/>
+    <moqui.basic.LocalizedMessage original="Make the due order of ${baseOrderId} now" locale="es" localized="Generar ahora la orden vencida de ${baseOrderId}"/>
+    <moqui.basic.LocalizedMessage original="Map a tracked link's source" locale="es" localized="Asignar el origen de un enlace con seguimiento"/>
+    <moqui.basic.LocalizedMessage original="Margin over cost %" locale="es" localized="Margen sobre el costo %"/>
+    <moqui.basic.LocalizedMessage original="Measured on" locale="es" localized="Medido por"/>
+    <moqui.basic.LocalizedMessage original="Monthly recurring" locale="es" localized="Recurrente mensual"/>
+    <moqui.basic.LocalizedMessage original="Move an opportunity to a stage" locale="es" localized="Mover una oportunidad a una etapa"/>
+    <moqui.basic.LocalizedMessage original="Move open deals to" locale="es" localized="Mover los negocios abiertos a"/>
+    <moqui.basic.LocalizedMessage original="My accounts" locale="es" localized="Mis cuentas"/>
+    <moqui.basic.LocalizedMessage original="My leads" locale="es" localized="Mis prospectos"/>
+    <moqui.basic.LocalizedMessage original="My mail" locale="es" localized="Mi correo"/>
+    <moqui.basic.LocalizedMessage original="My open opportunities" locale="es" localized="Mis oportunidades abiertas"/>
+    <moqui.basic.LocalizedMessage original="My opportunities" locale="es" localized="Mis oportunidades"/>
+    <moqui.basic.LocalizedMessage original="My pipeline" locale="es" localized="Mi canal"/>
+    <moqui.basic.LocalizedMessage original="My value" locale="es" localized="Mi valor"/>
+    <moqui.basic.LocalizedMessage original="Name or account" locale="es" localized="Nombre o cuenta"/>
+    <moqui.basic.LocalizedMessage original="Needs approval when" locale="es" localized="Requiere aprobación cuando"/>
+    <moqui.basic.LocalizedMessage original="Needs opportunity editing access, which an administrator can grant." locale="es" localized="Hace falta acceso de edición de oportunidades, que un administrador puede conceder."/>
+    <moqui.basic.LocalizedMessage original="Needs quote editing with sales team management or sales settings access, which an administrator can grant." locale="es" localized="Hace falta edición de cotizaciones con gestión de equipos de ventas o acceso a la configuración de ventas, que un administrador puede conceder."/>
+    <moqui.basic.LocalizedMessage original="Needs sales import access, which an administrator can grant." locale="es" localized="Hace falta acceso de importación de ventas, que un administrador puede conceder."/>
+    <moqui.basic.LocalizedMessage original="Needs sales settings access, which an administrator can grant." locale="es" localized="Hace falta acceso a la configuración de ventas, que un administrador puede conceder."/>
+    <moqui.basic.LocalizedMessage original="New activity" locale="es" localized="Nueva actividad"/>
+    <moqui.basic.LocalizedMessage original="New contact of an account" locale="es" localized="Nuevo contacto de una cuenta"/>
+    <moqui.basic.LocalizedMessage original="New Customer %" locale="es" localized="% de clientes nuevos"/>
+    <moqui.basic.LocalizedMessage original="New Customers" locale="es" localized="Clientes nuevos"/>
+    <moqui.basic.LocalizedMessage original="New individual customer" locale="es" localized="Nuevo cliente individual"/>
+    <moqui.basic.LocalizedMessage original="New lead" locale="es" localized="Nuevo prospecto"/>
+    <moqui.basic.LocalizedMessage original="New lead or opportunity" locale="es" localized="Nuevo prospecto u oportunidad"/>
+    <moqui.basic.LocalizedMessage original="New lead source" locale="es" localized="Nuevo origen de prospectos"/>
+    <moqui.basic.LocalizedMessage original="New opportunity" locale="es" localized="Nueva oportunidad"/>
+    <moqui.basic.LocalizedMessage original="New pipeline" locale="es" localized="Nuevo canal"/>
+    <moqui.basic.LocalizedMessage original="New quote for ${deal.opportunityName}" locale="es" localized="Nueva cotización para ${deal.opportunityName}"/>
+    <moqui.basic.LocalizedMessage original="New quote from ${tp.orderName}" locale="es" localized="Nueva cotización desde ${tp.orderName}"/>
+    <moqui.basic.LocalizedMessage original="New quote template" locale="es" localized="Nueva plantilla de cotización"/>
+    <moqui.basic.LocalizedMessage original="New request for quote" locale="es" localized="Nueva solicitud de cotización"/>
+    <moqui.basic.LocalizedMessage original="New sales order" locale="es" localized="Nueva orden de venta"/>
+    <moqui.basic.LocalizedMessage original="New sales team" locale="es" localized="Nuevo equipo de ventas"/>
+    <moqui.basic.LocalizedMessage original="Next activity" locale="es" localized="Actividad siguiente"/>
+    <moqui.basic.LocalizedMessage original="Next order" locale="es" localized="Orden siguiente"/>
+    <moqui.basic.LocalizedMessage original="Next step: ${deal.nextStep}" locale="es" localized="Paso siguiente: ${deal.nextStep}"/>
+    <moqui.basic.LocalizedMessage original="No account yet; qualifying links or creates one." locale="es" localized="Aún no hay cuenta; al calificar se vincula o se crea una."/>
+    <moqui.basic.LocalizedMessage original="No activity yet${detail.canAddActivity ? ' · Schedule one.' : '.'}" locale="es" localized="Aún no hay actividad${detail.canAddActivity ? ' · Schedule one.' : '.'}"/>
+    <moqui.basic.LocalizedMessage original="No approval rule yet: add the first with New rule." locale="es" localized="Aún no hay regla de aprobación: añada la primera con Nueva regla."/>
+    <moqui.basic.LocalizedMessage original="No changes recorded yet" locale="es" localized="Aún no hay cambios registrados"/>
+    <moqui.basic.LocalizedMessage original="No competitor recorded." locale="es" localized="Ningún competidor registrado."/>
+    <moqui.basic.LocalizedMessage original="No current team: add one in Teams to take mail." locale="es" localized="No hay equipo actual: añada uno en Equipos para recibir correo."/>
+    <moqui.basic.LocalizedMessage original="No deal of this forecast closes in the period." locale="es" localized="Ningún negocio de este pronóstico cierra en el periodo."/>
+    <moqui.basic.LocalizedMessage original="No defaults yet: a new quote's end is left open and unverified inquiries are kept 30 days. Publish the first with Publish new defaults." locale="es" localized="Aún no hay valores predeterminados: el fin de una cotización nueva queda abierto y las consultas no verificadas se conservan 30 días. Publique el primero con Publicar nuevos valores predeterminados."/>
+    <moqui.basic.LocalizedMessage original="No estimate" locale="es" localized="Sin estimación"/>
+    <moqui.basic.LocalizedMessage original="No lead source yet: create one." locale="es" localized="Aún no hay origen de prospectos: cree uno."/>
+    <moqui.basic.LocalizedMessage original="No member: add the first." locale="es" localized="Ningún miembro: añada el primero."/>
+    <moqui.basic.LocalizedMessage original="No open opportunities match." locale="es" localized="Ninguna oportunidad abierta coincide."/>
+    <moqui.basic.LocalizedMessage original="No opportunity closed in this period." locale="es" localized="Ninguna oportunidad cerrada en este periodo."/>
+    <moqui.basic.LocalizedMessage original="No order change here." locale="es" localized="Aquí no hay cambio de orden."/>
+    <moqui.basic.LocalizedMessage original="No order on or after this day; empty to repeat until ended" locale="es" localized="Ninguna orden en este día o después; vacío para repetir hasta finalizar"/>
+    <moqui.basic.LocalizedMessage original="No organization of yours uses Sales yet: choose one to check it." locale="es" localized="Ninguna organización suya usa Ventas todavía: elija una para comprobarlo."/>
+    <moqui.basic.LocalizedMessage original="No pipeline is offered to this organization: create one." locale="es" localized="No se ofrece ningún canal a esta organización: cree uno."/>
+    <moqui.basic.LocalizedMessage original="No quote rule is in effect: a manual price on a quote needs an approver other than the one who entered it." locale="es" localized="No hay ninguna regla de cotización vigente: un precio manual en una cotización necesita un aprobador distinto de quien lo ingresó."/>
+    <moqui.basic.LocalizedMessage original="No sales period to report on: a sales manager adds them under Settings › Targets." locale="es" localized="No hay periodo de venta sobre el cual reportar: un gerente de ventas los añade en Configuración › Objetivos."/>
+    <moqui.basic.LocalizedMessage original="No sales team yet: create one." locale="es" localized="Aún no hay equipo de ventas: cree uno."/>
+    <moqui.basic.LocalizedMessage original="No stage changes recorded." locale="es" localized="No hay cambios de etapa registrados."/>
+    <moqui.basic.LocalizedMessage original="No target is set for this period and currency." locale="es" localized="No hay objetivo para este periodo y moneda."/>
+    <moqui.basic.LocalizedMessage original="No target yet: set the first with New target." locale="es" localized="Aún no hay objetivo: establezca el primero con Nuevo objetivo."/>
+    <moqui.basic.LocalizedMessage original="No tracked link is mapped: its leads keep their form's or rule's source." locale="es" localized="Ningún enlace con seguimiento está asignado: sus prospectos conservan el origen de su formulario o regla."/>
+    <moqui.basic.LocalizedMessage original="Nobody is on the deal yet." locale="es" localized="Todavía no hay nadie en el negocio."/>
+    <moqui.basic.LocalizedMessage original="Not allocated yet: allocate the forecast to products or categories." locale="es" localized="Aún no distribuido: distribuya el pronóstico entre productos o categorías."/>
+    <moqui.basic.LocalizedMessage original="Not the default" locale="es" localized="No es el predeterminado"/>
+    <moqui.basic.LocalizedMessage original="Nothing is assigned to you. New leads and opportunities you own show here, the soonest to close first." locale="es" localized="No hay nada asignado a usted. Los prospectos y oportunidades nuevos de su propiedad se muestran aquí, primero el que cierra antes."/>
+    <moqui.basic.LocalizedMessage original="Of quota" locale="es" localized="De la cuota"/>
+    <moqui.basic.LocalizedMessage original="Of the leads" locale="es" localized="De los prospectos"/>
+    <moqui.basic.LocalizedMessage original="Off: every change of a quote, a file or a note among them, moves its revision, so a quote cannot be issued." locale="es" localized="Desactivado: cada cambio de una cotización, un archivo o una nota entre ellos mueve su revisión, así que una cotización no se puede emitir."/>
+    <moqui.basic.LocalizedMessage original="On: a quote's revision moves with its commercial changes only, so storing its PDF, a file or a note leaves an issue and an approval in force." locale="es" localized="Activado: la revisión de una cotización se mueve solo con sus cambios comerciales, así que guardar su PDF, un archivo o una nota deja vigentes la emisión y la aprobación."/>
+    <moqui.basic.LocalizedMessage original="One currency at a time: amounts in two currencies are never added" locale="es" localized="Una moneda a la vez: los importes de dos monedas nunca se suman"/>
+    <moqui.basic.LocalizedMessage original="Online acceptance needs sign-in above" locale="es" localized="La aceptación en línea requiere el inicio de sesión de arriba"/>
+    <moqui.basic.LocalizedMessage original="Open a lead, an opportunity or an account to log a note on it" locale="es" localized="Abrir un prospecto, una oportunidad o una cuenta para registrar una nota"/>
+    <moqui.basic.LocalizedMessage original="Open a lead, an opportunity or an account to log a note on it." locale="es" localized="Abrir un prospecto, una oportunidad o una cuenta para registrar una nota."/>
+    <moqui.basic.LocalizedMessage original="Open a report for your organization; each states what its figures rest on." locale="es" localized="Abra un reporte de su organización; cada uno indica en qué se apoyan sus cifras."/>
+    <moqui.basic.LocalizedMessage original="Open deals" locale="es" localized="Negocios abiertos"/>
+    <moqui.basic.LocalizedMessage original="Open opportunities" locale="es" localized="Oportunidades abiertas"/>
+    <moqui.basic.LocalizedMessage original="Open opportunities as they stood at the as-of time, never added across currencies; stage durations from the audited stage changes; conversion over the leads created in the cohort." locale="es" localized="Oportunidades abiertas como estaban en el momento de corte, nunca sumadas entre monedas; duraciones de etapa a partir de los cambios de etapa auditados; conversión sobre los prospectos creados en la cohorte."/>
+    <moqui.basic.LocalizedMessage original="Open opportunities by owner" locale="es" localized="Oportunidades abiertas por propietario"/>
+    <moqui.basic.LocalizedMessage original="Open opportunities by source" locale="es" localized="Oportunidades abiertas por origen"/>
+    <moqui.basic.LocalizedMessage original="Open opportunities by stage" locale="es" localized="Oportunidades abiertas por etapa"/>
+    <moqui.basic.LocalizedMessage original="Open opportunities by stage now" locale="es" localized="Oportunidades abiertas por etapa ahora"/>
+    <moqui.basic.LocalizedMessage original="Open opportunities of your pipeline by stage, as you may read them." locale="es" localized="Oportunidades abiertas de su canal por etapa, según pueda leerlas."/>
+    <moqui.basic.LocalizedMessage original="Open pipeline" locale="es" localized="Canal abierto"/>
+    <moqui.basic.LocalizedMessage original="Open pipeline by currency" locale="es" localized="Canal abierto por moneda"/>
+    <moqui.basic.LocalizedMessage original="Open Targets" locale="es" localized="Abrir objetivos"/>
+    <moqui.basic.LocalizedMessage original="Open the board" locale="es" localized="Abrir el tablero"/>
+    <moqui.basic.LocalizedMessage original="Opportunities" locale="es" localized="Oportunidades"/>
+    <moqui.basic.LocalizedMessage original="Opportunity ${salesOpportunityId} is not available: it does not exist, it is not one of your organizations', or it is not assigned to you or your team." locale="es" localized="La oportunidad ${salesOpportunityId} no está disponible: no existe, no es de una de sus organizaciones o no está asignada a usted ni a su equipo."/>
+    <moqui.basic.LocalizedMessage original="Order Discount %" locale="es" localized="% de descuento de órdenes"/>
+    <moqui.basic.LocalizedMessage original="Order Discounts" locale="es" localized="Descuentos de órdenes"/>
+    <moqui.basic.LocalizedMessage original="Order to repeat" locale="es" localized="Orden a repetir"/>
+    <moqui.basic.LocalizedMessage original="Ordered by placed date, invoiced by book day, returns by entry; values in each document's currency, never added across currencies." locale="es" localized="Ordenado por fecha de realización, facturado por día contable, devoluciones por entrada; valores en la moneda de cada documento, nunca sumados entre monedas."/>
+    <moqui.basic.LocalizedMessage original="Orders awaiting approval" locale="es" localized="Órdenes en espera de aprobación"/>
+    <moqui.basic.LocalizedMessage original="Orders blocked" locale="es" localized="Órdenes bloqueadas"/>
+    <moqui.basic.LocalizedMessage original="Orders ship from" locale="es" localized="Las órdenes se envían desde"/>
+    <moqui.basic.LocalizedMessage original="Outcomes by currency" locale="es" localized="Resultados por moneda"/>
+    <moqui.basic.LocalizedMessage original="Owner: ${deal.ownerName}${deal.teamName ? ' · team ' + deal.teamName : ''}" locale="es" localized="Propietario: ${deal.ownerName}${deal.teamName ? ' · team ' + deal.teamName : ''}"/>
+    <moqui.basic.LocalizedMessage original="Part fulfilled" locale="es" localized="Parcialmente cumplida"/>
+    <moqui.basic.LocalizedMessage original="Past their expected close" locale="es" localized="Pasada su fecha de cierre prevista"/>
+    <moqui.basic.LocalizedMessage original="Pause recurring order ${baseOrderId}" locale="es" localized="Pausar la orden recurrente ${baseOrderId}"/>
+    <moqui.basic.LocalizedMessage original="PERMISSION_DENIED: Sales approvals are the sales approver's" locale="es" localized="PERMISSION_DENIED: Las aprobaciones de ventas son del aprobador de ventas"/>
+    <moqui.basic.LocalizedMessage original="PERMISSION_DENIED: Sales lead sources are the Sales administrator's" locale="es" localized="PERMISSION_DENIED: Los orígenes de prospectos de ventas son del administrador de Ventas"/>
+    <moqui.basic.LocalizedMessage original="PERMISSION_DENIED: Sales order changes are the change operator's, the approver's and the manager's" locale="es" localized="PERMISSION_DENIED: Los cambios de órdenes de venta son del operador de cambios, del aprobador y del gerente"/>
+    <moqui.basic.LocalizedMessage original="PERMISSION_DENIED: Sales settings are the Sales administrator's" locale="es" localized="PERMISSION_DENIED: La configuración de ventas es del administrador de Ventas"/>
+    <moqui.basic.LocalizedMessage original="PERMISSION_DENIED: Sales targets are set by the sales managers" locale="es" localized="PERMISSION_DENIED: Los objetivos de ventas los establecen los gerentes de ventas"/>
+    <moqui.basic.LocalizedMessage original="PERMISSION_DENIED: Sales teams are kept by the Sales administrator and the sales managers" locale="es" localized="PERMISSION_DENIED: Los equipos de ventas los mantienen el administrador de Ventas y los gerentes de ventas"/>
+    <moqui.basic.LocalizedMessage original="Pipeline analysis" locale="es" localized="Análisis del canal"/>
+    <moqui.basic.LocalizedMessage original="Pipeline by ${groupTitle.toLowerCase()}" locale="es" localized="Canal por ${groupTitle.toLowerCase()}"/>
+    <moqui.basic.LocalizedMessage original="Pipeline by stage" locale="es" localized="Canal por etapa"/>
+    <moqui.basic.LocalizedMessage original="Pipelines and stages" locale="es" localized="Canales y etapas"/>
+    <moqui.basic.LocalizedMessage original="Placed sales order value" locale="es" localized="Valor de órdenes de venta realizadas"/>
+    <moqui.basic.LocalizedMessage original="Plus tag" locale="es" localized="Etiqueta plus"/>
+    <moqui.basic.LocalizedMessage original="Pre-approval warnings tell the person approving; they do not refuse the approval. Each order is approved on its own, with its credit check." locale="es" localized="Las advertencias previas a la aprobación informan a quien aprueba; no rechazan la aprobación. Cada orden se aprueba por sí misma, con su verificación de crédito."/>
+    <moqui.basic.LocalizedMessage original="Preview the changes; publish nothing" locale="es" localized="Prever los cambios; no publicar nada"/>
+    <moqui.basic.LocalizedMessage original="Preview${preview ? ' · ' + preview.customerName + ' · ' + preview.validText : ''}" locale="es" localized="Vista previa${preview ? ' · ' + preview.customerName + ' · ' + preview.validText : ''}"/>
+    <moqui.basic.LocalizedMessage original="Price from" locale="es" localized="Precio desde"/>
+    <moqui.basic.LocalizedMessage original="Price it on the quote's date instead" locale="es" localized="Calcular el precio en la fecha de la cotización"/>
+    <moqui.basic.LocalizedMessage original="Priced on" locale="es" localized="Con precio al"/>
+    <moqui.basic.LocalizedMessage original="Probability" locale="es" localized="Probabilidad"/>
+    <moqui.basic.LocalizedMessage original="Probability %" locale="es" localized="Probabilidad %"/>
+    <moqui.basic.LocalizedMessage original="Probability from" locale="es" localized="Probabilidad desde"/>
+    <moqui.basic.LocalizedMessage original="Product Cost" locale="es" localized="Costo de producto"/>
+    <moqui.basic.LocalizedMessage original="Product Invoiced" locale="es" localized="Producto facturado"/>
+    <moqui.basic.LocalizedMessage original="Product or category" locale="es" localized="Producto o categoría"/>
+    <moqui.basic.LocalizedMessage original="Product Ordered" locale="es" localized="Producto ordenado"/>
+    <moqui.basic.LocalizedMessage original="Propose a change to an order" locale="es" localized="Proponer un cambio a una orden"/>
+    <moqui.basic.LocalizedMessage original="Publish new Sales defaults" locale="es" localized="Publicar nuevos valores predeterminados de Ventas"/>
+    <moqui.basic.LocalizedMessage original="Publish template ${orderId}" locale="es" localized="Publicar la plantilla ${orderId}"/>
+    <moqui.basic.LocalizedMessage original="Published through" locale="es" localized="Publicado hasta"/>
+    <moqui.basic.LocalizedMessage original="Qualified ${deal.convertedText}" locale="es" localized="Calificado ${deal.convertedText}"/>
+    <moqui.basic.LocalizedMessage original="Qualify ${deal.opportunityName}" locale="es" localized="Calificar ${deal.opportunityName}"/>
+    <moqui.basic.LocalizedMessage original="Qualify ${opportunityName}" locale="es" localized="Calificar ${opportunityName}"/>
+    <moqui.basic.LocalizedMessage original="Quota" locale="es" localized="Cuota"/>
+    <moqui.basic.LocalizedMessage original="Quota (${currencyUomId})" locale="es" localized="Cuota (${currencyUomId})"/>
+    <moqui.basic.LocalizedMessage original="Quote ${orderId} cannot be sent now${previewError ? ': ' + previewError.replace(/^(Error: )?([A-Z_]+: )/, '') : ': it must be proposed, valid, and yours to send.'}" locale="es" localized="La cotización ${orderId} no se puede enviar ahora${previewError ? ': ' + previewError.replace(/^(Error: )?([A-Z_]+: )/, '') : ': it must be proposed, valid, and yours to send.'}"/>
+    <moqui.basic.LocalizedMessage original="Quote template" locale="es" localized="Plantilla de cotización"/>
+    <moqui.basic.LocalizedMessage original="Quote template ${orderId} is not available: it does not exist, it is not one of your organizations', or it is not published." locale="es" localized="La plantilla de cotización ${orderId} no está disponible: no existe, no es de una de sus organizaciones o no está publicada."/>
+    <moqui.basic.LocalizedMessage original="Quote templates" locale="es" localized="Plantillas de cotización"/>
+    <moqui.basic.LocalizedMessage original="Quote validity in days" locale="es" localized="Validez de la cotización en días"/>
+    <moqui.basic.LocalizedMessage original="Quotes already made from a template keep their lines and terms when it is replaced." locale="es" localized="Las cotizaciones ya hechas desde una plantilla conservan sus partidas y condiciones cuando esta se reemplaza."/>
+    <moqui.basic.LocalizedMessage original="Quotes to send" locale="es" localized="Cotizaciones por enviar"/>
+    <moqui.basic.LocalizedMessage original="Quotes valid for (days)" locale="es" localized="Cotizaciones válidas durante (días)"/>
+    <moqui.basic.LocalizedMessage original="Quotes · ${dealQuoteList.length}" locale="es" localized="Cotizaciones · ${dealQuoteList.length}"/>
+    <moqui.basic.LocalizedMessage original="Read the sales of your organizations: orders, invoices, top products and customer classes." locale="es" localized="Lea las ventas de sus organizaciones: órdenes, facturas, productos principales y clases de clientes."/>
+    <moqui.basic.LocalizedMessage original="Reason for the fixed price" locale="es" localized="Motivo del precio fijo"/>
+    <moqui.basic.LocalizedMessage original="Rebuild the sales pipeline index" locale="es" localized="Reconstruir el índice del canal de ventas"/>
+    <moqui.basic.LocalizedMessage original="Rebuild the sales quotes index" locale="es" localized="Reconstruir el índice de cotizaciones de ventas"/>
+    <moqui.basic.LocalizedMessage original="Remind the customer days after a quote is sent" locale="es" localized="Recordar al cliente días después de enviar una cotización"/>
+    <moqui.basic.LocalizedMessage original="Remove the allocation to ${dimensionText}" locale="es" localized="Quitar la distribución a ${dimensionText}"/>
+    <moqui.basic.LocalizedMessage original="Rename ${description}" locale="es" localized="Renombrar ${description}"/>
+    <moqui.basic.LocalizedMessage original="Rename ${teamName}" locale="es" localized="Renombrar ${teamName}"/>
+    <moqui.basic.LocalizedMessage original="Reopen ${deal.opportunityName}" locale="es" localized="Reabrir ${deal.opportunityName}"/>
+    <moqui.basic.LocalizedMessage original="Repeat an approved order" locale="es" localized="Repetir una orden aprobada"/>
+    <moqui.basic.LocalizedMessage original="Replaces ${tp.predecessorName}" locale="es" localized="Reemplaza a ${tp.predecessorName}"/>
+    <moqui.basic.LocalizedMessage original="Requests for quote" locale="es" localized="Solicitudes de cotización"/>
+    <moqui.basic.LocalizedMessage original="Retire ${description}" locale="es" localized="Retirar ${description}"/>
+    <moqui.basic.LocalizedMessage original="Retire stage" locale="es" localized="Retirar la etapa"/>
+    <moqui.basic.LocalizedMessage original="RFQs awaiting response" locale="es" localized="RFQ en espera de respuesta"/>
+    <moqui.basic.LocalizedMessage original="Rolls up to" locale="es" localized="Se consolida en"/>
+    <moqui.basic.LocalizedMessage original="Rolls up to nothing" locale="es" localized="No se consolida en nada"/>
+    <moqui.basic.LocalizedMessage original="Rules · ${ruleList.length}" locale="es" localized="Reglas · ${ruleList.length}"/>
+    <moqui.basic.LocalizedMessage original="Sales assignments" locale="es" localized="Asignaciones de ventas"/>
+    <moqui.basic.LocalizedMessage original="Sales context is not available" locale="es" localized="El contexto de Ventas no está disponible"/>
+    <moqui.basic.LocalizedMessage original="Sales defaults" locale="es" localized="Valores predeterminados de ventas"/>
+    <moqui.basic.LocalizedMessage original="Sales is not available" locale="es" localized="Ventas no está disponible"/>
+    <moqui.basic.LocalizedMessage original="Sales leads" locale="es" localized="Prospectos de ventas"/>
+    <moqui.basic.LocalizedMessage original="Sales leads and opportunities" locale="es" localized="Prospectos y oportunidades de ventas"/>
+    <moqui.basic.LocalizedMessage original="Sales managers and administrators review duplicate accounts." locale="es" localized="Los gerentes y administradores de ventas revisan las cuentas duplicadas."/>
+    <moqui.basic.LocalizedMessage original="Sales opportunities" locale="es" localized="Oportunidades de ventas"/>
+    <moqui.basic.LocalizedMessage original="Sales pipeline" locale="es" localized="Canal de ventas"/>
+    <moqui.basic.LocalizedMessage original="Sales pipeline index" locale="es" localized="Índice del canal de ventas"/>
+    <moqui.basic.LocalizedMessage original="Sales quotes" locale="es" localized="Cotizaciones de ventas"/>
+    <moqui.basic.LocalizedMessage original="Sales quotes index" locale="es" localized="Índice de cotizaciones de ventas"/>
+    <moqui.basic.LocalizedMessage original="Sales reports" locale="es" localized="Reportes de ventas"/>
+    <moqui.basic.LocalizedMessage original="Sales settings" locale="es" localized="Configuración de ventas"/>
+    <moqui.basic.LocalizedMessage original="Sales setup" locale="es" localized="Preparación de ventas"/>
+    <moqui.basic.LocalizedMessage original="Sales summary" locale="es" localized="Resumen de ventas"/>
+    <moqui.basic.LocalizedMessage original="Sales teams" locale="es" localized="Equipos de ventas"/>
+    <moqui.basic.LocalizedMessage original="Sales work" locale="es" localized="Trabajo de ventas"/>
+    <moqui.basic.LocalizedMessage original="Sales' approval rules cannot be read for this organization just now." locale="es" localized="Las reglas de aprobación de Ventas no se pueden leer para esta organización en este momento."/>
+    <moqui.basic.LocalizedMessage original="Sales' defaults cannot be read for this organization just now." locale="es" localized="Los valores predeterminados de Ventas no se pueden leer para esta organización en este momento."/>
+    <moqui.basic.LocalizedMessage original="Sales' types and reasons cannot be read just now." locale="es" localized="Los tipos y motivos de Ventas no se pueden leer en este momento."/>
+    <moqui.basic.LocalizedMessage original="Save as the next version" locale="es" localized="Guardar como la versión siguiente"/>
+    <moqui.basic.LocalizedMessage original="Schedule an activity on ${deal.opportunityName}" locale="es" localized="Programar una actividad en ${deal.opportunityName}"/>
+    <moqui.basic.LocalizedMessage original="Schedule of recurring order ${baseOrderId}" locale="es" localized="Calendario de la orden recurrente ${baseOrderId}"/>
+    <moqui.basic.LocalizedMessage original="Scheduled and earlier · ${versionRows.length}" locale="es" localized="Programadas y anteriores · ${versionRows.length}"/>
+    <moqui.basic.LocalizedMessage original="Search not available" locale="es" localized="La búsqueda no está disponible"/>
+    <moqui.basic.LocalizedMessage original="Seconds first, for Repeats: cron expression" locale="es" localized="Primero los segundos, para Repeticiones: expresión cron"/>
+    <moqui.basic.LocalizedMessage original="Send a quote" locale="es" localized="Enviar una cotización"/>
+    <moqui.basic.LocalizedMessage original="Set team" locale="es" localized="Establecer el equipo"/>
+    <moqui.basic.LocalizedMessage original="Set the team of ${deal.opportunityName}" locale="es" localized="Establecer el equipo de ${deal.opportunityName}"/>
+    <moqui.basic.LocalizedMessage original="Shipped value" locale="es" localized="Valor enviado"/>
+    <moqui.basic.LocalizedMessage original="Shown above each quote's cover text" locale="es" localized="Se muestra sobre el texto de presentación de cada cotización"/>
+    <moqui.basic.LocalizedMessage original="Shown above the quote's cover text" locale="es" localized="Se muestra sobre el texto de presentación de la cotización"/>
+    <moqui.basic.LocalizedMessage original="Someone who works for the organization" locale="es" localized="Alguien que trabaja para la organización"/>
+    <moqui.basic.LocalizedMessage original="Source: ${deal.sourceText}" locale="es" localized="Origen: ${deal.sourceText}"/>
+    <moqui.basic.LocalizedMessage original="Stage: ${deal.stageText} for ${deal.stageAgeText}" locale="es" localized="Etapa: ${deal.stageText} durante ${deal.stageAgeText}"/>
+    <moqui.basic.LocalizedMessage original="Stages" locale="es" localized="Etapas"/>
+    <moqui.basic.LocalizedMessage original="Standard offers to start a quote from: their lines are priced for the customer on the quote's own date." locale="es" localized="Ofertas estándar para iniciar una cotización: sus partidas se cotizan para el cliente en la fecha propia de la cotización."/>
+    <moqui.basic.LocalizedMessage original="Start recurring order" locale="es" localized="Iniciar orden recurrente"/>
+    <moqui.basic.LocalizedMessage original="Start successor" locale="es" localized="Iniciar el sucesor"/>
+    <moqui.basic.LocalizedMessage original="Start template" locale="es" localized="Iniciar plantilla"/>
+    <moqui.basic.LocalizedMessage original="Strengths" locale="es" localized="Fortalezas"/>
+    <moqui.basic.LocalizedMessage original="Submit forecast" locale="es" localized="Enviar el pronóstico"/>
+    <moqui.basic.LocalizedMessage original="Submit the forecast for ${headlineText}" locale="es" localized="Enviar el pronóstico de ${headlineText}"/>
+    <moqui.basic.LocalizedMessage original="Submitted forecast" locale="es" localized="Pronóstico enviado"/>
+    <moqui.basic.LocalizedMessage original="Successor ${tp.successorName}" locale="es" localized="Sucesor ${tp.successorName}"/>
+    <moqui.basic.LocalizedMessage original="Summarize this deal: its stage, amount, people, activities and what is next" locale="es" localized="Resumir este negocio: su etapa, importe, personas, actividades y qué sigue"/>
+    <moqui.basic.LocalizedMessage original="Target attainment" locale="es" localized="Cumplimiento del objetivo"/>
+    <moqui.basic.LocalizedMessage original="Target saved" locale="es" localized="Objetivo guardado"/>
+    <moqui.basic.LocalizedMessage original="Targets" locale="es" localized="Objetivos"/>
+    <moqui.basic.LocalizedMessage original="The author may approve" locale="es" localized="El autor puede aprobar"/>
+    <moqui.basic.LocalizedMessage original="The cost and margin are shown to a reader of product costs: a finance reader who reads costs, or one who reads both prices and costs." locale="es" localized="El costo y el margen se muestran a quien lee costos de producto: un lector de finanzas que lee costos, o quien lee precios y costos."/>
+    <moqui.basic.LocalizedMessage original="The lost reasons are shared by every organization; an administrator of every organization changes them." locale="es" localized="Los motivos de pérdida los comparten todas las organizaciones; un administrador de todas las organizaciones los cambia."/>
+    <moqui.basic.LocalizedMessage original="The one kept gets the other's contact details, contacts, relationships, opportunities, orders, agreements, files and history; the other is disabled. The one kept keeps its own name." locale="es" localized="La que se conserva recibe los datos de contacto, contactos, relaciones, oportunidades, órdenes, acuerdos, archivos e historial de la otra; la otra queda desactivada. La que se conserva mantiene su propio nombre."/>
+    <moqui.basic.LocalizedMessage original="The orders due while it is paused are skipped" locale="es" localized="Las órdenes que vencen mientras está en pausa se omiten"/>
+    <moqui.basic.LocalizedMessage original="The organization" locale="es" localized="La organización"/>
+    <moqui.basic.LocalizedMessage original="The organization's currency when empty; a quote from the template is in it" locale="es" localized="La moneda de la organización cuando está vacío; una cotización desde la plantilla va en ella"/>
+    <moqui.basic.LocalizedMessage original="The organization's default" locale="es" localized="El predeterminado de la organización"/>
+    <moqui.basic.LocalizedMessage original="The organization's quote validity when empty" locale="es" localized="La validez de cotización de la organización cuando está vacío"/>
+    <moqui.basic.LocalizedMessage original="The part after + in sales+tag@; empty takes no mail" locale="es" localized="La parte después de + en sales+tag@; vacío no toma correo"/>
+    <moqui.basic.LocalizedMessage original="The quote's author may approve it" locale="es" localized="El autor de la cotización puede aprobarla"/>
+    <moqui.basic.LocalizedMessage original="The shared pipeline is changed by an administrator of every organization; create a pipeline of your own to change its stages." locale="es" localized="El canal compartido lo cambia un administrador de todas las organizaciones; cree un canal propio para cambiar sus etapas."/>
+    <moqui.basic.LocalizedMessage original="The stage" locale="es" localized="La etapa"/>
+    <moqui.basic.LocalizedMessage original="The template's or the organization's when empty" locale="es" localized="El de la plantilla o el de la organización cuando está vacío"/>
+    <moqui.basic.LocalizedMessage original="The warehouse, store or plant of the organization a new quote or order ships from; it can be changed on the order" locale="es" localized="El almacén, la tienda o la planta de la organización desde donde se envía una cotización u orden nueva; se puede cambiar en la orden"/>
+    <moqui.basic.LocalizedMessage original="The year, its four quarters and twelve months, those the organization does not have yet." locale="es" localized="El año, sus cuatro trimestres y doce meses que la organización aún no tiene."/>
+    <moqui.basic.LocalizedMessage original="Their forecast" locale="es" localized="Su pronóstico"/>
+    <moqui.basic.LocalizedMessage original="These accounts are not available" locale="es" localized="Estas cuentas no están disponibles"/>
+    <moqui.basic.LocalizedMessage original="They called" locale="es" localized="Ellos llamaron"/>
+    <moqui.basic.LocalizedMessage original="This contact is not available: it does not exist, or it is not an account or a contact of an                                 account you may see." locale="es" localized="Este contacto no está disponible: no existe, o no es una cuenta ni un contacto de una cuenta que usted puede ver."/>
+    <moqui.basic.LocalizedMessage original="This organization has no sales periods yet. A sales manager adds them under Settings › Targets." locale="es" localized="Esta organización aún no tiene periodos de venta. Un gerente de ventas los añade en Configuración › Objetivos."/>
+    <moqui.basic.LocalizedMessage original="This organization has no sales periods yet: add this year's first." locale="es" localized="Esta organización aún no tiene periodos de venta: añada los primeros de este año."/>
+    <moqui.basic.LocalizedMessage original="This organization is not available to you, or its settings cannot be read just now." locale="es" localized="Esta organización no está disponible para usted, o su configuración no se puede leer en este momento."/>
+    <moqui.basic.LocalizedMessage original="This organization is not available to you, or its sources cannot be read just now." locale="es" localized="Esta organización no está disponible para usted, o sus orígenes no se pueden leer en este momento."/>
+    <moqui.basic.LocalizedMessage original="This organization is not available to you, or its teams cannot be read just now." locale="es" localized="Esta organización no está disponible para usted, o sus equipos no se pueden leer en este momento."/>
+    <moqui.basic.LocalizedMessage original="This pipeline has no stages: add the first." locale="es" localized="Este canal no tiene etapas: añada la primera."/>
+    <moqui.basic.LocalizedMessage original="This quote needs no approval at its current revision." locale="es" localized="Esta cotización no necesita aprobación en su revisión actual."/>
+    <moqui.basic.LocalizedMessage original="Time in each stage" locale="es" localized="Tiempo en cada etapa"/>
+    <moqui.basic.LocalizedMessage original="Total ${totalsText}" locale="es" localized="Suma total ${totalsText}"/>
+    <moqui.basic.LocalizedMessage original="Tracked links" locale="es" localized="Enlaces con seguimiento"/>
+    <moqui.basic.LocalizedMessage original="Types and reasons" locale="es" localized="Tipos y motivos"/>
+    <moqui.basic.LocalizedMessage original="Validity" locale="es" localized="Validez"/>
+    <moqui.basic.LocalizedMessage original="Validity days" locale="es" localized="Días de validez"/>
+    <moqui.basic.LocalizedMessage original="Warranty claims whose repair Customer Service will charge for: make the estimate's quote from the claim's lines. Nothing of the claim but its customer and products is shown here." locale="es" localized="Reclamaciones de garantía cuyo arreglo cobrará Servicio al cliente: hacer la cotización del estimado desde las partidas de la reclamación. Aquí solo se muestran su cliente y sus productos."/>
+    <moqui.basic.LocalizedMessage original="Weaknesses" locale="es" localized="Debilidades"/>
+    <moqui.basic.LocalizedMessage original="Weekly sales pipeline digest" locale="es" localized="Resumen semanal del canal de ventas"/>
+    <moqui.basic.LocalizedMessage original="Weighted" locale="es" localized="Ponderado"/>
+    <moqui.basic.LocalizedMessage original="Weighted pipeline" locale="es" localized="Canal ponderado"/>
+    <moqui.basic.LocalizedMessage original="What changed on this deal since its last activity?" locale="es" localized="¿Qué cambió en este negocio desde su última actividad?"/>
+    <moqui.basic.LocalizedMessage original="What each contact asked for, and where" locale="es" localized="Qué pidió cada contacto, y dónde"/>
+    <moqui.basic.LocalizedMessage original="What it was about" locale="es" localized="De qué se trató"/>
+    <moqui.basic.LocalizedMessage original="What meets it" locale="es" localized="Qué lo cumple"/>
+    <moqui.basic.LocalizedMessage original="What open work does this account have: deals, activities and the next steps?" locale="es" localized="¿Qué trabajo abierto tiene esta cuenta: negocios, actividades y los pasos siguientes?"/>
+    <moqui.basic.LocalizedMessage original="What you expect to close in the period" locale="es" localized="Lo que espera cerrar en el periodo"/>
+    <moqui.basic.LocalizedMessage original="Where leads come from. A source is shared; each organization chooses the ones it offers." locale="es" localized="De dónde vienen los prospectos. Un origen es compartido; cada organización elige los que ofrece."/>
+    <moqui.basic.LocalizedMessage original="Whose forecast" locale="es" localized="Pronóstico de quién"/>
+    <moqui.basic.LocalizedMessage original="Will be sent" locale="es" localized="Se enviará"/>
+    <moqui.basic.LocalizedMessage original="Win rate" locale="es" localized="Tasa de ganancia"/>
+    <moqui.basic.LocalizedMessage original="With a next activity" locale="es" localized="Con una actividad siguiente"/>
+    <moqui.basic.LocalizedMessage original="With no representative" locale="es" localized="Sin representante"/>
+    <moqui.basic.LocalizedMessage original="Won" locale="es" localized="Ganado"/>
+    <moqui.basic.LocalizedMessage original="Won amount" locale="es" localized="Importe ganado"/>
+    <moqui.basic.LocalizedMessage original="Won and lost deals created in the range" locale="es" localized="Negocios ganados y perdidos creados en el intervalo"/>
+    <moqui.basic.LocalizedMessage original="Won opportunity value" locale="es" localized="Valor de oportunidades ganadas"/>
+    <moqui.basic.LocalizedMessage original="Won or lost" locale="es" localized="Ganado o perdido"/>
+    <moqui.basic.LocalizedMessage original="Won value" locale="es" localized="Valor ganado"/>
+    <moqui.basic.LocalizedMessage original="Yes: a request made from mail is answered once, to the address it came from, with its reference, when the sender is a contact or account of yours" locale="es" localized="Sí: una solicitud hecha desde el correo se responde una vez, a la dirección de origen y con su referencia, cuando el remitente es un contacto o una cuenta suya"/>
+    <moqui.basic.LocalizedMessage original="You do not add contacts in Sales." locale="es" localized="No puede añadir contactos en Ventas."/>
+    <moqui.basic.LocalizedMessage original="You do not create accounts in Sales." locale="es" localized="No puede crear cuentas en Ventas."/>
+    <moqui.basic.LocalizedMessage original="You do not create leads in Sales." locale="es" localized="No puede crear prospectos en Ventas."/>
+    <moqui.basic.LocalizedMessage original="You do not create opportunities in Sales." locale="es" localized="No puede crear oportunidades en Ventas."/>
+    <moqui.basic.LocalizedMessage original="You do not create quotes in Sales." locale="es" localized="No puede crear cotizaciones en Ventas."/>
+    <moqui.basic.LocalizedMessage original="You do not keep or read recurring orders in Sales." locale="es" localized="No puede mantener ni leer órdenes recurrentes en Ventas."/>
+    <moqui.basic.LocalizedMessage original="You do not read accounts in Sales." locale="es" localized="No puede leer cuentas en Ventas."/>
+    <moqui.basic.LocalizedMessage original="You do not read agreements in Sales." locale="es" localized="No puede leer acuerdos en Ventas."/>
+    <moqui.basic.LocalizedMessage original="You do not read contacts in Sales." locale="es" localized="No puede leer contactos en Ventas."/>
+    <moqui.basic.LocalizedMessage original="You do not read forecasts in Sales." locale="es" localized="No puede leer pronósticos en Ventas."/>
+    <moqui.basic.LocalizedMessage original="You do not read leads in Sales." locale="es" localized="No puede leer prospectos en Ventas."/>
+    <moqui.basic.LocalizedMessage original="You do not read opportunities in Sales." locale="es" localized="No puede leer oportunidades en Ventas."/>
+    <moqui.basic.LocalizedMessage original="You do not read orders in Sales." locale="es" localized="No puede leer órdenes en Ventas."/>
+    <moqui.basic.LocalizedMessage original="You do not read quotes in Sales." locale="es" localized="No puede leer cotizaciones en Ventas."/>
+    <moqui.basic.LocalizedMessage original="You do not read requests for quote in Sales." locale="es" localized="No puede leer solicitudes de cotización en Ventas."/>
+    <moqui.basic.LocalizedMessage original="You do not schedule activities on deals in Sales." locale="es" localized="No puede programar actividades en negocios en Ventas."/>
+    <moqui.basic.LocalizedMessage original="You have no open opportunities." locale="es" localized="No tiene oportunidades abiertas."/>
+    <moqui.basic.LocalizedMessage original="You sell for more than one organization: make the lead with New lead in Sales' Leads" locale="es" localized="Usted vende para más de una organización: cree el prospecto con Nuevo prospecto en Prospectos de Ventas"/>
+    <moqui.basic.LocalizedMessage original="You sell for more than one organization: make the request with New request in Sales' RFQs" locale="es" localized="Usted vende para más de una organización: cree la solicitud con Nueva solicitud en las RFQ de Ventas"/>
+    <moqui.basic.LocalizedMessage original="Your assigned work is unavailable right now." locale="es" localized="Su trabajo asignado no está disponible en este momento."/>
+    <moqui.basic.LocalizedMessage original="Your only team of the organization when empty" locale="es" localized="Su único equipo de la organización cuando está vacío"/>
+    <moqui.basic.LocalizedMessage original="Your pipeline is unavailable right now." locale="es" localized="Su canal no está disponible en este momento."/>
+</entity-facade-xml>

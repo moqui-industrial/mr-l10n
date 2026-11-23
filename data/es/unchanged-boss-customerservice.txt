@@ -1,0 +1,23 @@
+# Messages the same in this language. A missing catalog row returns the original.
+${chargeText}${chargeText ? ' · ' + (customerConsentRef ? 'agreed: ' + customerConsentRef : 'not agreed yet') : ''}
+${claim.isClaim ? 'Warranty claim' : 'Case'} ${requestId}
+${clock.label}: ${clock.stateText}
+${coverageEndText}${coverageEndSourceText ? ' · ' + coverageEndSourceText : ''}
+${decidedByName}${approverName ? ' (approved by ' + approverName + ')' : ''}
+${ec.l10n.localize('Automatic')}: ${test.automatic}
+${ec.l10n.localize('Customer')}: ${test.customerName}
+${ec.l10n.localize('Joins by its')} ${test.threadBy}
+${ec.l10n.localize('Route')}: ${test.routeText}
+${ec.l10n.localize('Sender')}: ${test.senderName} (${test.senderKind})
+${expireText}${expired ? ' · expired' : ''}
+${kindText} · ${fromName} · ${dateText}: ${text}
+${policy.policyName} · ${policy.rankText}
+${policy.policyName} · ${policy.state}
+${pv.outcomeText}${pv.assigneeName ? ': ' + pv.assigneeName : ''}
+${reply.title} · ${reply.scopeText}${reply.isOwner ? '' : ' · from ' + reply.ownerName}
+${requestId} · ${channelText} · ${dateText}
+${roleText} · ${requestName}
+${rule.ruleName} · ${rule.queueName} · ${rule.stateText}
+${sourceRevision} · ${currentText}
+${teamName} · ${eligibleText} · ${scheduleText} · ${maxText}
+No: ${reasons}

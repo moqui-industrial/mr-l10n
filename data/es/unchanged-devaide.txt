@@ -1,0 +1,21 @@
+# Messages the same in Spanish. A missing catalog row returns the original. Chinese may still translate words inside the quotes.
+${artifact.kind} ${artifact.shortName}
+${change.path}${change.changedOnDisk ? ' (changed on disk since: Save will ask)' : ''}
+${component}${site ? ' · site' : ''}
+${component}${upstream ? '' : ' · site'}
+${failure.path}: ${failure.message}
+${file.split('/').slice(-2).join('/')}:${line}
+${kind == 'git' ? 'git' : 'Not a git repository'}${upstream ? ' · upstream' : ' · site'}
+${kind}${replacedBy ? ' (replaced)' : ''}
+${label} (${baseUrl})
+${label} (${kind == 'git' ? 'git' : 'Not a git repository'}${upstream ? ', upstream' : ''})
+${label}${upstream ? '' : ' (site)'}
+${menuIndex == null ? '' : menuIndex}${menuInclude ? (menuIncludeWhen ? ' (when ' + menuIncludeWhen + ')' : '') : ' (hidden)'}${isDefault ? ' · default' : ''}
+${name}${resolved ? '' : ' (not found)'}
+${seedFile.path}${seedFile.missing ? ' (made on its first save)' : ''}${seedFile.staged ? ' · staged, loads after Save' : ''}
+DbForm
+EmECA
+Git
+IronStone Projects
+JavaScript
+MarbleERP

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+
+<entity-facade-xml type="es">
+    <moqui.basic.LocalizedMessage original="${hours} hours" locale="es" localized="${hours} horas"/>
+    <moqui.basic.LocalizedMessage original="${hours} standard hours" locale="es" localized="${hours} horas estándar"/>
+    <moqui.basic.LocalizedMessage original="${name} imported as draft lines: ${count} lines" locale="es" localized="${name} se importó como líneas en borrador: ${count} líneas"/>
+    <moqui.basic.LocalizedMessage original="${name} imported as draft operations: ${count} operations" locale="es" localized="${name} se importó como operaciones en borrador: ${count} operaciones"/>
+    <moqui.basic.LocalizedMessage original="${name} is ready: ${count} lines" locale="es" localized="${name} está listo: ${count} líneas"/>
+    <moqui.basic.LocalizedMessage original="${name} is ready: ${count} operations" locale="es" localized="${name} está listo: ${count} operaciones"/>
+    <moqui.basic.LocalizedMessage original="${name} left out: ${detail}" locale="es" localized="${name} quedó fuera: ${detail}"/>
+    <moqui.basic.LocalizedMessage original="${name} not imported: ${detail}" locale="es" localized="${name} no se importó: ${detail}"/>
+    <moqui.basic.LocalizedMessage original="${n} operations" locale="es" localized="${n} operaciones"/>
+    <moqui.basic.LocalizedMessage original="${n} slot" locale="es" localized="${n} ranura"/>
+    <moqui.basic.LocalizedMessage original="${n} slots" locale="es" localized="${n} ranuras"/>
+    <moqui.basic.LocalizedMessage original="${review.statusText} on ${review.requestedDateText} at revision ${review.revision}${review.accountingDateText ? ', for ' + review.accountingDateText : ''}${review.note ? ': ' + review.note : ''}" locale="es" localized="${review.statusText} el ${review.requestedDateText} en la revisión ${review.revision}${review.accountingDateText ? ', for ' + review.accountingDateText : ''}${review.note ? ': ' + review.note : ''}"/>
+    <moqui.basic.LocalizedMessage original="${started.result?.resultCode == 'RESUMED' ? 'Resumed' : 'Started'}: your timer runs on this operation${started.result?.switched ? '; your other timer was stopped' : ''}" locale="es" localized="${started.result?.resultCode == 'RESUMED' ? 'Resumed' : 'Started'}: su temporizador está activo en esta operación${started.result?.switched ? '; your other timer was stopped' : ''}"/>
+    <moqui.basic.LocalizedMessage original="1 (not set)" locale="es" localized="1 (sin definir)"/>
+    <moqui.basic.LocalizedMessage original="A loss waits for a supervisor's approval" locale="es" localized="Una pérdida espera la aprobación de un supervisor"/>
+    <moqui.basic.LocalizedMessage original="A pick kit keeps its Kit components; nothing was imported" locale="es" localized="Un kit de surtido conserva sus componentes Kit; no se importó nada."/>
+    <moqui.basic.LocalizedMessage original="Amendment applied to the remaining work" locale="es" localized="Enmienda aplicada al trabajo restante"/>
+    <moqui.basic.LocalizedMessage original="Amendment refused" locale="es" localized="Enmienda rechazada"/>
+    <moqui.basic.LocalizedMessage original="Amendment sent for review" locale="es" localized="Enmienda enviada a revisión"/>
+    <moqui.basic.LocalizedMessage original="another review" locale="es" localized="otra revisión"/>
+    <moqui.basic.LocalizedMessage original="Assigned to the work order" locale="es" localized="Asignado a la orden de trabajo"/>
+    <moqui.basic.LocalizedMessage original="Backorder ${newWorkEffortId} made for ${quantity}" locale="es" localized="Pedido pendiente ${newWorkEffortId} creado para ${quantity}"/>
+    <moqui.basic.LocalizedMessage original="Backorder ${newWorkEffortId} made for ${quantity}; work order ${workEffortId} completed" locale="es" localized="Pedido pendiente ${newWorkEffortId} creado para ${quantity}; orden de trabajo ${workEffortId} completada"/>
+    <moqui.basic.LocalizedMessage original="Blocked ${workEffortId}: ${message}" locale="es" localized="Bloqueado ${workEffortId}: ${message}"/>
+    <moqui.basic.LocalizedMessage original="BOMs" locale="es" localized="BOM"/>
+    <moqui.basic.LocalizedMessage original="Cancelled: ${ids}" locale="es" localized="Canceladas: ${ids}"/>
+    <moqui.basic.LocalizedMessage original="Choose the product, a quantity above zero and the line or plant first." locale="es" localized="Elija primero el producto, una cantidad mayor que cero y la línea o la planta."/>
+    <moqui.basic.LocalizedMessage original="Cost review requested for work order ${workEffortId}" locale="es" localized="Revisión de costo solicitada para la orden de trabajo ${workEffortId}"/>
+    <moqui.basic.LocalizedMessage original="Done: ${ids}" locale="es" localized="Hechas: ${ids}"/>
+    <moqui.basic.LocalizedMessage original="Draft work order ${clonedId} made like ${workEffortId}" locale="es" localized="Orden de trabajo en borrador ${clonedId} creada como ${workEffortId}"/>
+    <moqui.basic.LocalizedMessage original="Each receipt" locale="es" localized="Cada recepción"/>
+    <moqui.basic.LocalizedMessage original="Edit ${name}" locale="es" localized="Editar ${name}"/>
+    <moqui.basic.LocalizedMessage original="Equipment ${assetId} assigned" locale="es" localized="Equipo ${assetId} asignado"/>
+    <moqui.basic.LocalizedMessage original="Equipment ${assetId} released from the work order" locale="es" localized="Equipo ${assetId} liberado de la orden de trabajo"/>
+    <moqui.basic.LocalizedMessage original="Give the quantity and the reason first." locale="es" localized="Indique primero la cantidad y el motivo."/>
+    <moqui.basic.LocalizedMessage original="Held: ${ids}" locale="es" localized="Retenidas: ${ids}"/>
+    <moqui.basic.LocalizedMessage original="hours" locale="es" localized="horas"/>
+    <moqui.basic.LocalizedMessage original="Inspection ${qualityInspectionId} opened" locale="es" localized="Inspección ${qualityInspectionId} abierta"/>
+    <moqui.basic.LocalizedMessage original="Kit ${assetId}: ${quantity} reversed; its components are back in stock and the reversing entries are dated now" locale="es" localized="Kit ${assetId}: ${quantity} revertido; sus componentes volvieron al stock y los asientos de reversión quedan fechados ahora"/>
+    <moqui.basic.LocalizedMessage original="Loss ${productionLossId} recorded" locale="es" localized="Pérdida ${productionLossId} registrada"/>
+    <moqui.basic.LocalizedMessage original="Loss approved" locale="es" localized="Pérdida aprobada"/>
+    <moqui.basic.LocalizedMessage original="Loss refused" locale="es" localized="Pérdida rechazada"/>
+    <moqui.basic.LocalizedMessage original="Machine runtime recorded: ${hours} h" locale="es" localized="Tiempo de funcionamiento de la máquina registrado: ${hours} h"/>
+    <moqui.basic.LocalizedMessage original="Machine runtime recorded: ${hours} h. ${message}" locale="es" localized="Tiempo de funcionamiento de la máquina registrado: ${hours} h. ${message}"/>
+    <moqui.basic.LocalizedMessage original="Machine runtime started" locale="es" localized="Tiempo de funcionamiento de la máquina iniciado"/>
+    <moqui.basic.LocalizedMessage original="Manufacturing context is not available" locale="es" localized="El contexto de fabricación no está disponible"/>
+    <moqui.basic.LocalizedMessage original="Manufacturing is not available" locale="es" localized="La fabricación no está disponible"/>
+    <moqui.basic.LocalizedMessage original="Material line added" locale="es" localized="Línea de material añadida"/>
+    <moqui.basic.LocalizedMessage original="Material line removed" locale="es" localized="Línea de material quitada"/>
+    <moqui.basic.LocalizedMessage original="Material line saved" locale="es" localized="Línea de material guardada"/>
+    <moqui.basic.LocalizedMessage original="Method access is required to see BOMs." locale="es" localized="Hace falta el acceso al método para ver los BOM."/>
+    <moqui.basic.LocalizedMessage original="Method access is required to see operation templates." locale="es" localized="Hace falta el acceso al método para ver las plantillas de operación."/>
+    <moqui.basic.LocalizedMessage original="Method access is required to see routings." locale="es" localized="Hace falta el acceso al método para ver las rutas."/>
+    <moqui.basic.LocalizedMessage original="method approval" locale="es" localized="la aprobación del método"/>
+    <moqui.basic.LocalizedMessage original="Model instructions" locale="es" localized="Instrucciones del modelo"/>
+    <moqui.basic.LocalizedMessage original="Needs downtime reporting access, which an administrator can grant." locale="es" localized="Hace falta el acceso para informar el tiempo de inactividad, que un administrador puede conceder."/>
+    <moqui.basic.LocalizedMessage original="Needs manufacturing method editing access, which an administrator can grant." locale="es" localized="Hace falta el acceso de edición de métodos de fabricación, que un administrador puede conceder."/>
+    <moqui.basic.LocalizedMessage original="Needs production operation access, which an administrator can grant." locale="es" localized="Hace falta el acceso de operación de producción, que un administrador puede conceder."/>
+    <moqui.basic.LocalizedMessage original="Needs production planning access, which an administrator can grant." locale="es" localized="Hace falta el acceso de planificación de producción, que un administrador puede conceder."/>
+    <moqui.basic.LocalizedMessage original="Needs production settings access, which an administrator can grant." locale="es" localized="Hace falta el acceso a la configuración de producción, que un administrador puede conceder."/>
+    <moqui.basic.LocalizedMessage original="Needs production supervision access, which an administrator can grant." locale="es" localized="Hace falta el acceso de supervisión de producción, que un administrador puede conceder."/>
+    <moqui.basic.LocalizedMessage original="Needs work center editing access, which an administrator can grant." locale="es" localized="Hace falta el acceso de edición de centros de trabajo, que un administrador puede conceder."/>
+    <moqui.basic.LocalizedMessage original="No available hours" locale="es" localized="Sin horas disponibles"/>
+    <moqui.basic.LocalizedMessage original="no work calendar" locale="es" localized="sin calendario de trabajo"/>
+    <moqui.basic.LocalizedMessage original="Not done ${workEffortId}: ${message}" locale="es" localized="Sin hacer ${workEffortId}: ${message}"/>
+    <moqui.basic.LocalizedMessage original="Notes and files of this record are kept in the app that owns it" locale="es" localized="Las notas y los archivos de este registro se conservan en la aplicación que lo posee"/>
+    <moqui.basic.LocalizedMessage original="Notes and files of this record are not available" locale="es" localized="Las notas y los archivos de este registro no están disponibles"/>
+    <moqui.basic.LocalizedMessage original="Operation completed" locale="es" localized="Operación completada"/>
+    <moqui.basic.LocalizedMessage original="Operation completed. ${message}" locale="es" localized="Operación completada. ${message}"/>
+    <moqui.basic.LocalizedMessage original="Operation completed: good ${good}, remaining ${remaining}" locale="es" localized="Operación completada: bueno ${good}, restante ${remaining}"/>
+    <moqui.basic.LocalizedMessage original="Operation completed: good ${good}, remaining ${remaining}. ${message}" locale="es" localized="Operación completada: bueno ${good}, restante ${remaining}. ${message}"/>
+    <moqui.basic.LocalizedMessage original="Operation template" locale="es" localized="Plantilla de operación"/>
+    <moqui.basic.LocalizedMessage original="operations" locale="es" localized="operaciones"/>
+    <moqui.basic.LocalizedMessage original="Output removed" locale="es" localized="Salida quitada"/>
+    <moqui.basic.LocalizedMessage original="Output saved" locale="es" localized="Salida guardada"/>
+    <moqui.basic.LocalizedMessage original="Paused${paused.result?.stoppedTimeEntryId ? '; your timer stopped' : ''}" locale="es" localized="Pausado${paused.result?.stoppedTimeEntryId ? '; your timer stopped' : ''}"/>
+    <moqui.basic.LocalizedMessage original="Production policy saved" locale="es" localized="Política de producción guardada"/>
+    <moqui.basic.LocalizedMessage original="Reason ${reasonCode} ${active == 'N' ? 'deactivated' : 'reactivated'}" locale="es" localized="Motivo ${reasonCode} ${active == 'N' ? 'deactivated' : 'reactivated'}"/>
+    <moqui.basic.LocalizedMessage original="Reason ${reasonCode} saved" locale="es" localized="Motivo ${reasonCode} guardado"/>
+    <moqui.basic.LocalizedMessage original="Recorded: good ${good}, held ${held}, remaining ${remaining}" locale="es" localized="Registrado: bueno ${good}, retenido ${held}, restante ${remaining}"/>
+    <moqui.basic.LocalizedMessage original="Recorded: good ${good}, held ${held}, remaining ${remaining}; the work order is complete" locale="es" localized="Registrado: bueno ${good}, retenido ${held}, restante ${remaining}; la orden de trabajo está completa"/>
+    <moqui.basic.LocalizedMessage original="Released short: issued once stock covers it" locale="es" localized="Liberado con faltante: se entrega cuando el stock lo cubre"/>
+    <moqui.basic.LocalizedMessage original="Released: ${ids}" locale="es" localized="Liberadas: ${ids}"/>
+    <moqui.basic.LocalizedMessage original="Removed from the work order" locale="es" localized="Quitado de la orden de trabajo"/>
+    <moqui.basic.LocalizedMessage original="Review given; the amendment waits for ${who}" locale="es" localized="Revisión dada; la enmienda espera a ${who}"/>
+    <moqui.basic.LocalizedMessage original="slot" locale="es" localized="ranura"/>
+    <moqui.basic.LocalizedMessage original="slots" locale="es" localized="ranuras"/>
+    <moqui.basic.LocalizedMessage original="Split ${newWorkEffortId} made for ${quantity}" locale="es" localized="División ${newWorkEffortId} creada para ${quantity}"/>
+    <moqui.basic.LocalizedMessage original="Split ${newWorkEffortId} made for ${quantity}; work order ${workEffortId} completed" locale="es" localized="División ${newWorkEffortId} creada para ${quantity}; orden de trabajo ${workEffortId} completada"/>
+    <moqui.basic.LocalizedMessage original="Start checks overridden" locale="es" localized="Comprobaciones de inicio anuladas"/>
+    <moqui.basic.LocalizedMessage original="Substitute applied" locale="es" localized="Sustituto aplicado"/>
+    <moqui.basic.LocalizedMessage original="Substitute refused" locale="es" localized="Sustituto rechazado"/>
+    <moqui.basic.LocalizedMessage original="Substitute sent to the supervisors for approval" locale="es" localized="Sustituto enviado a los supervisores para su aprobación"/>
+    <moqui.basic.LocalizedMessage original="supervisor approval" locale="es" localized="la aprobación del supervisor"/>
+    <moqui.basic.LocalizedMessage original="Target changed from ${previous} to ${target}" locale="es" localized="El objetivo cambió de ${previous} a ${target}"/>
+    <moqui.basic.LocalizedMessage original="The loss waits for a supervisor's approval" locale="es" localized="La pérdida espera la aprobación de un supervisor"/>
+    <moqui.basic.LocalizedMessage original="The shop floor is for production operators and supervisors" locale="es" localized="El taller es para operadores y supervisores de producción"/>
+    <moqui.basic.LocalizedMessage original="This draft was created already" locale="es" localized="Este borrador ya se había creado"/>
+    <moqui.basic.LocalizedMessage original="Work centers at ${plantName}" locale="es" localized="Centros de trabajo en ${plantName}"/>
+    <moqui.basic.LocalizedMessage original="Work hours" locale="es" localized="Horas de trabajo"/>
+    <moqui.basic.LocalizedMessage original="Work order ${workEffortId} approved for a staged release" locale="es" localized="Orden de trabajo ${workEffortId} aprobada para una liberación por etapas"/>
+    <moqui.basic.LocalizedMessage original="Work order ${workEffortId} back to a draft" locale="es" localized="Orden de trabajo ${workEffortId} de vuelta a borrador"/>
+    <moqui.basic.LocalizedMessage original="Work order ${workEffortId} cancelled" locale="es" localized="Orden de trabajo ${workEffortId} cancelada"/>
+    <moqui.basic.LocalizedMessage original="Work order ${workEffortId} cancelled; its issues were returned" locale="es" localized="Orden de trabajo ${workEffortId} cancelada; sus entregas se devolvieron"/>
+    <moqui.basic.LocalizedMessage original="Work order ${workEffortId} closed out; the cost close settles it" locale="es" localized="Orden de trabajo ${workEffortId} cerrada; el cierre de costos la liquida"/>
+    <moqui.basic.LocalizedMessage original="Work order ${workEffortId} completed" locale="es" localized="Orden de trabajo ${workEffortId} completada"/>
+    <moqui.basic.LocalizedMessage original="Work order ${workEffortId} held" locale="es" localized="Orden de trabajo ${workEffortId} retenida"/>
+    <moqui.basic.LocalizedMessage original="Work order ${workEffortId} re-exploded for review" locale="es" localized="Orden de trabajo ${workEffortId} explotada de nuevo para revisión"/>
+    <moqui.basic.LocalizedMessage original="Work order ${workEffortId} re-exploded from the method as of now; review it and release it again" locale="es" localized="Orden de trabajo ${workEffortId} explotada de nuevo desde el método actual; revísela y libérela otra vez"/>
+    <moqui.basic.LocalizedMessage original="Work order ${workEffortId} released" locale="es" localized="Orden de trabajo ${workEffortId} liberada"/>
+    <moqui.basic.LocalizedMessage original="Work order ${workEffortId} released staged: its short lines stay blocked until covered" locale="es" localized="Orden de trabajo ${workEffortId} liberada por etapas: sus líneas faltantes siguen bloqueadas hasta que estén cubiertas"/>
+    <moqui.basic.LocalizedMessage original="Work order ${workEffortId} resumed" locale="es" localized="Orden de trabajo ${workEffortId} reanudada"/>
+    <moqui.basic.LocalizedMessage original="Work order ${workEffortId} saved" locale="es" localized="Orden de trabajo ${workEffortId} guardada"/>
+    <moqui.basic.LocalizedMessage original="Work order ${workEffortId} sent to the supervisors for a staged release" locale="es" localized="Orden de trabajo ${workEffortId} enviada a los supervisores para una liberación por etapas"/>
+    <moqui.basic.LocalizedMessage original="Work order ${workEffortId} started" locale="es" localized="Orden de trabajo ${workEffortId} iniciada"/>
+    <moqui.basic.LocalizedMessage original="Work order ${workEffortId} ${resultCode}" locale="es" localized="Orden de trabajo ${workEffortId}: ${resultCode}"/>
+</entity-facade-xml>

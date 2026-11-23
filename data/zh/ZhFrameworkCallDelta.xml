@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+
+<entity-facade-xml type="zh">
+    <moqui.basic.LocalizedMessage original="A call being transferred is not merged" locale="zh" localized="正在转接的通话不能合并"/>
+    <moqui.basic.LocalizedMessage original="A call goes to a queue by a blind transfer" locale="zh" localized="通话通过盲转进入队列"/>
+    <moqui.basic.LocalizedMessage original="A call that is not end-to-end encrypted is going on in this room" locale="zh" localized="此聊天室里正在进行一通未端到端加密的通话"/>
+    <moqui.basic.LocalizedMessage original="A call that is still ringing cannot be transferred, added to or merged" locale="zh" localized="仍在振铃的通话不能转接、加人，也不能合并"/>
+    <moqui.basic.LocalizedMessage original="A conversation is between two numbers" locale="zh" localized="一次会话发生在两个号码之间"/>
+    <moqui.basic.LocalizedMessage original="A direct room has no settings: start an encrypted call instead" locale="zh" localized="直接聊天室没有设置：请改为发起加密通话"/>
+    <moqui.basic.LocalizedMessage original="A greeting is a WAV or Ogg Opus file of at most 10 MB" locale="zh" localized="问候语须为不超过 10 MB 的 WAV 或 Ogg Opus 文件"/>
+    <moqui.basic.LocalizedMessage original="A menu waits 1 to 60 seconds, plays again 0 to 5 times, and takes 1 to 10 keys" locale="zh" localized="菜单等待 1 到 60 秒，重放 0 到 5 次，并接受 1 到 10 个按键"/>
+    <moqui.basic.LocalizedMessage original="A number above 0" locale="zh" localized="须为大于 0 的数字"/>
+    <moqui.basic.LocalizedMessage original="A number rings a user, a ring group, an IVR menu or a queue, or is the voicemail access number" locale="zh" localized="一个号码振铃给用户、振铃组、IVR 菜单或队列，或者是语音信箱接入号码"/>
+    <moqui.basic.LocalizedMessage original="A number with its country code, in E.164" locale="zh" localized="带国家代码的号码，采用 E.164"/>
+    <moqui.basic.LocalizedMessage original="A number, a menu or another queue sends calls to this queue: change that first" locale="zh" localized="有号码、菜单或其他队列把通话送到此队列：请先更改"/>
+    <moqui.basic.LocalizedMessage original="A number, another menu or a queue sends calls to this menu: change that first" locale="zh" localized="有号码、其他菜单或队列把通话送到此菜单：请先更改"/>
+    <moqui.basic.LocalizedMessage original="A phone cannot start an end-to-end encrypted call" locale="zh" localized="电话不能发起端到端加密的通话"/>
+    <moqui.basic.LocalizedMessage original="A promotional text needs the person's consent, and none is recorded" locale="zh" localized="促销短信需要此人的同意，但没有记录到同意"/>
+    <moqui.basic.LocalizedMessage original="A prompt is a WAV or Ogg Opus file of at most 10 MB" locale="zh" localized="提示音须为不超过 10 MB 的 WAV 或 Ogg Opus 文件"/>
+    <moqui.basic.LocalizedMessage original="A queue cannot fall back to itself" locale="zh" localized="队列不能回退到自己"/>
+    <moqui.basic.LocalizedMessage original="A queue has no menu to repeat" locale="zh" localized="队列没有可重复的菜单"/>
+    <moqui.basic.LocalizedMessage original="A queue is not added to a call: transfer the caller to it" locale="zh" localized="不能把队列加入通话：请把来电者转接到该队列"/>
+    <moqui.basic.LocalizedMessage original="A room every user may read has no text members" locale="zh" localized="任何用户都可读的聊天室没有短信成员"/>
+    <moqui.basic.LocalizedMessage original="A room with disappearing messages has no text members: a text cannot be deleted" locale="zh" localized="带限时消失消息的聊天室没有短信成员：短信无法删除"/>
+    <moqui.basic.LocalizedMessage original="A segment needs its spooled file or its received copy" locale="zh" localized="一个片段需要其暂存文件或已接收的副本"/>
+    <moqui.basic.LocalizedMessage original="A trunk needs a host name or address" locale="zh" localized="中继需要主机名或地址"/>
+    <moqui.basic.LocalizedMessage original="A voicemail needs its spooled file or its received copy" locale="zh" localized="一条语音留言需要其暂存文件或已接收的副本"/>
+    <moqui.basic.LocalizedMessage original="Agent not found" locale="zh" localized="未找到座席"/>
+    <moqui.basic.LocalizedMessage original="An emergency number cannot be a text member" locale="zh" localized="紧急号码不能成为短信成员"/>
+    <moqui.basic.LocalizedMessage original="An emergency number is called directly, not transferred to or added" locale="zh" localized="紧急号码应直接呼叫，不能转接过去，也不能加入"/>
+    <moqui.basic.LocalizedMessage original="An end-to-end encrypted call cannot add a phone number" locale="zh" localized="端到端加密的通话不能添加电话号码"/>
+    <moqui.basic.LocalizedMessage original="An end-to-end encrypted call cannot be recorded" locale="zh" localized="端到端加密的通话不能录制"/>
+    <moqui.basic.LocalizedMessage original="An end-to-end encrypted call is not merged" locale="zh" localized="端到端加密的通话不能合并"/>
+    <moqui.basic.LocalizedMessage original="An end-to-end encrypted room has no text members: a text is not encrypted" locale="zh" localized="端到端加密的聊天室没有短信成员：短信未经加密"/>
+    <moqui.basic.LocalizedMessage original="An RCS bridge has one number, its home number, and this bridge has one already" locale="zh" localized="RCS 桥接只有一个号码，即其主号码，而此桥接已经有一个"/>
+    <moqui.basic.LocalizedMessage original="An RCS bridge's number is its home number: set the bridge's fallbackFrom (Twilio) or smsSender (Sinch) to this number first" locale="zh" localized="RCS 桥接的号码即其主号码：请先把此桥接的 fallbackFrom（Twilio）或 smsSender（Sinch）设为此号码"/>
+    <moqui.basic.LocalizedMessage original="Another user's calls are read only internally" locale="zh" localized="其他用户的通话只能在内部读取"/>
+    <moqui.basic.LocalizedMessage original="Call link not found" locale="zh" localized="未找到通话链接"/>
+    <moqui.basic.LocalizedMessage original="Calls are not available: no media server is running" locale="zh" localized="无法通话：没有媒体服务器在运行"/>
+    <moqui.basic.LocalizedMessage original="Calls are waiting in this queue" locale="zh" localized="此队列中有等待的通话"/>
+    <moqui.basic.LocalizedMessage original="Calls to international numbers are not enabled" locale="zh" localized="未启用打往国际号码的通话"/>
+    <moqui.basic.LocalizedMessage original="Calls to premium numbers are not enabled" locale="zh" localized="未启用打往高费率号码的通话"/>
+    <moqui.basic.LocalizedMessage original="Calls to premium numbers are not enabled for you" locale="zh" localized="未为您启用打往高费率号码的通话"/>
+    <moqui.basic.LocalizedMessage original="Captions are turned off on this server" locale="zh" localized="此服务器已关闭字幕"/>
+    <moqui.basic.LocalizedMessage original="Choose a day of the week" locale="zh" localized="请选择星期几"/>
+    <moqui.basic.LocalizedMessage original="Choose a list of callers" locale="zh" localized="请选择一个来电者列表"/>
+    <moqui.basic.LocalizedMessage original="Choose a person or a number" locale="zh" localized="请选择一个人员或号码"/>
+    <moqui.basic.LocalizedMessage original="Choose a PIN that is not one digit repeated or a run like 123456" locale="zh" localized="请选择不是同一数字重复、也不是 123456 这类连续数字的 PIN"/>
+    <moqui.basic.LocalizedMessage original="Choose a transport and a media encryption" locale="zh" localized="请选择传输方式和媒体加密"/>
+    <moqui.basic.LocalizedMessage original="Choose a validation state" locale="zh" localized="请选择验证状态"/>
+    <moqui.basic.LocalizedMessage original="Choose another call to merge" locale="zh" localized="请选择另一通通话来合并"/>
+    <moqui.basic.LocalizedMessage original="Choose another ring group" locale="zh" localized="请选择另一个振铃组"/>
+    <moqui.basic.LocalizedMessage original="Choose how the group rings" locale="zh" localized="请选择组的振铃方式"/>
+    <moqui.basic.LocalizedMessage original="Choose one of your numbers for room texts" locale="zh" localized="请选择您的一个号码用于聊天室短信"/>
+    <moqui.basic.LocalizedMessage original="Choose one of your numbers to call from" locale="zh" localized="请选择您用来呼叫的一个号码"/>
+    <moqui.basic.LocalizedMessage original="Choose one of your numbers to text from" locale="zh" localized="请选择您用来发短信的一个号码"/>
+    <moqui.basic.LocalizedMessage original="Choose someone else" locale="zh" localized="请选择其他人"/>
+    <moqui.basic.LocalizedMessage original="Choose someone else to forward to" locale="zh" localized="请选择其他人作为转移对象"/>
+    <moqui.basic.LocalizedMessage original="Choose someone to call" locale="zh" localized="请选择要呼叫的人"/>
+    <moqui.basic.LocalizedMessage original="Choose spam, not spam or clear" locale="zh" localized="请选择垃圾邮件、不是垃圾信息或清除"/>
+    <moqui.basic.LocalizedMessage original="Choose weekly hours, hours on dates or a holiday" locale="zh" localized="请选择每周时段、指定日期的时段或节假日"/>
+    <moqui.basic.LocalizedMessage original="Choose what happens when nobody answers" locale="zh" localized="请选择无人接听时的处理方式"/>
+    <moqui.basic.LocalizedMessage original="Choose what the rule does" locale="zh" localized="请选择规则的作用"/>
+    <moqui.basic.LocalizedMessage original="Choose what the rule looks for" locale="zh" localized="请选择规则查找的内容"/>
+    <moqui.basic.LocalizedMessage original="Choose where the call goes" locale="zh" localized="请选择通话的去向"/>
+    <moqui.basic.LocalizedMessage original="Choose where the calls go" locale="zh" localized="请选择这些通话的去向"/>
+    <moqui.basic.LocalizedMessage original="Choose where the option goes" locale="zh" localized="请选择选项的去向"/>
+    <moqui.basic.LocalizedMessage original="Confirm that this person agreed to get the room's texts" locale="zh" localized="请确认此人已同意接收该聊天室的短信"/>
+    <moqui.basic.LocalizedMessage original="Dates are yyyy-MM-dd" locale="zh" localized="日期格式为 yyyy-MM-dd"/>
+    <moqui.basic.LocalizedMessage original="Digest algorithms are SHA-256, SHA-512-256 and MD5" locale="zh" localized="摘要算法为 SHA-256、SHA-512-256 和 MD5"/>
+    <moqui.basic.LocalizedMessage original="Emergency location not found" locale="zh" localized="未找到紧急位置"/>
+    <moqui.basic.LocalizedMessage original="Every call in an encrypted room is end-to-end encrypted" locale="zh" localized="加密聊天室中的每通通话都是端到端加密的"/>
+    <moqui.basic.LocalizedMessage original="Forward to a phone number with its country code" locale="zh" localized="转移到带国家代码的电话号码"/>
+    <moqui.basic.LocalizedMessage original="Give the group a name" locale="zh" localized="请为组命名"/>
+    <moqui.basic.LocalizedMessage original="Give the link a name" locale="zh" localized="请为链接命名"/>
+    <moqui.basic.LocalizedMessage original="Give the list a name" locale="zh" localized="请为列表命名"/>
+    <moqui.basic.LocalizedMessage original="Give the schedule a name" locale="zh" localized="请为时间表命名"/>
+    <moqui.basic.LocalizedMessage original="Give your name" locale="zh" localized="请填写您的姓名"/>
+    <moqui.basic.LocalizedMessage original="International calls are not enabled for you" locale="zh" localized="未为您启用国际通话"/>
+    <moqui.basic.LocalizedMessage original="IVR menu not found" locale="zh" localized="未找到 IVR 菜单"/>
+    <moqui.basic.LocalizedMessage original="Join the call to let people in" locale="zh" localized="请加入通话，以便让其他人进入"/>
+    <moqui.basic.LocalizedMessage original="Limits are whole numbers" locale="zh" localized="上限须为整数"/>
+    <moqui.basic.LocalizedMessage original="Limits are whole numbers of 1 or more" locale="zh" localized="上限须为 1 或更大的整数"/>
+    <moqui.basic.LocalizedMessage original="List not found" locale="zh" localized="未找到列表"/>
+    <moqui.basic.LocalizedMessage original="Location: a place" locale="zh" localized="位置：一个地点"/>
+    <moqui.basic.LocalizedMessage original="Log in, log out, pause or resume" locale="zh" localized="请登录、退出登录、暂停或继续"/>
+    <moqui.basic.LocalizedMessage original="Many people are joining by this link: try again in a minute" locale="zh" localized="很多人正通过此链接加入：请一分钟后再试"/>
+    <moqui.basic.LocalizedMessage original="Member not found" locale="zh" localized="未找到成员"/>
+    <moqui.basic.LocalizedMessage original="Menu not found" locale="zh" localized="未找到菜单"/>
+    <moqui.basic.LocalizedMessage original="Name a user or a ring group" locale="zh" localized="请指定用户或振铃组"/>
+    <moqui.basic.LocalizedMessage original="Name the menu" locale="zh" localized="请为菜单命名"/>
+    <moqui.basic.LocalizedMessage original="Name the queue" locale="zh" localized="请为队列命名"/>
+    <moqui.basic.LocalizedMessage original="Nobody takes this call" locale="zh" localized="没有人接听此通话"/>
+    <moqui.basic.LocalizedMessage original="Not a binding of the edge node" locale="zh" localized="不是边缘节点的绑定"/>
+    <moqui.basic.LocalizedMessage original="Not a queue strategy" locale="zh" localized="不是一种队列策略"/>
+    <moqui.basic.LocalizedMessage original="Nothing was dialed" locale="zh" localized="没有拨出任何号码"/>
+    <moqui.basic.LocalizedMessage original="Number not found" locale="zh" localized="未找到号码"/>
+    <moqui.basic.LocalizedMessage original="Only a moderator or owner may add a text member" locale="zh" localized="只有主持人或所有者可以添加短信成员"/>
+    <moqui.basic.LocalizedMessage original="Only a moderator or owner may rename a text member" locale="zh" localized="只有主持人或所有者可以重命名短信成员"/>
+    <moqui.basic.LocalizedMessage original="Only a phone call's outside party is transferred: add the person to the call instead" locale="zh" localized="只能转接电话通话的外部参与方：请改为把此人加入通话"/>
+    <moqui.basic.LocalizedMessage original="Only a private room has text members" locale="zh" localized="只有私密聊天室可以有短信成员"/>
+    <moqui.basic.LocalizedMessage original="Only a voice administrator may do this" locale="zh" localized="只有语音管理员可以执行此操作"/>
+    <moqui.basic.LocalizedMessage original="Only the edge link queue stores a message the edge node recorded" locale="zh" localized="只有边缘链路队列保存边缘节点录制的留言"/>
+    <moqui.basic.LocalizedMessage original="Only the edge link queue stores an edge recording" locale="zh" localized="只有边缘链路队列保存边缘录音"/>
+    <moqui.basic.LocalizedMessage original="Only the host ends the call for everyone" locale="zh" localized="只有主持人可以为所有人结束通话"/>
+    <moqui.basic.LocalizedMessage original="Only the host records the call" locale="zh" localized="只有主持人可以录制通话"/>
+    <moqui.basic.LocalizedMessage original="Only the host removes people" locale="zh" localized="只有主持人可以移除人员"/>
+    <moqui.basic.LocalizedMessage original="Only the one who recorded it deletes a recording" locale="zh" localized="只有录制者可以删除录音"/>
+    <moqui.basic.LocalizedMessage original="Option not found" locale="zh" localized="未找到选项"/>
+    <moqui.basic.LocalizedMessage original="Phone calls are not available on this call's media server" locale="zh" localized="此通话的媒体服务器上无法进行电话通话"/>
+    <moqui.basic.LocalizedMessage original="Phone calls are not available: no SIP server is running" locale="zh" localized="无法进行电话通话：没有 SIP 服务器在运行"/>
+    <moqui.basic.LocalizedMessage original="Phone calls are not available: no SIP server is running. Call emergency services from another phone." locale="zh" localized="无法进行电话通话：没有 SIP 服务器在运行。请用另一部电话呼叫紧急服务。"/>
+    <moqui.basic.LocalizedMessage original="Phone not found" locale="zh" localized="未找到电话"/>
+    <moqui.basic.LocalizedMessage original="Phones do not go through the edge node" locale="zh" localized="电话不经过边缘节点"/>
+    <moqui.basic.LocalizedMessage original="Queue not found" locale="zh" localized="未找到队列"/>
+    <moqui.basic.LocalizedMessage original="Recording calls is off on this server" locale="zh" localized="此服务器已关闭通话录音"/>
+    <moqui.basic.LocalizedMessage original="Recording not found" locale="zh" localized="未找到录音"/>
+    <moqui.basic.LocalizedMessage original="Remove a phone before adding another" locale="zh" localized="添加另一部电话之前请先移除一部"/>
+    <moqui.basic.LocalizedMessage original="Ring each member 5 to 300 seconds" locale="zh" localized="每个成员振铃 5 到 300 秒"/>
+    <moqui.basic.LocalizedMessage original="Ring group not found" locale="zh" localized="未找到振铃组"/>
+    <moqui.basic.LocalizedMessage original="Rule not found" locale="zh" localized="未找到规则"/>
+    <moqui.basic.LocalizedMessage original="Schedule not found" locale="zh" localized="未找到时间表"/>
+    <moqui.basic.LocalizedMessage original="Sign in first" locale="zh" localized="请先登录"/>
+    <moqui.basic.LocalizedMessage original="Sign in to add a phone" locale="zh" localized="请登录后再添加电话"/>
+    <moqui.basic.LocalizedMessage original="Sign in to add a text member" locale="zh" localized="请登录后再添加短信成员"/>
+    <moqui.basic.LocalizedMessage original="Sign in to change your call settings" locale="zh" localized="请登录后再更改通话设置"/>
+    <moqui.basic.LocalizedMessage original="Sign in to make a call" locale="zh" localized="请登录后再拨打电话"/>
+    <moqui.basic.LocalizedMessage original="Sign in to make a call link" locale="zh" localized="请登录后再创建通话链接"/>
+    <moqui.basic.LocalizedMessage original="Sign in to see your call settings" locale="zh" localized="请登录后再查看通话设置"/>
+    <moqui.basic.LocalizedMessage original="Sign in to see your phones" locale="zh" localized="请登录后再查看您的电话"/>
+    <moqui.basic.LocalizedMessage original="Sign in to send a text" locale="zh" localized="请登录后再发短信"/>
+    <moqui.basic.LocalizedMessage original="Sign in to use calls" locale="zh" localized="请登录后再使用通话"/>
+    <moqui.basic.LocalizedMessage original="Sign in to use captions" locale="zh" localized="请登录后再使用字幕"/>
+    <moqui.basic.LocalizedMessage original="SMS or RCS bridge not found" locale="zh" localized="未找到 SMS 或 RCS 桥接"/>
+    <moqui.basic.LocalizedMessage original="Start a call from a chat room you are in" locale="zh" localized="请从您所在的聊天室发起通话"/>
+    <moqui.basic.LocalizedMessage original="Stop the recording before deleting it" locale="zh" localized="删除前请先停止录音"/>
+    <moqui.basic.LocalizedMessage original="Text member not found" locale="zh" localized="未找到短信成员"/>
+    <moqui.basic.LocalizedMessage original="Texts to international numbers are not enabled" locale="zh" localized="未启用发往国际号码的短信"/>
+    <moqui.basic.LocalizedMessage original="Texts to premium numbers are not enabled" locale="zh" localized="未启用发往高费率号码的短信"/>
+    <moqui.basic.LocalizedMessage original="That is not a phone number" locale="zh" localized="这不是电话号码"/>
+    <moqui.basic.LocalizedMessage original="That is not an email address" locale="zh" localized="这不是电子邮件地址"/>
+    <moqui.basic.LocalizedMessage original="That is one of our numbers" locale="zh" localized="那是我们的号码之一"/>
+    <moqui.basic.LocalizedMessage original="That is one of our numbers: choose the person or queue it rings" locale="zh" localized="那是我们的号码之一：请选择它振铃的人员或队列"/>
+    <moqui.basic.LocalizedMessage original="That number has no messaging" locale="zh" localized="该号码未开通消息"/>
+    <moqui.basic.LocalizedMessage original="That source has no failures" locale="zh" localized="该来源没有失败记录"/>
+    <moqui.basic.LocalizedMessage original="The Blocked list keeps its name" locale="zh" localized="已阻止列表保留其名称"/>
+    <moqui.basic.LocalizedMessage original="The call changed since you saw it: look again and try again" locale="zh" localized="自您查看后通话已变化：请重新查看后再试"/>
+    <moqui.basic.LocalizedMessage original="The call has moved on from that step" locale="zh" localized="通话已离开该步骤"/>
+    <moqui.basic.LocalizedMessage original="The call has no media server" locale="zh" localized="此通话没有媒体服务器"/>
+    <moqui.basic.LocalizedMessage original="The call has not started" locale="zh" localized="通话尚未开始"/>
+    <moqui.basic.LocalizedMessage original="The call is full" locale="zh" localized="通话已满"/>
+    <moqui.basic.LocalizedMessage original="The call is not being recorded" locale="zh" localized="此通话未在录制"/>
+    <moqui.basic.LocalizedMessage original="The callback number is not a phone number" locale="zh" localized="回拨号码不是电话号码"/>
+    <moqui.basic.LocalizedMessage original="The country code is 1 to 3 digits" locale="zh" localized="国家代码为 1 到 3 位数字"/>
+    <moqui.basic.LocalizedMessage original="The edge node had no digest answer of this phone checked" locale="zh" localized="边缘节点未核验过此电话的摘要应答"/>
+    <moqui.basic.LocalizedMessage original="The edge node keeps the bindings of its own SIP node only" locale="zh" localized="边缘节点只保留自己的 SIP 节点的绑定"/>
+    <moqui.basic.LocalizedMessage original="The edge node notes media events only of calls whose media is on it" locale="zh" localized="边缘节点只记录媒体在本节点上的通话的媒体事件"/>
+    <moqui.basic.LocalizedMessage original="The edge node notes only the legs of calls whose media is on it" locale="zh" localized="边缘节点只记录媒体在本节点上的通话的话路"/>
+    <moqui.basic.LocalizedMessage original="The edge node sends to voicemail only calls whose media is on it" locale="zh" localized="边缘节点只把媒体在本节点上的通话转入语音信箱"/>
+    <moqui.basic.LocalizedMessage original="The edge node stores only recordings of calls whose media is on it" locale="zh" localized="边缘节点只保存媒体在本节点上的通话录音"/>
+    <moqui.basic.LocalizedMessage original="The edge node takes calls only on its own SIP engine" locale="zh" localized="边缘节点只在自己的 SIP 引擎上接听通话"/>
+    <moqui.basic.LocalizedMessage original="The edge recording item is not JSON" locale="zh" localized="边缘录音项不是 JSON"/>
+    <moqui.basic.LocalizedMessage original="The edge recording segment came without its file" locale="zh" localized="边缘录音片段到达时没有文件"/>
+    <moqui.basic.LocalizedMessage original="The edge voicemail item came without its audio" locale="zh" localized="边缘语音留言项到达时没有音频"/>
+    <moqui.basic.LocalizedMessage original="The edge voicemail item is not JSON" locale="zh" localized="边缘语音留言项不是 JSON"/>
+    <moqui.basic.LocalizedMessage original="The fallback is a phone number with its country code" locale="zh" localized="回退是一个带国家代码的电话号码"/>
+    <moqui.basic.LocalizedMessage original="The limit of phone calls for a day is reached" locale="zh" localized="已达到一天的电话通话上限"/>
+    <moqui.basic.LocalizedMessage original="The limit of texts for a day is reached" locale="zh" localized="已达到一天的短信上限"/>
+    <moqui.basic.LocalizedMessage original="The list is full" locale="zh" localized="列表已满"/>
+    <moqui.basic.LocalizedMessage original="The mobile number is not a phone number" locale="zh" localized="手机号码不是电话号码"/>
+    <moqui.basic.LocalizedMessage original="The notification destination is an email address" locale="zh" localized="通知目标须为电子邮件地址"/>
+    <moqui.basic.LocalizedMessage original="The person who added this text member can no longer send texts: a moderator adds them again" locale="zh" localized="添加此短信成员的人已不能再发短信：请由主持人重新添加"/>
+    <moqui.basic.LocalizedMessage original="The person who added this text member may no longer text from this number: a moderator adds them again" locale="zh" localized="添加此短信成员的人已不能再用此号码发短信：请由主持人重新添加"/>
+    <moqui.basic.LocalizedMessage original="The person you are transferring to has not answered yet" locale="zh" localized="您要转接的人尚未接听"/>
+    <moqui.basic.LocalizedMessage original="The registrar is off" locale="zh" localized="注册器已关闭"/>
+    <moqui.basic.LocalizedMessage original="The system texts from one of our numbers that has messaging" locale="zh" localized="系统从我们已开通消息的号码之一发短信"/>
+    <moqui.basic.LocalizedMessage original="These calls are on different media servers, so they cannot be merged (turn on media-server@cascade-enabled)" locale="zh" localized="这些通话在不同的媒体服务器上，因此不能合并（请开启 media-server@cascade-enabled）"/>
+    <moqui.basic.LocalizedMessage original="They are in the call or it rings for them already" locale="zh" localized="他们已在通话中，或通话已在为其振铃"/>
+    <moqui.basic.LocalizedMessage original="This call cannot go to voicemail now" locale="zh" localized="此通话现在不能转入语音信箱"/>
+    <moqui.basic.LocalizedMessage original="This call goes through the media server" locale="zh" localized="此通话经过媒体服务器"/>
+    <moqui.basic.LocalizedMessage original="This call has no phone in it" locale="zh" localized="此通话中没有电话"/>
+    <moqui.basic.LocalizedMessage original="This call has no voicemail box" locale="zh" localized="此通话没有语音信箱"/>
+    <moqui.basic.LocalizedMessage original="This call is being transferred already" locale="zh" localized="此通话已在转接中"/>
+    <moqui.basic.LocalizedMessage original="This call is end-to-end encrypted, and this browser cannot encrypt call media (it has no RTCRtpScriptTransform)" locale="zh" localized="此通话是端到端加密的，而此浏览器无法加密通话媒体（没有 RTCRtpScriptTransform）"/>
+    <moqui.basic.LocalizedMessage original="This call is end-to-end encrypted, and this browser has no encryption device for you" locale="zh" localized="此通话是端到端加密的，而此浏览器没有您的加密设备"/>
+    <moqui.basic.LocalizedMessage original="This call is end-to-end encrypted, and this browser has not named its encryption device" locale="zh" localized="此通话是端到端加密的，而此浏览器尚未指定其加密设备"/>
+    <moqui.basic.LocalizedMessage original="This call is end-to-end encrypted, so it cannot have captions" locale="zh" localized="此通话是端到端加密的，因此不能有字幕"/>
+    <moqui.basic.LocalizedMessage original="This call is not end-to-end encrypted" locale="zh" localized="此通话不是端到端加密的"/>
+    <moqui.basic.LocalizedMessage original="This call is not ringing for you" locale="zh" localized="此通话没有在为您振铃"/>
+    <moqui.basic.LocalizedMessage original="This meeting is end-to-end encrypted: guests cannot join it" locale="zh" localized="此会议是端到端加密的：访客不能加入"/>
+    <moqui.basic.LocalizedMessage original="This number is a text member of the room already" locale="zh" localized="此号码已是该聊天室的短信成员"/>
+    <moqui.basic.LocalizedMessage original="This number is not a text member of the room" locale="zh" localized="此号码不是该聊天室的短信成员"/>
+    <moqui.basic.LocalizedMessage original="This number no longer carries rooms' texts" locale="zh" localized="此号码不再承载聊天室的短信"/>
+    <moqui.basic.LocalizedMessage original="This number's texting provider does not carry group texts" locale="zh" localized="此号码的短信服务商不支持群组短信"/>
+    <moqui.basic.LocalizedMessage original="This phone cannot place calls now" locale="zh" localized="此电话现在不能拨打电话"/>
+    <moqui.basic.LocalizedMessage original="This phone cannot transfer now" locale="zh" localized="此电话现在不能转接"/>
+    <moqui.basic.LocalizedMessage original="This phone was removed" locale="zh" localized="此电话已被移除"/>
+    <moqui.basic.LocalizedMessage original="This rule needs a pattern" locale="zh" localized="此规则需要一个模式"/>
+    <moqui.basic.LocalizedMessage original="This transfer is not waiting for you" locale="zh" localized="此转接并非在等您"/>
+    <moqui.basic.LocalizedMessage original="This voicemail has no audio to transcribe" locale="zh" localized="此语音留言没有可转写的音频"/>
+    <moqui.basic.LocalizedMessage original="This voicemail is transcribed or being transcribed" locale="zh" localized="此语音留言已转写或正在转写"/>
+    <moqui.basic.LocalizedMessage original="Times are HH:mm, such as 08:30" locale="zh" localized="时间格式为 HH:mm，例如 08:30"/>
+    <moqui.basic.LocalizedMessage original="Transfer not found" locale="zh" localized="未找到转接"/>
+    <moqui.basic.LocalizedMessage original="Transfer to a person, a number or a queue" locale="zh" localized="请转接给一个人、一个号码或一个队列"/>
+    <moqui.basic.LocalizedMessage original="Trunk not found" locale="zh" localized="未找到中继"/>
+    <moqui.basic.LocalizedMessage original="User not found" locale="zh" localized="未找到用户"/>
+    <moqui.basic.LocalizedMessage original="Voicemail box not found" locale="zh" localized="未找到语音信箱"/>
+    <moqui.basic.LocalizedMessage original="Voicemail not found" locale="zh" localized="未找到语音留言"/>
+    <moqui.basic.LocalizedMessage original="Weekly hours need a start and an end" locale="zh" localized="每周时段需要开始和结束时间"/>
+    <moqui.basic.LocalizedMessage original="You are not in this call" locale="zh" localized="您不在此通话中"/>
+    <moqui.basic.LocalizedMessage original="You are not in this call yet" locale="zh" localized="您尚未进入此通话"/>
+    <moqui.basic.LocalizedMessage original="You are not in this call: join it instead" locale="zh" localized="您不在此通话中：请改为加入"/>
+    <moqui.basic.LocalizedMessage original="You blocked this number" locale="zh" localized="您已阻止此号码"/>
+    <moqui.basic.LocalizedMessage original="You have too many lists" locale="zh" localized="您的列表过多"/>
+    <moqui.basic.LocalizedMessage original="You have too many rules" locale="zh" localized="您的规则过多"/>
+    <moqui.basic.LocalizedMessage original="You may add phones only for yourself" locale="zh" localized="您只能为自己添加电话"/>
+    <moqui.basic.LocalizedMessage original="You may not call outside numbers" locale="zh" localized="您不能呼叫外部号码"/>
+    <moqui.basic.LocalizedMessage original="You may not call that number" locale="zh" localized="您不能呼叫该号码"/>
+    <moqui.basic.LocalizedMessage original="You may not text from that number" locale="zh" localized="您不能用该号码发短信"/>
+    <moqui.basic.LocalizedMessage original="You may not transfer this call or add to it" locale="zh" localized="您不能转接此通话，也不能向其中加人"/>
+    <moqui.basic.LocalizedMessage original="You take no calls for that queue" locale="zh" localized="您不接听该队列的通话"/>
+    <moqui.basic.LocalizedMessage original="You were removed from this call" locale="zh" localized="您已被移出此通话"/>
+    <moqui.basic.LocalizedMessage original="Your number has no trunk to call out through" locale="zh" localized="您的号码没有可用于外呼的中继"/>
+</entity-facade-xml>

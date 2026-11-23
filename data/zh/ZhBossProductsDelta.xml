@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+
+<entity-facade-xml type="zh">
+    <moqui.basic.LocalizedMessage original="${allowCostSelfApproval == 'true' ? 'Enabled' : 'Disabled'} (set by a holder of PRODUCT_COST_SELF_APPROVAL)" locale="zh" localized="${allowCostSelfApproval == 'true' ? '已启用' : '已禁用'}（由持有 PRODUCT_COST_SELF_APPROVAL 的人设置）"/>
+    <moqui.basic.LocalizedMessage original="A copied file's place is not its product's folder" locale="zh" localized="所复制文件的位置不是其产品的文件夹"/>
+    <moqui.basic.LocalizedMessage original="A price change must have an audited author" locale="zh" localized="价格变更必须在审计跟踪中有作者"/>
+    <moqui.basic.LocalizedMessage original="A requested field is outside the organization copy allowlist" locale="zh" localized="所请求的字段不在组织允许复制的字段列表中"/>
+    <moqui.basic.LocalizedMessage original="A required or conflicting feature is unavailable" locale="zh" localized="必填或冲突的特征不可用"/>
+    <moqui.basic.LocalizedMessage original="Another list" locale="zh" localized="另一价格表"/>
+    <moqui.basic.LocalizedMessage original="As of ${summary.asOf} (${catalogTimeZone}). Ending soon: sales discontinuation within 30 days." locale="zh" localized="截至 ${summary.asOf}（${catalogTimeZone}）。即将停售：30 天内销售中止。"/>
+    <moqui.basic.LocalizedMessage original="BOM does not belong to this product" locale="zh" localized="BOM 不属于此产品"/>
+    <moqui.basic.LocalizedMessage original="BOM item is not in this product method" locale="zh" localized="BOM 项不在此产品的方法中"/>
+    <moqui.basic.LocalizedMessage original="Catalog editor authority is required" locale="zh" localized="需要目录编辑权限"/>
+    <moqui.basic.LocalizedMessage original="Catalog editor authority over the owner is required" locale="zh" localized="需要对所有者的目录编辑权限"/>
+    <moqui.basic.LocalizedMessage original="Catalog ID is already in use" locale="zh" localized="目录 ID 已被使用"/>
+    <moqui.basic.LocalizedMessage original="Catalog ID must contain 1–40 letters, numbers, dots, dashes or underscores" locale="zh" localized="目录 ID 必须包含 1–40 个字母、数字、点、连字符或下划线"/>
+    <moqui.basic.LocalizedMessage original="Catalog import completed" locale="zh" localized="目录导入已完成"/>
+    <moqui.basic.LocalizedMessage original="Catalog import needs attention" locale="zh" localized="目录导入需要关注"/>
+    <moqui.basic.LocalizedMessage original="Catalog read authority is required" locale="zh" localized="需要目录读取权限"/>
+    <moqui.basic.LocalizedMessage original="Catalog record is not available for this action" locale="zh" localized="目录记录不可用于此操作"/>
+    <moqui.basic.LocalizedMessage original="Category ancestor is not available" locale="zh" localized="类别祖先不可用"/>
+    <moqui.basic.LocalizedMessage original="Category copying is not enabled by variant policy" locale="zh" localized="变体策略未启用类别复制"/>
+    <moqui.basic.LocalizedMessage original="Category edge end must follow its start" locale="zh" localized="类别从属关系的结束必须晚于其开始"/>
+    <moqui.basic.LocalizedMessage original="Category identifier is already assigned" locale="zh" localized="类别标识符已被分配"/>
+    <moqui.basic.LocalizedMessage original="Choose a category or feature bulk action" locale="zh" localized="请选择类别或特征的批量操作"/>
+    <moqui.basic.LocalizedMessage original="Choose a feature application type" locale="zh" localized="请选择特征的应用类型"/>
+    <moqui.basic.LocalizedMessage original="Choose a price currency" locale="zh" localized="请选择价格的货币"/>
+    <moqui.basic.LocalizedMessage original="Choose a stockable product and authorized facility." locale="zh" localized="请选择可存货的产品和已授权的设施。"/>
+    <moqui.basic.LocalizedMessage original="Choose a tag category" locale="zh" localized="请选择一个标签类别"/>
+    <moqui.basic.LocalizedMessage original="Choose a URL slug and enter its value" locale="zh" localized="请选择一个 URL 别名并输入其值"/>
+    <moqui.basic.LocalizedMessage original="Choose a valid catalog type" locale="zh" localized="请选择有效的目录类型"/>
+    <moqui.basic.LocalizedMessage original="Choose a valid offer date" locale="zh" localized="请选择有效的报价日期"/>
+    <moqui.basic.LocalizedMessage original="Choose a virtual product" locale="zh" localized="请选择一个虚拟产品"/>
+    <moqui.basic.LocalizedMessage original="Choose an authorized stock facility." locale="zh" localized="请选择已授权的库存设施。"/>
+    <moqui.basic.LocalizedMessage original="Choose an available internal buying organization" locale="zh" localized="请选择一个可用的内部采购组织"/>
+    <moqui.basic.LocalizedMessage original="Choose an available price organization" locale="zh" localized="请选择一个可用的价格组织"/>
+    <moqui.basic.LocalizedMessage original="Choose an internal owner" locale="zh" localized="请选择一个内部所有者"/>
+    <moqui.basic.LocalizedMessage original="Choose approvals from this method" locale="zh" localized="请选择此方法的审批"/>
+    <moqui.basic.LocalizedMessage original="Confirm the reviewed price changes before applying." locale="zh" localized="应用前请确认已复核的价格变更。"/>
+    <moqui.basic.LocalizedMessage original="Create and release a method before running this report." locale="zh" localized="运行此报告前，请先创建并发放一个方法。"/>
+    <moqui.basic.LocalizedMessage original="Create or select a BOM first" locale="zh" localized="请先创建或选择一个 BOM"/>
+    <moqui.basic.LocalizedMessage original="Drive reference" locale="zh" localized="网盘引用"/>
+    <moqui.basic.LocalizedMessage original="End must follow start" locale="zh" localized="结束必须晚于开始"/>
+    <moqui.basic.LocalizedMessage original="Ending soon" locale="zh" localized="即将停售"/>
+    <moqui.basic.LocalizedMessage original="Estimate does not belong to this product" locale="zh" localized="估算不属于此产品"/>
+    <moqui.basic.LocalizedMessage original="Existing combination is not available" locale="zh" localized="现有组合不可用"/>
+    <moqui.basic.LocalizedMessage original="Facility is not available" locale="zh" localized="设施不可用"/>
+    <moqui.basic.LocalizedMessage original="Feature group is not available for this product" locale="zh" localized="特征组不可用于此产品"/>
+    <moqui.basic.LocalizedMessage original="Feature measurement units cannot be currencies" locale="zh" localized="特征的计量单位不能是货币"/>
+    <moqui.basic.LocalizedMessage original="Identifier is not on this category" locale="zh" localized="标识符不在此类别上"/>
+    <moqui.basic.LocalizedMessage original="Kit availability includes assemblies possible from components." locale="zh" localized="套件可用量包括可由组件装配的数量。"/>
+    <moqui.basic.LocalizedMessage original="Kits use dated Kit components. Their usage is shown read only." locale="zh" localized="套件使用带日期的 Kit 组件。其用量以只读方式显示。"/>
+    <moqui.basic.LocalizedMessage original="Managed file" locale="zh" localized="托管文件"/>
+    <moqui.basic.LocalizedMessage original="Manufacturing method access is required." locale="zh" localized="需要制造方法权限。"/>
+    <moqui.basic.LocalizedMessage original="Minimum remaining shelf life" locale="zh" localized="最短剩余保质期"/>
+    <moqui.basic.LocalizedMessage original="Move date precedes the selected edge" locale="zh" localized="移动日期早于所选从属关系"/>
+    <moqui.basic.LocalizedMessage original="Name or description is required" locale="zh" localized="必须填写名称或描述"/>
+    <moqui.basic.LocalizedMessage original="Needs catalog editing access, which an administrator can grant." locale="zh" localized="需要目录编辑权限，管理员可以授予。"/>
+    <moqui.basic.LocalizedMessage original="Needs catalog, price or supplier price editing access, which an administrator can grant." locale="zh" localized="需要目录、价格或供应商价格的编辑权限，管理员可以授予。"/>
+    <moqui.basic.LocalizedMessage original="No authorized stock facility is available." locale="zh" localized="没有已授权的库存设施。"/>
+    <moqui.basic.LocalizedMessage original="No indexed projection is available for this product, facility and owner." locale="zh" localized="没有此产品、设施和所有者的已索引库存预计。"/>
+    <moqui.basic.LocalizedMessage original="Not released" locale="zh" localized="未发放"/>
+    <moqui.basic.LocalizedMessage original="Offer is outside the fixed supplier and buyer scope" locale="zh" localized="报价超出固定的供应商和采购方范围"/>
+    <moqui.basic.LocalizedMessage original="Only an effective parent edge can be moved" locale="zh" localized="只能移动当前有效的上级从属关系"/>
+    <moqui.basic.LocalizedMessage original="Only supplier offers belong here" locale="zh" localized="此处仅限供应商报价"/>
+    <moqui.basic.LocalizedMessage original="Only the scheduler or a system administrator sends expiration notices" locale="zh" localized="只有调度程序或系统管理员会发送到期通知"/>
+    <moqui.basic.LocalizedMessage original="Only unused drafts may be deleted" locale="zh" localized="只能删除未使用的草稿"/>
+    <moqui.basic.LocalizedMessage original="Operation item is not available" locale="zh" localized="操作项不可用"/>
+    <moqui.basic.LocalizedMessage original="Operation key is already bound to another selection" locale="zh" localized="操作键已绑定到另一选择"/>
+    <moqui.basic.LocalizedMessage original="Owner changes require a separate migration" locale="zh" localized="所有者变更需要单独的迁移"/>
+    <moqui.basic.LocalizedMessage original="Preview the selection before generating" locale="zh" localized="生成前请预览所选内容"/>
+    <moqui.basic.LocalizedMessage original="Price authority for this direction is required" locale="zh" localized="需要此方向的价格权限"/>
+    <moqui.basic.LocalizedMessage original="Price authority is required" locale="zh" localized="需要价格权限"/>
+    <moqui.basic.LocalizedMessage original="Price edit authority is required" locale="zh" localized="需要价格编辑权限"/>
+    <moqui.basic.LocalizedMessage original="Price is not on this product" locale="zh" localized="价格不在此产品上"/>
+    <moqui.basic.LocalizedMessage original="Price notice recipient is not authorized" locale="zh" localized="价格通知的收件人未获授权"/>
+    <moqui.basic.LocalizedMessage original="Price read authority is required" locale="zh" localized="需要价格读取权限"/>
+    <moqui.basic.LocalizedMessage original="Price record is not available" locale="zh" localized="价格记录不可用"/>
+    <moqui.basic.LocalizedMessage original="Product is not available" locale="zh" localized="产品不可用"/>
+    <moqui.basic.LocalizedMessage original="Product is not available for this action" locale="zh" localized="产品不可用于此操作"/>
+    <moqui.basic.LocalizedMessage original="Projection may be stale or incomplete. Current stock remains available on Summary." locale="zh" localized="库存预计可能已过期或不完整。当前库存仍可在摘要中查看。"/>
+    <moqui.basic.LocalizedMessage original="Provide an operation key with 1–40 letters, numbers, dots, dashes or underscores" locale="zh" localized="请提供由 1–40 个字母、数字、点、连字符或下划线组成的操作键"/>
+    <moqui.basic.LocalizedMessage original="Remove product relationships before deleting an unused draft" locale="zh" localized="删除未使用的草稿前，请先移除产品关系"/>
+    <moqui.basic.LocalizedMessage original="Restricted interaction" locale="zh" localized="受限交互"/>
+    <moqui.basic.LocalizedMessage original="Routing belongs to another method organization" locale="zh" localized="工艺路线属于另一个方法组织"/>
+    <moqui.basic.LocalizedMessage original="Routing is not available" locale="zh" localized="工艺路线不可用"/>
+    <moqui.basic.LocalizedMessage original="Search backend is unavailable" locale="zh" localized="搜索后端不可用"/>
+    <moqui.basic.LocalizedMessage original="Select 1–1000 product IDs" locale="zh" localized="请选择 1–1000 个产品 ID"/>
+    <moqui.basic.LocalizedMessage original="Select at least one feature combination" locale="zh" localized="请至少选择一个特征组合"/>
+    <moqui.basic.LocalizedMessage original="Shared catalog context is not available" locale="zh" localized="共享目录上下文不可用"/>
+    <moqui.basic.LocalizedMessage original="Shelf life in days" locale="zh" localized="保质期天数"/>
+    <moqui.basic.LocalizedMessage original="Standard-cost read authority is required." locale="zh" localized="需要标准成本的读取权限。"/>
+    <moqui.basic.LocalizedMessage original="Stock organization is not available" locale="zh" localized="库存组织不可用"/>
+    <moqui.basic.LocalizedMessage original="Stock quantity agrees" locale="zh" localized="库存数量一致"/>
+    <moqui.basic.LocalizedMessage original="Stock quantity differs" locale="zh" localized="库存数量不一致"/>
+    <moqui.basic.LocalizedMessage original="Store is not available" locale="zh" localized="商店不可用"/>
+    <moqui.basic.LocalizedMessage original="Submit at most 100000 combinations in one durable operation" locale="zh" localized="一次持久操作最多提交 100000 种组合"/>
+    <moqui.basic.LocalizedMessage original="Supplier offer is not available" locale="zh" localized="供应商报价不可用"/>
+    <moqui.basic.LocalizedMessage original="Supplier-price authority is required" locale="zh" localized="需要供应商价格权限"/>
+    <moqui.basic.LocalizedMessage original="This document changed. Your submission is retained as a separate draft." locale="zh" localized="此文档已变更。您的提交作为单独草稿保留。"/>
+    <moqui.basic.LocalizedMessage original="This method has no routing yet." locale="zh" localized="此方法还没有工艺路线。"/>
+    <moqui.basic.LocalizedMessage original="This parent edge already overlaps that interval" locale="zh" localized="此上级从属关系已与该间隔重叠"/>
+    <moqui.basic.LocalizedMessage original="This product does not carry stock." locale="zh" localized="此产品不计库存。"/>
+    <moqui.basic.LocalizedMessage original="This relationship already overlaps that interval" locale="zh" localized="此关系已与该间隔重叠"/>
+    <moqui.basic.LocalizedMessage original="This report is incomplete. Review its findings." locale="zh" localized="此报告不完整。请查看其发现。"/>
+    <moqui.basic.LocalizedMessage original="Typed price" locale="zh" localized="录入价格"/>
+    <moqui.basic.LocalizedMessage original="Unknown catalog choice" locale="zh" localized="未知的目录选项"/>
+    <moqui.basic.LocalizedMessage original="Unknown catalog document operation" locale="zh" localized="未知的目录文档操作"/>
+    <moqui.basic.LocalizedMessage original="Unknown catalog master type" locale="zh" localized="未知的目录主数据类型"/>
+    <moqui.basic.LocalizedMessage original="Unknown catalog workspace" locale="zh" localized="未知的目录工作区"/>
+    <moqui.basic.LocalizedMessage original="Unknown price notice" locale="zh" localized="未知的价格通知"/>
+    <moqui.basic.LocalizedMessage original="Unknown shared context action" locale="zh" localized="未知的共享上下文操作"/>
+    <moqui.basic.LocalizedMessage original="Unknown taxonomy row type" locale="zh" localized="未知的分类体系行类型"/>
+    <moqui.basic.LocalizedMessage original="Variant operation is not available" locale="zh" localized="变体操作不可用"/>
+    <moqui.basic.LocalizedMessage original="Variant produced no result" locale="zh" localized="变体未产生结果"/>
+    <moqui.basic.LocalizedMessage original="Warehouse stock-planner or manager authority is required" locale="zh" localized="需要仓库库存计划员或仓库经理权限"/>
+</entity-facade-xml>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+
+<entity-facade-xml type="es">
+    <moqui.basic.LocalizedMessage original="${count} approvers" locale="es" localized="${count} aprobadores"/>
+    <moqui.basic.LocalizedMessage original="${count} categories" locale="es" localized="${count} categorías"/>
+    <moqui.basic.LocalizedMessage original="${count} published" locale="es" localized="${count} publicadas"/>
+    <moqui.basic.LocalizedMessage original="${count} purposes" locale="es" localized="${count} propósitos"/>
+    <moqui.basic.LocalizedMessage original="${count} response rules in effect" locale="es" localized="${count} reglas de respuesta en vigor"/>
+    <moqui.basic.LocalizedMessage original="${count} steps in effect" locale="es" localized="${count} pasos en vigor"/>
+    <moqui.basic.LocalizedMessage original="${days} day" locale="es" localized="${days} día"/>
+    <moqui.basic.LocalizedMessage original="${days} days" locale="es" localized="${days} días"/>
+    <moqui.basic.LocalizedMessage original="Accounting's defaults (no policy set)" locale="es" localized="Valores predeterminados de Contabilidad (sin política definida)"/>
+    <moqui.basic.LocalizedMessage original="Acknowledged revision" locale="es" localized="Revisión confirmada"/>
+    <moqui.basic.LocalizedMessage original="Acknowledgements are not available" locale="es" localized="Los acuses no están disponibles"/>
+    <moqui.basic.LocalizedMessage original="Agreements are not available" locale="es" localized="Los acuerdos no están disponibles"/>
+    <moqui.basic.LocalizedMessage original="All methods" locale="es" localized="Todos los métodos"/>
+    <moqui.basic.LocalizedMessage original="All sent" locale="es" localized="Todos los enviados"/>
+    <moqui.basic.LocalizedMessage original="Another approver than the earlier steps'" locale="es" localized="Un aprobador distinto del de los pasos anteriores"/>
+    <moqui.basic.LocalizedMessage original="Any purchase approver" locale="es" localized="Cualquier aprobador de compras"/>
+    <moqui.basic.LocalizedMessage original="Approval step ended" locale="es" localized="Paso de aprobación finalizado"/>
+    <moqui.basic.LocalizedMessage original="Approval step saved" locale="es" localized="Paso de aprobación guardado"/>
+    <moqui.basic.LocalizedMessage original="Approved, not paid" locale="es" localized="Aprobado, sin pagar"/>
+    <moqui.basic.LocalizedMessage original="At purchase order" locale="es" localized="En la orden de compra"/>
+    <moqui.basic.LocalizedMessage original="Awarded: purchase order ${orderId} · ${status}" locale="es" localized="Adjudicado: orden de compra ${orderId} · ${status}"/>
+    <moqui.basic.LocalizedMessage original="Awaiting credit or replacement" locale="es" localized="En espera de crédito o reemplazo"/>
+    <moqui.basic.LocalizedMessage original="Awaiting the supplier" locale="es" localized="En espera del proveedor"/>
+    <moqui.basic.LocalizedMessage original="Bill ${imported.invoiceId} taken in for review" locale="es" localized="Factura recibida ${imported.invoiceId} tomada para revisión"/>
+    <moqui.basic.LocalizedMessage original="Bill ${row.invoiceId}: ${row.resultText}" locale="es" localized="Factura recibida ${row.invoiceId}: ${row.resultText}"/>
+    <moqui.basic.LocalizedMessage original="Bill amounts are withheld." locale="es" localized="Los importes de la factura recibida están ocultos."/>
+    <moqui.basic.LocalizedMessage original="Bill matching" locale="es" localized="Coincidencia de facturas recibidas"/>
+    <moqui.basic.LocalizedMessage original="Billed unit price" locale="es" localized="Precio unitario facturado"/>
+    <moqui.basic.LocalizedMessage original="Billed, not received" locale="es" localized="Facturado, no recibido"/>
+    <moqui.basic.LocalizedMessage original="Bills not yet received for review (Incoming) are left out." locale="es" localized="Se dejan fuera las facturas recibidas que aún no pasaron a revisión (Incoming)."/>
+    <moqui.basic.LocalizedMessage original="Budget control" locale="es" localized="Control del presupuesto"/>
+    <moqui.basic.LocalizedMessage original="Built-in defaults" locale="es" localized="Valores predeterminados integrados"/>
+    <moqui.basic.LocalizedMessage original="Buyer: correct the source or the bill" locale="es" localized="Comprador: corregir el origen o la factura recibida"/>
+    <moqui.basic.LocalizedMessage original="Buyer: record the acceptance" locale="es" localized="Comprador: registrar la aceptación"/>
+    <moqui.basic.LocalizedMessage original="Buying defaults and purchase controls, among them the approval gate" locale="es" localized="Valores predeterminados de compra y controles de compra, entre ellos el control de aprobación"/>
+    <moqui.basic.LocalizedMessage original="Buying policy saved" locale="es" localized="Política de compra guardada"/>
+    <moqui.basic.LocalizedMessage original="Changed promise" locale="es" localized="Promesa cambiada"/>
+    <moqui.basic.LocalizedMessage original="Changed since sent" locale="es" localized="Cambiado desde el envío"/>
+    <moqui.basic.LocalizedMessage original="Chase the acknowledgement" locale="es" localized="Dar seguimiento al acuse"/>
+    <moqui.basic.LocalizedMessage original="Chase the quotes" locale="es" localized="Dar seguimiento a las cotizaciones"/>
+    <moqui.basic.LocalizedMessage original="Choose a supplier" locale="es" localized="Elegir un proveedor"/>
+    <moqui.basic.LocalizedMessage original="Choose an existing responsible party" locale="es" localized="Elegir un participante responsable existente"/>
+    <moqui.basic.LocalizedMessage original="Choose another purpose as the parent" locale="es" localized="Elegir otro propósito como padre"/>
+    <moqui.basic.LocalizedMessage original="Choose another supplier category as the parent" locale="es" localized="Elegir otra categoría de proveedor como padre"/>
+    <moqui.basic.LocalizedMessage original="Choose approve or close" locale="es" localized="Elegir aprobar o cerrar"/>
+    <moqui.basic.LocalizedMessage original="Choose at least one supplier" locale="es" localized="Elegir al menos un proveedor"/>
+    <moqui.basic.LocalizedMessage original="Commitment amounts are withheld: they need financial read." locale="es" localized="Los importes de compromiso están ocultos: requieren lectura financiera."/>
+    <moqui.basic.LocalizedMessage original="Created agreement ${agreementId} from the template" locale="es" localized="Acuerdo ${agreementId} creado a partir de la plantilla"/>
+    <moqui.basic.LocalizedMessage original="Created agreement ${agreementId}: add its items, then send it for approval" locale="es" localized="Acuerdo ${agreementId} creado: añadir sus partidas y enviarlo para aprobación"/>
+    <moqui.basic.LocalizedMessage original="Created supplier return ${returnId}: add what else goes back, then authorize it" locale="es" localized="Devolución al proveedor ${returnId} creada: añadir lo demás que se devuelve y luego autorizarla"/>
+    <moqui.basic.LocalizedMessage original="Declined by the supplier" locale="es" localized="Rechazado por el proveedor"/>
+    <moqui.basic.LocalizedMessage original="Draft and awaiting approval" locale="es" localized="Borrador y en espera de aprobación"/>
+    <moqui.basic.LocalizedMessage original="Drop-ship, delivery pending" locale="es" localized="Envío directo, entrega pendiente"/>
+    <moqui.basic.LocalizedMessage original="Enter a quantity of zero or more" locale="es" localized="Indicar una cantidad de cero o más"/>
+    <moqui.basic.LocalizedMessage original="Evaluated ${evaluated.evaluatedCount} suppliers" locale="es" localized="Se evaluaron ${evaluated.evaluatedCount} proveedores"/>
+    <moqui.basic.LocalizedMessage original="Exhausted" locale="es" localized="Agotado"/>
+    <moqui.basic.LocalizedMessage original="Expired, closed and cancelled" locale="es" localized="Caducado, cerrado y cancelado"/>
+    <moqui.basic.LocalizedMessage original="Expiring in 30 days" locale="es" localized="Por vencer en 30 días"/>
+    <moqui.basic.LocalizedMessage original="Finance releases the hold" locale="es" localized="Finanzas libera la retención"/>
+    <moqui.basic.LocalizedMessage original="Give a reason for closing the remainders" locale="es" localized="Indicar un motivo para cerrar lo que queda"/>
+    <moqui.basic.LocalizedMessage original="Give the category a name" locale="es" localized="Dar un nombre a la categoría"/>
+    <moqui.basic.LocalizedMessage original="Give the purpose a name" locale="es" localized="Dar un nombre al propósito"/>
+    <moqui.basic.LocalizedMessage original="Good for ${days} days" locale="es" localized="Vigente por ${days} días"/>
+    <moqui.basic.LocalizedMessage original="How suppliers are evaluated: the period, minimum sample, measures and the response to a low score or a risk" locale="es" localized="Cómo se evalúa a los proveedores: el periodo, la muestra mínima, las medidas y la respuesta a una puntuación baja o un riesgo"/>
+    <moqui.basic.LocalizedMessage original="INVOICE_MATCH is required" locale="es" localized="Se requiere INVOICE_MATCH"/>
+    <moqui.basic.LocalizedMessage original="Landed costs are not in these amounts until Accounting allocates them." locale="es" localized="Los costos en destino no están en estos importes hasta que Contabilidad los prorratee."/>
+    <moqui.basic.LocalizedMessage original="Later than required" locale="es" localized="Posterior a lo exigido"/>
+    <moqui.basic.LocalizedMessage original="Levels of ${result.productId} applied" locale="es" localized="Niveles de ${result.productId} aplicados"/>
+    <moqui.basic.LocalizedMessage original="Line ${seq} ${what}" locale="es" localized="Línea ${seq} ${what}"/>
+    <moqui.basic.LocalizedMessage original="Match exceptions are not available" locale="es" localized="Las excepciones de coincidencia no están disponibles"/>
+    <moqui.basic.LocalizedMessage original="Match policy" locale="es" localized="Política de coincidencia"/>
+    <moqui.basic.LocalizedMessage original="Match variances" locale="es" localized="Variaciones de coincidencia"/>
+    <moqui.basic.LocalizedMessage original="Measure saved" locale="es" localized="Medida guardada"/>
+    <moqui.basic.LocalizedMessage original="Needs purchasing settings access, which an administrator can grant." locale="es" localized="Se necesita acceso a la configuración de compras, que un administrador puede conceder."/>
+    <moqui.basic.LocalizedMessage original="Needs supplier profile editing access, which an administrator can grant." locale="es" localized="Se necesita acceso de edición del perfil del proveedor, que un administrador puede conceder."/>
+    <moqui.basic.LocalizedMessage original="Needs supplier scorecard editing access, which an administrator can grant." locale="es" localized="Se necesita acceso de edición del cuadro de puntuación del proveedor, que un administrador puede conceder."/>
+    <moqui.basic.LocalizedMessage original="No expected receipt" locale="es" localized="Sin recepción esperada"/>
+    <moqui.basic.LocalizedMessage original="No part of this quote is awarded." locale="es" localized="Ninguna parte de esta cotización está adjudicada."/>
+    <moqui.basic.LocalizedMessage original="No self-approval" locale="es" localized="Sin autoaprobación"/>
+    <moqui.basic.LocalizedMessage original="No shipment" locale="es" localized="Sin envío"/>
+    <moqui.basic.LocalizedMessage original="No value cap" locale="es" localized="Sin tope de valor"/>
+    <moqui.basic.LocalizedMessage original="Not a product line" locale="es" localized="No es una línea de producto"/>
+    <moqui.basic.LocalizedMessage original="Not acknowledged yet" locale="es" localized="Aún sin acuse"/>
+    <moqui.basic.LocalizedMessage original="Not authorized yet" locale="es" localized="Aún no autorizado"/>
+    <moqui.basic.LocalizedMessage original="Not awarded" locale="es" localized="No adjudicado"/>
+    <moqui.basic.LocalizedMessage original="Not awarded yet" locale="es" localized="Aún no adjudicado"/>
+    <moqui.basic.LocalizedMessage original="Not controlled" locale="es" localized="No controlado"/>
+    <moqui.basic.LocalizedMessage original="Not evaluated: ${failedText}" locale="es" localized="No evaluado: ${failedText}"/>
+    <moqui.basic.LocalizedMessage original="Not matched" locale="es" localized="Sin coincidencia"/>
+    <moqui.basic.LocalizedMessage original="Not ordered yet" locale="es" localized="Aún no pedido"/>
+    <moqui.basic.LocalizedMessage original="Not quoted" locale="es" localized="Sin cotizar"/>
+    <moqui.basic.LocalizedMessage original="Not recalculated: ${evaluated.resultRows[0].errorText}" locale="es" localized="No recalculado: ${evaluated.resultRows[0].errorText}"/>
+    <moqui.basic.LocalizedMessage original="Not received" locale="es" localized="No recibido"/>
+    <moqui.basic.LocalizedMessage original="Nothing credited yet" locale="es" localized="Aún nada acreditado"/>
+    <moqui.basic.LocalizedMessage original="Nothing received" locale="es" localized="Nada recibido"/>
+    <moqui.basic.LocalizedMessage original="Nothing unpaid" locale="es" localized="Nada sin pagar"/>
+    <moqui.basic.LocalizedMessage original="On-time delivery" locale="es" localized="Entrega a tiempo"/>
+    <moqui.basic.LocalizedMessage original="Only 1000 quotes of the period are read." locale="es" localized="Solo se leen 1000 cotizaciones del periodo."/>
+    <moqui.basic.LocalizedMessage original="Only 200 requests and 200 orders of the period are traced." locale="es" localized="Solo se rastrean 200 solicitudes y 200 órdenes del periodo."/>
+    <moqui.basic.LocalizedMessage original="Only the newest ${count} quotes were read; narrow the filters" locale="es" localized="Solo se leyeron las ${count} cotizaciones más recientes; estreche los filtros"/>
+    <moqui.basic.LocalizedMessage original="Only the newest ${count} RFQs were read; narrow the filters" locale="es" localized="Solo se leyeron las ${count} RFQ más recientes; estreche los filtros"/>
+    <moqui.basic.LocalizedMessage original="Ordered quantity" locale="es" localized="Cantidad pedida"/>
+    <moqui.basic.LocalizedMessage original="Ordered unit price" locale="es" localized="Precio unitario de la orden"/>
+    <moqui.basic.LocalizedMessage original="Organization is not available" locale="es" localized="La organización no está disponible"/>
+    <moqui.basic.LocalizedMessage original="Partly paid" locale="es" localized="Pagado parcialmente"/>
+    <moqui.basic.LocalizedMessage original="Partly received" locale="es" localized="Recibido parcialmente"/>
+    <moqui.basic.LocalizedMessage original="Payments are not by product: paid is left out." locale="es" localized="Los pagos no van por producto: lo pagado queda fuera."/>
+    <moqui.basic.LocalizedMessage original="Payments are withheld: they need finance read." locale="es" localized="Los pagos están ocultos: requieren lectura de finanzas."/>
+    <moqui.basic.LocalizedMessage original="Prices are withheld: they are supplier prices." locale="es" localized="Los precios están ocultos: son precios de proveedor."/>
+    <moqui.basic.LocalizedMessage original="Purchase commitments" locale="es" localized="Compromisos de compra"/>
+    <moqui.basic.LocalizedMessage original="Purchase orders are not available" locale="es" localized="Las órdenes de compra no están disponibles"/>
+    <moqui.basic.LocalizedMessage original="Purchase spend" locale="es" localized="Gasto de compra"/>
+    <moqui.basic.LocalizedMessage original="PURCHASE_POLICY_EDIT is required" locale="es" localized="Se requiere PURCHASE_POLICY_EDIT"/>
+    <moqui.basic.LocalizedMessage original="Purchasing context is not available" locale="es" localized="El contexto de compras no está disponible"/>
+    <moqui.basic.LocalizedMessage original="Purchasing is not available" locale="es" localized="Compras no está disponible"/>
+    <moqui.basic.LocalizedMessage original="Purchasing reports are not available" locale="es" localized="Los informes de compras no están disponibles"/>
+    <moqui.basic.LocalizedMessage original="Purchasing settings are not available" locale="es" localized="La configuración de compras no está disponible"/>
+    <moqui.basic.LocalizedMessage original="Quality acceptance" locale="es" localized="Aceptación de calidad"/>
+    <moqui.basic.LocalizedMessage original="Quantity ${quantity}%, price ${price}%" locale="es" localized="Cantidad ${quantity}%, precio ${price}%"/>
+    <moqui.basic.LocalizedMessage original="Quoted unit price" locale="es" localized="Precio unitario cotizado"/>
+    <moqui.basic.LocalizedMessage original="Reading needed" locale="es" localized="Falta la lectura"/>
+    <moqui.basic.LocalizedMessage original="Recalculated as a new evaluation; the earlier one stays" locale="es" localized="Recalculado como una evaluación nueva; la anterior se conserva"/>
+    <moqui.basic.LocalizedMessage original="Received, not billed" locale="es" localized="Recibido, sin facturar"/>
+    <moqui.basic.LocalizedMessage original="Receiving is not available" locale="es" localized="La recepción no está disponible"/>
+    <moqui.basic.LocalizedMessage original="RECORD_UNAVAILABLE: The organization is not available" locale="es" localized="RECORD_UNAVAILABLE: La organización no está disponible"/>
+    <moqui.basic.LocalizedMessage original="Release of the hold on bill ${hold.invoiceId} asked for; finance decides it" locale="es" localized="Se solicitó liberar la retención de la factura recibida ${hold.invoiceId}; Finanzas lo decide"/>
+    <moqui.basic.LocalizedMessage original="Replenishment is not available" locale="es" localized="La reposición no está disponible"/>
+    <moqui.basic.LocalizedMessage original="Request purpose saved" locale="es" localized="Propósito de solicitud guardado"/>
+    <moqui.basic.LocalizedMessage original="Response rule saved" locale="es" localized="Regla de respuesta guardada"/>
+    <moqui.basic.LocalizedMessage original="Responses due" locale="es" localized="Respuestas por vencer"/>
+    <moqui.basic.LocalizedMessage original="Revision ${acknowledged} was acknowledged; revision ${revision} is not yet" locale="es" localized="La revisión ${acknowledged} fue confirmada; la revisión ${revision} aún no lo está"/>
+    <moqui.basic.LocalizedMessage original="Revision ${applied.orderRevision} applied; it waits for its approval" locale="es" localized="Revisión ${applied.orderRevision} aplicada; espera su aprobación"/>
+    <moqui.basic.LocalizedMessage original="Revision ${revision} acknowledged: ${outcome}" locale="es" localized="Revisión ${revision} confirmada: ${outcome}"/>
+    <moqui.basic.LocalizedMessage original="RFQs and quotes are not available" locale="es" localized="Las RFQ y las cotizaciones no están disponibles"/>
+    <moqui.basic.LocalizedMessage original="Saved quote ${orderId}" locale="es" localized="Cotización ${orderId} guardada"/>
+    <moqui.basic.LocalizedMessage original="Saved RFQ ${requestId}" locale="es" localized="RFQ ${requestId} guardada"/>
+    <moqui.basic.LocalizedMessage original="Saved the freight estimate of quote ${orderId}" locale="es" localized="Estimación de flete de la cotización ${orderId} guardada"/>
+    <moqui.basic.LocalizedMessage original="Saved the items of RFQ ${requestId}" locale="es" localized="Partidas de la RFQ ${requestId} guardadas"/>
+    <moqui.basic.LocalizedMessage original="Saved the line of quote ${orderId}" locale="es" localized="Línea de la cotización ${orderId} guardada"/>
+    <moqui.basic.LocalizedMessage original="Scorecard policy saved" locale="es" localized="Política del cuadro de puntuación guardada"/>
+    <moqui.basic.LocalizedMessage original="Select between one and 100 bills" locale="es" localized="Seleccionar entre una y 100 facturas recibidas"/>
+    <moqui.basic.LocalizedMessage original="Select between one and 100 purchase orders" locale="es" localized="Seleccionar entre una y 100 órdenes de compra"/>
+    <moqui.basic.LocalizedMessage original="Self-approval allowed" locale="es" localized="Autoaprobación permitida"/>
+    <moqui.basic.LocalizedMessage original="Self-billing default" locale="es" localized="Predeterminado de autofacturación"/>
+    <moqui.basic.LocalizedMessage original="Sent for approval (${submitted.pendingStepText})" locale="es" localized="Enviado para aprobación (${submitted.pendingStepText})"/>
+    <moqui.basic.LocalizedMessage original="Shared with every organization" locale="es" localized="Compartido con todas las organizaciones"/>
+    <moqui.basic.LocalizedMessage original="Since ${date}" locale="es" localized="Desde ${date}"/>
+    <moqui.basic.LocalizedMessage original="Source the request" locale="es" localized="Abastecer la solicitud"/>
+    <moqui.basic.LocalizedMessage original="Substitute accepted" locale="es" localized="Sustituto aceptado"/>
+    <moqui.basic.LocalizedMessage original="Supplier bill" locale="es" localized="Factura recibida"/>
+    <moqui.basic.LocalizedMessage original="Supplier bills are not available" locale="es" localized="Las facturas recibidas del proveedor no están disponibles"/>
+    <moqui.basic.LocalizedMessage original="Supplier category saved" locale="es" localized="Categoría de proveedor guardada"/>
+    <moqui.basic.LocalizedMessage original="Supplier created" locale="es" localized="Proveedor creado"/>
+    <moqui.basic.LocalizedMessage original="Supplier is not available" locale="es" localized="El proveedor no está disponible"/>
+    <moqui.basic.LocalizedMessage original="Supplier quote" locale="es" localized="Cotización de proveedor"/>
+    <moqui.basic.LocalizedMessage original="Supplier returns are not available" locale="es" localized="Las devoluciones al proveedor no están disponibles"/>
+    <moqui.basic.LocalizedMessage original="Supplier risk saved" locale="es" localized="Riesgo del proveedor guardado"/>
+    <moqui.basic.LocalizedMessage original="Supplier: send the bill" locale="es" localized="Proveedor: enviar la factura recibida"/>
+    <moqui.basic.LocalizedMessage original="SUPPLIER_PROFILE_EDIT is required" locale="es" localized="Se requiere SUPPLIER_PROFILE_EDIT"/>
+    <moqui.basic.LocalizedMessage original="Term saved" locale="es" localized="Término guardado"/>
+    <moqui.basic.LocalizedMessage original="The categories buyers group suppliers by" locale="es" localized="Las categorías con las que los compradores agrupan proveedores"/>
+    <moqui.basic.LocalizedMessage original="The change is let go; the order is no longer held for it" locale="es" localized="Se descarta el cambio; la orden ya no queda retenida por él"/>
+    <moqui.basic.LocalizedMessage original="The checks a purchase receipt is inspected against before its stock is released" locale="es" localized="Las comprobaciones con las que se inspecciona una recepción de compra antes de liberar sus existencias"/>
+    <moqui.basic.LocalizedMessage original="The organization is not available" locale="es" localized="La organización no está disponible"/>
+    <moqui.basic.LocalizedMessage original="The purposes a purchase request is filed under, with who handles them" locale="es" localized="Los propósitos con los que se presenta una solicitud de compra y quién los atiende"/>
+    <moqui.basic.LocalizedMessage original="The supplier list is not available" locale="es" localized="La lista de proveedores no está disponible"/>
+    <moqui.basic.LocalizedMessage original="The supplier statement needs finance read" locale="es" localized="El estado de cuenta del proveedor requiere lectura de finanzas"/>
+    <moqui.basic.LocalizedMessage original="To authorize" locale="es" localized="Por autorizar"/>
+    <moqui.basic.LocalizedMessage original="To dispatch" locale="es" localized="Por despachar"/>
+    <moqui.basic.LocalizedMessage original="Unacknowledged" locale="es" localized="Sin acuse"/>
+    <moqui.basic.LocalizedMessage original="Warehouse's default" locale="es" localized="Predeterminado del almacén"/>
+    <moqui.basic.LocalizedMessage original="Warehouse: receive or correct the receipt" locale="es" localized="Almacén: recibir o corregir la recepción"/>
+    <moqui.basic.LocalizedMessage original="Who approves purchase orders and suppliers, in which steps, by amount" locale="es" localized="Quién aprueba las órdenes de compra y los proveedores, en qué pasos y por importe"/>
+</entity-facade-xml>

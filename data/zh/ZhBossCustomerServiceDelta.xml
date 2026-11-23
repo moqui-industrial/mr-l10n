@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+
+<entity-facade-xml type="zh">
+    <moqui.basic.LocalizedMessage original="${caseCount} case(s) on the article" locale="zh" localized="${caseCount} 个案例关联此文章"/>
+    <moqui.basic.LocalizedMessage original="${chargeText}${chargeText ? ' · ' + (customerConsentRef ? 'agreed: ' + customerConsentRef : 'not agreed yet') : ''}" locale="zh" localized="${chargeText}${chargeText ? ' · ' + (customerConsentRef ? '已同意：' + customerConsentRef : '尚未同意') : ''}"/>
+    <moqui.basic.LocalizedMessage original="${claim.isClaim ? 'Warranty claim' : 'Case'} ${requestId}" locale="zh" localized="${claim.isClaim ? '质保索赔' : '案例'} ${requestId}"/>
+    <moqui.basic.LocalizedMessage original="${closedLines.length} more line(s) of the order have nothing left to return." locale="zh" localized="该订单另有 ${closedLines.length} 行已没有可退数量。"/>
+    <moqui.basic.LocalizedMessage original="${count} (${customer} customer-visible, ${internal} internal)" locale="zh" localized="${count}（${customer} 条客户可见，${internal} 条内部）"/>
+    <moqui.basic.LocalizedMessage original="${customerFields.length ? '' : 'No customer-visible field: customers see only the subject and description. '}${internalCount} internal field(s) are never shown or sent to the customer." locale="zh" localized="${customerFields.length ? '' : '没有客户可见字段：客户只能看到主题和描述。'}${internalCount} 个内部字段从不向客户显示或发送。"/>
+    <moqui.basic.LocalizedMessage original="${decidedByName}${approverName ? ' (approved by ' + approverName + ')' : ''}" locale="zh" localized="${decidedByName}${approverName ? '（批准人 ' + approverName + '）' : ''}"/>
+    <moqui.basic.LocalizedMessage original="${description}, stored ${stored}" locale="zh" localized="${description}，存储于 ${stored}"/>
+    <moqui.basic.LocalizedMessage original="${expireText}${expired ? ' · expired' : ''}" locale="zh" localized="${expireText}${expired ? ' · 已过期' : ''}"/>
+    <moqui.basic.LocalizedMessage original="${open} running" locale="zh" localized="${open} 个进行中"/>
+    <moqui.basic.LocalizedMessage original="${open} running, ${breached} breached" locale="zh" localized="${open} 个进行中，${breached} 个已违反"/>
+    <moqui.basic.LocalizedMessage original="${orderId} · rev ${orderRevision}" locale="zh" localized="${orderId} · 修订 ${orderRevision}"/>
+    <moqui.basic.LocalizedMessage original="${prepared.customerName} has ${prepared.duplicates.length} open case(s): is this one of them?" locale="zh" localized="${prepared.customerName} 有 ${prepared.duplicates.length} 个未结案例：是其中之一吗？"/>
+    <moqui.basic.LocalizedMessage original="${prepared.internalCount} internal note(s) or message(s) of the case are left out: they are never put in an article." locale="zh" localized="${prepared.internalCount} 条案例的内部备注或消息被排除：它们从不写入文章。"/>
+    <moqui.basic.LocalizedMessage original="${reply.title} · ${reply.scopeText}${reply.isOwner ? '' : ' · from ' + reply.ownerName}" locale="zh" localized="${reply.title} · ${reply.scopeText}${reply.isOwner ? '' : ' · 来自 ' + reply.ownerName}"/>
+    <moqui.basic.LocalizedMessage original="${sim.policyName}, ${sim.bandText}: received ${sim.receivedText}, on ${sim.calendarText} (${sim.hoursText})" locale="zh" localized="${sim.policyName}，${sim.bandText}：接收于 ${sim.receivedText}，在 ${sim.calendarText}（${sim.hoursText}）"/>
+    <moqui.basic.LocalizedMessage original="${splitPreview.chosenCount} item(s) chosen." locale="zh" localized="已选择 ${splitPreview.chosenCount} 项。"/>
+    <moqui.basic.LocalizedMessage original="${team.teamName} · ${team.memberCount} members" locale="zh" localized="${team.teamName} · ${team.memberCount} 名成员"/>
+    <moqui.basic.LocalizedMessage original="${templateChoice.templateName}: its fields below; an internal one is never shown to the customer" locale="zh" localized="${templateChoice.templateName}：其字段如下；内部字段从不向客户显示"/>
+    <moqui.basic.LocalizedMessage original="${typeText} for cases" locale="zh" localized="${typeText} 用于案例"/>
+    <moqui.basic.LocalizedMessage original="0 to 3" locale="zh" localized="0 到 3"/>
+    <moqui.basic.LocalizedMessage original="1 (highest) to 9; empty: 5" locale="zh" localized="1（最高）到 9；空：5"/>
+    <moqui.basic.LocalizedMessage original="1. Customer and type" locale="zh" localized="1. 客户和类型"/>
+    <moqui.basic.LocalizedMessage original="1. The answers it is made from" locale="zh" localized="1. 用来撰写它的答复"/>
+    <moqui.basic.LocalizedMessage original="1. The case to keep and its duplicates" locale="zh" localized="1. 保留的案例及其重复项"/>
+    <moqui.basic.LocalizedMessage original="1. The customer and the sale" locale="zh" localized="1. 客户和销售"/>
+    <moqui.basic.LocalizedMessage original="1. What the new case takes" locale="zh" localized="1. 新案例取走什么"/>
+    <moqui.basic.LocalizedMessage original="2. The case" locale="zh" localized="2. 案例"/>
+    <moqui.basic.LocalizedMessage original="2. The draft" locale="zh" localized="2. 草稿"/>
+    <moqui.basic.LocalizedMessage original="2. The new case" locale="zh" localized="2. 新案例"/>
+    <moqui.basic.LocalizedMessage original="2. What comes back" locale="zh" localized="2. 退回什么"/>
+    <moqui.basic.LocalizedMessage original="2. What the merge does" locale="zh" localized="2. 合并会做什么"/>
+    <moqui.basic.LocalizedMessage original="3. Merge" locale="zh" localized="3. 合并"/>
+    <moqui.basic.LocalizedMessage original="3. The request and its policy" locale="zh" localized="3. 请求及其策略"/>
+    <moqui.basic.LocalizedMessage original="A chargeable repair (partly covered or rejected), in the organization's currency" locale="zh" localized="一项收费维修（部分覆盖或已拒绝），使用组织的货币"/>
+    <moqui.basic.LocalizedMessage original="A Comms text block; it may name the case number, its subject and the queue" locale="zh" localized="一个 Comms 文本块；可以写明案例编号、主题和队列"/>
+    <moqui.basic.LocalizedMessage original="A credit without receipt may be given" locale="zh" localized="可以在没有收据时给予贷记"/>
+    <moqui.basic.LocalizedMessage original="A language code such as en or es" locale="zh" localized="语言代码，例如 en 或 es"/>
+    <moqui.basic.LocalizedMessage original="A manual override of the lookup's end, with its reason" locale="zh" localized="人工改写查询到的结束日，并注明原因"/>
+    <moqui.basic.LocalizedMessage original="A message from an unknown sender makes" locale="zh" localized="未知发件人的消息会创建"/>
+    <moqui.basic.LocalizedMessage original="A message, call or reference" locale="zh" localized="一条消息、一次通话或一个参考"/>
+    <moqui.basic.LocalizedMessage original="A message, call or reference; a chargeable repair starts only with it" locale="zh" localized="一条消息、一次通话或一个参考；收费维修只有具备它才开始"/>
+    <moqui.basic.LocalizedMessage original="A Message-ID, as &lt;id@host&gt;" locale="zh" localized="一个 Message-ID，如 &lt;id@host&gt;"/>
+    <moqui.basic.LocalizedMessage original="A name, account id, email address or phone number" locale="zh" localized="姓名、账号、电子邮件地址或电话号码"/>
+    <moqui.basic.LocalizedMessage original="A new case is acknowledged" locale="zh" localized="新案例已有回执"/>
+    <moqui.basic.LocalizedMessage original="A page path of the space; empty for the whole space" locale="zh" localized="空间中的页面路径；空表示整个空间"/>
+    <moqui.basic.LocalizedMessage original="A reopen" locale="zh" localized="一次重开"/>
+    <moqui.basic.LocalizedMessage original="A repair: ${can.linkWorkReason}." locale="zh" localized="一项维修：${can.linkWorkReason}。"/>
+    <moqui.basic.LocalizedMessage original="A return reason" locale="zh" localized="一个退货原因"/>
+    <moqui.basic.LocalizedMessage original="A rule's Make a request action with a queue as its value files that queue's mail." locale="zh" localized="规则的“提出请求”操作若以队列为值，则归入该队列的邮件。"/>
+    <moqui.basic.LocalizedMessage original="Account, profile, branding, working hours and mail accounts are set in Commons." locale="zh" localized="账号、资料、品牌、工作小时和邮件账号在 Commons 中设置。"/>
+    <moqui.basic.LocalizedMessage original="Acknowledge a new case" locale="zh" localized="确认新案例"/>
+    <moqui.basic.LocalizedMessage original="Acknowledgement" locale="zh" localized="回执"/>
+    <moqui.basic.LocalizedMessage original="Acknowledgement text" locale="zh" localized="回执文本"/>
+    <moqui.basic.LocalizedMessage original="Add a condition to ${rule.ruleName}" locale="zh" localized="向 ${rule.ruleName} 添加条件"/>
+    <moqui.basic.LocalizedMessage original="Add a field" locale="zh" localized="添加字段"/>
+    <moqui.basic.LocalizedMessage original="Add a knowledge source" locale="zh" localized="添加知识来源"/>
+    <moqui.basic.LocalizedMessage original="Add a member to ${team.teamName}" locale="zh" localized="向 ${team.teamName} 添加成员"/>
+    <moqui.basic.LocalizedMessage original="Add a move" locale="zh" localized="添加流转"/>
+    <moqui.basic.LocalizedMessage original="Add a route" locale="zh" localized="添加路线"/>
+    <moqui.basic.LocalizedMessage original="Add action" locale="zh" localized="添加操作"/>
+    <moqui.basic.LocalizedMessage original="Add an action to ${reply.title}" locale="zh" localized="向 ${reply.title} 添加操作"/>
+    <moqui.basic.LocalizedMessage original="Add from now" locale="zh" localized="从现在起添加"/>
+    <moqui.basic.LocalizedMessage original="Add repair" locale="zh" localized="添加维修"/>
+    <moqui.basic.LocalizedMessage original="Add the contact's email address first" locale="zh" localized="请先添加联系人的电子邮件地址"/>
+    <moqui.basic.LocalizedMessage original="Add two fields first: a condition shows or requires one field by the value of another." locale="zh" localized="请先添加两个字段：条件按另一个字段的值显示或要求一个字段。"/>
+    <moqui.basic.LocalizedMessage original="Advance replacement (needs finance rights at authorization)" locale="zh" localized="先行更换（授权时需要财务权限）"/>
+    <moqui.basic.LocalizedMessage original="After the merge" locale="zh" localized="合并之后"/>
+    <moqui.basic.LocalizedMessage original="After this a reply makes a follow-up case" locale="zh" localized="此后一条回复会创建后续案例"/>
+    <moqui.basic.LocalizedMessage original="Agent teams" locale="zh" localized="客服团队"/>
+    <moqui.basic.LocalizedMessage original="Agents see" locale="zh" localized="客服看到"/>
+    <moqui.basic.LocalizedMessage original="All case templates" locale="zh" localized="所有案例模板"/>
+    <moqui.basic.LocalizedMessage original="All cases" locale="zh" localized="所有案例"/>
+    <moqui.basic.LocalizedMessage original="All clocks" locale="zh" localized="所有计时"/>
+    <moqui.basic.LocalizedMessage original="All my cases" locale="zh" localized="我的所有案例"/>
+    <moqui.basic.LocalizedMessage original="Amounts per currency" locale="zh" localized="按货币的金额"/>
+    <moqui.basic.LocalizedMessage original="An autoresponder's or a list's: never a case, never acknowledged" locale="zh" localized="自动回复或邮件列表的：从不成案例，从无回执"/>
+    <moqui.basic.LocalizedMessage original="An IANA name such as America/Chicago" locale="zh" localized="IANA 名称，例如 America/Chicago"/>
+    <moqui.basic.LocalizedMessage original="An internal field is never shown or sent to the customer" locale="zh" localized="内部字段从不向客户显示或发送"/>
+    <moqui.basic.LocalizedMessage original="An internal hold pauses resolution" locale="zh" localized="内部挂起会暂停解决"/>
+    <moqui.basic.LocalizedMessage original="An internal note, or the reason a status needs" locale="zh" localized="内部备注，或某个状态所要求的原因"/>
+    <moqui.basic.LocalizedMessage original="An open return counts as requested, never as credited. Amounts are per currency and never added across currencies." locale="zh" localized="未结退货计为已请求，从不计为已贷记。金额按货币分别计算，从不跨货币相加。"/>
+    <moqui.basic.LocalizedMessage original="An order id, external id or customer reference finds                                 that order; a name, email or phone finds the customer's orders" locale="zh" localized="订单 id、外部 id 或客户参考号可找到该订单；姓名、电子邮件或电话可找到该客户的订单"/>
+    <moqui.basic.LocalizedMessage original="Any time" locale="zh" localized="任何时间"/>
+    <moqui.basic.LocalizedMessage original="approved by ${name}" locale="zh" localized="批准人 ${name}"/>
+    <moqui.basic.LocalizedMessage original="Approved repair or replacement" locale="zh" localized="已批准的维修或更换"/>
+    <moqui.basic.LocalizedMessage original="Article feedback" locale="zh" localized="文章反馈"/>
+    <moqui.basic.LocalizedMessage original="Article feedback is reviewed by the knowledge authors and the service managers." locale="zh" localized="文章反馈由知识作者和服务经理审核。"/>
+    <moqui.basic.LocalizedMessage original="Article from a case" locale="zh" localized="来自案例的文章"/>
+    <moqui.basic.LocalizedMessage original="Article from case ${requestId}" locale="zh" localized="来自案例 ${requestId} 的文章"/>
+    <moqui.basic.LocalizedMessage original="Articles that may answer it" locale="zh" localized="可能解答它的文章"/>
+    <moqui.basic.LocalizedMessage original="As a draft" locale="zh" localized="作为草稿"/>
+    <moqui.basic.LocalizedMessage original="As of the claim's date, ${coverage.asOfText}." locale="zh" localized="截至索赔日期，${coverage.asOfText}。"/>
+    <moqui.basic.LocalizedMessage original="Ask" locale="zh" localized="请求"/>
+    <moqui.basic.LocalizedMessage original="Asked before" locale="zh" localized="请求早于"/>
+    <moqui.basic.LocalizedMessage original="Asked from" locale="zh" localized="请求自"/>
+    <moqui.basic.LocalizedMessage original="Assign the selected cases" locale="zh" localized="分派所选案例"/>
+    <moqui.basic.LocalizedMessage original="Assignment and replies" locale="zh" localized="分派和回复"/>
+    <moqui.basic.LocalizedMessage original="Assignment rules" locale="zh" localized="分派规则"/>
+    <moqui.basic.LocalizedMessage original="Assignment rules may give them cases" locale="zh" localized="分派规则可以向他们分配案例"/>
+    <moqui.basic.LocalizedMessage original="Authorization valid (days)" locale="zh" localized="授权有效（天）"/>
+    <moqui.basic.LocalizedMessage original="authorization valid until ${when}" locale="zh" localized="授权有效期至 ${when}"/>
+    <moqui.basic.LocalizedMessage original="Authorize the selected returns" locale="zh" localized="授权所选退货"/>
+    <moqui.basic.LocalizedMessage original="Automatic mail" locale="zh" localized="自动邮件"/>
+    <moqui.basic.LocalizedMessage original="Back to case ${requestId}" locale="zh" localized="返回案例 ${requestId}"/>
+    <moqui.basic.LocalizedMessage original="Back to Case templates" locale="zh" localized="返回案例模板"/>
+    <moqui.basic.LocalizedMessage original="Back to Knowledge" locale="zh" localized="返回知识"/>
+    <moqui.basic.LocalizedMessage original="Back to Returns" locale="zh" localized="返回退货"/>
+    <moqui.basic.LocalizedMessage original="Back to warranty claims" locale="zh" localized="返回质保索赔"/>
+    <moqui.basic.LocalizedMessage original="Breached" locale="zh" localized="已违反"/>
+    <moqui.basic.LocalizedMessage original="Bulk reply" locale="zh" localized="批量回复"/>
+    <moqui.basic.LocalizedMessage original="Business time counts each clock on its calendar, less its pauses; elapsed time is the clock on the wall. Median and p90 are of the clocks done in the period, with their count." locale="zh" localized="业务时间按各计时的日历计算，并扣除暂停；经过时间是墙上的时钟。中位数和 p90 取本期间已完成的计时及其数量。"/>
+    <moqui.basic.LocalizedMessage original="By id, name or code" locale="zh" localized="按 id、名称或代码"/>
+    <moqui.basic.LocalizedMessage original="By name, account, email or phone" locale="zh" localized="按姓名、账号、电子邮件或电话"/>
+    <moqui.basic.LocalizedMessage original="Calls, chats and mail with customers and on your cases." locale="zh" localized="与客户以及您案例上的通话、聊天和邮件。"/>
+    <moqui.basic.LocalizedMessage original="Cancel returns" locale="zh" localized="取消退货"/>
+    <moqui.basic.LocalizedMessage original="Cancel the selected returns" locale="zh" localized="取消所选退货"/>
+    <moqui.basic.LocalizedMessage original="Cancelled (not started)" locale="zh" localized="已取消（未开始）"/>
+    <moqui.basic.LocalizedMessage original="Case ${keptCase.requestId} · ${keptCase.requestName} of ${keptCase.customerName} is kept, with its clocks as they are. Only the same customer's cases merge; another customer's case is linked as related instead." locale="zh" localized="保留案例 ${keptCase.requestId} · ${keptCase.requestName}（${keptCase.customerName}），其计时保持原样。仅同一客户的案例可以合并；其他客户的案例改为建立关联。"/>
+    <moqui.basic.LocalizedMessage original="Case ${mergeTarget}" locale="zh" localized="案例 ${mergeTarget}"/>
+    <moqui.basic.LocalizedMessage original="Case ${requestId}" locale="zh" localized="案例 ${requestId}"/>
+    <moqui.basic.LocalizedMessage original="Case ${requestId} is not available" locale="zh" localized="案例 ${requestId} 不可用"/>
+    <moqui.basic.LocalizedMessage original="Case ${requestId} is not available to you here: articles from cases are drafted by the knowledge authors, on a case they see." locale="zh" localized="案例 ${requestId} 在此处对您不可用：来自案例的文章由知识作者起草，且须在他们可见的案例上。"/>
+    <moqui.basic.LocalizedMessage original="Case ${requestId} is not available to you." locale="zh" localized="案例 ${requestId} 对您不可用。"/>
+    <moqui.basic.LocalizedMessage original="Case ${requestId}: ${prepared.caseName}" locale="zh" localized="案例 ${requestId}：${prepared.caseName}"/>
+    <moqui.basic.LocalizedMessage original="Case ${requestId}: ${status}" locale="zh" localized="案例 ${requestId}：${status}"/>
+    <moqui.basic.LocalizedMessage original="Case actions, in order" locale="zh" localized="案例操作，按顺序"/>
+    <moqui.basic.LocalizedMessage original="Case template" locale="zh" localized="案例模板"/>
+    <moqui.basic.LocalizedMessage original="Case templates" locale="zh" localized="案例模板"/>
+    <moqui.basic.LocalizedMessage original="Case type" locale="zh" localized="案例类型"/>
+    <moqui.basic.LocalizedMessage original="Case types offered" locale="zh" localized="提供的案例类型"/>
+    <moqui.basic.LocalizedMessage original="Case workflow" locale="zh" localized="案例工作流"/>
+    <moqui.basic.LocalizedMessage original="Change ${policy.policyName}" locale="zh" localized="更改 ${policy.policyName}"/>
+    <moqui.basic.LocalizedMessage original="Change the status of case ${requestId}" locale="zh" localized="更改案例 ${requestId} 的状态"/>
+    <moqui.basic.LocalizedMessage original="Channel routing" locale="zh" localized="渠道路由"/>
+    <moqui.basic.LocalizedMessage original="Channel sessions" locale="zh" localized="渠道会话"/>
+    <moqui.basic.LocalizedMessage original="Channels" locale="zh" localized="渠道"/>
+    <moqui.basic.LocalizedMessage original="Charge estimate" locale="zh" localized="费用估算"/>
+    <moqui.basic.LocalizedMessage original="Check of these values" locale="zh" localized="这些值的核对"/>
+    <moqui.basic.LocalizedMessage original="Check these values" locale="zh" localized="核对这些值"/>
+    <moqui.basic.LocalizedMessage original="Choice buttons" locale="zh" localized="选择按钮"/>
+    <moqui.basic.LocalizedMessage original="Choose an organization with a published site with the Support app" locale="zh" localized="请选择一个已发布且带有支持应用的组织"/>
+    <moqui.basic.LocalizedMessage original="Choose cases and a saved reply on Cases first." locale="zh" localized="请先在案例中选择案例和一条已保存回复。"/>
+    <moqui.basic.LocalizedMessage original="Choose one of the contact's own email addresses" locale="zh" localized="请选择联系人自己的一个电子邮件地址"/>
+    <moqui.basic.LocalizedMessage original="Claim ${requestId} is decided" locale="zh" localized="索赔 ${requestId} 已判定"/>
+    <moqui.basic.LocalizedMessage original="Claimed" locale="zh" localized="已索赔"/>
+    <moqui.basic.LocalizedMessage original="claimed ${date}" locale="zh" localized="索赔于 ${date}"/>
+    <moqui.basic.LocalizedMessage original="Claimed before" locale="zh" localized="索赔早于"/>
+    <moqui.basic.LocalizedMessage original="Claimed from" locale="zh" localized="索赔自"/>
+    <moqui.basic.LocalizedMessage original="Clock starts" locale="zh" localized="计时开始"/>
+    <moqui.basic.LocalizedMessage original="Clocks started in the period, as they stood at the as-of time. The rate is met over met, missed, closed without it and open past due; cancelled cases are shown apart, never in the rate." locale="zh" localized="本期间开始的计时，按其在截至时间的状态。比率为已达成除以已达成、已错过、未附带它即关闭和逾期仍未结；已取消的案例另行显示，从不计入比率。"/>
+    <moqui.basic.LocalizedMessage original="Close resolved cases after (days)" locale="zh" localized="在（天）后关闭已解决案例"/>
+    <moqui.basic.LocalizedMessage original="Conditions: a case must meet all of them" locale="zh" localized="条件：案例必须全部满足"/>
+    <moqui.basic.LocalizedMessage original="Coverage until" locale="zh" localized="覆盖至"/>
+    <moqui.basic.LocalizedMessage original="Coverage until ${coverage.coverageEndText}: ${coverage.coverageEndSourceText}" locale="zh" localized="覆盖至 ${coverage.coverageEndText}：${coverage.coverageEndSourceText}"/>
+    <moqui.basic.LocalizedMessage original="Coverage · ${coverage.covered ? 'covered' : 'not covered'} · ${coverage.basisText}" locale="zh" localized="覆盖 · ${coverage.covered ? '已覆盖' : '未覆盖'} · ${coverage.basisText}"/>
+    <moqui.basic.LocalizedMessage original="Create case" locale="zh" localized="新建案例"/>
+    <moqui.basic.LocalizedMessage original="Create queue" locale="zh" localized="新建队列"/>
+    <moqui.basic.LocalizedMessage original="Create reply" locale="zh" localized="新建回复"/>
+    <moqui.basic.LocalizedMessage original="Created case ${requestId}" locale="zh" localized="已创建案例 ${requestId}"/>
+    <moqui.basic.LocalizedMessage original="Customer copy" locale="zh" localized="客户副本"/>
+    <moqui.basic.LocalizedMessage original="Customer copy of case ${requestId}: print it from the browser" locale="zh" localized="案例 ${requestId} 的客户副本：请从浏览器打印"/>
+    <moqui.basic.LocalizedMessage original="Customer follow-up" locale="zh" localized="客户跟进"/>
+    <moqui.basic.LocalizedMessage original="Customer group" locale="zh" localized="客户组"/>
+    <moqui.basic.LocalizedMessage original="Customer instructions" locale="zh" localized="客户说明"/>
+    <moqui.basic.LocalizedMessage original="Customer label" locale="zh" localized="客户标签"/>
+    <moqui.basic.LocalizedMessage original="Customer Service context is not available" locale="zh" localized="客户服务上下文不可用"/>
+    <moqui.basic.LocalizedMessage original="Customer Service is not available" locale="zh" localized="客户服务不可用"/>
+    <moqui.basic.LocalizedMessage original="Customer Service is not set up for your organizations yet: the service defaults, a queue and a case type come first." locale="zh" localized="尚未为您的组织设置客户服务：需要先有服务默认值、一个队列和一个案例类型。"/>
+    <moqui.basic.LocalizedMessage original="Customer Service settings" locale="zh" localized="客户服务设置"/>
+    <moqui.basic.LocalizedMessage original="Customer Service settings are not available to you." locale="zh" localized="客户服务设置对您不可用。"/>
+    <moqui.basic.LocalizedMessage original="Customer's reference" locale="zh" localized="客户参考号"/>
+    <moqui.basic.LocalizedMessage original="Customer-visible" locale="zh" localized="客户可见"/>
+    <moqui.basic.LocalizedMessage original="Customer-visible field" locale="zh" localized="客户可见字段"/>
+    <moqui.basic.LocalizedMessage original="Customers cancel unshipped orders at once" locale="zh" localized="客户可立即取消未发货的订单"/>
+    <moqui.basic.LocalizedMessage original="Customers may choose it" locale="zh" localized="客户可以选择它"/>
+    <moqui.basic.LocalizedMessage original="Customers may request returns themselves" locale="zh" localized="客户可以自行请求退货"/>
+    <moqui.basic.LocalizedMessage original="Customers reach the Support app at ${urls}." locale="zh" localized="客户通过 ${urls} 使用支持应用。"/>
+    <moqui.basic.LocalizedMessage original="Customers see" locale="zh" localized="客户看到"/>
+    <moqui.basic.LocalizedMessage original="Customers · ${customers.length}" locale="zh" localized="客户 · ${customers.length}"/>
+    <moqui.basic.LocalizedMessage original="Days between reminders" locale="zh" localized="提醒间隔天数"/>
+    <moqui.basic.LocalizedMessage original="Decide claim ${requestId}" locale="zh" localized="判定索赔 ${requestId}"/>
+    <moqui.basic.LocalizedMessage original="Decisions · ${decisionList.length}" locale="zh" localized="决定 · ${decisionList.length}"/>
+    <moqui.basic.LocalizedMessage original="Default priority" locale="zh" localized="默认优先级"/>
+    <moqui.basic.LocalizedMessage original="Default queue" locale="zh" localized="默认队列"/>
+    <moqui.basic.LocalizedMessage original="Delete the draft field ${title}?" locale="zh" localized="删除草稿字段 ${title}？"/>
+    <moqui.basic.LocalizedMessage original="Delivered to the customer by your organizations" locale="zh" localized="由您的组织交付给客户"/>
+    <moqui.basic.LocalizedMessage original="Dismiss request ${requestId}" locale="zh" localized="忽略请求 ${requestId}"/>
+    <moqui.basic.LocalizedMessage original="Dismissed request ${requestId}" locale="zh" localized="已忽略请求 ${requestId}"/>
+    <moqui.basic.LocalizedMessage original="draft" locale="zh" localized="草稿"/>
+    <moqui.basic.LocalizedMessage original="Draft ${path} saved, not published" locale="zh" localized="草稿 ${path} 已保存，未发布"/>
+    <moqui.basic.LocalizedMessage original="Draft space" locale="zh" localized="草稿空间"/>
+    <moqui.basic.LocalizedMessage original="Drafts go to" locale="zh" localized="草稿去向"/>
+    <moqui.basic.LocalizedMessage original="Drafts under" locale="zh" localized="草稿位于"/>
+    <moqui.basic.LocalizedMessage original="due ${when}" locale="zh" localized="到期 ${when}"/>
+    <moqui.basic.LocalizedMessage original="Each case gets its own message to its own contact, on its own thread; no case sees another's address." locale="zh" localized="每个案例向自己的联系人发送自己的消息，在自己的邮件串上；任何案例都看不到另一个的地址。"/>
+    <moqui.basic.LocalizedMessage original="Each report reads your organizations and the queues of the teams you report on, as of the time it is run; its export holds the same rows." locale="zh" localized="每份报表在运行时读取您的组织以及您所报告团队的队列；其导出包含相同的行。"/>
+    <moqui.basic.LocalizedMessage original="Each time it is resolved" locale="zh" localized="每次解决时"/>
+    <moqui.basic.LocalizedMessage original="Earlier feedback delivery" locale="zh" localized="先前的反馈发送"/>
+    <moqui.basic.LocalizedMessage original="Edit the field ${title}" locale="zh" localized="编辑字段 ${title}"/>
+    <moqui.basic.LocalizedMessage original="Edit the route of ${queueText}" locale="zh" localized="编辑 ${queueText} 的路线"/>
+    <moqui.basic.LocalizedMessage original="Edit the source ${spaceName}" locale="zh" localized="编辑来源 ${spaceName}"/>
+    <moqui.basic.LocalizedMessage original="Empty leaves it for the queue's team" locale="zh" localized="空则留给队列的团队"/>
+    <moqui.basic.LocalizedMessage original="Empty leaves the task unassigned" locale="zh" localized="空则任务保持未分配"/>
+    <moqui.basic.LocalizedMessage original="Empty takes every service-enabled type" locale="zh" localized="空则接受所有已启用服务的类型"/>
+    <moqui.basic.LocalizedMessage original="Empty takes the sale line's invoice" locale="zh" localized="空则采用销售行的发票"/>
+    <moqui.basic.LocalizedMessage original="Empty takes the serial's product" locale="zh" localized="空则采用序列号的产品"/>
+    <moqui.basic.LocalizedMessage original="Empty takes the serial's sale" locale="zh" localized="空则采用序列号的销售"/>
+    <moqui.basic.LocalizedMessage original="Empty unassigns them" locale="zh" localized="空则取消其分派"/>
+    <moqui.basic.LocalizedMessage original="Empty: 60" locale="zh" localized="空：60"/>
+    <moqui.basic.LocalizedMessage original="Empty: any customer" locale="zh" localized="空：任意客户"/>
+    <moqui.basic.LocalizedMessage original="Empty: any queue" locale="zh" localized="空：任意队列"/>
+    <moqui.basic.LocalizedMessage original="Empty: any type" locale="zh" localized="空：任意类型"/>
+    <moqui.basic.LocalizedMessage original="Empty: credit, refund and replacement" locale="zh" localized="空：贷记、退款和更换"/>
+    <moqui.basic.LocalizedMessage original="Empty: each queue's own" locale="zh" localized="空：各队列自己的"/>
+    <moqui.basic.LocalizedMessage original="Empty: every agent of the team" locale="zh" localized="空：团队的所有客服"/>
+    <moqui.basic.LocalizedMessage original="Empty: every category of the site" locale="zh" localized="空：站点的所有类别"/>
+    <moqui.basic.LocalizedMessage original="Empty: every customer" locale="zh" localized="空：所有客户"/>
+    <moqui.basic.LocalizedMessage original="Empty: every customer and public knowledge source" locale="zh" localized="空：所有客户和公共知识来源"/>
+    <moqui.basic.LocalizedMessage original="Empty: every product" locale="zh" localized="空：所有产品"/>
+    <moqui.basic.LocalizedMessage original="Empty: every queue" locale="zh" localized="空：所有队列"/>
+    <moqui.basic.LocalizedMessage original="Empty: every reason" locale="zh" localized="空：所有原因"/>
+    <moqui.basic.LocalizedMessage original="Empty: every store" locale="zh" localized="空：所有商店"/>
+    <moqui.basic.LocalizedMessage original="Empty: every type" locale="zh" localized="空：所有类型"/>
+    <moqui.basic.LocalizedMessage original="Empty: from now. A later date, or a new kind or audience, makes a new field that replaces this one" locale="zh" localized="空：从现在起。较晚的日期，或新的种类或对象，会新建一个字段来替换此字段"/>
+    <moqui.basic.LocalizedMessage original="Empty: from now. New cases take the drafts from then; earlier cases keep the form they were made with" locale="zh" localized="空：从现在起。新案例从那时起采用草稿；较早的案例保留创建时的表单"/>
+    <moqui.basic.LocalizedMessage original="Empty: never" locale="zh" localized="空：从不"/>
+    <moqui.basic.LocalizedMessage original="Empty: no follow-up" locale="zh" localized="空：无跟进"/>
+    <moqui.basic.LocalizedMessage original="Empty: no limit" locale="zh" localized="空：无限制"/>
+    <moqui.basic.LocalizedMessage original="Empty: no limit; an agent's own limit counts first" locale="zh" localized="空：无限制；客服自己的限制优先"/>
+    <moqui.basic.LocalizedMessage original="Empty: now; a published rule's change starts a new row and ends this one" locale="zh" localized="空：现在；已发布规则的变更会开始新行并结束此行"/>
+    <moqui.basic.LocalizedMessage original="Empty: now; an invitation keeps the row it was made under" locale="zh" localized="空：现在；邀请保留其创建时所在的行"/>
+    <moqui.basic.LocalizedMessage original="Empty: now; open cases keep the row they began with" locale="zh" localized="空：现在；未结案例保留其开始时的行"/>
+    <moqui.basic.LocalizedMessage original="Empty: now; the days before keep their hours" locale="zh" localized="空：现在；此前的日期保留其时间"/>
+    <moqui.basic.LocalizedMessage original="Empty: now; the row in effect ends then" locale="zh" localized="空：现在；当前有效的行到那时结束"/>
+    <moqui.basic.LocalizedMessage original="Empty: the case's queue team" locale="zh" localized="空：案例的队列团队"/>
+    <moqui.basic.LocalizedMessage original="Empty: the default queue" locale="zh" localized="空：默认队列"/>
+    <moqui.basic.LocalizedMessage original="Empty: the order's carrier" locale="zh" localized="空：订单的承运人"/>
+    <moqui.basic.LocalizedMessage original="Empty: the queue's assignment rules" locale="zh" localized="空：队列的分派规则"/>
+    <moqui.basic.LocalizedMessage original="Empty: the queue's team" locale="zh" localized="空：队列的团队"/>
+    <moqui.basic.LocalizedMessage original="Empty: the rule's limit, if any" locale="zh" localized="空：规则的限制（如有）"/>
+    <moqui.basic.LocalizedMessage original="Empty: the sender becomes the customer" locale="zh" localized="空：发件人成为客户"/>
+    <moqui.basic.LocalizedMessage original="Empty: the service defaults' rule" locale="zh" localized="空：服务默认值的规则"/>
+    <moqui.basic.LocalizedMessage original="Empty: the source's review team" locale="zh" localized="空：来源的审核团队"/>
+    <moqui.basic.LocalizedMessage original="Empty: the working hours of the queue's team" locale="zh" localized="空：队列团队的工作小时"/>
+    <moqui.basic.LocalizedMessage original="Empty: their own hours, else the team's" locale="zh" localized="空：其自己的时间；否则为团队的"/>
+    <moqui.basic.LocalizedMessage original="Empty: with or without one" locale="zh" localized="空：有或没有"/>
+    <moqui.basic.LocalizedMessage original="End the field ${title}" locale="zh" localized="结束字段 ${title}"/>
+    <moqui.basic.LocalizedMessage original="End the field ${title}? Cases made before keep its value." locale="zh" localized="结束字段 ${title}？此前创建的案例保留其值。"/>
+    <moqui.basic.LocalizedMessage original="End the route of ${queueText}" locale="zh" localized="结束 ${queueText} 的路线"/>
+    <moqui.basic.LocalizedMessage original="End the source ${spaceName}" locale="zh" localized="结束来源 ${spaceName}"/>
+    <moqui.basic.LocalizedMessage original="End this reason's row" locale="zh" localized="结束此原因的行"/>
+    <moqui.basic.LocalizedMessage original="Ended the condition" locale="zh" localized="已结束条件"/>
+    <moqui.basic.LocalizedMessage original="Ended the field; earlier cases keep its value" locale="zh" localized="已结束该字段；较早的案例保留其值"/>
+    <moqui.basic.LocalizedMessage original="Ended the knowledge source" locale="zh" localized="已结束知识来源"/>
+    <moqui.basic.LocalizedMessage original="Ended the policy" locale="zh" localized="已结束策略"/>
+    <moqui.basic.LocalizedMessage original="Ended the return policy" locale="zh" localized="已结束退货策略"/>
+    <moqui.basic.LocalizedMessage original="Ended the route" locale="zh" localized="已结束路线"/>
+    <moqui.basic.LocalizedMessage original="Ended the rule" locale="zh" localized="已结束规则"/>
+    <moqui.basic.LocalizedMessage original="entered ${when}" locale="zh" localized="录入于 ${when}"/>
+    <moqui.basic.LocalizedMessage original="Every agent of the team" locale="zh" localized="团队的所有客服"/>
+    <moqui.basic.LocalizedMessage original="Every case" locale="zh" localized="所有案例"/>
+    <moqui.basic.LocalizedMessage original="Every return reason is offered with its own name." locale="zh" localized="每个退货原因都以自己的名称提供。"/>
+    <moqui.basic.LocalizedMessage original="Every service-enabled type" locale="zh" localized="所有已启用服务的类型"/>
+    <moqui.basic.LocalizedMessage original="Evidence of claim ${requestId}" locale="zh" localized="索赔 ${requestId} 的证据"/>
+    <moqui.basic.LocalizedMessage original="Fallback assignee" locale="zh" localized="回退受理人"/>
+    <moqui.basic.LocalizedMessage original="Fault, usage and condition" locale="zh" localized="故障、使用和状况"/>
+    <moqui.basic.LocalizedMessage original="Fee cap" locale="zh" localized="费用上限"/>
+    <moqui.basic.LocalizedMessage original="Feedback delivery" locale="zh" localized="反馈发送"/>
+    <moqui.basic.LocalizedMessage original="Feedback form" locale="zh" localized="反馈表单"/>
+    <moqui.basic.LocalizedMessage original="Feedback forms" locale="zh" localized="反馈表单"/>
+    <moqui.basic.LocalizedMessage original="filed ${date}" locale="zh" localized="提交于 ${date}"/>
+    <moqui.basic.LocalizedMessage original="Files into" locale="zh" localized="归入"/>
+    <moqui.basic.LocalizedMessage original="finished ${when}" locale="zh" localized="完成于 ${when}"/>
+    <moqui.basic.LocalizedMessage original="First for" locale="zh" localized="优先用于"/>
+    <moqui.basic.LocalizedMessage original="First for the queue" locale="zh" localized="该队列优先"/>
+    <moqui.basic.LocalizedMessage original="Follow up a score of at most" locale="zh" localized="跟进分数至多为"/>
+    <moqui.basic.LocalizedMessage original="Follow up within (days)" locale="zh" localized="在（天）内跟进"/>
+    <moqui.basic.LocalizedMessage original="Follow-up team" locale="zh" localized="跟进团队"/>
+    <moqui.basic.LocalizedMessage original="For a choice: one a line, as value | label (the value is what a condition compares)" locale="zh" localized="用于选项：每行一个，格式为值 | 标签（值是条件所比较的内容）"/>
+    <moqui.basic.LocalizedMessage original="For Add a tag" locale="zh" localized="用于添加标签"/>
+    <moqui.basic.LocalizedMessage original="For any customer to read: no names, contacts, addresses or orders" locale="zh" localized="供任何客户阅读：不要姓名、联系人、地址或订单"/>
+    <moqui.basic.LocalizedMessage original="For Assign to" locale="zh" localized="用于分派给"/>
+    <moqui.basic.LocalizedMessage original="For is and is not: one of the field's options" locale="zh" localized="用于“是”和“不是”：字段的一个选项"/>
+    <moqui.basic.LocalizedMessage original="For mail; empty: any account whose rule names the queue" locale="zh" localized="用于邮件；空：其规则指定该队列的任何账号"/>
+    <moqui.basic.LocalizedMessage original="For Set the priority" locale="zh" localized="用于设置优先级"/>
+    <moqui.basic.LocalizedMessage original="For Set the status" locale="zh" localized="用于设置状态"/>
+    <moqui.basic.LocalizedMessage original="For the forum" locale="zh" localized="用于论坛"/>
+    <moqui.basic.LocalizedMessage original="For the public form; empty: 30" locale="zh" localized="用于公开表单；空：30"/>
+    <moqui.basic.LocalizedMessage original="Form link lasts (days)" locale="zh" localized="表单链接有效（天）"/>
+    <moqui.basic.LocalizedMessage original="Form requests an hour" locale="zh" localized="表单每小时请求数"/>
+    <moqui.basic.LocalizedMessage original="Forum category" locale="zh" localized="论坛类别"/>
+    <moqui.basic.LocalizedMessage original="Forum site" locale="zh" localized="论坛站点"/>
+    <moqui.basic.LocalizedMessage original="From case" locale="zh" localized="来自案例"/>
+    <moqui.basic.LocalizedMessage original="From case ${prepared.caseRow?.requestId}: ${prepared.caseRow?.label}" locale="zh" localized="来自案例 ${prepared.caseRow?.requestId}：${prepared.caseRow?.label}"/>
+    <moqui.basic.LocalizedMessage original="Gets the tasks of its feedback and suggested edits" locale="zh" localized="接收其反馈和建议编辑的任务"/>
+    <moqui.basic.LocalizedMessage original="Give cases" locale="zh" localized="分配案例"/>
+    <moqui.basic.LocalizedMessage original="Gives cases" locale="zh" localized="分配案例"/>
+    <moqui.basic.LocalizedMessage original="Goods go to" locale="zh" localized="货物去向"/>
+    <moqui.basic.LocalizedMessage original="Goodwill" locale="zh" localized="善意"/>
+    <moqui.basic.LocalizedMessage original="Headers" locale="zh" localized="标头"/>
+    <moqui.basic.LocalizedMessage original="Held for review" locale="zh" localized="待审核"/>
+    <moqui.basic.LocalizedMessage original="Help from" locale="zh" localized="帮助来自"/>
+    <moqui.basic.LocalizedMessage original="High: first response (minutes)" locale="zh" localized="高：首次回复（分钟）"/>
+    <moqui.basic.LocalizedMessage original="Hold or conflict" locale="zh" localized="挂起或冲突"/>
+    <moqui.basic.LocalizedMessage original="How ${name} takes cases" locale="zh" localized="${name} 如何受理案例"/>
+    <moqui.basic.LocalizedMessage original="How it was read" locale="zh" localized="读取方式"/>
+    <moqui.basic.LocalizedMessage original="How mail, the public form, the forum and chat reach the queues: what a message from a customer, from staff or from an unknown sender makes, and the acknowledgement a new case gets." locale="zh" localized="邮件、公开表单、论坛和聊天如何到达队列：来自客户、员工或未知发件人的消息会创建什么，以及新案例得到的回执。"/>
+    <moqui.basic.LocalizedMessage original="In effect since ${from}." locale="zh" localized="自 ${from} 起生效。"/>
+    <moqui.basic.LocalizedMessage original="In reply to" locale="zh" localized="回复"/>
+    <moqui.basic.LocalizedMessage original="In their working hours" locale="zh" localized="在其工作小时内"/>
+    <moqui.basic.LocalizedMessage original="Inspected on receipt" locale="zh" localized="收货时检验"/>
+    <moqui.basic.LocalizedMessage original="Instant credit (needs finance rights at authorization)" locale="zh" localized="即时贷记（授权时需要财务权限）"/>
+    <moqui.basic.LocalizedMessage original="Intake (received, resolved, reopened, cancelled, merged) is counted in the period; the backlog is the cases open at the as-of time, a merged case once." locale="zh" localized="进入量（已接收、已解决、已重开、已取消、已合并）计入本期间；积压是截至时间未结的案例，合并的案例只计一次。"/>
+    <moqui.basic.LocalizedMessage original="internal" locale="zh" localized="内部"/>
+    <moqui.basic.LocalizedMessage original="Internal summary" locale="zh" localized="内部摘要"/>
+    <moqui.basic.LocalizedMessage original="Internal summary of case ${requestId}: print it from the browser" locale="zh" localized="案例 ${requestId} 的内部摘要：请从浏览器打印"/>
+    <moqui.basic.LocalizedMessage original="Inviting a contact to the Support app needs SUPPORT_CONTACT_INVITE" locale="zh" localized="邀请联系人使用支持应用需要 SUPPORT_CONTACT_INVITE"/>
+    <moqui.basic.LocalizedMessage original="Invoice ${claim.invoiceId}" locale="zh" localized="发票 ${claim.invoiceId}"/>
+    <moqui.basic.LocalizedMessage original="is filled in" locale="zh" localized="已填写"/>
+    <moqui.basic.LocalizedMessage original="is not" locale="zh" localized="不是"/>
+    <moqui.basic.LocalizedMessage original="Its clock starts ${when}, when the earliest message chosen came in." locale="zh" localized="其计时从 ${when} 开始，即所选最早消息的到达时间。"/>
+    <moqui.basic.LocalizedMessage original="Its team's working hours; empty: the default queue" locale="zh" localized="其团队的工作小时；空：默认队列"/>
+    <moqui.basic.LocalizedMessage original="Joins by its" locale="zh" localized="按其并入"/>
+    <moqui.basic.LocalizedMessage original="Keep as a draft" locale="zh" localized="保留为草稿"/>
+    <moqui.basic.LocalizedMessage original="Kept on each case's history" locale="zh" localized="保留在每个案例的历史中"/>
+    <moqui.basic.LocalizedMessage original="Knowledge and feedback" locale="zh" localized="知识和反馈"/>
+    <moqui.basic.LocalizedMessage original="Knowledge sources" locale="zh" localized="知识来源"/>
+    <moqui.basic.LocalizedMessage original="Latest order" locale="zh" localized="最近的订单"/>
+    <moqui.basic.LocalizedMessage original="Left to return" locale="zh" localized="剩余可退"/>
+    <moqui.basic.LocalizedMessage original="Low: first response (minutes)" locale="zh" localized="低：首次回复（分钟）"/>
+    <moqui.basic.LocalizedMessage original="Lower comes first" locale="zh" localized="较小者优先"/>
+    <moqui.basic.LocalizedMessage original="Made the template ${description}: add its fields, then publish it" locale="zh" localized="已创建模板 ${description}：请添加其字段，然后发布"/>
+    <moqui.basic.LocalizedMessage original="Mail rules" locale="zh" localized="邮件规则"/>
+    <moqui.basic.LocalizedMessage original="Mail rules in Comms" locale="zh" localized="Comms 中的邮件规则"/>
+    <moqui.basic.LocalizedMessage original="Make a new link for ${queue}? The current link stops working." locale="zh" localized="为 ${queue} 新建链接？当前链接将失效。"/>
+    <moqui.basic.LocalizedMessage original="Make it a case" locale="zh" localized="将其设为案例"/>
+    <moqui.basic.LocalizedMessage original="Make request ${requestId} a case" locale="zh" localized="将请求 ${requestId} 设为案例"/>
+    <moqui.basic.LocalizedMessage original="Make template" locale="zh" localized="新建模板"/>
+    <moqui.basic.LocalizedMessage original="Make the new case" locale="zh" localized="创建新案例"/>
+    <moqui.basic.LocalizedMessage original="Managers only" locale="zh" localized="仅经理"/>
+    <moqui.basic.LocalizedMessage original="Measured as of ${asOfText}; times in each clock's zone" locale="zh" localized="截至 ${asOfText} 计量；时间按各计时的时区"/>
+    <moqui.basic.LocalizedMessage original="Median open age" locale="zh" localized="未结时长中位数"/>
+    <moqui.basic.LocalizedMessage original="Merge ${mergePreview.sources.length} case(s)" locale="zh" localized="合并 ${mergePreview.sources.length} 个案例"/>
+    <moqui.basic.LocalizedMessage original="Merge into it" locale="zh" localized="合并到其中"/>
+    <moqui.basic.LocalizedMessage original="Merged ${mergeSources.length} case(s) into case ${requestId}" locale="zh" localized="已将 ${mergeSources.length} 个案例合并到案例 ${requestId}"/>
+    <moqui.basic.LocalizedMessage original="Merged into it" locale="zh" localized="并入其中"/>
+    <moqui.basic.LocalizedMessage original="Merging cases is for service managers." locale="zh" localized="合并案例仅供服务经理使用。"/>
+    <moqui.basic.LocalizedMessage original="More filters" locale="zh" localized="更多筛选"/>
+    <moqui.basic.LocalizedMessage original="Most open cases" locale="zh" localized="最多未结案例"/>
+    <moqui.basic.LocalizedMessage original="Needed for a return no policy covers (manual review)" locale="zh" localized="没有任何策略覆盖的退货所需（人工审核）"/>
+    <moqui.basic.LocalizedMessage original="Needs a reason" locale="zh" localized="需要原因"/>
+    <moqui.basic.LocalizedMessage original="Needs a resolution" locale="zh" localized="需要解决方案"/>
+    <moqui.basic.LocalizedMessage original="Needs case editing or return authorization access, which an administrator can grant." locale="zh" localized="需要案例编辑或退货授权权限，管理员可以授予。"/>
+    <moqui.basic.LocalizedMessage original="Needs information" locale="zh" localized="需要信息"/>
+    <moqui.basic.LocalizedMessage original="Needs return policy editing access, which an administrator can grant." locale="zh" localized="需要退货策略编辑权限，管理员可以授予。"/>
+    <moqui.basic.LocalizedMessage original="Needs service settings access, which an administrator can grant." locale="zh" localized="需要服务设置权限，管理员可以授予。"/>
+    <moqui.basic.LocalizedMessage original="New assignment rule" locale="zh" localized="新建分派规则"/>
+    <moqui.basic.LocalizedMessage original="New case template" locale="zh" localized="新建案例模板"/>
+    <moqui.basic.LocalizedMessage original="New cases" locale="zh" localized="新案例"/>
+    <moqui.basic.LocalizedMessage original="New queue" locale="zh" localized="新建队列"/>
+    <moqui.basic.LocalizedMessage original="New return policy" locale="zh" localized="新建退货策略"/>
+    <moqui.basic.LocalizedMessage original="New saved reply" locale="zh" localized="新建已保存回复"/>
+    <moqui.basic.LocalizedMessage original="New service level policy" locale="zh" localized="新建服务级别策略"/>
+    <moqui.basic.LocalizedMessage original="New service team" locale="zh" localized="新建服务团队"/>
+    <moqui.basic.LocalizedMessage original="Next delivery" locale="zh" localized="下次发送"/>
+    <moqui.basic.LocalizedMessage original="Next follow-up" locale="zh" localized="下次跟进"/>
+    <moqui.basic.LocalizedMessage original="No acknowledgement" locale="zh" localized="无回执"/>
+    <moqui.basic.LocalizedMessage original="No action: the reply only sends its text." locale="zh" localized="无操作：回复只发送其文本。"/>
+    <moqui.basic.LocalizedMessage original="No amount in this period." locale="zh" localized="本期间没有金额。"/>
+    <moqui.basic.LocalizedMessage original="No assignment rule yet: every case stays unassigned until an agent takes it. Make one with New rule." locale="zh" localized="还没有分派规则：每个案例保持未分配，直到客服接手。请用“新建规则”创建一条。"/>
+    <moqui.basic.LocalizedMessage original="No call, chat or mail found. Choose a customer to see theirs, or log a call on a case." locale="zh" localized="未找到通话、聊天或邮件。请选择一个客户以查看其记录，或在案例上登记通话。"/>
+    <moqui.basic.LocalizedMessage original="No case in this period." locale="zh" localized="本期间没有案例。"/>
+    <moqui.basic.LocalizedMessage original="No case template yet: a case asks only for its subject and description. Make one with New template." locale="zh" localized="还没有案例模板：案例只要求主题和描述。请用“新建模板”创建一条。"/>
+    <moqui.basic.LocalizedMessage original="No clock of this metric was done in the period." locale="zh" localized="本期间没有完成此指标的计时。"/>
+    <moqui.basic.LocalizedMessage original="No clock started in this period." locale="zh" localized="本期间没有开始的计时。"/>
+    <moqui.basic.LocalizedMessage original="No condition: every case of the queue meets this rule." locale="zh" localized="无条件：该队列的所有案例都符合此规则。"/>
+    <moqui.basic.LocalizedMessage original="No decision waits for you." locale="zh" localized="没有待您处理的决定。"/>
+    <moqui.basic.LocalizedMessage original="No feedback here. Agents give it from a case's Knowledge tab; customers from the help pages." locale="zh" localized="此处没有反馈。客服从案例的知识页签给出；客户从帮助页面给出。"/>
+    <moqui.basic.LocalizedMessage original="No field yet. Add the first with Add field: it stays a draft until you publish." locale="zh" localized="还没有字段。请用“添加字段”添加第一个：在您发布之前它一直是草稿。"/>
+    <moqui.basic.LocalizedMessage original="No knowledge source yet: agents are offered no articles. Add the space of your help center first." locale="zh" localized="还没有知识来源：不会向客服提供文章。请先添加帮助中心的空间。"/>
+    <moqui.basic.LocalizedMessage original="No mail rule files into these queues yet." locale="zh" localized="还没有邮件规则归入这些队列。"/>
+    <moqui.basic.LocalizedMessage original="No member yet." locale="zh" localized="还没有成员。"/>
+    <moqui.basic.LocalizedMessage original="No message is chosen: its clock starts when it is made, or at the start you give below with its reason." locale="zh" localized="未选择消息：其计时在创建时开始，或按您在下方给出的起点及其原因开始。"/>
+    <moqui.basic.LocalizedMessage original="No message is chosen: its clock starts when it is made." locale="zh" localized="未选择消息：其计时在创建时开始。"/>
+    <moqui.basic.LocalizedMessage original="No open case is assigned to you." locale="zh" localized="没有未结案例分派给您。"/>
+    <moqui.basic.LocalizedMessage original="No order changes match." locale="zh" localized="没有匹配的订单变更。"/>
+    <moqui.basic.LocalizedMessage original="No organization of yours has a published site with the Support app" locale="zh" localized="您的组织中没有已发布且带有支持应用的站点"/>
+    <moqui.basic.LocalizedMessage original="No policy" locale="zh" localized="无策略"/>
+    <moqui.basic.LocalizedMessage original="No policy: cases have no clocks" locale="zh" localized="无策略：案例没有计时"/>
+    <moqui.basic.LocalizedMessage original="No product recorded." locale="zh" localized="未记录产品。"/>
+    <moqui.basic.LocalizedMessage original="No published site has the Support app for this organization yet (PASS site mounts)." locale="zh" localized="此组织还没有已发布且带有支持应用的站点（PASS 站点挂载）。"/>
+    <moqui.basic.LocalizedMessage original="No queue uses it yet" locale="zh" localized="还没有队列使用它"/>
+    <moqui.basic.LocalizedMessage original="No queue yet. Make the first with New queue, then give it a team." locale="zh" localized="还没有队列。请用“新建队列”创建第一个，然后为其指定团队。"/>
+    <moqui.basic.LocalizedMessage original="No repair or return is linked. A repair is of the customer's serial; a replacement goes through a return." locale="zh" localized="没有关联的维修或退货。维修针对客户的序列号；更换通过退货进行。"/>
+    <moqui.basic.LocalizedMessage original="no report stored yet" locale="zh" localized="尚无已存储的报告"/>
+    <moqui.basic.LocalizedMessage original="No return in this period." locale="zh" localized="本期间没有退货。"/>
+    <moqui.basic.LocalizedMessage original="No return policy: every return goes to manual review." locale="zh" localized="无退货策略：每笔退货都进入人工审核。"/>
+    <moqui.basic.LocalizedMessage original="No return waits for authorization." locale="zh" localized="没有退货在等待授权。"/>
+    <moqui.basic.LocalizedMessage original="No route yet: mail a rule files into a queue makes a case with the queue's defaults and no acknowledgement." locale="zh" localized="还没有路线：规则归入队列的邮件会按队列默认值创建案例，且没有回执。"/>
+    <moqui.basic.LocalizedMessage original="No saved reply yet. Make one with New reply; share it with your team or every service agent." locale="zh" localized="还没有已保存回复。请用“新建回复”创建一条；与您的团队或所有服务客服共享。"/>
+    <moqui.basic.LocalizedMessage original="No service level policy applied to this case when it came in." locale="zh" localized="此案例进入时没有适用的服务级别策略。"/>
+    <moqui.basic.LocalizedMessage original="No service level policy yet: cases have no clocks. Make the organization's default with New policy." locale="zh" localized="还没有服务级别策略：案例没有计时。请用“新建策略”创建组织的默认策略。"/>
+    <moqui.basic.LocalizedMessage original="No service queue yet" locale="zh" localized="还没有服务队列"/>
+    <moqui.basic.LocalizedMessage original="No service team yet. Make one with New team, then add its agents." locale="zh" localized="还没有服务团队。请用“新建团队”创建一个，然后添加其客服。"/>
+    <moqui.basic.LocalizedMessage original="No type service-enabled" locale="zh" localized="没有已启用服务的类型"/>
+    <moqui.basic.LocalizedMessage original="No warranty claims match." locale="zh" localized="没有匹配的质保索赔。"/>
+    <moqui.basic.LocalizedMessage original="No: ${reasons}" locale="zh" localized="否：${reasons}"/>
+    <moqui.basic.LocalizedMessage original="None of the organization's knowledge sources has a draft space: the service administrator sets one in Settings, Knowledge sources." locale="zh" localized="组织的知识来源都没有草稿空间：服务管理员在设置、知识来源中设置一个。"/>
+    <moqui.basic.LocalizedMessage original="None of your queues takes this type. Choose another type, or ask a service manager for a queue." locale="zh" localized="您的队列都不接受此类型。请选择其他类型，或向服务经理申请一个队列。"/>
+    <moqui.basic.LocalizedMessage original="Normal: first response (minutes)" locale="zh" localized="普通：首次回复（分钟）"/>
+    <moqui.basic.LocalizedMessage original="Not a service queue now" locale="zh" localized="当前不是服务队列"/>
+    <moqui.basic.LocalizedMessage original="Not offered for cases" locale="zh" localized="不用于案例"/>
+    <moqui.basic.LocalizedMessage original="Not offered on cases" locale="zh" localized="不在案例中提供"/>
+    <moqui.basic.LocalizedMessage original="not reviewed: ${list}" locale="zh" localized="未审核：${list}"/>
+    <moqui.basic.LocalizedMessage original="Not set: customers file into the default queue, and the help reads every customer and public knowledge source." locale="zh" localized="未设置：客户归入默认队列，帮助读取每一个客户和公开知识来源。"/>
+    <moqui.basic.LocalizedMessage original="Not set: its cases' clocks run around the clock" locale="zh" localized="未设置：其案例的计时全天候运行"/>
+    <moqui.basic.LocalizedMessage original="Not set: no request of the organization is a case until these are saved." locale="zh" localized="未设置：在保存这些值之前，组织的请求都不是案例。"/>
+    <moqui.basic.LocalizedMessage original="Not set: publish a feedback form first (Settings, Feedback forms)." locale="zh" localized="未设置：请先发布一个反馈表单（设置、反馈表单）。"/>
+    <moqui.basic.LocalizedMessage original="Not set: resolved cases are not asked for feedback." locale="zh" localized="未设置：不会向已解决的案例征求反馈。"/>
+    <moqui.basic.LocalizedMessage original="Not stored yet: the first resend prints the order as placed and keeps it." locale="zh" localized="尚未存储：第一次重发会按已下达状态打印订单并保留它。"/>
+    <moqui.basic.LocalizedMessage original="Not taking cases" locale="zh" localized="不受理案例"/>
+    <moqui.basic.LocalizedMessage original="Note on both cases" locale="zh" localized="两个案例上的备注"/>
+    <moqui.basic.LocalizedMessage original="Note or reason" locale="zh" localized="备注或原因"/>
+    <moqui.basic.LocalizedMessage original="Nothing held: mail and forms from staff, from parties that are no customer and from unknown senders wait here." locale="zh" localized="没有待审核项：来自员工、非客户参与方和未知发件人的邮件和表单在此等待。"/>
+    <moqui.basic.LocalizedMessage original="Nothing on order ${orderId} is left to return: what was shipped and invoiced is on other returns already." locale="zh" localized="订单 ${orderId} 已没有可退内容：已发货并开票的部分已在其他退货中。"/>
+    <moqui.basic.LocalizedMessage original="Nothing was written or sent." locale="zh" localized="未写入也未发送任何内容。"/>
+    <moqui.basic.LocalizedMessage original="Now when empty: an earlier time reads what was recorded by then" locale="zh" localized="空则为现在：较早的时间读取截至当时已记录的内容"/>
+    <moqui.basic.LocalizedMessage original="On a case" locale="zh" localized="在案例中"/>
+    <moqui.basic.LocalizedMessage original="On the customer pages" locale="zh" localized="在客户页面上"/>
+    <moqui.basic.LocalizedMessage original="Once per case" locale="zh" localized="每个案例一次"/>
+    <moqui.basic.LocalizedMessage original="One word: type /word in the composer" locale="zh" localized="一个词：在编写框中输入 /word"/>
+    <moqui.basic.LocalizedMessage original="Only agents in their working hours" locale="zh" localized="仅工作小时内的客服"/>
+    <moqui.basic.LocalizedMessage original="Only by a condition" locale="zh" localized="仅按条件"/>
+    <moqui.basic.LocalizedMessage original="Only its owner changes this reply; you may use it on your cases." locale="zh" localized="只有其所有者可以更改此回复；您可以在自己的案例上使用它。"/>
+    <moqui.basic.LocalizedMessage original="Only these agents" locale="zh" localized="仅这些客服"/>
+    <moqui.basic.LocalizedMessage original="Only when the messages do not show when the issue came in" locale="zh" localized="仅当消息未显示问题到达时间时"/>
+    <moqui.basic.LocalizedMessage original="Open Approvals" locale="zh" localized="打开审批"/>
+    <moqui.basic.LocalizedMessage original="Open one of these to add to it, or describe a distinct case below." locale="zh" localized="打开其中之一以追加，或在下方描述一个不同的案例。"/>
+    <moqui.basic.LocalizedMessage original="Open the case to keep, then Merge cases from its More menu: case ${requestId} is not available to you." locale="zh" localized="请打开要保留的案例，然后从其“更多”菜单中合并案例：案例 ${requestId} 对您不可用。"/>
+    <moqui.basic.LocalizedMessage original="Order changes are for the service agents, managers and the order desk. Open an                                 order to see its state." locale="zh" localized="订单变更供服务客服、经理和订单台使用。打开一张订单以查看其状态。"/>
+    <moqui.basic.LocalizedMessage original="Order or customer" locale="zh" localized="订单或客户"/>
+    <moqui.basic.LocalizedMessage original="Ordered before" locale="zh" localized="下单早于"/>
+    <moqui.basic.LocalizedMessage original="Ordered from" locale="zh" localized="下单自"/>
+    <moqui.basic.LocalizedMessage original="owned by ${name}" locale="zh" localized="所有人为 ${name}"/>
+    <moqui.basic.LocalizedMessage original="Pages under" locale="zh" localized="页面位于"/>
+    <moqui.basic.LocalizedMessage original="Partly covered" locale="zh" localized="部分覆盖"/>
+    <moqui.basic.LocalizedMessage original="Pauses" locale="zh" localized="暂停"/>
+    <moqui.basic.LocalizedMessage original="Personal data of this case, taken out of the text below; check for any other:" locale="zh" localized="此案例的个人数据，已从下方文本中取出；请检查是否还有其他："/>
+    <moqui.basic.LocalizedMessage original="placed ${when}" locale="zh" localized="下达于 ${when}"/>
+    <moqui.basic.LocalizedMessage original="Policy ${name}" locale="zh" localized="策略 ${name}"/>
+    <moqui.basic.LocalizedMessage original="Policy preview" locale="zh" localized="策略预览"/>
+    <moqui.basic.LocalizedMessage original="Preview each case's reply" locale="zh" localized="预览每个案例的回复"/>
+    <moqui.basic.LocalizedMessage original="Preview on a case" locale="zh" localized="在案例上预览"/>
+    <moqui.basic.LocalizedMessage original="Preview the merge" locale="zh" localized="预览合并"/>
+    <moqui.basic.LocalizedMessage original="Preview the return" locale="zh" localized="预览退货"/>
+    <moqui.basic.LocalizedMessage original="Preview: the agent's form" locale="zh" localized="预览：客服的表单"/>
+    <moqui.basic.LocalizedMessage original="Preview: the customer's form" locale="zh" localized="预览：客户的表单"/>
+    <moqui.basic.LocalizedMessage original="Preview: who would a case go to now?" locale="zh" localized="预览：案例现在会分给谁？"/>
+    <moqui.basic.LocalizedMessage original="Product ${productId} is not available." locale="zh" localized="产品 ${productId} 不可用。"/>
+    <moqui.basic.LocalizedMessage original="Product availability" locale="zh" localized="产品可用性"/>
+    <moqui.basic.LocalizedMessage original="Product record" locale="zh" localized="产品记录"/>
+    <moqui.basic.LocalizedMessage original="Product: ${product}" locale="zh" localized="产品：${product}"/>
+    <moqui.basic.LocalizedMessage original="Product: ${product} × ${quantity}" locale="zh" localized="产品：${product} × ${quantity}"/>
+    <moqui.basic.LocalizedMessage original="Proof of purchase or condition required" locale="zh" localized="需要购买证明或状况证明"/>
+    <moqui.basic.LocalizedMessage original="Publish ${tpl.description}" locale="zh" localized="发布 ${tpl.description}"/>
+    <moqui.basic.LocalizedMessage original="published ${when}" locale="zh" localized="发布于 ${when}"/>
+    <moqui.basic.LocalizedMessage original="Queue ${description}" locale="zh" localized="队列 ${description}"/>
+    <moqui.basic.LocalizedMessage original="Queues customers file into" locale="zh" localized="客户归入的队列"/>
+    <moqui.basic.LocalizedMessage original="Reasons allowed" locale="zh" localized="允许的原因"/>
+    <moqui.basic.LocalizedMessage original="reference ${ref}" locale="zh" localized="参考号 ${ref}"/>
+    <moqui.basic.LocalizedMessage original="Remedies allowed" locale="zh" localized="允许的补救"/>
+    <moqui.basic.LocalizedMessage original="Rename ${tpl.description}" locale="zh" localized="重命名 ${tpl.description}"/>
+    <moqui.basic.LocalizedMessage original="Reopen within (days)" locale="zh" localized="在（天）内重开"/>
+    <moqui.basic.LocalizedMessage original="Repair ${assetMaintenanceId} is updated" locale="zh" localized="维修 ${assetMaintenanceId} 已更新"/>
+    <moqui.basic.LocalizedMessage original="Repair ${linked.assetMaintenanceId} is linked to claim ${requestId}" locale="zh" localized="维修 ${linked.assetMaintenanceId} 已关联到索赔 ${requestId}"/>
+    <moqui.basic.LocalizedMessage original="Repair ${repair.assetMaintenanceId} · ${repair.statusText}" locale="zh" localized="维修 ${repair.assetMaintenanceId} · ${repair.statusText}"/>
+    <moqui.basic.LocalizedMessage original="Repair for claim ${requestId}" locale="zh" localized="索赔 ${requestId} 的维修"/>
+    <moqui.basic.LocalizedMessage original="Repair or return" locale="zh" localized="维修或退货"/>
+    <moqui.basic.LocalizedMessage original="Repairs and returns" locale="zh" localized="维修和退货"/>
+    <moqui.basic.LocalizedMessage original="Replies you may use" locale="zh" localized="您可以使用的回复"/>
+    <moqui.basic.LocalizedMessage original="Reply from" locale="zh" localized="回复发自"/>
+    <moqui.basic.LocalizedMessage original="Reply texts with their case actions, personal, for a team or for every agent." locale="zh" localized="回复文本及其案例操作，可以是个人的、团队的或全体客服的。"/>
+    <moqui.basic.LocalizedMessage original="Reply to the selected cases" locale="zh" localized="回复所选案例"/>
+    <moqui.basic.LocalizedMessage original="report stored" locale="zh" localized="报告已存储"/>
+    <moqui.basic.LocalizedMessage original="Request ${requestId} is now a case" locale="zh" localized="请求 ${requestId} 现已成为案例"/>
+    <moqui.basic.LocalizedMessage original="Request type" locale="zh" localized="请求类型"/>
+    <moqui.basic.LocalizedMessage original="Required unless covered" locale="zh" localized="未覆盖时必填"/>
+    <moqui.basic.LocalizedMessage original="Required work" locale="zh" localized="所需工作"/>
+    <moqui.basic.LocalizedMessage original="Resolution (minutes)" locale="zh" localized="解决（分钟）"/>
+    <moqui.basic.LocalizedMessage original="Resolved cases are no longer asked for feedback" locale="zh" localized="已解决案例不再征求反馈"/>
+    <moqui.basic.LocalizedMessage original="Resolving needs a resolution" locale="zh" localized="解决需要一个解决方案"/>
+    <moqui.basic.LocalizedMessage original="Restocking fee %" locale="zh" localized="重新入库费 %"/>
+    <moqui.basic.LocalizedMessage original="Retry the ${bulk.failedCount} not delivered" locale="zh" localized="重试未送达的 ${bulk.failedCount} 条"/>
+    <moqui.basic.LocalizedMessage original="Return ${returnId} is not authorized yet." locale="zh" localized="退货 ${returnId} 尚未授权。"/>
+    <moqui.basic.LocalizedMessage original="Return ${returnId} is not available." locale="zh" localized="退货 ${returnId} 不可用。"/>
+    <moqui.basic.LocalizedMessage original="Return ${returnId}: ${submitted.outcomeText}" locale="zh" localized="退货 ${returnId}：${submitted.outcomeText}"/>
+    <moqui.basic.LocalizedMessage original="Return ${returnRow.displayId}" locale="zh" localized="退货 ${returnRow.displayId}"/>
+    <moqui.basic.LocalizedMessage original="Return authorization ${returnId}: print it from the browser" locale="zh" localized="退货授权 ${returnId}：请从浏览器打印"/>
+    <moqui.basic.LocalizedMessage original="Return label carrier" locale="zh" localized="退货标签承运人"/>
+    <moqui.basic.LocalizedMessage original="Return policies" locale="zh" localized="退货策略"/>
+    <moqui.basic.LocalizedMessage original="Return reasons" locale="zh" localized="退货原因"/>
+    <moqui.basic.LocalizedMessage original="Returning" locale="zh" localized="退回"/>
+    <moqui.basic.LocalizedMessage original="Returns awaiting approval" locale="zh" localized="待审批的退货"/>
+    <moqui.basic.LocalizedMessage original="Review team" locale="zh" localized="审核团队"/>
+    <moqui.basic.LocalizedMessage original="Review the selected feedback" locale="zh" localized="审核所选反馈"/>
+    <moqui.basic.LocalizedMessage original="Reviewed ${done}" locale="zh" localized="已审核 ${done}"/>
+    <moqui.basic.LocalizedMessage original="RMA or customer reference" locale="zh" localized="RMA 或客户参考号"/>
+    <moqui.basic.LocalizedMessage original="Routes" locale="zh" localized="路线"/>
+    <moqui.basic.LocalizedMessage original="Rules by queue" locale="zh" localized="按队列的规则"/>
+    <moqui.basic.LocalizedMessage original="Sale" locale="zh" localized="销售"/>
+    <moqui.basic.LocalizedMessage original="Sale (order)" locale="zh" localized="销售（订单）"/>
+    <moqui.basic.LocalizedMessage original="Sale: order ${claim.orderId}" locale="zh" localized="销售：订单 ${claim.orderId}"/>
+    <moqui.basic.LocalizedMessage original="Sales prepares and sends the estimate; record the customer's consent here as a decision." locale="zh" localized="销售准备并发送估算；请在此将客户同意记录为一项决定。"/>
+    <moqui.basic.LocalizedMessage original="Sales quotes · ${salesQuoteList.length}" locale="zh" localized="销售报价 · ${salesQuoteList.length}"/>
+    <moqui.basic.LocalizedMessage original="Save as draft (not requested yet)" locale="zh" localized="保存为草稿（尚未请求）"/>
+    <moqui.basic.LocalizedMessage original="Save from that date" locale="zh" localized="从该日期保存"/>
+    <moqui.basic.LocalizedMessage original="Save hours" locale="zh" localized="保存时间"/>
+    <moqui.basic.LocalizedMessage original="Save reply" locale="zh" localized="保存回复"/>
+    <moqui.basic.LocalizedMessage original="Save the draft" locale="zh" localized="保存草稿"/>
+    <moqui.basic.LocalizedMessage original="Saved the case type" locale="zh" localized="已保存案例类型"/>
+    <moqui.basic.LocalizedMessage original="Saved the condition" locale="zh" localized="已保存条件"/>
+    <moqui.basic.LocalizedMessage original="Saved the feedback delivery" locale="zh" localized="已保存反馈发送"/>
+    <moqui.basic.LocalizedMessage original="Saved the knowledge source" locale="zh" localized="已保存知识来源"/>
+    <moqui.basic.LocalizedMessage original="Saved the move" locale="zh" localized="已保存流转"/>
+    <moqui.basic.LocalizedMessage original="Saved the policy ${policyName}" locale="zh" localized="已保存策略 ${policyName}"/>
+    <moqui.basic.LocalizedMessage original="Saved the reply ${title}" locale="zh" localized="已保存回复 ${title}"/>
+    <moqui.basic.LocalizedMessage original="Saved the reply's actions" locale="zh" localized="已保存回复的操作"/>
+    <moqui.basic.LocalizedMessage original="Saved the return policy ${policyName}" locale="zh" localized="已保存退货策略 ${policyName}"/>
+    <moqui.basic.LocalizedMessage original="Saved the return reason" locale="zh" localized="已保存退货原因"/>
+    <moqui.basic.LocalizedMessage original="Saved the route" locale="zh" localized="已保存路线"/>
+    <moqui.basic.LocalizedMessage original="Saved the rule ${ruleName}" locale="zh" localized="已保存规则 ${ruleName}"/>
+    <moqui.basic.LocalizedMessage original="Saved the rule's conditions" locale="zh" localized="已保存规则的条件"/>
+    <moqui.basic.LocalizedMessage original="Saved the service defaults" locale="zh" localized="已保存服务默认值"/>
+    <moqui.basic.LocalizedMessage original="Saved the status ${agentLabel}" locale="zh" localized="已保存状态 ${agentLabel}"/>
+    <moqui.basic.LocalizedMessage original="Saved the Support app's settings" locale="zh" localized="已保存支持应用的设置"/>
+    <moqui.basic.LocalizedMessage original="Saved the team ${teamName}" locale="zh" localized="已保存团队 ${teamName}"/>
+    <moqui.basic.LocalizedMessage original="Saved the team's members" locale="zh" localized="已保存团队成员"/>
+    <moqui.basic.LocalizedMessage original="Saved the team's working hours" locale="zh" localized="已保存团队的工作小时"/>
+    <moqui.basic.LocalizedMessage original="Saved the template" locale="zh" localized="已保存模板"/>
+    <moqui.basic.LocalizedMessage original="Send ${bulk.readyCount} replies" locale="zh" localized="发送 ${bulk.readyCount} 条回复"/>
+    <moqui.basic.LocalizedMessage original="Send after resolving (minutes)" locale="zh" localized="解决后发送（分钟）"/>
+    <moqui.basic.LocalizedMessage original="Send the intervention report of repair ${repair.assetMaintenanceId}" locale="zh" localized="发送维修 ${repair.assetMaintenanceId} 的干预报告"/>
+    <moqui.basic.LocalizedMessage original="Send the summary of case ${requestId}" locale="zh" localized="发送案例 ${requestId} 的摘要"/>
+    <moqui.basic.LocalizedMessage original="Sent the case summary to ${sent.recipient} (${sent.status})" locale="zh" localized="案例摘要已发送给 ${sent.recipient}（${sent.status}）"/>
+    <moqui.basic.LocalizedMessage original="Sent the intervention report to ${sent.recipient} (${sent.status})" locale="zh" localized="干预报告已发送给 ${sent.recipient}（${sent.status}）"/>
+    <moqui.basic.LocalizedMessage original="Sent to the return exception approvers" locale="zh" localized="发送给退货例外审批人"/>
+    <moqui.basic.LocalizedMessage original="Serial: ${serial}" locale="zh" localized="序列号：${serial}"/>
+    <moqui.basic.LocalizedMessage original="Service agreement" locale="zh" localized="服务协议"/>
+    <moqui.basic.LocalizedMessage original="Service agreement ${claim.agreementId}" locale="zh" localized="服务协议 ${claim.agreementId}"/>
+    <moqui.basic.LocalizedMessage original="Service defaults" locale="zh" localized="服务默认值"/>
+    <moqui.basic.LocalizedMessage original="Service health, ${dashboard.periodText}, as of ${dashboard.asOfText}" locale="zh" localized="服务状况，${dashboard.periodText}，截至 ${dashboard.asOfText}"/>
+    <moqui.basic.LocalizedMessage original="Service level" locale="zh" localized="服务级别"/>
+    <moqui.basic.LocalizedMessage original="Service levels" locale="zh" localized="服务级别"/>
+    <moqui.basic.LocalizedMessage original="Service organization" locale="zh" localized="服务组织"/>
+    <moqui.basic.LocalizedMessage original="Service reports" locale="zh" localized="服务报表"/>
+    <moqui.basic.LocalizedMessage original="Service-enabled" locale="zh" localized="已启用服务"/>
+    <moqui.basic.LocalizedMessage original="Set the coverage end" locale="zh" localized="设置覆盖结束"/>
+    <moqui.basic.LocalizedMessage original="Set the status of the selected cases" locale="zh" localized="设置所选案例的状态"/>
+    <moqui.basic.LocalizedMessage original="Shipped ${coverage.shipText} on order ${coverage.saleOrderId}" locale="zh" localized="已发货 ${coverage.shipText}，订单 ${coverage.saleOrderId}"/>
+    <moqui.basic.LocalizedMessage original="Shipped ${shippedQuantity} · invoiced ${invoicedQuantity} · on other returns ${returnedQuantity}" locale="zh" localized="已发货 ${shippedQuantity} · 已开票 ${invoicedQuantity} · 在其他退货中 ${returnedQuantity}"/>
+    <moqui.basic.LocalizedMessage original="Show due times" locale="zh" localized="显示到期时间"/>
+    <moqui.basic.LocalizedMessage original="Show the returnable lines" locale="zh" localized="显示可退货的行"/>
+    <moqui.basic.LocalizedMessage original="SLA compliance" locale="zh" localized="SLA 合规"/>
+    <moqui.basic.LocalizedMessage original="Split case" locale="zh" localized="拆分案例"/>
+    <moqui.basic.LocalizedMessage original="Split case ${requestId} from case ${sourceRequestId}" locale="zh" localized="案例 ${requestId} 已从案例 ${sourceRequestId} 拆出"/>
+    <moqui.basic.LocalizedMessage original="Split case ${requestId}${sourceCase ? ': ' + sourceCase.requestName : ''}" locale="zh" localized="拆分案例 ${requestId}${sourceCase ? ': ' + sourceCase.requestName : ''}"/>
+    <moqui.basic.LocalizedMessage original="Splitting a case is for those who work cases." locale="zh" localized="拆分案例仅供处理案例的人员使用。"/>
+    <moqui.basic.LocalizedMessage original="started ${when}" locale="zh" localized="开始于 ${when}"/>
+    <moqui.basic.LocalizedMessage original="Status categories" locale="zh" localized="状态类别"/>
+    <moqui.basic.LocalizedMessage original="Status category" locale="zh" localized="状态类别"/>
+    <moqui.basic.LocalizedMessage original="Statuses" locale="zh" localized="状态"/>
+    <moqui.basic.LocalizedMessage original="Stock at a past date" locale="zh" localized="过去日期的库存"/>
+    <moqui.basic.LocalizedMessage original="Stop asking for feedback" locale="zh" localized="停止征求反馈"/>
+    <moqui.basic.LocalizedMessage original="Stop asking resolved cases for feedback?" locale="zh" localized="停止向已解决的案例征求反馈？"/>
+    <moqui.basic.LocalizedMessage original="Stop from now" locale="zh" localized="从现在起停止"/>
+    <moqui.basic.LocalizedMessage original="Stop using it" locale="zh" localized="停止使用"/>
+    <moqui.basic.LocalizedMessage original="Such as Auto-Submitted: auto-replied" locale="zh" localized="例如 Auto-Submitted: auto-replied"/>
+    <moqui.basic.LocalizedMessage original="Suggested remedy" locale="zh" localized="建议的补救"/>
+    <moqui.basic.LocalizedMessage original="Support alone makes no case: an employee's request stays a request. A customer's request of a service-enabled type does." locale="zh" localized="仅 Support 不会创建案例：员工的请求仍是请求。客户对已启用服务类型的请求才会成为案例。"/>
+    <moqui.basic.LocalizedMessage original="Support app" locale="zh" localized="支持应用"/>
+    <moqui.basic.LocalizedMessage original="Tag the selected cases" locale="zh" localized="为所选案例加标签"/>
+    <moqui.basic.LocalizedMessage original="taken out: ${list}" locale="zh" localized="已取出：${list}"/>
+    <moqui.basic.LocalizedMessage original="Taken out: ${prepared.removedText}." locale="zh" localized="已去除：${prepared.removedText}。"/>
+    <moqui.basic.LocalizedMessage original="Takes cases" locale="zh" localized="受理案例"/>
+    <moqui.basic.LocalizedMessage original="Takes their turn while they are outside their hours" locale="zh" localized="在工作小时之外仍轮到他们"/>
+    <moqui.basic.LocalizedMessage original="task ${id} ${status}" locale="zh" localized="任务 ${id} ${status}"/>
+    <moqui.basic.LocalizedMessage original="Team basis" locale="zh" localized="团队基准"/>
+    <moqui.basic.LocalizedMessage original="Team manager" locale="zh" localized="团队经理"/>
+    <moqui.basic.LocalizedMessage original="Team queues" locale="zh" localized="团队队列"/>
+    <moqui.basic.LocalizedMessage original="Template ${formId} is not available: it does not exist or is not one of your organization's." locale="zh" localized="模板 ${formId} 不可用：它不存在，或不是您组织的模板。"/>
+    <moqui.basic.LocalizedMessage original="Terms: ${coverage.termText}${coverage.termsSourceText ? ' (' + coverage.termsSourceText + ')' : ''}" locale="zh" localized="条款：${coverage.termText}${coverage.termsSourceText ? ' (' + coverage.termsSourceText + ')' : ''}"/>
+    <moqui.basic.LocalizedMessage original="Test a message" locale="zh" localized="测试一条消息"/>
+    <moqui.basic.LocalizedMessage original="The case has no reply or customer email yet: write the article's text below." locale="zh" localized="案例还没有回复或客户邮件：请在下方编写文章文本。"/>
+    <moqui.basic.LocalizedMessage original="The case's subject; it suggests articles that may answer it" locale="zh" localized="案例的主题；它会建议可能解答它的文章"/>
+    <moqui.basic.LocalizedMessage original="The confirmation of order ${orderId} as placed is not sent to ${recipient}" locale="zh" localized="订单 ${orderId} 按已下达状态的确认未发送给 ${recipient}"/>
+    <moqui.basic.LocalizedMessage original="The confirmation of order ${orderId} as placed is on its way to ${recipient}" locale="zh" localized="订单 ${orderId} 按已下达状态的确认在途中，发往 ${recipient}"/>
+    <moqui.basic.LocalizedMessage original="The confirmation of order ${orderId} as placed is sent to ${recipient}" locale="zh" localized="订单 ${orderId} 按已下达状态的确认已发送给 ${recipient}"/>
+    <moqui.basic.LocalizedMessage original="The confirmation stored ${stored} is sent again, not a new print." locale="zh" localized="已存储的确认（${stored}）会再次发送，不是新的打印。"/>
+    <moqui.basic.LocalizedMessage original="The customer copy goes: outward messages, shared files and the customer's labels; never a note or an internal file." locale="zh" localized="客户副本包含：对外消息、共享文件和客户的标签；从不是备注或内部文件。"/>
+    <moqui.basic.LocalizedMessage original="The customer's approved, sent or completed orders" locale="zh" localized="客户已批准、已发送或已完成的订单"/>
+    <moqui.basic.LocalizedMessage original="The customer's consent to ${current.chargeText}" locale="zh" localized="客户对 ${current.chargeText} 的同意"/>
+    <moqui.basic.LocalizedMessage original="The customer's other open cases" locale="zh" localized="该客户的其他未结案例"/>
+    <moqui.basic.LocalizedMessage original="The customer's person you are dealing with" locale="zh" localized="您正在联系的客户方人员"/>
+    <moqui.basic.LocalizedMessage original="The evidence of claim ${requestId} is recorded" locale="zh" localized="索赔 ${requestId} 的证据已记录"/>
+    <moqui.basic.LocalizedMessage original="The fields a case of a queue asks for, customer-visible or internal, and when each shows or is required." locale="zh" localized="一个队列的案例所要求的字段，客户可见或内部，以及每个字段何时显示或必填。"/>
+    <moqui.basic.LocalizedMessage original="The fields a case of a queue asks for, each customer-visible or internal, and the conditions that show or require them." locale="zh" localized="一个队列的案例所要求的字段，每个为客户可见或内部，以及显示或要求它们的条件。"/>
+    <moqui.basic.LocalizedMessage original="The fields the case asks for; empty takes the queue's" locale="zh" localized="案例所要求的字段；空则采用队列的"/>
+    <moqui.basic.LocalizedMessage original="The form is on at ${url}; the earlier link no longer works" locale="zh" localized="表单已在 ${url} 开启；之前的链接不再有效"/>
+    <moqui.basic.LocalizedMessage original="The form is on with the token ${token}; the earlier link no longer works. Its page is the Support app's, on a site of the organization" locale="zh" localized="表单已用令牌 ${token} 开启；之前的链接不再有效。其页面是组织某个站点上的支持应用"/>
+    <moqui.basic.LocalizedMessage original="The form is the Support app's page on the organization's site. A project's request form stays in Projects." locale="zh" localized="该表单是组织站点上支持应用的页面。项目的请求表单仍在项目中。"/>
+    <moqui.basic.LocalizedMessage original="The language of its pages, as a code: en, es, de" locale="zh" localized="其页面的语言代码：en、es、de"/>
+    <moqui.basic.LocalizedMessage original="The link works for (days)" locale="zh" localized="链接有效（天）"/>
+    <moqui.basic.LocalizedMessage original="The new case is ${sourceCase.customerName}'s too: each message keeps who could see it, and case ${requestId} keeps all of it and stays open." locale="zh" localized="新案例同样属于 ${sourceCase.customerName}：每条消息保留谁可以看见它，案例 ${requestId} 保留全部内容并保持未结。"/>
+    <moqui.basic.LocalizedMessage original="The order as placed is printed once, stored and sent; later sends attach the same file." locale="zh" localized="按已下达状态的订单打印一次、存储并发送；以后的发送附上同一文件。"/>
+    <moqui.basic.LocalizedMessage original="The organization has no service queue yet. Make one in Queues, then route its channels here." locale="zh" localized="组织还没有服务队列。请在队列中创建一个，然后在此路由其渠道。"/>
+    <moqui.basic.LocalizedMessage original="The organization has no service queue yet: make one on Queues first." locale="zh" localized="组织还没有服务队列：请先在队列中创建一个。"/>
+    <moqui.basic.LocalizedMessage original="The public form is off: its link no longer works" locale="zh" localized="公开表单已关闭：其链接不再有效"/>
+    <moqui.basic.LocalizedMessage original="The questions a customer answers once a case is resolved; Service defaults says when they are sent." locale="zh" localized="客户在案例解决后回答的问题；服务默认值规定何时发送。"/>
+    <moqui.basic.LocalizedMessage original="The queue that uses ${tpl.description}" locale="zh" localized="使用 ${tpl.description} 的队列"/>
+    <moqui.basic.LocalizedMessage original="The queue's fallback" locale="zh" localized="队列的回退受理人"/>
+    <moqui.basic.LocalizedMessage original="The queue's rules are tried lowest first; the first whose conditions hold wins" locale="zh" localized="队列的规则按从小到大尝试；第一个条件成立的规则胜出"/>
+    <moqui.basic.LocalizedMessage original="The repair is" locale="zh" localized="维修是"/>
+    <moqui.basic.LocalizedMessage original="The repair is worked in Maintenance; you are told when it finishes." locale="zh" localized="维修在维护中处理；完成时会通知您。"/>
+    <moqui.basic.LocalizedMessage original="The reply cannot be previewed on case ${requestId}" locale="zh" localized="无法在案例 ${requestId} 上预览该回复"/>
+    <moqui.basic.LocalizedMessage original="The service level the merged cases carry" locale="zh" localized="被合并案例所带的服务级别"/>
+    <moqui.basic.LocalizedMessage original="The service levels of this organization are not available to you; choose another organization." locale="zh" localized="此组织的服务级别对您不可用；请选择其他组织。"/>
+    <moqui.basic.LocalizedMessage original="The status ${statusText}" locale="zh" localized="状态 ${statusText}"/>
+    <moqui.basic.LocalizedMessage original="The summary of case ${requestId} is not available to you" locale="zh" localized="案例 ${requestId} 的摘要对您不可用"/>
+    <moqui.basic.LocalizedMessage original="The variables a reply may use: ${variablesText}. Any other is refused, and so is one the case has no value for." locale="zh" localized="回复可以使用的变量：${variablesText}。其他变量会被拒绝，案例没有值的变量也同样拒绝。"/>
+    <moqui.basic.LocalizedMessage original="The wiki spaces whose articles agents are offered and send to customers." locale="zh" localized="向客服提供其文章并发送给客户的 wiki 空间。"/>
+    <moqui.basic.LocalizedMessage original="The wiki spaces whose articles agents are offered and send. Who may read a page is still the wiki's; an internal source is never offered to customers." locale="zh" localized="向客服提供其文章并发送的 wiki 空间。谁可以阅读页面仍由 wiki 决定；内部来源从不提供给客户。"/>
+    <moqui.basic.LocalizedMessage original="Their own number for this return, if any" locale="zh" localized="此退货的自有编号（如有）"/>
+    <moqui.basic.LocalizedMessage original="Their own, else the team's" locale="zh" localized="其自己的，否则为团队的"/>
+    <moqui.basic.LocalizedMessage original="These cases cannot be merged" locale="zh" localized="这些案例无法合并"/>
+    <moqui.basic.LocalizedMessage original="These stop the merge" locale="zh" localized="这些会阻止合并"/>
+    <moqui.basic.LocalizedMessage original="This case is not a warranty claim yet: record its evidence to make it one." locale="zh" localized="此案例还不是质保索赔：请记录其证据以使其成为索赔。"/>
+    <moqui.basic.LocalizedMessage original="This claim is not available: it does not exist, or it is not a case you may work with." locale="zh" localized="此索赔不可用：它不存在，或不是您可以处理的案例。"/>
+    <moqui.basic.LocalizedMessage original="This contact is not available: it does not exist, or it is not a contact of a                                 customer you serve." locale="zh" localized="此联系人不可用：它不存在，或不是您所服务客户的联系人。"/>
+    <moqui.basic.LocalizedMessage original="This queue asks for the fields of its template ${queueChoice.templateName}: choose it as the Template in step 1, then fill it in" locale="zh" localized="此队列要求其模板 ${queueChoice.templateName} 的字段：请在第 1 步将其选为模板，然后填写"/>
+    <moqui.basic.LocalizedMessage original="To hold, cancel or reopen" locale="zh" localized="用于挂起、取消或重开"/>
+    <moqui.basic.LocalizedMessage original="To resolve or cancel" locale="zh" localized="用于解决或取消"/>
+    <moqui.basic.LocalizedMessage original="To the queue" locale="zh" localized="到队列"/>
+    <moqui.basic.LocalizedMessage original="Turn off the public form of ${queueText}? Its link stops working." locale="zh" localized="关闭 ${queueText} 的公开表单？其链接将失效。"/>
+    <moqui.basic.LocalizedMessage original="Turn on the public form of ${queue}?" locale="zh" localized="开启 ${queue} 的公开表单？"/>
+    <moqui.basic.LocalizedMessage original="Types it takes" locale="zh" localized="它接受的类型"/>
+    <moqui.basic.LocalizedMessage original="Unknown sender" locale="zh" localized="未知发件人"/>
+    <moqui.basic.LocalizedMessage original="Update repair ${repair.assetMaintenanceId}" locale="zh" localized="更新维修 ${repair.assetMaintenanceId}"/>
+    <moqui.basic.LocalizedMessage original="Urgent: first response (minutes)" locale="zh" localized="紧急：首次回复（分钟）"/>
+    <moqui.basic.LocalizedMessage original="Use these" locale="zh" localized="使用这些"/>
+    <moqui.basic.LocalizedMessage original="Use this template" locale="zh" localized="使用此模板"/>
+    <moqui.basic.LocalizedMessage original="Used by ${names}" locale="zh" localized="由 ${names} 使用"/>
+    <moqui.basic.LocalizedMessage original="Variables: {{customerName}}, {{contactFirstName}}, {{caseId}} and the others below" locale="zh" localized="变量：{{customerName}}、{{contactFirstName}}、{{caseId}} 以及下面的其他变量"/>
+    <moqui.basic.LocalizedMessage original="version ${version}" locale="zh" localized="版本 ${version}"/>
+    <moqui.basic.LocalizedMessage original="Waiting for the customer always does" locale="zh" localized="等待客户始终暂停"/>
+    <moqui.basic.LocalizedMessage original="Waiting for the customer from" locale="zh" localized="等待客户自"/>
+    <moqui.basic.LocalizedMessage original="Warn before (minutes)" locale="zh" localized="提前警告（分钟）"/>
+    <moqui.basic.LocalizedMessage original="Warn of a pause longer than (minutes)" locale="zh" localized="暂停超过（分钟）时警告"/>
+    <moqui.basic.LocalizedMessage original="Warranty claim" locale="zh" localized="质保索赔"/>
+    <moqui.basic.LocalizedMessage original="Warranty claim ${requestId}" locale="zh" localized="质保索赔 ${requestId}"/>
+    <moqui.basic.LocalizedMessage original="Warranty claim not available" locale="zh" localized="质保索赔不可用"/>
+    <moqui.basic.LocalizedMessage original="Warranty claims" locale="zh" localized="质保索赔"/>
+    <moqui.basic.LocalizedMessage original="Warranty claims are for the service agents and managers. Open a return to see its state." locale="zh" localized="质保索赔供服务客服和经理使用。打开一笔退货以查看其状态。"/>
+    <moqui.basic.LocalizedMessage original="What is it about?" locale="zh" localized="关于什么？"/>
+    <moqui.basic.LocalizedMessage original="What readers said of the articles. Reviewing a report makes or links a task; the article changes only when its authors edit and publish it." locale="zh" localized="读者对文章的评价。审核一份报告会创建或关联一项任务；文章只有在其作者编辑并发布后才会改变。"/>
+    <moqui.basic.LocalizedMessage original="When no agent is eligible; empty: the queue's fallback, else unassigned" locale="zh" localized="没有合格客服时；空：队列的回退受理人，否则未分配"/>
+    <moqui.basic.LocalizedMessage original="When the reply starts a thread; empty: the case's subject" locale="zh" localized="回复开启邮件串时；空：案例的主题"/>
+    <moqui.basic.LocalizedMessage original="When would a case be due?" locale="zh" localized="案例何时到期？"/>
+    <moqui.basic.LocalizedMessage original="Where an article drafted from a case goes" locale="zh" localized="从案例起草的文章去向"/>
+    <moqui.basic.LocalizedMessage original="Which agent of a queue's team a new case goes to, and when no one can take it." locale="zh" localized="新案例分给队列团队的哪位客服，以及无人可接手时怎么办。"/>
+    <moqui.basic.LocalizedMessage original="Which queue mail, the public form, the forum and chat file into, the acknowledgement, and what is held for review." locale="zh" localized="邮件、公开表单、论坛和聊天归入哪个队列、回执是什么，以及哪些内容待审核保留。"/>
+    <moqui.basic.LocalizedMessage original="Who sees its cases" locale="zh" localized="谁能看到其案例"/>
+    <moqui.basic.LocalizedMessage original="Why an exception" locale="zh" localized="例外原因"/>
+    <moqui.basic.LocalizedMessage original="Why it starts then" locale="zh" localized="为何那时开始"/>
+    <moqui.basic.LocalizedMessage original="Why the coverage end is set" locale="zh" localized="为何设置覆盖结束"/>
+    <moqui.basic.LocalizedMessage original="Window (days)" locale="zh" localized="期限（天）"/>
+    <moqui.basic.LocalizedMessage original="Window ends" locale="zh" localized="期限结束"/>
+    <moqui.basic.LocalizedMessage original="with ${name}" locale="zh" localized="经办 ${name}"/>
+    <moqui.basic.LocalizedMessage original="With an improvement, what the task is to do" locale="zh" localized="若有改进，任务要做什么"/>
+    <moqui.basic.LocalizedMessage original="With no policy a return is reviewed by a person; a return keeps the policy row it was evaluated against." locale="zh" localized="没有策略时由人审核退货；退货保留其评估所对照的策略行。"/>
+    <moqui.basic.LocalizedMessage original="Work order ${id} · ${status}" locale="zh" localized="工单 ${id} · ${status}"/>
+    <moqui.basic.LocalizedMessage original="Work routing" locale="zh" localized="工作路由"/>
+    <moqui.basic.LocalizedMessage original="Working hours of ${team.teamName}" locale="zh" localized="${team.teamName} 的工作小时"/>
+    <moqui.basic.LocalizedMessage original="Working hours: ${team.hoursText}" locale="zh" localized="工作小时：${team.hoursText}"/>
+    <moqui.basic.LocalizedMessage original="You do not enter cases here: ask a service manager to add you to a team." locale="zh" localized="您不能在此登记案例：请让服务经理将您加入团队。"/>
+    <moqui.basic.LocalizedMessage original="You do not enter returns here." locale="zh" localized="您不在此处录入退货。"/>
+    <moqui.basic.LocalizedMessage original="You work no queue yet: a service manager adds you to a team." locale="zh" localized="您尚未在任何队列中工作：服务经理会将您加入一个团队。"/>
+    <moqui.basic.LocalizedMessage original="In effect since ${from}: ${form}, ${types}, ${queues}." locale="zh" localized="自 ${from} 起生效：${form}、${types}、${queues}。"/>
+</entity-facade-xml>

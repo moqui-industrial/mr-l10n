@@ -1,0 +1,15 @@
+# Messages the same in this language. A missing catalog row returns the original.
+${eventTypeText} · ${eventDateText}
+${finding.recordId ? finding.recordId + ': ' : ''}${finding.message}
+${kind}: ${text}
+${kpiStatus.withheldText}.
+${label.runText} · ${label.whereText}
+${lookup.kindName} ${lookup.recordId}
+${lossTypeText} · ${lossDateText}
+${op.operationName} · ${runInfo.runName}
+${productName} · ${roleText}
+${pseudoId} · ${productName}
+${qualityInspectionId} · ${productName}
+${quantity} ${uomText}
+${stageText} · ${whereText}
+${totals.notesText}.

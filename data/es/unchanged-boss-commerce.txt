@@ -1,0 +1,18 @@
+# Messages the same in this language. A missing catalog row returns the original.
+${checkout.statusText}${checkout.frozenText ? ', totals frozen ' + checkout.frozenText : ''}${checkout.dueText ? ', due ' + checkout.dueText : ''}${checkout.paymentText ? ', payment ' + checkout.paymentText : ''}.
+${ec.l10n.localize('Edit')} ${label}
+${formatText} · ${locale} · ${currencyUomId}
+${fromText}${thruText ? ' to ' + thruText : ''}
+${integration.connectorText} · ${integration.storeName}
+${menu.name} (${menu.menuKey}${menu.locale ? ', ' + menu.locale : ''})
+${menuLink.name}${menuLink.locale ? ' (' + menuLink.locale + ')' : ''}
+${offerName} · ${productName}
+${ratingText} · ${authorText} · ${postedText}${verifiedPurchase ? ' · Verified purchase, order ' + orderId : ''}
+${rec.reasonText} · ${rec.consentText}${rec.recipientText ? ' · to ' + rec.recipientText : ''}
+${retried.alreadyApplied ? 'Already retried: ' : ''}${retried.message}
+${scopeText}${periodText ? ', ' + periodText : ''}
+${stateText}${redeemed ? ' · link used' : ''}
+${systemMessageId} ${externalId}: ${safeError}
+${taxOut?.displayText}${taxOut?.message ? ' (' + taxOut.message + ')' : ''}
+${transactionSetId} ${businessKey} (${statusText})
+IronStone Starter

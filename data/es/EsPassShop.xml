@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+
+<entity-facade-xml type="es">
+    <moqui.basic.LocalizedMessage original="${average} of 5" locale="es" localized="${average} de 5"/>
+    <moqui.basic.LocalizedMessage original="${brand} ending ${last4}" locale="es" localized="${brand} terminada en ${last4}"/>
+    <moqui.basic.LocalizedMessage original="${count} orders" locale="es" localized="${count} órdenes"/>
+    <moqui.basic.LocalizedMessage original="${count} orders · ${downloads} downloads" locale="es" localized="${count} órdenes · ${downloads} descargas"/>
+    <moqui.basic.LocalizedMessage original="${count} orders, ${pending} in progress" locale="es" localized="${count} órdenes, ${pending} en curso"/>
+    <moqui.basic.LocalizedMessage original="${count} orders, ${pending} in progress · ${downloads} downloads" locale="es" localized="${count} órdenes, ${pending} en curso · ${downloads} descargas"/>
+    <moqui.basic.LocalizedMessage original="${count} review" locale="es" localized="${count} reseña"/>
+    <moqui.basic.LocalizedMessage original="${count} reviews" locale="es" localized="${count} reseñas"/>
+    <moqui.basic.LocalizedMessage original="${label} (not available)" locale="es" localized="${label} (no disponible)"/>
+    <moqui.basic.LocalizedMessage original="${name} is not available right now" locale="es" localized="${name} no está disponible en este momento"/>
+    <moqui.basic.LocalizedMessage original="${name}: ${price} every ${term}" locale="es" localized="${name}: ${price} cada ${term}"/>
+    <moqui.basic.LocalizedMessage original="${n} star" locale="es" localized="${n} estrella"/>
+    <moqui.basic.LocalizedMessage original="${n} stars" locale="es" localized="${n} estrellas"/>
+    <moqui.basic.LocalizedMessage original="${price} each" locale="es" localized="${price} cada uno"/>
+    <moqui.basic.LocalizedMessage original="${price} every ${term}" locale="es" localized="${price} cada ${term}"/>
+    <moqui.basic.LocalizedMessage original="${price} every ${term}, prepaid" locale="es" localized="${price} cada ${term}, prepago"/>
+    <moqui.basic.LocalizedMessage original="${price} every ${term}, renews until you cancel" locale="es" localized="${price} cada ${term}, se renueva hasta que usted cancele"/>
+    <moqui.basic.LocalizedMessage original="${price} for ${term}, starting when the current term ends." locale="es" localized="${price} por ${term}, desde que termine el plazo actual."/>
+    <moqui.basic.LocalizedMessage original="${r.dateText} · Verified purchase" locale="es" localized="${r.dateText} · Compra verificada"/>
+    <moqui.basic.LocalizedMessage original="${r.rating} of 5" locale="es" localized="${r.rating} de 5"/>
+    <moqui.basic.LocalizedMessage original="${rating} of 5 stars" locale="es" localized="${rating} de 5 estrellas"/>
+    <moqui.basic.LocalizedMessage original="${rv.summary.average} of 5" locale="es" localized="${rv.summary.average} de 5"/>
+    <moqui.basic.LocalizedMessage original="${rv.summary.count} review" locale="es" localized="${rv.summary.count} reseña"/>
+    <moqui.basic.LocalizedMessage original="${rv.summary.count} reviews" locale="es" localized="${rv.summary.count} reseñas"/>
+    <moqui.basic.LocalizedMessage original="${stars} stars: ${count}" locale="es" localized="${stars} estrellas: ${count}"/>
+    <moqui.basic.LocalizedMessage original="(on ${provider}'s page)" locale="es" localized="(en la página de ${provider})"/>
+    <moqui.basic.LocalizedMessage original=", next try ${date}" locale="es" localized=", próximo intento el ${date}"/>
+    <moqui.basic.LocalizedMessage original="&lt;a href=&quot;${href}&quot;&gt;Create an account with ${email}&lt;/a&gt; to see this order later." locale="es" localized="&lt;a href=&quot;${href}&quot;&gt;Crear una cuenta con ${email}&lt;/a&gt; para ver esta orden más tarde."/>
+    <moqui.basic.LocalizedMessage original="&lt;a href=&quot;${href}&quot;&gt;Sign in&lt;/a&gt; to open the cart you saved." locale="es" localized="&lt;a href=&quot;${href}&quot;&gt;Iniciar sesión&lt;/a&gt; para abrir el carrito que guardó."/>
+    <moqui.basic.LocalizedMessage original="&lt;a href=&quot;${href}&quot;&gt;Sign in&lt;/a&gt; to review a product you bought." locale="es" localized="&lt;a href=&quot;${href}&quot;&gt;Iniciar sesión&lt;/a&gt; para reseñar un producto que compró."/>
+    <moqui.basic.LocalizedMessage original="&lt;a href=&quot;${href}&quot;&gt;Sign in&lt;/a&gt; to see your purchases." locale="es" localized="&lt;a href=&quot;${href}&quot;&gt;Iniciar sesión&lt;/a&gt; para ver sus compras."/>
+    <moqui.basic.LocalizedMessage original="A change does not alter an order already placed." locale="es" localized="Un cambio no modifica una orden ya hecha."/>
+    <moqui.basic.LocalizedMessage original="Access lasts until ${date}; no further charges are made." locale="es" localized="El acceso dura hasta el ${date}; no se hacen más cargos."/>
+    <moqui.basic.LocalizedMessage original="Add a card" locale="es" localized="Agregar una tarjeta"/>
+    <moqui.basic.LocalizedMessage original="Add address" locale="es" localized="Agregar dirección"/>
+    <moqui.basic.LocalizedMessage original="Add to cart" locale="es" localized="Agregar al carrito"/>
+    <moqui.basic.LocalizedMessage original="Added ${name} to your cart. Your cart has ${count} items." locale="es" localized="Se agregó ${name} a su carrito. Su carrito tiene ${count} artículos."/>
+    <moqui.basic.LocalizedMessage original="Added the item to your cart. Your cart has ${count} items." locale="es" localized="Se agregó el artículo a su carrito. Su carrito tiene ${count} artículos."/>
+    <moqui.basic.LocalizedMessage original="Added to your cart at today's prices." locale="es" localized="Se agregó a su carrito a los precios de hoy."/>
+    <moqui.basic.LocalizedMessage original="Added to your cart at today's prices. Not available now: ${names}." locale="es" localized="Se agregó a su carrito a los precios de hoy. No disponible ahora: ${names}."/>
+    <moqui.basic.LocalizedMessage original="All reviews" locale="es" localized="Todas las reseñas"/>
+    <moqui.basic.LocalizedMessage original="Already on for your account." locale="es" localized="Ya está activo en su cuenta."/>
+    <moqui.basic.LocalizedMessage original="Amount due now" locale="es" localized="A pagar ahora"/>
+    <moqui.basic.LocalizedMessage original="Apartment, suite" locale="es" localized="Apartamento, interior"/>
+    <moqui.basic.LocalizedMessage original="Applied the code to your cart." locale="es" localized="Se aplicó el código a su carrito."/>
+    <moqui.basic.LocalizedMessage original="Ask a question" locale="es" localized="Hacer una pregunta"/>
+    <moqui.basic.LocalizedMessage original="at today's prices" locale="es" localized="a los precios de hoy"/>
+    <moqui.basic.LocalizedMessage original="Back to checkout" locale="es" localized="Volver a finalizar la compra"/>
+    <moqui.basic.LocalizedMessage original="Back to the product" locale="es" localized="Volver al producto"/>
+    <moqui.basic.LocalizedMessage original="Back to your payment" locale="es" localized="Volver a su pago"/>
+    <moqui.basic.LocalizedMessage original="Billing address (when different)" locale="es" localized="Dirección de facturación (si es distinta)"/>
+    <moqui.basic.LocalizedMessage original="Billing address is the same" locale="es" localized="La dirección de facturación es la misma"/>
+    <moqui.basic.LocalizedMessage original="Buy another term" locale="es" localized="Comprar otro plazo"/>
+    <moqui.basic.LocalizedMessage original="Buy these again" locale="es" localized="Comprar estos de nuevo"/>
+    <moqui.basic.LocalizedMessage original="Calculated at checkout" locale="es" localized="Se calcula al finalizar la compra"/>
+    <moqui.basic.LocalizedMessage original="Cancel renewal" locale="es" localized="Cancelar la renovación"/>
+    <moqui.basic.LocalizedMessage original="Card" locale="es" localized="Tarjeta"/>
+    <moqui.basic.LocalizedMessage original="Card ending ${last4}" locale="es" localized="Tarjeta terminada en ${last4}"/>
+    <moqui.basic.LocalizedMessage original="Card for renewals" locale="es" localized="Tarjeta para las renovaciones"/>
+    <moqui.basic.LocalizedMessage original="Change address" locale="es" localized="Cambiar dirección"/>
+    <moqui.basic.LocalizedMessage original="Change your review" locale="es" localized="Cambiar su reseña"/>
+    <moqui.basic.LocalizedMessage original="Check out" locale="es" localized="Finalizar compra"/>
+    <moqui.basic.LocalizedMessage original="Checkout" locale="es" localized="Finalizar compra"/>
+    <moqui.basic.LocalizedMessage original="Choose a product to buy from its page." locale="es" localized="Elija un producto para comprarlo en su página."/>
+    <moqui.basic.LocalizedMessage original="Choose an option" locale="es" localized="Elija una opción"/>
+    <moqui.basic.LocalizedMessage original="Choose an option to see its price" locale="es" localized="Elija una opción para ver su precio"/>
+    <moqui.basic.LocalizedMessage original="Choose delivery" locale="es" localized="Elegir entrega"/>
+    <moqui.basic.LocalizedMessage original="Choose how to pay" locale="es" localized="Elegir cómo pagar"/>
+    <moqui.basic.LocalizedMessage original="Choose payment" locale="es" localized="Elegir el pago"/>
+    <moqui.basic.LocalizedMessage original="Choose your purchase" locale="es" localized="Elija su compra"/>
+    <moqui.basic.LocalizedMessage original="Chose how to pay." locale="es" localized="Se eligió cómo pagar."/>
+    <moqui.basic.LocalizedMessage original="Chose the delivery." locale="es" localized="Se eligió la entrega."/>
+    <moqui.basic.LocalizedMessage original="Coming soon" locale="es" localized="Próximamente"/>
+    <moqui.basic.LocalizedMessage original="Complete ${steps} to place your order." locale="es" localized="Complete ${steps} para hacer su orden."/>
+    <moqui.basic.LocalizedMessage original="Confirm that you want to stop renewing" locale="es" localized="Confirme que quiere dejar de renovar"/>
+    <moqui.basic.LocalizedMessage original="Continue shopping" locale="es" localized="Seguir comprando"/>
+    <moqui.basic.LocalizedMessage original="Delivery address" locale="es" localized="Dirección de entrega"/>
+    <moqui.basic.LocalizedMessage original="Delivery charge" locale="es" localized="Costo de entrega"/>
+    <moqui.basic.LocalizedMessage original="Delivery method" locale="es" localized="Forma de entrega"/>
+    <moqui.basic.LocalizedMessage original="Delivery to" locale="es" localized="Entrega a"/>
+    <moqui.basic.LocalizedMessage original="Download your files" locale="es" localized="Descargar sus archivos"/>
+    <moqui.basic.LocalizedMessage original="Downloads" locale="es" localized="Descargas"/>
+    <moqui.basic.LocalizedMessage original="Ending once its open payments complete" locale="es" localized="Termina cuando se completen sus pagos abiertos"/>
+    <moqui.basic.LocalizedMessage original="Ending this card stops it paying: ${names}." locale="es" localized="Al terminar esta tarjeta, deja de pagar: ${names}."/>
+    <moqui.basic.LocalizedMessage original="Ends ${date}" locale="es" localized="Termina el ${date}"/>
+    <moqui.basic.LocalizedMessage original="Enter the delivery address to see delivery options." locale="es" localized="Escriba la dirección de entrega para ver las opciones de entrega."/>
+    <moqui.basic.LocalizedMessage original="Enter up to 100 characters to search." locale="es" localized="Escriba hasta 100 caracteres para buscar."/>
+    <moqui.basic.LocalizedMessage original="Estimated total" locale="es" localized="Suma total estimada"/>
+    <moqui.basic.LocalizedMessage original="Featured products" locale="es" localized="Productos destacados"/>
+    <moqui.basic.LocalizedMessage original="I accept the ${title}" locale="es" localized="Acepto ${title}"/>
+    <moqui.basic.LocalizedMessage original="I accept the &lt;a href=&quot;${href}&quot;&gt;${title}&lt;/a&gt;" locale="es" localized="Acepto &lt;a href=&quot;${href}&quot;&gt;${title}&lt;/a&gt;"/>
+    <moqui.basic.LocalizedMessage original="I agree to renewal charges of ${price} to this card every ${term} until I cancel" locale="es" localized="Acepto cargos de renovación de ${price} a esta tarjeta cada ${term} hasta que yo cancele"/>
+    <moqui.basic.LocalizedMessage original="If you created an account with the email address of this order, sign in to see it." locale="es" localized="Si creó una cuenta con el correo de esta orden, inicie sesión para verla."/>
+    <moqui.basic.LocalizedMessage original="In Billing" locale="es" localized="En Facturación"/>
+    <moqui.basic.LocalizedMessage original="Keep this card for my next order" locale="es" localized="Guardar esta tarjeta para mi próxima orden"/>
+    <moqui.basic.LocalizedMessage original="More products" locale="es" localized="Más productos"/>
+    <moqui.basic.LocalizedMessage original="More results" locale="es" localized="Más resultados"/>
+    <moqui.basic.LocalizedMessage original="More reviews" locale="es" localized="Más reseñas"/>
+    <moqui.basic.LocalizedMessage original="My first name and initial" locale="es" localized="Mi nombre y la inicial"/>
+    <moqui.basic.LocalizedMessage original="Next charge ${amount} on ${date}" locale="es" localized="Próximo cargo de ${amount} el ${date}"/>
+    <moqui.basic.LocalizedMessage original="Next steps" locale="es" localized="Siguientes pasos"/>
+    <moqui.basic.LocalizedMessage original="No delivery is offered to this address." locale="es" localized="No se ofrece entrega a esta dirección."/>
+    <moqui.basic.LocalizedMessage original="No new card was saved." locale="es" localized="No se guardó una tarjeta nueva."/>
+    <moqui.basic.LocalizedMessage original="No orders yet." locale="es" localized="Aún no hay órdenes."/>
+    <moqui.basic.LocalizedMessage original="No orders yet. &lt;a href=&quot;${href}&quot;&gt;Start shopping&lt;/a&gt;" locale="es" localized="Aún no hay órdenes. &lt;a href=&quot;${href}&quot;&gt;Empezar a comprar&lt;/a&gt;"/>
+    <moqui.basic.LocalizedMessage original="No products here yet." locale="es" localized="Aún no hay productos aquí."/>
+    <moqui.basic.LocalizedMessage original="No products match your search." locale="es" localized="Ningún producto coincide con su búsqueda."/>
+    <moqui.basic.LocalizedMessage original="No reviews yet." locale="es" localized="Aún no hay reseñas."/>
+    <moqui.basic.LocalizedMessage original="No saved addresses." locale="es" localized="No hay direcciones guardadas."/>
+    <moqui.basic.LocalizedMessage original="No saved cards." locale="es" localized="No hay tarjetas guardadas."/>
+    <moqui.basic.LocalizedMessage original="not available in a preview" locale="es" localized="no disponible en una vista previa"/>
+    <moqui.basic.LocalizedMessage original="Not needed for your order: your receipt and order updates come either way." locale="es" localized="No hace falta para su orden: el recibo y las novedades de la orden llegan de todos modos."/>
+    <moqui.basic.LocalizedMessage original="Nothing to download yet." locale="es" localized="Todavía no hay nada para descargar."/>
+    <moqui.basic.LocalizedMessage original="on the payment provider's page; this site never sees your card" locale="es" localized="en la página del proveedor de pago; este sitio nunca ve su tarjeta"/>
+    <moqui.basic.LocalizedMessage original="Once you verify that address, this order moves to your account, and the links we email open it after you sign in." locale="es" localized="Cuando verifique esa dirección, esta orden pasa a su cuenta y los enlaces que enviamos la abren después de iniciar sesión."/>
+    <moqui.basic.LocalizedMessage original="Open my cart" locale="es" localized="Abrir mi carrito"/>
+    <moqui.basic.LocalizedMessage original="Open the cart you left. Its prices are checked again, and anything that cannot be bought now is named." locale="es" localized="Abra el carrito que dejó. Se vuelven a revisar los precios y se nombra lo que ahora no se puede comprar."/>
+    <moqui.basic.LocalizedMessage original="Open the order from that email, or sign in, to see it." locale="es" localized="Abra la orden desde ese correo, o inicie sesión, para verla."/>
+    <moqui.basic.LocalizedMessage original="Open your cart" locale="es" localized="Abrir su carrito"/>
+    <moqui.basic.LocalizedMessage original="Option" locale="es" localized="Opción"/>
+    <moqui.basic.LocalizedMessage original="Optional emails" locale="es" localized="Correos opcionales"/>
+    <moqui.basic.LocalizedMessage original="Order &lt;strong&gt;${orderId}&lt;/strong&gt;" locale="es" localized="Orden &lt;strong&gt;${orderId}&lt;/strong&gt;"/>
+    <moqui.basic.LocalizedMessage original="Order confirmation" locale="es" localized="Confirmación de la orden"/>
+    <moqui.basic.LocalizedMessage original="Order shipments" locale="es" localized="Envíos de la orden"/>
+    <moqui.basic.LocalizedMessage original="Pays: ${names}" locale="es" localized="Paga: ${names}"/>
+    <moqui.basic.LocalizedMessage original="Phone (optional)" locale="es" localized="Teléfono (opcional)"/>
+    <moqui.basic.LocalizedMessage original="Photo ${n}" locale="es" localized="Foto ${n}"/>
+    <moqui.basic.LocalizedMessage original="Photos are PNG or JPEG, up to 10 MB each, and are shown once the review is approved." locale="es" localized="Las fotos son PNG o JPEG, de hasta 10 MB cada una, y se muestran cuando se aprueba la reseña."/>
+    <moqui.basic.LocalizedMessage original="Place order and pay ${amount}" locale="es" localized="Hacer la orden y pagar ${amount}"/>
+    <moqui.basic.LocalizedMessage original="Please try again in a few minutes." locale="es" localized="Inténtelo de nuevo dentro de unos minutos."/>
+    <moqui.basic.LocalizedMessage original="Product reviews" locale="es" localized="Reseñas"/>
+    <moqui.basic.LocalizedMessage original="Promotion codes" locale="es" localized="Códigos de promoción"/>
+    <moqui.basic.LocalizedMessage original="Rating" locale="es" localized="Calificación"/>
+    <moqui.basic.LocalizedMessage original="Remove ${name}" locale="es" localized="Quitar ${name}"/>
+    <moqui.basic.LocalizedMessage original="Remove code ${code}" locale="es" localized="Quitar el código ${code}"/>
+    <moqui.basic.LocalizedMessage original="Remove this card" locale="es" localized="Quitar esta tarjeta"/>
+    <moqui.basic.LocalizedMessage original="Removed the code." locale="es" localized="Se quitó el código."/>
+    <moqui.basic.LocalizedMessage original="Removed the item." locale="es" localized="Se quitó el artículo."/>
+    <moqui.basic.LocalizedMessage original="Removed the item. Add it again from its page to put it back." locale="es" localized="Se quitó el artículo. Agréguelo de nuevo desde su página para devolverlo al carrito."/>
+    <moqui.basic.LocalizedMessage original="Renewal cancelled. Your access lasts to the end of the paid term." locale="es" localized="Renovación cancelada. Su acceso sigue hasta el fin del plazo pagado."/>
+    <moqui.basic.LocalizedMessage original="Renewal state" locale="es" localized="Estado"/>
+    <moqui.basic.LocalizedMessage original="Renewals now use this card." locale="es" localized="Las renovaciones ahora usan esta tarjeta."/>
+    <moqui.basic.LocalizedMessage original="Renews with ${brand} ending ${last4}" locale="es" localized="Se renueva con ${brand} terminada en ${last4}"/>
+    <moqui.basic.LocalizedMessage original="Renews with card ending ${last4}" locale="es" localized="Se renueva con la tarjeta terminada en ${last4}"/>
+    <moqui.basic.LocalizedMessage original="Reply from ${name}" locale="es" localized="Respuesta de ${name}"/>
+    <moqui.basic.LocalizedMessage original="Reply from ${shopContext.store.name}" locale="es" localized="Respuesta de ${shopContext.store.name}"/>
+    <moqui.basic.LocalizedMessage original="Reply from the store" locale="es" localized="Respuesta de la tienda"/>
+    <moqui.basic.LocalizedMessage original="Return to the store" locale="es" localized="Volver a la tienda"/>
+    <moqui.basic.LocalizedMessage original="Review your order" locale="es" localized="Revise su orden"/>
+    <moqui.basic.LocalizedMessage original="Reviews of ${name}" locale="es" localized="Reseñas de ${name}"/>
+    <moqui.basic.LocalizedMessage original="Save address" locale="es" localized="Guardar dirección"/>
+    <moqui.basic.LocalizedMessage original="Save contact" locale="es" localized="Guardar contacto"/>
+    <moqui.basic.LocalizedMessage original="Save my review" locale="es" localized="Guardar mi reseña"/>
+    <moqui.basic.LocalizedMessage original="Saved the address." locale="es" localized="Se guardó la dirección."/>
+    <moqui.basic.LocalizedMessage original="Saved your contact details." locale="es" localized="Se guardaron sus datos de contacto."/>
+    <moqui.basic.LocalizedMessage original="Saved. The carrier suggests: ${suggestion}" locale="es" localized="Guardado. El transportista sugiere: ${suggestion}"/>
+    <moqui.basic.LocalizedMessage original="Scan to open this order after you sign in" locale="es" localized="Escanee para abrir esta orden después de iniciar sesión"/>
+    <moqui.basic.LocalizedMessage original="Search is not available right now. Please try again soon." locale="es" localized="La búsqueda no está disponible en este momento. Inténtelo de nuevo pronto."/>
+    <moqui.basic.LocalizedMessage original="Search the store" locale="es" localized="Buscar en la tienda"/>
+    <moqui.basic.LocalizedMessage original="Send my review" locale="es" localized="Enviar mi reseña"/>
+    <moqui.basic.LocalizedMessage original="Shipping cost" locale="es" localized="Gastos de envío"/>
+    <moqui.basic.LocalizedMessage original="Shop" locale="es" localized="Tienda"/>
+    <moqui.basic.LocalizedMessage original="Show my name as" locale="es" localized="Mostrar mi nombre como"/>
+    <moqui.basic.LocalizedMessage original="Show price" locale="es" localized="Mostrar precio"/>
+    <moqui.basic.LocalizedMessage original="Stop renewing ${name}" locale="es" localized="Dejar de renovar ${name}"/>
+    <moqui.basic.LocalizedMessage original="Stop using this address" locale="es" localized="Dejar de usar esta dirección"/>
+    <moqui.basic.LocalizedMessage original="Street address" locale="es" localized="Calle y número"/>
+    <moqui.basic.LocalizedMessage original="Taking you to the payment page." locale="es" localized="Lo llevamos a la página de pago."/>
+    <moqui.basic.LocalizedMessage original="Taking you to the payment provider's page." locale="es" localized="Lo llevamos a la página del proveedor de pago."/>
+    <moqui.basic.LocalizedMessage original="Terms version ${version}" locale="es" localized="Versión de las condiciones ${version}"/>
+    <moqui.basic.LocalizedMessage original="Thank you for your order" locale="es" localized="Gracias por su orden"/>
+    <moqui.basic.LocalizedMessage original="Thank you. Your review waits for approval before it is shown." locale="es" localized="Gracias. Su reseña espera aprobación antes de mostrarse."/>
+    <moqui.basic.LocalizedMessage original="Thank you. Your review waits for approval; a photo was not added: ${reason}" locale="es" localized="Gracias. Su reseña espera aprobación; no se agregó una foto: ${reason}"/>
+    <moqui.basic.LocalizedMessage original="The address is no longer used." locale="es" localized="La dirección ya no se usa."/>
+    <moqui.basic.LocalizedMessage original="The card is removed." locale="es" localized="Se quitó la tarjeta."/>
+    <moqui.basic.LocalizedMessage original="The carrier suggests: ${suggestion}" locale="es" localized="El transportista sugiere: ${suggestion}"/>
+    <moqui.basic.LocalizedMessage original="The item was not added. Try again." locale="es" localized="No se agregó el artículo. Inténtelo de nuevo."/>
+    <moqui.basic.LocalizedMessage original="The renewal payment did not go through." locale="es" localized="El pago de la renovación no se completó."/>
+    <moqui.basic.LocalizedMessage original="The renewal was tried again." locale="es" localized="Se intentó la renovación de nuevo."/>
+    <moqui.basic.LocalizedMessage original="The store removed your review of this product, so another cannot be written." locale="es" localized="La tienda quitó su reseña de este producto, así que no puede escribir otra."/>
+    <moqui.basic.LocalizedMessage original="This cart link is no longer available. It may have been used already, or it expired." locale="es" localized="Este enlace del carrito ya no está disponible. Puede que ya se usó o que venció."/>
+    <moqui.basic.LocalizedMessage original="This checkout is no longer open." locale="es" localized="Ya no se puede finalizar esta compra."/>
+    <moqui.basic.LocalizedMessage original="This feed cannot be read just now." locale="es" localized="Esta fuente no se puede leer en este momento."/>
+    <moqui.basic.LocalizedMessage original="This feed is not available." locale="es" localized="Esta fuente no está disponible."/>
+    <moqui.basic.LocalizedMessage original="This file is not available." locale="es" localized="Este archivo no está disponible."/>
+    <moqui.basic.LocalizedMessage original="This item cannot be bought now. Remove it to check out." locale="es" localized="Este artículo no se puede comprar ahora. Quítelo para finalizar la compra."/>
+    <moqui.basic.LocalizedMessage original="This page is not available." locale="es" localized="Esta página no está disponible."/>
+    <moqui.basic.LocalizedMessage original="This store" locale="es" localized="Esta tienda"/>
+    <moqui.basic.LocalizedMessage original="This store cannot take payments now." locale="es" localized="Esta tienda no puede cobrar ahora."/>
+    <moqui.basic.LocalizedMessage original="This store is getting ready. Check back soon to browse its products." locale="es" localized="Esta tienda se está preparando. Vuelva pronto para ver sus productos."/>
+    <moqui.basic.LocalizedMessage original="Total ${amount}" locale="es" localized="Suma total ${amount}"/>
+    <moqui.basic.LocalizedMessage original="Tracking ${codes}" locale="es" localized="Seguimiento ${codes}"/>
+    <moqui.basic.LocalizedMessage original="Try the payment again" locale="es" localized="Intentar el pago de nuevo"/>
+    <moqui.basic.LocalizedMessage original="Updated your cart." locale="es" localized="Se actualizó su carrito."/>
+    <moqui.basic.LocalizedMessage original="Use the suggested address" locale="es" localized="Usar la dirección sugerida"/>
+    <moqui.basic.LocalizedMessage original="Use this card" locale="es" localized="Usar esta tarjeta"/>
+    <moqui.basic.LocalizedMessage original="Verified purchase" locale="es" localized="Compra verificada"/>
+    <moqui.basic.LocalizedMessage original="Verify your email address to see your purchases in ${store}." locale="es" localized="Verifique su correo electrónico para ver sus compras en ${store}."/>
+    <moqui.basic.LocalizedMessage original="View cart" locale="es" localized="Ver carrito"/>
+    <moqui.basic.LocalizedMessage original="View cart (${count})" locale="es" localized="Ver carrito (${count})"/>
+    <moqui.basic.LocalizedMessage original="We added the items from this browser to your cart." locale="es" localized="Agregamos a su carrito los artículos de este navegador."/>
+    <moqui.basic.LocalizedMessage original="We added the items from this browser to your cart. Not available now: ${names}." locale="es" localized="Agregamos a su carrito los artículos de este navegador. No disponible ahora: ${names}."/>
+    <moqui.basic.LocalizedMessage original="We are confirming your payment." locale="es" localized="Estamos confirmando su pago."/>
+    <moqui.basic.LocalizedMessage original="We are finishing your order; this page shows it when it is ready." locale="es" localized="Estamos terminando su orden; esta página la muestra cuando esté lista."/>
+    <moqui.basic.LocalizedMessage original="We emailed the details." locale="es" localized="Enviamos los detalles por correo."/>
+    <moqui.basic.LocalizedMessage original="We sent the details to ${email}." locale="es" localized="Enviamos los detalles a ${email}."/>
+    <moqui.basic.LocalizedMessage original="We will email you as your order moves on." locale="es" localized="Le enviaremos un correo cuando su orden avance."/>
+    <moqui.basic.LocalizedMessage original="Write a review" locale="es" localized="Escribir una reseña"/>
+    <moqui.basic.LocalizedMessage original="You can review this product once your order of it has arrived and your email address is verified." locale="es" localized="Puede reseñar este producto cuando haya llegado su orden y su correo electrónico esté verificado."/>
+    <moqui.basic.LocalizedMessage original="You have no subscriptions yet." locale="es" localized="Todavía no tiene suscripciones."/>
+    <moqui.basic.LocalizedMessage original="You pay on the payment provider's page; this site never sees your card." locale="es" localized="Usted paga en la página del proveedor de pago; este sitio nunca ve su tarjeta."/>
+    <moqui.basic.LocalizedMessage original="Your account" locale="es" localized="Su cuenta"/>
+    <moqui.basic.LocalizedMessage original="Your addresses" locale="es" localized="Sus direcciones"/>
+    <moqui.basic.LocalizedMessage original="Your card is saved." locale="es" localized="Su tarjeta quedó guardada."/>
+    <moqui.basic.LocalizedMessage original="Your cart" locale="es" localized="Su carrito"/>
+    <moqui.basic.LocalizedMessage original="Your cart could not be read. Reload the page." locale="es" localized="No se pudo leer su carrito. Vuelva a cargar la página."/>
+    <moqui.basic.LocalizedMessage original="Your cart is back, at today’s prices." locale="es" localized="Su carrito volvió, a los precios de hoy."/>
+    <moqui.basic.LocalizedMessage original="Your cart is back, at today’s prices. Not available now: ${names}." locale="es" localized="Su carrito volvió, a los precios de hoy. No disponible ahora: ${names}."/>
+    <moqui.basic.LocalizedMessage original="Your cart is empty." locale="es" localized="Su carrito está vacío."/>
+    <moqui.basic.LocalizedMessage original="Your cart was not changed. Try again." locale="es" localized="Su carrito no cambió. Inténtelo de nuevo."/>
+    <moqui.basic.LocalizedMessage original="Your checkout is in progress" locale="es" localized="Finalizar compra en curso"/>
+    <moqui.basic.LocalizedMessage original="Your checkout is open again." locale="es" localized="Puede finalizar la compra de nuevo."/>
+    <moqui.basic.LocalizedMessage original="Your downloads" locale="es" localized="Sus descargas"/>
+    <moqui.basic.LocalizedMessage original="Your payment did not complete." locale="es" localized="Su pago no se completó."/>
+    <moqui.basic.LocalizedMessage original="Your payment is approved." locale="es" localized="Su pago está aprobado."/>
+    <moqui.basic.LocalizedMessage original="Your payment is still processing. We will email you when your order is confirmed; you can also check again later." locale="es" localized="Su pago sigue en proceso. Le enviaremos un correo cuando se confirme su orden; también puede consultarlo más tarde."/>
+    <moqui.basic.LocalizedMessage original="Your photos" locale="es" localized="Sus fotos"/>
+    <moqui.basic.LocalizedMessage original="Your product review" locale="es" localized="Su reseña"/>
+    <moqui.basic.LocalizedMessage original="Your renewal" locale="es" localized="Su renovación"/>
+    <moqui.basic.LocalizedMessage original="Your renewal needs attention." locale="es" localized="Su renovación necesita atención."/>
+    <moqui.basic.LocalizedMessage original="Your review: ${rv.own.statusText}" locale="es" localized="Su reseña: ${rv.own.statusText}"/>
+    <moqui.basic.LocalizedMessage original="Your review: ${status}. A change waits for approval again." locale="es" localized="Su reseña: ${status}. Un cambio vuelve a esperar aprobación."/>
+    <moqui.basic.LocalizedMessage original="Your saved cart" locale="es" localized="Su carrito guardado"/>
+    <moqui.basic.LocalizedMessage original="Your subscription" locale="es" localized="Su suscripción"/>
+    <moqui.basic.LocalizedMessage original="Your subscriptions" locale="es" localized="Sus suscripciones"/>
+</entity-facade-xml>

@@ -1,0 +1,7 @@
+# Messages the same in this language. A missing catalog row returns the original.
+${basis}${opensFrom ? ' · ' + opensFrom : ''}
+${description}${opensFrom ? ' (' + opensFrom + ')' : ''}
+${laneStep.countTitle}: ${laneStep.countText}
+${ownerText} · ${sharing}
+${sel.targetTitle}: ${sel.targetMeaning}
+${source}${freshness ? ' (' + freshness + ')' : ''}

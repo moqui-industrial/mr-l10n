@@ -1,0 +1,29 @@
+# Messages the same in this language. A missing catalog row returns the original.
+${approval.statusText}${approval.waitingText ? ': ' + approval.waitingText : ''}
+${attendanceText}${attendedHours != null ? ' (' + attendedHours + ' h)' : ''}
+${batch.fileName}: ${batch.organizationName}, ${batch.sourceSystem}
+${claim.statusText}: ${claim.decisionReason}
+${componentCode} · ${componentName}
+${cycleName} · ${periodText}
+${day.personName}: ${day.weekdayText} ${day.attendanceDate}
+${employer.clockingText}.
+${endTime}${nextDay ? ' (next day)' : ''}
+${failure.personName}: ${failure.message}
+${finding.message}${finding.blocking ? '' : ' (not blocking)'}
+${group.groupName} · ${period.text} · ${group.basisText}
+${historical ? 'Pay record' : (correction ? 'Correction payslip' : 'Payslip')} ${slip.personName}
+${invoiceId}${purpose ? ' · ' + purpose : ''}
+${itemTypeText}: ${description}${merchantName ? ' · ' + merchantName : ''}${reviewNeeded ? ' (to review)' : ''}
+${kindItem.text}${kindItem.key == kind ? ' (here)' : ''}
+${kindText}${inTotals ? '' : ' (no total)'}
+${leave.personName}: ${leave.datesText}
+${offer.statusId == 'OfrWithdrawn' ? 'Withdrawn' : 'Not approved'}: ${offer.decisionReason}
+${policy.organizationName} · ${policy.leaveTypeText} · ${policy.unitText} · ${policy.accrualText}
+${preview.personName}: ${preview.leaveTypeText}, ${preview.datesText}
+${profile.localizationName}${profile.hasProfile ? ', from ' + profile.fromDateText : ': no profile yet'}
+${resultText}${attemptCount > 1 ? ' (' + attemptCount + ' attempts)' : ''}
+${skippedRow.personName} ${skippedRow.whenText}: ${skippedRow.message}
+${stored.settings.organizationName}: ${stored.settings.clockingText}
+${title}${parentTitle ? ' (part of ' + parentTitle + ')' : ''}
+${uomId} ${description}
+${weekdayText} ${attendanceDate}

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+
+<entity-facade-xml type="zh">
+    <moqui.basic.LocalizedMessage original="${ahead} ahead, ${behind} behind" locale="zh" localized="领先 ${ahead}，落后 ${behind}"/>
+    <moqui.basic.LocalizedMessage original="${ahead} ahead, ${behind} behind · conflicts" locale="zh" localized="领先 ${ahead}，落后 ${behind} · 存在冲突"/>
+    <moqui.basic.LocalizedMessage original="${ahead} ahead, ${behind} behind · conflicts in ${paths}" locale="zh" localized="领先 ${ahead}，落后 ${behind} · 冲突位于 ${paths}"/>
+    <moqui.basic.LocalizedMessage original="${ahead} ahead, ${behind} behind · merges cleanly" locale="zh" localized="领先 ${ahead}，落后 ${behind} · 可以干净合并"/>
+    <moqui.basic.LocalizedMessage original="${clone.label} clone address" locale="zh" localized="${clone.label} 克隆地址"/>
+    <moqui.basic.LocalizedMessage original="${count} file changed" locale="zh" localized="已更改 ${count} 个文件"/>
+    <moqui.basic.LocalizedMessage original="${count} files changed" locale="zh" localized="已更改 ${count} 个文件"/>
+    <moqui.basic.LocalizedMessage original="${count} item not shown" locale="zh" localized="未显示 ${count} 项"/>
+    <moqui.basic.LocalizedMessage original="${count} items not shown" locale="zh" localized="未显示 ${count} 项"/>
+    <moqui.basic.LocalizedMessage original="${file.status} from ${file.oldPath}" locale="zh" localized="${file.status} 来自 ${file.oldPath}"/>
+    <moqui.basic.LocalizedMessage original="${tab.count} open" locale="zh" localized="${tab.count} 个未关闭"/>
+    <moqui.basic.LocalizedMessage original="A branch is pushed" locale="zh" localized="推送了分支"/>
+    <moqui.basic.LocalizedMessage original="A file is at that path now. Commit again to replace it, or choose another path." locale="zh" localized="该路径上现在已有文件。请再次提交以替换它，或另选路径。"/>
+    <moqui.basic.LocalizedMessage original="A file is at that path. Choose another path." locale="zh" localized="该路径上已有文件。请另选路径。"/>
+    <moqui.basic.LocalizedMessage original="A file is edited on a branch, not on a tag or a commit." locale="zh" localized="文件在分支上编辑，而不是在标签或提交记录上。"/>
+    <moqui.basic.LocalizedMessage original="A first contribution's runs wait for a Maintainer's approval" locale="zh" localized="首次贡献的运行需等待维护者批准"/>
+    <moqui.basic.LocalizedMessage original="A fork's branch is written" locale="zh" localized="派生的分支写成"/>
+    <moqui.basic.LocalizedMessage original="A job that reads it gets nothing from now on. Its value cannot be read back, so it cannot be restored." locale="zh" localized="此后读取它的作业什么也得不到。其值无法再读出，因此无法恢复。"/>
+    <moqui.basic.LocalizedMessage original="A merge request changes" locale="zh" localized="合并请求发生更改"/>
+    <moqui.basic.LocalizedMessage original="A moderator hid this group: only its owners and the site's moderators see it, and everyone else gets Not Found." locale="zh" localized="版主隐藏了此组：只有其所有者和站点的版主能看到它，其他人会得到未找到。"/>
+    <moqui.basic.LocalizedMessage original="A moderator hid this repository: only its owners and the site's moderators see it, on its pages and in git, and everyone else gets Not Found." locale="zh" localized="版主隐藏了此代码库：只有其所有者和站点的版主能在其页面和 git 中看到它，其他人会得到未找到。"/>
+    <moqui.basic.LocalizedMessage original="A secret moved to another scope or environment takes a new value." locale="zh" localized="密钥移到其他范围或环境时会采用新值。"/>
+    <moqui.basic.LocalizedMessage original="A tag is pushed" locale="zh" localized="推送了标签"/>
+    <moqui.basic.LocalizedMessage original="A variable name: letters, digits and _." locale="zh" localized="变量名：字母、数字和 _。"/>
+    <moqui.basic.LocalizedMessage original="About this repository" locale="zh" localized="关于此代码库"/>
+    <moqui.basic.LocalizedMessage original="Abuse or harassment" locale="zh" localized="辱骂或骚扰"/>
+    <moqui.basic.LocalizedMessage original="Add environment" locale="zh" localized="新建环境"/>
+    <moqui.basic.LocalizedMessage original="Add milestone" locale="zh" localized="新建里程碑"/>
+    <moqui.basic.LocalizedMessage original="Add secret" locale="zh" localized="新建密钥"/>
+    <moqui.basic.LocalizedMessage original="Agreement not signed" locale="zh" localized="协议未签名"/>
+    <moqui.basic.LocalizedMessage original="Agreement signed" locale="zh" localized="协议已签名"/>
+    <moqui.basic.LocalizedMessage original="Agreement waits for a bot's operator" locale="zh" localized="协议在等待机器人的操作者"/>
+    <moqui.basic.LocalizedMessage original="All repositories" locale="zh" localized="所有代码库"/>
+    <moqui.basic.LocalizedMessage original="Already there" locale="zh" localized="已存在"/>
+    <moqui.basic.LocalizedMessage original="An address of a domain this site receives mail for." locale="zh" localized="此站点接收邮件的域中的一个地址。"/>
+    <moqui.basic.LocalizedMessage original="An author" locale="zh" localized="一位作者"/>
+    <moqui.basic.LocalizedMessage original="an environment" locale="zh" localized="一个环境"/>
+    <moqui.basic.LocalizedMessage original="An environment with a secret scoped to it is not deleted: delete the secret or move it first." locale="zh" localized="限定了密钥的环境不会被删除：请先删除该密钥或将其移走。"/>
+    <moqui.basic.LocalizedMessage original="An environment: runs its rules allow" locale="zh" localized="一个环境：其规则所允许的运行"/>
+    <moqui.basic.LocalizedMessage original="and more" locale="zh" localized="以及更多"/>
+    <moqui.basic.LocalizedMessage original="Any account with a confirmed address" locale="zh" localized="任何已确认地址的账号"/>
+    <moqui.basic.LocalizedMessage original="Anything that uses this token stops working at once. A token cannot be restored." locale="zh" localized="使用此令牌的一切会立即停止工作。令牌无法恢复。"/>
+    <moqui.basic.LocalizedMessage original="Asked again before your git access changes, unless you sign in only through another service." locale="zh" localized="在您的 Git 访问发生更改之前会再次询问，除非您只通过其他服务登录。"/>
+    <moqui.basic.LocalizedMessage original="Attachments left out" locale="zh" localized="已略去附件"/>
+    <moqui.basic.LocalizedMessage original="Back to the file" locale="zh" localized="返回文件"/>
+    <moqui.basic.LocalizedMessage original="Binary file." locale="zh" localized="二进制文件。"/>
+    <moqui.basic.LocalizedMessage original="Blame" locale="zh" localized="追溯"/>
+    <moqui.basic.LocalizedMessage original="Branch or tag: ${view.ref}" locale="zh" localized="分支或标签：${view.ref}"/>
+    <moqui.basic.LocalizedMessage original="By request, approved by an operator" locale="zh" localized="经申请，由操作者批准"/>
+    <moqui.basic.LocalizedMessage original="Cancel the deployment" locale="zh" localized="取消部署"/>
+    <moqui.basic.LocalizedMessage original="Cancel the deployment to ${target}" locale="zh" localized="取消到 ${target} 的部署"/>
+    <moqui.basic.LocalizedMessage original="Change visibility" locale="zh" localized="更改可见性"/>
+    <moqui.basic.LocalizedMessage original="Changed files" locale="zh" localized="已更改的文件"/>
+    <moqui.basic.LocalizedMessage original="Clone address" locale="zh" localized="克隆地址"/>
+    <moqui.basic.LocalizedMessage original="Comment on line ${line} of ${path}" locale="zh" localized="第 ${line} 行（${path}）的评论"/>
+    <moqui.basic.LocalizedMessage original="Commit to ${branch}." locale="zh" localized="提交到 ${branch}。"/>
+    <moqui.basic.LocalizedMessage original="Commit to a new branch and open a merge request to ${branch}, which is protected." locale="zh" localized="提交到新分支，并向 ${branch} 打开合并请求，该分支受保护。"/>
+    <moqui.basic.LocalizedMessage original="Commit to a new branch and open a merge request to ${branch}." locale="zh" localized="提交到新分支，并向 ${branch} 打开合并请求。"/>
+    <moqui.basic.LocalizedMessage original="Commits on ${view.ref}" locale="zh" localized="${view.ref} 上的提交记录"/>
+    <moqui.basic.LocalizedMessage original="compare with ${view.parent.path}" locale="zh" localized="与 ${view.parent.path} 比较"/>
+    <moqui.basic.LocalizedMessage original="Composer" locale="zh" localized="编写器"/>
+    <moqui.basic.LocalizedMessage original="Contained in" locale="zh" localized="包含于"/>
+    <moqui.basic.LocalizedMessage original="Delete ${row.name}" locale="zh" localized="删除 ${row.name}"/>
+    <moqui.basic.LocalizedMessage original="Delete environment" locale="zh" localized="删除环境"/>
+    <moqui.basic.LocalizedMessage original="Delete mirror" locale="zh" localized="删除镜像"/>
+    <moqui.basic.LocalizedMessage original="Delete secret" locale="zh" localized="删除密钥"/>
+    <moqui.basic.LocalizedMessage original="Delete the environment ${name}" locale="zh" localized="删除环境 ${name}"/>
+    <moqui.basic.LocalizedMessage original="Delete the mirror to ${url}" locale="zh" localized="删除指向 ${url} 的镜像"/>
+    <moqui.basic.LocalizedMessage original="Delete the secret ${name}" locale="zh" localized="删除密钥 ${name}"/>
+    <moqui.basic.LocalizedMessage original="Deployed or failed" locale="zh" localized="已部署或已失败"/>
+    <moqui.basic.LocalizedMessage original="Deployments" locale="zh" localized="部署"/>
+    <moqui.basic.LocalizedMessage original="Diff view" locale="zh" localized="差异视图"/>
+    <moqui.basic.LocalizedMessage original="DiffReview" locale="zh" localized="差异审阅"/>
+    <moqui.basic.LocalizedMessage original="Discussion: topics and replies" locale="zh" localized="讨论：话题和回复"/>
+    <moqui.basic.LocalizedMessage original="Do" locale="zh" localized="执行"/>
+    <moqui.basic.LocalizedMessage original="Docs directory" locale="zh" localized="文档目录"/>
+    <moqui.basic.LocalizedMessage original="Download ${row.name} as ${archive.label}" locale="zh" localized="将 ${row.name} 下载为 ${archive.label}"/>
+    <moqui.basic.LocalizedMessage original="Download ${view.ref}" locale="zh" localized="下载 ${view.ref}"/>
+    <moqui.basic.LocalizedMessage original="Download it (${view.size})" locale="zh" localized="下载（${view.size}）"/>
+    <moqui.basic.LocalizedMessage original="Edit this milestone" locale="zh" localized="编辑此里程碑"/>
+    <moqui.basic.LocalizedMessage original="Edit this page" locale="zh" localized="编辑此页面"/>
+    <moqui.basic.LocalizedMessage original="Every outside run waits for a Maintainer's approval" locale="zh" localized="每次外部运行都需等待维护者批准"/>
+    <moqui.basic.LocalizedMessage original="File the reports in" locale="zh" localized="将举报提交到"/>
+    <moqui.basic.LocalizedMessage original="Following the log as the job runs." locale="zh" localized="正在跟随作业运行中的日志。"/>
+    <moqui.basic.LocalizedMessage original="Fork" locale="zh" localized="派生"/>
+    <moqui.basic.LocalizedMessage original="Fork of" locale="zh" localized="派生自"/>
+    <moqui.basic.LocalizedMessage original="Forked from" locale="zh" localized="派生自"/>
+    <moqui.basic.LocalizedMessage original="Forum topics" locale="zh" localized="论坛话题"/>
+    <moqui.basic.LocalizedMessage original="From (a branch, a tag or a commit)" locale="zh" localized="来自（分支、标签或提交记录）"/>
+    <moqui.basic.LocalizedMessage original="From a new directory:" locale="zh" localized="从新目录："/>
+    <moqui.basic.LocalizedMessage original="From a repository you have:" locale="zh" localized="从您已有的代码库："/>
+    <moqui.basic.LocalizedMessage original="Git access: SSH keys and tokens" locale="zh" localized="Git 访问：SSH 密钥和令牌"/>
+    <moqui.basic.LocalizedMessage original="Git over SSH stops accepting the key ${fingerprint} at once." locale="zh" localized="Git over SSH 会立即停止接受密钥 ${fingerprint}。"/>
+    <moqui.basic.LocalizedMessage original="Group sections" locale="zh" localized="组的分区"/>
+    <moqui.basic.LocalizedMessage original="Handles, separated by commas." locale="zh" localized="用户名，以逗号分隔。"/>
+    <moqui.basic.LocalizedMessage original="Importing comments and reviews" locale="zh" localized="正在导入评论和审阅"/>
+    <moqui.basic.LocalizedMessage original="Importing issues" locale="zh" localized="正在导入问题"/>
+    <moqui.basic.LocalizedMessage original="Importing labels and milestones" locale="zh" localized="正在导入标签和里程碑"/>
+    <moqui.basic.LocalizedMessage original="Importing pull requests" locale="zh" localized="正在导入拉取请求"/>
+    <moqui.basic.LocalizedMessage original="in ${view.path}" locale="zh" localized="位于 ${view.path}"/>
+    <moqui.basic.LocalizedMessage original="In a character set that could not be read" locale="zh" localized="所用字符集无法读取"/>
+    <moqui.basic.LocalizedMessage original="In effect now: ${value}. This is its own limit; empty follows the default." locale="zh" localized="当前生效：${value}。这是它自己的限制；留空则遵循默认值。"/>
+    <moqui.basic.LocalizedMessage original="In effect now: no limit. This is its own limit; empty follows the default." locale="zh" localized="当前生效：无限制。这是它自己的限制；留空则遵循默认值。"/>
+    <moqui.basic.LocalizedMessage original="Inherit: as the group above says" locale="zh" localized="继承：按上级组的规定"/>
+    <moqui.basic.LocalizedMessage original="Islands" locale="zh" localized="岛屿"/>
+    <moqui.basic.LocalizedMessage original="Issue sections" locale="zh" localized="问题分区"/>
+    <moqui.basic.LocalizedMessage original="It does not merge cleanly." locale="zh" localized="无法干净合并。"/>
+    <moqui.basic.LocalizedMessage original="It does not merge cleanly: conflicts in ${paths}." locale="zh" localized="无法干净合并：冲突位于 ${paths}。"/>
+    <moqui.basic.LocalizedMessage original="It has a secret, which is not shown. Leave this empty to keep it." locale="zh" localized="它有一个密钥，不会显示。留空则保持原值。"/>
+    <moqui.basic.LocalizedMessage original="Its path in the repository. It must be there before the agreement is required." locale="zh" localized="它在代码库中的路径。在要求签署协议之前，该文件必须已经存在。"/>
+    <moqui.basic.LocalizedMessage original="Job log" locale="zh" localized="作业日志"/>
+    <moqui.basic.LocalizedMessage original="Last push ${row.pushed}" locale="zh" localized="上次推送 ${row.pushed}"/>
+    <moqui.basic.LocalizedMessage original="Line comments" locale="zh" localized="行评论"/>
+    <moqui.basic.LocalizedMessage original="Linked issues" locale="zh" localized="关联的问题"/>
+    <moqui.basic.LocalizedMessage original="Linking references" locale="zh" localized="正在关联引用"/>
+    <moqui.basic.LocalizedMessage original="Loading both versions…" locale="zh" localized="正在加载两个版本…"/>
+    <moqui.basic.LocalizedMessage original="Loading the log" locale="zh" localized="正在加载日志"/>
+    <moqui.basic.LocalizedMessage original="Mailing list: mail to its address is a post, and its mail carries the list's own headers" locale="zh" localized="邮件列表：发到其地址的邮件就是一篇帖子，并且其邮件带有该列表自己的邮件头"/>
+    <moqui.basic.LocalizedMessage original="Malware or a way to harm its users" locale="zh" localized="恶意软件或伤害其用户的手段"/>
+    <moqui.basic.LocalizedMessage original="Members: the members of this site" locale="zh" localized="成员：此站点的成员"/>
+    <moqui.basic.LocalizedMessage original="Messages read" locale="zh" localized="已读消息"/>
+    <moqui.basic.LocalizedMessage original="More actions" locale="zh" localized="更多操作"/>
+    <moqui.basic.LocalizedMessage original="More components" locale="zh" localized="更多组件"/>
+    <moqui.basic.LocalizedMessage original="More groups" locale="zh" localized="更多组"/>
+    <moqui.basic.LocalizedMessage original="More members" locale="zh" localized="更多成员"/>
+    <moqui.basic.LocalizedMessage original="More repositories" locale="zh" localized="更多代码库"/>
+    <moqui.basic.LocalizedMessage original="Muted: nothing" locale="zh" localized="已静音：无"/>
+    <moqui.basic.LocalizedMessage original="New environment" locale="zh" localized="新建环境"/>
+    <moqui.basic.LocalizedMessage original="New issue" locale="zh" localized="新建问题"/>
+    <moqui.basic.LocalizedMessage original="New issue in" locale="zh" localized="新建问题，位于"/>
+    <moqui.basic.LocalizedMessage original="New merge request from ${row.name}" locale="zh" localized="从 ${row.name} 新建合并请求"/>
+    <moqui.basic.LocalizedMessage original="New mirror" locale="zh" localized="新建镜像"/>
+    <moqui.basic.LocalizedMessage original="New secret" locale="zh" localized="新建密钥"/>
+    <moqui.basic.LocalizedMessage original="New subgroup" locale="zh" localized="新建子组"/>
+    <moqui.basic.LocalizedMessage original="New subgroup of ${path}" locale="zh" localized="${path} 的新建子组"/>
+    <moqui.basic.LocalizedMessage original="New value" locale="zh" localized="新值"/>
+    <moqui.basic.LocalizedMessage original="No commits to show." locale="zh" localized="没有可显示的提交记录。"/>
+    <moqui.basic.LocalizedMessage original="No components to show. A repository whose root has a component.xml is listed here." locale="zh" localized="没有可显示的组件。根目录含有 component.xml 的代码库会列在这里。"/>
+    <moqui.basic.LocalizedMessage original="No groups to show." locale="zh" localized="没有可显示的组。"/>
+    <moqui.basic.LocalizedMessage original="No lines yet." locale="zh" localized="尚无行。"/>
+    <moqui.basic.LocalizedMessage original="No members to show." locale="zh" localized="没有可显示的成员。"/>
+    <moqui.basic.LocalizedMessage original="No more deployments." locale="zh" localized="没有更多部署。"/>
+    <moqui.basic.LocalizedMessage original="No redirect matches." locale="zh" localized="没有匹配的重定向。"/>
+    <moqui.basic.LocalizedMessage original="No repositories to show." locale="zh" localized="没有可显示的代码库。"/>
+    <moqui.basic.LocalizedMessage original="No run matches these filters." locale="zh" localized="没有运行与这些筛选条件匹配。"/>
+    <moqui.basic.LocalizedMessage original="No text changes to show." locale="zh" localized="没有可显示的文本更改。"/>
+    <moqui.basic.LocalizedMessage original="None to show." locale="zh" localized="没有可显示的内容。"/>
+    <moqui.basic.LocalizedMessage original="Normal: when you are mentioned or answered" locale="zh" localized="普通：在被提及或得到回复时"/>
+    <moqui.basic.LocalizedMessage original="Not reached" locale="zh" localized="未到达"/>
+    <moqui.basic.LocalizedMessage original="Nothing has been deployed from this repository yet." locale="zh" localized="尚未从此代码库部署任何内容。"/>
+    <moqui.basic.LocalizedMessage original="Nothing has been pushed to it yet." locale="zh" localized="尚未向其推送任何内容。"/>
+    <moqui.basic.LocalizedMessage original="Nothing has been pushed to it yet. A Developer of the repository pushes the first commit, from an account with a confirmed email address." locale="zh" localized="尚未向其推送任何内容。代码库的开发者从已确认电子邮件地址的账号推送初次提交。"/>
+    <moqui.basic.LocalizedMessage original="Nothing has been pushed to it yet. A Developer of the repository pushes the first commit." locale="zh" localized="尚未向其推送任何内容。代码库的开发者推送初次提交。"/>
+    <moqui.basic.LocalizedMessage original="Nothing is deployed. Deploying it later takes a new request." locale="zh" localized="不会部署任何内容。以后再部署需要一条新的请求。"/>
+    <moqui.basic.LocalizedMessage original="Nothing to preview." locale="zh" localized="没有可预览的内容。"/>
+    <moqui.basic.LocalizedMessage original="Off: no agreement is required" locale="zh" localized="关闭：不要求协议"/>
+    <moqui.basic.LocalizedMessage original="On this site only its operators create groups." locale="zh" localized="在此站点，只有其操作者可以创建组。"/>
+    <moqui.basic.LocalizedMessage original="One of these branches, tags or commits was not found in this repository." locale="zh" localized="在此代码库中未找到这些分支、标签或提交记录之一。"/>
+    <moqui.basic.LocalizedMessage original="Only the first commits are listed." locale="zh" localized="仅列出前面的提交记录。"/>
+    <moqui.basic.LocalizedMessage original="Open a merge request" locale="zh" localized="新建合并请求"/>
+    <moqui.basic.LocalizedMessage original="Operators only" locale="zh" localized="仅操作者"/>
+    <moqui.basic.LocalizedMessage original="Outside runs" locale="zh" localized="外部运行"/>
+    <moqui.basic.LocalizedMessage original="Outside runs start without an approval" locale="zh" localized="外部运行无需批准即可开始"/>
+    <moqui.basic.LocalizedMessage original="Parent directory" locale="zh" localized="上级目录"/>
+    <moqui.basic.LocalizedMessage original="Pinned repositories" locale="zh" localized="已置顶的代码库"/>
+    <moqui.basic.LocalizedMessage original="Private: only those given a role" locale="zh" localized="私有：仅被授予角色的人"/>
+    <moqui.basic.LocalizedMessage original="Propose the change: it is kept with a merge request to ${branch}, which opens at once. No fork is needed." locale="zh" localized="提议此更改：它随指向 ${branch} 的合并请求保留，并立即打开。不需要派生。"/>
+    <moqui.basic.LocalizedMessage original="protected branches" locale="zh" localized="受保护的分支"/>
+    <moqui.basic.LocalizedMessage original="Protected branches: runs of a branch a branch rule names" locale="zh" localized="受保护的分支：分支规则所指定分支的运行"/>
+    <moqui.basic.LocalizedMessage original="Public: anyone may read it" locale="zh" localized="公开：任何人都可以阅读"/>
+    <moqui.basic.LocalizedMessage original="Pull requests" locale="zh" localized="拉取请求"/>
+    <moqui.basic.LocalizedMessage original="Push a first commit to it. Over HTTPS git asks for your username and an access token; over SSH it uses a key of yours. Both are on" locale="zh" localized="请向其推送初次提交。通过 HTTPS 时，git 会要求您的用户名和访问令牌；通过 SSH 时，使用您的密钥。二者都在"/>
+    <moqui.basic.LocalizedMessage original="Pushes to ${url} stop, and its credential is removed. What was pushed there stays." locale="zh" localized="向 ${url} 的推送会停止，并移除其凭据。已经推送到那里的内容会保留。"/>
+    <moqui.basic.LocalizedMessage original="Questions and answers" locale="zh" localized="问答"/>
+    <moqui.basic.LocalizedMessage original="Receive reports at this address" locale="zh" localized="在此地址接收举报"/>
+    <moqui.basic.LocalizedMessage original="Refuse the deployment" locale="zh" localized="拒绝部署"/>
+    <moqui.basic.LocalizedMessage original="Refuse the deployment to ${target}" locale="zh" localized="拒绝到 ${target} 的部署"/>
+    <moqui.basic.LocalizedMessage original="Remove key" locale="zh" localized="移除密钥"/>
+    <moqui.basic.LocalizedMessage original="Remove the key ${name}" locale="zh" localized="移除密钥 ${name}"/>
+    <moqui.basic.LocalizedMessage original="Replies made" locale="zh" localized="已发表的回复"/>
+    <moqui.basic.LocalizedMessage original="Report this group" locale="zh" localized="举报此组"/>
+    <moqui.basic.LocalizedMessage original="Report this repository" locale="zh" localized="举报此代码库"/>
+    <moqui.basic.LocalizedMessage original="Repository sections" locale="zh" localized="代码库分区"/>
+    <moqui.basic.LocalizedMessage original="Repository settings" locale="zh" localized="代码库设置"/>
+    <moqui.basic.LocalizedMessage original="Required: every author signs the file" locale="zh" localized="必需：每位作者都签署该文件"/>
+    <moqui.basic.LocalizedMessage original="Revoke the token ${name}" locale="zh" localized="撤销令牌 ${name}"/>
+    <moqui.basic.LocalizedMessage original="Revoke token" locale="zh" localized="撤销令牌"/>
+    <moqui.basic.LocalizedMessage original="Rich text" locale="zh" localized="富文本"/>
+    <moqui.basic.LocalizedMessage original="Save environment" locale="zh" localized="保存环境"/>
+    <moqui.basic.LocalizedMessage original="Save milestone" locale="zh" localized="保存里程碑"/>
+    <moqui.basic.LocalizedMessage original="Save secret" locale="zh" localized="保存密钥"/>
+    <moqui.basic.LocalizedMessage original="Second-factor code, if you use one" locale="zh" localized="第二因素验证码（如有）"/>
+    <moqui.basic.LocalizedMessage original="Show every file" locale="zh" localized="显示所有文件"/>
+    <moqui.basic.LocalizedMessage original="Show more" locale="zh" localized="显示更多"/>
+    <moqui.basic.LocalizedMessage original="Signs each delivery (X-Hub-Signature-256). It is not shown again after it is saved." locale="zh" localized="为每次投递签名（X-Hub-Signature-256）。保存后不再显示。"/>
+    <moqui.basic.LocalizedMessage original="Something illegal" locale="zh" localized="违法内容"/>
+    <moqui.basic.LocalizedMessage original="Sort by" locale="zh" localized="排序依据"/>
+    <moqui.basic.LocalizedMessage original="Spam or advertising" locale="zh" localized="垃圾信息或广告"/>
+    <moqui.basic.LocalizedMessage original="Stopped by a problem" locale="zh" localized="因问题而停止"/>
+    <moqui.basic.LocalizedMessage original="tags" locale="zh" localized="标签"/>
+    <moqui.basic.LocalizedMessage original="Tags: runs of a tag" locale="zh" localized="标签：标签的运行"/>
+    <moqui.basic.LocalizedMessage original="Text of the file" locale="zh" localized="文件的文本"/>
+    <moqui.basic.LocalizedMessage original="The author is a bot: its operator, who has signed, says so here, and a Maintainer confirms it." locale="zh" localized="作者是机器人：其已签署的操作者在此声明，并由维护者确认。"/>
+    <moqui.basic.LocalizedMessage original="The bot's operator (a handle)" locale="zh" localized="机器人的操作者（用户名）"/>
+    <moqui.basic.LocalizedMessage original="The bot's operator has said it signed. A Maintainer confirms it." locale="zh" localized="机器人的操作者已声明它已签署。由维护者确认。"/>
+    <moqui.basic.LocalizedMessage original="The bot's operator is confirmed." locale="zh" localized="机器人的操作者已确认。"/>
+    <moqui.basic.LocalizedMessage original="the branch" locale="zh" localized="该分支"/>
+    <moqui.basic.LocalizedMessage original="The group is created at once and you are its Owner." locale="zh" localized="组会立即创建，您是其所有者。"/>
+    <moqui.basic.LocalizedMessage original="The job has ended. Reload the page for its results." locale="zh" localized="作业已结束。请重新加载页面以查看其结果。"/>
+    <moqui.basic.LocalizedMessage original="The old forum" locale="zh" localized="旧论坛"/>
+    <moqui.basic.LocalizedMessage original="The old site" locale="zh" localized="旧站点"/>
+    <moqui.basic.LocalizedMessage original="The preview is not available. Your text is kept." locale="zh" localized="预览不可用。您的文本已保留。"/>
+    <moqui.basic.LocalizedMessage original="This account is a bot" locale="zh" localized="此账号是机器人"/>
+    <moqui.basic.LocalizedMessage original="This cancels the deployment of ${what} to ${target}, and its pipeline run if it is still running." locale="zh" localized="这将取消 ${what} 到 ${target} 的部署，以及仍在运行的管道运行。"/>
+    <moqui.basic.LocalizedMessage original="This change is large; only part of its diff is shown." locale="zh" localized="此更改很大；仅显示其差异的一部分。"/>
+    <moqui.basic.LocalizedMessage original="This deletes the environment ${name} of ${repository}." locale="zh" localized="这将删除环境 ${name}（${repository}）。"/>
+    <moqui.basic.LocalizedMessage original="This deletes the secret ${name} of ${repository}, given to runs of ${scope} ${environment}." locale="zh" localized="这将删除密钥 ${name}（${repository}），提供给 ${scope} ${environment} 的运行。"/>
+    <moqui.basic.LocalizedMessage original="This deletes the secret ${name} of ${repository}, given to runs of ${scope}." locale="zh" localized="这将删除密钥 ${name}（${repository}），提供给 ${scope} 的运行。"/>
+    <moqui.basic.LocalizedMessage original="This directory is empty." locale="zh" localized="此目录是空的。"/>
+    <moqui.basic.LocalizedMessage original="This file cannot be shown side by side: its text was not read (${status})." locale="zh" localized="此文件无法并排显示：未能读到其文本（${status}）。"/>
+    <moqui.basic.LocalizedMessage original="This file is kept in Git LFS: change it with git." locale="zh" localized="此文件保存在 Git LFS 中：请用 git 更改。"/>
+    <moqui.basic.LocalizedMessage original="This file is too large to edit on its page: change it with git." locale="zh" localized="此文件太大，无法在其页面上编辑：请用 git 更改。"/>
+    <moqui.basic.LocalizedMessage original="This file is too large to show here." locale="zh" localized="此文件太大，无法在此显示。"/>
+    <moqui.basic.LocalizedMessage original="This file is too large to show side by side." locale="zh" localized="此文件太大，无法并排显示。"/>
+    <moqui.basic.LocalizedMessage original="This group" locale="zh" localized="此组"/>
+    <moqui.basic.LocalizedMessage original="This is a binary file: it is replaced by an upload, or with git." locale="zh" localized="这是二进制文件：请通过上传或用 git 替换。"/>
+    <moqui.basic.LocalizedMessage original="This job wrote no log." locale="zh" localized="此作业没有写入日志。"/>
+    <moqui.basic.LocalizedMessage original="This log is not available now." locale="zh" localized="此日志现在不可用。"/>
+    <moqui.basic.LocalizedMessage original="This merge request" locale="zh" localized="此合并请求"/>
+    <moqui.basic.LocalizedMessage original="This refuses the deployment of ${what} to ${target}. Nothing is deployed, and deploying it later takes a new request." locale="zh" localized="这将拒绝 ${what} 到 ${target} 的部署。不会部署任何内容，以后部署需要一条新的请求。"/>
+    <moqui.basic.LocalizedMessage original="This repository is a fork:" locale="zh" localized="此代码库是一个派生："/>
+    <moqui.basic.LocalizedMessage original="This repository is a mirror of another one: it is changed there." locale="zh" localized="此代码库是另一个代码库的镜像：请在那边更改。"/>
+    <moqui.basic.LocalizedMessage original="This repository is archived: nothing in it is changed." locale="zh" localized="此代码库已归档：其中的内容不会被更改。"/>
+    <moqui.basic.LocalizedMessage original="This repository is empty" locale="zh" localized="此代码库是空的"/>
+    <moqui.basic.LocalizedMessage original="Too long" locale="zh" localized="过长"/>
+    <moqui.basic.LocalizedMessage original="Topics made" locale="zh" localized="已创建的话题"/>
+    <moqui.basic.LocalizedMessage original="Tracking: a count of new comments" locale="zh" localized="跟踪：新评论的数量"/>
+    <moqui.basic.LocalizedMessage original="Trusted runs" locale="zh" localized="受信任的运行"/>
+    <moqui.basic.LocalizedMessage original="Upload a file" locale="zh" localized="上传一个文件"/>
+    <moqui.basic.LocalizedMessage original="View file" locale="zh" localized="查看文件"/>
+    <moqui.basic.LocalizedMessage original="Waiting for the pipeline" locale="zh" localized="等待管道"/>
+    <moqui.basic.LocalizedMessage original="Waiting to start" locale="zh" localized="等待开始"/>
+    <moqui.basic.LocalizedMessage original="Watching: every comment" locale="zh" localized="关注中：每条评论"/>
+    <moqui.basic.LocalizedMessage original="Who may see this repository" locale="zh" localized="谁可以查看此代码库"/>
+    <moqui.basic.LocalizedMessage original="Write in" locale="zh" localized="编写方式"/>
+    <moqui.basic.LocalizedMessage original="You are asked to confirm on the next page." locale="zh" localized="下一页会请您确认。"/>
+    <moqui.basic.LocalizedMessage original="You manage this site, so the group is created at once and you are its Owner." locale="zh" localized="您管理此站点，因此组会立即创建，并且您是其所有者。"/>
+    <moqui.basic.LocalizedMessage original="Your password" locale="zh" localized="您的密码"/>
+    <moqui.basic.LocalizedMessage original="· Blame ·" locale="zh" localized="· 追溯 ·"/>
+    <moqui.basic.LocalizedMessage original="· depends on ${row.dependsOn.join(', ')}" locale="zh" localized="· 依赖于 ${row.dependsOn.join(', ')}"/>
+    <moqui.basic.LocalizedMessage original="· from ${member.fromPath}" locale="zh" localized="· 来自 ${member.fromPath}"/>
+    <moqui.basic.LocalizedMessage original="· latest release" locale="zh" localized="· 最新版本"/>
+    <moqui.basic.LocalizedMessage original="· since ${member.since}" locale="zh" localized="· 自 ${member.since}"/>
+    <moqui.basic.LocalizedMessage original="· until ${member.until}" locale="zh" localized="· 直到 ${member.until}"/>
+</entity-facade-xml>

@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+
+<entity-facade-xml type="es">
+    <moqui.basic.LocalizedMessage original="${account.userFullName} loses this group's permissions and app gates from the date given; the membership stays on record." locale="es" localized="${account.userFullName} pierde los permisos y los accesos a las aplicaciones de este grupo desde la fecha indicada; la membresía permanece en el registro."/>
+    <moqui.basic.LocalizedMessage original="${account.userFullName} no longer works for ${organizationName} from the date given. Their account and other organizations are unchanged; the membership stays on record." locale="es" localized="${account.userFullName} ya no trabaja para ${organizationName} desde la fecha indicada. Su cuenta y las demás organizaciones no cambian; la membresía permanece en el registro."/>
+    <moqui.basic.LocalizedMessage original="${account.userFullName} works for" locale="es" localized="${account.userFullName} trabaja para"/>
+    <moqui.basic.LocalizedMessage original="${count} disabled" locale="es" localized="${count} desactivados"/>
+    <moqui.basic.LocalizedMessage original="${count} disabled; ${failed} refused: ${why}" locale="es" localized="${count} desactivados; ${failed} rechazados: ${why}"/>
+    <moqui.basic.LocalizedMessage original="${count} products checked, no issue" locale="es" localized="${count} productos comprobados, sin problema"/>
+    <moqui.basic.LocalizedMessage original="${count} session(s) signed out" locale="es" localized="${count} sesión(es) cerrada(s)"/>
+    <moqui.basic.LocalizedMessage original="${count} session(s) signed out; ${refused} not yours to end" locale="es" localized="${count} sesión(es) cerrada(s); ${refused} que no le corresponde terminar"/>
+    <moqui.basic.LocalizedMessage original="${endedMemberCount} ended membership(s) kept on record." locale="es" localized="${endedMemberCount} membresía(s) finalizada(s) quedan en el registro."/>
+    <moqui.basic.LocalizedMessage original="${endedMembershipCount} ended membership(s) kept on record." locale="es" localized="${endedMembershipCount} membresía(s) finalizada(s) quedan en el registro."/>
+    <moqui.basic.LocalizedMessage original="${found.memberCount} current member(s). Their names are for identity operators." locale="es" localized="${found.memberCount} miembro(s) actual(es). Sus nombres son para los operadores de identidades."/>
+    <moqui.basic.LocalizedMessage original="${found.otherCount} other device(s) belong to organizations you do not administer." locale="es" localized="${found.otherCount} otro(s) dispositivo(s) pertenecen a organizaciones que usted no administra."/>
+    <moqui.basic.LocalizedMessage original="${found.singleUseCodeCount} unused single use code(s)." locale="es" localized="${found.singleUseCodeCount} código(s) de un solo uso sin usar."/>
+    <moqui.basic.LocalizedMessage original="${issues} catalog issues in ${count} products checked" locale="es" localized="${issues} incidencias de catálogo en ${count} productos comprobados"/>
+    <moqui.basic.LocalizedMessage original="${name} cannot sign in: choose another owner" locale="es" localized="${name} no puede iniciar sesión: elija otro propietario"/>
+    <moqui.basic.LocalizedMessage original="${name} has its own Constitution; it replaces the instance Constitution for its members." locale="es" localized="${name} tiene su propia Constitución; reemplaza la Constitución de la instancia para sus miembros."/>
+    <moqui.basic.LocalizedMessage original="${name} uses the instance Constitution (${which}); a change saves its own copy." locale="es" localized="${name} usa la Constitución de la instancia (${which}); un cambio guarda su propia copia."/>
+    <moqui.basic.LocalizedMessage original="${name} • read only" locale="es" localized="${name} • solo lectura"/>
+    <moqui.basic.LocalizedMessage original="${operation.userName} no longer works here. Choose who takes this over: someone of your organizations who can sign in. ${ownerText} checks that they may own it." locale="es" localized="${operation.userName} ya no trabaja aquí. Elija quién lo toma: alguien de sus organizaciones que pueda iniciar sesión. ${ownerText} comprueba que pueda ser propietario."/>
+    <moqui.basic.LocalizedMessage original="${organization.organizationName} belongs to" locale="es" localized="${organization.organizationName} pertenece a"/>
+    <moqui.basic.LocalizedMessage original="${organization.organizationName} contacts" locale="es" localized="Contactos de ${organization.organizationName}"/>
+    <moqui.basic.LocalizedMessage original="${outsideCount} more current member(s) work for organizations you do not administer." locale="es" localized="${outsideCount} miembro(s) actual(es) más trabajan para organizaciones que usted no administra."/>
+    <moqui.basic.LocalizedMessage original="${permission} is needed to move this" locale="es" localized="Se necesita ${permission} para mover esto"/>
+    <moqui.basic.LocalizedMessage original="14 days" locale="es" localized="14 días"/>
+    <moqui.basic.LocalizedMessage original="A client key, shown once" locale="es" localized="Una clave de cliente, mostrada una sola vez"/>
+    <moqui.basic.LocalizedMessage original="A dated membership of one of your organizations. Ending it keeps it on record." locale="es" localized="Una membresía con fecha de una de sus organizaciones. Terminarla la conserva en el registro."/>
+    <moqui.basic.LocalizedMessage original="A dated relationship of one of your staff. Another organization's staff need identity-global authority. Ending it keeps it on record." locale="es" localized="Una relación con fecha de un miembro de su personal. El personal de otra organización necesita autoridad global de identidades. Terminarla la conserva en el registro."/>
+    <moqui.basic.LocalizedMessage original="A device not seen for longer stops and is registered again; a wall display that is switched off at night needs more than a night" locale="es" localized="Un dispositivo que no se ve durante más tiempo se detiene y se registra de nuevo; una pantalla de pared apagada de noche necesita más de una noche"/>
+    <moqui.basic.LocalizedMessage original="A display account stands for a shared screen, not a person: it has no password or email and nothing signs it in. A device registered in Security › Devices runs as it and shows the organization and access chosen here." locale="es" localized="Una cuenta de pantalla es una pantalla compartida, no una persona: no tiene contraseña ni correo y nada inicia sesión con ella. Un dispositivo registrado en Seguridad › Dispositivos se ejecuta como ella y muestra la organización y el acceso elegidos aquí."/>
+    <moqui.basic.LocalizedMessage original="A new link was made but its email was not sent: resend it again later" locale="es" localized="Se creó un enlace nuevo, pero no se envió el correo: reenvíelo más tarde"/>
+    <moqui.basic.LocalizedMessage original="A person's or a team's mail account, with its own server, is set up in that account" locale="es" localized="La cuenta de correo de una persona o de un equipo, con su propio servidor, se configura en esa cuenta"/>
+    <moqui.basic.LocalizedMessage original="A registered bundle you may assign, from a date. Ending a membership keeps it on record." locale="es" localized="Un paquete registrado que puede asignar, desde una fecha. Terminar una membresía la conserva en el registro."/>
+    <moqui.basic.LocalizedMessage original="A2A tasks" locale="es" localized="Tareas A2A"/>
+    <moqui.basic.LocalizedMessage original="Acceptance link for ${revealed.emailAddress}" locale="es" localized="Enlace de aceptación para ${revealed.emailAddress}"/>
+    <moqui.basic.LocalizedMessage original="Access ends" locale="es" localized="Fin del acceso"/>
+    <moqui.basic.LocalizedMessage original="Access ends ${terminateText}" locale="es" localized="El acceso termina ${terminateText}"/>
+    <moqui.basic.LocalizedMessage original="Access log" locale="es" localized="Registro de acceso"/>
+    <moqui.basic.LocalizedMessage original="Account created; a reset password was mailed for the user to set their own" locale="es" localized="Cuenta creada; se envió por correo una contraseña de restablecimiento para que el usuario ponga la suya"/>
+    <moqui.basic.LocalizedMessage original="Account revision" locale="es" localized="Revisión de la cuenta"/>
+    <moqui.basic.LocalizedMessage original="Account saved" locale="es" localized="Cuenta guardada"/>
+    <moqui.basic.LocalizedMessage original="Accounting is not set up" locale="es" localized="La contabilidad no está configurada"/>
+    <moqui.basic.LocalizedMessage original="Accounting setup is complete" locale="es" localized="La configuración inicial contable está completa"/>
+    <moqui.basic.LocalizedMessage original="Accounting setup is not activated yet" locale="es" localized="La configuración inicial contable aún no está activada"/>
+    <moqui.basic.LocalizedMessage original="Add a member to ${organization.organizationName}" locale="es" localized="Añadir un miembro a ${organization.organizationName}"/>
+    <moqui.basic.LocalizedMessage original="Address or name" locale="es" localized="Dirección o nombre"/>
+    <moqui.basic.LocalizedMessage original="Admin context is not available" locale="es" localized="El contexto de Admin no está disponible"/>
+    <moqui.basic.LocalizedMessage original="Admin is not available" locale="es" localized="Admin no está disponible"/>
+    <moqui.basic.LocalizedMessage original="Agent##party" locale="es" localized="Agente"/>
+    <moqui.basic.LocalizedMessage original="Agent administration" locale="es" localized="Administración de agentes"/>
+    <moqui.basic.LocalizedMessage original="Agent and model administration needs the AgentAdmin permission." locale="es" localized="La administración de agentes y modelos necesita el permiso AgentAdmin."/>
+    <moqui.basic.LocalizedMessage original="Agent definitions" locale="es" localized="Definiciones de agente"/>
+    <moqui.basic.LocalizedMessage original="Agent runs and their steps" locale="es" localized="Ejecuciones de agente y sus pasos"/>
+    <moqui.basic.LocalizedMessage original="All, ended too" locale="es" localized="Todos, también los finalizados"/>
+    <moqui.basic.LocalizedMessage original="Ask a business number" locale="es" localized="Consultar una cifra de negocio"/>
+    <moqui.basic.LocalizedMessage original="Ask a business operations number" locale="es" localized="Consultar una cifra de operaciones"/>
+    <moqui.basic.LocalizedMessage original="At most 730; then it is registered again" locale="es" localized="Como máximo 730; después se registra de nuevo"/>
+    <moqui.basic.LocalizedMessage original="At once: signed out everywhere, keys, app passwords, SSH keys and phones revoked, and the account disabled. With a date: sign-in stops then. You review what it does before it is done." locale="es" localized="De inmediato: se cierra la sesión en todas partes, se revocan claves, contraseñas de aplicación, claves SSH y teléfonos, y se desactiva la cuenta. Con una fecha: el inicio de sesión se detiene entonces. Usted revisa lo que hace antes de hacerlo."/>
+    <moqui.basic.LocalizedMessage original="Back to lifecycle operations" locale="es" localized="Volver a operaciones de ciclo de vida"/>
+    <moqui.basic.LocalizedMessage original="Back to organizations" locale="es" localized="Volver a organizaciones"/>
+    <moqui.basic.LocalizedMessage original="Back to users" locale="es" localized="Volver a usuarios"/>
+    <moqui.basic.LocalizedMessage original="Belongs to ${name}" locale="es" localized="Pertenece a ${name}"/>
+    <moqui.basic.LocalizedMessage original="Bill match exceptions" locale="es" localized="Excepciones de coincidencia de facturas recibidas"/>
+    <moqui.basic.LocalizedMessage original="Business operations datasets" locale="es" localized="Conjuntos de datos de operaciones"/>
+    <moqui.basic.LocalizedMessage original="Calls and usage" locale="es" localized="Llamadas y uso"/>
+    <moqui.basic.LocalizedMessage original="Calls today" locale="es" localized="Llamadas hoy"/>
+    <moqui.basic.LocalizedMessage original="Case status categories" locale="es" localized="Categorías de estado de casos"/>
+    <moqui.basic.LocalizedMessage original="Catalog quality" locale="es" localized="Calidad del catálogo"/>
+    <moqui.basic.LocalizedMessage original="Change parent" locale="es" localized="Cambiar la organización padre"/>
+    <moqui.basic.LocalizedMessage original="Changing the instance Constitution needs ADMIN_SETTINGS_MANAGE and ADMIN_CONSTITUTION_GLOBAL" locale="es" localized="Cambiar la Constitución de la instancia necesita ADMIN_SETTINGS_MANAGE y ADMIN_CONSTITUTION_GLOBAL"/>
+    <moqui.basic.LocalizedMessage original="Child organizations" locale="es" localized="Organizaciones hijas"/>
+    <moqui.basic.LocalizedMessage original="Child organizations: ${childText}" locale="es" localized="Organizaciones hijas: ${childText}"/>
+    <moqui.basic.LocalizedMessage original="Choose another user to sign in as" locale="es" localized="Elija otro usuario con el que iniciar sesión"/>
+    <moqui.basic.LocalizedMessage original="Choose the staff to disable. You review each one before anything is done; each is its own lifecycle operation." locale="es" localized="Elija el personal que desactivar. Usted revisa cada uno antes de que se haga nada; cada uno es su propia operación de ciclo de vida."/>
+    <moqui.basic.LocalizedMessage original="Code not entered" locale="es" localized="Código no introducido"/>
+    <moqui.basic.LocalizedMessage original="Configuration problems" locale="es" localized="Problemas de configuración"/>
+    <moqui.basic.LocalizedMessage original="Confirm ${preview.kindText.toLowerCase()}" locale="es" localized="Confirmar ${preview.kindText.toLowerCase()}"/>
+    <moqui.basic.LocalizedMessage original="Constitution not available" locale="es" localized="Constitución no disponible"/>
+    <moqui.basic.LocalizedMessage original="Constitution reset; agent runs that start from now use the inherited one" locale="es" localized="Constitución restablecida; las ejecuciones de agente que empiecen desde ahora usan la heredada"/>
+    <moqui.basic.LocalizedMessage original="Constitution saved; agent runs that start from now use it" locale="es" localized="Constitución guardada; las ejecuciones de agente que empiecen desde ahora la usan"/>
+    <moqui.basic.LocalizedMessage original="Contacts saved" locale="es" localized="Contactos guardados"/>
+    <moqui.basic.LocalizedMessage original="Content hash ${hashText}." locale="es" localized="Hash del contenido ${hashText}."/>
+    <moqui.basic.LocalizedMessage original="Costs and margins" locale="es" localized="Costos y márgenes"/>
+    <moqui.basic.LocalizedMessage original="Could not be checked: ${setupFailed}" locale="es" localized="No se pudo comprobar: ${setupFailed}"/>
+    <moqui.basic.LocalizedMessage original="Create display account" locale="es" localized="Crear cuenta de pantalla"/>
+    <moqui.basic.LocalizedMessage original="Create organization" locale="es" localized="Crear organización"/>
+    <moqui.basic.LocalizedMessage original="Creates the organization and its place under its parent only. Accounting, members and connections are set up afterwards, each by whoever owns it." locale="es" localized="Crea solo la organización y su lugar bajo la organización padre. Contabilidad, miembros y conexiones se configuran después, cada uno por quien lo posee."/>
+    <moqui.basic.LocalizedMessage original="Credential revoked" locale="es" localized="Credencial revocada"/>
+    <moqui.basic.LocalizedMessage original="Current##active" locale="es" localized="Vigente"/>
+    <moqui.basic.LocalizedMessage original="Dataset rows" locale="es" localized="Filas del conjunto de datos"/>
+    <moqui.basic.LocalizedMessage original="Datasets to ask" locale="es" localized="Conjuntos de datos para consultar"/>
+    <moqui.basic.LocalizedMessage original="Device or display" locale="es" localized="Dispositivo o pantalla"/>
+    <moqui.basic.LocalizedMessage original="Device revoked: its next request is refused" locale="es" localized="Dispositivo revocado: su próxima solicitud se rechaza"/>
+    <moqui.basic.LocalizedMessage original="Devices are not available to you." locale="es" localized="Los dispositivos no están disponibles para usted."/>
+    <moqui.basic.LocalizedMessage original="Disable ${account.userFullName}" locale="es" localized="Desactivar a ${account.userFullName}"/>
+    <moqui.basic.LocalizedMessage original="Disable them" locale="es" localized="Desactivarlos"/>
+    <moqui.basic.LocalizedMessage original="Disable users" locale="es" localized="Desactivar usuarios"/>
+    <moqui.basic.LocalizedMessage original="Disabled accounts, organization removals and restorations in the organizations you administer, with what still waits: a failed step to retry, or a resource waiting for a new owner. Start one from a user's Lifecycle box." locale="es" localized="Cuentas desactivadas, salidas de organización y restauraciones en sus organizaciones, con lo que aún espera: un paso fallido para reintentar, o un recurso que espera un nuevo propietario. Inicie una desde el recuadro Ciclo de vida de un usuario."/>
+    <moqui.basic.LocalizedMessage original="Display account ${created.username} created; an access administrator registers a device for it in Security › Devices" locale="es" localized="Cuenta de pantalla ${created.username} creada; un administrador de acceso registra un dispositivo para ella en Seguridad › Dispositivos"/>
+    <moqui.basic.LocalizedMessage original="Document in ${locale}" locale="es" localized="Documento en ${locale}"/>
+    <moqui.basic.LocalizedMessage original="Done; some steps wait for you below" locale="es" localized="Hecho; algunos pasos le esperan abajo"/>
+    <moqui.basic.LocalizedMessage original="Each is checked on its own: signed out everywhere, keys, app passwords, SSH keys and phones revoked, the account disabled, and owned shared resources left waiting for a new owner. A refused one is left as it is." locale="es" localized="Cada uno se comprueba aparte: cierre de sesión en todas partes, claves, contraseñas de aplicación, claves SSH y teléfonos revocados, cuenta desactivada y recursos compartidos a la espera de un nuevo propietario. Lo rechazado queda igual."/>
+    <moqui.basic.LocalizedMessage original="Each step stands on its own: one that failed leaves the others, and the access revoked, in place. Retry it, or hand a waiting resource to a new owner." locale="es" localized="Cada paso es independiente: uno que falla deja los demás, y el acceso revocado, como están. Reinténtelo, o entregue un recurso en espera a un nuevo propietario."/>
+    <moqui.basic.LocalizedMessage original="Empty changes it now" locale="es" localized="Vacío lo cambia ahora"/>
+    <moqui.basic.LocalizedMessage original="Empty shows what the instance still keeps" locale="es" localized="Vacío muestra lo que la instancia aún conserva"/>
+    <moqui.basic.LocalizedMessage original="Empty uses the default" locale="es" localized="Vacío usa el predeterminado"/>
+    <moqui.basic.LocalizedMessage original="Empty uses the email address" locale="es" localized="Vacío usa la dirección de correo"/>
+    <moqui.basic.LocalizedMessage original="Enables the account and clears its end date. Nothing revoked comes back: the user makes new keys and app passwords, and ended memberships and paused schedules stay as they are." locale="es" localized="Activa la cuenta y quita su fecha de fin. Nada revocado vuelve: el usuario crea claves y contraseñas de aplicación nuevas, y las membresías finalizadas y las programaciones en pausa siguen igual."/>
+    <moqui.basic.LocalizedMessage original="End ${organizationName} membership" locale="es" localized="Terminar la membresía de ${organizationName}"/>
+    <moqui.basic.LocalizedMessage original="Ends their relationships with that organization only. Access to their other organizations stays; when no organization is left, their memberships end too. You review it first." locale="es" localized="Termina solo sus relaciones con esa organización. El acceso a las demás organizaciones se mantiene; cuando no queda ninguna, sus membresías también terminan. Usted lo revisa primero."/>
+    <moqui.basic.LocalizedMessage original="Every line of this trace" locale="es" localized="Todas las líneas de esta traza"/>
+    <moqui.basic.LocalizedMessage original="Every line, the ones no person wrote too" locale="es" localized="Todas las líneas, también las que nadie escribió"/>
+    <moqui.basic.LocalizedMessage original="Expected receipts" locale="es" localized="Recepciones previstas"/>
+    <moqui.basic.LocalizedMessage original="Explain what this group's members can do, which grants are sealed or privileged, and who may change it" locale="es" localized="Explique qué pueden hacer los miembros de este grupo, qué concesiones están selladas o son privilegiadas y quién puede cambiarlo"/>
+    <moqui.basic.LocalizedMessage original="Failing job runs" locale="es" localized="Ejecuciones de trabajo fallidas"/>
+    <moqui.basic.LocalizedMessage original="Find a kind" locale="es" localized="Buscar un tipo"/>
+    <moqui.basic.LocalizedMessage original="For a new person" locale="es" localized="Para una persona nueva"/>
+    <moqui.basic.LocalizedMessage original="For configuration administrators" locale="es" localized="Para administradores de configuración"/>
+    <moqui.basic.LocalizedMessage original="Gateway client keys" locale="es" localized="Claves de cliente de la puerta de enlace"/>
+    <moqui.basic.LocalizedMessage original="Give ${account.userFullName} access" locale="es" localized="Dar acceso a ${account.userFullName}"/>
+    <moqui.basic.LocalizedMessage original="Group ${id} is not available." locale="es" localized="El grupo ${id} no está disponible."/>
+    <moqui.basic.LocalizedMessage original="Idle timeout (minutes)" locale="es" localized="Tiempo de inactividad (minutos)"/>
+    <moqui.basic.LocalizedMessage original="In the last 30 days" locale="es" localized="En los últimos 30 días"/>
+    <moqui.basic.LocalizedMessage original="In the last 7 days" locale="es" localized="En los últimos 7 días"/>
+    <moqui.basic.LocalizedMessage original="In the last day" locale="es" localized="En el último día"/>
+    <moqui.basic.LocalizedMessage original="Insights dataset class" locale="es" localized="Clase de conjunto de datos de Insights"/>
+    <moqui.basic.LocalizedMessage original="Insights freshness policy" locale="es" localized="Política de actualización de Insights"/>
+    <moqui.basic.LocalizedMessage original="Insights week start" locale="es" localized="Inicio de semana de Insights"/>
+    <moqui.basic.LocalizedMessage original="Instance (every organization without its own)" locale="es" localized="Instancia (cada organización sin la suya)"/>
+    <moqui.basic.LocalizedMessage original="Instance (every organization without its own) • read only" locale="es" localized="Instancia (cada organización sin la suya) • solo lectura"/>
+    <moqui.basic.LocalizedMessage original="Inventory index" locale="es" localized="Índice de inventario"/>
+    <moqui.basic.LocalizedMessage original="Invitation revoked; its link no longer works" locale="es" localized="Invitación revocada; su enlace ya no funciona"/>
+    <moqui.basic.LocalizedMessage original="Invitation sent again; the earlier link no longer works" locale="es" localized="Invitación enviada de nuevo; el enlace anterior ya no funciona"/>
+    <moqui.basic.LocalizedMessage original="Invitation sent to ${emailAddress}" locale="es" localized="Invitación enviada a ${emailAddress}"/>
+    <moqui.basic.LocalizedMessage original="Invitations are not available to you." locale="es" localized="Las invitaciones no están disponibles para usted."/>
+    <moqui.basic.LocalizedMessage original="Invitations are the usual way to add staff. A direct account gets no password: a reset password is mailed so the person sets their own. IronStone BOSS users is always included." locale="es" localized="Las invitaciones son la vía habitual para añadir personal. Una cuenta directa no recibe contraseña: se envía por correo una de restablecimiento para que la persona ponga la suya. IronStone BOSS users siempre se incluye."/>
+    <moqui.basic.LocalizedMessage original="Invite from a file" locale="es" localized="Invitar desde un archivo"/>
+    <moqui.basic.LocalizedMessage original="Invite users" locale="es" localized="Invitar usuarios"/>
+    <moqui.basic.LocalizedMessage original="Inviting staff needs ADMIN_IDENTITY_MANAGE." locale="es" localized="Invitar personal necesita ADMIN_IDENTITY_MANAGE."/>
+    <moqui.basic.LocalizedMessage original="Invoiced revenue" locale="es" localized="Ingresos facturados"/>
+    <moqui.basic.LocalizedMessage original="Invoices of a billing batch" locale="es" localized="Facturas de un lote de facturación"/>
+    <moqui.basic.LocalizedMessage original="IP limited" locale="es" localized="Limitado por IP"/>
+    <moqui.basic.LocalizedMessage original="Its geo id, such as USA" locale="es" localized="Su id geográfico, como USA"/>
+    <moqui.basic.LocalizedMessage original="Its geo id, such as USA_UT" locale="es" localized="Su id geográfico, como USA_UT"/>
+    <moqui.basic.LocalizedMessage original="Its own Constitution applies" locale="es" localized="Se aplica su propia Constitución"/>
+    <moqui.basic.LocalizedMessage original="Its own Constitution is not valid" locale="es" localized="Su propia Constitución no es válida"/>
+    <moqui.basic.LocalizedMessage original="Its owner could not answer" locale="es" localized="Su propietario no pudo responder"/>
+    <moqui.basic.LocalizedMessage original="Kind and format" locale="es" localized="Tipo y formato"/>
+    <moqui.basic.LocalizedMessage original="Last changed ${when}" locale="es" localized="Último cambio ${when}"/>
+    <moqui.basic.LocalizedMessage original="Last changed ${when} by ${name}" locale="es" localized="Último cambio ${when} por ${name}"/>
+    <moqui.basic.LocalizedMessage original="Last sign-in" locale="es" localized="Último inicio de sesión"/>
+    <moqui.basic.LocalizedMessage original="Late work orders" locale="es" localized="Órdenes de trabajo atrasadas"/>
+    <moqui.basic.LocalizedMessage original="Lessons agents keep" locale="es" localized="Lecciones que conservan los agentes"/>
+    <moqui.basic.LocalizedMessage original="Lifecycle operation" locale="es" localized="Operación de ciclo de vida"/>
+    <moqui.basic.LocalizedMessage original="Lifecycle operation ${id} is not available." locale="es" localized="La operación de ciclo de vida ${id} no está disponible."/>
+    <moqui.basic.LocalizedMessage original="Lifecycle operation not available" locale="es" localized="Operación de ciclo de vida no disponible"/>
+    <moqui.basic.LocalizedMessage original="Lifecycle operations" locale="es" localized="Operaciones de ciclo de vida"/>
+    <moqui.basic.LocalizedMessage original="Lifecycle operations are not available to you." locale="es" localized="Las operaciones de ciclo de vida no están disponibles para usted."/>
+    <moqui.basic.LocalizedMessage original="Link expires after" locale="es" localized="El enlace caduca después de"/>
+    <moqui.basic.LocalizedMessage original="Mail accounts in Comms" locale="es" localized="Cuentas de correo en Comunicaciones"/>
+    <moqui.basic.LocalizedMessage original="Members read it in the Assist drawer under Constitution / Rules, without Admin access; agent runs of its members use it from their next run." locale="es" localized="Los miembros lo leen en el panel de Asistente, en Constitución / Reglas, sin acceso a Admin; las ejecuciones de agente de sus miembros lo usan desde la próxima ejecución."/>
+    <moqui.basic.LocalizedMessage original="Membership added" locale="es" localized="Membresía añadida"/>
+    <moqui.basic.LocalizedMessage original="Model calls, tokens and cost" locale="es" localized="Llamadas de modelo, tokens y costo"/>
+    <moqui.basic.LocalizedMessage original="Models and endpoints" locale="es" localized="Modelos y puntos de conexión"/>
+    <moqui.basic.LocalizedMessage original="Models, endpoints and feature bindings" locale="es" localized="Modelos, puntos de conexión y enlaces de funciones"/>
+    <moqui.basic.LocalizedMessage original="Monitor and Dashboards are open to their own users; an instance administrator grants them." locale="es" localized="Monitor y los paneles de control están abiertos a sus propios usuarios; un administrador de la instancia los concede."/>
+    <moqui.basic.LocalizedMessage original="Monitoring" locale="es" localized="Supervisión"/>
+    <moqui.basic.LocalizedMessage original="Monitoring tools" locale="es" localized="Herramientas de supervisión"/>
+    <moqui.basic.LocalizedMessage original="Name or email" locale="es" localized="Nombre o correo"/>
+    <moqui.basic.LocalizedMessage original="Name or identifier" locale="es" localized="Nombre o identificador"/>
+    <moqui.basic.LocalizedMessage original="Needs access management access, which an administrator can grant." locale="es" localized="Necesita acceso de gestión de accesos, que un administrador puede conceder."/>
+    <moqui.basic.LocalizedMessage original="Needs device management access, which an administrator can grant." locale="es" localized="Necesita acceso de gestión de dispositivos, que un administrador puede conceder."/>
+    <moqui.basic.LocalizedMessage original="Needs identity management access, which an administrator can grant." locale="es" localized="Necesita acceso de gestión de identidades, que un administrador puede conceder."/>
+    <moqui.basic.LocalizedMessage original="Needs identity management and data import access, which an administrator can grant." locale="es" localized="Necesita acceso de gestión de identidades y de importación de datos, que un administrador puede conceder."/>
+    <moqui.basic.LocalizedMessage original="Needs organization management access, which an administrator can grant." locale="es" localized="Necesita acceso de gestión de organizaciones, que un administrador puede conceder."/>
+    <moqui.basic.LocalizedMessage original="New display account" locale="es" localized="Nueva cuenta de pantalla"/>
+    <moqui.basic.LocalizedMessage original="New internal organization" locale="es" localized="Nueva organización interna"/>
+    <moqui.basic.LocalizedMessage original="New owner" locale="es" localized="Nuevo propietario"/>
+    <moqui.basic.LocalizedMessage original="New owner ${name}" locale="es" localized="Nuevo propietario ${name}"/>
+    <moqui.basic.LocalizedMessage original="New owner of ${stepText}" locale="es" localized="Nuevo propietario de ${stepText}"/>
+    <moqui.basic.LocalizedMessage original="New staff account" locale="es" localized="Nueva cuenta de personal"/>
+    <moqui.basic.LocalizedMessage original="No access events recorded." locale="es" localized="No hay eventos de acceso registrados."/>
+    <moqui.basic.LocalizedMessage original="No app has registered a route group for devices." locale="es" localized="Ninguna aplicación ha registrado un grupo de rutas para dispositivos."/>
+    <moqui.basic.LocalizedMessage original="No device is registered. A wall display is registered here and its code entered on the display's browser." locale="es" localized="No hay ningún dispositivo registrado. Una pantalla de pared se registra aquí y su código se introduce en el navegador de la pantalla."/>
+    <moqui.basic.LocalizedMessage original="No device matches." locale="es" localized="Ningún dispositivo coincide."/>
+    <moqui.basic.LocalizedMessage original="No display account is available to you yet. A device runs as a display account, which an identity operator makes in Users (New display account)." locale="es" localized="Aún no hay una cuenta de pantalla disponible para usted. Un dispositivo se ejecuta como una cuenta de pantalla, que un operador de identidades crea en Usuarios (Nueva cuenta de pantalla)."/>
+    <moqui.basic.LocalizedMessage original="No group memberships." locale="es" localized="No hay membresías de grupo."/>
+    <moqui.basic.LocalizedMessage original="No invitation matches." locale="es" localized="Ninguna invitación coincide."/>
+    <moqui.basic.LocalizedMessage original="No invitations yet." locale="es" localized="Aún no hay invitaciones."/>
+    <moqui.basic.LocalizedMessage original="No keys, app passwords, SSH keys or phones." locale="es" localized="No hay claves, contraseñas de aplicación, claves SSH ni teléfonos."/>
+    <moqui.basic.LocalizedMessage original="No kind of reference data matches." locale="es" localized="Ningún tipo de datos de referencia coincide."/>
+    <moqui.basic.LocalizedMessage original="No lifecycle operations of this account in your organizations." locale="es" localized="No hay operaciones de ciclo de vida de esta cuenta en sus organizaciones."/>
+    <moqui.basic.LocalizedMessage original="No lifecycle operations yet." locale="es" localized="Aún no hay operaciones de ciclo de vida."/>
+    <moqui.basic.LocalizedMessage original="No live session to end" locale="es" localized="No hay una sesión activa que terminar"/>
+    <moqui.basic.LocalizedMessage original="No members in the organizations you administer." locale="es" localized="No hay miembros en las organizaciones que usted administra."/>
+    <moqui.basic.LocalizedMessage original="No memberships of the organizations you administer." locale="es" localized="No hay membresías de las organizaciones que usted administra."/>
+    <moqui.basic.LocalizedMessage original="No open incident." locale="es" localized="No hay ningún incidente abierto."/>
+    <moqui.basic.LocalizedMessage original="No operation matches." locale="es" localized="Ninguna operación coincide."/>
+    <moqui.basic.LocalizedMessage original="No organization matches." locale="es" localized="Ninguna organización coincide."/>
+    <moqui.basic.LocalizedMessage original="No organization you administer may use this gateway yet. Until one is permitted, Accounting and Commerce do not offer it." locale="es" localized="Ninguna organización que usted administra puede usar esta puerta de enlace todavía. Hasta que se permita una, Contabilidad y Comercio no la ofrecen."/>
+    <moqui.basic.LocalizedMessage original="No owner's reference data is open to you. Each app's administrators change its own." locale="es" localized="No hay datos de referencia de un propietario abiertos para usted. Los administradores de cada aplicación cambian los suyos."/>
+    <moqui.basic.LocalizedMessage original="No password yet" locale="es" localized="Aún no hay contraseña"/>
+    <moqui.basic.LocalizedMessage original="No reason given" locale="es" localized="No se indicó un motivo"/>
+    <moqui.basic.LocalizedMessage original="No second factor." locale="es" localized="Sin segundo factor."/>
+    <moqui.basic.LocalizedMessage original="No sessions in the last 30 days." locale="es" localized="No hay sesiones en los últimos 30 días."/>
+    <moqui.basic.LocalizedMessage original="No setup check could be read." locale="es" localized="No se pudo leer ninguna comprobación de configuración."/>
+    <moqui.basic.LocalizedMessage original="No setup check of this organization that you may read." locale="es" localized="Ninguna comprobación de configuración de esta organización que usted pueda leer."/>
+    <moqui.basic.LocalizedMessage original="No staff in the organizations you administer." locale="es" localized="No hay personal en las organizaciones que usted administra."/>
+    <moqui.basic.LocalizedMessage original="No steps recorded." locale="es" localized="No hay pasos registrados."/>
+    <moqui.basic.LocalizedMessage original="No user matches." locale="es" localized="Ningún usuario coincide."/>
+    <moqui.basic.LocalizedMessage original="Not a hire" locale="es" localized="No es una contratación"/>
+    <moqui.basic.LocalizedMessage original="Not a separation" locale="es" localized="No es una separación"/>
+    <moqui.basic.LocalizedMessage original="Not readable here: the Constitution of this organization is not available to you." locale="es" localized="No se puede leer aquí: la Constitución de esta organización no está disponible para usted."/>
+    <moqui.basic.LocalizedMessage original="Not ready: ${names}" locale="es" localized="No está listo: ${names}"/>
+    <moqui.basic.LocalizedMessage original="Not verified" locale="es" localized="No verificado"/>
+    <moqui.basic.LocalizedMessage original="Note in the email" locale="es" localized="Nota en el correo"/>
+    <moqui.basic.LocalizedMessage original="On the device, open ${devicePageUrl} and enter this code before ${codeExpiresText}. It works once and is shown only now: to get another, revoke the device and register it again." locale="es" localized="En el dispositivo, abra ${devicePageUrl} e introduzca este código antes de ${codeExpiresText}. Funciona una vez y solo se muestra ahora: para obtener otro, revoque el dispositivo y regístrelo de nuevo."/>
+    <moqui.basic.LocalizedMessage original="One day" locale="es" localized="Un día"/>
+    <moqui.basic.LocalizedMessage original="One hour" locale="es" localized="Una hora"/>
+    <moqui.basic.LocalizedMessage original="One week" locale="es" localized="Una semana"/>
+    <moqui.basic.LocalizedMessage original="Only lines about this" locale="es" localized="Solo las líneas sobre esto"/>
+    <moqui.basic.LocalizedMessage original="Only the newest ${found.exportRows} lines are in this print or file: narrow the dates for the rest." locale="es" localized="Solo las ${found.exportRows} líneas más recientes están en esta impresión o archivo: reduzca las fechas para el resto."/>
+    <moqui.basic.LocalizedMessage original="Only this user's lines" locale="es" localized="Solo las líneas de este usuario"/>
+    <moqui.basic.LocalizedMessage original="Open a user or a group to log a note on it" locale="es" localized="Abra un usuario o un grupo para registrar una nota"/>
+    <moqui.basic.LocalizedMessage original="Open a user or a group to log a note on it." locale="es" localized="Abra un usuario o un grupo para registrar una nota."/>
+    <moqui.basic.LocalizedMessage original="Open assignments" locale="es" localized="Asignaciones abiertas"/>
+    <moqui.basic.LocalizedMessage original="Open case backlog" locale="es" localized="Pendientes de casos abiertos"/>
+    <moqui.basic.LocalizedMessage original="Open Health" locale="es" localized="Abrir Salud"/>
+    <moqui.basic.LocalizedMessage original="Open project work items" locale="es" localized="Elementos de trabajo de proyecto abiertos"/>
+    <moqui.basic.LocalizedMessage original="Open System › Constitution › Origins" locale="es" localized="Abrir Sistema › Constitución › Orígenes"/>
+    <moqui.basic.LocalizedMessage original="Open tasks" locale="es" localized="Tareas abiertas"/>
+    <moqui.basic.LocalizedMessage original="Opens in System for instance administrators" locale="es" localized="Se abre en Sistema para los administradores de la instancia"/>
+    <moqui.basic.LocalizedMessage original="Operations rolled back" locale="es" localized="Operaciones revertidas"/>
+    <moqui.basic.LocalizedMessage original="Optional: the device works only from these, such as 10.20.*.*" locale="es" localized="Opcional: el dispositivo solo funciona desde estas, como 10.20.*.*"/>
+    <moqui.basic.LocalizedMessage original="Organization ${id} is not available." locale="es" localized="La organización ${id} no está disponible."/>
+    <moqui.basic.LocalizedMessage original="Organization ${organization.organizationName}" locale="es" localized="Organización ${organization.organizationName}"/>
+    <moqui.basic.LocalizedMessage original="Organization Constitution" locale="es" localized="Constitución de la organización"/>
+    <moqui.basic.LocalizedMessage original="Organization created" locale="es" localized="Organización creada"/>
+    <moqui.basic.LocalizedMessage original="Organization membership added" locale="es" localized="Membresía de organización añadida"/>
+    <moqui.basic.LocalizedMessage original="Organization membership ended" locale="es" localized="Membresía de organización finalizada"/>
+    <moqui.basic.LocalizedMessage original="Organization not available" locale="es" localized="Organización no disponible"/>
+    <moqui.basic.LocalizedMessage original="Organization removal" locale="es" localized="Salida de la organización"/>
+    <moqui.basic.LocalizedMessage original="Organization saved" locale="es" localized="Organización guardada"/>
+    <moqui.basic.LocalizedMessage original="Overall equipment effectiveness" locale="es" localized="Eficacia global del equipo"/>
+    <moqui.basic.LocalizedMessage original="Owned" locale="es" localized="A su cargo"/>
+    <moqui.basic.LocalizedMessage original="Ownership transferred" locale="es" localized="Propiedad transferida"/>
+    <moqui.basic.LocalizedMessage original="Parent changed" locale="es" localized="Organización padre cambiada"/>
+    <moqui.basic.LocalizedMessage original="Payment gateways an organization may use" locale="es" localized="Puertas de enlace de pago que una organización puede usar"/>
+    <moqui.basic.LocalizedMessage original="People and payroll" locale="es" localized="Personas y nómina"/>
+    <moqui.basic.LocalizedMessage original="Permit" locale="es" localized="Permitir"/>
+    <moqui.basic.LocalizedMessage original="Permit ${connection.name} for an organization" locale="es" localized="Permitir ${connection.name} para una organización"/>
+    <moqui.basic.LocalizedMessage original="Permit again" locale="es" localized="Permitir de nuevo"/>
+    <moqui.basic.LocalizedMessage original="Permitted for" locale="es" localized="Permitido para"/>
+    <moqui.basic.LocalizedMessage original="Privileged" locale="es" localized="Privilegiado"/>
+    <moqui.basic.LocalizedMessage original="Procedure skills" locale="es" localized="Habilidades de procedimiento"/>
+    <moqui.basic.LocalizedMessage original="Product identification types" locale="es" localized="Tipos de identificación de producto"/>
+    <moqui.basic.LocalizedMessage original="Production reason codes" locale="es" localized="Códigos de motivo de producción"/>
+    <moqui.basic.LocalizedMessage original="Quantity on hand" locale="es" localized="Cantidad en existencia"/>
+    <moqui.basic.LocalizedMessage original="Read a business operations panel" locale="es" localized="Leer un panel de operaciones"/>
+    <moqui.basic.LocalizedMessage original="Read a dashboard panel" locale="es" localized="Leer un panel del panel de control"/>
+    <moqui.basic.LocalizedMessage original="Rebuild the inventory index" locale="es" localized="Reconstruir el índice de inventario"/>
+    <moqui.basic.LocalizedMessage original="Rebuild the sales items index" locale="es" localized="Reconstruir el índice de artículos de venta"/>
+    <moqui.basic.LocalizedMessage original="Rebuild the sales orders index" locale="es" localized="Reconstruir el índice de órdenes de venta"/>
+    <moqui.basic.LocalizedMessage original="Rebuild the service clocks index" locale="es" localized="Reconstruir el índice de relojes de servicio"/>
+    <moqui.basic.LocalizedMessage original="Rebuild the service level breaches index" locale="es" localized="Reconstruir el índice de incumplimientos del nivel de servicio"/>
+    <moqui.basic.LocalizedMessage original="Rebuild the store checkouts index" locale="es" localized="Reconstruir el índice de finalizaciones de compra de la tienda"/>
+    <moqui.basic.LocalizedMessage original="Rebuild the store feed builds index" locale="es" localized="Reconstruir el índice de compilaciones del feed de la tienda"/>
+    <moqui.basic.LocalizedMessage original="Rebuild the store payment attempts index" locale="es" localized="Reconstruir el índice de intentos de pago de la tienda"/>
+    <moqui.basic.LocalizedMessage original="Recovery action" locale="es" localized="Acción de recuperación"/>
+    <moqui.basic.LocalizedMessage original="Recovery adapter" locale="es" localized="Adaptador de recuperación"/>
+    <moqui.basic.LocalizedMessage original="Recovery decision" locale="es" localized="Decisión de recuperación"/>
+    <moqui.basic.LocalizedMessage original="Recovery keys" locale="es" localized="Claves de recuperación"/>
+    <moqui.basic.LocalizedMessage original="Recovery policy" locale="es" localized="Política de recuperación"/>
+    <moqui.basic.LocalizedMessage original="Reference data" locale="es" localized="Datos de referencia"/>
+    <moqui.basic.LocalizedMessage original="Refused: ${preview.reason}" locale="es" localized="Rechazado: ${preview.reason}"/>
+    <moqui.basic.LocalizedMessage original="Register a device" locale="es" localized="Registrar un dispositivo"/>
+    <moqui.basic.LocalizedMessage original="Register and show the code" locale="es" localized="Registrar y mostrar el código"/>
+    <moqui.basic.LocalizedMessage original="Registered bundles you may assign" locale="es" localized="Paquetes registrados que puede asignar"/>
+    <moqui.basic.LocalizedMessage original="Registered bundles you may assign; a display needs only readers" locale="es" localized="Paquetes registrados que puede asignar; una pantalla solo necesita lectores"/>
+    <moqui.basic.LocalizedMessage original="Registered for (days)" locale="es" localized="Registrado durante (días)"/>
+    <moqui.basic.LocalizedMessage original="Registration code for ${revealed.deviceName}" locale="es" localized="Código de registro de ${revealed.deviceName}"/>
+    <moqui.basic.LocalizedMessage original="Release sign-in lock" locale="es" localized="Liberar el bloqueo de inicio de sesión"/>
+    <moqui.basic.LocalizedMessage original="Remote agents" locale="es" localized="Agentes remotos"/>
+    <moqui.basic.LocalizedMessage original="Remote MCP and A2A servers" locale="es" localized="Servidores MCP y A2A remotos"/>
+    <moqui.basic.LocalizedMessage original="Remove ${account.userFullName} from an organization" locale="es" localized="Quitar a ${account.userFullName} de una organización"/>
+    <moqui.basic.LocalizedMessage original="Report catalog" locale="es" localized="Catálogo de reportes"/>
+    <moqui.basic.LocalizedMessage original="Report schedules" locale="es" localized="Programaciones de reportes"/>
+    <moqui.basic.LocalizedMessage original="Requested from" locale="es" localized="Solicitado desde"/>
+    <moqui.basic.LocalizedMessage original="Restore ${account.userFullName}" locale="es" localized="Restaurar a ${account.userFullName}"/>
+    <moqui.basic.LocalizedMessage original="Review at most ${count} groups at a time" locale="es" localized="Revise como máximo ${count} grupos a la vez"/>
+    <moqui.basic.LocalizedMessage original="Review: disable ${bulkRows.length} user(s)" locale="es" localized="Revisión: desactivar a ${bulkRows.length} usuario(s)"/>
+    <moqui.basic.LocalizedMessage original="Revoke all access" locale="es" localized="Revocar todo el acceso"/>
+    <moqui.basic.LocalizedMessage original="Runs as" locale="es" localized="Se ejecuta como"/>
+    <moqui.basic.LocalizedMessage original="Runs failed today" locale="es" localized="Ejecuciones fallidas hoy"/>
+    <moqui.basic.LocalizedMessage original="Runs waiting" locale="es" localized="Ejecuciones en espera"/>
+    <moqui.basic.LocalizedMessage original="Runtime setting" locale="es" localized="Configuración de tiempo de ejecución"/>
+    <moqui.basic.LocalizedMessage original="Sales analysis (finance)" locale="es" localized="Análisis de ventas (finanzas)"/>
+    <moqui.basic.LocalizedMessage original="Sales items index" locale="es" localized="Índice de artículos de venta"/>
+    <moqui.basic.LocalizedMessage original="Sales orders index" locale="es" localized="Índice de órdenes de venta"/>
+    <moqui.basic.LocalizedMessage original="Save contacts" locale="es" localized="Guardar contactos"/>
+    <moqui.basic.LocalizedMessage original="Saved: the organization may not use the gateway now" locale="es" localized="Guardado: la organización no puede usar la puerta de enlace ahora"/>
+    <moqui.basic.LocalizedMessage original="Scheduled: access ends at the date" locale="es" localized="Programado: el acceso termina en la fecha"/>
+    <moqui.basic.LocalizedMessage original="Select one or more users first" locale="es" localized="Seleccione primero uno o más usuarios"/>
+    <moqui.basic.LocalizedMessage original="Send invitation" locale="es" localized="Enviar invitación"/>
+    <moqui.basic.LocalizedMessage original="Send password reset" locale="es" localized="Enviar restablecimiento de contraseña"/>
+    <moqui.basic.LocalizedMessage original="Service clocks index" locale="es" localized="Índice de relojes de servicio"/>
+    <moqui.basic.LocalizedMessage original="Service level breaches index" locale="es" localized="Índice de incumplimientos del nivel de servicio"/>
+    <moqui.basic.LocalizedMessage original="Sessions and history" locale="es" localized="Sesiones e historial"/>
+    <moqui.basic.LocalizedMessage original="Sessions are not available to you." locale="es" localized="Las sesiones no están disponibles para usted."/>
+    <moqui.basic.LocalizedMessage original="Sessions, keys, app passwords and phones revoked" locale="es" localized="Sesiones, claves, contraseñas de aplicación y teléfonos revocados"/>
+    <moqui.basic.LocalizedMessage original="Setup and health summaries are shown to administrative readers." locale="es" localized="Los resúmenes de configuración y de salud se muestran a quienes leen con acceso administrativo."/>
+    <moqui.basic.LocalizedMessage original="Setup checks" locale="es" localized="Comprobaciones de configuración"/>
+    <moqui.basic.LocalizedMessage original="Shared calendars" locale="es" localized="Calendarios compartidos"/>
+    <moqui.basic.LocalizedMessage original="Shared contact books" locale="es" localized="Libretas de contactos compartidas"/>
+    <moqui.basic.LocalizedMessage original="Shared drives" locale="es" localized="Unidades compartidas"/>
+    <moqui.basic.LocalizedMessage original="Shared identity" locale="es" localized="Identidad compartida"/>
+    <moqui.basic.LocalizedMessage original="Shared mail accounts" locale="es" localized="Cuentas de correo compartidas"/>
+    <moqui.basic.LocalizedMessage original="Shared screens with no one signed in: a registered browser opens only its route group, as its display account, and shows what that account's organizations and access allow. Revoking a device stops it at its next request." locale="es" localized="Pantallas compartidas sin sesión: un navegador registrado abre solo su grupo de rutas, como su cuenta de pantalla, y muestra lo que permiten las organizaciones y el acceso de esa cuenta. Revocarlo lo detiene en la próxima solicitud."/>
+    <moqui.basic.LocalizedMessage original="Showing ${invitations.length} of ${invitationListCount}; narrow the search to see others." locale="es" localized="Se muestran ${invitations.length} de ${invitationListCount}; reduzca la búsqueda para ver otros."/>
+    <moqui.basic.LocalizedMessage original="Showing ${operations.length} of ${operationListCount}; narrow the search to see others." locale="es" localized="Se muestran ${operations.length} de ${operationListCount}; reduzca la búsqueda para ver otros."/>
+    <moqui.basic.LocalizedMessage original="Showing ${organizations.length} of ${organizationListCount}; narrow the search to see others." locale="es" localized="Se muestran ${organizations.length} de ${organizationListCount}; reduzca la búsqueda para ver otros."/>
+    <moqui.basic.LocalizedMessage original="Showing ${users.length} of ${userListCount}; narrow the search to see others." locale="es" localized="Se muestran ${users.length} de ${userListCount}; reduzca la búsqueda para ver otros."/>
+    <moqui.basic.LocalizedMessage original="Shows the organization" locale="es" localized="Muestra la organización"/>
+    <moqui.basic.LocalizedMessage original="Sign in to administer identities" locale="es" localized="Inicie sesión para administrar identidades"/>
+    <moqui.basic.LocalizedMessage original="Sign in to see assignments" locale="es" localized="Inicie sesión para ver las asignaciones"/>
+    <moqui.basic.LocalizedMessage original="Sign out everywhere" locale="es" localized="Cerrar sesión en todas partes"/>
+    <moqui.basic.LocalizedMessage original="Signed out ${when}" locale="es" localized="Sesión cerrada ${when}"/>
+    <moqui.basic.LocalizedMessage original="Signed out: its next request goes to the sign-in page" locale="es" localized="Sesión cerrada: su próxima solicitud va a la página de inicio de sesión"/>
+    <moqui.basic.LocalizedMessage original="Some access could not be revoked: ${kinds}" locale="es" localized="No se pudo revocar algún acceso: ${kinds}"/>
+    <moqui.basic.LocalizedMessage original="SSH key" locale="es" localized="Clave SSH"/>
+    <moqui.basic.LocalizedMessage original="Staff invitations of the organizations you administer. A link works once; a resend makes a new one and the earlier stops working." locale="es" localized="Invitaciones de personal de las organizaciones que usted administra. Un enlace funciona una vez; un reenvío crea uno nuevo y el anterior deja de funcionar."/>
+    <moqui.basic.LocalizedMessage original="Staff users" locale="es" localized="Usuarios del personal"/>
+    <moqui.basic.LocalizedMessage original="Starts ${when}" locale="es" localized="Empieza ${when}"/>
+    <moqui.basic.LocalizedMessage original="Step done" locale="es" localized="Paso hecho"/>
+    <moqui.basic.LocalizedMessage original="Store checkouts index" locale="es" localized="Índice de finalizaciones de compra de la tienda"/>
+    <moqui.basic.LocalizedMessage original="Store feed builds index" locale="es" localized="Índice de compilaciones del feed de la tienda"/>
+    <moqui.basic.LocalizedMessage original="Store orders" locale="es" localized="Órdenes de la tienda"/>
+    <moqui.basic.LocalizedMessage original="Store payment attempts index" locale="es" localized="Índice de intentos de pago de la tienda"/>
+    <moqui.basic.LocalizedMessage original="Store readiness" locale="es" localized="Preparación de la tienda"/>
+    <moqui.basic.LocalizedMessage original="Store returns" locale="es" localized="Devoluciones de la tienda"/>
+    <moqui.basic.LocalizedMessage original="Surfaces, instructions, run-as user and cost limits" locale="es" localized="Superficies, instrucciones, usuario de ejecución y límites de costo"/>
+    <moqui.basic.LocalizedMessage original="Tasks other agents sent" locale="es" localized="Tareas que enviaron otros agentes"/>
+    <moqui.basic.LocalizedMessage original="Tax authorities and rates" locale="es" localized="Autoridades y tasas fiscales"/>
+    <moqui.basic.LocalizedMessage original="Tax statement data" locale="es" localized="Datos de declaraciones fiscales"/>
+    <moqui.basic.LocalizedMessage original="Text blocks in Comms" locale="es" localized="Bloques de texto en Comunicaciones"/>
+    <moqui.basic.LocalizedMessage original="The access log could not be read" locale="es" localized="No se pudo leer el registro de acceso"/>
+    <moqui.basic.LocalizedMessage original="The access log is not available to you" locale="es" localized="El registro de acceso no está disponible para usted"/>
+    <moqui.basic.LocalizedMessage original="The access log row filter is computed for the signed-in user only" locale="es" localized="El filtro de filas del registro de acceso se calcula solo para el usuario que inició sesión"/>
+    <moqui.basic.LocalizedMessage original="The Constitution is not available to you." locale="es" localized="La Constitución no está disponible para usted."/>
+    <moqui.basic.LocalizedMessage original="The Constitution of ${scope} is not available to you. Choose another scope." locale="es" localized="La Constitución de ${scope} no está disponible para usted. Elija otro alcance."/>
+    <moqui.basic.LocalizedMessage original="The display account whose organizations and access decide what the device shows" locale="es" localized="La cuenta de pantalla cuyas organizaciones y acceso deciden lo que muestra el dispositivo"/>
+    <moqui.basic.LocalizedMessage original="The hire asked for no account" locale="es" localized="La contratación no pidió una cuenta"/>
+    <moqui.basic.LocalizedMessage original="The instance Constitution applies" locale="es" localized="Se aplica la Constitución de la instancia"/>
+    <moqui.basic.LocalizedMessage original="the instance's own" locale="es" localized="la de la propia instancia"/>
+    <moqui.basic.LocalizedMessage original="The internal organizations you administer: the legal companies of this instance. Departments and teams are People's." locale="es" localized="Las organizaciones internas que usted administra: las empresas legales de esta instancia. Los departamentos y los equipos son de Personas."/>
+    <moqui.basic.LocalizedMessage original="The invitation was made but its email was not sent: resend it from Invitations" locale="es" localized="La invitación se creó, pero no se envió el correo: reenvíela desde Invitaciones"/>
+    <moqui.basic.LocalizedMessage original="The link is not available" locale="es" localized="El enlace no está disponible"/>
+    <moqui.basic.LocalizedMessage original="The model gateway and its clients" locale="es" localized="La puerta de enlace de modelos y sus clientes"/>
+    <moqui.basic.LocalizedMessage original="The new rule gets the next unused id. Write it in the default language; translate it afterwards." locale="es" localized="La regla nueva recibe el siguiente id sin usar. Escríbala en el idioma predeterminado; tradúzcala después."/>
+    <moqui.basic.LocalizedMessage original="The organization may use the gateway" locale="es" localized="La organización puede usar la puerta de enlace"/>
+    <moqui.basic.LocalizedMessage original="The organization's finance and store administrators may then choose this gateway. They cannot change its credentials." locale="es" localized="Los administradores de finanzas y de tienda de la organización pueden entonces elegir esta puerta de enlace. No pueden cambiar sus credenciales."/>
+    <moqui.basic.LocalizedMessage original="The organizations are not available to you." locale="es" localized="Las organizaciones no están disponibles para usted."/>
+    <moqui.basic.LocalizedMessage original="The organizations you administer have more than ${count} user accounts, and the access log is not narrowed to that many: it is read by an administrator of every organization" locale="es" localized="Las organizaciones que usted administra tienen más de ${count} cuentas de usuario, y el registro de acceso no se limita a tantas: lo lee un administrador de todas las organizaciones"/>
+    <moqui.basic.LocalizedMessage original="The parent changes from the date given; the earlier parent is kept as history. Both must be organizations you administer; empty makes it top level." locale="es" localized="La organización padre cambia desde la fecha indicada; la anterior se conserva como historial. Ambas deben ser organizaciones que usted administra; vacío la deja en el nivel superior."/>
+    <moqui.basic.LocalizedMessage original="The person gets a link that works once. They sign in with the account of that address, or create one, and get the organization and the access you choose. IronStone BOSS users is always included; privileged and sealed access is never offered." locale="es" localized="La persona recibe un enlace de un solo uso. Inicia sesión con la cuenta de esa dirección, o crea una, y obtiene la organización y el acceso que usted elige. IronStone BOSS users siempre se incluye; el acceso privilegiado y sellado nunca se ofrece."/>
+    <moqui.basic.LocalizedMessage original="The primary address, phone and email. Bank accounts and payment instruments stay in Accounting." locale="es" localized="La dirección, el teléfono y el correo principales. Las cuentas bancarias y los instrumentos de pago permanecen en Contabilidad."/>
+    <moqui.basic.LocalizedMessage original="The reusable texts of the mail a person writes" locale="es" localized="Los textos reutilizables del correo que escribe una persona"/>
+    <moqui.basic.LocalizedMessage original="The shared guidance every agent run gets, for the instance and each organization" locale="es" localized="La guía compartida que recibe cada ejecución de agente, para la instancia y cada organización"/>
+    <moqui.basic.LocalizedMessage original="The shared guidance for people and agent runs. An organization may have its own document, which replaces the instance's for its members; members read it in the Assist drawer under Constitution / Rules." locale="es" localized="La guía compartida para las personas y las ejecuciones de agente. Una organización puede tener su propio documento, que reemplaza el de la instancia para sus miembros; los miembros lo leen en el panel de Asistente, en Constitución / Reglas."/>
+    <moqui.basic.LocalizedMessage original="the shipped one" locale="es" localized="la incluida"/>
+    <moqui.basic.LocalizedMessage original="The sites whose pages open inside the app as references are the instance's policy, set in System › Constitution › Origins by an instance administrator. An organization's document cannot add one; a reference to another site is refused on save." locale="es" localized="Los sitios que se abren en la aplicación como referencias son la política de la instancia, en Sistema › Constitución › Orígenes, fijada por un administrador de la instancia. El documento de una organización no puede añadir uno; se rechaza al guardar."/>
+    <moqui.basic.LocalizedMessage original="The staff of the organizations you administer. An identity that also works elsewhere shows only your organizations; account-wide changes to it need identity-global authority." locale="es" localized="El personal de las organizaciones que usted administra. Una identidad que también trabaja en otro lugar muestra solo sus organizaciones; los cambios de toda la cuenta necesitan autoridad global de identidades."/>
+    <moqui.basic.LocalizedMessage original="The step is not available" locale="es" localized="El paso no está disponible"/>
+    <moqui.basic.LocalizedMessage original="The store is ready" locale="es" localized="La tienda está lista"/>
+    <moqui.basic.LocalizedMessage original="These texts have no ${preview?.locale ?? locale} translation and come from another language:" locale="es" localized="Estos textos no tienen traducción de ${preview?.locale ?? locale} y vienen de otro idioma:"/>
+    <moqui.basic.LocalizedMessage original="they could not be read" locale="es" localized="no se pudieron leer"/>
+    <moqui.basic.LocalizedMessage original="This instance has no mail server, so the invitation was not emailed. Copy this link and pass it to ${revealed.emailAddress} yourself. It is shown only now: resend the invitation for a new one." locale="es" localized="Esta instancia no tiene servidor de correo, así que la invitación no se envió. Copie este enlace y entréguelo usted a ${revealed.emailAddress}. Solo se muestra ahora: reenvíe la invitación para obtener uno nuevo."/>
+    <moqui.basic.LocalizedMessage original="This organization" locale="es" localized="Esta organización"/>
+    <moqui.basic.LocalizedMessage original="This organization has its own Constitution, replacing the instance Constitution for its members." locale="es" localized="Esta organización tiene su propia Constitución, que reemplaza la Constitución de la instancia para sus miembros."/>
+    <moqui.basic.LocalizedMessage original="This organization uses the instance Constitution." locale="es" localized="Esta organización usa la Constitución de la instancia."/>
+    <moqui.basic.LocalizedMessage original="This step does not move a resource" locale="es" localized="Este paso no mueve un recurso"/>
+    <moqui.basic.LocalizedMessage original="This step's owner is no longer registered to move it; ask its owner" locale="es" localized="El propietario de este paso ya no está registrado para moverlo; pregunte a su propietario"/>
+    <moqui.basic.LocalizedMessage original="Time to approve" locale="es" localized="Tiempo de aprobación"/>
+    <moqui.basic.LocalizedMessage original="To name" locale="es" localized="A nombre de"/>
+    <moqui.basic.LocalizedMessage original="Tool calls waiting for approval" locale="es" localized="Llamadas de herramienta en espera de aprobación"/>
+    <moqui.basic.LocalizedMessage original="Tool exposure, approval and policies" locale="es" localized="Exposición de herramientas, aprobación y políticas"/>
+    <moqui.basic.LocalizedMessage original="Tools and policies" locale="es" localized="Herramientas y políticas"/>
+    <moqui.basic.LocalizedMessage original="Transport health" locale="es" localized="Salud del transporte"/>
+    <moqui.basic.LocalizedMessage original="Trunks, numbers, ring groups, menus and queues: the phone system's own screens" locale="es" localized="Troncales, números, grupos de timbrado, menús y colas: las pantallas propias del sistema telefónico"/>
+    <moqui.basic.LocalizedMessage original="Units of measure" locale="es" localized="Unidades de medida"/>
+    <moqui.basic.LocalizedMessage original="Units, currencies, types and statuses are changed in the app that owns them, by whoever that app lets. A change there never rewrites a posted document." locale="es" localized="Las unidades, monedas, tipos y estados se cambian en la aplicación que los posee, por quien esa aplicación lo permita. Un cambio allí nunca reescribe un documento ya contabilizado."/>
+    <moqui.basic.LocalizedMessage original="Unknown access log source" locale="es" localized="Origen desconocido del registro de acceso"/>
+    <moqui.basic.LocalizedMessage original="Unknown Admin capability ${name}" locale="es" localized="Capacidad de Admin desconocida: ${name}"/>
+    <moqui.basic.LocalizedMessage original="Unknown Admin choice ${name}" locale="es" localized="Opción de Admin desconocida: ${name}"/>
+    <moqui.basic.LocalizedMessage original="Unknown Admin operation ${name}" locale="es" localized="Operación de Admin desconocida: ${name}"/>
+    <moqui.basic.LocalizedMessage original="Unknown Admin registry operation ${name}" locale="es" localized="Operación de registro de Admin desconocida: ${name}"/>
+    <moqui.basic.LocalizedMessage original="Unknown assignment kind ${name}" locale="es" localized="Tipo de asignación desconocido: ${name}"/>
+    <moqui.basic.LocalizedMessage original="Unknown audit operation ${name}" locale="es" localized="Operación de auditoría desconocida ${name}"/>
+    <moqui.basic.LocalizedMessage original="Unknown capability operation ${name}" locale="es" localized="Operación de capacidad desconocida: ${name}"/>
+    <moqui.basic.LocalizedMessage original="Unknown lifecycle operation ${name}" locale="es" localized="Operación de ciclo de vida desconocida: ${name}"/>
+    <moqui.basic.LocalizedMessage original="Unknown owner readiness ${name}" locale="es" localized="Preparación de propietario desconocida: ${name}"/>
+    <moqui.basic.LocalizedMessage original="Unknown provisioning operation ${name}" locale="es" localized="Operación de aprovisionamiento desconocida: ${name}"/>
+    <moqui.basic.LocalizedMessage original="User ${account.userFullName}" locale="es" localized="Usuario ${account.userFullName}"/>
+    <moqui.basic.LocalizedMessage original="User ${id} has no party to assign work to" locale="es" localized="El usuario ${id} no tiene un participante al que asignar trabajo"/>
+    <moqui.basic.LocalizedMessage original="User ${id} is not available." locale="es" localized="El usuario ${id} no está disponible."/>
+    <moqui.basic.LocalizedMessage original="User not available" locale="es" localized="Usuario no disponible"/>
+    <moqui.basic.LocalizedMessage original="Users are not available to you." locale="es" localized="Los usuarios no están disponibles para usted."/>
+    <moqui.basic.LocalizedMessage original="Waiting for its code" locale="es" localized="En espera de su código"/>
+    <moqui.basic.LocalizedMessage original="Waiting: ${operation.nextText}" locale="es" localized="En espera: ${operation.nextText}"/>
+    <moqui.basic.LocalizedMessage original="Waits for a new owner" locale="es" localized="Espera un nuevo propietario"/>
+    <moqui.basic.LocalizedMessage original="What a measure means" locale="es" localized="Qué significa una medida"/>
+    <moqui.basic.LocalizedMessage original="What is failing, and who fixes it?" locale="es" localized="¿Qué está fallando y quién lo corrige?"/>
+    <moqui.basic.LocalizedMessage original="What starts an agent run" locale="es" localized="Qué inicia una ejecución de agente"/>
+    <moqui.basic.LocalizedMessage original="What the display is, such as Plant floor wall" locale="es" localized="Qué es la pantalla, como el muro del piso de planta"/>
+    <moqui.basic.LocalizedMessage original="What the people of the organizations you administer did" locale="es" localized="Lo que hizo el personal de las organizaciones que usted administra"/>
+    <moqui.basic.LocalizedMessage original="What this device shows of the route group: a wall display's playlist. The device cannot open another." locale="es" localized="Qué muestra este dispositivo del grupo de rutas: la lista de una pantalla de pared. El dispositivo no puede abrir otra."/>
+    <moqui.basic.LocalizedMessage original="Where the device is, such as Plant floor east wall" locale="es" localized="Dónde está el dispositivo, como el muro este del piso de planta"/>
+    <moqui.basic.LocalizedMessage original="Where the staff of your organizations are signed in. Signing a session out sends its next request to the sign-in page; an identity shared with another organization needs identity-global authority." locale="es" localized="Dónde tiene la sesión iniciada el personal de sus organizaciones. Cerrar una sesión envía su próxima solicitud a la página de inicio de sesión; una identidad compartida con otra organización necesita autoridad global de identidades."/>
+    <moqui.basic.LocalizedMessage original="Why can't this user sign in? Check the account's state, sign-in lock, factor, allowed IPs and groups, and say who can fix it" locale="es" localized="¿Por qué no puede iniciar sesión este usuario? Compruebe el estado de la cuenta, el bloqueo de inicio de sesión, el factor, las IP permitidas y los grupos, y diga quién puede corregirlo"/>
+    <moqui.basic.LocalizedMessage original="Work item workflows" locale="es" localized="Flujos de trabajo de elementos de trabajo"/>
+    <moqui.basic.LocalizedMessage original="Work orders in progress" locale="es" localized="Órdenes de trabajo en curso"/>
+    <moqui.basic.LocalizedMessage original="Works as" locale="es" localized="Trabaja como"/>
+    <moqui.basic.LocalizedMessage original="You administer no organization." locale="es" localized="Usted no administra ninguna organización."/>
+</entity-facade-xml>

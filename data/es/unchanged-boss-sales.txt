@@ -1,0 +1,6 @@
+# Messages the same in this language. A missing catalog row returns the original.
+${baseOrderId}${agreementName ? ' · ' + agreementName : ''}
+${ec.l10n.localize('Example total')} ${preview?.totalText} · ${ec.l10n.localize('before tax, which the quote’s address decides')}
+${organizationName} · ${periodName} · ${currencyUomId}
+PO ${otherPartyOrderId}
+Web
