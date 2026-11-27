@@ -570,8 +570,8 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="The database did not report its size to this user" locale="zh" localized="数据库没有向此用户报告其大小"/>
     <moqui.basic.LocalizedMessage original="The document is a valid Constitution; nothing was saved." locale="zh" localized="该文档是有效的章程；没有保存任何内容。"/>
     <moqui.basic.LocalizedMessage original="The edge link starts with the HTTPS listener, and it is not running in this process. The pairings and their names are shown as saved; none can link, and pairing codes and revoking wait, until it runs." locale="zh" localized="边缘链路随 HTTPS 监听器启动，而它未在此进程中运行。配对及其名称按已保存的情况显示；在它运行之前，都不能建立链路，配对码和撤销也会等待。"/>
-    <moqui.basic.LocalizedMessage original="The edge node runs no media node (media-server@port)" locale="zh" localized="边缘节点未运行媒体节点（media-server@port）"/>
-    <moqui.basic.LocalizedMessage original="The edge node runs no SIP engine (sip-server@port, sip-server@tls-port)" locale="zh" localized="边缘节点未运行 SIP 引擎（sip-server@port、sip-server@tls-port）"/>
+    <moqui.basic.LocalizedMessage original="The edge node runs no media node (media-server@enabled)" locale="zh" localized="边缘节点未运行媒体节点（media-server@enabled）"/>
+    <moqui.basic.LocalizedMessage original="The edge node runs no SIP engine (sip-server@enabled)" locale="zh" localized="边缘节点未运行 SIP 引擎（sip-server@enabled）"/>
     <moqui.basic.LocalizedMessage original="The edge node serves the public sites as PASS client ${passClientId}" locale="zh" localized="边缘节点作为 PASS 客户端 ${passClientId} 提供公共站点"/>
     <moqui.basic.LocalizedMessage original="The edge node takes this node's mail, and sends it" locale="zh" localized="边缘节点接收此节点的邮件并发送"/>
     <moqui.basic.LocalizedMessage original="The environment's when empty" locale="zh" localized="为空时用环境的"/>
@@ -623,8 +623,8 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="This node answers no names yet: set webapp-list/webapp[webroot]@http-host, put a certificate in runtime/cert, or set a name up with ACME." locale="zh" localized="此节点尚未应答任何名称：请设置 webapp-list/webapp[webroot]@http-host，在 runtime/cert 中放入证书，或用 ACME 设置一个名称。"/>
     <moqui.basic.LocalizedMessage original="This node is draining: the edge node sends it no new work until you resume it" locale="zh" localized="此节点正在排空：边缘节点不再向其发送新工作，直到您继续"/>
     <moqui.basic.LocalizedMessage original="This node is paired with a front node, which gives it web access by host name and ports, balanced over its cluster's live members, behind its web protection. Nothing else goes over that link: no queue, replication, mail, chat, PASS, calls or phones." locale="zh" localized="此节点与一个前置节点配对。前置节点按主机名和端口提供 Web 访问，在其 Web 防护之后，分摊到其集群的活动成员。该链路上没有其他内容：没有队列、复制、邮件、聊天、PASS、通话或电话。"/>
-    <moqui.basic.LocalizedMessage original="This node runs no XMPP server with a public domain: set xmpp-server@domain" locale="zh" localized="此节点没有运行带公共域的 XMPP 服务器：请设置 xmpp-server@domain"/>
-    <moqui.basic.LocalizedMessage original="This node runs no XMPP server: set xmpp-server@domain" locale="zh" localized="此节点未运行 XMPP 服务器：请设置 xmpp-server@domain"/>
+    <moqui.basic.LocalizedMessage original="This node runs no XMPP server with a public domain: set xmpp-server@enabled and xmpp-server@domain" locale="zh" localized="此节点没有运行带公共域的 XMPP 服务器：请设置 xmpp-server@enabled 和 xmpp-server@domain"/>
+    <moqui.basic.LocalizedMessage original="This node runs no XMPP server: set xmpp-server@enabled and xmpp-server@domain" locale="zh" localized="此节点未运行 XMPP 服务器：请设置 xmpp-server@enabled 和 xmpp-server@domain"/>
     <moqui.basic.LocalizedMessage original="This node takes new work again" locale="zh" localized="此节点再次接受新工作"/>
     <moqui.basic.LocalizedMessage original="This node takes no links now" locale="zh" localized="此节点现在不接受链路"/>
     <moqui.basic.LocalizedMessage original="This node's apps answer on the edge node's address" locale="zh" localized="此节点的应用在边缘节点的地址上应答"/>
