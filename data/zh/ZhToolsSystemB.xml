@@ -71,6 +71,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Add scorer" locale="zh" localized="添加评分器"/>
     <moqui.basic.LocalizedMessage original="Address instances use" locale="zh" localized="实例使用的地址"/>
     <moqui.basic.LocalizedMessage original="Admin login" locale="zh" localized="管理员登录"/>
+    <moqui.basic.LocalizedMessage original="Admin shell" locale="zh" localized="管理员 Shell"/>
     <moqui.basic.LocalizedMessage original="Advanced limits" locale="zh" localized="高级限制"/>
     <moqui.basic.LocalizedMessage original="Advanced rules (read only)" locale="zh" localized="高级规则（只读）"/>
     <moqui.basic.LocalizedMessage original="Advisory" locale="zh" localized="建议"/>
@@ -91,6 +92,8 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Allowed: ${limitText}" locale="zh" localized="允许：${limitText}"/>
     <moqui.basic.LocalizedMessage original="Already asked for." locale="zh" localized="已经请求过。"/>
     <moqui.basic.LocalizedMessage original="An automatic Monitor recovery policy may act on its instances with no approver; needs machine access too" locale="zh" localized="监控的自动恢复策略可以在没有审批人的情况下对其实例采取措施；还需要机器访问"/>
+    <moqui.basic.LocalizedMessage original="An IP address, 0.0.0.0 for every address" locale="zh" localized="IP 地址，0.0.0.0 表示所有地址"/>
+    <moqui.basic.LocalizedMessage original="An IP address, 0.0.0.0 for every address: HTTP and HTTPS both bind it" locale="zh" localized="IP 地址，0.0.0.0 表示所有地址：HTTP 和 HTTPS 都绑定它"/>
     <moqui.basic.LocalizedMessage original="An item may be another user's message: its writes are refused unless the agent's tool policy may approve them" locale="zh" localized="一项可能是另一位用户的消息：除非代理的工具策略可以批准，否则其写入会被拒绝"/>
     <moqui.basic.LocalizedMessage original="An owner of mail could not be asked which messages are its own (${unansweredText}), so nothing is sent again from here until it answers." locale="zh" localized="无法询问某邮件所有者哪些消息是其自己的（${unansweredText}），因此在其答复之前，这里不会再次发送。"/>
     <moqui.basic.LocalizedMessage original="Another authority" locale="zh" localized="另一个颁发机构"/>
@@ -163,6 +166,8 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Config is not JSON" locale="zh" localized="配置不是 JSON"/>
     <moqui.basic.LocalizedMessage original="Configuration and checks" locale="zh" localized="配置与检查"/>
     <moqui.basic.LocalizedMessage original="Configured by" locale="zh" localized="配置者"/>
+    <moqui.basic.LocalizedMessage original="Confirm the change" locale="zh" localized="确认更改"/>
+    <moqui.basic.LocalizedMessage original="connections ended at once" locale="zh" localized="连接已立即结束"/>
     <moqui.basic.LocalizedMessage original="Connections in use" locale="zh" localized="使用中的连接"/>
     <moqui.basic.LocalizedMessage original="Contact email" locale="zh" localized="联系邮箱"/>
     <moqui.basic.LocalizedMessage original="Content hash" locale="zh" localized="内容散列"/>
@@ -186,6 +191,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Days since changed" locale="zh" localized="距更改的天数"/>
     <moqui.basic.LocalizedMessage original="Delivery defaults" locale="zh" localized="投递默认值"/>
     <moqui.basic.LocalizedMessage original="Delivery when a person chose nothing" locale="zh" localized="某人未做选择时的投递"/>
+    <moqui.basic.LocalizedMessage original="Depends on it: ${dependentsText}" locale="zh" localized="依赖于它：${dependentsText}"/>
     <moqui.basic.LocalizedMessage original="Deposited items taken in" locale="zh" localized="已收进存入的项"/>
     <moqui.basic.LocalizedMessage original="Deposited: a member takes it in" locale="zh" localized="已存入：由成员收进"/>
     <moqui.basic.LocalizedMessage original="Desired state" locale="zh" localized="期望状态"/>
@@ -198,22 +204,27 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Each from its owner's own screens, by its owner's permissions." locale="zh" localized="每一项都来自其所有者自己的屏幕，按其所有者的权限。"/>
     <moqui.basic.LocalizedMessage original="Each holds the secrets of deployed instances. The server uses an item only under a lease a member approves, for one operation, and forgets it after; it never sends an operational value to a page." locale="zh" localized="每一座保存已部署实例的密钥。服务器只在成员为一次操作批准的租约下使用一项，用后即忘；从不把运维值发到页面。"/>
     <moqui.basic.LocalizedMessage original="Each is a vault item of the environment's vault, by its binding; no value is shown here or kept on these rows." locale="zh" localized="每一项都是该环境保险库的一项，按其绑定；这里不显示任何值，这些行也不保存值。"/>
+    <moqui.basic.LocalizedMessage original="Each is turned off for everyone by its own switch, changed in the conf or runtime/.env, and applies while the server runs; the SSH permissions still decide per user." locale="zh" localized="每项服务都由其自身的开关对所有人关闭，该开关在配置或 runtime/.env 中更改，并在服务器运行时生效；SSH 权限仍按用户决定。"/>
+    <moqui.basic.LocalizedMessage original="Each listener of this server, the address it binds and the settings behind it, with where each value comes from. A change sets the same settings as the conf and runtime/.env. Turned off, a listener's port closes until someone turns it on." locale="zh" localized="本服务器的每个监听器、其绑定的地址及其背后的设置项，并注明每个值的来源。更改所设置的与配置和 runtime/.env 中的设置项相同。关闭后，监听器的端口会一直关闭，直到有人将其开启。"/>
     <moqui.basic.LocalizedMessage original="Edge member" locale="zh" localized="边缘成员"/>
     <moqui.basic.LocalizedMessage original="Edit as a form" locale="zh" localized="以表单编辑"/>
     <moqui.basic.LocalizedMessage original="Editing the conf files needs the CONF_EDIT permission." locale="zh" localized="编辑配置文件需要 CONF_EDIT 权限。"/>
     <moqui.basic.LocalizedMessage original="Effect of this change" locale="zh" localized="此更改的效果"/>
     <moqui.basic.LocalizedMessage original="Effective settings" locale="zh" localized="有效设置"/>
+    <moqui.basic.LocalizedMessage original="empty" locale="zh" localized="空"/>
     <moqui.basic.LocalizedMessage original="Empty removes the default" locale="zh" localized="留空则移除默认值"/>
     <moqui.basic.LocalizedMessage original="Empty removes the translation" locale="zh" localized="留空则移除译文"/>
     <moqui.basic.LocalizedMessage original="Empty reviews access as it is now" locale="zh" localized="留空则按现在的情况审查访问"/>
     <moqui.basic.LocalizedMessage original="Empty shows the last ${found.defaultDays} days; at most ${found.rangeDays} days at a time" locale="zh" localized="留空显示最近 ${found.defaultDays} 天；一次最多 ${found.rangeDays} 天"/>
     <moqui.basic.LocalizedMessage original="Empty: every instance of the environment the change is for" locale="zh" localized="留空：更改所针对环境的每个实例"/>
+    <moqui.basic.LocalizedMessage original="End connections now" locale="zh" localized="立即结束连接"/>
     <moqui.basic.LocalizedMessage original="End the session" locale="zh" localized="结束会话"/>
     <moqui.basic.LocalizedMessage original="Enter it on the instance with this manager's address and link key fingerprint (pair#Manager). It pairs this instance, once, within ${newPairing.expiresMinutes} minutes. It is shown only this once; make another if you lose it." locale="zh" localized="在实例上输入此管理器的地址和链路密钥指纹（pair#Manager）。它在 ${newPairing.expiresMinutes} 分钟内一次性配对此实例。只显示这一次；丢失后请另做一个。"/>
     <moqui.basic.LocalizedMessage original="Entity data of the instance itself, in Tools:" locale="zh" localized="实例自身的实体数据，在工具中："/>
     <moqui.basic.LocalizedMessage original="Entry details are not available in this view. Some framework caches expose counts only." locale="zh" localized="此视图不提供条目详情。一些框架缓存只提供计数。"/>
     <moqui.basic.LocalizedMessage original="Environment" locale="zh" localized="环境"/>
     <moqui.basic.LocalizedMessage original="Environment for CI runs" locale="zh" localized="CI 运行所用的环境"/>
+    <moqui.basic.LocalizedMessage original="Environment name" locale="zh" localized="环境变量名"/>
     <moqui.basic.LocalizedMessage original="Environments" locale="zh" localized="环境"/>
     <moqui.basic.LocalizedMessage original="Error group" locale="zh" localized="错误组"/>
     <moqui.basic.LocalizedMessage original="Evals" locale="zh" localized="评估"/>
@@ -257,6 +268,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="How it is changed" locale="zh" localized="如何更改"/>
     <moqui.basic.LocalizedMessage original="http (this machine only)" locale="zh" localized="http（仅此机器）"/>
     <moqui.basic.LocalizedMessage original="HTTP request" locale="zh" localized="HTTP 请求"/>
+    <moqui.basic.LocalizedMessage original="HTTP serves plain HTTP at ${address} with no proxy believed in front: sign-ins and data cross the network unencrypted" locale="zh" localized="HTTP 在 ${address} 上提供明文 HTTP，且前面没有受信任的代理：登录和数据以未加密方式穿过网络"/>
     <moqui.basic.LocalizedMessage original="HTTPS for this name is refused" locale="zh" localized="此名称的 HTTPS 被拒绝"/>
     <moqui.basic.LocalizedMessage original="I agree to the authority's terms of service (Let's Encrypt: its Subscriber Agreement)" locale="zh" localized="我同意颁发机构的服务条款（Let's Encrypt：其订阅者协议）"/>
     <moqui.basic.LocalizedMessage original="Image digest" locale="zh" localized="镜像摘要"/>
@@ -267,7 +279,10 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Invalid trace id" locale="zh" localized="追踪 ID 无效"/>
     <moqui.basic.LocalizedMessage original="IPs allowed" locale="zh" localized="允许的 IP"/>
     <moqui.basic.LocalizedMessage original="Isolate instance" locale="zh" localized="隔离实例"/>
+    <moqui.basic.LocalizedMessage original="It binds the new port or address before it closes the old one; a new access mode applies to new connections." locale="zh" localized="它会先绑定新的端口或地址，再关闭旧的；新的访问模式适用于新连接。"/>
     <moqui.basic.LocalizedMessage original="It does not load, so HTTPS for this name is refused" locale="zh" localized="无法加载，因此拒绝此名称的 HTTPS"/>
+    <moqui.basic.LocalizedMessage original="It ends what depends on it: ${dependentsText}" locale="zh" localized="这会结束依赖于它的内容：${dependentsText}"/>
+    <moqui.basic.LocalizedMessage original="It has no port: give it one to turn it on." locale="zh" localized="它没有端口：请提供一个端口以开启它。"/>
     <moqui.basic.LocalizedMessage original="It runs with its service's defaults." locale="zh" localized="按其服务的默认值运行。"/>
     <moqui.basic.LocalizedMessage original="Items of environment ${environmentId}: ${dueCount} due" locale="zh" localized="环境 ${environmentId} 的项：${dueCount} 项到期"/>
     <moqui.basic.LocalizedMessage original="Items past rotation" locale="zh" localized="已过轮换期的项"/>
@@ -278,16 +293,20 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Its operations use the items the vault gave it, with no approver" locale="zh" localized="其操作使用保险库给予的项，没有审批人"/>
     <moqui.basic.LocalizedMessage original="Its owner registered nobody as its recipients here." locale="zh" localized="其所有者没有在这里登记任何收件人。"/>
     <moqui.basic.LocalizedMessage original="Its owner’s" locale="zh" localized="其所有者的"/>
+    <moqui.basic.LocalizedMessage original="Its port closes, and its connections end after 5 seconds, or at once with End connections now. It stays off until someone turns it on." locale="zh" localized="其端口会关闭，其连接在 5 秒后结束，选择“立即结束连接”则立刻结束。它会保持关闭，直到有人将其开启。"/>
     <moqui.basic.LocalizedMessage original="Its repository" locale="zh" localized="其仓库"/>
     <moqui.basic.LocalizedMessage original="Job run" locale="zh" localized="作业运行"/>
     <moqui.basic.LocalizedMessage original="Job runs are not available to you." locale="zh" localized="作业运行不对您开放。"/>
     <moqui.basic.LocalizedMessage original="Jobs are not available to you." locale="zh" localized="作业不对您开放。"/>
     <moqui.basic.LocalizedMessage original="Jobs, their runs and notification topics" locale="zh" localized="作业、其运行和通知话题"/>
     <moqui.basic.LocalizedMessage original="Keep exactly: ${keepText}" locale="zh" localized="精确保留：${keepText}"/>
+    <moqui.basic.LocalizedMessage original="Keep it after a restart (runtime/.env)" locale="zh" localized="重启后保留（runtime/.env）"/>
+    <moqui.basic.LocalizedMessage original="Keep it off after a restart (runtime/.env)" locale="zh" localized="重启后保持关闭（runtime/.env）"/>
     <moqui.basic.LocalizedMessage original="Keeps no runs yet" locale="zh" localized="尚未保留运行"/>
     <moqui.basic.LocalizedMessage original="Kept as" locale="zh" localized="保留为"/>
     <moqui.basic.LocalizedMessage original="Kept with the record and in the audit log" locale="zh" localized="与该记录一起保留，并记入审计日志"/>
     <moqui.basic.LocalizedMessage original="Key version" locale="zh" localized="密钥版本"/>
+    <moqui.basic.LocalizedMessage original="Key: a registered key only" locale="zh" localized="密钥：仅限已登记的密钥"/>
     <moqui.basic.LocalizedMessage original="Kind of label" locale="zh" localized="标签类型"/>
     <moqui.basic.LocalizedMessage original="Kinds" locale="zh" localized="种类"/>
     <moqui.basic.LocalizedMessage original="Known from" locale="zh" localized="来源"/>
@@ -312,12 +331,14 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Limits and verification" locale="zh" localized="限制与验证"/>
     <moqui.basic.LocalizedMessage original="Listed here" locale="zh" localized="在此列出"/>
     <moqui.basic.LocalizedMessage original="Listener" locale="zh" localized="监听器"/>
+    <moqui.basic.LocalizedMessage original="Listener ${name} failed after a change (${cause}): ${detail}" locale="zh" localized="监听器 ${name} 在更改后失败（${cause}）：${detail}"/>
     <moqui.basic.LocalizedMessage original="Listeners" locale="zh" localized="监听器"/>
     <moqui.basic.LocalizedMessage original="Listeners and integrations" locale="zh" localized="监听器与集成"/>
     <moqui.basic.LocalizedMessage original="Live scoring" locale="zh" localized="实时评分"/>
     <moqui.basic.LocalizedMessage original="Load, 5 minutes" locale="zh" localized="负载，5 分钟"/>
     <moqui.basic.LocalizedMessage original="Loading the vault…" locale="zh" localized="正在加载保险库…"/>
     <moqui.basic.LocalizedMessage original="Logging and telemetry" locale="zh" localized="日志与遥测"/>
+    <moqui.basic.LocalizedMessage original="Login: an account's password or key" locale="zh" localized="登录：账户的密码或密钥"/>
     <moqui.basic.LocalizedMessage original="Logs in Monitor" locale="zh" localized="监控中的日志"/>
     <moqui.basic.LocalizedMessage original="Look it up and connect" locale="zh" localized="查找并连接"/>
     <moqui.basic.LocalizedMessage original="Lower runs first among the jobs that are due" locale="zh" localized="到期的作业中，较小者先运行"/>
@@ -328,6 +349,8 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Mail relays are not available to you." locale="zh" localized="邮件中继不对您开放。"/>
     <moqui.basic.LocalizedMessage original="Major" locale="zh" localized="重大"/>
     <moqui.basic.LocalizedMessage original="Make a pairing code on the edge node, in System, Edge Clients, then pair with it here. A front node, which gives web access and ports only, pairs the same way: the pairing goes where its role says." locale="zh" localized="在边缘节点的系统、边缘客户端中做一个配对码，然后在这里配对。只提供 Web 访问和端口的前置节点以同样方式配对：配对去往其角色所指的地方。"/>
+    <moqui.basic.LocalizedMessage original="Make the change" locale="zh" localized="执行更改"/>
+    <moqui.basic.LocalizedMessage original="Make the change though it leaves no way in over the network" locale="zh" localized="即使不留下任何网络入口也执行更改"/>
     <moqui.basic.LocalizedMessage original="Managed instances need the INSTANCE_ADMIN permission." locale="zh" localized="托管实例需要 INSTANCE_ADMIN 权限。"/>
     <moqui.basic.LocalizedMessage original="Manager link key: ${newPairing.managerFingerprint}" locale="zh" localized="管理器链路密钥：${newPairing.managerFingerprint}"/>
     <moqui.basic.LocalizedMessage original="Manual: operator instructions" locale="zh" localized="手动：操作员说明"/>
@@ -372,6 +395,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="No import matches." locale="zh" localized="没有匹配的导入。"/>
     <moqui.basic.LocalizedMessage original="No instance preference is registered." locale="zh" localized="没有已登记的实例首选项。"/>
     <moqui.basic.LocalizedMessage original="No job matches." locale="zh" localized="没有匹配的作业。"/>
+    <moqui.basic.LocalizedMessage original="No listener was changed here since the server started. The audit log keeps every change and refusal." locale="zh" localized="自服务器启动以来，此处未更改任何监听器。审计日志会保存每次更改和拒绝。"/>
     <moqui.basic.LocalizedMessage original="No members." locale="zh" localized="没有成员。"/>
     <moqui.basic.LocalizedMessage original="No permissions granted." locale="zh" localized="没有授予的权限。"/>
     <moqui.basic.LocalizedMessage original="No registered capability matches." locale="zh" localized="没有匹配的已注册能力。"/>
@@ -383,6 +407,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="No terminal sessions" locale="zh" localized="没有终端会话"/>
     <moqui.basic.LocalizedMessage original="No thread is running a request, service or job." locale="zh" localized="没有线程正在运行请求、服务或作业。"/>
     <moqui.basic.LocalizedMessage original="No topic matches." locale="zh" localized="没有匹配的话题。"/>
+    <moqui.basic.LocalizedMessage original="No way in reaches this server over the network: HTTPS and HTTP are off or on this machine only, and so is SSH. The operator socket on the server is the way back (moqui operator listener HTTPS on)" locale="zh" localized="没有任何网络入口能到达此服务器：HTTPS 和 HTTP 已关闭或仅在本机上，SSH 也是如此。服务器上的操作员套接字是恢复途径（moqui operator listener HTTPS on）"/>
     <moqui.basic.LocalizedMessage original="No: it runs on its schedule" locale="zh" localized="否：按计划运行"/>
     <moqui.basic.LocalizedMessage original="Nobody is told when its runs end." locale="zh" localized="其运行结束时不通知任何人。"/>
     <moqui.basic.LocalizedMessage original="None: a front pairing" locale="zh" localized="无：前置配对"/>
@@ -390,11 +415,13 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Not answered just now, so not listed: ${unansweredText}." locale="zh" localized="刚才没有答复，因此未列出：${unansweredText}。"/>
     <moqui.basic.LocalizedMessage original="Not answered just now, so their imports are not listed: ${unansweredText}." locale="zh" localized="刚才没有答复，因此不列出其导入：${unansweredText}。"/>
     <moqui.basic.LocalizedMessage original="Not bound" locale="zh" localized="未绑定"/>
+    <moqui.basic.LocalizedMessage original="Not changed yet:" locale="zh" localized="尚未更改："/>
     <moqui.basic.LocalizedMessage original="Not found there: apply the setup again to name the XMPP domain" locale="zh" localized="那里没有找到：请再次应用设置以指定 XMPP 域"/>
     <moqui.basic.LocalizedMessage original="Not in this build: ${notBuiltText}" locale="zh" localized="不在此构建中：${notBuiltText}"/>
     <moqui.basic.LocalizedMessage original="Not included" locale="zh" localized="未包含"/>
     <moqui.basic.LocalizedMessage original="Not included in an archive" locale="zh" localized="未包含在归档中"/>
     <moqui.basic.LocalizedMessage original="Not included, because you may not read them: ${deniedFieldText}." locale="zh" localized="未包含，因为您不能读取它们：${deniedFieldText}。"/>
+    <moqui.basic.LocalizedMessage original="not kept past a restart" locale="zh" localized="重启后不保留"/>
     <moqui.basic.LocalizedMessage original="Not kept: it was its exporter's answer" locale="zh" localized="不保留：那是其导出方的答复"/>
     <moqui.basic.LocalizedMessage original="Not readable here: its recipients' own" locale="zh" localized="这里不可读：属于其收件人自己的内容"/>
     <moqui.basic.LocalizedMessage original="Not recorded: the job keeps only its failed runs" locale="zh" localized="无记录：该作业只保留失败的运行"/>
@@ -412,7 +439,9 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Notification topics are not available to you." locale="zh" localized="通知话题不对您开放。"/>
     <moqui.basic.LocalizedMessage original="Of the exports made here" locale="zh" localized="在这里制作的导出"/>
     <moqui.basic.LocalizedMessage original="Of the link that carries this node's work up. Edge cluster below lists the link to each member." locale="zh" localized="承载此节点工作向上传送的链路。下方的边缘集群列出到每个成员的链路。"/>
+    <moqui.basic.LocalizedMessage original="Off in the conf" locale="zh" localized="配置中已关闭"/>
     <moqui.basic.LocalizedMessage original="Off: outside phones cannot register to the edge node (sip-server/registrar@enabled there)" locale="zh" localized="关闭：外部电话不能向边缘节点注册（那里的 sip-server/registrar@enabled）"/>
+    <moqui.basic.LocalizedMessage original="On in the conf" locale="zh" localized="配置中已开启"/>
     <moqui.basic.LocalizedMessage original="One of the names this node answers" locale="zh" localized="此节点应答的名称之一"/>
     <moqui.basic.LocalizedMessage original="Only an account that signs in and holds ${record.audiencePermission}, this topic's audience, is given a subscription here. Receiving every message of the topic is not set here." locale="zh" localized="只有登录并持有 ${record.audiencePermission}（此话题的受众）的账号才会在这里得到订阅。接收话题的每条消息不在这里设置。"/>
     <moqui.basic.LocalizedMessage original="Only the newest ${found.exportRows} changes are in this print or file: narrow the dates for the rest." locale="zh" localized="此打印或文件中只有最新的 ${found.exportRows} 项更改：请缩小日期以得到其余部分。"/>
@@ -422,9 +451,11 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Open in System" locale="zh" localized="在系统中打开"/>
     <moqui.basic.LocalizedMessage original="Open lease" locale="zh" localized="打开租约"/>
     <moqui.basic.LocalizedMessage original="Open the conf" locale="zh" localized="打开配置"/>
+    <moqui.basic.LocalizedMessage original="Open: anyone reaches the sign-in dialog" locale="zh" localized="开放：任何人都可到达登录对话框"/>
     <moqui.basic.LocalizedMessage original="Opened this version" locale="zh" localized="打开了此版本"/>
     <moqui.basic.LocalizedMessage original="Operational vault" locale="zh" localized="运维保险库"/>
     <moqui.basic.LocalizedMessage original="Operational vaults" locale="zh" localized="运维保险库"/>
+    <moqui.basic.LocalizedMessage original="Optional: it goes on the audit log" locale="zh" localized="可选：会记入审计日志"/>
     <moqui.basic.LocalizedMessage original="Or a component" locale="zh" localized="或一个组件"/>
     <moqui.basic.LocalizedMessage original="Or another name" locale="zh" localized="或其他名称"/>
     <moqui.basic.LocalizedMessage original="Or database host" locale="zh" localized="或数据库主机"/>
@@ -448,6 +479,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Personal key" locale="zh" localized="个人密钥"/>
     <moqui.basic.LocalizedMessage original="Policy identity" locale="zh" localized="策略标识"/>
     <moqui.basic.LocalizedMessage original="Policy writes" locale="zh" localized="策略写入"/>
+    <moqui.basic.LocalizedMessage original="port" locale="zh" localized="端口"/>
     <moqui.basic.LocalizedMessage original="Private network" locale="zh" localized="专用网络"/>
     <moqui.basic.LocalizedMessage original="Private: for those a notification is sent to, and a user set to receive every message of the topic unless it is sent direct-only" locale="zh" localized="私密：面向被发送通知的人，以及被设为接收话题每条消息的用户，除非只直接发送"/>
     <moqui.basic.LocalizedMessage original="Proposed changes (${matrix.changeCount})" locale="zh" localized="建议的更改（${matrix.changeCount}）"/>
@@ -467,6 +499,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Receiver" locale="zh" localized="接收器"/>
     <moqui.basic.LocalizedMessage original="Receives every message of the topic" locale="zh" localized="接收话题的每条消息"/>
     <moqui.basic.LocalizedMessage original="Recent agent runs with their scores. Score a run with any scorer, or save it as a dataset item so it is tested in every experiment from now on. LLM call traces are in AI." locale="zh" localized="最近的代理运行及其分数。用任一评分器为一次运行评分，或将其存为数据集项，以便此后每次实验都测试它。LLM 调用追踪在 AI 中。"/>
+    <moqui.basic.LocalizedMessage original="Recent changes" locale="zh" localized="最近的更改"/>
     <moqui.basic.LocalizedMessage original="Reception is not trusted: ${chosenState.trustProblems.join('; ')}" locale="zh" localized="接收不可信：${chosenState.trustProblems.join('; ')}"/>
     <moqui.basic.LocalizedMessage original="Records narrowed" locale="zh" localized="已缩小的记录"/>
     <moqui.basic.LocalizedMessage original="Recovery steps and escalation" locale="zh" localized="恢复步骤与升级"/>
@@ -487,6 +520,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Request pool" locale="zh" localized="请求池"/>
     <moqui.basic.LocalizedMessage original="Require authc factor" locale="zh" localized="要求认证因素"/>
     <moqui.basic.LocalizedMessage original="Required pipeline" locale="zh" localized="必需的管道"/>
+    <moqui.basic.LocalizedMessage original="Required: it goes on the audit log and the listener's row" locale="zh" localized="必填：会记入审计日志和该监听器的行"/>
     <moqui.basic.LocalizedMessage original="Restore verified" locale="zh" localized="恢复已验证"/>
     <moqui.basic.LocalizedMessage original="Result counts" locale="zh" localized="结果计数"/>
     <moqui.basic.LocalizedMessage original="Retry failed rows" locale="zh" localized="重试失败的行"/>
@@ -534,15 +568,20 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Server and template" locale="zh" localized="服务器与模板"/>
     <moqui.basic.LocalizedMessage original="Service (service type)" locale="zh" localized="服务（服务类型）"/>
     <moqui.basic.LocalizedMessage original="Service worker pool" locale="zh" localized="服务工作池"/>
+    <moqui.basic.LocalizedMessage original="Services and ports" locale="zh" localized="服务与端口"/>
+    <moqui.basic.LocalizedMessage original="Services carried on a listener" locale="zh" localized="监听器承载的服务"/>
     <moqui.basic.LocalizedMessage original="Set up a name with ACME" locale="zh" localized="用 ACME 设置一个名称"/>
     <moqui.basic.LocalizedMessage original="Settings and the file each came from" locale="zh" localized="设置以及每个值来自的文件"/>
     <moqui.basic.LocalizedMessage original="Settings and volumes" locale="zh" localized="设置与卷"/>
+    <moqui.basic.LocalizedMessage original="Settings and where each comes from" locale="zh" localized="设置项及各自的来源"/>
     <moqui.basic.LocalizedMessage original="Settled as reported delivered. The message is not marked sent." locale="zh" localized="已按报告送达结算。该消息不标为已发送。"/>
     <moqui.basic.LocalizedMessage original="Settled as reported not delivered. It can be sent again from the Settled list." locale="zh" localized="已按报告未送达结算。可以从已结算列表再次发送。"/>
     <moqui.basic.LocalizedMessage original="Several local nodes are linked to the edge node: set xmpp-server@domain here, and Apply names it there" locale="zh" localized="多个本地节点连到边缘节点：在此设置 xmpp-server@domain，应用会在那里指定该名称"/>
     <moqui.basic.LocalizedMessage original="Share of runs (0 to 1)" locale="zh" localized="运行占比（0 到 1）"/>
     <moqui.basic.LocalizedMessage original="Showing the app's first ${columns.length} groups; ${matrix.moreGroupCount} more. Choose groups to compare others." locale="zh" localized="显示该应用的前 ${columns.length} 个组；另有 ${matrix.moreGroupCount} 个。选择组以比较其他组。"/>
     <moqui.basic.LocalizedMessage original="Sign-in failures, last 24 hours" locale="zh" localized="登录失败，最近 24 小时"/>
+    <moqui.basic.LocalizedMessage original="since" locale="zh" localized="自"/>
+    <moqui.basic.LocalizedMessage original="Since and why" locale="zh" localized="起始时间与原因"/>
     <moqui.basic.LocalizedMessage original="Single-person deploys" locale="zh" localized="单人部署"/>
     <moqui.basic.LocalizedMessage original="Spans, metrics and the sample ratio of each artifact type; an empty sample ratio uses the global one." locale="zh" localized="每种工件类型的跨度、指标和采样比例；采样比例为空时使用全局值。"/>
     <moqui.basic.LocalizedMessage original="Staged by" locale="zh" localized="暂存者"/>
@@ -562,6 +601,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Take in ${depositedCount} deposited" locale="zh" localized="收进 ${depositedCount} 项已存入的"/>
     <moqui.basic.LocalizedMessage original="Take in deposited items of" locale="zh" localized="收进以下保险库的存入项"/>
     <moqui.basic.LocalizedMessage original="Telemetry is not in this build, so there is no history." locale="zh" localized="此构建没有遥测，因此没有历史。"/>
+    <moqui.basic.LocalizedMessage original="Terminal client and its sign-in dialog" locale="zh" localized="终端客户端及其登录对话框"/>
     <moqui.basic.LocalizedMessage original="The archives on this server, newest first. An archive is the whole instance's data: it is not downloaded here, and restoring one is done on the server, with the instance stopped." locale="zh" localized="此服务器上的归档，最新的在前。一份归档是整个实例的数据：这里不下载，恢复在服务器上进行，且实例须停止。"/>
     <moqui.basic.LocalizedMessage original="The attributes each instrument keeps, comma separated." locale="zh" localized="每个仪器保留的属性，以逗号分隔。"/>
     <moqui.basic.LocalizedMessage original="The component's commit, which its pipeline passed; an image is gated on the revision its row records" locale="zh" localized="组件的提交，其管道已通过；镜像以其行所记录的修订为准才放行"/>
@@ -586,6 +626,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="The level follows the 5-minute load as a share of the processors" locale="zh" localized="级别按 5 分钟负载占处理器的比例"/>
     <moqui.basic.LocalizedMessage original="The limit in force is the container's" locale="zh" localized="当前生效的限制是容器的"/>
     <moqui.basic.LocalizedMessage original="The limit in force is the machine's memory" locale="zh" localized="当前生效的限制是机器内存"/>
+    <moqui.basic.LocalizedMessage original="The listeners are not available to you: reading them needs the ADMIN group." locale="zh" localized="您无法查看监听器：读取它们需要 ADMIN 组。"/>
     <moqui.basic.LocalizedMessage original="The mail queue is not available to you." locale="zh" localized="邮件队列不对您开放。"/>
     <moqui.basic.LocalizedMessage original="The member's edge@link-url, else the address this node paired with" locale="zh" localized="成员的 edge@link-url；否则为此节点配对时用的地址"/>
     <moqui.basic.LocalizedMessage original="The message exactly as it is shown in the default language" locale="zh" localized="消息，与默认语言中显示的完全一致"/>
@@ -633,6 +674,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="This page is read again each minute while it is in view; choose this to stop" locale="zh" localized="此页在可见时每分钟重新读取；选择此项以停止"/>
     <moqui.basic.LocalizedMessage original="This process opened no listeners, so a protocol that is turned on is shown as configured, not as running." locale="zh" localized="此进程没有打开监听器，因此已打开的协议显示为已配置，而不是正在运行。"/>
     <moqui.basic.LocalizedMessage original="This process reported no listeners: it is not serving requests." locale="zh" localized="此进程没有报告监听器：它不在处理请求。"/>
+    <moqui.basic.LocalizedMessage original="This process runs no listeners: the rows come from the conf, and a change is kept for their start." locale="zh" localized="此进程不运行监听器：各行来自配置，更改会保留到它们启动时生效。"/>
     <moqui.basic.LocalizedMessage original="This process, memory" locale="zh" localized="此进程，内存"/>
     <moqui.basic.LocalizedMessage original="This protocol has no check." locale="zh" localized="此协议没有检查。"/>
     <moqui.basic.LocalizedMessage original="This protocol has no setting of its own: it runs on the web address." locale="zh" localized="此协议没有自己的设置：它在 Web 地址上运行。"/>
@@ -651,6 +693,15 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Translation (${translationLocale})" locale="zh" localized="译文（${translationLocale}）"/>
     <moqui.basic.LocalizedMessage original="Translations of the messages people read and of the names of statuses, options, units and places. A translation keeps the original's \${...} values." locale="zh" localized="人们所读消息以及状态、选项、单位和地点名称的译文。译文保留原文的 \${...} 值。"/>
     <moqui.basic.LocalizedMessage original="Trial" locale="zh" localized="试验"/>
+    <moqui.basic.LocalizedMessage original="Turn ${chosenState.listenerName} on or off in Services and ports" locale="zh" localized="在“服务与端口”中开启或关闭 ${chosenState.listenerName}"/>
+    <moqui.basic.LocalizedMessage original="Turn ${listenerName} on or off in Services and ports" locale="zh" localized="在“服务与端口”中开启或关闭 ${listenerName}"/>
+    <moqui.basic.LocalizedMessage original="Turn ${name} on?" locale="zh" localized="开启 ${name}？"/>
+    <moqui.basic.LocalizedMessage original="Turn off…" locale="zh" localized="关闭…"/>
+    <moqui.basic.LocalizedMessage original="Turn on or change" locale="zh" localized="开启或更改"/>
+    <moqui.basic.LocalizedMessage original="Turn on…" locale="zh" localized="开启…"/>
+    <moqui.basic.LocalizedMessage original="Turn plain HTTP on at a public address anyway" locale="zh" localized="仍在公共地址上开启明文 HTTP"/>
+    <moqui.basic.LocalizedMessage original="Turn SSH off though something depends on it" locale="zh" localized="即使有内容依赖 SSH 也将其关闭"/>
+    <moqui.basic.LocalizedMessage original="Turning a listener on or off needs the LISTENER_CONTROL permission." locale="zh" localized="开启或关闭监听器需要 LISTENER_CONTROL 权限。"/>
     <moqui.basic.LocalizedMessage original="Unpair front" locale="zh" localized="取消配对前置节点"/>
     <moqui.basic.LocalizedMessage original="Unpaired: the link to the edge node is closed" locale="zh" localized="已取消配对：到边缘节点的链路已关闭"/>
     <moqui.basic.LocalizedMessage original="Unpaired: the link to the front node is closed" locale="zh" localized="已取消配对：到前置节点的链路已关闭"/>
@@ -671,6 +722,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Vaults" locale="zh" localized="保险库"/>
     <moqui.basic.LocalizedMessage original="Volume" locale="zh" localized="卷"/>
     <moqui.basic.LocalizedMessage original="Waiting for your approval, and the ones you asked for. Open one to see what its signed lease names and approve it." locale="zh" localized="等待您批准的，以及您请求的。打开一个以查看其已签署租约指名的内容并批准它。"/>
+    <moqui.basic.LocalizedMessage original="Waits for a restart" locale="zh" localized="等待重启"/>
     <moqui.basic.LocalizedMessage original="Web access and ports go through the front node; the rest of the edge node's work does not. Media, TURN and SIP are never through a front." locale="zh" localized="Web 访问和端口经过前置节点；边缘节点的其余工作不经过。媒体、TURN 和 SIP 从不过前置节点。"/>
     <moqui.basic.LocalizedMessage original="Webhook: connection and signing" locale="zh" localized="Webhook：连接与签名"/>
     <moqui.basic.LocalizedMessage original="What ${threadName} runs, the latest first" locale="zh" localized="${threadName} 在运行什么，最新的在前"/>
@@ -680,6 +732,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="What can be exported in a format of its owner's, each by its owner's own rules and only the fields you may read. One exported in its owner's own place is opened there." locale="zh" localized="可以按其所有者的格式导出的内容，每一项遵循其所有者自己的规则，且只有您可以读取的字段。在其所有者自己的位置导出的一项在那里打开。"/>
     <moqui.basic.LocalizedMessage original="What can be imported, each by its owner's own rules. One imported in a wizard is started from here where this app has the wizard; an owner's own wizard opens in its app." locale="zh" localized="可以导入的内容，每一项遵循其所有者自己的规则。在向导中导入的一项，当此应用有该向导时从这里开始；所有者自己的向导在其应用中打开。"/>
     <moqui.basic.LocalizedMessage original="What each group holds, by app. A launcher opens an app and grants nothing in it; view, change, export and sensitive values are each granted on their own. Service scope, record policy and row rules still apply." locale="zh" localized="每个组按应用持有什么。启动器打开一个应用，并不在其中授予任何内容；查看、更改、导出和敏感值各自单独授予。服务范围、记录策略和行规则仍然适用。"/>
+    <moqui.basic.LocalizedMessage original="What it did" locale="zh" localized="执行结果"/>
     <moqui.basic.LocalizedMessage original="What it exports" locale="zh" localized="它导出什么"/>
     <moqui.basic.LocalizedMessage original="What it imports" locale="zh" localized="它导入什么"/>
     <moqui.basic.LocalizedMessage original="What people are notified about, and how each topic is delivered when a person has chosen nothing. A topic its owner registered may be changed here. Each person's own choices are in their notification settings." locale="zh" localized="通知人们什么，以及某人未做选择时每个话题如何投递。所有者登记的话题可以在这里更改。每个人自己的选择在其通知设置中。"/>
@@ -694,6 +747,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Where each value comes from" locale="zh" localized="每个值的来源"/>
     <moqui.basic.LocalizedMessage original="Where the authority writes about this account's certificates, if it does" locale="zh" localized="颁发机构在何处写此账号证书的说明，如果它会写的话"/>
     <moqui.basic.LocalizedMessage original="Which service calls count as business operations." locale="zh" localized="哪些服务调用算作业务操作。"/>
+    <moqui.basic.LocalizedMessage original="While it runs" locale="zh" localized="服务器运行时"/>
     <moqui.basic.LocalizedMessage original="Whole audit log" locale="zh" localized="完整审计日志"/>
     <moqui.basic.LocalizedMessage original="Why read only" locale="zh" localized="为何只读"/>
     <moqui.basic.LocalizedMessage original="Why, and where" locale="zh" localized="原因，以及何处"/>
@@ -707,6 +761,8 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Y keeps a ServiceJobRun only when the run has an error. Last run still updates. Empty or N keeps every run." locale="zh" localized="Y 仅在运行有错误时保留 ServiceJobRun。上次运行仍会更新。留空或 N 保留每次运行。"/>
     <moqui.basic.LocalizedMessage original="Yes: paused" locale="zh" localized="是：已暂停"/>
     <moqui.basic.LocalizedMessage original="Yes: the job does not start again while it does" locale="zh" localized="是：在它进行时作业不会再次启动"/>
+    <moqui.basic.LocalizedMessage original="You are connected through ${name}: the change applies a second after its answer, and this page does not load again over it." locale="zh" localized="您正通过 ${name} 连接：更改在答复发出一秒后生效，此页面不会再通过它加载。"/>
+    <moqui.basic.LocalizedMessage original="You are connected through it" locale="zh" localized="您正通过它连接"/>
     <moqui.basic.LocalizedMessage original="You hold no wrap of this vault's key version" locale="zh" localized="您没有此保险库密钥版本的任何包装"/>
     <moqui.basic.LocalizedMessage original="You see the mail the instance itself sent through its relays. A mail account's messages are its owner's." locale="zh" localized="您看到的是实例自己经其中继发出的邮件。邮件账号的消息属于其所有者。"/>
     <moqui.basic.LocalizedMessage original="Your role" locale="zh" localized="您的角色"/>
