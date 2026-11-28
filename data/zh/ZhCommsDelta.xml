@@ -90,7 +90,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Callers hear the default greeting, then a beep." locale="zh" localized="来电者先听到默认问候语，然后是一声提示音。"/>
     <moqui.basic.LocalizedMessage original="Callers hear your own greeting, then a beep." locale="zh" localized="来电者先听到您自己的问候语，然后是一声提示音。"/>
     <moqui.basic.LocalizedMessage original="Calls are not available on this page." locale="zh" localized="此页面无法通话。"/>
-    <moqui.basic.LocalizedMessage original="Calls are not available: no media server is running. An administrator sets media-server@port to start one." locale="zh" localized="无法通话：没有媒体服务器在运行。管理员设置 media-server@port 来启动一个。"/>
+    <moqui.basic.LocalizedMessage original="Calls are not available: no media server is running. An administrator sets media-server@enabled to start one." locale="zh" localized="无法通话：没有媒体服务器在运行。管理员设置 media-server@enabled 来启动一个。"/>
     <moqui.basic.LocalizedMessage original="Calls nobody answers go to your voicemail." locale="zh" localized="无人接听的通话转入您的语音信箱。"/>
     <moqui.basic.LocalizedMessage original="Calls that ring through" locale="zh" localized="仍然振铃的通话"/>
     <moqui.basic.LocalizedMessage original="Calls to them may go to outside numbers" locale="zh" localized="打给他们的通话可以转到外部号码"/>
@@ -230,15 +230,14 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="No mail account is known on this computer yet: send it once the server can be reached" locale="zh" localized="此计算机上还没有已知的邮件账号：能连上服务器后再发送"/>
     <moqui.basic.LocalizedMessage original="No mail account is known on this computer yet: write it now and send it once the server can be reached." locale="zh" localized="此计算机上还没有已知的邮件账号：现在写好，能连上服务器后再发送。"/>
     <moqui.basic.LocalizedMessage original="No mailboxes match" locale="zh" localized="没有匹配的邮箱"/>
-    <moqui.basic.LocalizedMessage original="No media server is running. A server starts one when media-server@port is set." locale="zh" localized="没有媒体服务器在运行。设置 media-server@port 后，服务器会启动一个。"/>
+    <moqui.basic.LocalizedMessage original="No media server is running. A server starts one when media-server@enabled is true." locale="zh" localized="没有媒体服务器在运行。media-server@enabled 为 true 时，服务器会启动一个。"/>
     <moqui.basic.LocalizedMessage original="No numbers blocked." locale="zh" localized="没有已屏蔽的号码。"/>
     <moqui.basic.LocalizedMessage original="No packs yet." locale="zh" localized="还没有贴纸包。"/>
     <moqui.basic.LocalizedMessage original="No push key: its pushes carry no text" locale="zh" localized="没有推送密钥：其推送不含文本"/>
     <moqui.basic.LocalizedMessage original="No rooms match" locale="zh" localized="没有匹配的聊天室"/>
     <moqui.basic.LocalizedMessage original="No sending identity available" locale="zh" localized="没有可用的发件身份"/>
     <moqui.basic.LocalizedMessage original="No sending identity is available. Add a mail account or ask its owner for sending access before saving or sending email." locale="zh" localized="没有可用的发件身份。保存或发送电子邮件前，请添加邮件账号或向其所有者申请发送权限。"/>
-    <moqui.basic.LocalizedMessage original="No SIP listener is set: set sip-server@port or sip-server@tls-port." locale="zh" localized="未设置 SIP 监听：请设置 sip-server@port 或 sip-server@tls-port。"/>
-    <moqui.basic.LocalizedMessage original="No SIP server has started. A server starts one when sip-server@port or sip-server@tls-port is set and it has the sip feature." locale="zh" localized="没有 SIP 服务器启动。设置 sip-server@port 或 sip-server@tls-port 且具备 sip 功能时，服务器会启动一个。"/>
+    <moqui.basic.LocalizedMessage original="No SIP server has started. A server starts one when sip-server@enabled is true and it has the sip feature." locale="zh" localized="没有 SIP 服务器启动。sip-server@enabled 为 true 且具备 sip 功能时，服务器会启动一个。"/>
     <moqui.basic.LocalizedMessage original="No text blocks match" locale="zh" localized="没有匹配的文本块"/>
     <moqui.basic.LocalizedMessage original="No text blocks yet" locale="zh" localized="还没有文本块"/>
     <moqui.basic.LocalizedMessage original="No threads yet: a thread you start or reply in is listed here" locale="zh" localized="还没有话题：您发起或回复的话题会列在这里"/>
@@ -413,6 +412,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="The setting could not be saved. Try again." locale="zh" localized="无法保存设置。请重试。"/>
     <moqui.basic.LocalizedMessage original="The sign-in did not work." locale="zh" localized="登录未成功。"/>
     <moqui.basic.LocalizedMessage original="The sign-in was not finished." locale="zh" localized="登录未完成。"/>
+    <moqui.basic.LocalizedMessage original="The SIP engine is off: set sip-server@enabled." locale="zh" localized="SIP 引擎已关闭：请设置 sip-server@enabled。"/>
     <moqui.basic.LocalizedMessage original="The SMS or RCS bridge its texts go through (System, Chat Bridges); empty for none. An RCS bridge sends RCS first, from the brand's agent; the system's number stays on SMS" locale="zh" localized="其短信经过的 SMS 或 RCS 桥接（系统、聊天桥接）；留空表示没有。RCS 桥接先从品牌代理发送 RCS；系统号码仍走 SMS"/>
     <moqui.basic.LocalizedMessage original="The sum of the weights of the rules a text matches" locale="zh" localized="一条短信所匹配规则的权重之和"/>
     <moqui.basic.LocalizedMessage original="The sync did not finish" locale="zh" localized="同步未完成"/>

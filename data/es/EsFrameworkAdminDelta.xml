@@ -214,8 +214,8 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Map the columns of this file" locale="es" localized="Asigne las columnas de este archivo"/>
     <moqui.basic.LocalizedMessage original="May have been applied" locale="es" localized="Puede haberse aplicado"/>
     <moqui.basic.LocalizedMessage original="May have been sent" locale="es" localized="Puede haberse enviado"/>
-    <moqui.basic.LocalizedMessage original="media-server/turn-server@port, media-server/turn-server@tls-port and media-server/turn-server@external-urls are not set" locale="es" localized="media-server/turn-server@port, media-server/turn-server@tls-port y media-server/turn-server@external-urls no están definidos"/>
-    <moqui.basic.LocalizedMessage original="media-server@port is not set" locale="es" localized="media-server@port no está definido"/>
+    <moqui.basic.LocalizedMessage original="media-server/turn-server@enabled is false and media-server/turn-server@external-urls is not set" locale="es" localized="media-server/turn-server@enabled es false y media-server/turn-server@external-urls no está definido"/>
+    <moqui.basic.LocalizedMessage original="media-server@enabled is false" locale="es" localized="media-server@enabled es false"/>
     <moqui.basic.LocalizedMessage original="Members sign in with no factor or address requirement of this group" locale="es" localized="Los miembros inician sesión sin un requisito de factor o de dirección de este grupo"/>
     <moqui.basic.LocalizedMessage original="Messages to and from this remote" locale="es" localized="Mensajes hacia y desde este remoto"/>
     <moqui.basic.LocalizedMessage original="Microsoft: the directory, or common" locale="es" localized="Microsoft: el directorio, o common"/>
@@ -246,6 +246,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="No schedule: started by its owner" locale="es" localized="Sin programación: lo inicia su propietario"/>
     <moqui.basic.LocalizedMessage original="No sending address: nothing is sent to this remote" locale="es" localized="Sin dirección de envío: no se envía nada a este remoto"/>
     <moqui.basic.LocalizedMessage original="No such row" locale="es" localized="No existe esa fila"/>
+    <moqui.basic.LocalizedMessage original="no xmpp-server@domain" locale="es" localized="falta xmpp-server@domain"/>
     <moqui.basic.LocalizedMessage original="None of the chosen fields may be read" locale="es" localized="No se puede leer ninguno de los campos elegidos"/>
     <moqui.basic.LocalizedMessage original="None of the rows could be applied" locale="es" localized="No se pudo aplicar ninguna de las filas"/>
     <moqui.basic.LocalizedMessage original="None of them could be recovered" locale="es" localized="No se pudo recuperar ninguno"/>
@@ -330,14 +331,14 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Signed out everywhere by the account itself" locale="es" localized="Sesión cerrada en todas partes por la propia cuenta"/>
     <moqui.basic.LocalizedMessage original="Signs in through this remote first" locale="es" localized="Inicia sesión primero por este remoto"/>
     <moqui.basic.LocalizedMessage original="Signs messages sent, when no other secret for sending is given" locale="es" localized="Firma los mensajes enviados, cuando no se da otro secreto para el envío"/>
-    <moqui.basic.LocalizedMessage original="sip-server@port and sip-server@tls-port are not set" locale="es" localized="sip-server@port y sip-server@tls-port no están definidos"/>
+    <moqui.basic.LocalizedMessage original="sip-server@enabled is false" locale="es" localized="sip-server@enabled es false"/>
     <moqui.basic.LocalizedMessage original="Skipped: this server runs no embedded database, so nothing was backed up" locale="es" localized="Omitido: este servidor no ejecuta una base de datos integrada, así que no se respaldó nada"/>
-    <moqui.basic.LocalizedMessage original="smtp-server@listen-port is not set" locale="es" localized="smtp-server@listen-port no está definido"/>
+    <moqui.basic.LocalizedMessage original="smtp-server@enabled is false" locale="es" localized="smtp-server@enabled es false"/>
     <moqui.basic.LocalizedMessage original="Someone reported that it arrived. Nothing more is done here." locale="es" localized="Alguien informó que llegó. Aquí no se hace nada más."/>
     <moqui.basic.LocalizedMessage original="Someone reported that it did not arrive. It can be sent again." locale="es" localized="Alguien informó que no llegó. Se puede enviar de nuevo."/>
     <moqui.basic.LocalizedMessage original="Speech to text during a call, by the speech provider" locale="es" localized="Voz a texto durante una llamada, por el proveedor de voz"/>
     <moqui.basic.LocalizedMessage original="SSH and SFTP" locale="es" localized="SSH y SFTP"/>
-    <moqui.basic.LocalizedMessage original="ssh-server@port is not set, or ssh-server@enabled is false" locale="es" localized="ssh-server@port no está definido, o ssh-server@enabled es false"/>
+    <moqui.basic.LocalizedMessage original="ssh-server@enabled is false" locale="es" localized="ssh-server@enabled es false"/>
     <moqui.basic.LocalizedMessage original="Staged, not committed" locale="es" localized="Preparado, sin confirmar"/>
     <moqui.basic.LocalizedMessage original="Stopped: a copy of its cookie was used" locale="es" localized="Detenido: se usó una copia de su cookie"/>
     <moqui.basic.LocalizedMessage original="Stopped: its registration ended" locale="es" localized="Detenido: su registro terminó"/>
@@ -491,7 +492,7 @@ Esta página se imprimió desde Admin para probar la impresora ${networkPrinterI
     <moqui.basic.LocalizedMessage original="Where messages are posted: an https URL" locale="es" localized="Donde se publican los mensajes: una URL https"/>
     <moqui.basic.LocalizedMessage original="Where this remote is used could not be read, so it is not changed here" locale="es" localized="No se pudo leer dónde se usa este remoto, así que no se cambia aquí"/>
     <moqui.basic.LocalizedMessage original="XMPP for the users' own chat apps" locale="es" localized="XMPP para las aplicaciones de conversación propias de los usuarios"/>
-    <moqui.basic.LocalizedMessage original="xmpp-server@domain is not set" locale="es" localized="xmpp-server@domain no está definido"/>
+    <moqui.basic.LocalizedMessage original="xmpp-server@enabled is false" locale="es" localized="xmpp-server@enabled es false"/>
     <moqui.basic.LocalizedMessage original="Yes (by its inbox)" locale="es" localized="Sí (por su bandeja de entrada)"/>
     <moqui.basic.LocalizedMessage original="Yes (not set)" locale="es" localized="Sí (sin definir)"/>
     <moqui.basic.LocalizedMessage original="Your account has no email address to send the test message to" locale="es" localized="Su cuenta no tiene una dirección de correo a la que enviar el mensaje de prueba"/>

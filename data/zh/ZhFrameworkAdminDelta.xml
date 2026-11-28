@@ -214,8 +214,8 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Map the columns of this file" locale="zh" localized="请映射此文件的列"/>
     <moqui.basic.LocalizedMessage original="May have been applied" locale="zh" localized="可能已应用"/>
     <moqui.basic.LocalizedMessage original="May have been sent" locale="zh" localized="可能已发送"/>
-    <moqui.basic.LocalizedMessage original="media-server/turn-server@port, media-server/turn-server@tls-port and media-server/turn-server@external-urls are not set" locale="zh" localized="未设置 media-server/turn-server@port、media-server/turn-server@tls-port 和 media-server/turn-server@external-urls"/>
-    <moqui.basic.LocalizedMessage original="media-server@port is not set" locale="zh" localized="未设置 media-server@port"/>
+    <moqui.basic.LocalizedMessage original="media-server/turn-server@enabled is false and media-server/turn-server@external-urls is not set" locale="zh" localized="media-server/turn-server@enabled 为 false，且未设置 media-server/turn-server@external-urls"/>
+    <moqui.basic.LocalizedMessage original="media-server@enabled is false" locale="zh" localized="media-server@enabled 为 false"/>
     <moqui.basic.LocalizedMessage original="Members sign in with no factor or address requirement of this group" locale="zh" localized="成员登录时不受此组的因素或地址要求约束"/>
     <moqui.basic.LocalizedMessage original="Messages to and from this remote" locale="zh" localized="与此远程端往来的消息"/>
     <moqui.basic.LocalizedMessage original="Microsoft: the directory, or common" locale="zh" localized="Microsoft：目录，或 common"/>
@@ -246,6 +246,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="No schedule: started by its owner" locale="zh" localized="无排程：由其所有者启动"/>
     <moqui.basic.LocalizedMessage original="No sending address: nothing is sent to this remote" locale="zh" localized="无发送地址：不会向此远程端发送任何内容"/>
     <moqui.basic.LocalizedMessage original="No such row" locale="zh" localized="没有该行"/>
+    <moqui.basic.LocalizedMessage original="no xmpp-server@domain" locale="zh" localized="未设置 xmpp-server@domain"/>
     <moqui.basic.LocalizedMessage original="None of the chosen fields may be read" locale="zh" localized="所选字段均不可读"/>
     <moqui.basic.LocalizedMessage original="None of the rows could be applied" locale="zh" localized="没有一行能够应用"/>
     <moqui.basic.LocalizedMessage original="None of them could be recovered" locale="zh" localized="没有一项能够恢复"/>
@@ -330,14 +331,14 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Signed out everywhere by the account itself" locale="zh" localized="由账号自己在各处退出登录"/>
     <moqui.basic.LocalizedMessage original="Signs in through this remote first" locale="zh" localized="先通过此远程端登录"/>
     <moqui.basic.LocalizedMessage original="Signs messages sent, when no other secret for sending is given" locale="zh" localized="在未另行提供发送密钥时，为发出的消息签名"/>
-    <moqui.basic.LocalizedMessage original="sip-server@port and sip-server@tls-port are not set" locale="zh" localized="未设置 sip-server@port 和 sip-server@tls-port"/>
+    <moqui.basic.LocalizedMessage original="sip-server@enabled is false" locale="zh" localized="sip-server@enabled 为 false"/>
     <moqui.basic.LocalizedMessage original="Skipped: this server runs no embedded database, so nothing was backed up" locale="zh" localized="已跳过：此服务器不运行内嵌数据库，因此没有备份任何内容"/>
-    <moqui.basic.LocalizedMessage original="smtp-server@listen-port is not set" locale="zh" localized="未设置 smtp-server@listen-port"/>
+    <moqui.basic.LocalizedMessage original="smtp-server@enabled is false" locale="zh" localized="smtp-server@enabled 为 false"/>
     <moqui.basic.LocalizedMessage original="Someone reported that it arrived. Nothing more is done here." locale="zh" localized="有人报告它已到达。此处不再做其他处理。"/>
     <moqui.basic.LocalizedMessage original="Someone reported that it did not arrive. It can be sent again." locale="zh" localized="有人报告它未到达。可以再次发送。"/>
     <moqui.basic.LocalizedMessage original="Speech to text during a call, by the speech provider" locale="zh" localized="通话期间由语音提供商做语音转文字"/>
     <moqui.basic.LocalizedMessage original="SSH and SFTP" locale="zh" localized="SSH 和 SFTP"/>
-    <moqui.basic.LocalizedMessage original="ssh-server@port is not set, or ssh-server@enabled is false" locale="zh" localized="未设置 ssh-server@port，或 ssh-server@enabled 为 false"/>
+    <moqui.basic.LocalizedMessage original="ssh-server@enabled is false" locale="zh" localized="ssh-server@enabled 为 false"/>
     <moqui.basic.LocalizedMessage original="Staged, not committed" locale="zh" localized="已暂存，未提交"/>
     <moqui.basic.LocalizedMessage original="Stopped: a copy of its cookie was used" locale="zh" localized="已停止：使用了其 cookie 的副本"/>
     <moqui.basic.LocalizedMessage original="Stopped: its registration ended" locale="zh" localized="已停止：其注册已结束"/>
@@ -491,7 +492,7 @@ This page was printed from Admin to test the printer ${networkPrinterId}.
     <moqui.basic.LocalizedMessage original="Where messages are posted: an https URL" locale="zh" localized="消息提交的位置：一个 https URL"/>
     <moqui.basic.LocalizedMessage original="Where this remote is used could not be read, so it is not changed here" locale="zh" localized="无法读取此远程端的使用位置，因此不在此处更改"/>
     <moqui.basic.LocalizedMessage original="XMPP for the users' own chat apps" locale="zh" localized="供用户自己的聊天应用使用的 XMPP"/>
-    <moqui.basic.LocalizedMessage original="xmpp-server@domain is not set" locale="zh" localized="未设置 xmpp-server@domain"/>
+    <moqui.basic.LocalizedMessage original="xmpp-server@enabled is false" locale="zh" localized="xmpp-server@enabled 为 false"/>
     <moqui.basic.LocalizedMessage original="Yes (by its inbox)" locale="zh" localized="是（随收件箱）"/>
     <moqui.basic.LocalizedMessage original="Yes (not set)" locale="zh" localized="是（未设置）"/>
     <moqui.basic.LocalizedMessage original="Your account has no email address to send the test message to" locale="zh" localized="您的账号没有可用来发送测试消息的电子邮件地址"/>
